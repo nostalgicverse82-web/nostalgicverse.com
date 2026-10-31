@@ -1,0 +1,79 @@
+{
+  "id": "game-star-fox",
+  "slug": "star-fox",
+  "title": "Star Fox",
+  "japaneseTitle": "スターフォックス",
+  "url": "/games/star-fox/",
+  "originalReleaseYear": 1993,
+  "exactReleaseDate": "1993-02-21",
+  "developer": "Nintendo EAD / Argonaut Games",
+  "publisher": "Nintendo",
+  "director": "Shigeru Miyamoto, Katsuya Eguchi",
+  "designer": "Jez San, Dylan Cuthbert, Giles Goddard",
+  "composer": "Hajime Hirasawa",
+  "originalLaunchPlatform": "Super Nintendo Entertainment System",
+  "platforms": [
+    "Super Nintendo Entertainment System"
+  ],
+  "genre": "shooter",
+  "subgenres": [
+    "Rail Shooter",
+    "3D Polygon Shooter"
+  ],
+  "era": "1990s",
+  "shortDescription": "Nintendo and Argonaut's revolutionary 3D polygon shooter on SNES, powered by the ground-breaking Super FX coprocessor chip.",
+  "historicalSignificance": "Pioneered real-time 3D polygonal gaming on home consoles via the revolutionary Super FX coprocessor, moving over 4 million copies and launching the iconic Fox McCloud franchise.",
+  "editorialContent": {
+    "overview": "Partnering with British technology studio Argonaut Games, Nintendo integrated a custom RISC coprocessor (the Super FX) directly inside the cartridge to render real-time textured 3D polygons on the 16-bit SNES.",
+    "gameplay": "Players pilot the Arwing starfighter through the Lylat System to defeat the evil scientist Andross, performing barrel rolls, utilizing smart bombs, and maneuvering through multiple branching difficulty routes.",
+    "technicalInnovation": "The Super FX chip acted as a math coprocessor, calculating 3D polygon math and rendering shaded polyhedral models directly into the SNES frame buffer at over 15–20 FPS.",
+    "culturalImpact": "Proved that true 3D gaming was viable on consumer home consoles, setting the stage for the fifth-generation 3D revolution.",
+    "preservationNotes": "Preserved on original Super FX cartridges and included on the Super NES Classic Edition."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "February 21, 1993 (Japan) / March 26, 1993 (North America)",
+    "leadPlatform": "Super Nintendo Entertainment System",
+    "genre": "shooter",
+    "sales": "Over 4 million copies sold worldwide",
+    "awards": [
+      "Electronic Gaming Monthly Best Shooter of 1993"
+    ],
+    "technicalSpecs": {
+      "engine": "Super FX (MARIO RISC Coprocessor @ 10.5 MHz)",
+      "resolution": "256 x 224 (real-time shaded 3D polygons)",
+      "soundChip": "Sony SPC700 8-channel ADPCM",
+      "mediaFormat": "Super FX ROM Cartridge"
+    },
+    "relationships": {
+      "primaryConsole": "super-nintendo-entertainment-system",
+      "developerEntity": "Nintendo",
+      "lineage": [
+        "Star Fox 64",
+        "Super FX Chip"
+      ]
+    }
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/5/52/Star_Fox_SNES.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/5/52/Star_Fox_SNES.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Star_Fox_SNES.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "star fox",
+    "fox mccloud",
+    "arwing",
+    "shigeru miyamoto",
+    "argonaut",
+    "super fx",
+    "snes",
+    "3d polygons",
+    "1993"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

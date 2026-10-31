@@ -1,0 +1,42 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+  "id": "console-psp",
+  "slug": "playstation-portable",
+  "name": "PlayStation Portable (PSP)",
+  "manufacturer": "Sony",
+  "generation": "Seventh Generation",
+  "generationNumber": 7,
+  "originalReleaseYear": 2004,
+  "exactReleaseDate": "December 12, 2004",
+  "mediaFormat": "Universal Media Disc (UMD 1.8GB optical disc)",
+  "significance": "The first portable console to mount a serious commercial challenge against Nintendo's handheld supremacy, selling over 80 million units worldwide.",
+  "verifiedFactualData": {
+    "cpu": "MIPS R4000-based 32-bit core @ 333 MHz",
+    "gpuOrVideoChip": "Sony custom graphics core @ 166 MHz",
+    "ram": "32 MB main RAM (64 MB in PSP-2000/3000), 4 MB eDRAM"
+  },
+  "editorialContent": {
+    "overview": "Sony's gorgeous wide-aspect handheld delivering console-fidelity 3D graphics and multimedia playback on a 4.3-inch TFT LCD.",
+    "marketLegacy": "The first portable console to mount a serious commercial challenge against Nintendo's handheld supremacy, selling over 80 million units worldwide.",
+    "controllerDesign": "D-pad, 4 action buttons, analog sliding nub, L/R triggers"
+  },
+  "keyGames": [
+    "monster-hunter-freedom-unite",
+    "god-of-war-chains-of-olympus",
+    "metal-gear-solid-peace-walker"
+  ],
+  "assets": {
+    "mainImage": "/assets/images/consoles/playstation-portable.png",
+    "heroImage": "/assets/images/consoles/playstation-portable-hero.png",
+    "hardwareImage": "/assets/images/consoles/playstation-portable-hardware.png"
+  },
+  "keywords": [
+    "psp",
+    "playstation portable",
+    "sony",
+    "umd",
+    "handheld",
+    "seventh generation",
+    "2004"
+  ]
+}

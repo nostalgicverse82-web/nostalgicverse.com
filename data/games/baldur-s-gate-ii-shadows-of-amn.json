@@ -1,0 +1,68 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-baldur-s-gate-ii-shadows-of-amn",
+  "slug": "baldur-s-gate-ii-shadows-of-amn",
+  "title": "Baldur's Gate II: Shadows of Amn",
+  "originalReleaseYear": 2000,
+  "exactReleaseDate": "September 24, 2000",
+  "originalLaunchPlatform": "PC",
+  "originalLaunchRegion": "North America",
+  "developer": "BioWare",
+  "publisher": "Interplay Entertainment",
+  "platforms": [
+    "PC",
+    "Macintosh"
+  ],
+  "genre": "rpg",
+  "subgenres": [
+    "party-rpg"
+  ],
+  "era": "2000s",
+  "shortDescription": "Escape the dungeon of the sadistic mage Jon Irenicus and explore the vibrant merchant city of Athkatla.",
+  "historicalSignificance": "Universally heralded among the greatest computer RPGs ever made for unmatched tactical depth and epic companions.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Baldur's_Gate_II:_Shadows_of_Amn",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Escape the dungeon of the sadistic mage Jon Irenicus and explore the vibrant merchant city of Athkatla.",
+    "culturalImpact": "Universally heralded among the greatest computer RPGs ever made for unmatched tactical depth and epic companions."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PC"
+    ],
+    "genres": [
+      "rpg"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Baldurs_Gate_II_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Baldurs_Gate_II_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Baldur's_Gate_II:_Shadows_of_Amn",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Baldur's Gate II: Shadows of Amn",
+    "BioWare",
+    "Interplay Entertainment",
+    "PC",
+    "rpg",
+    "2000",
+    "2000s",
+    "PC",
+    "Macintosh",
+    "party-rpg"
+  ],
+  "url": "/games/baldur-s-gate-ii-shadows-of-amn/",
+  "featured": false
+}

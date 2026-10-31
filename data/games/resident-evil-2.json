@@ -1,0 +1,91 @@
+{
+  "id": "game-resident-evil-2",
+  "slug": "resident-evil-2",
+  "title": "Resident Evil 2",
+  "japaneseTitle": "バイオハザード2",
+  "url": "/games/resident-evil-2/",
+  "originalReleaseYear": 1998,
+  "exactReleaseDate": "1998-01-21",
+  "developer": "Capcom Production Studio 4",
+  "publisher": "Capcom",
+  "director": "Hideki Kamiya",
+  "designer": "Noboru Sugimura, Shinji Mikami",
+  "composer": "Masami Ueda, Shusaku Uchiyama, Syun Nishigaki",
+  "originalLaunchPlatform": "PlayStation",
+  "platforms": [
+    "PlayStation",
+    "Nintendo 64",
+    "Sega Dreamcast",
+    "Microsoft Windows",
+    "Nintendo GameCube"
+  ],
+  "genre": "survival-horror",
+  "subgenres": [
+    "Cinematic Survival Horror",
+    "Zapping System"
+  ],
+  "era": "1990s",
+  "shortDescription": "Hideki Kamiya and Shinji Mikami's survival horror tour de force featuring the zapping system, Raccoon Police Department, and the terrifying Licker.",
+  "historicalSignificance": "Expanded survival horror into a blockbuster cinematic experience with its interlocking dual-character zapping scenario architecture (Leon Kennedy and Claire Redfield), establishing Capcom's golden formula of tension, resource conservation, and police precinct exploration.",
+  "editorialContent": {
+    "overview": "Directed by a young Hideki Kamiya under the guidance of producer Shinji Mikami, Resident Evil 2 debuted in January 1998 after an entire initial version ('Resident Evil 1.5') was famously scrapped when nearly finished. Moving the T-virus outbreak from a secluded mansion into the metropolitan streets of Raccoon City, it established rookie cop Leon S. Kennedy and college student Claire Redfield as enduring video game legends.",
+    "gameplay": "Employs tank controls across evocative pre-rendered backgrounds with fixed cinematic camera angles. Players manage a strict inventory grid, solve environmental lockbox puzzles, conserve scarce handgun and shotgun ammunition, and navigate horrific bio-organic weapons including mutated dogs, Lickers, and the relentless T-103 Tyrant (Mr. X).",
+    "technicalInnovation": "Introduced the innovative 'Zapping System' across two discs: decisions, consumed resources, and opened passages in Scenario A dynamically affected the counterpart's playthrough in Scenario B, yielding four distinct narrative permutations.",
+    "culturalImpact": "Resident Evil 2 broke entertainment sales records, grossing over $19 million in its opening US weekend to surpass Hollywood blockbusters. It solidified Capcom as a cinematic storytelling juggernaut.",
+    "preservationNotes": "Preserved across original 2-CD PlayStation releases, the legendary compression miracle N64 cartridge by Angel Studios, and the acclaimed 2019 ground-up remake."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "January 21, 1998",
+    "leadPlatform": "PlayStation",
+    "genre": "survival-horror",
+    "sales": "4.96 million copies on original PlayStation",
+    "awards": [
+      "Spotlight Award Best Action/Adventure Game 1998",
+      "IGN PlayStation Game of the Year nominee"
+    ],
+    "technicalSpecs": {
+      "engine": "Capcom proprietary pre-rendered background 3D character engine",
+      "resolution": "320x240 progressive",
+      "soundChip": "PlayStation SPU 24-channel audio with Dolby Surround encoding",
+      "mediaFormat": "2 CD-ROM Discs"
+    },
+    "relationships": {
+      "primaryConsole": "playstation",
+      "developerEntity": "Capcom",
+      "lineage": [
+        "Resident Evil",
+        "Resident Evil 3: Nemesis",
+        "Resident Evil 4",
+        "Devil May Cry"
+      ]
+    }
+  },
+  "assets": {
+    "cover": "/assets/images/games/resident-evil-2.webp",
+    "banner": "/assets/images/games/resident-evil-2-banner.webp",
+    "screenshots": [
+      "/assets/images/games/resident-evil-2-screen1.webp",
+      "/assets/images/games/resident-evil-2-screen2.webp"
+    ],
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/f/fd/Resident_Evil_2_Remake.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/f/fd/Resident_Evil_2_Remake.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Resident_Evil_2_Remake.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "resident evil 2",
+    "biohazard 2",
+    "capcom",
+    "hideki kamiya",
+    "shinji mikami",
+    "leon kennedy",
+    "claire redfield",
+    "survival horror"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

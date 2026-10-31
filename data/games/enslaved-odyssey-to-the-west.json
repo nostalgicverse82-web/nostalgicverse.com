@@ -1,0 +1,68 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-enslaved-odyssey-to-the-west",
+  "slug": "enslaved-odyssey-to-the-west",
+  "title": "Enslaved: Odyssey to the West",
+  "originalReleaseYear": 2010,
+  "exactReleaseDate": "October 5, 2010",
+  "originalLaunchPlatform": "PlayStation 3",
+  "originalLaunchRegion": "North America",
+  "developer": "Ninja Theory",
+  "publisher": "Namco Bandai",
+  "platforms": [
+    "PlayStation 3",
+    "Xbox 360"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "platformer"
+  ],
+  "era": "2010s",
+  "shortDescription": "Monkey and Trip navigate a lush post-apocalyptic America in a reimagining of Journey to the West written by Alex Garland.",
+  "historicalSignificance": "Celebrated for Andy Serkis' expressive performance capture and the heartwarming bond between its protagonists.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Enslaved:_Odyssey_to_the_West",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Monkey and Trip navigate a lush post-apocalyptic America in a reimagining of Journey to the West written by Alex Garland.",
+    "culturalImpact": "Celebrated for Andy Serkis' expressive performance capture and the heartwarming bond between its protagonists."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 3"
+    ],
+    "genres": [
+      "action-adventure"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/4/4b/Enslaved_Odyssey_to_the_West_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/4/4b/Enslaved_Odyssey_to_the_West_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Enslaved:_Odyssey_to_the_West",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Enslaved: Odyssey to the West",
+    "Ninja Theory",
+    "Namco Bandai",
+    "PlayStation 3",
+    "action-adventure",
+    "2010",
+    "2010s",
+    "PlayStation 3",
+    "Xbox 360",
+    "platformer"
+  ],
+  "url": "/games/enslaved-odyssey-to-the-west/",
+  "featured": false
+}

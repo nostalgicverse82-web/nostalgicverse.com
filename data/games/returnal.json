@@ -1,0 +1,83 @@
+{
+  "id": "game-returnal",
+  "slug": "returnal",
+  "title": "Returnal",
+  "japaneseTitle": "リターナル",
+  "url": "/games/returnal/",
+  "originalReleaseYear": 2021,
+  "exactReleaseDate": "2021-04-30",
+  "developer": "Housemarque",
+  "publisher": "Sony Interactive Entertainment",
+  "director": "Harry Krueger",
+  "designer": "Henri Blåfield",
+  "composer": "Bobby Krlic (The Haxan Cloak)",
+  "originalLaunchPlatform": "PlayStation 5",
+  "platforms": [
+    "PlayStation 5",
+    "Microsoft Windows"
+  ],
+  "genre": "shooter",
+  "subgenres": [
+    "Roguelike",
+    "Third-Person Bullet Hell",
+    "Psychological Horror"
+  ],
+  "era": "2020s",
+  "shortDescription": "Housemarque's intense AAA psychological sci-fi roguelike following stranded astronaut Selene Vassos caught in a perpetual resurrection loop on alien planet Atropos.",
+  "historicalSignificance": "A landmark convergence of arcade bullet-hell precision and AAA production budgets, winning the BAFTA for Best Game 2022 and demonstrating revolutionary 3D positional audio and adaptive trigger resistance.",
+  "editorialContent": {
+    "overview": "Crash-landing on the shape-shifting alien planet Atropos, ASTRA scout Selene Vassos discovers her own corpse and audio logs from previous lives. Every death resurrects her at the crash site as the planet's hostile biome rearranges around her.",
+    "gameplay": "Unforgiving high-mobility third-person shooting blending invulnerability dashing, laser-sword overloads, procedural room generation, parasite risk/reward tradeoffs, and dense 3D geometric bullet-hell patterns.",
+    "technicalInnovation": "Pioneered dual-state adaptive triggers—half-pressing L2 aims down sights, while squeezing past the physical resistance clicks into secondary alt-fire fire modes, synchronized with Bobby Krlic's visceral industrial score.",
+    "culturalImpact": "Elevated Finnish arcade studio Housemarque into Sony's premier internal development echelon, demonstrating that extreme challenge and roguelike mechanics thrive in prestige AAA productions.",
+    "preservationNotes": "Preserved on PS5 physical media and ported to PC with full unlocked frame rates."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "April 30, 2021",
+    "leadPlatform": "PlayStation 5",
+    "genre": "shooter",
+    "sales": "Over 1 million copies sold in launch period",
+    "awards": [
+      "BAFTA Games Award for Best Game 2022",
+      "The Game Awards Best Action Game 2021"
+    ],
+    "technicalSpecs": {
+      "engine": "Unreal Engine 4",
+      "resolution": "Dynamic 4K with Ray Tracing at locked 60fps",
+      "soundChip": "Full 3D Tempest spatial audio",
+      "mediaFormat": "Ultra HD Blu-ray Disc"
+    },
+    "relationships": {
+      "primaryConsole": "playstation-5",
+      "developerEntity": "Housemarque",
+      "lineage": [
+        "Resogun",
+        "Nex Machina"
+      ]
+    }
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/b/bf/Returnal_cover_art.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/b/bf/Returnal_cover_art.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Returnal_cover_art.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "returnal",
+    "housemarque",
+    "selene",
+    "atropos",
+    "roguelike",
+    "bullet hell",
+    "playstation 5",
+    "ps5",
+    "bafta best game",
+    "dualsense"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

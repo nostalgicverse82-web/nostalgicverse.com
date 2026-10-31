@@ -1,0 +1,40 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+  "id": "console-panasonic-q",
+  "slug": "panasonic-q",
+  "name": "Panasonic Q",
+  "manufacturer": "Panasonic",
+  "generation": "Sixth Generation",
+  "generationNumber": 6,
+  "originalReleaseYear": 2001,
+  "exactReleaseDate": "December 13, 2001",
+  "mediaFormat": "Standard DVD-Video & MiniDVD GameCube Discs",
+  "significance": "A collector's holy grail that materialized Nintendo and Matsushita's optical licensing agreement into a luxury living-room entertainment unit.",
+  "verifiedFactualData": {
+    "cpu": "IBM PowerPC 'Gekko' @ 486 MHz",
+    "gpuOrVideoChip": "ATI 'Flipper' @ 162 MHz",
+    "ram": "24 MB 1T-SRAM, 16 MB A-RAM"
+  },
+  "editorialContent": {
+    "overview": "A rare stainless-steel multimedia hybrid created by Panasonic, playing both standard full-size DVD movies and GameCube discs.",
+    "marketLegacy": "A collector's holy grail that materialized Nintendo and Matsushita's optical licensing agreement into a luxury living-room entertainment unit.",
+    "controllerDesign": "Branded grey GameCube controller with Panasonic branding"
+  },
+  "keyGames": [
+    "super-smash-bros-melee",
+    "luigis-mansion"
+  ],
+  "assets": {
+    "mainImage": "/assets/images/consoles/panasonic-q.png",
+    "heroImage": "/assets/images/consoles/panasonic-q-hero.png",
+    "hardwareImage": "/assets/images/consoles/panasonic-q-hardware.png"
+  },
+  "keywords": [
+    "panasonic q",
+    "panasonic",
+    "gamecube hybrid",
+    "dvd",
+    "sixth generation",
+    "2001"
+  ]
+}

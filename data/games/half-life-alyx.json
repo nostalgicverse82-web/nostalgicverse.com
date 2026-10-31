@@ -1,0 +1,83 @@
+{
+  "id": "game-half-life-alyx",
+  "slug": "half-life-alyx",
+  "title": "Half-Life: Alyx",
+  "japaneseTitle": "ハーフライフ：アリックス",
+  "url": "/games/half-life-alyx/",
+  "originalReleaseYear": 2020,
+  "exactReleaseDate": "2020-03-23",
+  "developer": "Valve",
+  "publisher": "Valve",
+  "director": "Robin Walker",
+  "designer": "Robin Walker, Dario Casali",
+  "composer": "Mike Morasky",
+  "originalLaunchPlatform": "PC VR (SteamVR)",
+  "platforms": [
+    "Microsoft Windows"
+  ],
+  "genre": "first-person-shooter",
+  "subgenres": [
+    "Virtual Reality",
+    "Sci-Fi Horror"
+  ],
+  "era": "2020s",
+  "shortDescription": "Valve's triumphant return to the Half-Life universe, widely hailed as the definitive masterpiece and killer app of virtual reality gaming.",
+  "historicalSignificance": "Set the uncontested gold standard for AAA virtual reality gaming with its revolutionary 'Gravity Gloves' physics interaction, tactile weapon reloads, and chilling survival horror atmosphere, earning universal acclaim (93 Metacritic).",
+  "editorialContent": {
+    "overview": "Set five years before Gordon Freeman's awakening in Half-Life 2, 19-year-old resistance fighter Alyx Vance and her father Eli battle the Combine occupying City 17, attempting to steal a Combine superweapon locked inside a floating Citadel vault.",
+    "gameplay": "Revolutionized VR interactions with the 'Russell' gravity gloves, allowing players to flick their wrists to telekinetically yank ammo clips, resin, and objects through mid-air into their physical hands, alongside physical manual weapon reloading and terrifying Jeff stealth puzzles.",
+    "technicalInnovation": "Showcased the flagship capabilities of the Source 2 engine: photorealistic photogrammetry, real-time liquid physics inside glass bottles, and flawless hand-tracking interaction.",
+    "culturalImpact": "Proved that full-length narrative VR masterworks could achieve the legendary critical stature of the greatest traditional PC games.",
+    "preservationNotes": "Preserved on SteamVR with full community Steam Workshop level editing tools."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "March 23, 2020",
+    "leadPlatform": "PC",
+    "genre": "first-person-shooter",
+    "sales": "Over 2 million copies sold (historic milestone for PC VR hardware)",
+    "awards": [
+      "The Game Awards Best VR/AR Game 2020",
+      "VR Game of the Year 2020"
+    ],
+    "technicalSpecs": {
+      "engine": "Source 2",
+      "resolution": "High-resolution stereoscopic VR (90Hz / 120Hz / 144Hz)",
+      "soundChip": "True binaural 3D spatial acoustic audio by Mike Morasky",
+      "mediaFormat": "SteamVR Digital Distribution"
+    },
+    "relationships": {
+      "primaryConsole": "pc",
+      "developerEntity": "Valve",
+      "lineage": [
+        "Half-Life (1998)",
+        "Half-Life 2 (2004)",
+        "Source 2"
+      ]
+    }
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/4/49/Half-Life_Alyx_Cover_Art.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/4/49/Half-Life_Alyx_Cover_Art.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Half-Life_Alyx_Cover_Art.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "half-life alyx",
+    "valve",
+    "robin walker",
+    "alyx vance",
+    "city 17",
+    "gravity gloves",
+    "source 2",
+    "vr",
+    "virtual reality",
+    "pc",
+    "2020"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

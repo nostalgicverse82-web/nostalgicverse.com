@@ -1,0 +1,17 @@
+#pragma once
+
+enum SystemState {
+    BOOT_INTRO,
+    MAIN_MENU,
+    GAME_LIBRARY,
+    ARCADE,
+    MUSIC_PLAYER,
+    CLOCK_APP,
+    UTILITIES_APP,
+    ACHIEVEMENTS_APP,
+    STATISTICS_APP,
+    DEVICES_APP,
+    WIFI_APP,
+    SAVE_DATA_APP,
+    SETTINGS_APP
+};

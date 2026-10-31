@@ -1,0 +1,40 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+  "id": "console-colecovision",
+  "slug": "colecovision",
+  "name": "ColecoVision",
+  "manufacturer": "Coleco",
+  "generation": "Second Generation",
+  "generationNumber": 2,
+  "originalReleaseYear": 1982,
+  "exactReleaseDate": "August 1982",
+  "mediaFormat": "ROM Cartridge",
+  "significance": "Demonstrated that near-perfect arcade-faithful ports were possible on home televisions, setting a new visual benchmark prior to the 1983 crash.",
+  "verifiedFactualData": {
+    "cpu": "Zilog Z80A @ 3.58 MHz",
+    "gpuOrVideoChip": "Texas Instruments TMS9928A",
+    "ram": "1 KB RAM, 16 KB VRAM"
+  },
+  "editorialContent": {
+    "overview": "Delivered near-arcade-quality home conversions, famously bundled with Nintendo's Donkey Kong arcade license.",
+    "marketLegacy": "Demonstrated that near-perfect arcade-faithful ports were possible on home televisions, setting a new visual benchmark prior to the 1983 crash.",
+    "controllerDesign": "Dual numeric keypad controllers with short joystick and side buttons"
+  },
+  "keyGames": [
+    "donkey-kong",
+    "zaxxon",
+    "venture"
+  ],
+  "assets": {
+    "mainImage": "/assets/images/consoles/colecovision.png",
+    "heroImage": "/assets/images/consoles/colecovision-hero.png",
+    "hardwareImage": "/assets/images/consoles/colecovision-hardware.png"
+  },
+  "keywords": [
+    "colecovision",
+    "coleco",
+    "donkey kong",
+    "second generation",
+    "1982"
+  ]
+}

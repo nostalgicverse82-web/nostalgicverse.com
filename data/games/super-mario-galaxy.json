@@ -1,0 +1,89 @@
+{
+  "id": "game-super-mario-galaxy",
+  "slug": "super-mario-galaxy",
+  "title": "Super Mario Galaxy",
+  "japaneseTitle": "スーパーマリオギャラクシー",
+  "url": "/games/super-mario-galaxy/",
+  "originalReleaseYear": 2007,
+  "exactReleaseDate": "2007-11-01",
+  "developer": "Nintendo EAD Tokyo",
+  "publisher": "Nintendo",
+  "director": "Yoshiaki Koizumi",
+  "designer": "Shigeru Miyamoto, Yoshiaki Koizumi",
+  "composer": "Mahito Yokota, Koji Kondo",
+  "originalLaunchPlatform": "Wii",
+  "platforms": [
+    "Wii",
+    "Nintendo Switch"
+  ],
+  "genre": "platformer",
+  "subgenres": [
+    "3D Platformer",
+    "Spherical Physics Platformer"
+  ],
+  "era": "2000s",
+  "shortDescription": "Yoshiaki Koizumi's astronomical Wii masterpiece featuring spherical planetoid gravity and a grand live orchestral score.",
+  "historicalSignificance": "Reinvented 3D platforming through mind-bending spherical planetoid gravity physics, accompanied by Nintendo's first full live orchestral symphonic soundtrack, achieving a near-unanimous 97 Metacritic rating.",
+  "editorialContent": {
+    "overview": "Directed by Yoshiaki Koizumi under producer Shigeru Miyamoto at Nintendo EAD Tokyo, Super Mario Galaxy launched on the Nintendo Wii in November 2007. When Bowser kidnaps Princess Peach and launches her castle into the cosmos, Mario teams up with cosmic guardian Rosalina and the star-like Lumas aboard the Comet Observatory to rescue the Power Stars scattered across whimsical galaxies.",
+    "gameplay": "Levels consist of microscopic planetoids, asteroids, and gravitational anomalies. Mario runs around 360-degree curved spherical surfaces, leaping from one gravitational field to another while flying through space via Launch Stars. The Wii Remote enables players to point and collect Star Bits or execute a spin move by flicking the wrist.",
+    "technicalInnovation": "Koizumi's team engineered unprecedented spherical vector physics where gravity pulled radially toward the center of arbitrary geometry (cylinders, apples, teardrops), solving the disorienting 3D camera issues that had plagued the genre for a decade.",
+    "culturalImpact": "Mario Galaxy is hailed as one of the greatest video games in history. Mahito Yokota's lush symphonic score (performed by a 50-piece orchestra) elevated Nintendo's audio pedigree, and Rosalina became an enduring icon in Nintendo lore.",
+    "preservationNotes": "Preserved on original Wii optical discs and officially updated in 1080p for the Nintendo Switch in Super Mario 3D All-Stars (2020)."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "November 1, 2007",
+    "leadPlatform": "Wii",
+    "genre": "platformer",
+    "sales": "12.8 million copies on Wii",
+    "awards": [
+      "BAFTA Game of the Year 2008",
+      "Game of the Year 2007 (GameSpot, IGN)",
+      "Metacritic score of 97"
+    ],
+    "technicalSpecs": {
+      "engine": "Nintendo EAD Tokyo spherical gravity 3D engine",
+      "resolution": "480p progressive scan (60fps locked)",
+      "soundChip": "Wii audio processor with full live symphonic recordings by Mario Galaxy Orchestra",
+      "mediaFormat": "Wii Optical Disc (4.7 GB)"
+    },
+    "relationships": {
+      "primaryConsole": "wii",
+      "developerEntity": "Nintendo",
+      "lineage": [
+        "Super Mario 64",
+        "Super Mario Sunshine",
+        "Super Mario Galaxy 2",
+        "Super Mario Odyssey"
+      ]
+    }
+  },
+  "assets": {
+    "cover": "/assets/images/games/super-mario-galaxy.webp",
+    "banner": "/assets/images/games/super-mario-galaxy-banner.webp",
+    "screenshots": [
+      "/assets/images/games/super-mario-galaxy-screen1.webp",
+      "/assets/images/games/super-mario-galaxy-screen2.webp"
+    ],
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/7/76/SuperMarioGalaxy.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/7/76/SuperMarioGalaxy.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:SuperMarioGalaxy.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "super mario galaxy",
+    "yoshiaki koizumi",
+    "wii",
+    "rosalina",
+    "luma",
+    "spherical gravity",
+    "platformer",
+    "koji kondo"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

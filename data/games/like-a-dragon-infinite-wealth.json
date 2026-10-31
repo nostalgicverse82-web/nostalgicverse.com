@@ -1,0 +1,70 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-like-a-dragon-infinite-wealth",
+  "slug": "like-a-dragon-infinite-wealth",
+  "title": "Like a Dragon: Infinite Wealth",
+  "originalReleaseYear": 2024,
+  "exactReleaseDate": "January 26, 2024",
+  "originalLaunchPlatform": "PlayStation 5",
+  "originalLaunchRegion": "Worldwide",
+  "developer": "Ryu Ga Gotoku Studio",
+  "publisher": "Sega",
+  "platforms": [
+    "PlayStation 5",
+    "Xbox Series",
+    "PC"
+  ],
+  "genre": "rpg",
+  "subgenres": [
+    "turn-based-rpg"
+  ],
+  "era": "2020s",
+  "shortDescription": "Ichiban Kasuga and Kazuma Kiryu team up across the sunny shores of Honolulu, Hawaii in an emotional double-protagonist JRPG.",
+  "historicalSignificance": "Celebrated as a towering peak of the franchise, blending Dondoko Island resort building with moving retrospective drama.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Like_a_Dragon:_Infinite_Wealth",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Ichiban Kasuga and Kazuma Kiryu team up across the sunny shores of Honolulu, Hawaii in an emotional double-protagonist JRPG.",
+    "culturalImpact": "Celebrated as a towering peak of the franchise, blending Dondoko Island resort building with moving retrospective drama."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 5"
+    ],
+    "genres": [
+      "rpg"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Like_a_Dragon_Infinite_Wealth_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Like_a_Dragon_Infinite_Wealth_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Like_a_Dragon:_Infinite_Wealth",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Like a Dragon: Infinite Wealth",
+    "Ryu Ga Gotoku Studio",
+    "Sega",
+    "PlayStation 5",
+    "rpg",
+    "2024",
+    "2020s",
+    "PlayStation 5",
+    "Xbox Series",
+    "PC",
+    "turn-based-rpg"
+  ],
+  "url": "/games/like-a-dragon-infinite-wealth/",
+  "featured": false
+}

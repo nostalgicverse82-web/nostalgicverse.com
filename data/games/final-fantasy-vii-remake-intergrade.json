@@ -1,0 +1,68 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-final-fantasy-vii-remake-intergrade",
+  "slug": "final-fantasy-vii-remake-intergrade",
+  "title": "Final Fantasy VII Remake Intergrade",
+  "originalReleaseYear": 2021,
+  "exactReleaseDate": "June 10, 2021",
+  "originalLaunchPlatform": "PlayStation 5",
+  "originalLaunchRegion": "Worldwide",
+  "developer": "Square Enix",
+  "publisher": "Square Enix",
+  "platforms": [
+    "PlayStation 5",
+    "PC"
+  ],
+  "genre": "action-rpg",
+  "subgenres": [
+    "hack-and-slash"
+  ],
+  "era": "2020s",
+  "shortDescription": "PS5 enhanced edition adding photographic fog lighting and the standalone Episode INTERmission starring Yuffie Kisaragi.",
+  "historicalSignificance": "Pioneered synergistic dual-character synergetic combat mechanics, paving the way for Final Fantasy VII Rebirth.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Final_Fantasy_VII_Remake_Intergrade",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "PS5 enhanced edition adding photographic fog lighting and the standalone Episode INTERmission starring Yuffie Kisaragi.",
+    "culturalImpact": "Pioneered synergistic dual-character synergetic combat mechanics, paving the way for Final Fantasy VII Rebirth."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 5"
+    ],
+    "genres": [
+      "action-rpg"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/FFVII_Remake_Intergrade_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/FFVII_Remake_Intergrade_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Final_Fantasy_VII_Remake_Intergrade",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Final Fantasy VII Remake Intergrade",
+    "Square Enix",
+    "Square Enix",
+    "PlayStation 5",
+    "action-rpg",
+    "2021",
+    "2020s",
+    "PlayStation 5",
+    "PC",
+    "hack-and-slash"
+  ],
+  "url": "/games/final-fantasy-vii-remake-intergrade/",
+  "featured": false
+}

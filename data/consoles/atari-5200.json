@@ -1,0 +1,40 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+  "id": "console-atari-5200",
+  "slug": "atari-5200",
+  "name": "Atari 5200 SuperSystem",
+  "manufacturer": "Atari",
+  "generation": "Second Generation",
+  "generationNumber": 2,
+  "originalReleaseYear": 1982,
+  "exactReleaseDate": "November 1982",
+  "mediaFormat": "ROM Cartridge",
+  "significance": "Offered unprecedented home arcade graphical fidelity, though burdened by non-centering analog controllers and ill timing amidst the 1983 crash.",
+  "verifiedFactualData": {
+    "cpu": "Custom 6502C @ 1.79 MHz",
+    "gpuOrVideoChip": "ANTIC and GTIA custom chips",
+    "ram": "16 KB RAM"
+  },
+  "editorialContent": {
+    "overview": "Atari's powerful high-end console derived from its 8-bit computer architecture, featuring early 360-degree analog joysticks.",
+    "marketLegacy": "Offered unprecedented home arcade graphical fidelity, though burdened by non-centering analog controllers and ill timing amidst the 1983 crash.",
+    "controllerDesign": "Analog 360-degree joystick with 12-key numeric pad and dual fire buttons"
+  },
+  "keyGames": [
+    "pac-man",
+    "super-breakout",
+    "pole-position"
+  ],
+  "assets": {
+    "mainImage": "/assets/images/consoles/atari-5200.png",
+    "heroImage": "/assets/images/consoles/atari-5200-hero.png",
+    "hardwareImage": "/assets/images/consoles/atari-5200-hardware.png"
+  },
+  "keywords": [
+    "atari 5200",
+    "atari",
+    "second generation",
+    "1982",
+    "supersystem"
+  ]
+}

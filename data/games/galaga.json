@@ -1,0 +1,77 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.json",
+  "id": "game-galaga",
+  "slug": "galaga",
+  "title": "Galaga",
+  "japaneseTitle": "ギャラガ",
+  "url": "/games/galaga/",
+  "originalReleaseYear": 1981,
+  "exactReleaseDate": "1981-09-01",
+  "developer": "Namco",
+  "publisher": "Namco",
+  "director": "Shigeru Yokoyama",
+  "designer": "Shigeru Yokoyama",
+  "composer": "Nobuyuki Ohnogi",
+  "originalLaunchPlatform": "Arcade",
+  "platforms": [
+    "Arcade",
+    "NES",
+    "Atari 7800",
+    "MSX",
+    "Game Boy"
+  ],
+  "genre": "Shooter",
+  "subgenres": [
+    "Fixed Shooter",
+    "Arcade"
+  ],
+  "era": "1980s",
+  "shortDescription": "Namco's quintessential space shooter introducing the tractor-beam dual-fighter risk/reward mechanic and acrobatic flight formations.",
+  "historicalSignificance": "Pioneered interactive risk/reward weapon upgrades, staged bonus rounds, and post-game hit-ratio performance analytics in arcade gaming.",
+  "editorialContent": {
+    "overview": "Directed by Shigeru Yokoyama as the direct successor to 1979's Galaxian, Galaga refined the fixed space shooter into an art of balletic aerial choreography. With its distinctive insectoid adversaries, synchronized swoop patterns, and memorable musical fanfares by Nobuyuki Ohnogi, Galaga became an enduring staple of amusement parlors worldwide, outlasting nearly all contemporary coin-op peers.",
+    "gameplayMechanics": "Players defend Earth against waves of extraterrestrial invaders who assemble into formation before executing coordinated diving attacks. Galaga's crowning mechanical achievement is the Boss Galaga tractor beam: when a player's fighter is trapped, it is held hostage until the player subsequently shoots the captor. Freeing the captive ship joins both craft side-by-side into a 'Dual Fighter', doubling laser firepower while also doubling the player's hit surface.",
+    "technicalInnovation": "Engineered for Namco's sophisticated multi-CPU arcade board, Galaga utilized three Zilog Z80 microprocessors operating at 3.125 MHz in parallel: one managing core game logic and collision, one dedicated to sprite motion calculations, and one governing sound synthesis. Audio was produced by a custom Namco 3-channel wave-table sound generator yielding crisp polyphonic jingles.",
+    "culturalImpact": "Galaga established standards for coin-op longevity, routinely operating in pizza parlors, bowling alleys, and arcades decades after its debut. Its introduction of the end-of-game 'Fighter / Hit Ratio' statistical screen created a competitive metric for precision shooting that directly anticipated modern esports scoreboards.",
+    "preservationNotes": "Preserved across multiple ROM variations (Namco original set and Midway licensed set). Accurate emulation requires precise coordination across all three parallel Z80 CPUs and authentic vertical 3:4 CRT raster rendering at 60.606 Hz."
+  },
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "Yokoyama, Shigeru. 'Galaga Development Retrospective', Bandai Namco Archives (2011)",
+      "Namco Ltd. Galaga Operator and Technical Service Manual (1981)",
+      "Wolf, Mark J.P. 'The Video Game Explosion', Greenwood Press (2008)"
+    ],
+    "romMediaFormat": "Arcade PCB (Custom Namco Triple-Z80 architecture)",
+    "romSizeOriginal": "24 KB ROM",
+    "displayResolutionOriginal": "224 × 288 (Vertical 3:4 CRT)",
+    "audioHardware": "Namco 3-channel wave-table sound generator (WSG)",
+    "inputMethod": "2-way horizontal joystick + rapid-fire button",
+    "multiplayerCapability": "2 Players (Alternating)"
+  },
+  "assets": {
+    "heroImage": "/assets/images/games/galaga-hero.webp",
+    "thumbnailImage": "/assets/images/games/galaga.webp",
+    "coverImage": "/assets/images/games/galaga-cover.webp",
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/4/4d/Galaga_flyer.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/4/4d/Galaga_flyer.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Galaga_flyer.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "galaga",
+    "namco",
+    "shigeru yokoyama",
+    "shooter",
+    "arcade",
+    "1981",
+    "1980s",
+    "dual fighter",
+    "tractor beam",
+    "golden age"
+  ],
+  "featured": false
+}

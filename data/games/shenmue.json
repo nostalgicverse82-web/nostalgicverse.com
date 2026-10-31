@@ -1,0 +1,91 @@
+{
+  "id": "game-shenmue",
+  "slug": "shenmue",
+  "title": "Shenmue",
+  "japaneseTitle": "シェンムー 一章 横須賀",
+  "url": "/games/shenmue/",
+  "originalReleaseYear": 1999,
+  "exactReleaseDate": "1999-12-29",
+  "developer": "Sega AM2",
+  "publisher": "Sega",
+  "director": "Yu Suzuki",
+  "designer": "Yu Suzuki",
+  "composer": "Takenobu Mitsuyoshi, Yuzo Koshiro, Ryuji Iuchi",
+  "originalLaunchPlatform": "Sega Dreamcast",
+  "platforms": [
+    "Sega Dreamcast",
+    "PlayStation 4",
+    "Xbox One",
+    "Microsoft Windows"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "FREE (Full Reactive Eyes Entertainment)",
+    "Open-World Life Simulation",
+    "Martial Arts Adventure"
+  ],
+  "era": "1990s",
+  "shortDescription": "Yu Suzuki's legendary Dreamcast magnum opus that pioneered modern open-world design, Quick Time Events, and living NPC routines.",
+  "historicalSignificance": "The most expensive video game ever produced at its time ($47-70M budget), pioneering the FREE genre with fully simulated NPC daily schedules, weather systems based on real 1986 Yokosuka meteorological data, and popularizing Quick Time Events (QTEs).",
+  "editorialContent": {
+    "overview": "Conceived by Sega's arcade visionary Yu Suzuki as an epic martial arts RPG originally planned for the Saturn, Shenmue launched on the Sega Dreamcast in Japan in December 1999. Following teenage martial artist Ryo Hazuki on a quest of vengeance against the mysterious Lan Di who murdered his father in 1986 Yokosuka, the game presented an astonishingly detailed simulation of daily Japanese suburban life.",
+    "gameplay": "Players explore Dobuita and Yamanote with complete freedom, interviewing hundreds of fully voiced townsfolk, practicing Virtua Fighter-based martial arts forms in empty parks, purchasing capsule toys from gachapon machines, playing fully working Hang-On and Space Harrier arcade machines, and working a daytime forklift job at the harbor.",
+    "technicalInnovation": "Yu Suzuki coined the term 'FREE' (Full Reactive Eyes Entertainment). AM2 implemented 'Magic Weather' that recreated actual historic 1986 Yokosuka snowfall and rain records, synchronized day/night lighting cycles, and assigned individual homes, routines, and occupations to every citizen.",
+    "culturalImpact": "Shenmue is the direct ancestor of modern open-world gaming, heavily influencing Grand Theft Auto III, Sega's own Yakuza / Like a Dragon series, and cinematic narrative adventures worldwide.",
+    "preservationNotes": "Preserved across original 4-disc GD-ROM sets for the Dreamcast, and modern multiplatform HD remasters released by Sega in 2018."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "December 29, 1999",
+    "leadPlatform": "Sega Dreamcast",
+    "genre": "action-adventure",
+    "sales": "1.2 million copies on Dreamcast",
+    "awards": [
+      "Japan Media Arts Festival Excellence Prize 2000",
+      "CESA Game Awards Excellence Award"
+    ],
+    "technicalSpecs": {
+      "engine": "Sega AM2 custom Dreamcast 3D simulation engine",
+      "resolution": "640x480 VGA progressive (480p)",
+      "soundChip": "Yamaha AICA 64-channel PCM sound processor with orchestral synthesis",
+      "mediaFormat": "3 GD-ROM Discs + Shenmue Passport Disc"
+    },
+    "relationships": {
+      "primaryConsole": "sega-dreamcast",
+      "developerEntity": "Sega",
+      "lineage": [
+        "Virtua Fighter",
+        "Shenmue II",
+        "Yakuza",
+        "Judgment"
+      ]
+    }
+  },
+  "assets": {
+    "cover": "/assets/images/games/shenmue.webp",
+    "banner": "/assets/images/games/shenmue-banner.webp",
+    "screenshots": [
+      "/assets/images/games/shenmue-screen1.webp",
+      "/assets/images/games/shenmue-screen2.webp"
+    ],
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/e/e2/ShenmueDCbox.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/e/e2/ShenmueDCbox.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:ShenmueDCbox.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "shenmue",
+    "yu suzuki",
+    "sega dreamcast",
+    "am2",
+    "ryo hazuki",
+    "open world",
+    "qte",
+    "yokosuka"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

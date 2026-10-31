@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-demon-s-souls-ps5",
+  "slug": "demon-s-souls-ps5",
+  "title": "Demon's Souls (2020)",
+  "originalReleaseYear": 2020,
+  "exactReleaseDate": "November 12, 2020",
+  "originalLaunchPlatform": "PlayStation 5",
+  "originalLaunchRegion": "Worldwide",
+  "developer": "Bluepoint Games",
+  "publisher": "Sony Interactive Entertainment",
+  "platforms": [
+    "PlayStation 5"
+  ],
+  "genre": "action-rpg",
+  "subgenres": [
+    "soulslike"
+  ],
+  "era": "2020s",
+  "shortDescription": "Bluepoint's visually stunning flagship launch remake restoring the Kingdom of Boletaria in photographic next-gen fidelity.",
+  "historicalSignificance": "Proved the raw computational power and DualSense haptic mastery of the PlayStation 5 hardware on launch day.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Demon's_Souls_(2020)",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Bluepoint's visually stunning flagship launch remake restoring the Kingdom of Boletaria in photographic next-gen fidelity.",
+    "culturalImpact": "Proved the raw computational power and DualSense haptic mastery of the PlayStation 5 hardware on launch day."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 5"
+    ],
+    "genres": [
+      "action-rpg"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/2/23/Demons_Souls_PS5_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/2/23/Demons_Souls_PS5_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Demon's_Souls_(2020)",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Demon's Souls (2020)",
+    "Bluepoint Games",
+    "Sony Interactive Entertainment",
+    "PlayStation 5",
+    "action-rpg",
+    "2020",
+    "2020s",
+    "PlayStation 5",
+    "soulslike"
+  ],
+  "url": "/games/demon-s-souls-ps5/",
+  "featured": false
+}

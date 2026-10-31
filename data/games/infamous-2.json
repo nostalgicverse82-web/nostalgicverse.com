@@ -1,0 +1,68 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-infamous-2",
+  "slug": "infamous-2",
+  "title": "Infamous 2",
+  "originalReleaseYear": 2011,
+  "exactReleaseDate": "June 7, 2011",
+  "originalLaunchPlatform": "PlayStation 3",
+  "originalLaunchRegion": "North America",
+  "developer": "Sucker Punch Productions",
+  "publisher": "Sony Computer Entertainment",
+  "platforms": [
+    "PlayStation 3"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "open-world",
+    "superhero"
+  ],
+  "era": "2010s",
+  "shortDescription": "Cole relocates to New Marais to master ice or fire powers before confronting the titanic Beast.",
+  "historicalSignificance": "Expanded open-world verticality with the Amp melee weapon, dynamic ice/fire choices, and user-generated missions.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Infamous_2",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Cole relocates to New Marais to master ice or fire powers before confronting the titanic Beast.",
+    "culturalImpact": "Expanded open-world verticality with the Amp melee weapon, dynamic ice/fire choices, and user-generated missions."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 3"
+    ],
+    "genres": [
+      "action-adventure"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/4/4e/Infamous_2_cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/4/4e/Infamous_2_cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Infamous_2",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Infamous 2",
+    "Sucker Punch Productions",
+    "Sony Computer Entertainment",
+    "PlayStation 3",
+    "action-adventure",
+    "2011",
+    "2010s",
+    "PlayStation 3",
+    "open-world",
+    "superhero"
+  ],
+  "url": "/games/infamous-2/",
+  "featured": false
+}

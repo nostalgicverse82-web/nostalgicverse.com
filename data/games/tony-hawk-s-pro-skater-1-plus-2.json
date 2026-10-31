@@ -1,0 +1,70 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-tony-hawk-s-pro-skater-1-plus-2",
+  "slug": "tony-hawk-s-pro-skater-1-plus-2",
+  "title": "Tony Hawk's Pro Skater 1 + 2",
+  "originalReleaseYear": 2020,
+  "exactReleaseDate": "September 4, 2020",
+  "originalLaunchPlatform": "PlayStation 4",
+  "originalLaunchRegion": "Worldwide",
+  "developer": "Vicarious Visions",
+  "publisher": "Activision",
+  "platforms": [
+    "PlayStation 4",
+    "Xbox One",
+    "Microsoft Windows"
+  ],
+  "genre": "sports",
+  "subgenres": [
+    "skateboarding"
+  ],
+  "era": "2020s",
+  "shortDescription": "Ground-up HD remake of the original two PlayStation skateboarding landmarks with modern combos and original punk soundtracks.",
+  "historicalSignificance": "Universally acclaimed as the fastest-selling Tony Hawk release in history, capturing pure arcade skating euphoria.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Tony_Hawk's_Pro_Skater_1_+_2",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Ground-up HD remake of the original two PlayStation skateboarding landmarks with modern combos and original punk soundtracks.",
+    "culturalImpact": "Universally acclaimed as the fastest-selling Tony Hawk release in history, capturing pure arcade skating euphoria."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 4"
+    ],
+    "genres": [
+      "sports"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/8/87/Tony_Hawk%27s_Pro_Skater_1_%2B_2_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/8/87/Tony_Hawk%27s_Pro_Skater_1_%2B_2_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Tony_Hawk's_Pro_Skater_1_+_2",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Tony Hawk's Pro Skater 1 + 2",
+    "Vicarious Visions",
+    "Activision",
+    "PlayStation 4",
+    "sports",
+    "2020",
+    "2020s",
+    "PlayStation 4",
+    "Xbox One",
+    "Microsoft Windows",
+    "skateboarding"
+  ],
+  "url": "/games/tony-hawk-s-pro-skater-1-plus-2/",
+  "featured": false
+}

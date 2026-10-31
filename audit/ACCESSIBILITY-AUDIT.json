@@ -1,0 +1,113 @@
+{
+  "auditDate": "2026-09-27T10:16:45.463Z",
+  "pagesAudited": 8,
+  "totalIssuesFound": 0,
+  "hasPrefersReducedMotionCSS": true,
+  "status": "PASS",
+  "pages": [
+    {
+      "name": "Home Page",
+      "file": "index.html",
+      "hasH1": true,
+      "h1Count": 1,
+      "imagesTotal": 16,
+      "imagesMissingAlt": 0,
+      "ariaLabelsCount": 27,
+      "hasNavLandmark": true,
+      "hasMainLandmark": true,
+      "hasFooterLandmark": true,
+      "issues": []
+    },
+    {
+      "name": "Games Index",
+      "file": "games/index.html",
+      "hasH1": true,
+      "h1Count": 1,
+      "imagesTotal": 5,
+      "imagesMissingAlt": 0,
+      "ariaLabelsCount": 19,
+      "hasNavLandmark": true,
+      "hasMainLandmark": true,
+      "hasFooterLandmark": true,
+      "issues": []
+    },
+    {
+      "name": "Consoles Index",
+      "file": "consoles/index.html",
+      "hasH1": true,
+      "h1Count": 1,
+      "imagesTotal": 5,
+      "imagesMissingAlt": 0,
+      "ariaLabelsCount": 23,
+      "hasNavLandmark": true,
+      "hasMainLandmark": true,
+      "hasFooterLandmark": true,
+      "issues": []
+    },
+    {
+      "name": "Genres Index",
+      "file": "genres/index.html",
+      "hasH1": true,
+      "h1Count": 1,
+      "imagesTotal": 5,
+      "imagesMissingAlt": 0,
+      "ariaLabelsCount": 23,
+      "hasNavLandmark": true,
+      "hasMainLandmark": true,
+      "hasFooterLandmark": true,
+      "issues": []
+    },
+    {
+      "name": "Timeline Index",
+      "file": "timeline/index.html",
+      "hasH1": true,
+      "h1Count": 1,
+      "imagesTotal": 5,
+      "imagesMissingAlt": 0,
+      "ariaLabelsCount": 24,
+      "hasNavLandmark": true,
+      "hasMainLandmark": true,
+      "hasFooterLandmark": true,
+      "issues": []
+    },
+    {
+      "name": "Search Page",
+      "file": "search/index.html",
+      "hasH1": true,
+      "h1Count": 1,
+      "imagesTotal": 5,
+      "imagesMissingAlt": 0,
+      "ariaLabelsCount": 17,
+      "hasNavLandmark": true,
+      "hasMainLandmark": true,
+      "hasFooterLandmark": true,
+      "issues": []
+    },
+    {
+      "name": "Game Exhibit (Pac-Man)",
+      "file": "games/pac-man/index.html",
+      "hasH1": true,
+      "h1Count": 1,
+      "imagesTotal": 5,
+      "imagesMissingAlt": 0,
+      "ariaLabelsCount": 15,
+      "hasNavLandmark": true,
+      "hasMainLandmark": true,
+      "hasFooterLandmark": true,
+      "issues": []
+    },
+    {
+      "name": "Console Exhibit (NES)",
+      "file": "consoles/nintendo-entertainment-system/index.html",
+      "hasH1": true,
+      "h1Count": 1,
+      "imagesTotal": 6,
+      "imagesMissingAlt": 0,
+      "ariaLabelsCount": 20,
+      "hasNavLandmark": true,
+      "hasMainLandmark": true,
+      "hasFooterLandmark": true,
+      "issues": []
+    }
+  ]
+}

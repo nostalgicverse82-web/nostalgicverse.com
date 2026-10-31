@@ -1,0 +1,68 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-black-myth-wukong",
+  "slug": "black-myth-wukong",
+  "title": "Black Myth: Wukong",
+  "originalReleaseYear": 2024,
+  "exactReleaseDate": "August 20, 2024",
+  "originalLaunchPlatform": "PlayStation 5",
+  "originalLaunchRegion": "Worldwide",
+  "developer": "Game Science",
+  "publisher": "Game Science",
+  "platforms": [
+    "PlayStation 5",
+    "Microsoft Windows"
+  ],
+  "genre": "action-rpg",
+  "subgenres": [
+    "mythology"
+  ],
+  "era": "2020s",
+  "shortDescription": "The Destined One wields the Ruyi Jingu Bang staff across breathtaking Chinese mythology inspired by Journey to the West.",
+  "historicalSignificance": "A historic global phenomenon breaking concurrent player records with staggering Unreal Engine 5 boss design.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Black_Myth:_Wukong",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "The Destined One wields the Ruyi Jingu Bang staff across breathtaking Chinese mythology inspired by Journey to the West.",
+    "culturalImpact": "A historic global phenomenon breaking concurrent player records with staggering Unreal Engine 5 boss design."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 5"
+    ],
+    "genres": [
+      "action-rpg"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/0/07/Black_Myth_Wukong_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/0/07/Black_Myth_Wukong_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Black_Myth:_Wukong",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Black Myth: Wukong",
+    "Game Science",
+    "Game Science",
+    "PlayStation 5",
+    "action-rpg",
+    "2024",
+    "2020s",
+    "PlayStation 5",
+    "Microsoft Windows",
+    "mythology"
+  ],
+  "url": "/games/black-myth-wukong/",
+  "featured": false
+}

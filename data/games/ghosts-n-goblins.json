@@ -1,0 +1,92 @@
+{
+  "id": "game-ghosts-n-goblins",
+  "slug": "ghosts-n-goblins",
+  "title": "Ghosts 'n Goblins",
+  "japaneseTitle": "魔界村",
+  "url": "/games/ghosts-n-goblins/",
+  "originalReleaseYear": 1985,
+  "exactReleaseDate": "1985-07-07",
+  "developer": "Capcom",
+  "publisher": "Capcom",
+  "designer": "Tokuro Fujiwara",
+  "originalLaunchPlatform": "Arcade",
+  "platforms": [
+    "Arcade",
+    "NES",
+    "Commodore 64",
+    "Amiga",
+    "Game Boy Color"
+  ],
+  "genre": "platformer",
+  "subgenres": [
+    "Action Platformer",
+    "Run and Gun"
+  ],
+  "era": "1980s",
+  "shortDescription": "Tokuro Fujiwara's punishing dark-fantasy arcade platformer featuring knight Arthur, infamous difficulty, and legendary armor-shedding vulnerability.",
+  "historicalSignificance": "Established Capcom as a major international action powerhouse, introduced the armor-loss damage mechanic, and stands as one of the most notoriously demanding skill benchmarks in video game history.",
+  "editorialContent": {
+    "overview": "Directed by Tokuro Fujiwara (known later for Mega Man and Resident Evil) and released to Japanese arcades under the title Makaimura ('Demon World Village') in July 1985, Ghosts 'n Goblins was an immediate sensation. By pairing spooky gothic graveyard aesthetics with unforgiving arcade difficulty, Fujiwara created an enduring franchise that defined hardcore platforming.",
+    "gameplayMechanics": "Players steer knight Arthur through haunted graveyards, floating platforms, and demon castles to rescue Princess Prin-Prin from the demon king Astaroth. Arthur hurls weapons—lances, daggers, torches, and axes—with strict mid-air jump trajectories that cannot be altered once launched. Taking a single hit shatters Arthur's steel armor, leaving him clad only in his boxer shorts; a second hit reduces him to a pile of bones.",
+    "technicalInnovation": "Operating on Capcom's custom Z80/6809 arcade architecture, Ghosts 'n Goblins pushed advanced raster parallax scrolling and dense multi-sprite layering to depict swarms of flying Red Arremers, zombies rising from the soil, and multi-jointed demonic bosses.",
+    "culturalImpact": "Renowned as one of the most difficult video games ever created, famously forcing players to beat the entire campaign twice consecutively to view the authentic ending, Ghosts 'n Goblins cemented Capcom's reputation for razor-sharp action design.",
+    "preservationNotes": "Preserved on Capcom 1985 arcade PCB ROM sets and the 1986 NES conversion. Precision 60Hz timing is essential due to the frame-critical collision boxes of enemy projectiles."
+  },
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "Fujiwara, Tokuro. 'Developer Retrospective: The Creation of Makaimura', Capcom Archives (1998)",
+      "Capcom Co., Ltd. Arcade Board Operator's Manual: Ghosts 'n Goblins (1985)",
+      "Nintendo of America NES Instruction Booklet: Ghosts 'n Goblins (NES-GL-USA, 1986)"
+    ],
+    "romMediaFormat": "Arcade PCB (Motorola 6809 + Z80 Sound CPU)",
+    "romSizeOriginal": "128 KB ROM",
+    "displayResolutionOriginal": "256 × 224 (Horizontal CRT)",
+    "audioHardware": "Two Yamaha YM2203 FM sound synthesizers",
+    "inputMethod": "8-way joystick + Attack & Jump buttons",
+    "multiplayerCapability": "1-2 Players (Alternating)"
+  },
+  "relatedExhibits": {
+    "games": [
+      "castlevania",
+      "super-mario-bros",
+      "mega-man-2"
+    ],
+    "consoles": [
+      "nintendo-entertainment-system"
+    ],
+    "genres": [
+      "platformer"
+    ],
+    "timeline": [
+      "ev-1985-nes-launch-north-america"
+    ]
+  },
+  "assets": {
+    "heroImage": "/assets/images/games/ghosts-n-goblins-hero.webp",
+    "thumbnailImage": "/assets/images/games/ghosts-n-goblins.webp",
+    "coverImage": "/assets/images/games/ghosts-n-goblins-cover.webp",
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a1/GhostsnGoblins_flyer.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a1/GhostsnGoblins_flyer.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:GhostsnGoblins_flyer.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "ghosts n goblins",
+    "makaimura",
+    "capcom",
+    "tokuro fujiwara",
+    "arthur",
+    "armor",
+    "platformer",
+    "arcade",
+    "nes",
+    "1985",
+    "1980s"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

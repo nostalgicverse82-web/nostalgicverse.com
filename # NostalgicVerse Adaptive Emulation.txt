@@ -1,0 +1,2360 @@
+# NostalgicVerse Adaptive Emulation Engine  
+## Technical Research Report for Efficient Android Emulation
+
+**Date:** September 29, 2026  
+**Target platform:** ARM64 Android phones and tablets with integrated mobile GPUs  
+**Primary targets:** NES, SNES, Game Boy, GBA, Nintendo DS, Nintendo 3DS, N64, PS1, PSP, PS2, PS3  
+**Focus:** reducing CPU, GPU, memory, battery, and thermal cost without sacrificing correctness
+
+---
+
+# 1. Executive conclusion
+
+NostalgicVerse should not be designed as one universal emulator core with a few optimization flags. It should be a **system-specific execution framework** sharing common infrastructure:
+
+- a common memory manager,
+- a common profiling system,
+- a common persistent-cache format,
+- a common adaptive scheduler,
+- system-specific CPU and GPU backends,
+- system-specific timing and synchronization models.
+
+The largest practical gains will come from:
+
+1. **Native AArch64 dynamic recompilers**
+2. **Direct block chaining**
+3. **Tiered recompilation**
+4. **Hot-loop and trace specialization**
+5. **NEON vectorization**
+6. **Persistent translated-code caches**
+7. **System-specific fast paths**
+8. **Vulkan shader/pipeline caching**
+9. **Avoiding unnecessary guest/host memory copies**
+10. **Thermal-aware scheduling and frame pacing**
+11. **Game-specific compatibility profiles**
+12. **Aggressive profiling of actual bottlenecks**
+
+The most important conclusion is:
+
+> **PS2 emulation is a realistic target for low- and mid-range ARM64 Android devices. General-purpose PS3 emulation is not.**
+
+PS3 optimization can reduce overhead substantially, but it cannot remove the underlying work required to emulate:
+
+- a PowerPC-based PPE,
+- multiple SIMD-heavy SPUs,
+- local-store memory and DMA,
+- Cell synchronization,
+- reservations and atomics,
+- the RSX graphics processor,
+- two substantially different memory pools,
+- asynchronous CPU/GPU command processing,
+- game-specific operating-system behavior.
+
+A carefully engineered PS3 emulator may run selected games on high-end ARM64 devices. A broad, high-compatibility PS3 emulator targeting low-end Android phones is not a realistic near-term objective.
+
+---
+
+# 2. Performance model
+
+Emulation performance is not one problem. It is the sum of several costs:
+
+\[
+T_\text{frame}
+=
+T_\text{guest CPU}
++
+T_\text{memory}
++
+T_\text{device emulation}
++
+T_\text{renderer}
++
+T_\text{synchronization}
++
+T_\text{JIT}
++
+T_\text{OS scheduling}
+\]
+
+For simple systems such as NES, SNES, Game Boy, GBA, and PS1, the CPU workload is generally small enough that latency, audio synchronization, rendering overhead, and inefficient abstractions become the dominant concerns.
+
+For N64, DS, 3DS, PSP, and PS2, dynamic recompilation, vector units, GPU translation, and synchronization become increasingly important.
+
+For PS3, the problem becomes highly parallel and heterogeneous. The emulated system is not simply “a fast CPU plus a GPU.” It is a collection of processors with different programming models and memory behavior.
+
+---
+
+# 3. Classification of proposed techniques
+
+## A. Existing proven techniques
+
+These are suitable for production engineering:
+
+- cached interpretation,
+- dynamic recompilation,
+- direct block chaining,
+- native AArch64 backends,
+- persistent translation caches,
+- profile-guided optimization,
+- NEON vectorization,
+- HLE for stable operating-system services,
+- Vulkan rendering,
+- Vulkan pipeline and shader caches,
+- command batching,
+- adaptive resolution,
+- frame pacing,
+- thermal-aware scheduling,
+- runtime profiling,
+- game-specific configuration profiles.
+
+Dynamic translators such as QEMU use translation blocks, state specialization, direct block chaining, invalidation tracking, and separate fast paths for RAM versus MMIO. These are directly relevant to NostalgicVerse. ([qemu.org](https://www.qemu.org/docs/master/devel/tcg.html?utm_source=openai))
+
+High-performance emulators already use JIT recompilers and architecture-specific backends. PPSSPP, for example, translates PSP instructions into native x86, ARM, ARM64, and RISC-V code. ([dev.ppsspp.org](https://dev.ppsspp.org/docs/development/getting-started/?utm_source=openai))
+
+## B. Promising but experimental
+
+These are technically plausible but require careful validation:
+
+- trace-based recompilation,
+- guarded speculative optimization,
+- cross-block register allocation,
+- adaptive guest scheduling,
+- automatic code-region specialization,
+- GPU-assisted bulk emulation,
+- automatic game-profile generation,
+- ML-assisted workload prediction,
+- SPU DMA dependency analysis,
+- GPU-resident portions of RSX or GS emulation.
+
+## C. Completely speculative
+
+These may produce research value but should not be part of the initial product architecture:
+
+- cross-device reuse of native ARM64 code,
+- whole-game translation into native Android code,
+- predictive execution of guest gameplay,
+- learning a game’s semantics directly from traces,
+- broad GPU execution of arbitrary guest CPU code,
+- automatically replacing an emulator with a game-specific native port.
+
+## D. Physically or computationally unrealistic
+
+These should be rejected:
+
+- using AI to eliminate the need for PS3 CPU emulation,
+- executing arbitrary PS3 PPE/SPU code on the mobile GPU with no synchronization cost,
+- compressing every active guest memory access,
+- using frame prediction to avoid emulating CPU work,
+- skipping synchronization while preserving PS3 correctness,
+- assuming more Android threads automatically produce more performance,
+- treating ARM NEON as a replacement for the PS3’s entire heterogeneous architecture.
+
+---
+
+# 4. JIT, AOT, and hybrid recompilation
+
+## 4.1 Pure interpretation
+
+### What it solves
+
+- correctness reference,
+- debugging,
+- rare code paths,
+- invalid or self-modifying code,
+- unusual exceptions,
+- fallback for unsupported instructions.
+
+### How it works
+
+Each guest instruction is decoded and executed by a host interpreter.
+
+### Performance
+
+Very poor for CPU-heavy systems. Useful for correctness, not as the main execution mode.
+
+### RAM
+
+Low.
+
+### Battery and thermal behavior
+
+Bad during sustained use because interpretation performs many host operations per guest instruction.
+
+### Recommendation
+
+Use only as:
+
+- a boot fallback,
+- a correctness oracle,
+- a rare-path fallback,
+- a deoptimization target.
+
+A cached interpreter is better than a raw interpreter because decoded guest instructions can be reused. Dolphin uses a cached interpreter as an alternative to both the raw interpreter and JIT. ([dolphin-emu.org](https://dolphin-emu.org/blog/2024/09/04/dolphin-progress-report-release-2407-2409/?utm_source=openai))
+
+---
+
+## 4.2 Baseline block JIT
+
+### What it solves
+
+It removes the decode and dispatch cost from repeatedly executed guest basic blocks.
+
+### How it works
+
+A guest basic block is decoded once and translated into AArch64 instructions. The generated block is stored in a code cache.
+
+### Performance
+
+Expected improvement:
+
+- typically several times faster than interpretation,
+- potentially an order of magnitude faster for regular CPU code,
+- highly dependent on guest architecture and memory behavior.
+
+### RAM
+
+Moderate. Code caches may consume several megabytes per active system and more for PS2/PS3.
+
+### Battery and thermal behavior
+
+Usually much better than interpretation because fewer host instructions are executed per guest instruction. Compilation itself causes short bursts of CPU usage.
+
+### Low-end Android
+
+Yes for all systems except possibly PS3.
+
+### PS2
+
+Essential.
+
+### PS3
+
+Essential but insufficient by itself.
+
+### Special hardware
+
+No.
+
+---
+
+## 4.3 Direct block chaining
+
+### What it solves
+
+The expensive return to the emulator dispatcher between every translated block.
+
+### How it works
+
+If the destination of a branch is known and already translated, the generated AArch64 block jumps directly to the destination block. QEMU uses this technique to avoid repeated exits through the main dispatch loop. ([qemu.org](https://www.qemu.org/docs/master/devel/tcg.html?utm_source=openai))
+
+### Performance
+
+Expected improvement over a basic block JIT:
+
+- approximately 5–25% for branch-heavy workloads,
+- potentially more for tight loops,
+- less useful when the guest frequently performs MMIO or exits for synchronization.
+
+### RAM
+
+Small increase from jump-link metadata and patch sites.
+
+### Battery and thermal behavior
+
+Generally positive.
+
+### Low-end Android
+
+Yes.
+
+### PS2
+
+Very useful for EE and IOP code.
+
+### PS3
+
+Useful for PPU and SPU code, but synchronization exits limit the benefit.
+
+### Special hardware
+
+No.
+
+---
+
+## 4.4 Tiered JIT
+
+NostalgicVerse should use at least three execution tiers:
+
+### Tier 0: Cached interpreter
+
+- immediate startup,
+- correctness fallback,
+- low memory.
+
+### Tier 1: Baseline JIT
+
+- fast compilation,
+- minimal optimization,
+- direct block chaining,
+- suitable for newly discovered code.
+
+### Tier 2: Optimizing JIT
+
+- hot-loop recompilation,
+- constant propagation,
+- register allocation,
+- vectorization,
+- guarded assumptions,
+- trace formation.
+
+### Optional Tier 3: Offline/AOT
+
+- precompiled code for known static modules,
+- precompiled system libraries,
+- precompiled game-specific code regions,
+- downloaded or locally generated compatibility artifacts.
+
+LLVM ORC supports lazy compilation, concurrent compilation, dependency tracking, and custom compilation layers. Those concepts are suitable for the optimizing tier, although a custom lightweight compiler may be more appropriate on mobile than embedding the full LLVM optimization pipeline at runtime. ([llvm.org](https://llvm.org/docs/ORCv2.html))
+
+### Performance
+
+Compared with baseline JIT:
+
+- typically 5–30% improvement on hot code,
+- possibly more on vector-heavy stable loops,
+- sometimes negative if compilation overhead is not amortized.
+
+### RAM
+
+Medium to high, depending on whether baseline and optimized versions are retained simultaneously.
+
+### Battery and thermal behavior
+
+Good after warm-up. Poor during aggressive recompilation.
+
+### Recommendation
+
+Use a hotness threshold based on:
+
+- execution count,
+- time spent,
+- branch stability,
+- number of exits,
+- compilation cost,
+- expected reuse.
+
+---
+
+# 5. Runtime specialization and safe speculation
+
+## 5.1 Runtime specialization
+
+### What it solves
+
+Generic emulator code repeatedly checks properties that are stable in a particular game:
+
+- memory region,
+- endianness conversion mode,
+- floating-point mode,
+- alignment,
+- constant register values,
+- known branch targets,
+- fixed vector widths,
+- known texture formats,
+- known DMA patterns.
+
+### How it works
+
+The recompiler creates a specialized version guarded by assumptions.
+
+Example:
+
+```text
+if guest_page_version == expected_version:
+    execute optimized block
+else:
+    deoptimize and recompile
+```
+
+Specialization can remove:
+
+- repeated address translation,
+- redundant endian conversion,
+- repeated MMIO checks,
+- unnecessary exception checks,
+- known-zero or known-constant register handling,
+- generic vector shuffles.
+
+### Performance
+
+Expected improvement:
+
+- 5–20% on stable hot regions,
+- larger gains on narrow kernels,
+- little benefit for highly dynamic or self-modifying code.
+
+### RAM
+
+Additional specialized code versions. Usually moderate.
+
+### Battery and thermal behavior
+
+Positive after compilation; potentially negative if the code is frequently invalidated.
+
+### Low-end Android
+
+Suitable if the compiler is lightweight.
+
+### PS2
+
+Very suitable for stable EE and VU microprograms.
+
+### PS3
+
+Potentially useful for PPU and SPU kernels but must respect DMA, reservations, and self-modifying behavior.
+
+### Special hardware
+
+No.
+
+---
+
+## 5.2 Safe speculative optimization
+
+Speculation is acceptable only if failure is recoverable.
+
+Safe examples:
+
+- assume a page is not modified, guarded by a page version,
+- assume a branch target remains constant,
+- assume a memory region is normal RAM rather than MMIO,
+- assume an SPU DMA queue follows a stable pattern,
+- assume a PS2 VU program does not self-modify,
+- assume a frequently used system call maps to a known HLE implementation.
+
+Unsafe examples:
+
+- removing synchronization because it “usually does not matter,”
+- assuming two guest addresses cannot alias,
+- ignoring DMA ordering,
+- assuming floating-point modes are irrelevant,
+- assuming an interrupt cannot arrive,
+- assuming the RSX cannot read a surface concurrently modified by the CPU.
+
+### Deoptimization mechanism
+
+Every speculative region needs:
+
+1. a guard,
+2. a deoptimization target,
+3. a map from host state back to guest state,
+4. invalidation metadata,
+5. a correctness test suite.
+
+### Classification
+
+**Class B: promising but experimental.**
+
+---
+
+# 6. Persistent translation caching
+
+## 6.1 Code caching within a session
+
+The native code cache should store:
+
+- guest address range,
+- guest instruction checksum,
+- guest page version,
+- host code pointer,
+- exit targets,
+- register allocation metadata,
+- synchronization points,
+- deoptimization metadata,
+- code tier,
+- hotness data.
+
+## 6.2 Translation caching across sessions
+
+Cross-session caching is one of the most realistic improvements for Android.
+
+The cache key should include:
+
+```text
+system
+game content hash
+region
+executable/module hash
+emulator version
+recompiler version
+guest configuration
+host ISA feature set
+Android ABI
+device CPU family
+correctness mode
+```
+
+Raw AArch64 machine code should not be assumed portable across every ARM64 device. Instead, NostalgicVerse should cache three levels:
+
+### Level 1: Guest decode cache
+
+Portable and small.
+
+### Level 2: Normalized intermediate representation
+
+Portable across ARM64 devices.
+
+### Level 3: Native AArch64 code
+
+Device-feature-specific.
+
+This is superior to storing only native code.
+
+### Benefits
+
+- faster startup,
+- less shader and JIT stutter,
+- lower battery use after the first run,
+- reduced repeated compilation.
+
+### Costs
+
+- disk storage,
+- cache invalidation complexity,
+- possible corruption,
+- stale compatibility assumptions,
+- privacy concerns if profiling data is uploaded.
+
+### Important limitation
+
+A persistent cache does not make a difficult emulator fundamentally cheap. It reduces repeated compilation overhead; it does not eliminate execution cost.
+
+---
+
+# 7. ARM64-specific optimization
+
+Android ARM64 provides an important common baseline: Android ARM64 devices support the ASIMD/NEON extension, and the Android NDK exposes runtime CPU feature detection for optional extensions. ([developer.android.com](https://developer.android.com/ndk/guides/arch?utm_source=openai))
+
+## 7.1 Register mapping
+
+Guest register files should not be represented as memory whenever possible.
+
+For a hot translated region:
+
+- map guest scalar registers to AArch64 general-purpose registers,
+- map guest vector registers to NEON registers,
+- spill only across calls, exits, interrupts, and memory barriers,
+- use a compact guest-state structure for cold state.
+
+This is particularly important for:
+
+- MIPS EE code,
+- PS2 VU code,
+- PowerPC PPE code,
+- Cell SPU code.
+
+## 7.2 Guest-state layout
+
+Do not use a large pointer-rich C++ object for hot state.
+
+Prefer:
+
+```text
+hot scalar registers
+hot vector registers
+program counter
+status flags
+memory base pointers
+event deadline
+```
+
+Keep cold state elsewhere:
+
+```text
+debug state
+statistics
+exception metadata
+thread names
+logging data
+rare registers
+```
+
+This improves cache locality and reduces host memory traffic.
+
+## 7.3 NEON utilization
+
+NEON is useful for:
+
+- PS2 VU vectors,
+- PS3 SPU 128-bit operations,
+- PSP VFPU operations,
+- texture swizzles,
+- color conversion,
+- audio mixing,
+- matrix operations,
+- vertex processing,
+- software rasterization kernels,
+- save-state compression.
+
+NEON is less useful for:
+
+- branch-heavy code,
+- irregular memory access,
+- MMIO,
+- synchronization,
+- guest code with frequent exits.
+
+The goal should not be “vectorize the emulator.” The goal should be:
+
+> Identify arithmetic kernels with enough independent work to offset packing, shuffling, and load/store costs.
+
+## 7.4 ARM64 code generation concerns
+
+The AArch64 backend must implement:
+
+- correct instruction-cache maintenance after code generation,
+- W^X-compatible code cache transitions,
+- branch-range management,
+- literal pools,
+- far jumps,
+- exception-safe exits,
+- register preservation across helper calls,
+- endian-aware loads and stores.
+
+On Arm systems, self-modifying or dynamically generated code requires explicit instruction/data cache synchronization. ([developer.arm.com](https://developer.arm.com/community/arm-community-blogs/b/architectures-and-processors-blog/posts/caches-and-self-modifying-code?utm_source=openai))
+
+---
+
+# 8. GPU-assisted emulation
+
+## 8.1 Where GPU assistance is realistic
+
+GPU assistance is attractive for workloads with:
+
+- large batches,
+- regular data,
+- low synchronization frequency,
+- simple control flow,
+- high arithmetic intensity,
+- no per-instruction host interaction.
+
+Good candidates:
+
+- texture swizzling,
+- format conversion,
+- framebuffer scaling,
+- software rasterization kernels,
+- bulk vertex transformation,
+- post-processing,
+- audio resampling,
+- decompression,
+- large DMA copy or fill operations,
+- certain GS or RSX conversion tasks,
+- shader execution.
+
+## 8.2 Where GPU assistance is usually a mistake
+
+Poor candidates:
+
+- general guest CPU interpretation,
+- single-instruction execution,
+- MMIO-heavy paths,
+- interrupt-sensitive workloads,
+- SPU code with frequent mailbox interaction,
+- small DMA transfers,
+- synchronization primitives,
+- code requiring exact event ordering.
+
+Every GPU dispatch carries overhead:
+
+- command recording,
+- queue submission,
+- synchronization,
+- memory visibility,
+- possible CPU/GPU cache effects,
+- latency before completion.
+
+Vulkan places synchronization responsibility largely on the application. Execution ordering and memory visibility must be explicitly managed with barriers, semaphores, fences, and events. ([docs.vulkan.org](https://docs.vulkan.org/spec/latest/chapters/synchronization.html?utm_source=openai))
+
+## 8.3 Recommended GPU strategy
+
+Use Vulkan compute as a **bulk accelerator**, not as a general CPU replacement.
+
+The engine should maintain a cost model:
+
+```text
+dispatch_cost
++ synchronization_cost
++ memory_transfer_cost
+<
+CPU_execution_cost
+```
+
+Only dispatch when the expected workload exceeds a threshold.
+
+For example:
+
+- a 4 KB texture swizzle may remain on the CPU,
+- a 4 MB batch of format conversions may use the GPU,
+- one SPU vector loop may remain on the CPU,
+- hundreds of independent SPU-style kernels may be candidates for compute.
+
+---
+
+# 9. Rendering, shaders, and frame pacing
+
+## 9.1 Vulkan renderer
+
+Vulkan is appropriate for:
+
+- PS2 GS translation,
+- PSP rendering,
+- N64 rendering,
+- PS3 RSX translation,
+- adaptive resolution,
+- asynchronous texture upload,
+- presentation pacing,
+- shader caching.
+
+However, Vulkan does not automatically produce performance. Poor barriers, excessive pipeline changes, descriptor churn, and CPU-side command generation can make a Vulkan renderer slower than a simpler backend.
+
+## 9.2 Shader precompilation and persistent shader caches
+
+Pipeline creation can cause frame-time stalls. Vulkan supports saving pipeline-cache data and reusing it in later runs. Persistent pipeline caches avoid repeating some shader and pipeline compilation work. ([docs.vulkan.org](https://docs.vulkan.org/samples/latest/samples/performance/pipeline_cache/README.html))
+
+The cache key should include:
+
+- game identifier,
+- shader hash,
+- renderer version,
+- GPU vendor,
+- GPU model,
+- driver version,
+- Vulkan feature set,
+- precision mode,
+- resolution-dependent state.
+
+Do not reuse a driver-specific binary cache blindly across devices.
+
+## 9.3 Asynchronous shader compilation
+
+Use:
+
+- fallback shader or interpreter path,
+- asynchronous compilation,
+- pipeline warm-up during loading screens,
+- persistent cache,
+- frame-time budgets.
+
+Do not allow shader compilation to block the emulation thread unless correctness requires it.
+
+## 9.4 Frame prediction
+
+Frame prediction does not eliminate guest CPU work.
+
+Possible uses:
+
+- input prediction,
+- frame duplication,
+- asynchronous reprojection,
+- rendering the last completed frame,
+- hiding short GPU stalls.
+
+It does not make a CPU-bound emulator faster. It may improve perceived smoothness while reducing actual accuracy.
+
+## 9.5 Frame pacing
+
+Frame pacing is more valuable than maximizing peak FPS.
+
+The engine should track:
+
+- frame completion time,
+- guest emulation deadline,
+- GPU completion time,
+- presentation interval,
+- audio clock,
+- input-to-photon latency.
+
+Use:
+
+- adaptive frame queues,
+- bounded frame latency,
+- audio-master synchronization where appropriate,
+- frame duplication only when safe,
+- dynamic resolution before frame skipping.
+
+Frame skipping is a GPU optimization, not a reliable CPU optimization.
+
+---
+
+# 10. Memory management
+
+## 10.1 Virtual memory reservation
+
+A 64-bit Android process has enough virtual address space for large guest address maps, but virtual reservation does not mean physical RAM is free.
+
+RPCS3, for example, reserves large virtual regions for guest memory, executable areas, hooks, statistics, and SPU-related data. ([github.com](https://github.com/RPCS3/rpcs3/blob/master/rpcs3/Emu/Memory/vm.cpp))
+
+NostalgicVerse should distinguish:
+
+- reserved virtual address space,
+- committed physical pages,
+- resident hot pages,
+- file-backed cache pages,
+- anonymous dirty pages,
+- GPU-visible allocations.
+
+## 10.2 Zero-copy paths
+
+Zero-copy is useful when:
+
+- CPU and GPU can access the same allocation,
+- the data layout is already suitable,
+- synchronization cost is lower than a copy,
+- the resource is not frequently rewritten.
+
+Zero-copy is not automatically faster. A shared buffer can be slower if it causes:
+
+- cache invalidation,
+- poor alignment,
+- synchronization stalls,
+- nonoptimal GPU access,
+- CPU/GPU ownership transfers.
+
+## 10.3 Compression
+
+Useful:
+
+- save states,
+- inactive guest pages,
+- shader caches,
+- code caches,
+- texture archives,
+- cold asset storage.
+
+Usually harmful:
+
+- active CPU memory,
+- PS3 SPU local-store pages in the hot path,
+- memory accessed every frame,
+- data requiring decompression for every load.
+
+Android itself uses compressed memory through mechanisms such as ZRAM under memory pressure, but emulator-side compression should be selective rather than continuous. ([developer.android.com](https://developer.android.com/topic/performance/memory/guide/concepts?authuser=77&utm_source=openai))
+
+## 10.4 Memory manager design
+
+Use separate allocators for:
+
+- guest RAM,
+- guest VRAM,
+- SPU/VU local stores,
+- translated code,
+- shader binaries,
+- transient render resources,
+- save-state buffers,
+- profiling data.
+
+Each allocator should have:
+
+- a budget,
+- a high-water mark,
+- eviction policy,
+- telemetry,
+- thermal/power awareness.
+
+---
+
+# 11. Adaptive runtime management
+
+Android provides Game Mode, thermal APIs, performance hints, and related dynamic-performance facilities. The PerformanceHintManager API allows an application to report periodic work duration so the system can adjust scheduling and frequency decisions. ([developer.android.com](https://developer.android.com/games/optimize/adpf/gamemode/about-API-and-interventions?utm_source=openai))
+
+Android also exposes thermal status and recommends reducing workload when the device experiences thermal stress. ([developer.android.com](https://developer.android.com/games/optimize?utm_source=openai))
+
+## 11.1 Big.LITTLE-aware scheduling
+
+Do not permanently pin every emulator thread to the largest cores.
+
+Recommended allocation:
+
+### Prime/big cores
+
+- main emulation coordinator,
+- hot PS2 EE thread,
+- hot PS3 PPU thread,
+- critical renderer submission thread.
+
+### Other big cores
+
+- active SPU/VU workers,
+- audio,
+- GPU synchronization,
+- secondary guest processors.
+
+### Little cores
+
+- JIT compilation,
+- shader compilation,
+- asset decompression,
+- profiling,
+- cache maintenance,
+- background prefetch.
+
+This allocation should be adaptive. A high-end phone may benefit from more parallelism; a mid-range phone may become slower if too many workers compete for cache and memory bandwidth.
+
+## 11.2 Thermal scaling
+
+When thermal headroom declines:
+
+1. stop background optimizing compilation,
+2. reduce shader compilation concurrency,
+3. lower render resolution,
+4. lower anti-aliasing,
+5. reduce texture upload rate,
+6. reduce speculative execution,
+7. reduce worker count,
+8. preserve audio and emulation timing,
+9. reduce frame rate only as a final step.
+
+The engine should prefer predictable 30 FPS over unstable bursts between 45 and 60 FPS.
+
+## 11.3 Battery-aware scaling
+
+Battery mode should:
+
+- cap frame rate,
+- reduce resolution,
+- disable expensive post-processing,
+- use baseline JIT after the code is warm,
+- avoid background optimization,
+- reduce asset prefetch,
+- use power-efficient cores where deadlines allow.
+
+Performance mode should not simply max out all cores. Sustained performance is often better than short-term boosting followed by thermal throttling.
+
+---
+
+# 12. Technique evaluation matrix
+
+The following estimates are engineering projections rather than guaranteed benchmarks.
+
+Legend:
+
+- **Benefit:** relative improvement where the technique applies
+- **RAM:** additional working-set cost
+- **Battery/Thermal:** expected sustained effect
+- **LE:** low-end Android
+- **M:** mid-range Android
+- **H:** high-end Android
+- **PS2/PS3:** suitability for the respective systems
+
+| Technique | Problem and mechanism | Expected benefit | RAM | Battery / thermal | Difficulty | LE | PS2 | PS3 | Special hardware |
+|---|---|---:|---:|---|---|---|---|---|---|
+| Cached interpreter | Removes repeated decode cost | 1.5–3× over raw interpreter | Low | Better than interpreter | Low | Yes | Fallback | Fallback | No |
+| Baseline AArch64 JIT | Converts blocks to native ARM64 | Large; often foundational | Medium | Usually positive | Medium | Yes | Essential | Essential | No |
+| Direct block chaining | Avoids dispatcher exits | 5–25% | Low | Positive | Medium | Yes | Very useful | Useful | No |
+| Tiered JIT | Compiles only hot code aggressively | 5–30% over baseline JIT | Medium/high | Positive after warm-up | High | Partial | Yes | Yes | No |
+| Persistent native cache | Avoids repeated compilation | Startup and stutter reduction | Disk + medium RAM | Positive | Medium | Yes | Yes | Yes | No |
+| Persistent IR cache | Reuses work across ARM64 devices | Startup reduction | Disk | Positive | High | Yes | Yes | Yes | No |
+| Trace JIT | Optimizes hot paths across blocks | 5–30% on hot loops | Medium | Positive after warm-up | High | Partial | Very useful | Useful | No |
+| Guarded specialization | Removes stable checks | 5–20% | Medium | Positive if stable | High | Partial | Yes | Partial | No |
+| NEON vectorization | Maps guest SIMD/math to ASIMD | 1.2–4× in kernels | Low | Positive | Medium/high | Yes | Important | Important | No |
+| Fast memory maps | Replaces generic address handling | 5–30% memory-heavy paths | Low | Positive | Medium | Yes | Important | Very important | No |
+| Event batching | Reduces timer/interrupt overhead | 5–20% | Low | Positive | High | Yes | Useful | Difficult but useful | No |
+| HLE fast paths | Replaces stable firmware behavior | Large in OS-heavy workloads | Low | Positive | High | Yes | Important | Essential but compatibility-sensitive | No |
+| VU/SPU specialized recompiler | Exploits vector/local-store structure | Large on relevant games | Medium/high | Positive after warm-up | Very high | No | Essential | Essential | No |
+| DMA coalescing | Reduces transfer and synchronization overhead | 5–30% | Medium | Positive if correct | Very high | No | Useful | Extremely important | No |
+| Vulkan renderer | Moves rasterization to mobile GPU | Large for 3D rendering | Medium | Often positive | High | Partial | Essential | Essential | Vulkan |
+| GPU compute offload | Executes large regular batches | 0–3× on selected kernels; often negative otherwise | Medium/high | Mixed | Very high | Rarely | Partial | Partial | Vulkan compute |
+| Shader/pipeline cache | Removes shader compilation stalls | Major stutter reduction | Disk + medium RAM | Positive | Medium/high | Yes | Yes | Yes | Vulkan |
+| Zero-copy resources | Removes CPU/GPU copies | 0–25% in transfer-heavy paths | Medium | Mixed | High | Partial | Useful | Useful | Vulkan/shared memory |
+| Adaptive resolution | Reduces GPU cost | Large when GPU-bound | Low | Positive | Low/medium | Yes | Yes | Yes | No |
+| Predictive asset loading | Hides storage/decompression stalls | Lower load stutter | Medium cache | Mixed | Medium | Yes | Yes | Yes | No |
+| Thermal-aware scheduling | Prevents sustained throttling | Higher long-session performance | Low | Strong positive | Medium | Yes | Yes | Yes | Android APIs |
+| ML workload prediction | Predicts hot regions/settings | Usually small, 1–10% if successful | Low/medium | Potentially positive | High | Partial | Partial | Partial | No |
+| Predictive guest execution | Runs likely future code | Uncertain; usually negative | High | Usually negative | Extreme | No | Experimental | Not realistic broadly | No |
+| GPU CPU emulation | Runs arbitrary guest CPU on GPU | Usually negative | High | Usually negative | Extreme | No | No | No | GPU |
+| Whole-game native translation | Rewrites game into ARM64 | Potentially enormous for one title | Very high | Could be positive | Extreme | No | Experimental | Not general | No |
+
+---
+
+# 13. PS2 emulation
+
+## 13.1 Why PS2 is difficult
+
+The PS2 is not merely a MIPS CPU plus a conventional GPU.
+
+The Emotion Engine contains:
+
+- a customized MIPS-derived CPU,
+- VU0,
+- VU1,
+- DMA hardware,
+- an image-processing unit,
+- an I/O processor,
+- SPU2 audio,
+- the Graphics Synthesizer,
+- tightly coupled vector and DMA pipelines.
+
+The PS2 architecture was heavily optimized around vector units, DMA transfers, GIF packets, and the unusual Graphics Synthesizer. Technical documentation describes the Emotion Engine as containing a CPU core, two vector processing units, DMA, memory control, and related graphics/data paths. ([cs.york.ac.uk](https://www.cs.york.ac.uk/rts/docs/SIGDA-Compendium-1994-2004/papers/2004/isqed04/pdffiles/p371.pdf?utm_source=openai))
+
+Important difficulty sources:
+
+- VU microprogram execution,
+- VU pipeline timing,
+- VU-to-GIF interaction,
+- DMA ordering,
+- scratchpad memory,
+- GS framebuffer aliasing,
+- texture swizzling,
+- CLUT and format conversion,
+- synchronization between EE, VU, IOP, and GS,
+- games that exploit timing quirks.
+
+## 13.2 PS2 CPU techniques
+
+### EE AArch64 dynamic recompiler
+
+Use a native 64-bit backend with:
+
+- guest register allocation,
+- direct block chaining,
+- fast virtual-address translation,
+- delay-slot handling,
+- specialized 32/64-bit arithmetic,
+- branch target caches,
+- page-version invalidation.
+
+### VU macro/micro dual execution
+
+A practical PS2 engine should support:
+
+1. **Interpreter**
+2. **Cached interpreter**
+3. **Microprogram recompiler**
+4. **Specialized vector trace compiler**
+
+Most VU programs are sufficiently stable that translating an entire microprogram into an optimized region is worthwhile.
+
+### NEON mapping
+
+VU vectors can map naturally to NEON registers, but the compiler must handle:
+
+- lane swizzles,
+- packed/unpacked formats,
+- reciprocal and square-root approximations,
+- accumulator behavior,
+- flag propagation,
+- unusual write masks,
+- integer/float reinterpretation.
+
+### DMA optimization
+
+Use a centralized DMA scheduler with:
+
+- ring buffers,
+- transfer coalescing,
+- known-transfer fast paths,
+- lazy completion where legally safe,
+- exact barriers only when required,
+- prefetching for predictable chains.
+
+Do not create an operating-system thread for every DMA channel or transfer.
+
+## 13.3 PS2 Graphics Synthesizer
+
+The GS is unusual enough that a conventional modern GPU abstraction can introduce large overhead.
+
+The renderer should have:
+
+- a GS state cache,
+- texture and surface cache,
+- framebuffer alias detection,
+- swizzle/deswizzle kernels,
+- CLUT fast paths,
+- depth-buffer compatibility handling,
+- batching of compatible primitives,
+- Vulkan pipeline reuse,
+- optional GPU scaling.
+
+The hardest cases are not ordinary textured triangles. They are:
+
+- framebuffer-as-texture use,
+- render-to-texture aliasing,
+- feedback effects,
+- palette manipulation,
+- unusual blending,
+- depth-buffer reads,
+- games relying on exact pixel formats.
+
+## 13.4 PS2 feasibility
+
+### Low-end Android
+
+Realistic for:
+
+- native resolution,
+- many games,
+- moderate accuracy modes,
+- limited enhancements.
+
+Potential problems:
+
+- difficult VU-heavy titles,
+- high internal resolution,
+- software-renderer fallback,
+- games with severe GS timing dependencies.
+
+### Mid-range Android
+
+Realistic for a large portion of the library with:
+
+- a strong AArch64 dynarec,
+- VU recompilation,
+- Vulkan,
+- shader/pipeline caches,
+- adaptive resolution.
+
+### High-end Android
+
+Potentially suitable for:
+
+- higher internal resolutions,
+- improved texture filtering,
+- more aggressive VU optimization,
+- more demanding titles.
+
+PS2 is therefore an excellent first major target for NostalgicVerse’s adaptive architecture.
+
+---
+
+# 14. PS3 emulation
+
+# 14.1 PS3 CPU architecture
+
+The Cell Broadband Engine is a heterogeneous processor consisting of a PowerPC-based PPE and multiple Synergistic Processing Elements. IBM describes Cell as a heterogeneous multi-core architecture; Cell documentation describes SPEs with 128-bit SIMD registers and 256 KB of private local storage. ([research.ibm.com](https://research.ibm.com/publications/beyond-gaming-programming-the-playstationr3-cell-architecture-for-cost-effective-parallel-processing))
+
+A PS3 contains:
+
+- one dual-threaded PPE,
+- physically eight SPEs,
+- one disabled SPE,
+- one additional SPE reserved by the hypervisor,
+- fewer usable SPEs than the physical Cell implementation,
+- big-endian guest execution,
+- explicit DMA-driven SPE memory movement.
+
+The SPU cannot directly access general main memory in the normal cache-based CPU manner. It operates from its 256 KB local store and uses DMA through the memory-flow controller to move data. ([dominoweb.draco.res.ibm.com](https://dominoweb.draco.res.ibm.com/reports/rc24296.pdf?utm_source=openai))
+
+This is fundamentally different from conventional ARM cores.
+
+## 14.2 PPE emulation challenges
+
+The PPE is difficult because of:
+
+- PowerPC instruction semantics,
+- big-endian memory,
+- condition-register behavior,
+- branch and link semantics,
+- atomics and reservations,
+- memory ordering,
+- floating-point behavior,
+- self-modifying code,
+- system calls,
+- thread scheduling,
+- interaction with SPUs.
+
+A PPU/PowerPC JIT can translate ordinary code effectively, but it must frequently exit or invoke helpers for:
+
+- system calls,
+- synchronization,
+- memory reservations,
+- interrupts,
+- page faults,
+- special instructions,
+- memory-mapped devices.
+
+## 14.3 SPU emulation challenges
+
+SPU emulation is likely the largest CPU problem.
+
+Each SPU has:
+
+- 128-bit vector registers,
+- a large register file,
+- a small 256 KB local store,
+- no conventional data cache for normal code/data access,
+- explicit DMA,
+- mailbox and event channels,
+- memory-flow-controller state,
+- barriers and fences,
+- synchronization primitives,
+- unusual floating-point behavior.
+
+The SPU is not equivalent to “another ARM thread.” The emulator must reproduce:
+
+- local-store addressing,
+- DMA timing and completion state,
+- mailbox behavior,
+- channel semantics,
+- event behavior,
+- reservation interactions,
+- ordering,
+- SPU group behavior,
+- interaction with PPU and RSX.
+
+RPCS3’s current architecture exposes the real complexity: LLVM and other SPU recompiler modes, SPU cache, precompilation, preferred SPU threads, DMA accuracy, reservation accuracy, wake-up delays, loop detection, and RSX synchronization settings. ([github.com](https://github.com/RPCS3/rpcs3/blob/master/rpcs3/Emu/system_config.h?utm_source=openai))
+
+## 14.4 PS3 memory model
+
+The PS3 does not present the emulator with one simple uniform memory pool.
+
+Important regions include:
+
+- Cell main memory,
+- RSX local video memory,
+- SPU local stores,
+- mapped device regions,
+- shared buffers,
+- command FIFOs,
+- DMA-visible memory,
+- reservation-tracked memory.
+
+The RSX has its own local memory and can also access regions of Cell main memory. The PS3’s RSX includes separate GDDR3 memory and an interface to XDR memory; host-side access to RSX memory can be highly asymmetric. ([psdevwiki.com](https://www.psdevwiki.com/ps3/RSX?utm_source=openai))
+
+This creates expensive cases:
+
+- CPU writes data later read by RSX,
+- RSX writes data later read by CPU,
+- SPU DMA accesses data concurrently with PPU,
+- CPU reservations overlap with SPU accesses,
+- framebuffer surfaces alias ordinary memory,
+- texture data is reused as render targets.
+
+The emulator must preserve visibility and ordering even when the host memory system looks more coherent than the guest.
+
+## 14.5 PS3 RSX challenges
+
+The RSX is derived from an older NVIDIA architecture with:
+
+- separate vertex and pixel shader behavior,
+- proprietary command processing,
+- framebuffer and surface state,
+- tiling and swizzling,
+- texture cache behavior,
+- command FIFO synchronization,
+- special depth and color-buffer behavior,
+- shaders and state combinations unlike modern Vulkan defaults.
+
+The RSX command FIFO may intentionally spin or use synchronization constructs. RPCS3’s code includes explicit FIFO accuracy modes, cache handling, reservation locks, surface caches, and synchronization logic. ([github.com](https://github.com/RPCS3/rpcs3/blob/master/rpcs3/Emu/RSX/RSXFIFO.cpp?utm_source=openai))
+
+A PS3 renderer is therefore not simply a shader translator. It is:
+
+```text
+RSX command processor
++ memory manager
++ surface cache
++ texture cache
++ shader translator
++ synchronization engine
++ framebuffer alias tracker
++ Vulkan backend
+```
+
+## 14.6 PS3 parallel workload challenges
+
+The original PS3 expects developers to manually partition work among PPE and SPUs.
+
+Games may use SPUs for:
+
+- animation,
+- physics,
+- culling,
+- audio,
+- decompression,
+- skinning,
+- post-processing,
+- streaming,
+- AI,
+- graphics preparation.
+
+These workloads may have dependencies and deadlines. Running every virtual SPU as an independent host thread can be slower because of:
+
+- thread scheduling overhead,
+- cache pressure,
+- lock contention,
+- host core scarcity,
+- excess synchronization,
+- power consumption.
+
+The emulator needs a **virtual SPU scheduler**, not merely one host thread per SPU.
+
+---
+
+# 15. Realistic PS3 optimization techniques
+
+## 15.1 PPU native AArch64 recompiler
+
+Required.
+
+Use:
+
+- PowerPC-to-AArch64 translation,
+- direct block chaining,
+- register allocation,
+- big-endian fast paths,
+- branch target caches,
+- fast system-call dispatch,
+- reservation helpers,
+- page-version code invalidation,
+- function-level and trace-level compilation.
+
+Expected effect:
+
+- significant reduction in PPU overhead,
+- not sufficient alone because many games are SPU- or RSX-heavy.
+
+## 15.2 SPU native recompiler
+
+Required for serious performance.
+
+Use:
+
+- SPU block translation,
+- whole-local-store translation where possible,
+- NEON mapping of 128-bit operations,
+- local-store base-pointer specialization,
+- DMA helper inlining,
+- mailbox fast paths,
+- loop detection,
+- persistent SPU code cache,
+- specialized handling for common SPU kernels.
+
+SPU compilation should not necessarily use the same optimizer as PPU code. The SPU’s local-store model is closer to a compact statically linked program than to a conventional cached CPU.
+
+## 15.3 SPU local-store software cache
+
+The emulator can model each SPU local store as:
+
+- a direct host pointer,
+- a versioned memory object,
+- a compiled-code region,
+- a DMA queue,
+- a dirty-range table.
+
+DMA should be represented as descriptors rather than immediate byte copies whenever possible.
+
+Possible optimization:
+
+```text
+guest DMA descriptor
+        ↓
+dependency analysis
+        ↓
+coalesced transfer
+        ↓
+host memcpy / shared mapping / GPU copy
+        ↓
+completion event
+```
+
+This can remove repeated setup cost, but it must preserve:
+
+- alignment,
+- ordering,
+- tag-group behavior,
+- fences,
+- barriers,
+- overlap rules.
+
+## 15.4 Virtual SPU worker pool
+
+Do not permanently create one host thread per guest SPU.
+
+Use:
+
+- a small pool of long-lived workers,
+- guest SPU state objects,
+- work stealing only when ordering permits,
+- priority for deadline-sensitive SPUs,
+- fast sleeping for wait loops,
+- special handling for SPURS workloads,
+- bounded run-ahead.
+
+For a low-end phone, running six heavy SPU workers simultaneously may be worse than scheduling fewer workers with carefully chosen quanta.
+
+## 15.5 PPU/SPU synchronization optimization
+
+Use three levels:
+
+### Exact mode
+
+For compatibility testing and difficult games.
+
+### Adaptive mode
+
+Uses fast paths where profiling proves them safe.
+
+### Game-profile mode
+
+Enables known safe HLE or synchronization shortcuts for a particular title.
+
+Candidate optimizations:
+
+- reduce repeated lock acquisition,
+- detect stable wait loops,
+- use futex-like host primitives only when guest semantics permit,
+- coalesce mailbox notifications,
+- avoid waking sleeping guest units unnecessarily,
+- batch event processing,
+- use bounded polling before sleeping.
+
+RPCS3 includes settings for SPU loop detection, wake-up delays, reservation handling, preferred SPU threads, and RSX/PPU preemption because these interactions materially affect performance. ([github.com](https://github.com/RPCS3/rpcs3/blob/master/rpcs3/Emu/system_config.h?utm_source=openai))
+
+## 15.6 HLE of stable system services
+
+High-level emulation can avoid expensive operating-system emulation for:
+
+- file operations,
+- threading primitives,
+- synchronization primitives,
+- audio services,
+- controller services,
+- common graphics library calls,
+- decompression,
+- network stubs where appropriate.
+
+However, HLE must not replace LLE when games depend on:
+
+- exact syscall behavior,
+- unusual error codes,
+- timing,
+- memory layout,
+- synchronization side effects,
+- kernel-visible object state.
+
+PS3 compatibility is strongly affected by missing system modules and firmware behavior. RPCS3’s developer documentation lists a large set of Cell, SPU, RSX, syscall, firmware, and module references, illustrating the breadth of the implementation problem. ([github.com](https://github.com/rpcs3/rpcs3/wiki/developer-information))
+
+## 15.7 RSX Vulkan translation
+
+Use:
+
+- persistent shader cache,
+- asynchronous shader compilation,
+- surface cache,
+- texture cache,
+- framebuffer alias detection,
+- command-buffer batching,
+- host-visible staging only when necessary,
+- GPU-native texture formats where possible,
+- reduced CPU readback,
+- GPU scaling,
+- specialized fast paths for common RSX operations.
+
+Do not translate every RSX command directly into a separate Vulkan command if several commands can be combined safely.
+
+## 15.8 PS3 memory synchronization
+
+Use:
+
+- versioned guest pages,
+- ownership metadata,
+- explicit CPU/RSX/SPU access tracking,
+- reservation-line tracking,
+- dirty-range propagation,
+- lazy coherence where legal,
+- immediate barriers only for externally visible synchronization.
+
+The most dangerous optimization is removing memory synchronization because it appears unnecessary in one game. This can produce rare, nondeterministic corruption.
+
+## 15.9 PS3 shader and code precompilation
+
+A practical system can precompile:
+
+- known PPU modules,
+- known SPU modules,
+- firmware libraries,
+- RSX shader combinations,
+- game-specific static code.
+
+But precompilation cannot cover:
+
+- runtime-generated code,
+- dynamically loaded modules,
+- self-modifying code,
+- data-dependent shader variants,
+- code encrypted or transformed until runtime.
+
+---
+
+# 16. PS3 suitability by Android device class
+
+## Low-end Android
+
+Broad PS3 support is not realistic.
+
+Possible research targets:
+
+- menus,
+- simple 2D or low-complexity games,
+- isolated CPU or shader benchmarks,
+- remote or hybrid execution,
+- experimental game-specific support.
+
+Not realistic:
+
+- broad commercial compatibility,
+- sustained full-speed 3D gameplay,
+- demanding SPU-heavy games,
+- high-resolution RSX rendering.
+
+## Mid-range Android
+
+Potentially viable for:
+
+- selected lightweight games,
+- low internal resolution,
+- highly optimized profiles,
+- experimental support,
+- games with low SPU utilization.
+
+Still not realistic as a general PS3 platform.
+
+## High-end Android
+
+Potentially viable for selected titles if NostalgicVerse has:
+
+- mature PPU and SPU recompilers,
+- strong Vulkan RSX backend,
+- persistent caches,
+- game-specific compatibility work,
+- careful worker scheduling,
+- adequate thermal headroom.
+
+Even on high-end devices, some games may remain impractical because of synchronization or RSX behavior rather than raw arithmetic throughput.
+
+---
+
+# 17. Proposed NostalgicVerse Adaptive Emulation Engine
+
+## 17.1 High-level architecture
+
+```text
+                ┌────────────────────────────┐
+                │ Android Frontend / Input   │
+                └──────────────┬─────────────┘
+                               │
+                ┌──────────────▼─────────────┐
+                │ Adaptive Performance Layer │
+                └──────┬───────────┬─────────┘
+                       │           │
+            ┌──────────▼───┐   ┌───▼──────────┐
+            │ Guest Core   │   │ Vulkan Layer │
+            │ Scheduler    │   │ / Renderer   │
+            └──────┬───────┘   └────┬─────────┘
+                   │                │
+        ┌──────────▼─────────┐ ┌────▼────────────┐
+        │ Dynamic Recompiler │ │ Shader Cache    │
+        │ / Runtime Optimizer│ │ Pipeline Cache  │
+        └──────────┬─────────┘ └────┬────────────┘
+                   │                │
+             ┌─────▼────────────────▼─────┐
+             │ Guest Memory / DMA Manager │
+             └─────────────┬──────────────┘
+                           │
+             ┌─────────────▼──────────────┐
+             │ System-Specific Core       │
+             │ EE / VU / Cell / RSX / etc.│
+             └────────────────────────────┘
+```
+
+---
+
+## 17.2 Emulator Core Layer
+
+Responsibilities:
+
+- guest CPU state,
+- instruction semantics,
+- timers,
+- interrupts,
+- device models,
+- DMA,
+- guest memory map,
+- synchronization,
+- save states,
+- compatibility modes.
+
+The core must expose a narrow interface to the optimizer. The optimizer should not directly mutate arbitrary emulator state.
+
+---
+
+## 17.3 Dynamic Recompiler
+
+Components:
+
+- decoder,
+- intermediate representation,
+- AArch64 code generator,
+- baseline compiler,
+- optimizing compiler,
+- trace compiler,
+- code cache,
+- invalidation system,
+- deoptimization system,
+- profiling hooks.
+
+The IR should be compact and system-aware rather than a generic LLVM module for every instruction. A custom IR can reduce:
+
+- compilation time,
+- memory use,
+- mobile thermal bursts,
+- dependency overhead.
+
+LLVM may still be used selectively for offline or high-tier optimization.
+
+---
+
+## 17.4 Runtime Optimizer
+
+Collect:
+
+- execution count,
+- host cycles,
+- branch behavior,
+- exits,
+- cache misses if available,
+- helper-call frequency,
+- memory access type,
+- synchronization frequency,
+- GPU wait time,
+- compilation cost,
+- thermal state.
+
+Optimization decisions should maximize:
+
+\[
+\text{Net Benefit}
+=
+\text{future execution savings}
+-
+\text{compile cost}
+-
+\text{RAM cost}
+-
+\text{thermal cost}
+\]
+
+---
+
+## 17.5 Native ARM64 Code Cache
+
+Use:
+
+- baseline region cache,
+- optimized region cache,
+- deoptimization metadata,
+- page-version tags,
+- direct-link patch tables,
+- host-feature specialization,
+- LRU or cost-based eviction.
+
+Evict code based on:
+
+```text
+benefit_per_byte
+=
+execution_time_saved
+/
+code_size
+```
+
+Do not retain every translated block indefinitely.
+
+---
+
+## 17.6 GPU/Vulkan Rendering Layer
+
+Responsibilities:
+
+- guest GPU command translation,
+- shader generation,
+- framebuffer emulation,
+- texture cache,
+- surface cache,
+- format conversion,
+- render-state caching,
+- asynchronous submission,
+- adaptive resolution,
+- presentation.
+
+The renderer should have both:
+
+- a strict mode,
+- a fast mode with title-specific shortcuts.
+
+---
+
+## 17.7 Shader Cache
+
+Two separate caches are desirable:
+
+### Portable shader cache
+
+Stores:
+
+- guest shader hash,
+- normalized intermediate shader representation,
+- render-state metadata.
+
+### Device pipeline cache
+
+Stores:
+
+- Vulkan pipeline cache data,
+- driver-specific binaries,
+- device-specific pipeline metadata.
+
+Vulkan pipeline cache data can be saved and reused across runs to reduce repeated pipeline compilation cost. ([docs.vulkan.org](https://docs.vulkan.org/samples/latest/samples/performance/pipeline_cache/README.html))
+
+---
+
+## 17.8 Memory Manager
+
+Subcomponents:
+
+- guest address map,
+- virtual-to-host translation,
+- page versions,
+- dirty-page tracking,
+- code invalidation,
+- GPU-visible allocations,
+- DMA descriptors,
+- cache-line reservations,
+- save-state snapshots,
+- memory budgets.
+
+PS3 requires additional managers for:
+
+- SPU local stores,
+- RSX memory,
+- reservation lines,
+- DMA tags,
+- shared memory mappings.
+
+---
+
+## 17.9 Adaptive Performance Manager
+
+Inputs:
+
+- frame-time budget,
+- guest emulation time,
+- GPU time,
+- JIT time,
+- thermal headroom,
+- battery mode,
+- memory pressure,
+- device capability profile.
+
+Outputs:
+
+- JIT tier,
+- compiler worker count,
+- render scale,
+- shader precision,
+- texture filtering,
+- frame-rate target,
+- SPU worker count,
+- GPU compute threshold,
+- asset prefetch level.
+
+---
+
+## 17.10 Thermal Manager
+
+The thermal manager should never wait until the device is already throttling heavily.
+
+State machine:
+
+```text
+COOL
+  → WARM
+  → THERMAL_WARNING
+  → THERMAL_LIMIT
+  → RECOVERY
+```
+
+Actions:
+
+### COOL
+
+- enable optimization compilation,
+- prefetch assets,
+- warm pipelines.
+
+### WARM
+
+- limit background compilation,
+- reduce prefetch,
+- monitor frame variance.
+
+### THERMAL_WARNING
+
+- lower render scale,
+- disable expensive effects,
+- reduce compiler concurrency,
+- reduce SPU worker count if CPU-bound.
+
+### THERMAL_LIMIT
+
+- preserve emulation timing,
+- reduce frame rate,
+- disable optional enhancements,
+- stop background compilation.
+
+---
+
+## 17.11 Battery Manager
+
+Battery mode should optimize energy per frame, not only FPS.
+
+Actions:
+
+- cap FPS,
+- avoid unnecessary recompilation,
+- use cached code,
+- reduce resolution,
+- reduce texture filtering,
+- lower background activity,
+- prefer efficient cores for noncritical tasks,
+- use batch operations rather than frequent wakeups.
+
+---
+
+## 17.12 Controller/Input Layer
+
+Input should be timestamped against:
+
+- Android event time,
+- guest frame time,
+- audio clock,
+- presentation time.
+
+Avoid polling controllers from the main UI thread.
+
+For latency-sensitive systems:
+
+- sample input once per emulated frame,
+- support late-latching where safe,
+- do not allow input prediction to alter deterministic guest state unless explicitly enabled.
+
+---
+
+## 17.13 Game Compatibility Profiles
+
+Profiles should be generated from:
+
+- game identifier,
+- observed behavior,
+- known emulator settings,
+- automated tests,
+- runtime telemetry,
+- user overrides.
+
+Profile parameters may include:
+
+- CPU execution tier,
+- VU/SPU mode,
+- synchronization strictness,
+- framebuffer handling,
+- shader precision,
+- resolution scale,
+- frame pacing,
+- HLE/LLE module selection,
+- DMA behavior,
+- GPU compute thresholds.
+
+Profiles must be versioned and reversible.
+
+---
+
+## 17.14 Automatic Benchmarking
+
+Each system should ship with microbenchmarks for:
+
+- integer arithmetic,
+- floating point,
+- vector operations,
+- branch-heavy code,
+- random memory,
+- sequential memory,
+- endian conversion,
+- DMA,
+- texture upload,
+- shader creation,
+- framebuffer readback,
+- synchronization,
+- code generation.
+
+A game benchmark should record:
+
+- average FPS,
+- 1% and 0.1% frame times,
+- emulation time,
+- GPU time,
+- JIT time,
+- shader compile time,
+- thermal state,
+- battery current if available,
+- memory usage,
+- cache hit rates.
+
+---
+
+## 17.15 Runtime Bottleneck Detection
+
+The system should classify each frame as:
+
+```text
+CPU guest-bound
+JIT-bound
+memory-bound
+GPU-bound
+shader-bound
+synchronization-bound
+thermal-bound
+storage-bound
+```
+
+Possible instrumentation:
+
+- high-resolution timers,
+- Android tracing,
+- Perfetto,
+- Android GPU Inspector,
+- native sampling,
+- Vulkan timestamp queries,
+- emulator-specific counters.
+
+Android documentation recommends system tracing for identifying CPU scheduling, GPU, synchronization, and frequency behavior. ([developer.android.com](https://developer.android.com/games/optimize))
+
+---
+
+# 18. Machine-learning-assisted optimization
+
+AI is not a substitute for a compiler, emulator, scheduler, or GPU.
+
+## Realistic uses
+
+### Workload prediction
+
+Predict:
+
+- next hot guest region,
+- likely shader use,
+- next asset,
+- likely frame complexity,
+- thermal trend,
+- whether optimization compilation will pay off.
+
+### Policy selection
+
+A small model can choose among:
+
+- baseline JIT,
+- optimizing JIT,
+- interpreter fallback,
+- GPU compute,
+- CPU compute,
+- render resolution,
+- SPU worker count.
+
+### Profile clustering
+
+Group games by observed behavior:
+
+- CPU-heavy,
+- GPU-heavy,
+- synchronization-heavy,
+- shader-heavy,
+- memory-bandwidth-heavy,
+- thermally unstable.
+
+### Model choice
+
+Use:
+
+- decision trees,
+- linear models,
+- bandit algorithms,
+- small regression models.
+
+Avoid large neural networks for per-frame decisions.
+
+## Unrealistic uses
+
+- generating correct PowerPC/SPU semantics from examples,
+- replacing the PS3 memory model,
+- inferring all synchronization requirements,
+- converting arbitrary games directly to native ARM64,
+- removing the need for emulation.
+
+Machine learning should only control already-correct mechanisms.
+
+---
+
+# 19. Research directions
+
+## 1. Cross-component trace compilation
+
+Compile guest code across:
+
+- CPU blocks,
+- memory helpers,
+- DMA operations,
+- vector routines,
+- synchronization boundaries.
+
+The challenge is preserving precise state and deoptimization behavior.
+
+**Potential:** significant for PS2 VU/EE and PS3 PPU/SPU interaction.  
+**Risk:** synchronization makes traces fragile.
+
+---
+
+## 2. SPU DMA dependence graph compiler
+
+Analyze recurring DMA patterns and construct a dependency graph:
+
+```text
+DMA source
+→ local-store range
+→ compute region
+→ DMA destination
+→ synchronization event
+```
+
+This could enable:
+
+- coalesced transfers,
+- prefetching,
+- double buffering,
+- reduced host helper calls,
+- better worker scheduling.
+
+This is one of the most promising PS3-specific research areas.
+
+---
+
+## 3. Adaptive VU microprogram compilation
+
+For PS2:
+
+- recognize VU microprograms,
+- infer stable register usage,
+- specialize pipeline behavior,
+- vectorize to NEON,
+- compile common instruction sequences into macro-operations.
+
+This could produce larger gains than improving the general EE JIT.
+
+---
+
+## 4. Persistent normalized IR across devices
+
+Instead of storing only native ARM64 code, store:
+
+- decoded blocks,
+- normalized IR,
+- hotness profiles,
+- optimization hints,
+- shader IR,
+- game-specific behavior signatures.
+
+At first run on a new device, only the final ARM64 code generation is required.
+
+This reduces startup compilation while avoiding unsafe reuse of device-specific machine code.
+
+---
+
+## 5. Thermal-aware compiler scheduling
+
+Use measured compiler cost and thermal response to decide:
+
+- when to optimize,
+- how many compiler workers to run,
+- which blocks are worth recompiling,
+- whether to use expensive vector optimization,
+- whether to defer compilation until loading screens.
+
+This could improve sustained performance more than peak benchmark performance.
+
+---
+
+## 6. GPU-resident GS/RSX subpipelines
+
+Do not attempt to run entire guest CPUs on the GPU.
+
+Instead, investigate GPU-resident subpipelines for:
+
+- GS raster operations,
+- RSX format conversion,
+- texture swizzling,
+- depth/color conversion,
+- large DMA transforms,
+- software vertex processing.
+
+The key research problem is determining when GPU dispatch latency is lower than CPU execution.
+
+---
+
+## 7. Formalized speculative guards
+
+Create a correctness framework for:
+
+- page-version assumptions,
+- memory alias assumptions,
+- DMA completion assumptions,
+- synchronization shortcuts,
+- floating-point modes,
+- framebuffer aliasing.
+
+Every optimization would carry a proof obligation or runtime guard.
+
+This would make aggressive optimization safer and easier to debug.
+
+---
+
+## 8. Virtual heterogeneous-core scheduling
+
+Develop a scheduler that treats guest units as deadline-driven tasks instead of permanent threads.
+
+Inputs:
+
+- guest dependency graph,
+- host core type,
+- thermal headroom,
+- frame deadline,
+- task history,
+- synchronization urgency.
+
+This is especially relevant to PS3 SPU workloads.
+
+---
+
+## 9. Automatic compatibility-profile synthesis
+
+During the first run:
+
+1. collect behavior,
+2. detect bottlenecks,
+3. test safe optimization candidates,
+4. compare output hashes or frame signatures,
+5. retain only stable configurations.
+
+This should be conservative. It must not silently trade correctness for performance.
+
+---
+
+## 10. Emulator-specific energy modeling
+
+Measure energy per:
+
+- emulated frame,
+- translated guest instruction,
+- shader compilation,
+- DMA transfer,
+- GPU dispatch,
+- cache miss,
+- synchronization event.
+
+The engine could then select the lowest-energy execution strategy that meets the frame deadline.
+
+---
+
+# 20. Ideas that should be rejected
+
+## “Use the GPU to emulate the PS3 CPU”
+
+Generally unrealistic.
+
+The GPU is good at large regular batches, not arbitrary instruction streams with:
+
+- branches,
+- interrupts,
+- MMIO,
+- synchronization,
+- unpredictable memory access,
+- fine-grained dependencies.
+
+## “Use AI to translate the game into ARM64”
+
+Not as a general method.
+
+AI can predict or classify. It cannot safely infer all behavior required for exact emulation.
+
+## “Run all virtual processors as host threads”
+
+Usually counterproductive.
+
+More threads create:
+
+- contention,
+- cache pressure,
+- scheduling overhead,
+- synchronization cost,
+- thermal throttling.
+
+## “Skip frames to solve CPU bottlenecks”
+
+Frame skipping mostly saves renderer work. It does not remove the need to execute the game’s CPU logic.
+
+## “Compress active emulator memory”
+
+Usually harmful because every access becomes a decompression problem.
+
+## “Speculate away synchronization”
+
+Unsafe unless guarded by exact dependency tracking and deoptimization.
+
+---
+
+# 21. Recommended implementation order
+
+## Phase 1: Infrastructure
+
+Implement:
+
+- ARM64 native runtime,
+- common memory manager,
+- profiling,
+- persistent cache framework,
+- Vulkan abstraction,
+- thermal and performance integration,
+- frame pacing,
+- automated benchmark suite.
+
+## Phase 2: Simple systems
+
+Target:
+
+- NES,
+- SNES,
+- Game Boy,
+- GBA,
+- PS1.
+
+Use these systems to validate:
+
+- input,
+- audio,
+- save states,
+- cache persistence,
+- timing,
+- UI,
+- performance telemetry.
+
+## Phase 3: N64, PSP, DS
+
+Develop:
+
+- branch-heavy dynarec,
+- vector backends,
+- texture caches,
+- shader caches,
+- ARM64 optimization.
+
+## Phase 4: PS2
+
+Prioritize:
+
+- EE JIT,
+- IOP JIT,
+- VU micro-recompiler,
+- DMA scheduler,
+- GS Vulkan backend,
+- framebuffer alias tracking,
+- SPU2 optimization.
+
+## Phase 5: Experimental PS3
+
+Start with:
+
+- PPU interpreter and JIT,
+- SPU interpreter,
+- SPU baseline recompiler,
+- local-store model,
+- DMA model,
+- basic RSX command processor,
+- simple Vulkan renderer,
+- persistent PPU/SPU/shader caches.
+
+Do not promise general compatibility until:
+
+- synchronization is reliable,
+- SPU scheduling is stable,
+- RSX surface handling is mature,
+- performance is measured on sustained workloads.
+
+---
+
+# 22. Final recommendation
+
+NostalgicVerse should be built around a **tiered adaptive architecture**, not around a single “super JIT.”
+
+The practical design is:
+
+```text
+cached interpreter
+        ↓
+baseline AArch64 JIT
+        ↓
+direct block chaining
+        ↓
+hot-region profiling
+        ↓
+specialized trace compilation
+        ↓
+NEON/vector optimization
+        ↓
+persistent normalized IR/native cache
+        ↓
+thermal-aware runtime policy
+```
+
+For rendering:
+
+```text
+guest graphics commands
+        ↓
+state normalization
+        ↓
+surface/texture cache
+        ↓
+shader IR
+        ↓
+persistent Vulkan shader/pipeline cache
+        ↓
+adaptive resolution and frame pacing
+```
+
+For PS2:
+
+> Build a highly optimized native ARM64 EE/VU/GS emulator. This is realistic and technically worthwhile.
+
+For PS3:
+
+> Treat it as a separate research program. Focus first on PPU/SPU recompilation, DMA scheduling, local-store optimization, RSX surface management, and synchronization. Do not assume GPU compute or AI will solve the fundamental problem.
+
+The most valuable research opportunities are not magical shortcuts. They are:
+
+- better specialization,
+- better cache reuse,
+- better synchronization modeling,
+- better DMA scheduling,
+- better vector code generation,
+- better GPU/CPU workload partitioning,
+- better thermal decisions,
+- better automatic profiling.
+
+A well-designed NostalgicVerse engine could substantially outperform a traditional emulator architecture on ARM64 Android for many systems. It cannot make PS3 emulation computationally equivalent to native execution. The goal should be to remove avoidable overhead while preserving the unavoidable complexity of the original machines.

@@ -1,0 +1,72 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-warcraft-ii-tides-of-darkness",
+  "slug": "warcraft-ii-tides-of-darkness",
+  "title": "Warcraft II: Tides of Darkness",
+  "originalReleaseYear": 1995,
+  "exactReleaseDate": "December 9, 1995",
+  "originalLaunchPlatform": "PC",
+  "originalLaunchRegion": "North America",
+  "developer": "Blizzard Entertainment",
+  "publisher": "Blizzard Entertainment",
+  "platforms": [
+    "PC",
+    "Macintosh",
+    "PlayStation",
+    "Sega Saturn"
+  ],
+  "genre": "real-time-strategy",
+  "subgenres": [
+    "fantasy"
+  ],
+  "era": "1990s",
+  "shortDescription": "The Alliance of Lordaeron battles the Orcish Horde with naval and aerial warfare across Azeroth.",
+  "historicalSignificance": "Established Blizzard Entertainment as a worldwide titan of real-time strategy gaming.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Warcraft_II:_Tides_of_Darkness",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "The Alliance of Lordaeron battles the Orcish Horde with naval and aerial warfare across Azeroth.",
+    "culturalImpact": "Established Blizzard Entertainment as a worldwide titan of real-time strategy gaming."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PC"
+    ],
+    "genres": [
+      "real-time-strategy"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Warcraft_II_Tides_of_Darkness_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Warcraft_II_Tides_of_Darkness_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Warcraft_II:_Tides_of_Darkness",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Warcraft II: Tides of Darkness",
+    "Blizzard Entertainment",
+    "Blizzard Entertainment",
+    "PC",
+    "real-time-strategy",
+    "1995",
+    "1990s",
+    "PC",
+    "Macintosh",
+    "PlayStation",
+    "Sega Saturn",
+    "fantasy"
+  ],
+  "url": "/games/warcraft-ii-tides-of-darkness/",
+  "featured": false
+}

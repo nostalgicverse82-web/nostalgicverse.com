@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-final-fantasy-xii",
+  "slug": "final-fantasy-xii",
+  "title": "Final Fantasy XII",
+  "originalReleaseYear": 2006,
+  "exactReleaseDate": "March 16, 2006",
+  "originalLaunchPlatform": "PlayStation 2",
+  "originalLaunchRegion": "Japan",
+  "developer": "Square Enix",
+  "publisher": "Square Enix",
+  "platforms": [
+    "PlayStation 2"
+  ],
+  "genre": "rpg",
+  "subgenres": [
+    "action-rpg"
+  ],
+  "era": "2000s",
+  "shortDescription": "Ivalice political epic introducing seamless Active Dimension Battles and programmable Gambits.",
+  "historicalSignificance": "Radically modernized JRPG combat design, pushing PS2 hardware to its technical zenith.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Final_Fantasy_XII",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Ivalice political epic introducing seamless Active Dimension Battles and programmable Gambits.",
+    "culturalImpact": "Radically modernized JRPG combat design, pushing PS2 hardware to its technical zenith."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 2"
+    ],
+    "genres": [
+      "rpg"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/9/98/Ffxii_na_cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/9/98/Ffxii_na_cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Final_Fantasy_XII",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Final Fantasy XII",
+    "Square Enix",
+    "Square Enix",
+    "PlayStation 2",
+    "rpg",
+    "2006",
+    "2000s",
+    "PlayStation 2",
+    "action-rpg"
+  ],
+  "url": "/games/final-fantasy-xii/",
+  "featured": false
+}

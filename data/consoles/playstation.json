@@ -1,0 +1,46 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+  "id": "console-playstation-1",
+  "slug": "playstation",
+  "name": "Sony PlayStation",
+  "manufacturer": "Sony",
+  "generation": "Fifth Generation",
+  "generationNumber": 5,
+  "originalReleaseYear": 1994,
+  "exactReleaseDate": "December 3, 1994",
+  "mediaFormat": "Double-speed CD-ROM (black optical disc)",
+  "significance": "The first computer entertainment platform in history to ship over 100 million units, permanently making gaming a dominant mature global medium.",
+  "verifiedFactualData": {
+    "cpu": "MIPS R3000A-compatible 32-bit RISC @ 33.87 MHz",
+    "gpuOrVideoChip": "Sony custom Geometry Transformation Engine (GTE)",
+    "ram": "2 MB main RAM, 1 MB VRAM, 512 KB sound RAM"
+  },
+  "editorialContent": {
+    "overview": "Ken Kutaragi's revolutionary 3D geometry engine that broke Nintendo's stranglehold and sold over 100 million units.",
+    "marketLegacy": "The first computer entertainment platform in history to ship over 100 million units, permanently making gaming a dominant mature global medium.",
+    "controllerDesign": "PlayStation digital controller, Dual Analog, DualShock (1997)"
+  },
+  "keyGames": [
+    "metal-gear-solid",
+    "final-fantasy-vii",
+    "resident-evil",
+    "gran-turismo",
+    "resident-evil-2",
+    "castlevania-symphony-of-the-night"
+  ],
+  "assets": {
+    "mainImage": "/assets/images/consoles/playstation.png",
+    "heroImage": "/assets/images/consoles/playstation-hero.png",
+    "hardwareImage": "/assets/images/consoles/playstation-hardware.png"
+  },
+  "keywords": [
+    "playstation",
+    "ps1",
+    "sony",
+    "fifth generation",
+    "32-bit",
+    "cd-rom",
+    "dualshock",
+    "1994"
+  ]
+}

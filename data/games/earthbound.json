@@ -1,0 +1,93 @@
+{
+  "id": "game-earthbound",
+  "slug": "earthbound",
+  "title": "EarthBound",
+  "japaneseTitle": "MOTHER 2 ギーグの逆襲",
+  "url": "/games/earthbound/",
+  "originalReleaseYear": 1994,
+  "exactReleaseDate": "1994-08-27",
+  "developer": "Ape Inc. / HAL Laboratory",
+  "publisher": "Nintendo",
+  "director": "Shigesato Itoi",
+  "designer": "Shigesato Itoi & Satoru Iwata",
+  "composer": "Keiichi Suzuki & Hirokazu Tanaka",
+  "originalLaunchPlatform": "Super Famicom",
+  "platforms": [
+    "Super Famicom",
+    "SNES",
+    "Game Boy Advance"
+  ],
+  "genre": "rpg",
+  "subgenres": [
+    "Contemporary RPG",
+    "Comedy Satire RPG"
+  ],
+  "era": "1990s",
+  "shortDescription": "Shigesato Itoi's quirky, poignant modern-day RPG satire, celebrated for its rolling HP odometer, offbeat Americana setting, and deep psychological heart.",
+  "historicalSignificance": "A masterpiece of unconventional RPG design, subverting fantasy tropes in favor of 1990s American suburbia, introducing the rolling HP counter that enabled desperate turn-saving clutch plays, and directly inspiring modern indie landmarks like Undertale.",
+  "editorialContent": {
+    "overview": "Directed and written by celebrated Japanese copywriter, author, and cultural figure Shigesato Itoi with lead programming rescued and reconstructed from scratch by HAL Laboratory's Satoru Iwata, EarthBound (Mother 2: Gyiyg no Gyakushū in Japan) was released in August 1994. Discarding swords, dungeons, and sorcery, Itoi set his epic in Eagleland: an idiosyncratic, satirical caricature of 1990s Americana filled with corrupt police, suburban homes, UFO cults, and runaway dogs.",
+    "gameplayMechanics": "Players guide baseball-cap-wearing boy Ness and his companions Paula, Jeff, and Poo on a quest to collect eight planetary melodies in a Sound Stone and vanquish the eldritch alien terror Giygas. Enemies are visibly present on the overworld; sneaking up from behind triggers a sneak-attack advantage, while bumping into weak foes triggers an immediate victory swirl without entering combat. The combat system features an iconic mechanical rolling HP odometer: taking fatal damage rolls the counter down like a speedometer, allowing lightning-fast players to heal or finish the battle before the meter hits zero.",
+    "technicalInnovation": "Saved from developmental cancellation by Satoru Iwata's legendary clean-sheet reprogramming of the entire game engine in just six months, EarthBound packed extensive script dialogue, dynamic psychedelic animated battle backgrounds, and an eccentric soundtrack by Keiichi Suzuki and Hirokazu Tanaka filled with Beatles-inspired musical homages into a 24-megabit battery-backed cartridge.",
+    "culturalImpact": "Though initially undermined in North America by an infamous scratch-and-sniff ad campaign ('This game stinks'), EarthBound became one of the most passionate cult-classic obsessions in video game history. Its poignant warmth, existential terror, and fourth-wall-breaking humor directly inspired modern indie masterpieces including Toby Fox's Undertale and Omori.",
+    "preservationNotes": "Preserved on authentic 3MB SNES cartridge dumps with battery SRAM. Strict emulation of the rolling HP counter tick speed is essential to preserving the game's high-stakes combat tension."
+  },
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "Itoi, Shigesato & Iwata, Satoru. 'Iwata Asks: Mother 2 Rebuilding', Nintendo (2013)",
+      "Tanaka, Hirokazu. 'Eclectic Sampling and Psychedelia in Mother 2', Red Bull Music Academy (2015)",
+      "Nintendo of America SNS-MB-USA Instruction Booklet: EarthBound (1995)"
+    ],
+    "romMediaFormat": "Super Nintendo ROM Cartridge (SHVC-1A3M with 8KB SRAM)",
+    "romSizeOriginal": "3 MB ROM (24 Megabits) + 8 KB Battery SRAM",
+    "displayResolutionOriginal": "256 × 224 (NTSC 16-Bit RGB)",
+    "audioHardware": "Sony SPC700 8-channel ADPCM sound processor",
+    "inputMethod": "SNES Controller (Supports one-handed L-button control)",
+    "multiplayerCapability": "1 Player"
+  },
+  "relatedExhibits": {
+    "games": [
+      "undertale",
+      "chrono-trigger",
+      "final-fantasy-vi"
+    ],
+    "consoles": [
+      "super-nintendo-entertainment-system"
+    ],
+    "genres": [
+      "rpg"
+    ],
+    "timeline": [
+      "ev-1994-playstation-launch-japan"
+    ]
+  },
+  "assets": {
+    "heroImage": "/assets/images/games/earthbound-hero.webp",
+    "thumbnailImage": "/assets/images/games/earthbound.webp",
+    "coverImage": "/assets/images/games/earthbound-cover.webp",
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/1/1f/EarthBound_Box.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/1/1f/EarthBound_Box.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:EarthBound_Box.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "review-required",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "earthbound",
+    "mother 2",
+    "shigesato itoi",
+    "satoru iwata",
+    "ness",
+    "giygas",
+    "rolling hp",
+    "undertale",
+    "snes",
+    "super famicom",
+    "1994",
+    "1990s"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

@@ -1,0 +1,83 @@
+{
+  "id": "game-ghost-of-tsushima",
+  "slug": "ghost-of-tsushima",
+  "title": "Ghost of Tsushima",
+  "japaneseTitle": "ゴースト・オブ・ツシマ",
+  "url": "/games/ghost-of-tsushima/",
+  "originalReleaseYear": 2020,
+  "exactReleaseDate": "2020-07-17",
+  "developer": "Sucker Punch Productions",
+  "publisher": "Sony Interactive Entertainment",
+  "director": "Nate Fox, Jason Connell",
+  "designer": "Matt Goldfarb",
+  "composer": "Ilan Eshkeri, Shigeru Umebayashi",
+  "originalLaunchPlatform": "PlayStation 4",
+  "platforms": [
+    "PlayStation 4",
+    "PlayStation 5",
+    "Microsoft Windows"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "Samurai Open World",
+    "Stealth Action"
+  ],
+  "era": "2020s",
+  "shortDescription": "Sucker Punch's breathtaking homage to classic samurai cinema following Jin Sakai's moral struggle during the 1274 Mongol invasion of Tsushima Island.",
+  "historicalSignificance": "A masterpiece of atmospheric immersion celebrated for its diegetic 'Guiding Wind' navigation replacing traditional UI mini-maps, selling over 13 million copies and honoring Kurosawa cinematic aesthetics.",
+  "editorialContent": {
+    "overview": "When a brutal Mongol invasion fleet decimates the samurai defenders on Komoda beach, Lord Jin Sakai must choose between upholding the rigid honorable code of his ancestors or adopting dishonorable stealth tactics as 'The Ghost' to save his people.",
+    "gameplay": "Deep, lethal katana combat featuring four specialized combat stances (Stone, Water, Wind, Moon) for breaking enemy guard, cinematic standoff duels, and ghost stealth tools.",
+    "technicalInnovation": "Pioneered completely diegetic navigation where gusts of wind, golden songbirds, and smoke plumes guide players through the open world without cluttering the screen with HUD compasses.",
+    "culturalImpact": "Earning universal acclaim in Japan and the West, directors Nate Fox and Jason Connell were officially named permanent tourism ambassadors by the city of Tsushima.",
+    "preservationNotes": "Preserved on PS4 disc, expanded with the Iki Island Director's Cut on PS5 with full Japanese lip-sync and DualSense feedback."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "July 17, 2020",
+    "leadPlatform": "PlayStation 4",
+    "genre": "action-adventure",
+    "sales": "Over 13 million copies sold worldwide",
+    "awards": [
+      "The Game Awards 2020 Player's Voice Winner",
+      "Best Art Direction The Game Awards 2020"
+    ],
+    "technicalSpecs": {
+      "engine": "Sucker Punch Proprietary Engine",
+      "resolution": "1080p (PS4) / 1800p Checkerboard (PS4 Pro) / 4K 60fps (PS5)",
+      "soundChip": "3D Tempest Audio / Linear PCM 7.1",
+      "mediaFormat": "Blu-ray Disc"
+    },
+    "relationships": {
+      "primaryConsole": "playstation-4",
+      "developerEntity": "Sucker Punch Productions",
+      "lineage": [
+        "inFamous",
+        "Ghost of Yotei"
+      ]
+    }
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b6/Ghost_of_Tsushima.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/b/b6/Ghost_of_Tsushima.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Ghost_of_Tsushima.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "ghost of tsushima",
+    "jin sakai",
+    "sucker punch",
+    "samurai",
+    "mongol invasion",
+    "kurosawa",
+    "guiding wind",
+    "katana",
+    "playstation 4",
+    "ps4"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

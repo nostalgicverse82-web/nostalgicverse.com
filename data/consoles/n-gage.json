@@ -1,0 +1,41 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+  "id": "console-n-gage",
+  "slug": "n-gage",
+  "name": "Nokia N-Gage",
+  "manufacturer": "Nokia",
+  "generation": "Sixth Generation",
+  "generationNumber": 6,
+  "originalReleaseYear": 2003,
+  "exactReleaseDate": "October 7, 2003",
+  "mediaFormat": "MultiMediaCard (MMC)",
+  "significance": "Pioneered cellular mobile gaming networks via N-Gage Arena, despite widespread public mockery for its 'taco-style' phone call ergonomics.",
+  "verifiedFactualData": {
+    "cpu": "ARM920T @ 104 MHz",
+    "gpuOrVideoChip": "Integrated software rendering on portrait screen (176x208)",
+    "ram": "3.4 MB internal flash storage, 16 MB RAM"
+  },
+  "editorialContent": {
+    "overview": "Nokia's ambitious mobile-phone-meets-handheld-console hybrid, introducing wireless cellular multiplayer years ahead of its time.",
+    "marketLegacy": "Pioneered cellular mobile gaming networks via N-Gage Arena, despite widespread public mockery for its 'taco-style' phone call ergonomics.",
+    "controllerDesign": "Integrated telephone keypad and directional control pad"
+  },
+  "keyGames": [
+    "tony-hawk-pro-skater",
+    "pocket-kingdom",
+    "pathway-to-glory"
+  ],
+  "assets": {
+    "mainImage": "/assets/images/consoles/n-gage.png",
+    "heroImage": "/assets/images/consoles/n-gage-hero.png",
+    "hardwareImage": "/assets/images/consoles/n-gage-hardware.png"
+  },
+  "keywords": [
+    "n-gage",
+    "nokia",
+    "cellular",
+    "handheld",
+    "sixth generation",
+    "2003"
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "game-the-legend-of-zelda-breath-of-the-wild",
+  "slug": "the-legend-of-zelda-breath-of-the-wild",
+  "title": "The Legend of Zelda: Breath of the Wild",
+  "japaneseTitle": "ゼルダの伝説 ブレス オブ ザ ワイルド",
+  "url": "/games/the-legend-of-zelda-breath-of-the-wild/",
+  "originalReleaseYear": 2017,
+  "exactReleaseDate": "2017-03-03",
+  "developer": "Nintendo EPD",
+  "publisher": "Nintendo",
+  "director": "Hidemaro Fujibayashi",
+  "designer": "Hidemaro Fujibayashi, Shigeru Miyamoto, Eiji Aonuma",
+  "composer": "Manaka Kataoka, Yasuaki Iwata, Hajime Wakai",
+  "originalLaunchPlatform": "Nintendo Switch / Wii U",
+  "platforms": [
+    "Nintendo Switch",
+    "Wii U"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "Open-Air Adventure",
+    "Systemic Sandbox Action-Adventure"
+  ],
+  "era": "2010s",
+  "shortDescription": "Nintendo's systemic masterpiece that reinvented the open-world genre with climb-anything physics and chemical reactions.",
+  "historicalSignificance": "The defining launch title for the Nintendo Switch, fundamentally transforming the open-world genre by discarding waypoint checklists in favor of 'Open-Air' design, universal climbing physics, dynamic chemistry engines, and total player autonomy.",
+  "editorialContent": {
+    "overview": "Directed by Hidemaro Fujibayashi and produced by Eiji Aonuma at Nintendo EPD, Breath of the Wild launched alongside the Nintendo Switch on March 3, 2017. Dismantling three decades of rigid Zelda conventions, the game awakened Link from a century-long slumber in the Shrine of Resurrection into an immense, post-calamity Hyrule reclaimed by nature, granting players complete freedom to face Calamity Ganon immediately after the plateau tutorial.",
+    "gameplay": "Link can climb virtually any surface (limited only by an escalating stamina wheel) and paraglide across horizons. Armed with the Sheikah Slate (Magnesis, Remote Bombs, Stasis, Cryonis), players manipulate physics and chemical interactions: lighting grass fires to ride thermal updrafts, conducting electrical currents through dropped metal swords, and rolling boulders into Bokoblin outposts across 120 Shrines of Light.",
+    "technicalInnovation": "Nintendo engineered a revolutionary 'Chemistry Engine' that governs physical matter states (fire spreads through wood and grass, lightning strikes metal armor, ice melts near heat), operating in tandem with Havok physics to generate endless emergent solutions.",
+    "culturalImpact": "Breath of the Wild won over 150 Game of the Year awards and earned a 97 Metacritic rating. It became the best-selling Zelda game in history (over 31 million copies) and influenced an entire generation of open-world game developers from Genshin Impact to Elden Ring.",
+    "preservationNotes": "Preserved on Nintendo Switch optical cards and Wii U optical discs, running at 900p docked on Switch hardware."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "March 3, 2017",
+    "leadPlatform": "Nintendo Switch",
+    "genre": "action-adventure",
+    "sales": "Over 31.8 million copies worldwide (best-selling Zelda game)",
+    "awards": [
+      "Game of the Year 2017 (The Game Awards, D.I.C.E. Awards, GDC Awards, BAFTA)",
+      "Metacritic score of 97"
+    ],
+    "technicalSpecs": {
+      "engine": "Nintendo EPD in-house Open-Air engine with custom Chemistry Engine and Havok physics",
+      "resolution": "900p docked / 720p handheld (30fps)",
+      "soundChip": "Nintendo Switch PCM audio with Manaka Kataoka ambient impressionistic piano score",
+      "mediaFormat": "Nintendo Switch Game Card (16 GB) / Wii U Optical Disc"
+    },
+    "relationships": {
+      "primaryConsole": "nintendo-switch",
+      "developerEntity": "Nintendo",
+      "lineage": [
+        "The Legend of Zelda",
+        "The Legend of Zelda: Ocarina of Time",
+        "The Legend of Zelda: Tears of the Kingdom"
+      ]
+    }
+  },
+  "assets": {
+    "cover": "/assets/images/games/the-legend-of-zelda-breath-of-the-wild.webp",
+    "banner": "/assets/images/games/the-legend-of-zelda-breath-of-the-wild-banner.webp",
+    "screenshots": [
+      "/assets/images/games/the-legend-of-zelda-breath-of-the-wild-screen1.webp",
+      "/assets/images/games/the-legend-of-zelda-breath-of-the-wild-screen2.webp"
+    ],
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/c/c6/The_Legend_of_Zelda_Breath_of_the_Wild.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/c/c6/The_Legend_of_Zelda_Breath_of_the_Wild.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:The_Legend_of_Zelda_Breath_of_the_Wild.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "breath of the wild",
+    "botw",
+    "zelda",
+    "link",
+    "nintendo switch",
+    "open air",
+    "sheikah slate",
+    "calamity ganon",
+    "hyrule"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": true
+}

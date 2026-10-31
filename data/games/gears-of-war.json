@@ -1,0 +1,84 @@
+{
+  "id": "game-gears-of-war",
+  "slug": "gears-of-war",
+  "title": "Gears of War",
+  "japaneseTitle": "ギアーズ・オブ・ウォー",
+  "url": "/games/gears-of-war/",
+  "originalReleaseYear": 2006,
+  "exactReleaseDate": "2006-11-07",
+  "developer": "Epic Games",
+  "publisher": "Microsoft Game Studios",
+  "director": "Cliff Bleszinski",
+  "designer": "Cliff Bleszinski, Rod Fergusson",
+  "composer": "Kevin Riepl",
+  "originalLaunchPlatform": "Xbox 360",
+  "platforms": [
+    "Xbox 360",
+    "Microsoft Windows",
+    "Xbox One"
+  ],
+  "genre": "third-person-shooter",
+  "subgenres": [
+    "Cover Shooter",
+    "Cooperative Action"
+  ],
+  "era": "2000s",
+  "shortDescription": "Epic Games' genre-defining third-person shooter that established the over-the-shoulder cover mechanic and catapulted Unreal Engine 3 to dominance.",
+  "historicalSignificance": "The definitive killer app of the early Xbox 360 era, selling over 5 million copies, popularizing the 'stop-and-pop' active cover system, and cementing Unreal Engine 3 as the industry's universal multiplatform development standard.",
+  "editorialContent": {
+    "overview": "Set on the devastated planet Sera fourteen years after 'Emergence Day' when the subterranean Locust Horde wiped out a quarter of humanity, former soldier Marcus Fenix is freed from prison to lead Delta Squad on a desperate mission to deploy the Lightmass Bomb.",
+    "gameplay": "Revolutionized third-person action with the roadie run sprint, contextual button-activated cover sliding, chainsaw bayonet duels, and the ingenious 'Active Reload' timing mechanic that rewarded precise button presses with damage boosts.",
+    "technicalInnovation": "The flagship showcase for Unreal Engine 3 on the Xbox 360, displaying groundbreaking normal mapping, specular highlights, and wet concrete shaders that defined seventh-generation visual aesthetics.",
+    "culturalImpact": "Became an instant multiplayer phenomenon on Xbox Live, dethroning Halo 2 as the most-played online game and spawning a multi-billion dollar franchise.",
+    "preservationNotes": "Preserved on Xbox 360 dual-layer DVD, playable at 60 FPS with 4K enhancements on Xbox Series X via backward compatibility."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "November 7, 2006",
+    "leadPlatform": "Xbox 360",
+    "genre": "third-person-shooter",
+    "sales": "Over 5 million copies sold on Xbox 360",
+    "awards": [
+      "Overall Game of the Year 2006 (Interactive Achievement Awards)",
+      "AIAS Game of the Year"
+    ],
+    "technicalSpecs": {
+      "engine": "Unreal Engine 3",
+      "resolution": "720p HD at 30fps (Xbox 360) / 4K 60fps (Ultimate Edition on Xbox One)",
+      "soundChip": "Dolby Digital 5.1 surround sound",
+      "mediaFormat": "Dual-layer DVD-ROM"
+    },
+    "relationships": {
+      "primaryConsole": "xbox-360",
+      "developerEntity": "Epic Games",
+      "lineage": [
+        "Unreal",
+        "Gears of War 2",
+        "Gears 5"
+      ]
+    }
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/8/82/Gears_of_War_box_artwork.png",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/8/82/Gears_of_War_box_artwork.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Gears_of_War_box_artwork.png",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "gears of war",
+    "marcus fenix",
+    "cliff bleszinski",
+    "epic games",
+    "unreal engine 3",
+    "active reload",
+    "cover shooter",
+    "lancer",
+    "xbox 360",
+    "2006"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

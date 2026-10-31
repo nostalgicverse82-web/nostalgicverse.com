@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-gears-of-war-3",
+  "slug": "gears-of-war-3",
+  "title": "Gears of War 3",
+  "originalReleaseYear": 2011,
+  "exactReleaseDate": "September 20, 2011",
+  "originalLaunchPlatform": "Xbox 360",
+  "originalLaunchRegion": "Worldwide",
+  "developer": "Epic Games",
+  "publisher": "Microsoft Studios",
+  "platforms": [
+    "Xbox 360"
+  ],
+  "genre": "third-person-shooter",
+  "subgenres": [
+    "tactical-action"
+  ],
+  "era": "2010s",
+  "shortDescription": "Delta Squad's climactic stand against the Lambent invasion across a dying planet Sera in 4-player co-op.",
+  "historicalSignificance": "Masterfully concluded the original trilogy with emotional character payoffs and definitive multiplayer balance.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Gears_of_War_3",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Delta Squad's climactic stand against the Lambent invasion across a dying planet Sera in 4-player co-op.",
+    "culturalImpact": "Masterfully concluded the original trilogy with emotional character payoffs and definitive multiplayer balance."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "Xbox 360"
+    ],
+    "genres": [
+      "third-person-shooter"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/8/87/Gears_of_War_3_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/8/87/Gears_of_War_3_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Gears_of_War_3",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Gears of War 3",
+    "Epic Games",
+    "Microsoft Studios",
+    "Xbox 360",
+    "third-person-shooter",
+    "2011",
+    "2010s",
+    "Xbox 360",
+    "tactical-action"
+  ],
+  "url": "/games/gears-of-war-3/",
+  "featured": false
+}

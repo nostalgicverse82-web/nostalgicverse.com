@@ -1,0 +1,98 @@
+{
+  "id": "game-chrono-trigger",
+  "slug": "chrono-trigger",
+  "title": "Chrono Trigger",
+  "japaneseTitle": "クロノ・トリガー",
+  "url": "/games/chrono-trigger/",
+  "originalReleaseYear": 1995,
+  "exactReleaseDate": "1995-03-11",
+  "developer": "Square Co., Ltd.",
+  "publisher": "Square",
+  "director": "Yoshinori Kitase, Akihiko Matsui, Takashi Tokita",
+  "designer": "Hironobu Sakaguchi & Yuji Horii",
+  "composer": "Yasunori Mitsuda & Nobuo Uematsu",
+  "originalLaunchPlatform": "Super Famicom",
+  "platforms": [
+    "Super Famicom",
+    "SNES",
+    "PlayStation",
+    "Nintendo DS",
+    "PC"
+  ],
+  "genre": "rpg",
+  "subgenres": [
+    "Japanese Role-Playing Game",
+    "Time Travel JRPG"
+  ],
+  "era": "1990s",
+  "shortDescription": "The collaborative 'Dream Team' magnum opus of 16-bit JRPGs, celebrated for seamless non-random combat, time-travel across seven eras, and thirteen unique endings.",
+  "historicalSignificance": "Created by the 'Dream Team' (Hironobu Sakaguchi, Yuji Horii, Akira Toriyama), Chrono Trigger introduced the 'New Game+' mechanic to video games, eliminated random encounter battle transitions, and perfected branching time-travel narrative design.",
+  "editorialContent": {
+    "overview": "Born from an unprecedented collaboration between the rival creators of Japan's two biggest RPG franchises—Hironobu Sakaguchi (Final Fantasy) and Yuji Horii (Dragon Quest)—alongside Dragon Ball creator Akira Toriyama and composer Yasunori Mitsuda, Chrono Trigger was billed as the 'Dream Project'. Released for the Super Famicom in March 1995, it stands as the undisputed pinnacle of 16-bit role-playing games.",
+    "gameplayMechanics": "Players guide young hero Crono across seven distinct time periods spanning 65,000,000 BC (Prehistory), 12,000 BC (Dark Ages), 600 AD (Middle Ages), 1000 AD (Present), 1999 AD (The Apocalypse), and 2300 AD (Future) to avert the awakening of the parasite god Lavos. Combat completely eliminates random encounter transitions: enemies roam visible on the screen, and battles take place directly on the field map using the Active Time Battle 2.0 system. Characters execute devastating Dual and Triple Tech cooperative attacks based on party composition.",
+    "technicalInnovation": "Operating on a gigantic 32-megabit (4 MB) cartridge, Chrono Trigger pushed the SNES to its absolute technical boundaries with fluid multi-frame character animations, massive screen-filling bosses, and a peerless musical score by Yasunori Mitsuda (completed with assistance from Nobuo Uematsu). It officially coined and introduced the 'New Game+' concept, allowing players to carry character stats into subsequent playthroughs to discover thirteen distinct story endings.",
+    "culturalImpact": "Chrono Trigger is universally celebrated on virtually every historical list of the greatest video games of all time. Its breathless pacing, zero-grinding balance, and emotional time-travel resonance established a high-water mark for narrative role-playing that has never been surpassed.",
+    "preservationNotes": "Preserved on authentic 4MB SNES cartridge dumps with battery SRAM. Accurate Sony SPC700 audio timing is essential to reproduce Mitsuda's iconic acoustic percussion and wind instruments."
+  },
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "Sakaguchi, Hironobu & Horii, Yuji. 'The Dream Project: The Making of Chrono Trigger', V-Jump (1995)",
+      "Mitsuda, Yasunori. 'Composing Chrono Trigger: Blood, Sweat, and Stomach Ulcers', GDC Music Vault (2008)",
+      "Square Co., Ltd. SNS-ACTE-USA Instruction Manual: Chrono Trigger (1995)"
+    ],
+    "romMediaFormat": "Super Nintendo ROM Cartridge (SHVC-1A3M with 8KB SRAM)",
+    "romSizeOriginal": "4 MB ROM (32 Megabits) + 8 KB Battery SRAM",
+    "displayResolutionOriginal": "256 × 224 (NTSC 16-Bit RGB)",
+    "audioHardware": "Sony SPC700 8-channel ADPCM sound processor",
+    "inputMethod": "SNES Controller",
+    "multiplayerCapability": "1 Player"
+  },
+  "relatedExhibits": {
+    "games": [
+      "final-fantasy-vi",
+      "dragon-quest",
+      "secret-of-mana"
+    ],
+    "consoles": [
+      "super-nintendo-entertainment-system",
+      "nintendo-ds",
+      "playstation"
+    ],
+    "genres": [
+      "rpg"
+    ],
+    "timeline": [
+      "ev-1994-playstation-launch-japan"
+    ]
+  },
+  "assets": {
+    "heroImage": "/assets/images/games/chrono-trigger-hero.webp",
+    "thumbnailImage": "/assets/images/games/chrono-trigger.webp",
+    "coverImage": "/assets/images/games/chrono-trigger-cover.webp",
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a7/Chrono_Trigger.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a7/Chrono_Trigger.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Chrono_Trigger.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "chrono trigger",
+    "crono",
+    "square",
+    "hironobu sakaguchi",
+    "yuji horii",
+    "akira toriyama",
+    "yasunori mitsuda",
+    "time travel",
+    "lavos",
+    "new game plus",
+    "snes",
+    "1995",
+    "1990s"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

@@ -1,0 +1,72 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-rayman-legends",
+  "slug": "rayman-legends",
+  "title": "Rayman Legends",
+  "originalReleaseYear": 2013,
+  "exactReleaseDate": "September 3, 2013",
+  "originalLaunchPlatform": "PlayStation 3",
+  "originalLaunchRegion": "North America",
+  "developer": "Ubisoft Montpellier",
+  "publisher": "Ubisoft",
+  "platforms": [
+    "PlayStation 3",
+    "Xbox 360",
+    "Wii U",
+    "PC"
+  ],
+  "genre": "platformer",
+  "subgenres": [
+    "2d-platformer"
+  ],
+  "era": "2010s",
+  "shortDescription": "Masterpiece platformer featuring rhythm-synchronized music levels, Murfy interactive puzzles, and Barbara the barbarian.",
+  "historicalSignificance": "Widely celebrated as one of the greatest 2D platformers ever designed, featuring peerless fluid animation.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Rayman_Legends",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Masterpiece platformer featuring rhythm-synchronized music levels, Murfy interactive puzzles, and Barbara the barbarian.",
+    "culturalImpact": "Widely celebrated as one of the greatest 2D platformers ever designed, featuring peerless fluid animation."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 3"
+    ],
+    "genres": [
+      "platformer"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/3/30/Rayman_Legends_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/3/30/Rayman_Legends_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Rayman_Legends",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Rayman Legends",
+    "Ubisoft Montpellier",
+    "Ubisoft",
+    "PlayStation 3",
+    "platformer",
+    "2013",
+    "2013",
+    "PlayStation 3",
+    "Xbox 360",
+    "Wii U",
+    "PC",
+    "2d-platformer"
+  ],
+  "url": "/games/rayman-legends/",
+  "featured": false
+}

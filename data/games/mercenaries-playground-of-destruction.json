@@ -1,0 +1,68 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-mercenaries-playground-of-destruction",
+  "slug": "mercenaries-playground-of-destruction",
+  "title": "Mercenaries: Playground of Destruction",
+  "originalReleaseYear": 2005,
+  "exactReleaseDate": "January 11, 2005",
+  "originalLaunchPlatform": "PlayStation 2",
+  "originalLaunchRegion": "North America",
+  "developer": "Pandemic Studios",
+  "publisher": "LucasArts",
+  "platforms": [
+    "PlayStation 2",
+    "Xbox"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "open-world"
+  ],
+  "era": "2000s",
+  "shortDescription": "Open-world sandbox in North Korea hunting down the Deck of 52 rogue military leaders with bunker busters.",
+  "historicalSignificance": "Pioneered dynamic airstrike destruction physics and faction contract gameplay in console sandboxes.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Mercenaries:_Playground_of_Destruction",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Open-world sandbox in North Korea hunting down the Deck of 52 rogue military leaders with bunker busters.",
+    "culturalImpact": "Pioneered dynamic airstrike destruction physics and faction contract gameplay in console sandboxes."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 2"
+    ],
+    "genres": [
+      "action-adventure"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/c/c5/Mercenaries_Playground_of_Destruction_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/c/c5/Mercenaries_Playground_of_Destruction_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mercenaries:_Playground_of_Destruction",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Mercenaries: Playground of Destruction",
+    "Pandemic Studios",
+    "LucasArts",
+    "PlayStation 2",
+    "action-adventure",
+    "2005",
+    "2000s",
+    "PlayStation 2",
+    "Xbox",
+    "open-world"
+  ],
+  "url": "/games/mercenaries-playground-of-destruction/",
+  "featured": false
+}

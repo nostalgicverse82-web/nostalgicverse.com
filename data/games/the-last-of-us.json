@@ -1,0 +1,90 @@
+{
+  "id": "game-the-last-of-us",
+  "slug": "the-last-of-us",
+  "title": "The Last of Us",
+  "japaneseTitle": "ラスト・オブ・アス",
+  "url": "/games/the-last-of-us/",
+  "originalReleaseYear": 2013,
+  "exactReleaseDate": "2013-06-14",
+  "developer": "Naughty Dog",
+  "publisher": "Sony Computer Entertainment",
+  "director": "Bruce Straley, Neil Druckmann",
+  "designer": "Neil Druckmann, Bruce Straley",
+  "composer": "Gustavo Santaolalla",
+  "originalLaunchPlatform": "PlayStation 3",
+  "platforms": [
+    "PlayStation 3",
+    "PlayStation 4",
+    "PlayStation 5",
+    "Microsoft Windows"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "Post-Pandemic Survival Horror",
+    "Cinematic Narrative Adventure"
+  ],
+  "era": "2010s",
+  "shortDescription": "Naughty Dog's harrowing narrative benchmark chronicling Joel and Ellie across an infected post-pandemic America.",
+  "historicalSignificance": "Universally recognized as a masterwork of narrative character development and emotional weight, winning over 240 Game of the Year awards and proving interactive entertainment could rival literature and cinema in storytelling maturity.",
+  "editorialContent": {
+    "overview": "Directed by Bruce Straley and written by Neil Druckmann at Naughty Dog, The Last of Us was released on the PlayStation 3 in June 2013. Two decades after a mutated Cordyceps fungus decimated human civilization, turning infected humans into grotesque monsters like Clickers, cynical black-market smuggler Joel is hired to escort fourteen-year-old Ellie—who possesses a mysterious biological immunity—across the overgrown ruins of the United States to a revolutionary militia known as the Fireflies.",
+    "gameplay": "Desperate survival-action mechanics require scouring environments for scarce tape, blades, alcohol, and rags to craft shivs, medkits, and Molotov cocktails on the fly. Combat forces players to switch between stealth choking, bricks and bottles for distraction, and brutal melee scrambles, guided by Joel's acoustic 'Listen Mode'.",
+    "technicalInnovation": "Pushed the PS3 hardware to its absolute limit with dynamic indirect lighting, lifelike character micro-expressions, and advanced AI that communicated enemy flanking tactics while reacting realistically to gunfire.",
+    "culturalImpact": "The Last of Us won over 240 Game of the Year awards and achieved legendary status. Gustavo Santaolalla's acoustic ronroco soundtrack and the heartbreaking ending sparked deep moral discussions, later inspiring an Emmy-winning HBO television adaptation.",
+    "preservationNotes": "Preserved on original PS3 Blu-ray discs, remastered for PS4 in 60fps, and rebuilt natively for PS5 and PC as The Last of Us Part I in 2022."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "June 14, 2013",
+    "leadPlatform": "PlayStation 3",
+    "genre": "action-adventure",
+    "sales": "Over 37 million copies across the franchise (including Part I/Part II)",
+    "awards": [
+      "Over 240 Game of the Year Awards",
+      "BAFTA Award for Best Game 2014",
+      "D.I.C.E. Game of the Year 2014"
+    ],
+    "technicalSpecs": {
+      "engine": "Naughty Dog proprietary PS3/PS4 engine with volumetric particles",
+      "resolution": "720p HD (PS3) / 1080p 60fps (PS4 Remastered)",
+      "soundChip": "7.1 Linear PCM with Gustavo Santaolalla acoustic guitar and ronroco score",
+      "mediaFormat": "Blu-ray Disc (Dual-Layer 50 GB)"
+    },
+    "relationships": {
+      "primaryConsole": "playstation-3",
+      "developerEntity": "Naughty Dog",
+      "lineage": [
+        "Uncharted 2: Among Thieves",
+        "The Last of Us Part II",
+        "God of War (2018)"
+      ]
+    }
+  },
+  "assets": {
+    "cover": "/assets/images/games/the-last-of-us.webp",
+    "banner": "/assets/images/games/the-last-of-us-banner.webp",
+    "screenshots": [
+      "/assets/images/games/the-last-of-us-screen1.webp",
+      "/assets/images/games/the-last-of-us-screen2.webp"
+    ],
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/4/46/Video_Game_Cover_-_The_Last_of_Us.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/4/46/Video_Game_Cover_-_The_Last_of_Us.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Video_Game_Cover_-_The_Last_of_Us.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "the last of us",
+    "joel",
+    "ellie",
+    "naughty dog",
+    "neil druckmann",
+    "clicker",
+    "gustavo santaolalla",
+    "cordyceps"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": true
+}

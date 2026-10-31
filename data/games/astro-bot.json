@@ -1,0 +1,81 @@
+{
+  "id": "game-astro-bot",
+  "slug": "astro-bot",
+  "title": "Astro Bot",
+  "japaneseTitle": "アストロボット",
+  "url": "/games/astro-bot/",
+  "originalReleaseYear": 2024,
+  "exactReleaseDate": "2024-09-06",
+  "developer": "Team ASOBI",
+  "publisher": "Sony Interactive Entertainment",
+  "director": "Nicolas Doucet",
+  "designer": "Jamie Smith",
+  "composer": "Kenny Young",
+  "originalLaunchPlatform": "PlayStation 5",
+  "platforms": [
+    "PlayStation 5"
+  ],
+  "genre": "platformer",
+  "subgenres": [
+    "3D Platformer",
+    "Heritage Celebration"
+  ],
+  "era": "2020s",
+  "shortDescription": "Team ASOBI's jubilant 3D platforming masterpiece celebrating 30 years of PlayStation legacy with peerless DualSense mechanical inventiveness.",
+  "historicalSignificance": "Won Game of the Year at The Game Awards 2024 with a 94 Metacritic score, hailed as one of the greatest 3D platformers ever created alongside Super Mario Galaxy and a testament to pure interactive joy.",
+  "editorialContent": {
+    "overview": "When the PS5 mothership is attacked in deep space by alien Nebulax, its components scatter across five galaxies. Captain Astro embarks on a joyful interstellar quest across 50 colorful planets to rescue 300 VIP bots celebrating PlayStation's 30-year lineage.",
+    "gameplay": "Brilliant, ever-evolving 3D platforming introducing unique power-ups per planet: the barking bulldog booster, frog spring boxing gloves, monkey climbing arms, and time-slowing pocket watches.",
+    "technicalInnovation": "A masterclass in DualSense integration—every surface texture (sand, mud, metal, water, glass) transmits distinct micro-haptic frequencies, paired with realistic physics simulating thousands of interactive objects simultaneously.",
+    "culturalImpact": "Crowned Game of the Year 2024, proving that whimsical, gameplay-first single-player platformers command the pinnacle of artistic and critical acclaim.",
+    "preservationNotes": "Released as a flagship physical Ultra HD Blu-ray release exclusive to PlayStation 5."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "September 6, 2024",
+    "leadPlatform": "PlayStation 5",
+    "genre": "platformer",
+    "sales": "Over 1.5 million copies sold in opening weeks",
+    "awards": [
+      "The Game Awards Game of the Year 2024",
+      "Best Game Direction",
+      "Best Action/Adventure Game"
+    ],
+    "technicalSpecs": {
+      "engine": "Team ASOBI Proprietary Engine",
+      "resolution": "Dynamic 4K at native 60fps",
+      "soundChip": "3D Tempest Audio with DualSense controller speaker integration",
+      "mediaFormat": "Ultra HD Blu-ray Disc"
+    },
+    "relationships": {
+      "primaryConsole": "playstation-5",
+      "developerEntity": "Team ASOBI",
+      "lineage": [
+        "Astro's Playroom",
+        "Astro Bot Rescue Mission"
+      ]
+    }
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/8/87/Astro_Bot_cover_art.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/8/87/Astro_Bot_cover_art.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Astro_Bot_cover_art.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "astro bot",
+    "team asobi",
+    "nicolas doucet",
+    "playstation 5",
+    "ps5",
+    "goty 2024",
+    "dualsense",
+    "platformer",
+    "playstation 30th anniversary"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

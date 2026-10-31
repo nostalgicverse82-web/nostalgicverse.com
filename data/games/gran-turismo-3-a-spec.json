@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-gran-turismo-3-a-spec",
+  "slug": "gran-turismo-3-a-spec",
+  "title": "Gran Turismo 3: A-Spec",
+  "originalReleaseYear": 2001,
+  "exactReleaseDate": "April 28, 2001",
+  "originalLaunchPlatform": "PlayStation 2",
+  "originalLaunchRegion": "Japan",
+  "developer": "Polyphony Digital",
+  "publisher": "Sony Computer Entertainment",
+  "platforms": [
+    "PlayStation 2"
+  ],
+  "genre": "racing",
+  "subgenres": [
+    "sim-racing"
+  ],
+  "era": "2000s",
+  "shortDescription": "Flagship automotive simulation demonstrating the graphical capabilities of early PS2 hardware.",
+  "historicalSignificance": "Sold nearly 15 million copies, setting an enduring benchmark for automotive physics and visual realism.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Gran_Turismo_3:_A-Spec",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Flagship automotive simulation demonstrating the graphical capabilities of early PS2 hardware.",
+    "culturalImpact": "Sold nearly 15 million copies, setting an enduring benchmark for automotive physics and visual realism."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 2"
+    ],
+    "genres": [
+      "racing"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/e/e3/Gran_Turismo_3.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/e/e3/Gran_Turismo_3.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Gran_Turismo_3:_A-Spec",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Gran Turismo 3: A-Spec",
+    "Polyphony Digital",
+    "Sony Computer Entertainment",
+    "PlayStation 2",
+    "racing",
+    "2001",
+    "2000s",
+    "PlayStation 2",
+    "sim-racing"
+  ],
+  "url": "/games/gran-turismo-3-a-spec/",
+  "featured": false
+}

@@ -1,0 +1,90 @@
+{
+  "id": "game-breakout",
+  "slug": "breakout",
+  "title": "Breakout",
+  "url": "/games/breakout/",
+  "originalReleaseYear": 1976,
+  "exactReleaseDate": "1976-05-13",
+  "developer": "Atari, Inc.",
+  "publisher": "Atari, Inc.",
+  "designer": "Nolan Bushnell, Steve Bristow, Steve Wozniak",
+  "originalLaunchPlatform": "Arcade",
+  "platforms": [
+    "Arcade",
+    "Atari 2600",
+    "Apple II",
+    "Atari 5200"
+  ],
+  "genre": "puzzle",
+  "subgenres": [
+    "Block Breaker",
+    "Arcade"
+  ],
+  "era": "1970s",
+  "shortDescription": "Atari's seminal block-clearing arcade game, designed by Nolan Bushnell and Steve Bristow with legendary prototype engineering by Steve Wozniak.",
+  "historicalSignificance": "Evolved Pong into single-player solo arcade play, established the block-breaker genre (inspiring Arkanoid), and financed the early foundation of Apple Computer through Wozniak and Steve Jobs' prototype fee.",
+  "editorialContent": {
+    "overview": "Seeking to translate the multi-player paddle dynamics of Pong into a compelling solitary experience, Atari co-founder Nolan Bushnell conceived Breakout as an inverted wall-demolition game. Bushnell commissioned young Atari technician Steve Jobs to build the hardware prototype, who famously recruited his friend Steve Wozniak to engineer the circuit board in four sleepless nights, delivering a remarkably dense TTL design that saved valuable circuit chips.",
+    "gameplayMechanics": "Players manipulate a paddle horizontally across the bottom of the screen using an analog rotary dial. A single ball bounces off the side walls and paddle, striking rows of colored bricks at the top. Each brick destroyed yields points, with higher tiers awarding greater scores while increasing ball velocity. Breaching the top brick layer allows the ball to ricochet wildly in the ceiling space, clearing bricks in rapid succession.",
+    "technicalInnovation": "The original arcade PCB used a monochrome raster monitor covered with strips of colored cellophane (yellow, green, orange, red) to simulate a color display on low-cost hardware. Wozniak's prototype achieved the game logic using just 44 TTL chips, a feat of circuit efficiency that Wozniak later cited as the direct inspiration for the memory-mapped video circuitry of the Apple II computer.",
+    "culturalImpact": "Breakout was an explosive commercial hit in arcades and later became one of the defining early killer apps for the Atari 2600. It spawned an entire subgenre of paddle games, most famously Taito's 1986 power-up classic Arkanoid.",
+    "preservationNotes": "Preserving the original arcade experience requires precise rotary encoder paddle calibration and accurate emulation of CRT phosphors and transparent colored overlay bands."
+  },
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "Wozniak, Steve. 'iWoz: Computer Geek to Cult Icon', W. W. Norton & Company (2006)",
+      "Isaacson, Walter. 'Steve Jobs', Simon & Schuster (2011)",
+      "Atari Inc. Service Manual TM-056: Breakout (1976)"
+    ],
+    "romMediaFormat": "Arcade Discrete TTL PCB",
+    "romSizeOriginal": "Discrete Logic / 2 KB ROM",
+    "displayResolutionOriginal": "15.75 kHz Monochrome CRT with color gel overlay",
+    "audioHardware": "Discrete tone frequency generator",
+    "inputMethod": "Analog Rotary Dial (Potentiometer / Optical Encoder)",
+    "multiplayerCapability": "1-2 Players (Alternating)"
+  },
+  "relatedExhibits": {
+    "games": [
+      "pong",
+      "asteroids",
+      "space-invaders"
+    ],
+    "consoles": [
+      "home-pong",
+      "atari-2600"
+    ],
+    "genres": [
+      "puzzle"
+    ],
+    "timeline": [
+      "ev-1976-breakout-atari"
+    ]
+  },
+  "assets": {
+    "heroImage": "/assets/images/games/breakout-hero.webp",
+    "thumbnailImage": "/assets/images/games/breakout.webp",
+    "coverImage": "/assets/images/games/breakout-cover.webp",
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/7/7a/BreakOut_arcadeflyer.png",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/7/7a/BreakOut_arcadeflyer.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:BreakOut_arcadeflyer.png",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "breakout",
+    "atari",
+    "steve wozniak",
+    "steve jobs",
+    "nolan bushnell",
+    "paddle",
+    "block breaker",
+    "arcade",
+    "1976",
+    "1970s"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

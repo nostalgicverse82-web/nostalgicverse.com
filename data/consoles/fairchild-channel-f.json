@@ -1,0 +1,42 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+  "id": "console-fairchild-channel-f",
+  "slug": "fairchild-channel-f",
+  "name": "Fairchild Channel F",
+  "manufacturer": "Fairchild",
+  "generation": "Second Generation",
+  "generationNumber": 2,
+  "originalReleaseYear": 1976,
+  "exactReleaseDate": "November 1976",
+  "mediaFormat": "ROM Cartridge (Videocart)",
+  "significance": "Invented the commercial cartridge paradigm, allowing games to be sold separately on swappable microchip media rather than hardwired into the machine.",
+  "verifiedFactualData": {
+    "cpu": "Fairchild F8 @ 1.79 MHz",
+    "gpuOrVideoChip": "Custom frame-buffer video logic",
+    "ram": "64 bytes scratchpad RAM, 2 KB VRAM"
+  },
+  "editorialContent": {
+    "overview": "Jerry Lawson's historic engineering breakthrough: the world's very first programmable ROM cartridge video game console.",
+    "marketLegacy": "Invented the commercial cartridge paradigm, allowing games to be sold separately on swappable microchip media rather than hardwired into the machine.",
+    "controllerDesign": "Unique 8-way multi-directional handle with twist, push, and pull functions"
+  },
+  "keyGames": [
+    "tic-tac-toe",
+    "desert-fox",
+    "space-war"
+  ],
+  "assets": {
+    "mainImage": "/assets/images/consoles/fairchild-channel-f.png",
+    "heroImage": "/assets/images/consoles/fairchild-channel-f-hero.png",
+    "hardwareImage": "/assets/images/consoles/fairchild-channel-f-hardware.png"
+  },
+  "keywords": [
+    "fairchild",
+    "channel f",
+    "jerry lawson",
+    "videocart",
+    "first rom cartridge",
+    "second generation",
+    "1976"
+  ]
+}

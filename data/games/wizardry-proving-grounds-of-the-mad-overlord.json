@@ -1,0 +1,70 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-wizardry-proving-grounds-of-the-mad-overlord",
+  "slug": "wizardry-proving-grounds-of-the-mad-overlord",
+  "title": "Wizardry: Proving Grounds of the Mad Overlord",
+  "originalReleaseYear": 1981,
+  "exactReleaseDate": "September 1, 1981",
+  "originalLaunchPlatform": "Apple II",
+  "originalLaunchRegion": "North America",
+  "developer": "Sir-Tech",
+  "publisher": "Sir-Tech",
+  "platforms": [
+    "Apple II",
+    "Commodore 64",
+    "NES"
+  ],
+  "genre": "rpg",
+  "subgenres": [
+    "dungeon-crawler"
+  ],
+  "era": "1980s",
+  "shortDescription": "Seminal first-person wireframe dungeon crawler exploring Trebor's maze to reclaim the amulet from Werdna.",
+  "historicalSignificance": "The grandfather of computer role-playing games, inspiring Final Fantasy, Dragon Quest, and modern dungeon crawlers.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Wizardry:_Proving_Grounds_of_the_Mad_Overlord",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Seminal first-person wireframe dungeon crawler exploring Trebor's maze to reclaim the amulet from Werdna.",
+    "culturalImpact": "The grandfather of computer role-playing games, inspiring Final Fantasy, Dragon Quest, and modern dungeon crawlers."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "Apple II"
+    ],
+    "genres": [
+      "rpg"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Wizardry_I_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Wizardry_I_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Wizardry:_Proving_Grounds_of_the_Mad_Overlord",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Wizardry: Proving Grounds of the Mad Overlord",
+    "Sir-Tech",
+    "Sir-Tech",
+    "Apple II",
+    "rpg",
+    "1981",
+    "1980s",
+    "Apple II",
+    "Commodore 64",
+    "NES",
+    "dungeon-crawler"
+  ],
+  "url": "/games/wizardry-proving-grounds-of-the-mad-overlord/",
+  "featured": false
+}

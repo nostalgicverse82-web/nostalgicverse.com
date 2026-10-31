@@ -1,0 +1,94 @@
+{
+  "id": "game-pole-position",
+  "slug": "pole-position",
+  "title": "Pole Position",
+  "url": "/games/pole-position/",
+  "originalReleaseYear": 1982,
+  "exactReleaseDate": "1982-07-01",
+  "developer": "Namco",
+  "publisher": "Namco / Atari (North America)",
+  "designer": "Toru Iwatani",
+  "originalLaunchPlatform": "Arcade",
+  "platforms": [
+    "Arcade",
+    "Atari 2600",
+    "Atari 5200",
+    "Commodore 64",
+    "ZX Spectrum",
+    "Intellivision"
+  ],
+  "genre": "racing",
+  "subgenres": [
+    "Formula One",
+    "Arcade Racing"
+  ],
+  "era": "1980s",
+  "shortDescription": "Namco's genre-defining Formula One racing milestone, introducing the rear-view scaling camera perspective, qualifying time trials, and real-world licensed tracks.",
+  "historicalSignificance": "Established the standard third-person behind-the-car racing camera perspective used across the entire genre for decades, and became the highest-earning arcade game in North America in 1983.",
+  "editorialContent": {
+    "overview": "Created by Pac-Man designer Toru Iwatani at Namco and released in July 1982, Pole Position was a tour de force of visual engineering. Licensed to Atari for North American manufacturing, the game placed players behind the wheel of a screaming Formula One race car on Japan's real-world Fuji Speedway, forever discarding the top-down perspective that had defined driving games since the 1970s.",
+    "gameplayMechanics": "Players first participate in a high-stakes qualifying lap around the 4.359-kilometer Fuji circuit. Earning a lap time under 73 seconds awards a starting grid position (with the fastest earning the coveted 'Pole Position') for the championship Grand Prix against seven rival CPU Formula One cars, navigating sharp chicanes, puddle hazards, and roadside billboard obstacles.",
+    "technicalInnovation": "Pole Position ran on Namco's cutting-edge multi-microprocessor arcade hardware: two Zilog Z80 CPUs paired with a custom Z8002 16-bit processor dedicated entirely to real-time sprite scaling and pseudo-3D road perspective calculation. It utilized hardware line-scroll horizontal raster tricks to render asphalt curves undulating into the horizon at 60 frames per second.",
+    "culturalImpact": "Pole Position was the undisputed highest-grossing arcade machine of 1983, immortalized by its digitized vocal exclamation: 'Prepare to qualify!'. It spawned an entire lineage of driving games from OutRun to Ridge Racer and Gran Turismo.",
+    "preservationNotes": "Preserving Pole Position requires authentic analog steering wheel calibration, 2-speed high/low gear shifter emulation, and accurate reproduction of Namco's 16-bit custom sprite scaling engine."
+  },
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "Iwatani, Toru. 'The Engineering of Pole Position', Namco Developer Journal (1983)",
+      "Kent, Steven L. 'The Ultimate History of Video Games', Three Rivers Press (2001)",
+      "Namco / Atari Pole Position Operators Manual (1982)"
+    ],
+    "romMediaFormat": "Arcade PCB (Dual Z80 + Z8002 16-bit CPU)",
+    "romSizeOriginal": "48 KB ROM",
+    "displayResolutionOriginal": "256 × 224 (Horizontal CRT)",
+    "audioHardware": "Custom Namco 6-channel wave-table sound generator + DAC speech",
+    "inputMethod": "360-degree optical steering wheel, low/high gear shifter, accelerator pedal",
+    "multiplayerCapability": "1 Player"
+  },
+  "relatedExhibits": {
+    "games": [
+      "out-run",
+      "f-zero",
+      "super-mario-kart",
+      "gran-turismo"
+    ],
+    "consoles": [
+      "atari-2600",
+      "atari-5200"
+    ],
+    "genres": [
+      "racing"
+    ],
+    "timeline": [
+      "ev-1982-c64-launch"
+    ]
+  },
+  "assets": {
+    "heroImage": "/assets/images/games/pole-position-hero.webp",
+    "thumbnailImage": "/assets/images/games/pole-position.webp",
+    "coverImage": "/assets/images/games/pole-position-cover.webp",
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/4/4e/Pole_Position_cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/4/4e/Pole_Position_cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Pole_Position_cover.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "pole position",
+    "namco",
+    "atari",
+    "toru iwatani",
+    "formula one",
+    "racing",
+    "fuji speedway",
+    "prepare to qualify",
+    "arcade",
+    "1982",
+    "1980s"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-gravity-rush-2",
+  "slug": "gravity-rush-2",
+  "title": "Gravity Rush 2",
+  "originalReleaseYear": 2017,
+  "exactReleaseDate": "January 18, 2017",
+  "originalLaunchPlatform": "PlayStation 4",
+  "originalLaunchRegion": "Worldwide",
+  "developer": "Japan Studio",
+  "publisher": "Sony Interactive Entertainment",
+  "platforms": [
+    "PlayStation 4"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "superhero"
+  ],
+  "era": "2010s",
+  "shortDescription": "Kat manipulates gravitational fields in the floating city of Jirga Para Lhao with Lunar and Jupiter styles.",
+  "historicalSignificance": "One of the most artistically radiant and physically exhilarating open-world movement games ever created.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Gravity_Rush_2",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Kat manipulates gravitational fields in the floating city of Jirga Para Lhao with Lunar and Jupiter styles.",
+    "culturalImpact": "One of the most artistically radiant and physically exhilarating open-world movement games ever created."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 4"
+    ],
+    "genres": [
+      "action-adventure"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Gravity_Rush_2_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Gravity_Rush_2_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Gravity_Rush_2",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Gravity Rush 2",
+    "Japan Studio",
+    "Sony Interactive Entertainment",
+    "PlayStation 4",
+    "action-adventure",
+    "2017",
+    "2010s",
+    "PlayStation 4",
+    "superhero"
+  ],
+  "url": "/games/gravity-rush-2/",
+  "featured": false
+}

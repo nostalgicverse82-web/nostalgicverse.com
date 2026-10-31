@@ -1,0 +1,80 @@
+{
+  "id": "game-final-fantasy-vii-rebirth",
+  "slug": "final-fantasy-vii-rebirth",
+  "title": "Final Fantasy VII Rebirth",
+  "japaneseTitle": "ファイナルファンタジーVII リバース",
+  "url": "/games/final-fantasy-vii-rebirth/",
+  "originalReleaseYear": 2024,
+  "exactReleaseDate": "2024-02-29",
+  "developer": "Square Enix",
+  "publisher": "Square Enix",
+  "director": "Naoki Hamaguchi",
+  "designer": "Teruki Endo",
+  "composer": "Masashi Hamauzu, Mitsuto Suzuki, Shotaro Shima",
+  "originalLaunchPlatform": "PlayStation 5",
+  "platforms": [
+    "PlayStation 5"
+  ],
+  "genre": "action-rpg",
+  "subgenres": [
+    "Open World RPG",
+    "Hybrid Action-RPG"
+  ],
+  "era": "2020s",
+  "shortDescription": "The sprawling open-world second chapter of the remake project, following Cloud and his allies beyond the walls of Midgar across the continents of Gaia.",
+  "historicalSignificance": "One of the highest-rated games of 2024 (92 Metacritic), universally acclaimed for its vast, content-dense world design, brilliant Synergy combat mechanics, and Queen's Blood card minigame.",
+  "editorialContent": {
+    "overview": "Escaping the industrial cage of Midgar, Cloud, Barret, Tifa, Aerith, and Red XIII venture across the open wilderness of the Grasslands, Junon, Corel, Gongaga, Cosmo Canyon, and Nibelheim on the trail of Sephiroth.",
+    "gameplay": "Vastly expands on Remake's hybrid ATB combat with innovative dual-character 'Synergy Skills' and 'Synergy Abilities', regional Chocobo traversal variants, and an obsessive card strategy game called Queen's Blood.",
+    "technicalInnovation": "Showcased massive panoramic draw distances across six vast interconnected regions, dynamic lighting, and seamless transition from wilderness traversal to Gold Saucer minigames.",
+    "culturalImpact": "Demonstrated how to adapt classic overworld adventure games into modern AAA open-world spectacles with staggering curatorial attention to detail.",
+    "preservationNotes": "Released as a massive two-disc physical Ultra HD Blu-ray release exclusive to PlayStation 5."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "February 29, 2024",
+    "leadPlatform": "PlayStation 5",
+    "genre": "action-rpg",
+    "sales": "Top seller across worldwide territories in 2024",
+    "awards": [
+      "The Game Awards 2024 Nominee for Game of the Year",
+      "Best RPG Nominee"
+    ],
+    "technicalSpecs": {
+      "engine": "Unreal Engine 4 (Customized)",
+      "resolution": "Dynamic 4K (Graphics Mode) / 60fps (Performance Mode)",
+      "soundChip": "Over 400 unique musical arrangements in dynamic 3D Audio",
+      "mediaFormat": "2x Ultra HD Blu-ray Discs"
+    },
+    "relationships": {
+      "primaryConsole": "playstation-5",
+      "developerEntity": "Square Enix",
+      "lineage": [
+        "Final Fantasy VII Remake",
+        "Final Fantasy VII (1997)"
+      ]
+    }
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a6/Final_Fantasy_VII_Rebirth_cover.png",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a6/Final_Fantasy_VII_Rebirth_cover.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Final_Fantasy_VII_Rebirth_cover.png",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "final fantasy vii rebirth",
+    "cloud strife",
+    "sephiroth",
+    "aerith",
+    "queens blood",
+    "naoki hamaguchi",
+    "square enix",
+    "playstation 5",
+    "ps5"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

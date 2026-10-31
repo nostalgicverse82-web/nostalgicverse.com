@@ -1,0 +1,90 @@
+{
+  "id": "game-red-dead-redemption",
+  "slug": "red-dead-redemption",
+  "title": "Red Dead Redemption",
+  "japaneseTitle": "レッド・デッド・リデンプション",
+  "url": "/games/red-dead-redemption/",
+  "originalReleaseYear": 2010,
+  "exactReleaseDate": "2010-05-18",
+  "developer": "Rockstar San Diego",
+  "publisher": "Rockstar Games",
+  "director": "Christian Cantamessa",
+  "designer": "Christian Cantamessa, Dan Houser",
+  "composer": "Bill Elm, Woody Jackson",
+  "originalLaunchPlatform": "Xbox 360 / PlayStation 3",
+  "platforms": [
+    "Xbox 360",
+    "PlayStation 3",
+    "PlayStation 4",
+    "Nintendo Switch",
+    "Microsoft Windows"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "Western Open World",
+    "Cinematic Action-Adventure"
+  ],
+  "era": "2010s",
+  "shortDescription": "Rockstar's melancholic Western epic following former outlaw John Marston across the dying American frontier.",
+  "historicalSignificance": "The definitive Western video game, capturing the tragic twilight of the American frontier in 1911 with naturalistic open-world ecosystem physics, the Dead Eye targeting system, and one of gaming's most poignant endings.",
+  "editorialContent": {
+    "overview": "Developed by Rockstar San Diego over five turbulent years, Red Dead Redemption debuted in May 2010 on Xbox 360 and PlayStation 3. Set in 1911 during the death throes of the American Old West, the story follows former Van der Linde gang outlaw John Marston, coerced by the federal Bureau of Investigation to hunt down his former brothers-in-arms in exchange for the freedom of his captive wife and son.",
+    "gameplay": "Players traverse the vast expanses of New Austin, West Elizabeth, and Nuevo Paraíso on horseback. Core mechanics feature the 'Dead Eye' targeting system (slowing down time to paint lethal crosshairs on enemies), high-stakes duels at high noon, animal hunting and skinning economies, lassoing wild horses, and an expressive Honor and Fame morality system.",
+    "technicalInnovation": "Pushed the proprietary RAGE engine paired with NaturalMotion's Euphoria physics engine, producing procedural organic horse gaits and dynamic human ragdoll reactions to bullet impacts rather than canned death animations.",
+    "culturalImpact": "Red Dead Redemption earned universal critical acclaim, winning over 200 Game of the Year awards. Jose Gonzalez's 'Far Away' playing as Marston first rides across the river into Mexico stands as one of the most transcendent artistic moments in interactive entertainment.",
+    "preservationNotes": "Preserved via original Xbox 360/PS3 media, 4K enhanced backward compatibility on Xbox One X, and modern official native ports to PS4, Switch, and PC."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "May 18, 2010",
+    "leadPlatform": "Xbox 360",
+    "genre": "action-adventure",
+    "sales": "Over 23 million copies worldwide across original and remaster releases",
+    "awards": [
+      "Game of the Year 2010 (Spike Video Game Awards, Game Developers Choice Awards, AIAS)",
+      "Over 200 GOTY Awards"
+    ],
+    "technicalSpecs": {
+      "engine": "Rockstar Advanced Game Engine (RAGE) with Euphoria procedural physics",
+      "resolution": "720p HD (Xbox 360 / PS3)",
+      "soundChip": "Dolby Digital 5.1 with Bill Elm and Woody Jackson acoustic acoustic-folk score",
+      "mediaFormat": "DVD-ROM / Blu-ray Disc"
+    },
+    "relationships": {
+      "primaryConsole": "xbox-360",
+      "developerEntity": "Rockstar Games",
+      "lineage": [
+        "Red Dead Revolver",
+        "Grand Theft Auto IV",
+        "Red Dead Redemption 2"
+      ]
+    }
+  },
+  "assets": {
+    "cover": "/assets/images/games/red-dead-redemption.webp",
+    "banner": "/assets/images/games/red-dead-redemption-banner.webp",
+    "screenshots": [
+      "/assets/images/games/red-dead-redemption-screen1.webp",
+      "/assets/images/games/red-dead-redemption-screen2.webp"
+    ],
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a7/Red_Dead_Redemption.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a7/Red_Dead_Redemption.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Red_Dead_Redemption.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "red dead redemption",
+    "john marston",
+    "rockstar games",
+    "western",
+    "dead eye",
+    "euphoria",
+    "dan houser",
+    "frontier"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

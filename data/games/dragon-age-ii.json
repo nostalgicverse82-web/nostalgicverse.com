@@ -1,0 +1,70 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-dragon-age-ii",
+  "slug": "dragon-age-ii",
+  "title": "Dragon Age II",
+  "originalReleaseYear": 2011,
+  "exactReleaseDate": "March 8, 2011",
+  "originalLaunchPlatform": "PlayStation 3",
+  "originalLaunchRegion": "North America",
+  "developer": "BioWare",
+  "publisher": "Electronic Arts",
+  "platforms": [
+    "PlayStation 3",
+    "Xbox 360",
+    "Microsoft Windows"
+  ],
+  "genre": "rpg",
+  "subgenres": [
+    "action-rpg"
+  ],
+  "era": "2010s",
+  "shortDescription": "Hawke rises from a penniless Fereldan refugee to the Champion of Kirkwall across a decade of political strife.",
+  "historicalSignificance": "Focused on intense urban factional conflict between Mages and Templars with fast-paced cinematic combat.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Dragon_Age_II",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Hawke rises from a penniless Fereldan refugee to the Champion of Kirkwall across a decade of political strife.",
+    "culturalImpact": "Focused on intense urban factional conflict between Mages and Templars with fast-paced cinematic combat."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 3"
+    ],
+    "genres": [
+      "rpg"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/2/23/Dragon_Age_II_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/2/23/Dragon_Age_II_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Dragon_Age_II",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Dragon Age II",
+    "BioWare",
+    "Electronic Arts",
+    "PlayStation 3",
+    "rpg",
+    "2011",
+    "2010s",
+    "PlayStation 3",
+    "Xbox 360",
+    "Microsoft Windows",
+    "action-rpg"
+  ],
+  "url": "/games/dragon-age-ii/",
+  "featured": false
+}

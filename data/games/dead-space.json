@@ -1,0 +1,86 @@
+{
+  "id": "game-dead-space",
+  "slug": "dead-space",
+  "title": "Dead Space",
+  "japaneseTitle": "デッドスペース",
+  "url": "/games/dead-space/",
+  "originalReleaseYear": 2008,
+  "exactReleaseDate": "2008-10-14",
+  "developer": "EA Redwood Shores (Visceral Games)",
+  "publisher": "Electronic Arts",
+  "director": "Glen Schofield, Bret Robbins",
+  "designer": "Glen Schofield",
+  "composer": "Jason Graves",
+  "originalLaunchPlatform": "PlayStation 3 / Xbox 360 / PC",
+  "platforms": [
+    "PlayStation 3",
+    "Xbox 360",
+    "Microsoft Windows",
+    "PlayStation 5",
+    "Xbox Series X/S"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "Survival Horror",
+    "Sci-Fi Horror"
+  ],
+  "era": "2000s",
+  "shortDescription": "Visceral Games' terrifying sci-fi survival horror masterwork, celebrated for its revolutionary diegetic user interface and tactical dismemberment.",
+  "historicalSignificance": "A masterpiece of atmospheric horror game design that completely eliminated traditional screen HUDs by embedding health into Isaac Clarke's engineering suit spine, pioneering surgical limb amputation combat.",
+  "editorialContent": {
+    "overview": "Ship engineer Isaac Clarke boards the colossal planet-cracker mining vessel USG Ishimura on a repair mission, only to discover the crew slaughtered and mutated into grotesque reanimated Necromorphs by an ancient alien artifact called the Marker.",
+    "gameplay": "Revolutionized survival combat with 'strategic dismemberment': headshots are useless against Necromorphs; players must use engineering tools like the 211-V Plasma Cutter and Line Gun to slice off limbs, tentacles, and heads.",
+    "technicalInnovation": "A landmark in diegetic UI design: health is displayed via Isaac's illuminated spine rig, ammunition is projected holographically on weapons, zero-gravity physics simulated vacuum audio dampening, and Jason Graves composed a terrifying aleatoric orchestral score.",
+    "culturalImpact": "Revitalized sci-fi horror in the seventh generation, standing alongside Alien and The Thing as a genre classic.",
+    "preservationNotes": "Preserved on PS3/360 Blu-ray/DVD discs, and remade from scratch in Frostbite engine for PS5 and Xbox Series X in 2023."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "October 14, 2008",
+    "leadPlatform": "PlayStation 3",
+    "genre": "action-adventure",
+    "sales": "Over 2 million units sold in launch period",
+    "awards": [
+      "BAFTA Games Award for Use of Audio 2009",
+      "BAFTA Award for Original Score"
+    ],
+    "technicalSpecs": {
+      "engine": "Visceral Proprietary Engine (Godfather engine derivative)",
+      "resolution": "720p HD (PS3 / Xbox 360)",
+      "soundChip": "Dolby Digital 5.1 / DTS interactive aleatoric audio",
+      "mediaFormat": "Blu-ray Disc / DVD-ROM"
+    },
+    "relationships": {
+      "primaryConsole": "playstation-3",
+      "developerEntity": "Visceral Games",
+      "lineage": [
+        "Dead Space 2",
+        "The Callisto Protocol"
+      ]
+    }
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/2/23/Dead_Space_Box_Art.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/2/23/Dead_Space_Box_Art.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Dead_Space_Box_Art.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "dead space",
+    "isaac clarke",
+    "visceral games",
+    "glen schofield",
+    "necromorph",
+    "plasma cutter",
+    "ishimura",
+    "survival horror",
+    "ps3",
+    "xbox 360",
+    "2008"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

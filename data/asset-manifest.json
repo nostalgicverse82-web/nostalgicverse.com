@@ -1,0 +1,119 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "name": "NostalgicVerse Asset Manifest",
+  "version": "2026.1.0",
+  "description": "Permanent canonical asset architecture, format standards, directory structure, and naming conventions for all static media assets.",
+  "rules": {
+    "casing": "lowercase-kebab-case",
+    "naming": "stable, descriptive, no spaces, no random hash suffixes",
+    "preferredFormat": "webp",
+    "vectorFormat": "svg",
+    "antiHallucinationPolicy": "NEVER create fake, empty, or dummy image files to satisfy asset paths. Unacquired assets are rendered via semantic CSS placeholders until authentic museum digitization."
+  },
+  "assetRoots": {
+    "base": "/assets/",
+    "images": "/assets/images/",
+    "branding": "/assets/images/branding/",
+    "logo": "/assets/images/branding/logo/",
+    "games": "/assets/images/games/",
+    "consoles": "/assets/images/consoles/",
+    "genres": "/assets/images/genres/",
+    "timeline": "/assets/images/timeline/",
+    "stories": "/assets/images/stories/",
+    "guides": "/assets/images/guides/",
+    "emulator": "/assets/images/emulator/",
+    "operatingSystem": "/assets/images/operating-system/",
+    "qrCode": "/assets/images/qr-code/",
+    "og": "/assets/images/og/",
+    "ogGames": "/assets/images/og/games/",
+    "ogConsoles": "/assets/images/og/consoles/",
+    "ogStories": "/assets/images/og/stories/",
+    "ogGuides": "/assets/images/og/guides/",
+    "ui": "/assets/images/ui/",
+    "fonts": "/assets/fonts/"
+  },
+  "canonicalPatterns": {
+    "branding": [
+      "/assets/images/branding/logo/logo.png",
+      "/assets/images/branding/logo/logo.svg",
+      "/favicon.ico"
+    ],
+    "games": [
+      "/assets/images/games/{slug}.webp",
+      "/assets/images/games/{slug}-hero.webp",
+      "/assets/images/games/{slug}-cover.webp",
+      "/assets/images/games/{slug}-gallery-01.webp"
+    ],
+    "consoles": [
+      "/assets/images/consoles/{slug}.png",
+      "/assets/images/consoles/{slug}-hero.png",
+      "/assets/images/consoles/{slug}-hardware.png"
+    ],
+    "genres": [
+      "/assets/images/genres/{slug}.webp"
+    ],
+    "timeline": [
+      "/assets/images/timeline/{event-id}.webp"
+    ],
+    "stories": [
+      "/assets/images/stories/{slug}.webp"
+    ],
+    "guides": [
+      "/assets/images/guides/{slug}.webp",
+      "/assets/images/guides/{slug}-hero.webp"
+    ],
+    "emulator": [
+      "/assets/images/emulator/emulator-hero.webp",
+      "/assets/images/emulator/emulator-screen-01.webp"
+    ],
+    "operatingSystem": [
+      "/assets/images/operating-system/windows.png",
+      "/assets/images/operating-system/linux.png",
+      "/assets/images/operating-system/macos.png",
+      "/assets/images/operating-system/android.png",
+      "/assets/images/operating-system/ios.png"
+    ],
+    "qrCode": [
+      "/assets/images/qr-code/qr-code.png"
+    ],
+    "og": [
+      "/assets/images/og/og-default.webp",
+      "/assets/images/og/games/{slug}-og.webp",
+      "/assets/images/og/consoles/{slug}-og.webp",
+      "/assets/images/og/stories/{slug}-og.webp",
+      "/assets/images/og/guides/{slug}-og.webp"
+    ]
+  },
+  "dimensionStandards": {
+    "hero": {
+      "width": 1200,
+      "height": 675,
+      "aspectRatio": "16:9",
+      "format": "webp"
+    },
+    "thumbnail": {
+      "width": 600,
+      "height": 400,
+      "aspectRatio": "3:2",
+      "format": "webp"
+    },
+    "openGraph": {
+      "width": 1200,
+      "height": 630,
+      "aspectRatio": "1.91:1",
+      "format": "webp"
+    },
+    "hardwareCutout": {
+      "width": 800,
+      "height": 600,
+      "aspectRatio": "4:3",
+      "format": "png"
+    },
+    "screenshot": {
+      "width": 800,
+      "height": 600,
+      "aspectRatio": "4:3",
+      "format": "webp"
+    }
+  }
+}

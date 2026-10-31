@@ -1,0 +1,96 @@
+{
+  "id": "game-undertale",
+  "slug": "undertale",
+  "title": "Undertale",
+  "japaneseTitle": "アンダーテール",
+  "url": "/games/undertale/",
+  "originalReleaseYear": 2015,
+  "exactReleaseDate": "2015-09-15",
+  "developer": "Toby Fox",
+  "publisher": "Toby Fox",
+  "director": "Toby Fox",
+  "designer": "Toby Fox, Temmie Chang",
+  "composer": "Toby Fox",
+  "originalLaunchPlatform": "Microsoft Windows / Mac OS",
+  "platforms": [
+    "Microsoft Windows",
+    "Mac OS",
+    "Linux",
+    "PlayStation 4",
+    "PlayStation Vita",
+    "Nintendo Switch",
+    "Xbox One"
+  ],
+  "genre": "rpg",
+  "subgenres": [
+    "Indie Meta-RPG",
+    "Bullet Hell RPG",
+    "Pacifist RPG"
+  ],
+  "era": "2010s",
+  "shortDescription": "Toby Fox's subversive indie RPG sensation where you don't have to destroy anyone, filled with determination and Megalovania.",
+  "historicalSignificance": "Created almost entirely by solo developer Toby Fox, this subversive indie phenomenon inverted the moral foundation of video game combat by allowing players to spare every enemy, subverting save files and Fourth-Wall conventions to create an unforgettable emotional bond.",
+  "editorialContent": {
+    "overview": "Conceived, programmed, written, and scored by solo creator Toby Fox with art contributions by Temmie Chang, Undertale was released on PC in September 2015 following a modest Kickstarter campaign. Playing as a human child who falls into the Underground—a realm beneath the surface where monsters were sealed following an ancient war—the game challenged the very instinct to gain EXP and LV.",
+    "gameplay": "Fuses traditional EarthBound-style turn-based combat with bullet-hell avoidance: when enemies attack, players navigate a tiny red heart inside a bounding box to dodge patterns. On player turns, one can choose to FIGHT or use ACT commands (flirting, petting, joking) to understand the monster and MERCY spare them. The story splits dramatically across Neutral, True Pacifist, and the harrowing Genocide routes.",
+    "technicalInnovation": "Toby Fox programmed ingenious meta-narrative hooks directly into the game directory and save system: characters remember player actions across resets, Sans detects your timeline manipulation, and the game window itself alters during climactic boss encounters.",
+    "culturalImpact": "Undertale became an unprecedented viral phenomenon across YouTube, Twitch, and fan communities. Toby Fox's self-composed 101-track soundtrack became immortalized in internet lore, with 'Megalovania' played before the Pope at the Vatican and Toby later collaborating directly with Nintendo and Pokémon.",
+    "preservationNotes": "Preserved across Steam, itch.io, and physical multiplatform console editions with custom borders published by Fangamer."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "September 15, 2015",
+    "leadPlatform": "Microsoft Windows",
+    "genre": "rpg",
+    "sales": "Over 5 million copies worldwide across digital storefronts and consoles",
+    "awards": [
+      "Audience Award at Independent Games Festival 2016",
+      "IGN Game of the Year nominee",
+      "SXSW Cultural Innovation Award"
+    ],
+    "technicalSpecs": {
+      "engine": "GameMaker: Studio with custom scripting",
+      "resolution": "640x480 (4:3 aspect ratio)",
+      "soundChip": "Chiptune / Soundfont sample synthesis composed by Toby Fox in FL Studio",
+      "mediaFormat": "Digital Download / Physical Collector's Edition by Fangamer"
+    },
+    "relationships": {
+      "primaryConsole": "pc",
+      "developerEntity": "Toby Fox",
+      "lineage": [
+        "EarthBound",
+        "Touhou Project",
+        "Deltarune",
+        "Omori"
+      ]
+    }
+  },
+  "assets": {
+    "cover": "/assets/images/games/undertale.webp",
+    "banner": "/assets/images/games/undertale-banner.webp",
+    "screenshots": [
+      "/assets/images/games/undertale-screen1.webp",
+      "/assets/images/games/undertale-screen2.webp"
+    ],
+    "remoteImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/391540/header.jpg",
+    "remoteImage": {
+      "url": "https://cdn.akamai.steamstatic.com/steam/apps/391540/header.jpg",
+      "sourceUrl": "https://store.steampowered.com/app/391540/Undertale/",
+      "sourceDomain": "cdn.akamai.steamstatic.com",
+      "license": "Promotional Storefront Asset / Official Key Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "undertale",
+    "toby fox",
+    "sans",
+    "papyrus",
+    "megalovania",
+    "flowey",
+    "indie rpg",
+    "pacifist",
+    "determination"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

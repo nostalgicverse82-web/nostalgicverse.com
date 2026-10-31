@@ -1,0 +1,70 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-grand-theft-auto-episodes-from-liberty-city",
+  "slug": "grand-theft-auto-episodes-from-liberty-city",
+  "title": "Grand Theft Auto: Episodes from Liberty City",
+  "originalReleaseYear": 2009,
+  "exactReleaseDate": "October 29, 2009",
+  "originalLaunchPlatform": "PlayStation 3",
+  "originalLaunchRegion": "North America",
+  "developer": "Rockstar North",
+  "publisher": "Rockstar Games",
+  "platforms": [
+    "PlayStation 3",
+    "Xbox 360",
+    "Microsoft Windows"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "open-world"
+  ],
+  "era": "2000s",
+  "shortDescription": "Two standalone stories: The Lost and Damned biker brotherhood and The Ballad of Gay Tony nightlife spectacle.",
+  "historicalSignificance": "Celebrated for enriching Liberty City with contrasting subcultures, attack choppers, and base jumping.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Grand_Theft_Auto:_Episodes_from_Liberty_City",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Two standalone stories: The Lost and Damned biker brotherhood and The Ballad of Gay Tony nightlife spectacle.",
+    "culturalImpact": "Celebrated for enriching Liberty City with contrasting subcultures, attack choppers, and base jumping."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 3"
+    ],
+    "genres": [
+      "action-adventure"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/e/eb/Grand_Theft_Auto_Episodes_from_Liberty_City.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/e/eb/Grand_Theft_Auto_Episodes_from_Liberty_City.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Grand_Theft_Auto:_Episodes_from_Liberty_City",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Grand Theft Auto: Episodes from Liberty City",
+    "Rockstar North",
+    "Rockstar Games",
+    "PlayStation 3",
+    "action-adventure",
+    "2009",
+    "2000s",
+    "PlayStation 3",
+    "Xbox 360",
+    "Microsoft Windows",
+    "open-world"
+  ],
+  "url": "/games/grand-theft-auto-episodes-from-liberty-city/",
+  "featured": false
+}

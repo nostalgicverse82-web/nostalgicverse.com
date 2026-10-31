@@ -1,0 +1,92 @@
+{
+  "id": "game-battlezone",
+  "slug": "battlezone",
+  "title": "Battlezone",
+  "url": "/games/battlezone/",
+  "originalReleaseYear": 1980,
+  "exactReleaseDate": "1980-11-01",
+  "developer": "Atari, Inc.",
+  "publisher": "Atari, Inc.",
+  "designer": "Ed Rotberg",
+  "originalLaunchPlatform": "Arcade",
+  "platforms": [
+    "Arcade",
+    "Atari 2600",
+    "Apple II",
+    "Commodore 64",
+    "PC"
+  ],
+  "genre": "first-person-shooter",
+  "subgenres": [
+    "Vehicle Combat",
+    "Vector Simulation"
+  ],
+  "era": "1980s",
+  "shortDescription": "Ed Rotberg's groundbreaking 3D wireframe tank combat simulator featuring a dual-joystick periscope cabinet that pioneered virtual reality gaming.",
+  "historicalSignificance": "The first true first-person 3D combat simulation in arcades, introducing 360-degree spatial radar tracking and leading to the infamous Military Battlezone trainer commissioned by the US Army.",
+  "editorialContent": {
+    "overview": "Released by Atari in November 1980 and designed by programmer Ed Rotberg with hardware engineer Jed Margolin, Battlezone placed players inside a futuristic tank on a geometric moonscape overlooked by an erupting volcano. Players looked into an immersive periscope viewer that blocked outside light, peering into a glowing green neon virtual world.",
+    "gameplayMechanics": "Using dual two-way joysticks mimicking authentic tank treads (push both forward to advance, push in opposite directions to spin), players hunt enemy tanks, supertanks, and missiles across a flat coordinate plane populated by geometric obstacles. An overhead radar scanner displays enemy blips relative to the player's compass orientation.",
+    "technicalInnovation": "Battlezone utilized Atari's QuadraScan vector hardware with a customized mathematical coprocessor (the Atari Math Box) to calculate true 3D spatial matrix rotations and projection geometry in real time. It was the first video game to calculate 3D perspective transformations for moving polygonal wireframe solids at 30+ frames per second.",
+    "culturalImpact": "Battlezone was so technically sophisticated that the United States Army commissioned Atari to build an advanced variant (The Bradley Trainer) to train gunners on the newly introduced M2 Bradley Infantry Fighting Vehicle. Rotberg famously refused to work on the military project until assurances were given regarding ethical concerns.",
+    "preservationNotes": "Preserved via vector stroke CRT emulation with dual-tone green/red color filters and specialized dual-stick tank control mapping."
+  },
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "Rotberg, Ed. 'Classic Game Postmortem: Battlezone', Game Developers Conference (2012)",
+      "Kent, Steven L. 'The Ultimate History of Video Games', Three Rivers Press (2001)",
+      "Atari Inc. Service Manual TM-166: Battlezone (1980)"
+    ],
+    "romMediaFormat": "Arcade PCB (6502 CPU + Math Box + Vector Generator)",
+    "romSizeOriginal": "12 KB ROM",
+    "displayResolutionOriginal": "1024 × 768 QuadraScan Vector Display with Dual Color Overlay",
+    "audioHardware": "Discrete analog circuits and custom sound generators",
+    "inputMethod": "Twin 2-way joysticks with fire button",
+    "multiplayerCapability": "1 Player"
+  },
+  "relatedExhibits": {
+    "games": [
+      "lunar-lander",
+      "tempest",
+      "doom"
+    ],
+    "consoles": [
+      "vectrex",
+      "atari-2600"
+    ],
+    "genres": [
+      "first-person-shooter"
+    ],
+    "timeline": [
+      "ev-1980-pac-man-japan"
+    ]
+  },
+  "assets": {
+    "heroImage": "/assets/images/games/battlezone-hero.webp",
+    "thumbnailImage": "/assets/images/games/battlezone.webp",
+    "coverImage": "/assets/images/games/battlezone-cover.webp",
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/8/8c/Battlezone%28Poster%29.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/8/8c/Battlezone%28Poster%29.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Battlezone(Poster).jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "review-required",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "battlezone",
+    "atari",
+    "ed rotberg",
+    "vector graphics",
+    "tank combat",
+    "periscope",
+    "arcade",
+    "first person",
+    "bradley trainer",
+    "1980",
+    "1980s"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

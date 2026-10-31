@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-fatal-frame-ii-crimson-butterfly",
+  "slug": "fatal-frame-ii-crimson-butterfly",
+  "title": "Fatal Frame II: Crimson Butterfly",
+  "originalReleaseYear": 2003,
+  "exactReleaseDate": "November 27, 2003",
+  "originalLaunchPlatform": "PlayStation 2",
+  "originalLaunchRegion": "Japan",
+  "developer": "Tecmo",
+  "publisher": "Tecmo",
+  "platforms": [
+    "PlayStation 2"
+  ],
+  "genre": "survival-horror",
+  "subgenres": [
+    "japanese-horror"
+  ],
+  "era": "2000s",
+  "shortDescription": "Twin sisters Mio and Mayu uncover the gruesome sacrificial ritual of the lost All God's Village.",
+  "historicalSignificance": "Universally revered as one of the scariest and most emotionally poignant horror games ever made.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Fatal_Frame_II:_Crimson_Butterfly",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Twin sisters Mio and Mayu uncover the gruesome sacrificial ritual of the lost All God's Village.",
+    "culturalImpact": "Universally revered as one of the scariest and most emotionally poignant horror games ever made."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 2"
+    ],
+    "genres": [
+      "survival-horror"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Fatal_Frame_II_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Fatal_Frame_II_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Fatal_Frame_II:_Crimson_Butterfly",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Fatal Frame II: Crimson Butterfly",
+    "Tecmo",
+    "Tecmo",
+    "PlayStation 2",
+    "survival-horror",
+    "2003",
+    "2000s",
+    "PlayStation 2",
+    "japanese-horror"
+  ],
+  "url": "/games/fatal-frame-ii-crimson-butterfly/",
+  "featured": false
+}

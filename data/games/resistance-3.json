@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-resistance-3",
+  "slug": "resistance-3",
+  "title": "Resistance 3",
+  "originalReleaseYear": 2011,
+  "exactReleaseDate": "September 6, 2011",
+  "originalLaunchPlatform": "PlayStation 3",
+  "originalLaunchRegion": "North America",
+  "developer": "Insomniac Games",
+  "publisher": "Sony Computer Entertainment",
+  "platforms": [
+    "PlayStation 3"
+  ],
+  "genre": "first-person-shooter",
+  "subgenres": [
+    "sci-fi"
+  ],
+  "era": "2010s",
+  "shortDescription": "Joseph Capelli undertakes a cross-country train voyage to New York to disable a terraforming wormhole.",
+  "historicalSignificance": "Restored the beloved full weapon wheel, earning universal critical praise for atmospheric road-trip storytelling.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Resistance_3",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Joseph Capelli undertakes a cross-country train voyage to New York to disable a terraforming wormhole.",
+    "culturalImpact": "Restored the beloved full weapon wheel, earning universal critical praise for atmospheric road-trip storytelling."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 3"
+    ],
+    "genres": [
+      "first-person-shooter"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/2/23/Resistance_3_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/2/23/Resistance_3_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Resistance_3",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Resistance 3",
+    "Insomniac Games",
+    "Sony Computer Entertainment",
+    "PlayStation 3",
+    "first-person-shooter",
+    "2011",
+    "2010s",
+    "PlayStation 3",
+    "sci-fi"
+  ],
+  "url": "/games/resistance-3/",
+  "featured": false
+}

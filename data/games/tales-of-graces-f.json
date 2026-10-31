@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-tales-of-graces-f",
+  "slug": "tales-of-graces-f",
+  "title": "Tales of Graces f",
+  "originalReleaseYear": 2010,
+  "exactReleaseDate": "December 2, 2010",
+  "originalLaunchPlatform": "PlayStation 3",
+  "originalLaunchRegion": "Japan",
+  "developer": "Namco Tales Studio",
+  "publisher": "Bandai Namco",
+  "platforms": [
+    "PlayStation 3"
+  ],
+  "genre": "rpg",
+  "subgenres": [
+    "action-rpg"
+  ],
+  "era": "2010s",
+  "shortDescription": "Asbel Lhant fights across Ephinea featuring the Style Shift Linear Motion Battle System and Lineage and Legacies epilogue.",
+  "historicalSignificance": "Widely heralded among JRPG enthusiasts as having the most mechanically sublime combat system in the Tales franchise.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Tales_of_Graces_f",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Asbel Lhant fights across Ephinea featuring the Style Shift Linear Motion Battle System and Lineage and Legacies epilogue.",
+    "culturalImpact": "Widely heralded among JRPG enthusiasts as having the most mechanically sublime combat system in the Tales franchise."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 3"
+    ],
+    "genres": [
+      "rpg"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/1/14/Tales_of_Graces_f_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/1/14/Tales_of_Graces_f_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Tales_of_Graces_f",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Tales of Graces f",
+    "Namco Tales Studio",
+    "Bandai Namco",
+    "PlayStation 3",
+    "rpg",
+    "2010",
+    "2010s",
+    "PlayStation 3",
+    "action-rpg"
+  ],
+  "url": "/games/tales-of-graces-f/",
+  "featured": false
+}

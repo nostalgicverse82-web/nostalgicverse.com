@@ -1,0 +1,68 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-the-legend-of-zelda-tears-of-the-kingdom",
+  "slug": "the-legend-of-zelda-tears-of-the-kingdom",
+  "title": "The Legend of Zelda: Tears of the Kingdom",
+  "originalReleaseYear": 2023,
+  "exactReleaseDate": "May 12, 2023",
+  "originalLaunchPlatform": "Nintendo Switch",
+  "originalLaunchRegion": "Worldwide",
+  "developer": "Nintendo EPD",
+  "publisher": "Nintendo",
+  "platforms": [
+    "Nintendo Switch"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "open-world",
+    "physics-sandbox"
+  ],
+  "era": "2020s",
+  "shortDescription": "Link explores Hyrule's sky islands, surface, and subterranean Depths using the Ultrahand fuse engine.",
+  "historicalSignificance": "A landmark engineering triumph delivering unprecedented physics-based player creation in an open world.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Tears_of_the_Kingdom",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Link explores Hyrule's sky islands, surface, and subterranean Depths using the Ultrahand fuse engine.",
+    "culturalImpact": "A landmark engineering triumph delivering unprecedented physics-based player creation in an open world."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "Nintendo Switch"
+    ],
+    "genres": [
+      "action-adventure"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/The_Legend_of_Zelda_Tears_of_the_Kingdom_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/The_Legend_of_Zelda_Tears_of_the_Kingdom_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Tears_of_the_Kingdom",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "The Legend of Zelda: Tears of the Kingdom",
+    "Nintendo EPD",
+    "Nintendo",
+    "Nintendo Switch",
+    "action-adventure",
+    "2023",
+    "2020s",
+    "Nintendo Switch",
+    "open-world",
+    "physics-sandbox"
+  ],
+  "url": "/games/the-legend-of-zelda-tears-of-the-kingdom/",
+  "featured": false
+}

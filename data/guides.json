@@ -1,0 +1,297 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "NostalgicVerse Guides Master Dataset",
+  "description": "Canonical structured source data for hardware preservation guides, emulation setups, and archival procedures.",
+  "lastUpdated": "2026-09-08",
+  "guides": [
+    {
+      "id": "guide-crt-calibration-240p",
+      "slug": "crt-calibration-240p",
+      "title": "CRT Display Calibration & 240p Test Suite Setup",
+      "category": "Display & Video",
+      "difficulty": "Intermediate",
+      "system": "Universal CRT / RGB Monitors",
+      "summary": "A methodical walkthrough for calibrating consumer CRTs, PVMs, and BVMs using the 240p Test Suite. Covers linearity, raster geometry, convergence, and black level clamping.",
+      "topics": [
+        "CRT",
+        "240p",
+        "Geometry",
+        "Linearity",
+        "Convergence",
+        "PVM"
+      ],
+      "estimatedRead": "14 min read",
+      "image": "/assets/images/guides/crt-calibration-240p.webp",
+      "featured": true,
+      "url": "/guides/#guide-crt-calibration-240p"
+    },
+    {
+      "id": "guide-optical-laser-calibration",
+      "slug": "optical-laser-calibration",
+      "title": "Optical Drive Laser Calibration & Potentiometer Tuning",
+      "category": "Hardware & Maintenance",
+      "difficulty": "Advanced",
+      "system": "PS1 / PS2 / Saturn / Dreamcast",
+      "summary": "Calibrating CD and DVD optical pickup units using digital multimeters and oscilloscope RF eye-pattern analysis to restore reliable disc read timing without burning out laser diodes.",
+      "topics": [
+        "Optical Drive",
+        "Laser Potentiometer",
+        "Multimeter",
+        "RF Eye Pattern",
+        "Disc Read Errors"
+      ],
+      "estimatedRead": "18 min read",
+      "image": "/assets/images/guides/optical-laser-calibration.webp",
+      "featured": true,
+      "url": "/guides/#guide-optical-laser-calibration"
+    },
+    {
+      "id": "guide-ode-installation-architecture",
+      "slug": "ode-installation-architecture",
+      "title": "Optical Drive Emulation (ODE) Architecture & Implementation",
+      "category": "Preservation",
+      "difficulty": "Advanced",
+      "system": "Saturn / Dreamcast / GameCube / 3DO",
+      "summary": "Replacing failing mechanical disc drives with solid-state Optical Drive Emulators (ODEs). Explores bus timings, DMA streaming protocols, and preserving original laser assemblies.",
+      "topics": [
+        "ODE",
+        "Solid State",
+        "GDEMU",
+        "Fenrir",
+        "GC Loader",
+        "Bus Timing"
+      ],
+      "estimatedRead": "16 min read",
+      "image": "/assets/images/guides/ode-installation-architecture.webp",
+      "featured": true,
+      "url": "/guides/#guide-ode-installation-architecture"
+    },
+    {
+      "id": "guide-rgb-scart-component-routing",
+      "slug": "rgb-scart-component-routing",
+      "title": "Analog RGB Signal Routing: SCART, Component & Clean Sync",
+      "category": "Display & Video",
+      "difficulty": "Intermediate",
+      "system": "16-Bit & 32-Bit Generation Consoles",
+      "summary": "Understanding native analog video outputs across classic hardware. Covers RGBS vs RGsB vs YPbPr, composite sync (CSYNC) attenuation, 75-ohm impedance matching, and avoiding ground hum.",
+      "topics": [
+        "RGB",
+        "SCART",
+        "Component",
+        "CSYNC",
+        "Video Signals",
+        "Analog Video"
+      ],
+      "estimatedRead": "12 min read",
+      "image": "/assets/images/guides/rgb-scart-component-routing.webp",
+      "featured": true,
+      "url": "/guides/#guide-rgb-scart-component-routing"
+    },
+    {
+      "id": "guide-capacitor-replacement-corrosion",
+      "slug": "capacitor-replacement-corrosion",
+      "title": "Electrolytic Capacitor Maintenance & Leak Prevention",
+      "category": "Hardware & Maintenance",
+      "difficulty": "Advanced",
+      "system": "Game Gear / PC Engine / Amiga / Xbox",
+      "summary": "Identifying SMD and through-hole capacitor leakage, neutralizing caustic electrolyte residue on PCB traces, and selecting appropriate low-ESR polymer and ceramic replacements.",
+      "topics": [
+        "Capacitors",
+        "Recapping",
+        "Corrosion",
+        "Soldering",
+        "ESR",
+        "PCB Repair"
+      ],
+      "estimatedRead": "20 min read",
+      "image": "/assets/images/guides/capacitor-replacement-corrosion.webp",
+      "featured": false,
+      "url": "/guides/#guide-capacitor-replacement-corrosion"
+    },
+    {
+      "id": "guide-sram-save-battery-replacement",
+      "slug": "sram-save-battery-replacement",
+      "title": "SRAM Battery Replacement & Save Preservation",
+      "category": "Preservation",
+      "difficulty": "Beginner",
+      "system": "NES / SNES / Mega Drive / Game Boy",
+      "summary": "Safely replacing CR2032 and CR1616 coin cell batteries in cartridge hardware using tabbed cells or battery holders while backing up saved game states via non-destructive dumping.",
+      "topics": [
+        "Cartridge",
+        "Save Battery",
+        "CR2032",
+        "SRAM",
+        "Soldering",
+        "Save Backup"
+      ],
+      "estimatedRead": "9 min read",
+      "image": "/assets/images/guides/sram-save-battery-replacement.webp",
+      "featured": false,
+      "url": "/guides/#guide-sram-save-battery-replacement"
+    },
+    {
+      "id": "guide-controller-latency-polling-rate",
+      "slug": "controller-latency-polling-rate",
+      "title": "Controller Input Latency & USB Polling Rate Optimization",
+      "category": "Controllers & Input",
+      "difficulty": "Beginner",
+      "system": "PC / USB Adapters / Original Hardware",
+      "summary": "Measuring end-to-end controller latency from button press to display scanline. Explains 1000Hz USB polling, daemon overrides, and low-latency microcontroller adapter firmware.",
+      "topics": [
+        "Input Lag",
+        "Latency",
+        "Polling Rate",
+        "USB Adapters",
+        "Controllers"
+      ],
+      "estimatedRead": "11 min read",
+      "image": "/assets/images/guides/controller-latency-polling-rate.webp",
+      "featured": false,
+      "url": "/guides/#guide-controller-latency-polling-rate"
+    },
+    {
+      "id": "guide-retroarch-runahead-latency-reduction",
+      "slug": "retroarch-runahead-latency-reduction",
+      "title": "Cycle-Accurate Latency Reduction via Runahead & Preemptive Frames",
+      "category": "Emulation",
+      "difficulty": "Intermediate",
+      "system": "Software Emulation Platforms",
+      "summary": "Configuring deterministic state rollback algorithms (Runahead) to eliminate emulation input latency, matching or exceeding the responsiveness of original CRT hardware.",
+      "topics": [
+        "Emulation",
+        "Runahead",
+        "Latency",
+        "RetroArch",
+        "Frame Delay"
+      ],
+      "estimatedRead": "13 min read",
+      "image": "/assets/images/guides/retroarch-runahead-latency-reduction.webp",
+      "featured": false,
+      "url": "/guides/#guide-retroarch-runahead-latency-reduction"
+    },
+    {
+      "id": "guide-ps2-free-mcboot-hdd-loading",
+      "slug": "ps2-free-mcboot-hdd-loading",
+      "title": "PlayStation 2 Internal HDD & Free McBoot Archival Setup",
+      "category": "Console Setup",
+      "difficulty": "Beginner",
+      "system": "PlayStation 2 (Fat & Slim)",
+      "summary": "Configuring internal 3.5-inch SATA hard drives via the official Network Adapter to run verified archival disc images without wear on the mechanical DVD laser mechanism.",
+      "topics": [
+        "PS2",
+        "Free McBoot",
+        "FMCB",
+        "Internal HDD",
+        "Open PS2 Loader",
+        "OPL"
+      ],
+      "estimatedRead": "15 min read",
+      "image": "/assets/images/guides/ps2-free-mcboot-hdd-loading.webp",
+      "featured": false,
+      "url": "/guides/#guide-ps2-free-mcboot-hdd-loading"
+    },
+    {
+      "id": "guide-dreamcast-gdemu-no-cut-mount",
+      "slug": "dreamcast-gdemu-no-cut-mount",
+      "title": "Sega Dreamcast GD-ROM Emulation & Power Supply Thermal Mod",
+      "category": "Hardware & Maintenance",
+      "difficulty": "Intermediate",
+      "system": "Sega Dreamcast (VA1)",
+      "summary": "Installing a solid-state GDEMU board into VA1 Dreamcast hardware, adding a 3D-printed airflow duct, and mitigating 12V rail heat buildup on the stock power supply.",
+      "topics": [
+        "Dreamcast",
+        "GDEMU",
+        "Thermal Mod",
+        "12V Rail",
+        "Airflow Duct",
+        "Sega"
+      ],
+      "estimatedRead": "14 min read",
+      "image": "/assets/images/guides/dreamcast-gdemu-no-cut-mount.webp",
+      "featured": false,
+      "url": "/guides/#guide-dreamcast-gdemu-no-cut-mount"
+    },
+    {
+      "id": "guide-clean-audio-ground-loop-elimination",
+      "slug": "clean-audio-ground-loop-elimination",
+      "title": "Eliminating Audio Hum, Ground Loops & Power Supply Noise",
+      "category": "Audio & Sound",
+      "difficulty": "Intermediate",
+      "system": "Mega Drive / Genesis / Saturn / Analogue Setups",
+      "summary": "Diagnosing 50Hz/60Hz mains hum, switching power supply coil whine, and ground loop interference in complex multi-console audio and video switches.",
+      "topics": [
+        "Audio",
+        "Ground Loop",
+        "Hum Eliminator",
+        "Linear PSU",
+        "Shielding"
+      ],
+      "estimatedRead": "10 min read",
+      "image": "/assets/images/guides/clean-audio-ground-loop-elimination.webp",
+      "featured": false,
+      "url": "/guides/#guide-clean-audio-ground-loop-elimination"
+    },
+    {
+      "id": "guide-ips-screen-modding-portable-consoles",
+      "slug": "ips-screen-modding-portable-consoles",
+      "title": "IPS Backlight Modification for Handheld Platforms",
+      "category": "Hardware & Maintenance",
+      "difficulty": "Intermediate",
+      "system": "Game Boy Advance / Game Boy Color",
+      "summary": "Installing modern high-density IPS and OLED laminated display kits into reflective-LCD handhelds with brightness control wire soldering and power regulation checks.",
+      "topics": [
+        "Handhelds",
+        "GBA",
+        "GBC",
+        "IPS Screen",
+        "Laminated Display",
+        "Modding"
+      ],
+      "estimatedRead": "16 min read",
+      "image": "/assets/images/guides/ips-screen-modding-portable-consoles.webp",
+      "featured": false,
+      "url": "/guides/#guide-ips-screen-modding-portable-consoles"
+    },
+    {
+      "id": "guide-rom-dumping-optical-redump-standards",
+      "slug": "rom-dumping-optical-redump-standards",
+      "title": "Optical Media Preservation: Redump Verification Standards",
+      "category": "Archival Research",
+      "difficulty": "Advanced",
+      "system": "CD-ROM / DVD-ROM / GD-ROM Platforms",
+      "summary": "Dumping optical game discs to byte-accurate ISO/BIN/CUE image files using compatible Plextor/LG drives and verifying hashes against international Redump checksum databases.",
+      "topics": [
+        "Redump",
+        "Disc Dumping",
+        "Checksum",
+        "SHA-1",
+        "Subchannel Data",
+        "Preservation"
+      ],
+      "estimatedRead": "22 min read",
+      "image": "/assets/images/guides/rom-dumping-optical-redump-standards.webp",
+      "featured": false,
+      "url": "/guides/#guide-rom-dumping-optical-redump-standards"
+    },
+    {
+      "id": "guide-physical-cartridge-cleaning-restoration",
+      "slug": "physical-cartridge-cleaning-restoration",
+      "title": "Cartridge Contact Restoration & Oxide Decontamination",
+      "category": "Hardware & Maintenance",
+      "difficulty": "Beginner",
+      "system": "All Cartridge-Based Systems",
+      "summary": "Best practices for chemically removing copper and gold oxide from cartridge edge connectors using 99% isopropyl alcohol, DeoxIT contact cleaner, and non-abrasive swabs.",
+      "topics": [
+        "Cartridge Cleaning",
+        "DeoxIT",
+        "IPA",
+        "Connector Pins",
+        "Oxidation"
+      ],
+      "estimatedRead": "8 min read",
+      "image": "/assets/images/guides/physical-cartridge-cleaning-restoration.webp",
+      "featured": false,
+      "url": "/guides/#guide-physical-cartridge-cleaning-restoration"
+    }
+  ]
+}

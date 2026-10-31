@@ -1,0 +1,39 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+  "id": "console-home-pong",
+  "slug": "home-pong",
+  "name": "Atari Home Pong (C-100)",
+  "manufacturer": "Atari",
+  "generation": "First Generation",
+  "generationNumber": 1,
+  "originalReleaseYear": 1975,
+  "exactReleaseDate": "September 1975",
+  "mediaFormat": "Dedicated Embedded Silicon",
+  "significance": "Solidified consumer appetite for dedicated home video gaming and ignited the home console boom through a landmark Sears partnership.",
+  "verifiedFactualData": {
+    "cpu": "Custom Atari Pong-on-a-Chip (D-MOS)",
+    "gpuOrVideoChip": "Integrated on custom chip",
+    "ram": "Internal registers"
+  },
+  "editorialContent": {
+    "overview": "Atari's commercial home console breakthrough, bringing the legendary table tennis arcade phenomenon into living rooms.",
+    "marketLegacy": "Solidified consumer appetite for dedicated home video gaming and ignited the home console boom through a landmark Sears partnership.",
+    "controllerDesign": "Dual integrated analog paddle dials on console chassis"
+  },
+  "keyGames": [
+    "pong"
+  ],
+  "assets": {
+    "mainImage": "/assets/images/consoles/home-pong.png",
+    "heroImage": "/assets/images/consoles/home-pong-hero.png",
+    "hardwareImage": "/assets/images/consoles/home-pong-hardware.png"
+  },
+  "keywords": [
+    "atari",
+    "pong",
+    "home pong",
+    "sears tele-games",
+    "first generation",
+    "1975"
+  ]
+}

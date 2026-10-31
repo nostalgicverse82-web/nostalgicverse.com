@@ -1,0 +1,1747 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <title>Night Driver (1976) — Landmark Games Archive — NostalgicVerse</title>
+  <meta name="description" content="Atari&#039;s landmark arcade racer that pioneered the first-person forward-scrolling driving perspective in commercial video games.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://nostalgicverse.com/games/night-driver/">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <meta name="theme-color" content="#08080C">
+  
+  <!-- Open Graph / Social -->
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="NostalgicVerse">
+  <meta property="og:title" content="Night Driver (1976) — Landmark Video Game Exhibit">
+  <meta property="og:description" content="Atari&#039;s landmark arcade racer that pioneered the first-person forward-scrolling driving perspective in commercial video games.">
+  <meta property="og:url" content="https://nostalgicverse.com/games/night-driver/">
+  <meta property="og:image" content="https://nostalgicverse.com/assets/images/games/night-driver.jpg">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Night Driver (1976) — NostalgicVerse">
+  <meta name="twitter:description" content="Atari&#039;s landmark arcade racer that pioneered the first-person forward-scrolling driving perspective in commercial video games.">
+  <meta name="twitter:image" content="https://nostalgicverse.com/assets/images/games/night-driver.jpg">
+  
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://nostalgicverse.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Landmark Games Archive",
+          "item": "https://nostalgicverse.com/games/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Night Driver",
+          "item": "https://nostalgicverse.com/games/night-driver/"
+        }
+      ]
+    },
+    {
+      "@type": "VideoGame",
+      "name": "Night Driver",
+      "url": "https://nostalgicverse.com/games/night-driver/",
+      "description": "Atari's landmark arcade racer that pioneered the first-person forward-scrolling driving perspective in commercial video games.",
+      "datePublished": "1976-10-01",
+      "genre": [
+        "racing",
+        "First-Person Driving",
+        "Night Racing"
+      ],
+      "gamePlatform": [
+        "Arcade",
+        "Atari 2600",
+        "Commodore 64"
+      ],
+      "author": {
+        "@type": "Organization",
+        "name": "Atari, Inc."
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Atari, Inc."
+      }
+    }
+  ]
+}
+  </script>
+
+  <style>
+    /* ==========================================================================
+       01. APPROVED NOSTALGICVERSE DESIGN TOKENS
+       ========================================================================== */
+    :root {
+      --nv-bg: #08080C;
+      --nv-bg-alt: #0C0C11;
+      --nv-surface: #111118;
+      --nv-surface-raised: #15151D;
+      --nv-surface-active: #1C1C26;
+      --nv-border: #1E1E2C;
+      --nv-border-strong: #2A2A38;
+      --nv-border-hover: rgba(0, 229, 255, 0.35);
+      --nv-text: #F4F4F7;
+      --nv-text-muted: #A7A7B5;
+      --nv-text-dim: #737381;
+      --nv-cyan: #00E5FF;
+      --nv-gold: #FFB300;
+      --nv-crimson: #FF2A6D;
+      --nv-font-sans: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      --nv-font-mono: ui-monospace, "SFMono-Regular", Menlo, Consolas, "Liberation Mono", monospace;
+      --nv-container-max: 1280px;
+      --nv-header-height: 72px;
+      --nv-radius-sm: 4px;
+      --nv-radius-md: 8px;
+      --nv-radius-lg: 12px;
+      --nv-transition-fast: 160ms cubic-bezier(0.16, 1, 0.3, 1);
+      --nv-transition-normal: 260ms cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      background-color: var(--nv-bg);
+      color: var(--nv-text);
+      font-family: var(--nv-font-sans);
+      scroll-behavior: smooth;
+      -webkit-text-size-adjust: 100%;
+    }
+
+    body {
+      background-color: var(--nv-bg);
+      color: var(--nv-text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      line-height: 1.65;
+      overflow-x: hidden;
+      width: 100%;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    body.menu-open {
+      overflow: hidden;
+    }
+
+    /* Accessibility Skip Link */
+    .skip-link {
+      position: absolute;
+      top: -100px;
+      left: 16px;
+      background: var(--nv-cyan);
+      color: #000;
+      padding: 10px 16px;
+      font-weight: 700;
+      font-size: 0.875rem;
+      z-index: 10000;
+      border-radius: var(--nv-radius-sm);
+      text-decoration: none;
+      transition: top var(--nv-transition-fast);
+    }
+    .skip-link:focus {
+      top: 16px;
+    }
+
+    a {
+      color: var(--nv-cyan);
+      text-decoration: none;
+      transition: color var(--nv-transition-fast);
+    }
+    a:hover {
+      color: #66efff;
+      text-decoration: underline;
+    }
+
+    /* Focus Ring */
+    :focus-visible {
+      outline: 2px solid var(--nv-cyan);
+      outline-offset: 2px;
+    }
+
+    /* ==========================================================================
+       02. SITE HEADER & MOBILE RESPONSIVE NAVIGATION
+       ========================================================================== */
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background-color: rgba(8, 8, 12, 0.92);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--nv-border);
+      height: var(--nv-header-height);
+      display: flex;
+      align-items: center;
+    }
+
+    .header-inner {
+      width: 100%;
+      max-width: var(--nv-container-max);
+      margin: 0 auto;
+      padding: 0 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+    }
+
+    .brand-group {
+      display: flex;
+      align-items: center;
+      flex-shrink: 0;
+    }
+
+    .brand-logo-wrap {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      color: var(--nv-text);
+    }
+    .brand-logo-wrap:hover {
+      text-decoration: none;
+    }
+
+    .brand-mark {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 36px;
+      height: 36px;
+      border-radius: var(--nv-radius-md);
+      background: linear-gradient(135deg, var(--nv-surface-raised) 0%, var(--nv-surface-active) 100%);
+      border: 1px solid var(--nv-border-strong);
+      color: var(--nv-gold);
+      font-weight: 900;
+      font-size: 0.95rem;
+      letter-spacing: -0.05em;
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    }
+
+    .brand-text {
+      font-size: 1.15rem;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      color: #fff;
+    }
+
+    /* Desktop Navigation */
+    .site-nav {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .nav-link {
+      padding: 8px 12px;
+      font-size: 0.875rem;
+      font-weight: 500;
+      color: var(--nv-text-muted);
+      border-radius: var(--nv-radius-sm);
+      transition: color var(--nv-transition-fast), background-color var(--nv-transition-fast);
+      text-decoration: none;
+    }
+    .nav-link:hover {
+      color: #fff;
+      background-color: var(--nv-surface-raised);
+      text-decoration: none;
+    }
+    .nav-link.active {
+      color: #fff;
+      background-color: var(--nv-surface);
+      font-weight: 600;
+    }
+
+    /* Header Actions */
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-shrink: 0;
+    }
+
+    .header-action-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 44px;
+      height: 44px;
+      border-radius: var(--nv-radius-md);
+      background-color: var(--nv-surface);
+      border: 1px solid var(--nv-border);
+      color: var(--nv-text-muted);
+      cursor: pointer;
+      position: relative;
+      transition: all var(--nv-transition-fast);
+      text-decoration: none;
+    }
+    .header-action-btn:hover {
+      color: var(--nv-cyan);
+      border-color: var(--nv-border-hover);
+      background-color: var(--nv-surface-raised);
+      text-decoration: none;
+    }
+
+    .fav-badge {
+      position: absolute;
+      top: 6px;
+      right: 6px;
+      background-color: var(--nv-gold);
+      color: #000;
+      font-size: 0.65rem;
+      font-weight: 800;
+      min-width: 16px;
+      height: 16px;
+      padding: 0 4px;
+      border-radius: 999px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      line-height: 1;
+    }
+
+    /* Mobile Menu Toggle (44px touch target) */
+    .menu-toggle {
+      display: none;
+      align-items: center;
+      justify-content: center;
+      width: 44px;
+      height: 44px;
+      background: var(--nv-surface);
+      border: 1px solid var(--nv-border);
+      color: var(--nv-text);
+      border-radius: var(--nv-radius-md);
+      cursor: pointer;
+      transition: all var(--nv-transition-fast);
+    }
+    .menu-toggle:hover {
+      background: var(--nv-surface-raised);
+      color: var(--nv-cyan);
+      border-color: var(--nv-border-hover);
+    }
+
+    /* Mobile Header Breakpoint (<= 991px) */
+    @media (max-width: 991px) {
+      .site-nav {
+        display: none;
+      }
+      .menu-toggle {
+        display: inline-flex;
+      }
+    }
+
+    /* ==========================================================================
+       03. ACCESSIBLE MOBILE NAVIGATION DRAWER
+       ========================================================================== */
+    .mobile-drawer-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(4, 4, 6, 0.75);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      z-index: 200;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity var(--nv-transition-normal);
+    }
+
+    .mobile-drawer {
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      width: min(85vw, 360px);
+      background-color: var(--nv-bg-alt);
+      border-left: 1px solid var(--nv-border);
+      z-index: 210;
+      padding: 24px 20px;
+      display: flex;
+      flex-direction: column;
+      transform: translateX(100%);
+      transition: transform var(--nv-transition-normal);
+      overflow-y: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    .mobile-drawer-overlay.is-open {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    .mobile-drawer.is-open {
+      transform: translateX(0);
+    }
+
+    .drawer-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+      border-bottom: 1px solid var(--nv-border);
+    }
+
+    .drawer-close-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 44px;
+      height: 44px;
+      background: var(--nv-surface);
+      border: 1px solid var(--nv-border);
+      color: var(--nv-text-muted);
+      border-radius: var(--nv-radius-md);
+      cursor: pointer;
+      transition: all var(--nv-transition-fast);
+    }
+    .drawer-close-btn:hover {
+      color: #fff;
+      background: var(--nv-surface-raised);
+      border-color: var(--nv-border-hover);
+    }
+
+    .drawer-nav {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .drawer-link {
+      display: flex;
+      align-items: center;
+      min-height: 44px;
+      padding: 8px 16px;
+      border-radius: var(--nv-radius-md);
+      font-size: 0.95rem;
+      font-weight: 500;
+      color: var(--nv-text-muted);
+      text-decoration: none;
+      transition: all var(--nv-transition-fast);
+    }
+    .drawer-link:hover {
+      background-color: var(--nv-surface);
+      color: #fff;
+      text-decoration: none;
+    }
+    .drawer-link.active {
+      background-color: var(--nv-surface-active);
+      color: var(--nv-cyan);
+      font-weight: 600;
+    }
+
+    .drawer-divider {
+      height: 1px;
+      background-color: var(--nv-border);
+      margin: 12px 0;
+    }
+
+    /* ==========================================================================
+       04. NAVIGATION BAR (BREADCRUMBS & ARCHIVE BACKLINK)
+       ========================================================================== */
+    .nav-breadcrumb-bar {
+      width: 100%;
+      max-width: var(--nv-container-max);
+      margin: 1.5rem auto 0;
+      padding: 0 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+      font-size: 0.875rem;
+    }
+
+    .breadcrumbs {
+      color: var(--nv-text-dim);
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .breadcrumbs a {
+      color: var(--nv-text-muted);
+    }
+    .breadcrumbs a:hover {
+      color: #fff;
+    }
+    .breadcrumbs span.sep {
+      opacity: 0.4;
+    }
+
+    .back-archive-link {
+      color: var(--nv-text-muted);
+      font-weight: 500;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      min-height: 44px;
+      padding: 0 4px;
+    }
+    .back-archive-link:hover {
+      color: var(--nv-gold);
+      text-decoration: none;
+    }
+
+    /* ==========================================================================
+       05. EXHIBIT MAIN CONTAINER & HERO
+       ========================================================================== */
+    .exhibit-container {
+      width: 100%;
+      max-width: var(--nv-container-max);
+      margin: 1.5rem auto 4rem;
+      padding: 0 24px;
+      flex: 1;
+    }
+
+    .hero-panel {
+      background-color: var(--nv-surface);
+      border: 1px solid var(--nv-border);
+      border-radius: var(--nv-radius-lg);
+      padding: clamp(1.5rem, 4vw, 2.5rem);
+      margin-bottom: 2rem;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero-panel::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 320px;
+      height: 320px;
+      background: radial-gradient(circle at top right, rgba(255, 179, 0, 0.12), transparent 70%);
+      pointer-events: none;
+    }
+
+    .hero-badge-row {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-bottom: 1rem;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      padding: 4px 10px;
+      border-radius: 999px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .badge-gold {
+      background: rgba(255, 179, 0, 0.12);
+      color: var(--nv-gold);
+      border: 1px solid rgba(255, 179, 0, 0.28);
+    }
+    .badge-cyan {
+      background: rgba(0, 229, 255, 0.12);
+      color: var(--nv-cyan);
+      border: 1px solid rgba(0, 229, 255, 0.28);
+    }
+    .badge-era {
+      background: rgba(255, 42, 109, 0.12);
+      color: var(--nv-crimson);
+      border: 1px solid rgba(255, 42, 109, 0.28);
+    }
+
+    .hero-title {
+      font-size: clamp(1.75rem, 5vw, 2.85rem);
+      font-weight: 900;
+      line-height: 1.15;
+      margin-bottom: 0.75rem;
+      color: #fff;
+      letter-spacing: -0.02em;
+      word-break: break-word;
+    }
+
+    .hero-subtitle {
+      font-size: clamp(1rem, 2.5vw, 1.15rem);
+      color: var(--nv-text-muted);
+      max-width: 860px;
+      margin-bottom: 1.5rem;
+      line-height: 1.6;
+    }
+
+    .hero-actions {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .btn-fav {
+      background-color: var(--nv-surface-raised);
+      border: 1px solid var(--nv-border-strong);
+      color: var(--nv-text);
+      min-height: 44px;
+      padding: 0 1.25rem;
+      border-radius: var(--nv-radius-md);
+      font-weight: 600;
+      font-size: 0.9rem;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: all var(--nv-transition-fast);
+    }
+    .btn-fav:hover {
+      background-color: var(--nv-surface-active);
+      border-color: var(--nv-gold);
+      color: #fff;
+    }
+    .btn-fav.active {
+      background: rgba(255, 179, 0, 0.15);
+      border-color: var(--nv-gold);
+      color: var(--nv-gold);
+    }
+
+    /* ==========================================================================
+       06. MUSEUM ARTIFACT VISUAL & FALLBACK PLATE
+       ========================================================================== */
+    .artifact-visual-wrap {
+      margin-bottom: 2.25rem;
+      border-radius: var(--nv-radius-lg);
+      overflow: hidden;
+      border: 1px solid var(--nv-border);
+      background: radial-gradient(circle at center, #111119 0%, #06060a 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 280px;
+      max-height: 520px;
+      padding: 16px;
+    }
+
+    .artifact-image {
+      max-width: 100%;
+      max-height: 488px;
+      width: auto;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+      object-fit: contain;
+      border-radius: var(--nv-radius-sm);
+      box-shadow: 0 4px 24px rgba(0, 0, 0, 0.55);
+      transition: transform var(--nv-transition-normal);
+    }
+
+    @media (max-width: 640px) {
+      .artifact-visual-wrap {
+        min-height: 200px;
+        max-height: 380px;
+        padding: 10px;
+      }
+      .artifact-image {
+        max-height: 360px;
+      }
+    }
+
+    .museum-artifact-plate {
+      background: linear-gradient(135deg, #0c0c12 0%, #15151f 100%);
+      padding: clamp(2rem, 5vw, 3.5rem) clamp(1rem, 4vw, 2rem);
+      text-align: center;
+      position: relative;
+      border-radius: var(--nv-radius-lg);
+    }
+
+    .plate-accession {
+      font-family: var(--nv-font-mono);
+      font-size: 0.75rem;
+      color: var(--nv-gold);
+      letter-spacing: 0.1em;
+      margin-bottom: 0.75rem;
+      text-transform: uppercase;
+      word-break: break-all;
+    }
+
+    .plate-title {
+      font-size: clamp(1.35rem, 4vw, 1.85rem);
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 0.5rem;
+      word-break: break-word;
+    }
+
+    .plate-meta {
+      font-size: 0.95rem;
+      color: var(--nv-text-muted);
+      margin-bottom: 1.25rem;
+    }
+
+    .plate-status {
+      display: inline-block;
+      font-size: 0.75rem;
+      color: var(--nv-text-dim);
+      border-top: 1px solid var(--nv-border);
+      padding-top: 0.75rem;
+      max-width: 480px;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      line-height: 1.5;
+    }
+
+    /* ==========================================================================
+       07. MOBILE-FIRST EDITORIAL CONTENT & SIDEBAR SPECS
+       ========================================================================== */
+    .content-grid {
+      display: grid;
+      grid-template-columns: 2.2fr 1fr;
+      gap: 2.25rem;
+      align-items: start;
+    }
+
+    /* Mobile Single-Column Order: Content first, then Specs below */
+    @media (max-width: 960px) {
+      .content-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+      }
+    }
+
+    .article-section {
+      background-color: var(--nv-surface);
+      border: 1px solid var(--nv-border);
+      border-radius: var(--nv-radius-lg);
+      padding: clamp(1.25rem, 3vw, 2rem);
+      margin-bottom: 1.75rem;
+    }
+
+    .section-heading {
+      font-size: clamp(1.15rem, 3vw, 1.35rem);
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 1.25rem;
+      padding-bottom: 0.75rem;
+      border-bottom: 1px solid var(--nv-border);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .article-section p {
+      color: #cbd5e1;
+      margin-bottom: 1.25rem;
+      font-size: clamp(0.95rem, 2vw, 1.05rem);
+      line-height: 1.75;
+    }
+    .article-section p:last-child {
+      margin-bottom: 0;
+    }
+
+    /* Spec Sheet Sidebar */
+    .spec-card {
+      background-color: var(--nv-surface);
+      border: 1px solid var(--nv-border);
+      border-radius: var(--nv-radius-lg);
+      padding: clamp(1.25rem, 3vw, 1.75rem);
+      position: sticky;
+      top: calc(var(--nv-header-height) + 1.5rem);
+    }
+    @media (max-width: 960px) {
+      .spec-card {
+        position: static;
+        top: auto;
+      }
+    }
+
+    .spec-card h2 {
+      font-size: 1.15rem;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 1.25rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--nv-border);
+    }
+
+    .spec-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.875rem;
+      table-layout: fixed;
+    }
+    .spec-table tr {
+      border-bottom: 1px solid rgba(30, 30, 44, 0.6);
+    }
+    .spec-table tr:last-child {
+      border-bottom: none;
+    }
+    .spec-table td {
+      padding: 0.75rem 0;
+      vertical-align: top;
+      word-break: break-word;
+    }
+    .spec-table td.label {
+      color: var(--nv-text-dim);
+      width: 44%;
+      font-weight: 500;
+    }
+    .spec-table td.value {
+      color: var(--nv-text);
+      font-weight: 600;
+      text-align: right;
+      font-family: var(--nv-font-mono);
+      font-size: 0.825rem;
+    }
+
+    /* Citations */
+    .citation-list {
+      list-style: square;
+      padding-left: 1.25rem;
+      color: var(--nv-text-muted);
+      font-size: 0.875rem;
+      line-height: 1.6;
+    }
+    .citation-list li {
+      margin-bottom: 0.5rem;
+    }
+
+    /* ==========================================================================
+       08. SITE FOOTER
+       ========================================================================== */
+    .site-footer {
+      background-color: #050508;
+      border-top: 1px solid var(--nv-border);
+      padding: 3rem 24px;
+      margin-top: auto;
+      font-size: 0.875rem;
+      color: var(--nv-text-dim);
+    }
+
+    .footer-inner {
+      width: 100%;
+      max-width: var(--nv-container-max);
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 24px;
+    }
+
+    .footer-links {
+      display: flex;
+      gap: 20px;
+      list-style: none;
+      flex-wrap: wrap;
+    }
+    .footer-links a {
+      color: var(--nv-text-muted);
+      min-height: 44px;
+      display: inline-flex;
+      align-items: center;
+    }
+    .footer-links a:hover {
+      color: #fff;
+    }
+
+    /* Reduced Motion */
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+      }
+    }
+
+    /* Global Official Logo Styles */
+    .site-logo-img {
+      height: 36px;
+      width: auto;
+      max-width: 190px;
+      display: block;
+    }
+    .drawer-logo-img {
+      height: 32px;
+      max-width: 160px;
+    }
+    .footer-logo-img {
+      height: 40px;
+      max-width: 200px;
+      margin-bottom: 12px;
+    }
+    @media (max-width: 768px) {
+      .site-logo-img {
+        height: 30px;
+        max-width: 150px;
+      }
+    }
+
+    /* Global Archive Support Section */
+    .archive-support-section {
+      padding: 48px 0;
+      border-top: 1px solid var(--nv-border, #1E1E2C);
+      background: var(--nv-bg-alt, #0C0C11);
+      position: relative;
+      z-index: 1;
+    }
+    .support-panel {
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+      background: var(--nv-surface, #111118);
+      border: 1px solid var(--nv-border, #1E1E2C);
+      border-radius: var(--nv-radius-lg, 12px);
+      padding: clamp(24px, 4vw, 40px);
+      align-items: center;
+    }
+    @media (min-width: 768px) {
+      .support-panel {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .support-content {
+        max-width: 65%;
+      }
+    }
+    .archive-support-section .catalog-tag {
+      display: inline-block;
+      font-family: var(--nv-font-mono, monospace);
+      font-size: 0.72rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      padding: 4px 10px;
+      border-radius: var(--nv-radius-sm, 4px);
+    }
+    .archive-support-section .tag-gold,
+    .support-modal .tag-gold {
+      color: var(--nv-gold, #FFB300);
+      background: rgba(255, 179, 0, 0.1);
+      border: 1px solid rgba(255, 179, 0, 0.25);
+    }
+    .support-title {
+      font-size: clamp(1.4rem, 2.5vw, 1.85rem);
+      font-weight: 800;
+      color: var(--nv-text-primary, #F4F4F7);
+      margin: 10px 0 12px;
+      letter-spacing: -0.02em;
+    }
+    .support-desc {
+      font-size: 0.95rem;
+      color: var(--nv-text-secondary, #A7A7B5);
+      line-height: 1.65;
+      margin-bottom: 8px;
+    }
+    .support-subdesc {
+      font-size: 0.85rem;
+      color: var(--nv-text-muted, #737381);
+      line-height: 1.5;
+      margin-bottom: 20px;
+    }
+    .support-actions {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .archive-support-section .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 12px 24px;
+      border-radius: var(--nv-radius-sm, 4px);
+      font-size: 0.875rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all var(--nv-transition-fast, 160ms ease);
+      cursor: pointer;
+    }
+    .archive-support-section .btn-secondary {
+      background: var(--nv-surface-raised, #15151D);
+      color: var(--nv-text-primary, #F4F4F7);
+      border: 1px solid var(--nv-border-strong, #2A2A38);
+    }
+    .archive-support-section .btn-secondary:hover {
+      border-color: var(--nv-cyan, #00E5FF);
+      color: var(--nv-cyan, #00E5FF);
+    }
+    .support-qr-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      flex-shrink: 0;
+    }
+    .support-qr-quiet-zone {
+      background: #FFFFFF;
+      padding: 14px;
+      border-radius: var(--nv-radius-md, 8px);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .support-qr-image {
+      width: clamp(160px, 20vw, 200px);
+      height: auto;
+      aspect-ratio: 1440 / 1472;
+      display: block;
+      object-fit: contain;
+    }
+    .support-qr-caption {
+      font-size: 0.8rem;
+      font-family: var(--nv-font-mono, monospace);
+      color: var(--nv-text-muted, #737381);
+      margin-top: 10px;
+    }
+
+    /* Support Modal Backdrop & Dialog */
+    .support-modal-backdrop {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.75);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      z-index: 9998;
+    }
+    .support-modal {
+      position: fixed;
+      inset: 0;
+      z-index: 9999;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 16px;
+      overflow-y: auto;
+    }
+    .support-modal-dialog {
+      background: var(--nv-surface, #111118);
+      border: 1px solid var(--nv-border-strong, #2A2A38);
+      border-radius: var(--nv-radius-lg, 12px);
+      padding: clamp(20px, 3.5vw, 32px);
+      max-width: 440px;
+      width: 100%;
+      box-shadow: 0 24px 64px rgba(0, 0, 0, 0.8);
+      position: relative;
+    }
+    .support-modal-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 12px;
+    }
+    .support-modal .tag-gold {
+      display: inline-block;
+      font-family: var(--nv-font-mono, monospace);
+      font-size: 0.72rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      padding: 4px 10px;
+      border-radius: var(--nv-radius-sm, 4px);
+    }
+    .support-modal-close {
+      color: var(--nv-text-muted, #737381);
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 6px;
+      border-radius: var(--nv-radius-sm, 4px);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      transition: color var(--nv-transition-fast, 160ms ease);
+    }
+    .support-modal-close:hover {
+      color: var(--nv-text-primary, #F4F4F7);
+      background: var(--nv-surface-raised, #15151D);
+    }
+    .support-modal-title {
+      font-size: 1.4rem;
+      font-weight: 800;
+      color: var(--nv-text-primary, #F4F4F7);
+      letter-spacing: -0.01em;
+      margin-bottom: 4px;
+    }
+    .support-modal-subtitle {
+      font-size: 0.95rem;
+      color: var(--nv-cyan, #00E5FF);
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+    .support-modal-desc {
+      font-size: 0.875rem;
+      color: var(--nv-text-secondary, #A7A7B5);
+      line-height: 1.6;
+      margin-bottom: 16px;
+    }
+    .support-modal-qr-wrap {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      margin: 16px 0;
+    }
+    .support-modal-qr {
+      width: 160px;
+      height: auto;
+      aspect-ratio: 1440 / 1472;
+      display: block;
+      object-fit: contain;
+    }
+    .support-modal-qr-text {
+      font-size: 0.825rem;
+      font-weight: 600;
+      color: var(--nv-text-primary, #F4F4F7);
+      margin-top: 10px;
+    }
+    .support-modal-actions {
+      display: flex;
+      gap: 8px;
+      margin-top: 16px;
+    }
+    .support-modal-btn {
+      flex: 1;
+      text-align: center;
+      padding: 10px 14px;
+      font-size: 0.85rem;
+      border-radius: var(--nv-radius-sm, 4px);
+      font-family: var(--nv-font-sans, system-ui);
+      font-weight: 600;
+      cursor: pointer;
+      transition: all var(--nv-transition-fast, 160ms ease);
+    }
+    .support-modal .btn-primary {
+      background: var(--nv-cyan, #00E5FF);
+      color: #000;
+      border: 1px solid var(--nv-cyan, #00E5FF);
+    }
+    .support-modal .btn-primary:hover {
+      background: #33ebff;
+    }
+    .support-modal .btn-secondary {
+      background: var(--nv-surface-raised, #15151D);
+      color: var(--nv-text-primary, #F4F4F7);
+      border: 1px solid var(--nv-border-strong, #2A2A38);
+    }
+    .support-modal .btn-secondary:hover {
+      border-color: var(--nv-cyan, #00E5FF);
+      color: var(--nv-cyan, #00E5FF);
+    }
+    body.support-modal-open {
+      overflow: hidden;
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .support-modal-backdrop,
+      .support-modal-dialog {
+        transition: none !important;
+        animation: none !important;
+      }
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- Skip to Content Link -->
+  <a href="#main-content" class="skip-link">Skip to main exhibit content</a>
+
+  <!-- Global Header -->
+  <header class="site-header" id="site-header">
+    <div class="header-inner">
+        <div class="brand-group">
+          <div class="account-control-wrap" id="account-control-wrap">
+            <button class="account-toggle-btn" id="account-toggle-btn" aria-expanded="false" aria-controls="account-dropdown-menu" aria-label="Account Menu">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                <circle cx="12" cy="7" r="4"></circle>
+              </svg>
+            </button>
+            <div class="account-dropdown-menu" id="account-dropdown-menu" role="menu" hidden>
+              <div class="account-dropdown-header">
+                <span class="account-dropdown-title">ACCOUNT</span>
+              </div>
+              <a href="/account/" class="account-dropdown-item" role="menuitem">Account</a>
+              <a href="/login/" class="account-dropdown-item" role="menuitem">Log In</a>
+              <a href="/signup/" class="account-dropdown-item" role="menuitem">Sign Up</a>
+            </div>
+          </div>
+          <a href="/" class="brand-logo-wrap" aria-label="NostalgicVerse Homepage">
+            <img src="/assets/images/branding/logo/logo.svg" alt="NostalgicVerse" class="site-logo-img" width="180" height="36" loading="eager">
+          </a>
+        </div>
+
+      <!-- Desktop Navigation -->
+      <nav class="site-nav" aria-label="Primary Exhibition Navigation">
+        <a href="/" class="nav-link">Home</a>
+        <a href="/games/" class="nav-link active" aria-current="page">Games</a>
+        <a href="/consoles/" class="nav-link">Consoles</a>
+        <a href="/timeline/" class="nav-link">Timeline</a>
+        <a href="/genres/" class="nav-link">Genres</a>
+        <a href="/guides/" class="nav-link">Guides</a>
+        <a href="/blog/" class="nav-link">Stories</a>
+        <a href="/download/" class="nav-link">Emulator</a>
+      </nav>
+
+      <!-- Utility Actions -->
+      <div class="header-actions">
+        <a href="/search/" class="header-action-btn" aria-label="Search the Archive">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+        </a>
+
+        <a href="/favorites/" class="header-action-btn" aria-label="View Saved Archive Favorites">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path>
+          </svg>
+          <span class="fav-badge" id="header-fav-badge" aria-live="polite">0</span>
+        </a>
+
+        <!-- Mobile Menu Toggle Button (44px target) -->
+        <button type="button" class="menu-toggle" id="menu-toggle-btn" aria-expanded="false" aria-controls="mobile-nav-drawer" aria-label="Open Archive Navigation">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Accessible Mobile Navigation Drawer -->
+  <div class="mobile-drawer-overlay" id="drawer-backdrop" aria-hidden="true"></div>
+
+  <aside class="mobile-drawer" id="mobile-nav-drawer" aria-label="Mobile Navigation" aria-hidden="true" tabindex="-1">
+    <div class="drawer-top">
+      <div class="brand-group">
+        <a href="/" class="brand-logo-wrap" aria-label="NostalgicVerse Homepage">
+          <img src="/assets/images/branding/logo/logo.svg" alt="NostalgicVerse" class="site-logo-img drawer-logo-img" width="160" height="32" loading="lazy">
+        </a>
+      </div>
+      <button type="button" class="drawer-close-btn" id="drawer-close-btn" aria-label="Close Archive Navigation">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+    <nav class="drawer-nav" aria-label="Mobile Archive Links">
+      <a href="/" class="drawer-link">Home</a>
+      <a href="/games/" class="drawer-link active">Games Archive</a>
+      <a href="/consoles/" class="drawer-link">Consoles</a>
+      <a href="/timeline/" class="drawer-link">Timeline</a>
+      <a href="/genres/" class="drawer-link">Genres</a>
+      <a href="/guides/" class="drawer-link">Guides</a>
+      <a href="/blog/" class="drawer-link">Stories</a>
+      <a href="/download/" class="drawer-link">Emulator</a>
+      <div class="drawer-divider"></div>
+      <a href="/search/" class="drawer-link">Universal Search</a>
+      <a href="/favorites/" class="drawer-link">Curated Favorites</a>
+      <a href="/random/" class="drawer-link">Discovery Engine</a>
+      <a href="/about/" class="drawer-link">About Archive</a>
+      <a href="/support/" class="drawer-link">Support</a>
+    </nav>
+  </aside>
+
+  <!-- Navigation Bar: Breadcrumbs & Backlink -->
+  <div class="nav-breadcrumb-bar">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a>
+      <span class="sep">/</span>
+      <a href="/games/">Games Archive</a>
+      <span class="sep">/</span>
+      <span aria-current="page">Night Driver</span>
+    </nav>
+    <a href="/games/" class="back-archive-link" aria-label="Return to Landmark Games Archive">&larr; Return to Games Archive</a>
+  </div>
+
+  <!-- Main Exhibit -->
+  <main class="exhibit-container" id="main-content">
+    
+    <!-- Hero Header -->
+    <header class="hero-panel">
+      <div class="hero-badge-row">
+        <span class="badge badge-gold">racing</span>
+        <span class="badge badge-cyan">Arcade</span>
+        <span class="badge badge-era">1970s</span>
+      </div>
+      <h1 class="hero-title">Night Driver</h1>
+      <p class="hero-subtitle">Atari&#039;s landmark arcade racer that pioneered the first-person forward-scrolling driving perspective in commercial video games.</p>
+      <div class="hero-actions">
+        <button class="btn-fav" id="btn-favorite" data-id="game-night-driver" data-title="Night Driver" data-genre="racing" aria-label="Save Night Driver to favorites">
+          <span class="fav-icon">&#9734;</span>
+          <span class="fav-label">Save Exhibit</span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Artifact Visual / Museum Accession Plate -->
+    <section class="artifact-visual-wrap" aria-label="Archival artifact plate">
+      
+      <img src="/assets/images/games/night-driver.jpg" alt="Night Driver game artwork" class="artifact-image" width="1200" height="480" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display='none'; document.getElementById('museum-plate-night-driver').style.display='block';">
+      <div id="museum-plate-night-driver" class="museum-artifact-plate" style="display: none;">
+        <div class="plate-accession">ACCESSION № NV-GM-1976-NIGHT-DRIVER</div>
+        <div class="plate-title">Night Driver</div>
+        <div class="plate-meta">1976 · Atari, Inc. · Arcade</div>
+        <div class="plate-status">Physical artifact preserved in archive vault · High-resolution digitization pending</div>
+      </div>
+      
+    </section>
+
+    <!-- Content Columns -->
+    <div class="content-grid">
+      
+      <!-- Primary Curatorial Essays -->
+      <article class="curatorial-body">
+        
+        <section class="article-section" id="overview">
+          <h2 class="section-heading">Curatorial Overview</h2>
+          <p>Designed by Atari engineer Dave Shepperd after seeing a German prototype called Nürburgring 1, Night Driver immersed players in a darkened cockpit cabinet behind a physical steering wheel, four-speed gear shifter, and accelerator pedal.</p>
+        </section>
+
+        
+
+        
+        <section class="article-section" id="technical">
+          <h2 class="section-heading">Hardware Engineering & Codebase Innovation</h2>
+          <p>Cleverly simulated forward 3D depth on discrete hardware using a printed transparent car bezel on the CRT glass and dynamically scaling coordinate tables for roadside posts.</p>
+        </section>
+        
+
+        
+        <section class="article-section" id="impact">
+          <h2 class="section-heading">Cultural Legacy & Historic Reception</h2>
+          <p>Became a major commercial triumph for Atari, establishing the first-person vehicle perspective that would later flourish in games like Pole Position, Out Run, and Gran Turismo.</p>
+        </section>
+        
+
+        
+        <section class="article-section" id="preservation">
+          <h2 class="section-heading">Preservation Notes & Hardware Replication</h2>
+          <p>Preserved on original Atari arcade cabinets and ported by Rob Fulop to the Atari 2600 in 1980.</p>
+        </section>
+        
+
+        
+
+      </article>
+
+      <!-- Sidebar Specs -->
+      <aside class="sidebar-column">
+        <div class="spec-card">
+          <h2>Verified Archival Data</h2>
+          <table class="spec-table">
+            <tbody>
+              <tr><td class="label">Release Year</td><td class="value">1976</td></tr>
+              <tr><td class="label">Release Date</td><td class="value">1976-10-01</td></tr>
+              <tr><td class="label">Developer</td><td class="value">Atari, Inc.</td></tr>
+              <tr><td class="label">Publisher</td><td class="value">Atari, Inc.</td></tr>
+              <tr><td class="label">Director</td><td class="value">Dave Shepperd</td></tr>
+              <tr><td class="label">Designer</td><td class="value">Dave Shepperd</td></tr>
+              <tr><td class="label">Composer</td><td class="value">Discrete Audio Synthesis</td></tr>
+              <tr><td class="label">Launch Platform</td><td class="value">Arcade</td></tr>
+              
+              
+              
+              
+              
+              
+            </tbody>
+          </table>
+        </div>
+      </aside>
+
+    </div>
+
+  </main>
+
+  <!-- ==========================================================================
+       GLOBAL ARCHIVE SUPPORT SECTION
+       ========================================================================== -->
+  <section class="archive-support-section" id="archive-support" aria-labelledby="support-heading">
+    <div class="container">
+      <div class="support-panel">
+        <div class="support-content">
+          <span class="catalog-tag tag-gold">Preservation Initiative</span>
+          <h2 class="support-title" id="support-heading">Support the Creator</h2>
+          <p class="support-desc">
+            Help me keep building NostalgicVerse and bringing more gaming history, hardware, stories and preservation resources to the archive.
+          </p>
+          <p class="support-subdesc">
+            NostalgicVerse is an independent project created to preserve the games, machines, stories and memories that made gaming history. Thank you for supporting NostalgicVerse.
+          </p>
+          <div class="support-actions">
+            <a href="/support/" class="btn btn-secondary">
+              <span>Support the Creator</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
+          </div>
+        </div>
+        <div class="support-qr-card">
+          <div class="support-qr-quiet-zone">
+            <img src="/assets/images/qr-code/qr-code.png" alt="QR code to support NostalgicVerse creator" class="support-qr-image" width="200" height="200" loading="lazy" decoding="async">
+          </div>
+          <p class="support-qr-caption">Scan to support NostalgicVerse</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-col">
+        <div class="brand-group" style="margin-bottom: 12px;">
+          <a href="/" class="brand-logo-wrap" aria-label="NostalgicVerse Homepage">
+            <img src="/assets/images/branding/logo/logo.svg" alt="NostalgicVerse" class="site-logo-img footer-logo-img" width="200" height="40" loading="lazy">
+          </a>
+        </div>
+        <p><strong>NostalgicVerse</strong> — The Games That Made History.</p>
+        <p>A non-profit digital gaming museum, historical archive, and software preservation project.</p>
+      </div>
+      <ul class="footer-links">
+        <li><a href="/about/">About Archive</a></li>
+        <li><a href="/support/">Support</a></li>
+        <li><a href="/legal/privacy.html">Privacy Policy</a></li>
+        <li><a href="/legal/terms.html">Terms of Service</a></li>
+        <li><a href="/legal/cookies.html">Cookie Policy</a></li>
+        <li><a href="/legal/disclaimer.html">Preservation Disclaimer</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <!-- Vanilla Client Interactions -->
+  <script>
+    (function() {
+      'use strict';
+      const STORAGE_KEY = 'nostalgicverse_favs';
+
+      /* --------------------------------------------------------------------------
+         01. FAVORITES SYSTEM (nostalgicverse_favs)
+         -------------------------------------------------------------------------- */
+      const favBtn = document.getElementById('btn-favorite');
+      const badge = document.getElementById('header-fav-badge');
+
+      function getFavorites() {
+        try {
+          const raw = localStorage.getItem(STORAGE_KEY);
+          if (!raw) return [];
+          const parsed = JSON.parse(raw);
+          return Array.isArray(parsed) ? parsed : [];
+        } catch(e) {
+          return [];
+        }
+      }
+
+      function updateBadge() {
+        if (!badge) return;
+        const favs = getFavorites();
+        badge.textContent = String(favs.length);
+      }
+
+      if (favBtn) {
+        const itemId = favBtn.getAttribute('data-id');
+        const itemTitle = favBtn.getAttribute('data-title');
+        const itemGenre = favBtn.getAttribute('data-genre');
+        const itemUrl = window.location.pathname;
+
+        function isFavorited(favs) {
+          return favs.some(function(f) {
+            return typeof f === 'string' ? f === itemId : f && f.id === itemId;
+          });
+        }
+
+        function updateBtnState() {
+          const favs = getFavorites();
+          const saved = isFavorited(favs);
+          if (saved) {
+            favBtn.classList.add('active');
+            favBtn.querySelector('.fav-icon').innerHTML = '&#9733;';
+            favBtn.querySelector('.fav-label').textContent = 'Saved in Favorites';
+            favBtn.setAttribute('aria-pressed', 'true');
+          } else {
+            favBtn.classList.remove('active');
+            favBtn.querySelector('.fav-icon').innerHTML = '&#9734;';
+            favBtn.querySelector('.fav-label').textContent = 'Save Exhibit';
+            favBtn.setAttribute('aria-pressed', 'false');
+          }
+          updateBadge();
+        }
+
+        favBtn.addEventListener('click', function() {
+          let favs = getFavorites();
+          const saved = isFavorited(favs);
+          if (saved) {
+            favs = favs.filter(function(f) {
+              return typeof f === 'string' ? f !== itemId : f && f.id !== itemId;
+            });
+          } else {
+            favs.push({
+              id: itemId,
+              title: itemTitle,
+              url: itemUrl,
+              type: 'game',
+              category: itemGenre,
+              savedAt: new Date().toISOString()
+            });
+          }
+          try {
+            localStorage.setItem(STORAGE_KEY, JSON.stringify(favs));
+          } catch(e) {}
+          updateBtnState();
+        });
+
+        updateBtnState();
+      } else {
+        updateBadge();
+      }
+
+      // Cross-tab favorite updates
+      window.addEventListener('storage', function(e) {
+        if (e.key === STORAGE_KEY) {
+          updateBadge();
+          if (favBtn && typeof updateBtnState === 'function') {
+            updateBtnState();
+          }
+        }
+      });
+
+      /* --------------------------------------------------------------------------
+         02. ACCESSIBLE MOBILE DRAWER NAVIGATION
+         -------------------------------------------------------------------------- */
+      const menuBtn = document.getElementById('menu-toggle-btn');
+      const closeBtn = document.getElementById('drawer-close-btn');
+      const drawer = document.getElementById('mobile-nav-drawer');
+      const backdrop = document.getElementById('drawer-backdrop');
+
+      function openDrawer() {
+        if (!drawer || !backdrop) return;
+        document.body.classList.add('menu-open');
+        drawer.classList.add('is-open');
+        backdrop.classList.add('is-open');
+        if (menuBtn) menuBtn.setAttribute('aria-expanded', 'true');
+        drawer.setAttribute('aria-hidden', 'false');
+        drawer.focus();
+      }
+
+      function closeDrawer() {
+        if (!drawer || !backdrop) return;
+        document.body.classList.remove('menu-open');
+        drawer.classList.remove('is-open');
+        backdrop.classList.remove('is-open');
+        if (menuBtn) {
+          menuBtn.setAttribute('aria-expanded', 'false');
+          menuBtn.focus();
+        }
+        drawer.setAttribute('aria-hidden', 'true');
+      }
+
+      if (menuBtn) menuBtn.addEventListener('click', openDrawer);
+      if (closeBtn) closeBtn.addEventListener('click', closeDrawer);
+      if (backdrop) backdrop.addEventListener('click', closeDrawer);
+
+      document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape' && drawer && drawer.classList.contains('is-open')) {
+          closeDrawer();
+        }
+      });
+    })();
+  </script>
+
+  <!-- Support the Creator Global Modal -->
+  <div class="support-modal-backdrop" id="support-modal-backdrop" aria-hidden="true" style="display: none;"></div>
+  <div class="support-modal" id="support-modal" role="dialog" aria-modal="true" aria-labelledby="support-modal-title" aria-describedby="support-modal-desc" tabindex="-1" style="display: none;">
+    <div class="support-modal-dialog">
+      <div class="support-modal-header">
+        <span class="catalog-tag tag-gold">Preservation Initiative</span>
+        <button type="button" class="support-modal-close" id="support-modal-close-btn" aria-label="Close Support Dialog">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+      <h2 class="support-modal-title" id="support-modal-title">Support the Creator</h2>
+      <p class="support-modal-subtitle">Enjoying NostalgicVerse?</p>
+      <p class="support-modal-desc" id="support-modal-desc">
+        I'm building this project to preserve the games, machines, stories and memories that shaped gaming history. Your support helps me keep expanding it.
+      </p>
+      <div class="support-modal-qr-wrap">
+        <div class="support-qr-quiet-zone">
+          <img src="/assets/images/qr-code/qr-code.png" alt="QR code to support NostalgicVerse creator" class="support-modal-qr" width="180" height="180" loading="lazy" decoding="async">
+        </div>
+        <p class="support-modal-qr-text">Would you like to support NostalgicVerse?</p>
+      </div>
+      <div class="support-modal-actions">
+        <button type="button" class="btn btn-primary support-modal-btn" id="support-btn-yes">Yes</button>
+        <button type="button" class="btn btn-secondary support-modal-btn" id="support-btn-no">No</button>
+        <button type="button" class="btn btn-secondary support-modal-btn" id="support-btn-later">Later</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Support Modal & Active-Time Tracking Script -->
+  <script>
+    (function() {
+      'use strict';
+      const STORAGE_KEY = 'nostalgicverse_support_prompt_state';
+      const ACTIVE_TIME_KEY = 'nostalgicverse_active_time_ms';
+      const TARGET_ACTIVE_MS = 120000;
+      const INACTIVITY_TIMEOUT_MS = 30000;
+
+      function safeGet(k) {
+        try { return localStorage.getItem(k); } catch (e) { return null; }
+      }
+      function safeSet(k, v) {
+        try { localStorage.setItem(k, v); } catch (e) {}
+      }
+
+      const currentState = safeGet(STORAGE_KEY);
+      if (currentState === 'shown' || currentState === 'accepted' || currentState === 'declined' || currentState === 'later') {
+        return;
+      }
+
+      const modal = document.getElementById('support-modal');
+      const backdrop = document.getElementById('support-modal-backdrop');
+      const btnYes = document.getElementById('support-btn-yes');
+      const btnNo = document.getElementById('support-btn-no');
+      const btnLater = document.getElementById('support-btn-later');
+      const btnClose = document.getElementById('support-modal-close-btn');
+
+      if (!modal || !backdrop) return;
+
+      let lastActive = Date.now();
+      let accumulatedMs = parseInt(safeGet(ACTIVE_TIME_KEY) || '0', 10);
+      if (isNaN(accumulatedMs) || accumulatedMs < 0) accumulatedMs = 0;
+
+      let previousFocusedElement = null;
+      let isModalOpen = false;
+
+      function onActivity() {
+        lastActive = Date.now();
+      }
+      ['mousemove', 'keydown', 'touchstart', 'scroll', 'click'].forEach(function(evt) {
+        window.addEventListener(evt, onActivity, { passive: true });
+      });
+
+      window.addEventListener('storage', function(e) {
+        if (e.key === STORAGE_KEY) {
+          if (e.newValue === 'shown' || e.newValue === 'accepted' || e.newValue === 'declined' || e.newValue === 'later') {
+            closeModal(false);
+          }
+        }
+      });
+
+      function openModal() {
+        if (isModalOpen) return;
+        const state = safeGet(STORAGE_KEY);
+        if (state === 'shown' || state === 'accepted' || state === 'declined' || state === 'later') return;
+
+        safeSet(STORAGE_KEY, 'shown');
+        isModalOpen = true;
+        previousFocusedElement = document.activeElement;
+
+        backdrop.style.display = 'block';
+        modal.style.display = 'flex';
+        document.body.classList.add('support-modal-open');
+
+        if (btnYes) btnYes.focus();
+      }
+
+      function closeModal(recordState, stateValue) {
+        if (recordState && stateValue) {
+          safeSet(STORAGE_KEY, stateValue);
+        }
+        isModalOpen = false;
+        if (backdrop) backdrop.style.display = 'none';
+        if (modal) modal.style.display = 'none';
+        document.body.classList.remove('support-modal-open');
+
+        if (previousFocusedElement && typeof previousFocusedElement.focus === 'function') {
+          try { previousFocusedElement.focus(); } catch (e) {}
+        }
+      }
+
+      if (btnYes) {
+        btnYes.addEventListener('click', function() {
+          closeModal(true, 'accepted');
+          window.location.href = '/support/';
+        });
+      }
+      if (btnNo) {
+        btnNo.addEventListener('click', function() {
+          closeModal(true, 'declined');
+        });
+      }
+      if (btnLater) {
+        btnLater.addEventListener('click', function() {
+          closeModal(true, 'later');
+        });
+      }
+      if (btnClose) {
+        btnClose.addEventListener('click', function() {
+          closeModal(true, 'later');
+        });
+      }
+
+      document.addEventListener('keydown', function(e) {
+        if (!isModalOpen) return;
+        if (e.key === 'Escape') {
+          e.preventDefault();
+          closeModal(true, 'later');
+          return;
+        }
+        if (e.key === 'Tab') {
+          const focusables = modal.querySelectorAll('button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])');
+          if (!focusables.length) return;
+          const first = focusables[0];
+          const last = focusables[focusables.length - 1];
+          if (e.shiftKey && document.activeElement === first) {
+            e.preventDefault();
+            last.focus();
+          } else if (!e.shiftKey && document.activeElement === last) {
+            e.preventDefault();
+            first.focus();
+          }
+        }
+      });
+
+      const interval = setInterval(function() {
+        const state = safeGet(STORAGE_KEY);
+        if (state === 'shown' || state === 'accepted' || state === 'declined' || state === 'later') {
+          clearInterval(interval);
+          return;
+        }
+
+        const now = Date.now();
+        const idleTime = now - lastActive;
+        const isDocumentVisible = document.visibilityState === 'visible';
+
+        if (isDocumentVisible && idleTime < INACTIVITY_TIMEOUT_MS) {
+          accumulatedMs += 1000;
+          safeSet(ACTIVE_TIME_KEY, accumulatedMs.toString());
+          if (accumulatedMs >= TARGET_ACTIVE_MS) {
+            clearInterval(interval);
+            openModal();
+          }
+        }
+      }, 1000);
+    })();
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-kid-icarus-uprising",
+  "slug": "kid-icarus-uprising",
+  "title": "Kid Icarus: Uprising",
+  "originalReleaseYear": 2012,
+  "exactReleaseDate": "March 22, 2012",
+  "originalLaunchPlatform": "Nintendo 3DS",
+  "originalLaunchRegion": "Japan",
+  "developer": "Project Sora",
+  "publisher": "Nintendo",
+  "platforms": [
+    "Nintendo 3DS"
+  ],
+  "genre": "action",
+  "subgenres": [
+    "third-person-shooter"
+  ],
+  "era": "2010s",
+  "shortDescription": "Masahiro Sakurai resurrects angel Pit with frantic aerial rail shooting and third-person land arena duels.",
+  "historicalSignificance": "Celebrated for lightning-fast action pacing, witty banter between Pit and goddess Palutena, and rich loot fusion.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Kid_Icarus:_Uprising",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Masahiro Sakurai resurrects angel Pit with frantic aerial rail shooting and third-person land arena duels.",
+    "culturalImpact": "Celebrated for lightning-fast action pacing, witty banter between Pit and goddess Palutena, and rich loot fusion."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "Nintendo 3DS"
+    ],
+    "genres": [
+      "action"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Kid_Icarus_Uprising_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Kid_Icarus_Uprising_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Kid_Icarus:_Uprising",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Kid Icarus: Uprising",
+    "Project Sora",
+    "Nintendo",
+    "Nintendo 3DS",
+    "action",
+    "2012",
+    "2012",
+    "Nintendo 3DS",
+    "third-person-shooter"
+  ],
+  "url": "/games/kid-icarus-uprising/",
+  "featured": false
+}

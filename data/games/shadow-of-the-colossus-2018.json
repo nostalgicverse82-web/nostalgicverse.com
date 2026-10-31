@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-shadow-of-the-colossus-2018",
+  "slug": "shadow-of-the-colossus-2018",
+  "title": "Shadow of the Colossus (2018)",
+  "originalReleaseYear": 2018,
+  "exactReleaseDate": "February 6, 2018",
+  "originalLaunchPlatform": "PlayStation 4",
+  "originalLaunchRegion": "Worldwide",
+  "developer": "Bluepoint Games",
+  "publisher": "Sony Interactive Entertainment",
+  "platforms": [
+    "PlayStation 4"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "puzzle"
+  ],
+  "era": "2010s",
+  "shortDescription": "Bluepoint's stunning ground-up graphical remake of Fumito Ueda's monumental colossi hunting masterpiece.",
+  "historicalSignificance": "Set the gold standard for respectful architectural game preservation and photographic natural lighting.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Shadow_of_the_Colossus_(2018)",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Bluepoint's stunning ground-up graphical remake of Fumito Ueda's monumental colossi hunting masterpiece.",
+    "culturalImpact": "Set the gold standard for respectful architectural game preservation and photographic natural lighting."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 4"
+    ],
+    "genres": [
+      "action-adventure"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/0/07/Shadow_of_the_Colossus_PS4_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/0/07/Shadow_of_the_Colossus_PS4_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Shadow_of_the_Colossus_(2018)",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Shadow of the Colossus (2018)",
+    "Bluepoint Games",
+    "Sony Interactive Entertainment",
+    "PlayStation 4",
+    "action-adventure",
+    "2018",
+    "2010s",
+    "PlayStation 4",
+    "puzzle"
+  ],
+  "url": "/games/shadow-of-the-colossus-2018/",
+  "featured": false
+}

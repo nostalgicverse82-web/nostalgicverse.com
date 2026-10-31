@@ -1,0 +1,1169 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "NostalgicVerse Genres Master Dataset",
+  "description": "Canonical structured source data for genre taxonomy, mechanical traditions, and gameplay classifications.",
+  "lastUpdated": "2026-09-10",
+  "totalGenres": 32,
+  "genres": [
+    {
+      "id": "genre-platformer",
+      "slug": "platformer",
+      "name": "Platformer",
+      "family": "Action",
+      "type": "Core Genre",
+      "shortDescription": "Games centered on navigating complex obstacle environments through jumping, climbing, and momentum management.",
+      "historicalDescription": "Born in the early 1980s arcade boom with Donkey Kong and codified by Super Mario Bros., the platformer defined how players understood physical space, gravity, and timing in video games.",
+      "origins": "1980s arcade beginnings (Donkey Kong, Pitfall!)",
+      "definingMechanics": [
+        "Jumping Physics",
+        "Environmental Obstacles",
+        "Momentum Traversal",
+        "Precision Landing"
+      ],
+      "landmarkGames": [
+        "donkey-kong",
+        "super-mario-bros",
+        "sonic-the-hedgehog",
+        "super-mario-64"
+      ],
+      "landmarkConsoles": [
+        "nintendo-entertainment-system",
+        "sega-genesis",
+        "nintendo-64"
+      ],
+      "era": "1980s–Present",
+      "image": "/assets/images/genres/platformer.webp",
+      "keywords": [
+        "platformer",
+        "jumping",
+        "mario",
+        "sonic",
+        "action",
+        "physics",
+        "run and jump"
+      ],
+      "featured": true
+    },
+    {
+      "id": "genre-fighting",
+      "slug": "fighting",
+      "name": "Fighting",
+      "family": "Action",
+      "type": "Core Genre",
+      "shortDescription": "Close-quarters head-to-head combat systems governed by frame data, motion inputs, spacing, and reaction timing.",
+      "historicalDescription": "Inaugurated by Karate Champ and popularized into a worldwide phenomenon by Street Fighter II, fighting games created competitive esports, local arcade crowds, and intense execution tournaments.",
+      "origins": "Mid-1980s martial arts arcades to early 1990s competitive boom",
+      "definingMechanics": [
+        "Frame Data & Startup",
+        "Special Motion Inputs",
+        "Combo Canceling",
+        "Hitboxes & Spacing"
+      ],
+      "landmarkGames": [
+        "street-fighter-ii-the-world-warrior",
+        "mortal-kombat",
+        "super-smash-bros-melee"
+      ],
+      "landmarkConsoles": [
+        "super-nintendo-entertainment-system",
+        "sega-genesis",
+        "neo-geo-aes",
+        "gamecube"
+      ],
+      "era": "1980s–Present",
+      "image": "/assets/images/genres/fighting.webp",
+      "keywords": [
+        "fighting",
+        "street fighter",
+        "mortal kombat",
+        "combos",
+        "esports",
+        "martial arts"
+      ],
+      "featured": true
+    },
+    {
+      "id": "genre-beat-em-up",
+      "slug": "beat-em-up",
+      "name": "Beat 'em Up",
+      "family": "Action",
+      "type": "Subgenre",
+      "shortDescription": "Side-scrolling multi-opponent melee combat games emphasizing cooperative brawling and crowd control.",
+      "historicalDescription": "Dominated 1980s and 1990s arcades with titles like Double Dragon and Streets of Rage, celebrated for satisfying melee impact and cooperative living-room multiplayer.",
+      "origins": "Late 1980s coin-op arcades (Double Dragon, Final Fight)",
+      "definingMechanics": [
+        "Belt-Scroll Traversal",
+        "Crowd Control Melee",
+        "Cooperative Brawling",
+        "Item & Weapon Pickups"
+      ],
+      "landmarkGames": [
+        "contra"
+      ],
+      "landmarkConsoles": [
+        "sega-genesis",
+        "super-nintendo-entertainment-system"
+      ],
+      "era": "1980s–1990s (Revived 2020s)",
+      "image": "/assets/images/genres/beat-em-up.webp",
+      "keywords": [
+        "beat em up",
+        "brawler",
+        "streets of rage",
+        "arcade",
+        "co-op",
+        "melee"
+      ],
+      "featured": false
+    },
+    {
+      "id": "genre-stealth",
+      "slug": "stealth",
+      "name": "Stealth",
+      "family": "Action",
+      "type": "Subgenre",
+      "shortDescription": "Tactical infiltration games where evasion, concealment, and environmental awareness take priority over direct assault.",
+      "historicalDescription": "Pioneered by Castle Wolfenstein and popularized by Hideo Kojima's Metal Gear series and Thief, stealth inverted traditional action power fantasies in favor of tension, patrol memorization, and patience.",
+      "origins": "Late 1980s 8-bit computers to late 1990s 3D cinematic breakthroughs",
+      "definingMechanics": [
+        "Line of Sight Cones",
+        "Sound Propagation",
+        "Concealment States",
+        "Non-Lethal Infiltration"
+      ],
+      "landmarkGames": [
+        "metal-gear-solid",
+        "deus-ex"
+      ],
+      "landmarkConsoles": [
+        "playstation",
+        "pc"
+      ],
+      "era": "1980s–Present",
+      "image": "/assets/images/genres/stealth.webp",
+      "keywords": [
+        "stealth",
+        "metal gear solid",
+        "tactical espionage",
+        "infiltration",
+        "shadows",
+        "hideo kojima"
+      ],
+      "featured": false
+    },
+    {
+      "id": "genre-first-person-shooter",
+      "slug": "first-person-shooter",
+      "name": "First-Person Shooter (FPS)",
+      "family": "Shooter",
+      "type": "Core Genre",
+      "shortDescription": "Gunplay and spatial combat simulated directly through the visual perspective of the player protagonist.",
+      "historicalDescription": "Catapulted by Wolfenstein 3D, Doom, and Quake, the first-person shooter drove 3D graphics accelerator hardware, networked deathmatches, and cinematic console adaptations like GoldenEye 007 and Halo.",
+      "origins": "Early 1990s PC shareware boom (id Software)",
+      "definingMechanics": [
+        "First-Person Viewport",
+        "Crosshair Aiming",
+        "Weapon Wheel Management",
+        "Positional Projectiles"
+      ],
+      "landmarkGames": [
+        "doom",
+        "half-life",
+        "goldeneye-007",
+        "halo-combat-evolved",
+        "half-life-2",
+        "call-of-duty-4-modern-warfare"
+      ],
+      "landmarkConsoles": [
+        "pc",
+        "nintendo-64",
+        "xbox",
+        "xbox-360"
+      ],
+      "era": "1990s–Present",
+      "image": "/assets/images/genres/first-person-shooter.webp",
+      "keywords": [
+        "fps",
+        "first person shooter",
+        "doom",
+        "halo",
+        "half-life",
+        "call of duty",
+        "pc gaming"
+      ],
+      "featured": true
+    },
+    {
+      "id": "genre-third-person-shooter",
+      "slug": "third-person-shooter",
+      "name": "Third-Person Shooter",
+      "family": "Shooter",
+      "type": "Subgenre",
+      "shortDescription": "Ranged combat conducted with a camera situated behind or over the shoulder of the player character.",
+      "historicalDescription": "Evolved out of action-adventure roots and revolutionized by Resident Evil 4 and Gears of War, introducing snapping cover systems and over-the-shoulder perspective.",
+      "origins": "Late 1990s 3D action into mid-2000s over-the-shoulder cover mechanics",
+      "definingMechanics": [
+        "Over-the-Shoulder Aiming",
+        "Tactical Cover Snapping",
+        "Spatial Situational Awareness",
+        "Animation Feedback"
+      ],
+      "landmarkGames": [
+        "resident-evil-4",
+        "mass-effect",
+        "red-dead-redemption"
+      ],
+      "landmarkConsoles": [
+        "gamecube",
+        "playstation-2",
+        "xbox-360",
+        "playstation-3"
+      ],
+      "era": "2000s–Present",
+      "image": "/assets/images/genres/third-person-shooter.webp",
+      "keywords": [
+        "third person shooter",
+        "cover shooter",
+        "resident evil 4",
+        "gears of war",
+        "over the shoulder"
+      ],
+      "featured": false
+    },
+    {
+      "id": "genre-shoot-em-up",
+      "slug": "shoot-em-up",
+      "name": "Shoot 'em Up (Shmup)",
+      "family": "Shooter",
+      "type": "Subgenre",
+      "shortDescription": "High-reflex vehicular aerial shooting games against dense waves of enemy projectiles and bullet patterns.",
+      "historicalDescription": "Formed the foundational grammar of arcade gaming with Space Invaders and Galaga, eventually evolving into intricate bullet hell (danmaku) masterworks.",
+      "origins": "Late 1970s discrete arcade hardware (Space Invaders, Asteroids)",
+      "definingMechanics": [
+        "Screen-Scrolling Traversal",
+        "Bullet Patterns & Grazing",
+        "Hitbox Precision",
+        "Weapon Upgrade Pods"
+      ],
+      "landmarkGames": [
+        "contra"
+      ],
+      "landmarkConsoles": [
+        "turbografx-16",
+        "sega-genesis",
+        "super-nintendo-entertainment-system"
+      ],
+      "era": "1970s–Present",
+      "image": "/assets/images/genres/shoot-em-up.webp",
+      "keywords": [
+        "shmup",
+        "shoot em up",
+        "bullet hell",
+        "space invaders",
+        "arcade",
+        "danmaku"
+      ],
+      "featured": false
+    },
+    {
+      "id": "genre-battle-royale",
+      "slug": "battle-royale",
+      "name": "Battle Royale",
+      "family": "Shooter",
+      "type": "Subgenre",
+      "shortDescription": "Large-scale last-player-standing elimination tournaments set in an open shrinking environmental arena.",
+      "historicalDescription": "Originated from survival simulation PC mods before exploding into global mainstream culture through PUBG and Fortnite, establishing cross-play standardizations.",
+      "origins": "2010s PC survival modding community",
+      "definingMechanics": [
+        "Shrinking Safe Zone Ring",
+        "Scavenger Loot Economy",
+        "Single Elimination Permadeath",
+        "Large-Scale Player Lobbies"
+      ],
+      "landmarkGames": [
+        "fortnite-battle-royale"
+      ],
+      "landmarkConsoles": [
+        "pc",
+        "playstation-4",
+        "xbox-one",
+        "nintendo-switch"
+      ],
+      "era": "2010s–Present",
+      "image": "/assets/images/genres/battle-royale.webp",
+      "keywords": [
+        "battle royale",
+        "fortnite",
+        "pubg",
+        "survival",
+        "last man standing",
+        "cross play"
+      ],
+      "featured": false
+    },
+    {
+      "id": "genre-action-adventure",
+      "slug": "action-adventure",
+      "name": "Action-Adventure",
+      "family": "Adventure",
+      "type": "Core Genre",
+      "shortDescription": "Hybrid experiences blending real-time mechanical dexterity with deep narrative world exploration and environmental puzzle solving.",
+      "historicalDescription": "Inaugurated on the Atari 2600 by Adventure and codified by The Legend of Zelda, the genre became the dominant architectural form of modern prestige video games.",
+      "origins": "Early 1980s top-down exploration (Adventure, The Legend of Zelda)",
+      "definingMechanics": [
+        "Item-Gated Progression",
+        "Environmental Puzzles",
+        "Real-Time Combat",
+        "Sprawling Overland Maps"
+      ],
+      "landmarkGames": [
+        "the-legend-of-zelda",
+        "the-legend-of-zelda-a-link-to-the-past",
+        "the-legend-of-zelda-ocarina-of-time",
+        "grand-theft-auto-iii",
+        "the-last-of-us",
+        "the-legend-of-zelda-breath-of-the-wild"
+      ],
+      "landmarkConsoles": [
+        "nintendo-entertainment-system",
+        "super-nintendo-entertainment-system",
+        "nintendo-64",
+        "playstation-2",
+        "nintendo-switch"
+      ],
+      "era": "1980s–Present",
+      "image": "/assets/images/genres/action-adventure.webp",
+      "keywords": [
+        "action adventure",
+        "zelda",
+        "exploration",
+        "puzzles",
+        "storytelling",
+        "narrative"
+      ],
+      "featured": true
+    },
+    {
+      "id": "genre-metroidvania",
+      "slug": "metroidvania",
+      "name": "Metroidvania",
+      "family": "Adventure",
+      "type": "Subgenre",
+      "shortDescription": "Interconnected non-linear world labyrinth design gated by collectible mobility and traversal upgrades.",
+      "historicalDescription": "Coined from the design philosophies of Metroid and Castlevania: Symphony of the Night, the subgenre became celebrated for sequence-breaking, mystery, and spatial mastery.",
+      "origins": "Mid-1980s to mid-1990s 2D exploration (Super Metroid, Castlevania SOTN)",
+      "definingMechanics": [
+        "Interconnected World Map",
+        "Ability-Gated Backtracking",
+        "Traversal Upgrades",
+        "Spatial Mapping"
+      ],
+      "landmarkGames": [
+        "metroid",
+        "super-metroid",
+        "castlevania-symphony-of-the-night",
+        "metroid-prime"
+      ],
+      "landmarkConsoles": [
+        "super-nintendo-entertainment-system",
+        "playstation",
+        "gamecube",
+        "game-boy-advance"
+      ],
+      "era": "1980s–Present",
+      "image": "/assets/images/genres/metroidvania.webp",
+      "keywords": [
+        "metroidvania",
+        "metroid",
+        "castlevania",
+        "backtracking",
+        "ability gated",
+        "exploration"
+      ],
+      "featured": true
+    },
+    {
+      "id": "genre-survival-horror",
+      "slug": "survival-horror",
+      "name": "Survival Horror",
+      "family": "Adventure",
+      "type": "Subgenre",
+      "shortDescription": "Psychological vulnerability experiences where resource scarcity, claustrophobia, and avoidance supersede combat power fantasies.",
+      "historicalDescription": "Pioneered by Sweet Home and Alone in the Dark, then brought to massive prominence by Resident Evil and Silent Hill, turning panic and inventory conservation into art.",
+      "origins": "Late 1980s Japanese horror to mid-1990s 32-bit CD-ROM boom",
+      "definingMechanics": [
+        "Resource Scarcity",
+        "Restricted Save Systems",
+        "Anxiety-Inducing Camera Framing",
+        "Combat Evasion Incentive"
+      ],
+      "landmarkGames": [
+        "resident-evil",
+        "resident-evil-2",
+        "silent-hill",
+        "silent-hill-2",
+        "resident-evil-4"
+      ],
+      "landmarkConsoles": [
+        "playstation",
+        "playstation-2",
+        "gamecube"
+      ],
+      "era": "1990s–Present",
+      "image": "/assets/images/genres/survival-horror.webp",
+      "keywords": [
+        "survival horror",
+        "resident evil",
+        "silent hill",
+        "horror",
+        "zombies",
+        "inventory management"
+      ],
+      "featured": true
+    },
+    {
+      "id": "genre-point-and-click-adventure",
+      "slug": "point-and-click-adventure",
+      "name": "Point-and-Click Adventure",
+      "family": "Adventure",
+      "type": "Subgenre",
+      "shortDescription": "Narrative puzzle games navigating illustrated storybook environments via a mouse cursor and contextual dialogue verbs.",
+      "historicalDescription": "Flourished during the golden era of Lucasfilm Games and Sierra On-Line, elevating witty character writing, comedic script engines (SCUMM), and puzzle logic.",
+      "origins": "1980s PC text-parser transitions (King's Quest, Maniac Mansion)",
+      "definingMechanics": [
+        "Verb & Cursor Interaction",
+        "Inventory Combination Puzzles",
+        "Branching Dialogue Trees",
+        "Non-Violent Progression"
+      ],
+      "landmarkGames": [
+        "the-secret-of-monkey-island"
+      ],
+      "landmarkConsoles": [
+        "pc"
+      ],
+      "era": "1980s–1990s (Cult modern resurgence)",
+      "image": "/assets/images/genres/point-and-click-adventure.webp",
+      "keywords": [
+        "point and click",
+        "adventure",
+        "lucasarts",
+        "monkey island",
+        "puzzles",
+        "scumm"
+      ],
+      "featured": false
+    },
+    {
+      "id": "genre-visual-novel",
+      "slug": "visual-novel",
+      "name": "Visual Novel",
+      "family": "Adventure",
+      "type": "Subgenre",
+      "shortDescription": "Interactive narrative software combining static anime or digital artwork, voice acting, and multi-branching decision pathways.",
+      "historicalDescription": "Emerged on Japanese PC platforms like the PC-98 and FM Towns, growing into an influential international literary storytelling format.",
+      "origins": "1980s Japanese PC text adventures (Portopia Serial Murder Case)",
+      "definingMechanics": [
+        "Branching Dialogue Choices",
+        "Text-Forward Presentation",
+        "Multiple Endings",
+        "Character Route Flags"
+      ],
+      "landmarkGames": [
+        "phoenix-wright-ace-attorney"
+      ],
+      "landmarkConsoles": [
+        "pc",
+        "playstation-portable",
+        "nintendo-ds"
+      ],
+      "era": "1990s–Present",
+      "image": "/assets/images/genres/visual-novel.webp",
+      "keywords": [
+        "visual novel",
+        "narrative",
+        "branching story",
+        "text adventure",
+        "japan"
+      ],
+      "featured": false
+    },
+    {
+      "id": "genre-rpg",
+      "slug": "rpg",
+      "name": "Role-Playing Game (RPG)",
+      "family": "Role-Playing",
+      "type": "Core Genre",
+      "shortDescription": "Character progression experiences governed by statistical leveling, narrative questlines, and deep tactical party building.",
+      "historicalDescription": "Derived directly from tabletop Dungeons & Dragons, the digital RPG became one of gaming's most intellectually ambitious and structurally complex pillars.",
+      "origins": "1970s mainframe computers (PLATO) to 1980s home computers and consoles",
+      "definingMechanics": [
+        "Experience Points & Leveling",
+        "Attribute Statistical Growth",
+        "Inventory & Equipment Systems",
+        "Expansive Quest Architecture"
+      ],
+      "landmarkGames": [
+        "final-fantasy",
+        "dragon-quest",
+        "chrono-trigger",
+        "final-fantasy-vii",
+        "the-elder-scrolls-v-skyrim",
+        "the-witcher-3-wild-hunt"
+      ],
+      "landmarkConsoles": [
+        "nintendo-entertainment-system",
+        "super-nintendo-entertainment-system",
+        "playstation",
+        "pc"
+      ],
+      "era": "1970s–Present",
+      "image": "/assets/images/genres/rpg.webp",
+      "keywords": [
+        "rpg",
+        "role playing game",
+        "final fantasy",
+        "skyrim",
+        "leveling",
+        "stats",
+        "experience points"
+      ],
+      "featured": true
+    },
+    {
+      "id": "genre-action-rpg",
+      "slug": "action-rpg",
+      "name": "Action RPG",
+      "family": "Role-Playing",
+      "type": "Subgenre",
+      "shortDescription": "Role-playing progression structures fused with real-time reflexive player combat rather than turn-based menus.",
+      "historicalDescription": "Pioneered in Japan by Ys and Secret of Mana, and in the West by Diablo, proving that stat building and visceral real-time kinetic action formed an intoxicating loop.",
+      "origins": "Mid-1980s Japanese action adventures to late-1990s isometric hack-and-slash",
+      "definingMechanics": [
+        "Real-Time Attack Collision",
+        "Active Dodge & Parry Windows",
+        "Loot Rarity Tiering",
+        "Immediate Skill Cooldowns"
+      ],
+      "landmarkGames": [
+        "diablo-ii",
+        "dark-souls",
+        "bloodborne",
+        "the-witcher-3-wild-hunt"
+      ],
+      "landmarkConsoles": [
+        "pc",
+        "playstation-3",
+        "playstation-4"
+      ],
+      "era": "1980s–Present",
+      "image": "/assets/images/genres/action-rpg.webp",
+      "keywords": [
+        "action rpg",
+        "arpg",
+        "diablo",
+        "dark souls",
+        "bloodborne",
+        "loot",
+        "real time combat"
+      ],
+      "featured": false
+    },
+    {
+      "id": "genre-tactical-rpg",
+      "slug": "tactical-rpg",
+      "name": "Tactical RPG (Strategy RPG)",
+      "family": "Role-Playing",
+      "type": "Subgenre",
+      "shortDescription": "Role-playing systems played out over turn-based grid battlefields resembling chess, emphasizing spatial positioning and unit synergy.",
+      "historicalDescription": "Elevated by Fire Emblem, Tactics Ogre, and Final Fantasy Tactics, turning squad composition, elevation terrain, and permadeath into deep tactical drama.",
+      "origins": "1990 Famicom launch of Fire Emblem: Shadow Dragon and the Blade of Light",
+      "definingMechanics": [
+        "Isometric/Orthogonal Grid Movement",
+        "Elevation & Facing Direction Bonuses",
+        "Squad Class Synergies",
+        "Permanent Unit Permadeath"
+      ],
+      "landmarkGames": [
+        "final-fantasy-tactics"
+      ],
+      "landmarkConsoles": [
+        "super-nintendo-entertainment-system",
+        "playstation",
+        "game-boy-advance",
+        "nintendo-3ds"
+      ],
+      "era": "1990s–Present",
+      "image": "/assets/images/genres/tactical-rpg.webp",
+      "keywords": [
+        "tactical rpg",
+        "strategy rpg",
+        "fire emblem",
+        "final fantasy tactics",
+        "grid combat",
+        "turns"
+      ],
+      "featured": false
+    },
+    {
+      "id": "genre-mmorpg",
+      "slug": "mmorpg",
+      "name": "MMORPG",
+      "family": "Role-Playing",
+      "type": "Subgenre",
+      "shortDescription": "Persistent online virtual worlds hosting thousands of simultaneous players engaged in cooperative questing and player-driven economies.",
+      "historicalDescription": "Evolving from text MUDs and early graphical pioneers like Ultima Online and EverQuest, World of Warcraft mainstreamed online virtual societies into global cultural ubiquity.",
+      "origins": "Late 1990s early broadband PC networks (Ultima Online, EverQuest)",
+      "definingMechanics": [
+        "Persistent Server Worlds",
+        "Cooperative Guild Raiding",
+        "Player-Driven Auction Economies",
+        "Holy Trinity Roles (Tank, DPS, Healer)"
+      ],
+      "landmarkGames": [
+        "world-of-warcraft"
+      ],
+      "landmarkConsoles": [
+        "pc",
+        "dreamcast"
+      ],
+      "era": "1990s–Present",
+      "image": "/assets/images/genres/mmorpg.webp",
+      "keywords": [
+        "mmorpg",
+        "world of warcraft",
+        "online",
+        "mmo",
+        "guilds",
+        "raids",
+        "azeroth"
+      ],
+      "featured": false
+    },
+    {
+      "id": "genre-soulslike",
+      "slug": "soulslike",
+      "name": "Soulslike",
+      "family": "Role-Playing",
+      "type": "Subgenre",
+      "shortDescription": "Deliberate stamina-metered combat systems featuring corpse-run death recovery, diegetic checkpoints, and atmospheric lore.",
+      "historicalDescription": "Spawned by Hidetaka Miyazaki's Demon's Souls and Dark Souls, rejecting hand-holding in favor of profound level architecture, combat tension, and community discovery.",
+      "origins": "2009–2011 FromSoftware breakthroughs (Demon's Souls, Dark Souls)",
+      "definingMechanics": [
+        "Stamina Conservation Management",
+        "Bonfire Checkpoint Respawns",
+        "Currency Loss on Death",
+        "Cryptic Environmental Lore"
+      ],
+      "landmarkGames": [
+        "dark-souls",
+        "bloodborne"
+      ],
+      "landmarkConsoles": [
+        "playstation-3",
+        "playstation-4"
+      ],
+      "era": "2010s–Present",
+      "image": "/assets/images/genres/soulslike.webp",
+      "keywords": [
+        "soulslike",
+        "dark souls",
+        "bloodborne",
+        "fromsoftware",
+        "hidetaka miyazaki",
+        "stamina"
+      ],
+      "featured": true
+    },
+    {
+      "id": "genre-roguelike",
+      "slug": "roguelike",
+      "name": "Roguelike & Roguelite",
+      "family": "Role-Playing",
+      "type": "Subgenre",
+      "shortDescription": "Procedurally generated dungeon expeditions characterized by permadeath, emergent build synergies, and high replayability.",
+      "historicalDescription": "Originating from 1980's Rogue on UNIX mainframes, the philosophy was reborn in the indie revolution through Spelunky, The Binding of Isaac, and Hades.",
+      "origins": "1980 ASCII terminal game Rogue, revived 2010s indie renaissance",
+      "definingMechanics": [
+        "Procedural Map Generation",
+        "Permadeath Reset Penalty",
+        "Meta-Progression Unlocks",
+        "Emergent Item Synergies"
+      ],
+      "landmarkGames": [
+        "hades"
+      ],
+      "landmarkConsoles": [
+        "pc",
+        "nintendo-switch"
+      ],
+      "era": "1980s / 2010s–Present",
+      "image": "/assets/images/genres/roguelike.webp",
+      "keywords": [
+        "roguelike",
+        "roguelite",
+        "permadeath",
+        "procedural generation",
+        "hades",
+        "indie"
+      ],
+      "featured": false
+    },
+    {
+      "id": "genre-real-time-strategy",
+      "slug": "real-time-strategy",
+      "name": "Real-Time Strategy (RTS)",
+      "family": "Strategy",
+      "type": "Core Genre",
+      "shortDescription": "Continuous non-turn-based tactical simulations managing economic resource harvesting, base construction, and macroscopic army maneuvering.",
+      "historicalDescription": "Codified by Dune II and brought to worldwide competitive dominance by Command & Conquer and StarCraft, defining PC gaming and establishing modern esports in South Korea.",
+      "origins": "Early 1990s PC breakthroughs (Dune II, Warcraft, Command & Conquer)",
+      "definingMechanics": [
+        "Base Building & Tech Trees",
+        "Resource Harvesting Economy",
+        "Fog of War Reconnaissance",
+        "Actions-Per-Minute (APM) Execution"
+      ],
+      "landmarkGames": [
+        "starcraft"
+      ],
+      "landmarkConsoles": [
+        "pc"
+      ],
+      "era": "1990s–Present",
+      "image": "/assets/images/genres/real-time-strategy.webp",
+      "keywords": [
+        "rts",
+        "real time strategy",
+        "starcraft",
+        "blizzard",
+        "base building",
+        "esports"
+      ],
+      "featured": true
+    },
+    {
+      "id": "genre-turn-based-strategy",
+      "slug": "turn-based-strategy",
+      "name": "Turn-Based Strategy & 4X",
+      "family": "Strategy",
+      "type": "Core Genre",
+      "shortDescription": "Deliberate strategic management games allowing players unhurried analytical command over geopolitical, military, and empire-scale decisions.",
+      "historicalDescription": "Anchored by Sid Meier's Civilization, Heroes of Might and Magic, and X-COM, standardizing the 'eXplore, eXpand, eXploit, eXterminate' loop.",
+      "origins": "Early tabletop wargaming translated into 1980s personal computer software",
+      "definingMechanics": [
+        "Turn-Based Pacing",
+        "Macro-Scale Empire Management",
+        "Diplomatic & Research Tech Trees",
+        "Grid-Based Tactical Skirmishes"
+      ],
+      "landmarkGames": [
+        "civilization"
+      ],
+      "landmarkConsoles": [
+        "pc"
+      ],
+      "era": "1980s–Present",
+      "image": "/assets/images/genres/turn-based-strategy.webp",
+      "keywords": [
+        "turn based strategy",
+        "4x",
+        "civilization",
+        "sid meier",
+        "strategy",
+        "empire builder"
+      ],
+      "featured": false
+    },
+    {
+      "id": "genre-moba",
+      "slug": "moba",
+      "name": "Multiplayer Online Battle Arena (MOBA)",
+      "family": "Strategy",
+      "type": "Subgenre",
+      "shortDescription": "Team-versus-team tactical lane battles where each player controls a single hero unit aiming to demolish the opposing base core.",
+      "historicalDescription": "Spawned from the Warcraft III custom map Defense of the Ancients (DotA), evolving into League of Legends and Dota 2 to become stadium-filling global esports.",
+      "origins": "Early 2000s Warcraft III community modding scene (DotA)",
+      "definingMechanics": [
+        "Three-Lane Map Architecture",
+        "Minion Wave Creep Farming",
+        "In-Match Hero Leveling & Items",
+        "5v5 Teamfight Coordination"
+      ],
+      "landmarkGames": [
+        "league-of-legends"
+      ],
+      "landmarkConsoles": [
+        "pc"
+      ],
+      "era": "2000s–Present",
+      "image": "/assets/images/genres/moba.webp",
+      "keywords": [
+        "moba",
+        "league of legends",
+        "dota",
+        "esports",
+        "multiplayer",
+        "strategy"
+      ],
+      "featured": false
+    },
+    {
+      "id": "genre-life-simulation",
+      "slug": "life-simulation",
+      "name": "Life & Management Simulation",
+      "family": "Simulation",
+      "type": "Core Genre",
+      "shortDescription": "Open-ended digital simulations centered on daily human behavior, psychological motivations, domestic design, or institutional stewardship.",
+      "historicalDescription": "Championed by Will Wright with The Sims and Animal Crossing, expanding video game literacy across non-traditional gaming demographics globally.",
+      "origins": "1980s systems simulations into early 2000s domestic sandboxes",
+      "definingMechanics": [
+        "Autonomous NPC AI Routine",
+        "Needs & Mood Satisfaction Meters",
+        "Architectural Creative Decoration",
+        "Open-Ended Non-Violent Goals"
+      ],
+      "landmarkGames": [
+        "the-sims",
+        "simcity",
+        "animal-crossing-new-horizons"
+      ],
+      "landmarkConsoles": [
+        "pc",
+        "nintendo-switch",
+        "playstation-2"
+      ],
+      "era": "1980s–Present",
+      "image": "/assets/images/genres/life-simulation.webp",
+      "keywords": [
+        "life simulation",
+        "the sims",
+        "simcity",
+        "animal crossing",
+        "sandbox",
+        "management"
+      ],
+      "featured": false
+    },
+    {
+      "id": "genre-city-building",
+      "slug": "city-building",
+      "name": "City Building & Construction",
+      "family": "Simulation",
+      "type": "Subgenre",
+      "shortDescription": "Macro-scale urban governance and infrastructure simulations modeling zoning, taxation, transit networks, and disaster mitigation.",
+      "historicalDescription": "Inaugurated by Will Wright's SimCity on Mac/Amiga in 1989, proving that municipal administration and infrastructure planning could be intoxicating entertainment.",
+      "origins": "1989 Maxis SimCity debut",
+      "definingMechanics": [
+        "RCI Zoning System",
+        "Utility Infrastructure Routing",
+        "Budget Balancing",
+        "Traffic Flow Management"
+      ],
+      "landmarkGames": [
+        "simcity"
+      ],
+      "landmarkConsoles": [
+        "pc",
+        "super-nintendo-entertainment-system"
+      ],
+      "era": "1980s–Present",
+      "image": "/assets/images/genres/city-building.webp",
+      "keywords": [
+        "city building",
+        "simcity",
+        "infrastructure",
+        "simulation",
+        "urban planning"
+      ],
+      "featured": false
+    },
+    {
+      "id": "genre-immersive-sim",
+      "slug": "immersive-sim",
+      "name": "Immersive Sim",
+      "family": "Simulation",
+      "type": "Subgenre",
+      "shortDescription": "First-person simulated worlds governed by rigorous physical and emergent system consistency, rewarding creative player agency.",
+      "historicalDescription": "Pioneered by Looking Glass Studios with Ultima Underworld, System Shock, and Thief, and codified by Deus Ex, celebrating unscripted emergent problem solving.",
+      "origins": "1990s Looking Glass Studios & Ion Storm",
+      "definingMechanics": [
+        "Consistent Environmental Physics",
+        "Emergent Reactive AI",
+        "Multiple Non-Scripted Solutions",
+        "Diegetic World Interaction"
+      ],
+      "landmarkGames": [
+        "deus-ex",
+        "bioshock"
+      ],
+      "landmarkConsoles": [
+        "pc",
+        "xbox-360"
+      ],
+      "era": "1990s–Present",
+      "image": "/assets/images/genres/immersive-sim.webp",
+      "keywords": [
+        "immersive sim",
+        "deus ex",
+        "system shock",
+        "bioshock",
+        "emergent gameplay",
+        "looking glass"
+      ],
+      "featured": false
+    },
+    {
+      "id": "genre-sandbox-survival",
+      "slug": "sandbox-survival",
+      "name": "Sandbox & Survival",
+      "family": "Simulation",
+      "type": "Subgenre",
+      "shortDescription": "Emergent wilderness survival games emphasizing material harvesting, freeform crafting, architecture, and hunger mitigation.",
+      "historicalDescription": "Catapulted by Minecraft into the bestselling gaming phenomenon in history, fostering global digital engineering literacy through procedural block sandboxes.",
+      "origins": "2010s PC indie alpha releases (Minecraft, DayZ)",
+      "definingMechanics": [
+        "Voxel/Resource Harvesting",
+        "Progressive Tool Crafting",
+        "Environmental Survival Meters",
+        "Limitless Creative Building"
+      ],
+      "landmarkGames": [
+        "minecraft"
+      ],
+      "landmarkConsoles": [
+        "pc",
+        "xbox-360",
+        "playstation-4",
+        "nintendo-switch"
+      ],
+      "era": "2010s–Present",
+      "image": "/assets/images/genres/sandbox-survival.webp",
+      "keywords": [
+        "sandbox",
+        "survival",
+        "minecraft",
+        "crafting",
+        "procedural",
+        "building"
+      ],
+      "featured": false
+    },
+    {
+      "id": "genre-racing",
+      "slug": "racing",
+      "name": "Racing & Simulation",
+      "family": "Racing & Sports",
+      "type": "Core Genre",
+      "shortDescription": "High-velocity automotive competitions testing racing line mastery, braking discipline, drafting, and vehicle dynamics.",
+      "historicalDescription": "From early electromechanical arcade cabinets through Gran Turismo's realistic vehicle physics and Mario Kart's item combat, racing pushed console graphics to technical peaks.",
+      "origins": "1970s arcade hardware (Gran Trak 10, Pole Position)",
+      "definingMechanics": [
+        "Braking Points & Apex Lines",
+        "Vehicle Physics Tuning",
+        "Drafting Slipstream Dynamics",
+        "Lap Time Optimization"
+      ],
+      "landmarkGames": [
+        "gran-turismo"
+      ],
+      "landmarkConsoles": [
+        "playstation",
+        "super-nintendo-entertainment-system",
+        "nintendo-64"
+      ],
+      "era": "1970s–Present",
+      "image": "/assets/images/genres/racing.webp",
+      "keywords": [
+        "racing",
+        "gran turismo",
+        "simulation",
+        "cars",
+        "speed",
+        "driving"
+      ],
+      "featured": true
+    },
+    {
+      "id": "genre-arcade-racing",
+      "slug": "arcade-racing",
+      "name": "Arcade Racing",
+      "family": "Racing & Sports",
+      "type": "Subgenre",
+      "shortDescription": "Accessible racing experiences prioritizing thrilling drift physics, boost power-ups, and dramatic rubberband competition.",
+      "historicalDescription": "Inaugurated by Sega's Yu Suzuki with Out Run and perfected in couch multiplayer by Mario Kart, celebrating joy and accessibility over clinical automotive engineering.",
+      "origins": "Mid-1980s Sega arcade scaling cabinets (Out Run)",
+      "definingMechanics": [
+        "Drift Boost Mechanics",
+        "Combat Power-Up Items",
+        "Rubberband Catch-Up Physics",
+        "Exaggerated Speed Pacing"
+      ],
+      "landmarkGames": [
+        "mario-kart-8"
+      ],
+      "landmarkConsoles": [
+        "super-nintendo-entertainment-system",
+        "nintendo-64",
+        "wii",
+        "nintendo-switch"
+      ],
+      "era": "1980s–Present",
+      "image": "/assets/images/genres/arcade-racing.webp",
+      "keywords": [
+        "arcade racing",
+        "mario kart",
+        "out run",
+        "drifting",
+        "kart racer"
+      ],
+      "featured": false
+    },
+    {
+      "id": "genre-sports",
+      "slug": "sports",
+      "name": "Sports Simulation",
+      "family": "Racing & Sports",
+      "type": "Core Genre",
+      "shortDescription": "Digital recreation of real-world athletic competition, tactical playcalling, player statistics, and tournament championships.",
+      "historicalDescription": "One of video gaming's earliest commercial cornerstones (Pong), later evolving into perennial annual franchises like Madden NFL, FIFA, and NBA 2K.",
+      "origins": "1970s discrete logic games to early 1990s 16-bit licensed leagues",
+      "definingMechanics": [
+        "Athletic Rule Enforcement",
+        "Roster Management & Stats",
+        "Tactical Playcalling Execution",
+        "Real-World Broadcast Camera"
+      ],
+      "landmarkGames": [
+        "wii-sports"
+      ],
+      "landmarkConsoles": [
+        "wii",
+        "sega-genesis",
+        "playstation-2"
+      ],
+      "era": "1970s–Present",
+      "image": "/assets/images/genres/sports.webp",
+      "keywords": [
+        "sports",
+        "wii sports",
+        "football",
+        "basketball",
+        "athletics",
+        "fifa",
+        "madden"
+      ],
+      "featured": false
+    },
+    {
+      "id": "genre-puzzle",
+      "slug": "puzzle",
+      "name": "Puzzle & Logic",
+      "family": "Puzzle & Logic",
+      "type": "Core Genre",
+      "shortDescription": "Intellectual problem-solving challenges testing pattern recognition, spatial reasoning, spatial manipulation, or deductive logic.",
+      "historicalDescription": "Defined by pure mathematical abstraction in Tetris and expanded into environmental 3D physics by Portal, representing the most timeless design purity in video games.",
+      "origins": "1980s spatial tile management (Tetris, Sokoban)",
+      "definingMechanics": [
+        "Pattern & Color Matching",
+        "Spatial Tile Rotation",
+        "Logic Sequence Deduction",
+        "Physics Constraint Solving"
+      ],
+      "landmarkGames": [
+        "tetris",
+        "portal",
+        "portal-2"
+      ],
+      "landmarkConsoles": [
+        "game-boy",
+        "pc",
+        "playstation-3",
+        "xbox-360"
+      ],
+      "era": "1980s–Present",
+      "image": "/assets/images/genres/puzzle.webp",
+      "keywords": [
+        "puzzle",
+        "tetris",
+        "portal",
+        "logic",
+        "spatial",
+        "brain",
+        "problem solving"
+      ],
+      "featured": true
+    },
+    {
+      "id": "genre-rhythm",
+      "slug": "rhythm",
+      "name": "Rhythm & Music",
+      "family": "Puzzle & Logic",
+      "type": "Core Genre",
+      "shortDescription": "Musical timing games challenging players to match auditory tempos and note sequences with precise physical controller prompts.",
+      "historicalDescription": "Pioneered by PaRappa the Rapper and Dance Dance Revolution in arcades, then reaching explosive living-room popularity with Guitar Hero and Rock Band.",
+      "origins": "Late 1990s Japanese arcade and PlayStation innovations (PaRappa, DDR)",
+      "definingMechanics": [
+        "Auditory Beat Synchronization",
+        "Scrolling Note Highways",
+        "Timed Button Inputs",
+        "Proprietary Instrument Peripherals"
+      ],
+      "landmarkGames": [
+        "parappa-the-rapper"
+      ],
+      "landmarkConsoles": [
+        "playstation",
+        "playstation-2",
+        "xbox-360"
+      ],
+      "era": "1990s–Present",
+      "image": "/assets/images/genres/rhythm.webp",
+      "keywords": [
+        "rhythm",
+        "music",
+        "guitar hero",
+        "parappa",
+        "timing",
+        "beat"
+      ],
+      "featured": false
+    },
+    {
+      "id": "genre-party",
+      "slug": "party",
+      "name": "Party & Social",
+      "family": "Puzzle & Logic",
+      "type": "Subgenre",
+      "shortDescription": "Fast-paced local multiplayer competitive collections of bite-sized mini-games tailored for couch socialization.",
+      "historicalDescription": "Pioneered by Hudson Soft and Nintendo with Mario Party on N64, establishing accessible four-player living-room board games filled with chaotic mini-games.",
+      "origins": "Late 1990s Nintendo 64 4-player couch multiplayer",
+      "definingMechanics": [
+        "Virtual Board Navigation",
+        "Bite-Sized Mini-Game Challenges",
+        "Comeback Rubberband Mechanics",
+        "Local 4-Player Simultaneous Play"
+      ],
+      "landmarkGames": [
+        "mario-party"
+      ],
+      "landmarkConsoles": [
+        "nintendo-64",
+        "gamecube",
+        "wii",
+        "nintendo-switch"
+      ],
+      "era": "1990s–Present",
+      "image": "/assets/images/genres/party.webp",
+      "keywords": [
+        "party",
+        "mario party",
+        "mini games",
+        "multiplayer",
+        "social",
+        "couch co-op"
+      ],
+      "featured": false
+    }
+  ]
+}

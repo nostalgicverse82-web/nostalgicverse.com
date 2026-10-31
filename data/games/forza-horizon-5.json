@@ -1,0 +1,70 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-forza-horizon-5",
+  "slug": "forza-horizon-5",
+  "title": "Forza Horizon 5",
+  "originalReleaseYear": 2021,
+  "exactReleaseDate": "November 9, 2021",
+  "originalLaunchPlatform": "Xbox Series X/S",
+  "originalLaunchRegion": "Worldwide",
+  "developer": "Playground Games",
+  "publisher": "Xbox Game Studios",
+  "platforms": [
+    "Xbox Series",
+    "Xbox One",
+    "PC"
+  ],
+  "genre": "racing",
+  "subgenres": [
+    "open-world"
+  ],
+  "era": "2020s",
+  "shortDescription": "Explore the vast landscapes of Mexico from active volcanoes to Mayan temples with photographic lighting.",
+  "historicalSignificance": "Widely recognized as one of the visually finest racing games ever created, winning multiple Game of the Year honors.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Forza_Horizon_5",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Explore the vast landscapes of Mexico from active volcanoes to Mayan temples with photographic lighting.",
+    "culturalImpact": "Widely recognized as one of the visually finest racing games ever created, winning multiple Game of the Year honors."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "Xbox Series X/S"
+    ],
+    "genres": [
+      "racing"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/8/86/Forza_Horizon_5_cover_art.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/8/86/Forza_Horizon_5_cover_art.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Forza_Horizon_5",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Forza Horizon 5",
+    "Playground Games",
+    "Xbox Game Studios",
+    "Xbox Series X/S",
+    "racing",
+    "2021",
+    "2020s",
+    "Xbox Series",
+    "Xbox One",
+    "PC",
+    "open-world"
+  ],
+  "url": "/games/forza-horizon-5/",
+  "featured": false
+}

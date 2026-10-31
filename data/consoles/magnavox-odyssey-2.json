@@ -1,0 +1,42 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+  "id": "console-magnavox-odyssey-2",
+  "slug": "magnavox-odyssey-2",
+  "name": "Magnavox Odyssey² (Philips Videopac G7000)",
+  "manufacturer": "Magnavox",
+  "generation": "Second Generation",
+  "generationNumber": 2,
+  "originalReleaseYear": 1978,
+  "exactReleaseDate": "December 1978",
+  "mediaFormat": "ROM Cartridge",
+  "significance": "Pioneered educational software and hybrid board-game/video-game experiences, famously winning the early copyright lawsuit against Atari over K.C. Munchkin.",
+  "verifiedFactualData": {
+    "cpu": "Intel 8048 microcontroller @ 1.79 MHz",
+    "gpuOrVideoChip": "Intel 8244 custom audio/video display controller",
+    "ram": "64 bytes internal RAM + 128 bytes audio/video RAM"
+  },
+  "editorialContent": {
+    "overview": "Philips and Magnavox's distinctive system featuring a full membrane QWERTY keyboard and tabletop hybrid board game expansions.",
+    "marketLegacy": "Pioneered educational software and hybrid board-game/video-game experiences, famously winning the early copyright lawsuit against Atari over K.C. Munchkin.",
+    "controllerDesign": "Dual 8-way joysticks + integrated 49-key membrane alphanumeric keyboard"
+  },
+  "keyGames": [
+    "kc-munchkin",
+    "quest-for-the-rings",
+    "pick-axe-pete"
+  ],
+  "assets": {
+    "mainImage": "/assets/images/consoles/magnavox-odyssey-2.png",
+    "heroImage": "/assets/images/consoles/magnavox-odyssey-2-hero.png",
+    "hardwareImage": "/assets/images/consoles/magnavox-odyssey-2-hardware.png"
+  },
+  "keywords": [
+    "odyssey 2",
+    "videopac",
+    "philips",
+    "magnavox",
+    "keyboard",
+    "second generation",
+    "1978"
+  ]
+}

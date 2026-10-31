@@ -1,0 +1,68 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-quantum-break",
+  "slug": "quantum-break",
+  "title": "Quantum Break",
+  "originalReleaseYear": 2016,
+  "exactReleaseDate": "April 5, 2016",
+  "originalLaunchPlatform": "Xbox One",
+  "originalLaunchRegion": "Worldwide",
+  "developer": "Remedy Entertainment",
+  "publisher": "Microsoft Studios",
+  "platforms": [
+    "Xbox One",
+    "Microsoft Windows"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "third-person-shooter"
+  ],
+  "era": "2010s",
+  "shortDescription": "Jack Joyce manipulates fractured time stasis fields to stop the End of Time, interwoven with live-action streaming episodes.",
+  "historicalSignificance": "Showcased Remedy's pioneering time-stuttering visual effects and bold cinematic narrative ambition on Xbox One.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Quantum_Break",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Jack Joyce manipulates fractured time stasis fields to stop the End of Time, interwoven with live-action streaming episodes.",
+    "culturalImpact": "Showcased Remedy's pioneering time-stuttering visual effects and bold cinematic narrative ambition on Xbox One."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "Xbox One"
+    ],
+    "genres": [
+      "action-adventure"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Quantum_Break_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Quantum_Break_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Quantum_Break",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Quantum Break",
+    "Remedy Entertainment",
+    "Microsoft Studios",
+    "Xbox One",
+    "action-adventure",
+    "2016",
+    "2010s",
+    "Xbox One",
+    "Microsoft Windows",
+    "third-person-shooter"
+  ],
+  "url": "/games/quantum-break/",
+  "featured": false
+}

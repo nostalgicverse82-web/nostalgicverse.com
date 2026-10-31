@@ -1,0 +1,68 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-pacific-drive",
+  "slug": "pacific-drive",
+  "title": "Pacific Drive",
+  "originalReleaseYear": 2024,
+  "exactReleaseDate": "February 22, 2024",
+  "originalLaunchPlatform": "PlayStation 5",
+  "originalLaunchRegion": "Worldwide",
+  "developer": "Ironwood Studios",
+  "publisher": "Kepler Interactive",
+  "platforms": [
+    "PlayStation 5",
+    "Microsoft Windows"
+  ],
+  "genre": "survival",
+  "subgenres": [
+    "driving"
+  ],
+  "era": "2020s",
+  "shortDescription": "First-person driving survival through the surreal Olympic Exclusion Zone, maintaining your station wagon as your sole lifeline.",
+  "historicalSignificance": "Praised for tactile mechanical vehicle interactions, atmospheric Pacific Northwest dread, and emergent survival loops.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Pacific_Drive",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "First-person driving survival through the surreal Olympic Exclusion Zone, maintaining your station wagon as your sole lifeline.",
+    "culturalImpact": "Praised for tactile mechanical vehicle interactions, atmospheric Pacific Northwest dread, and emergent survival loops."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 5"
+    ],
+    "genres": [
+      "survival"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Pacific_Drive_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Pacific_Drive_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Pacific_Drive",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Pacific Drive",
+    "Ironwood Studios",
+    "Kepler Interactive",
+    "PlayStation 5",
+    "survival",
+    "2024",
+    "2020s",
+    "PlayStation 5",
+    "Microsoft Windows",
+    "driving"
+  ],
+  "url": "/games/pacific-drive/",
+  "featured": false
+}

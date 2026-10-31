@@ -1,0 +1,88 @@
+{
+  "id": "game-celeste",
+  "slug": "celeste",
+  "title": "Celeste",
+  "japaneseTitle": "セレステ",
+  "url": "/games/celeste/",
+  "originalReleaseYear": 2018,
+  "exactReleaseDate": "2018-01-25",
+  "developer": "Maddy Makes Games",
+  "publisher": "Maddy Makes Games",
+  "director": "Maddy Thorson",
+  "designer": "Maddy Thorson, Noel Berry",
+  "composer": "Lena Raine",
+  "originalLaunchPlatform": "Nintendo Switch / PlayStation 4 / Xbox One / PC",
+  "platforms": [
+    "Nintendo Switch",
+    "PlayStation 4",
+    "Xbox One",
+    "Microsoft Windows",
+    "macOS",
+    "Linux"
+  ],
+  "genre": "platformer",
+  "subgenres": [
+    "Precision Platformer",
+    "Mental Health Narrative"
+  ],
+  "era": "2010s",
+  "shortDescription": "Maddy Thorson and Noel Berry's transcendent precision platformer, following Madeline's mountain-climbing journey through panic and self-acceptance.",
+  "historicalSignificance": "Celebrated as the definitive modern 2D precision platformer, merging pixel-perfect air-dash movement with an emotionally profound examination of anxiety and depression, winning Best Independent Game at The Game Awards 2018.",
+  "editorialContent": {
+    "overview": "Young woman Madeline resolves to climb the mystical Celeste Mountain to confront her internal self-doubt and panic attacks, encountering a physical manifestation of her darker impulses known as 'Part of Me'.",
+    "gameplay": "Masterfully tuned movement mechanics centered around jump, wall-climb, and an 8-directional air dash, featuring instant respawns across hundreds of handcrafted screen-sized challenges.",
+    "technicalInnovation": "Engineered with subtle 'coyote time' and jump buffering forgiving micro-imperfections, paired with Lena Raine's critically acclaimed piano and synth electronic soundtrack.",
+    "culturalImpact": "Became an inspiring touchstone for queer and mental health themes in gaming, praised for its compassionate philosophy that self-love requires accepting one's struggles.",
+    "preservationNotes": "Preserved on physical Nintendo Switch and PS4 cartridges/discs via Limited Run Games."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "January 25, 2018",
+    "leadPlatform": "Nintendo Switch",
+    "genre": "platformer",
+    "sales": "Over 1.5 million copies sold",
+    "awards": [
+      "The Game Awards Best Independent Game 2018",
+      "Games for Impact Award 2018",
+      "D.I.C.E. Action Game of the Year"
+    ],
+    "technicalSpecs": {
+      "engine": "Monogame / C#",
+      "resolution": "320 x 180 native pixel art scaled to 1080p/4K",
+      "soundChip": "Lena Raine dynamic electronic acoustic score",
+      "mediaFormat": "ROM Cartridge / Blu-ray Disc / Digital"
+    },
+    "relationships": {
+      "primaryConsole": "nintendo-switch",
+      "developerEntity": "Maddy Makes Games",
+      "lineage": [
+        "TowerFall",
+        "Super Meat Boy"
+      ]
+    }
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Celeste_box_art_full.png",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Celeste_box_art_full.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Celeste_box_art_full.png",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "celeste",
+    "madeline",
+    "maddy thorson",
+    "noel berry",
+    "lena raine",
+    "precision platformer",
+    "air dash",
+    "nintendo switch",
+    "playstation 4",
+    "ps4",
+    "2018"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

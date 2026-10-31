@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-grim-fandango",
+  "slug": "grim-fandango",
+  "title": "Grim Fandango",
+  "originalReleaseYear": 1998,
+  "exactReleaseDate": "October 30, 1998",
+  "originalLaunchPlatform": "PC",
+  "originalLaunchRegion": "North America",
+  "developer": "LucasArts",
+  "publisher": "LucasArts",
+  "platforms": [
+    "PC"
+  ],
+  "genre": "point-and-click-adventure",
+  "subgenres": [
+    "film-noir"
+  ],
+  "era": "1990s",
+  "shortDescription": "Tim Schafer's Mexican Day of the Dead film-noir following travel agent Manny Calavera in the Land of the Dead.",
+  "historicalSignificance": "One of the crowning literary and artistic achievements in gaming history, accompanied by Peter McConnell's jazz score.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Grim_Fandango",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Tim Schafer's Mexican Day of the Dead film-noir following travel agent Manny Calavera in the Land of the Dead.",
+    "culturalImpact": "One of the crowning literary and artistic achievements in gaming history, accompanied by Peter McConnell's jazz score."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PC"
+    ],
+    "genres": [
+      "point-and-click-adventure"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Grim_Fandango_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Grim_Fandango_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Grim_Fandango",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Grim Fandango",
+    "LucasArts",
+    "LucasArts",
+    "PC",
+    "point-and-click-adventure",
+    "1998",
+    "1990s",
+    "PC",
+    "film-noir"
+  ],
+  "url": "/games/grim-fandango/",
+  "featured": false
+}

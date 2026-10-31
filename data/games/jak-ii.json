@@ -1,0 +1,68 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-jak-ii",
+  "slug": "jak-ii",
+  "title": "Jak II",
+  "originalReleaseYear": 2003,
+  "exactReleaseDate": "October 14, 2003",
+  "originalLaunchPlatform": "PlayStation 2",
+  "originalLaunchRegion": "North America",
+  "developer": "Naughty Dog",
+  "publisher": "Sony Computer Entertainment",
+  "platforms": [
+    "PlayStation 2"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "open-world",
+    "platformer"
+  ],
+  "era": "2000s",
+  "shortDescription": "Darker, gunplay-oriented sequel set in the dystopian cyberpunk sprawl of Haven City.",
+  "historicalSignificance": "Showcased Naughty Dog's bold narrative pivot toward mature storytelling and cinematic open-world mechanics.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Jak_II",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Darker, gunplay-oriented sequel set in the dystopian cyberpunk sprawl of Haven City.",
+    "culturalImpact": "Showcased Naughty Dog's bold narrative pivot toward mature storytelling and cinematic open-world mechanics."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 2"
+    ],
+    "genres": [
+      "action-adventure"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/5/5e/Jak_II_Coverart.png",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/5/5e/Jak_II_Coverart.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Jak_II",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Jak II",
+    "Naughty Dog",
+    "Sony Computer Entertainment",
+    "PlayStation 2",
+    "action-adventure",
+    "2003",
+    "2000s",
+    "PlayStation 2",
+    "open-world",
+    "platformer"
+  ],
+  "url": "/games/jak-ii/",
+  "featured": false
+}

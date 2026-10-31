@@ -1,0 +1,92 @@
+{
+  "id": "game-ninja-gaiden",
+  "slug": "ninja-gaiden",
+  "title": "Ninja Gaiden",
+  "japaneseTitle": "忍者龍剣伝",
+  "url": "/games/ninja-gaiden/",
+  "originalReleaseYear": 1988,
+  "exactReleaseDate": "1988-12-09",
+  "developer": "Tecmo",
+  "publisher": "Tecmo",
+  "director": "Hideo Yoshizawa",
+  "composer": "Keiji Yamagishi & Ryuichi Nitta",
+  "originalLaunchPlatform": "Famicom",
+  "platforms": [
+    "Famicom",
+    "NES",
+    "PC Engine",
+    "Super Famicom (Trilogy)"
+  ],
+  "genre": "platformer",
+  "subgenres": [
+    "Action Platformer",
+    "Cinematic Action"
+  ],
+  "era": "1980s",
+  "shortDescription": "Tecmo's blisteringly fast ninja action masterpiece that pioneered story-driven video games with its groundbreaking 'Tecmo Theater' animated cinematic cutscenes.",
+  "historicalSignificance": "Pioneered cinematic narrative cutscenes on home consoles, blending dramatic camera angles, close-up manga portraits, and adrenaline-fueled wall-jumping platforming.",
+  "editorialContent": {
+    "overview": "Directed by Hideo Yoshizawa (credited as 'Sakurazaki') with programming by Masato Kato at Tecmo, Ninja Gaiden (Ninja Ryūkenden in Japan) was released for the Famicom in December 1988. Unlike Tecmo's arcade beat-'em-up of the same name, the home console release was an entirely original, fiercely demanding side-scrolling platformer driven by a dramatic story of revenge and ancient evil.",
+    "gameplayMechanics": "Players control dragon ninja Ryu Hayabusa, wielding the ancestral Dragon Sword to avenge his father's death. Ryu's arsenal features wall-clinging acrobatic leaps and mystical ninpo sub-weapons (shurikens, windmill shurikens, fire wheels, jump-slashes) powered by spiritual flame points. The game is celebrated for its demanding precision, where mid-air collision knockback requires razor-sharp reflexes.",
+    "technicalInnovation": "Ninja Gaiden's defining technological milestone was the 'Tecmo Theater' cinematic engine. For the first time on an 8-bit home console, gameplay was interwoven with over twenty minutes of fully animated story cutscenes featuring dynamic camera pans, dramatic close-ups, parallax background scrolling, and Japanese anime-style visual storytelling.",
+    "culturalImpact": "Ninja Gaiden proved that home video games could deliver gripping, feature-film-style cinematic drama. Its thunderous chiptune soundtrack by Keiji Yamagishi ('Unbreakable Determination') became iconic, and Ryu Hayabusa endured as one of gaming's premiere ninja protagonists.",
+    "preservationNotes": "Preserved on authentic 256KB NES cartridge dumps. Strict attention to NES sprite limit handling and authentic CRT timing is essential to replicate Yoshizawa's intense combat flow."
+  },
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "Yoshizawa, Hideo. 'The Birth of the Cinematic Video Game', Tecmo Developer Retrospective (2004)",
+      "Yamagishi, Keiji. 'Rocking the 8-Bit Chiptune: Scoring Ninja Gaiden', Red Bull Music Academy (2015)",
+      "Tecmo, Inc. NES-NG-USA Instruction Manual: Ninja Gaiden (1989)"
+    ],
+    "romMediaFormat": "Famicom / NES Cartridge (MMC1 PCB)",
+    "romSizeOriginal": "256 KB ROM",
+    "displayResolutionOriginal": "256 × 240 (NTSC)",
+    "audioHardware": "Ricoh 2A03 5-channel APU",
+    "inputMethod": "NES Controller (D-Pad, A/B buttons)",
+    "multiplayerCapability": "1 Player"
+  },
+  "relatedExhibits": {
+    "games": [
+      "castlevania",
+      "ghosts-n-goblins",
+      "mega-man-2"
+    ],
+    "consoles": [
+      "nintendo-entertainment-system"
+    ],
+    "genres": [
+      "platformer"
+    ],
+    "timeline": [
+      "ev-1988-sega-mega-drive-japan"
+    ]
+  },
+  "assets": {
+    "heroImage": "/assets/images/games/ninja-gaiden-hero.webp",
+    "thumbnailImage": "/assets/images/games/ninja-gaiden.webp",
+    "coverImage": "/assets/images/games/ninja-gaiden-cover.webp",
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/9/9b/Ninja_Gaiden_%28NES%29.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/9/9b/Ninja_Gaiden_%28NES%29.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Ninja_Gaiden_(NES).jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "review-required",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "ninja gaiden",
+    "ryu hayabusa",
+    "tecmo",
+    "hideo yoshizawa",
+    "keiji yamagishi",
+    "tecmo theater",
+    "cinematic cutscenes",
+    "platformer",
+    "nes",
+    "1988",
+    "1980s"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

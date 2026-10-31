@@ -1,0 +1,43 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+  "id": "console-game-boy-advance",
+  "slug": "game-boy-advance",
+  "name": "Nintendo Game Boy Advance",
+  "manufacturer": "Nintendo",
+  "generation": "Sixth Generation",
+  "generationNumber": 6,
+  "originalReleaseYear": 2001,
+  "exactReleaseDate": "March 21, 2001",
+  "mediaFormat": "ROM Cartridge",
+  "significance": "Maintained the commercial vitality of elite 2D sprite artistry during the industry's wholesale transition to 3D polygons.",
+  "verifiedFactualData": {
+    "cpu": "32-bit ARM7TDMI @ 16.78 MHz + Z80 coprocessor @ 8.38 MHz",
+    "gpuOrVideoChip": "Custom 2D hardware graphics engine",
+    "ram": "32 KB internal RAM, 256 KB external RAM, 96 KB VRAM"
+  },
+  "editorialContent": {
+    "overview": "A 32-bit pocket Super Nintendo that extended the Golden Age of 2D pixel art well into the 21st century.",
+    "marketLegacy": "Maintained the commercial vitality of elite 2D sprite artistry during the industry's wholesale transition to 3D polygons.",
+    "controllerDesign": "Horizontal form-factor with D-pad, A, B, L, and R shoulder buttons"
+  },
+  "keyGames": [
+    "pokemon-ruby-sapphire",
+    "metroid-fusion",
+    "castlevania-aria-of-sorrow",
+    "advance-wars"
+  ],
+  "assets": {
+    "mainImage": "/assets/images/consoles/game-boy-advance.png",
+    "heroImage": "/assets/images/consoles/game-boy-advance-hero.png",
+    "hardwareImage": "/assets/images/consoles/game-boy-advance-hardware.png"
+  },
+  "keywords": [
+    "game boy advance",
+    "gba",
+    "nintendo",
+    "handheld",
+    "sixth generation",
+    "32-bit",
+    "2001"
+  ]
+}

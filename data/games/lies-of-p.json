@@ -1,0 +1,70 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-lies-of-p",
+  "slug": "lies-of-p",
+  "title": "Lies of P",
+  "originalReleaseYear": 2023,
+  "exactReleaseDate": "September 19, 2023",
+  "originalLaunchPlatform": "PlayStation 5",
+  "originalLaunchRegion": "Worldwide",
+  "developer": "Round8 Studio",
+  "publisher": "Neowiz",
+  "platforms": [
+    "PlayStation 5",
+    "Xbox Series",
+    "PC"
+  ],
+  "genre": "action-rpg",
+  "subgenres": [
+    "soulslike"
+  ],
+  "era": "2020s",
+  "shortDescription": "Pinocchio fights rogue puppet automations through the plague-ridden Belle Epoque city of Krat using weapon assembly.",
+  "historicalSignificance": "Universally acclaimed as one of the finest non-FromSoftware Soulslikes ever made with sublime parry mechanics.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Lies_of_P",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Pinocchio fights rogue puppet automations through the plague-ridden Belle Epoque city of Krat using weapon assembly.",
+    "culturalImpact": "Universally acclaimed as one of the finest non-FromSoftware Soulslikes ever made with sublime parry mechanics."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 5"
+    ],
+    "genres": [
+      "action-rpg"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Lies_of_P_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Lies_of_P_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Lies_of_P",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Lies of P",
+    "Round8 Studio",
+    "Neowiz",
+    "PlayStation 5",
+    "action-rpg",
+    "2023",
+    "2020s",
+    "PlayStation 5",
+    "Xbox Series",
+    "PC",
+    "soulslike"
+  ],
+  "url": "/games/lies-of-p/",
+  "featured": false
+}

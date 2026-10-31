@@ -1,0 +1,87 @@
+{
+  "id": "game-baldur-s-gate-3",
+  "slug": "baldur-s-gate-3",
+  "title": "Baldur's Gate 3",
+  "japaneseTitle": "バルダーズ・ゲート3",
+  "url": "/games/baldur-s-gate-3/",
+  "originalReleaseYear": 2023,
+  "exactReleaseDate": "2023-08-03",
+  "developer": "Larian Studios",
+  "publisher": "Larian Studios",
+  "director": "Swen Vincke",
+  "designer": "Nick Pechenin, Edouard Imbert",
+  "composer": "Borislav Slavov",
+  "originalLaunchPlatform": "Microsoft Windows / PC",
+  "platforms": [
+    "Microsoft Windows",
+    "PlayStation 5",
+    "Xbox Series X/S",
+    "macOS"
+  ],
+  "genre": "role-playing",
+  "subgenres": [
+    "cRPG",
+    "Turn-Based RPG",
+    "Dungeons & Dragons"
+  ],
+  "era": "2020s",
+  "shortDescription": "Larian Studios and Swen Vincke's monumental Dungeons & Dragons RPG masterpiece, revolutionizing player choice, systemic reactivity, and cinematic role-playing.",
+  "historicalSignificance": "Won Game of the Year at every major industry award show (The Game Awards, BAFTA, D.I.C.E., GDC, Golden Joysticks), holding a 96 Metacritic score and universally celebrated as a generational landmark in role-playing freedom.",
+  "editorialContent": {
+    "overview": "Infected with a parasitic mind flayer tadpole that threatens to transform them into tentacled aberrations, players and a ragtag band of deeply flawed companions journey across the Sword Coast to uncover the cult of the Absolute and save the legendary city of Baldur's Gate.",
+    "gameplay": "Faithfully adapts D&D 5th Edition rules into fluid turn-based tactical combat, featuring vertical environmental elevation, barrelmancy, dynamic surface interactions (water, fire, acid), and unparalleled dialogue reactivity where virtually any obstacle can be solved through persuasion, deception, stealth, or spells.",
+    "technicalInnovation": "Features over 174 hours of cinematic cutscenes with full motion-captured performances for hundreds of characters, combined with an extraordinarily flexible systemic physics engine.",
+    "culturalImpact": "Became a historic cultural juggernaut, selling over 15 million copies, dominating Steam concurrent play charts, and setting an impossible new quality standard for the RPG industry.",
+    "preservationNotes": "Preserved across multi-disc physical Deluxe Editions for PlayStation 5 and Xbox Series X."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "August 3, 2023 (PC) / September 6, 2023 (PlayStation 5)",
+    "leadPlatform": "PC",
+    "genre": "role-playing",
+    "sales": "Over 15 million copies sold worldwide",
+    "awards": [
+      "Game of the Year at The Game Awards 2023, BAFTA 2024, D.I.C.E. 2024, GDC 2024, Golden Joysticks 2023"
+    ],
+    "technicalSpecs": {
+      "engine": "Divinity 4.0 Engine",
+      "resolution": "Native 4K (PC/PS5 Quality Mode) / 60fps (Performance Mode)",
+      "soundChip": "Borislav Slavov live orchestral score with interactive dynamic transitions",
+      "mediaFormat": "Digital / Multi-disc Ultra HD Blu-ray (Deluxe Edition)"
+    },
+    "relationships": {
+      "primaryConsole": "pc",
+      "developerEntity": "Larian Studios",
+      "lineage": [
+        "Baldur's Gate (1998)",
+        "Divinity: Original Sin II"
+      ]
+    }
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/1/12/Baldur%27s_Gate_3_cover_art.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/1/12/Baldur%27s_Gate_3_cover_art.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Baldur%27s_Gate_3_cover_art.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "baldur's gate 3",
+    "bg3",
+    "larian studios",
+    "swen vincke",
+    "dungeons and dragons",
+    "mind flayer",
+    "astarion",
+    "shadowheart",
+    "goty 2023",
+    "ps5",
+    "playstation 5",
+    "pc",
+    "2023"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

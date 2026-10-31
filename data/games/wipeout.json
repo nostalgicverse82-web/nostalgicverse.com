@@ -1,0 +1,87 @@
+{
+  "id": "game-wipeout",
+  "slug": "wipeout",
+  "title": "WipEout",
+  "japaneseTitle": "ワイプアウト",
+  "url": "/games/wipeout/",
+  "originalReleaseYear": 1995,
+  "exactReleaseDate": "1995-09-29",
+  "developer": "Psygnosis",
+  "publisher": "Psygnosis",
+  "director": "Nick Burcombe",
+  "designer": "Nick Burcombe",
+  "composer": "CoLD SToRAGE (Tim Wright)",
+  "originalLaunchPlatform": "PlayStation",
+  "platforms": [
+    "PlayStation",
+    "Sega Saturn",
+    "MS-DOS"
+  ],
+  "genre": "arcade-racing",
+  "subgenres": [
+    "Anti-Gravity Racing",
+    "Futuristic Racing"
+  ],
+  "era": "1990s",
+  "shortDescription": "Psygnosis and The Designers Republic's ultra-stylish anti-gravity racer that propelled the PlayStation into adult club culture.",
+  "historicalSignificance": "Revolutionized console marketing and aesthetics by partnering with iconic design studio The Designers Republic and licensed electronica artists (Leftfield, The Chemical Brothers, Orbital), transforming gaming from a toy hobby into an edgy adult lifestyle phenomenon.",
+  "editorialContent": {
+    "overview": "Released alongside the European debut of the Sony PlayStation in autumn 1995, WipEout fundamentally altered public perception of what a home console video game could represent. Developed by Psygnosis in Liverpool and featuring branding by Sheffield graphic design collective The Designers Republic, the game married high-speed futuristic anti-gravity racing with licensed UK electronic dance music and sleek typography, embedding PlayStation deep within European nightclub culture.",
+    "gameplay": "Players pilot floating anti-gravity craft across vertically looping tracks suspended over cyberpunk cityscapes. Craft physics demand disciplined air-brake maneuvering to drift through ninety-degree chicanes while managing elevation and weapon pad pickups such as homing missiles, shields, and turbo boosts. Collision with track barriers bleeds immediate momentum, establishing a razor-sharp mechanical skill ceiling.",
+    "technicalInnovation": "Psygnosis harnessed the PlayStation's custom geometry engine to stream texture-mapped 3D polygonal tracks at blistering frame rates while utilizing Red Book audio streaming directly from the CD-ROM, allowing authentic studio mastering of techno and trance tracks.",
+    "culturalImpact": "WipEout demonstrated that video games could dictate contemporary graphic design, typography, and youth musical tastes. Playable pods in trendy London clubs like Ministry of Sound legitimized the PlayStation as an indispensable fixture of cool 1990s post-rave youth identity.",
+    "preservationNotes": "Preserved via original PS1 optical media and archival Saturn and PC ports. The iconic typography and packaging created by The Designers Republic remain studied examples in university graphic design courses worldwide."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "September 29, 1995",
+    "leadPlatform": "PlayStation",
+    "genre": "arcade-racing",
+    "sales": "Over 1.5 million units across original PlayStation releases",
+    "awards": [
+      "EGM Best Racing Game 1995 nominee",
+      "BAFTA Interactive Entertainment Award recognition"
+    ],
+    "technicalSpecs": {
+      "engine": "Custom Psygnosis 3D polygonal engine",
+      "resolution": "320x240 (NTSC) / 320x256 (PAL)",
+      "soundChip": "PlayStation SPU (16-bit 24-channel ADPCM) + Red Book Audio CD streaming",
+      "mediaFormat": "CD-ROM (approx 650 MB)"
+    },
+    "relationships": {
+      "primaryConsole": "playstation",
+      "developerEntity": "Psygnosis",
+      "lineage": [
+        "F-Zero",
+        "WipEout 2097",
+        "Rollcage"
+      ]
+    }
+  },
+  "assets": {
+    "cover": "/assets/images/games/wipeout.webp",
+    "banner": "/assets/images/games/wipeout-banner.webp",
+    "screenshots": [
+      "/assets/images/games/wipeout-screen1.webp",
+      "/assets/images/games/wipeout-screen2.webp"
+    ],
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/c/c3/WipEoutCover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/c/c3/WipEoutCover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:WipEoutCover.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "wipeout",
+    "psygnosis",
+    "playstation",
+    "anti-gravity",
+    "the designers republic",
+    "techno",
+    "cold storage"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

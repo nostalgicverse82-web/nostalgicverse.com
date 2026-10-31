@@ -1,0 +1,86 @@
+{
+  "id": "game-thief-the-dark-project",
+  "slug": "thief-the-dark-project",
+  "title": "Thief: The Dark Project",
+  "japaneseTitle": "シーフ：ザ・ダーク・プロジェクト",
+  "url": "/games/thief-the-dark-project/",
+  "originalReleaseYear": 1998,
+  "exactReleaseDate": "1998-11-30",
+  "developer": "Looking Glass Studios",
+  "publisher": "Eidos Interactive",
+  "director": "Greg LoPiccolo",
+  "designer": "Doug Church, Ken Levine, Randy Smith, Harvey Smith",
+  "composer": "Eric Brosius",
+  "originalLaunchPlatform": "Microsoft Windows",
+  "platforms": [
+    "Microsoft Windows"
+  ],
+  "genre": "stealth",
+  "subgenres": [
+    "Immersive Sim",
+    "First-Person Stealth"
+  ],
+  "era": "1990s",
+  "shortDescription": "Looking Glass Studios' masterpiece of shadow, acoustic propagation, and emergent first-person stealth.",
+  "historicalSignificance": "Pioneered the modern first-person stealth genre and the immersive sim philosophy, prioritizing concealment over violence through an unprecedented acoustic propagation sound engine and light-gem visibility system.",
+  "editorialContent": {
+    "overview": "Developed by the peerless innovators at Looking Glass Studios in Cambridge, Massachusetts, Thief: The Dark Project was released in November 1998. Starring cynical master thief Garrett in a steampunk-gothic metropolis known simply as The City, the game inverted standard first-person shooter tropes by punishing direct combat and rewarding shadows, patience, and meticulous infiltration.",
+    "gameplay": "Players navigate intricate vertical mansions, ancient tombs, and cathedral rooftops. A dynamic Light Gem meter indicates Garrett's visibility, while different surface materials (carpets, stone tiles, metal grates) dramatically alter footstep noise. Garrett relies on a blackjack for non-lethal takedowns, water arrows to extinguish torches, and rope arrows to scale wooden rafters.",
+    "technicalInnovation": "Looking Glass engineered the Dark Engine featuring a revolutionary audio propagation model where sound waves dynamically bounced around room portals, occluded through closed doors, and alerted AI guards based on material density.",
+    "culturalImpact": "Thief defined the immersive sim alongside System Shock and Deus Ex. Its design alumni went on to direct Bioshock, Dishonored, and modern stealth epics, embedding Looking Glass's philosophy into the bedrock of modern game design.",
+    "preservationNotes": "Preserved through passionate open-source engine patches (NewDark), high-resolution texture packs, and an active fan-mission community spanning three decades."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "November 30, 1998",
+    "leadPlatform": "Microsoft Windows",
+    "genre": "stealth",
+    "sales": "Over 500,000 units sold on PC",
+    "awards": [
+      "Computer Gaming World Action Game of the Year 1998 nominee",
+      "PC Gamer Excellence in Sound Design"
+    ],
+    "technicalSpecs": {
+      "engine": "Looking Glass Studios Dark Engine",
+      "resolution": "640x480 up to 1024x768 Direct3D hardware acceleration",
+      "soundChip": "A3D 2.0 / EAX hardware acoustic wave propagation",
+      "mediaFormat": "CD-ROM"
+    },
+    "relationships": {
+      "primaryConsole": "pc",
+      "developerEntity": "Looking Glass Studios",
+      "lineage": [
+        "Ultima Underworld",
+        "System Shock",
+        "Thief II: The Metal Age",
+        "Dishonored"
+      ]
+    }
+  },
+  "assets": {
+    "cover": "/assets/images/games/thief-the-dark-project.webp",
+    "banner": "/assets/images/games/thief-the-dark-project-banner.webp",
+    "screenshots": [
+      "/assets/images/games/thief-the-dark-project-screen1.webp",
+      "/assets/images/games/thief-the-dark-project-screen2.webp"
+    ],
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b6/Thief_The_Dark_Project_boxcover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/b/b6/Thief_The_Dark_Project_boxcover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Thief_The_Dark_Project_boxcover.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "review-required",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "thief the dark project",
+    "looking glass studios",
+    "garrett",
+    "stealth",
+    "dark engine",
+    "ken levine",
+    "immersive sim"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

@@ -1,0 +1,4274 @@
+{
+  "timestamp": "2026-09-27T10:09:15.909Z",
+  "totalCrawled": 611,
+  "statusCounts": {
+    "200": 606,
+    "301": 3,
+    "302": 2
+  },
+  "routes": {
+    "/owner": {
+      "status": 301,
+      "location": "/owner/"
+    },
+    "/legal/": {
+      "status": 302,
+      "location": "/legal/privacy.html"
+    },
+    "/stories/": {
+      "status": 302,
+      "location": "/blog/"
+    },
+    "/login": {
+      "status": 301,
+      "location": "/login/"
+    },
+    "/signup": {
+      "status": 301,
+      "location": "/signup/"
+    },
+    "/guides/": {
+      "status": 200,
+      "sizeBytes": 92430,
+      "title": "Guides Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/guides/",
+      "jsonLdCount": 1
+    },
+    "/search/": {
+      "status": 200,
+      "sizeBytes": 80613,
+      "title": "Archive Search — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/search/",
+      "jsonLdCount": 1
+    },
+    "/blog/": {
+      "status": 200,
+      "sizeBytes": 91943,
+      "title": "Stories from the Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/blog/",
+      "jsonLdCount": 1
+    },
+    "/download/": {
+      "status": 200,
+      "sizeBytes": 72708,
+      "title": "NostalgicVerse Emulator — Download",
+      "canonical": "https://nostalgicverse.com/download/",
+      "jsonLdCount": 1
+    },
+    "/games/ace-combat-04-shattered-skies/": {
+      "status": 200,
+      "sizeBytes": 55339,
+      "title": "Ace Combat 04: Shattered Skies (2001) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/ace-combat-04-shattered-skies/",
+      "jsonLdCount": 1
+    },
+    "/games/ace-combat-5-the-unsung-war/": {
+      "status": 200,
+      "sizeBytes": 55210,
+      "title": "Ace Combat 5: The Unsung War (2004) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/ace-combat-5-the-unsung-war/",
+      "jsonLdCount": 1
+    },
+    "/about/": {
+      "status": 200,
+      "sizeBytes": 40006,
+      "title": "About NostalgicVerse — Digital Gaming Museum",
+      "canonical": "https://nostalgicverse.com/about/",
+      "jsonLdCount": 0
+    },
+    "/games/alan-wake-2/": {
+      "status": 200,
+      "sizeBytes": 56162,
+      "title": "Alan Wake 2 (2023) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/alan-wake-2/",
+      "jsonLdCount": 1
+    },
+    "/games/alan-wake/": {
+      "status": 200,
+      "sizeBytes": 55051,
+      "title": "Alan Wake (2010) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/alan-wake/",
+      "jsonLdCount": 1
+    },
+    "/games/adventure/": {
+      "status": 200,
+      "sizeBytes": 58141,
+      "title": "Adventure (1979) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/adventure/",
+      "jsonLdCount": 1
+    },
+    "/support/": {
+      "status": 200,
+      "sizeBytes": 104818,
+      "title": "Support — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/",
+      "jsonLdCount": 1
+    },
+    "/games/advance-wars/": {
+      "status": 200,
+      "sizeBytes": 55179,
+      "title": "Advance Wars (2001) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/advance-wars/",
+      "jsonLdCount": 1
+    },
+    "/games/age-of-empires-ii-the-age-of-kings/": {
+      "status": 200,
+      "sizeBytes": 55461,
+      "title": "Age of Empires II: The Age of Kings (1999) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/age-of-empires-ii-the-age-of-kings/",
+      "jsonLdCount": 1
+    },
+    "/genres/": {
+      "status": 200,
+      "sizeBytes": 161630,
+      "title": "Genres — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/genres/",
+      "jsonLdCount": 1
+    },
+    "/consoles/": {
+      "status": 200,
+      "sizeBytes": 224112,
+      "title": "Console Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/consoles/",
+      "jsonLdCount": 1
+    },
+    "/timeline/": {
+      "status": 200,
+      "sizeBytes": 199830,
+      "title": "Timeline — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/timeline/",
+      "jsonLdCount": 1
+    },
+    "/": {
+      "status": 200,
+      "sizeBytes": 160650,
+      "title": "NostalgicVerse — The Games That Made History",
+      "canonical": "https://nostalgicverse.com/",
+      "jsonLdCount": 1
+    },
+    "/favorites/": {
+      "status": 200,
+      "sizeBytes": 255793,
+      "title": "Saved Favorites — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/favorites/",
+      "jsonLdCount": 1
+    },
+    "/random/": {
+      "status": 200,
+      "sizeBytes": 466978,
+      "title": "Random Discovery Terminal — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/random/",
+      "jsonLdCount": 1
+    },
+    "/games/": {
+      "status": 200,
+      "sizeBytes": 784594,
+      "title": "Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/",
+      "jsonLdCount": 1
+    },
+    "/games/alone-in-the-dark/": {
+      "status": 200,
+      "sizeBytes": 58163,
+      "title": "Alone in the Dark (1992) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/alone-in-the-dark/",
+      "jsonLdCount": 1
+    },
+    "/games/alan-wake-remastered/": {
+      "status": 200,
+      "sizeBytes": 55266,
+      "title": "Alan Wake Remastered (2021) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/alan-wake-remastered/",
+      "jsonLdCount": 1
+    },
+    "/games/armored-core-vi-fires-of-rubicon/": {
+      "status": 200,
+      "sizeBytes": 55457,
+      "title": "Armored Core VI: Fires of Rubicon (2023) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/armored-core-vi-fires-of-rubicon/",
+      "jsonLdCount": 1
+    },
+    "/games/astro-s-playroom/": {
+      "status": 200,
+      "sizeBytes": 55818,
+      "title": "Astro&#039;s Playroom (2020) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/astro-s-playroom/",
+      "jsonLdCount": 1
+    },
+    "/games/baldur-s-gate/": {
+      "status": 200,
+      "sizeBytes": 56154,
+      "title": "Baldur&#039;s Gate (1998) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/baldur-s-gate/",
+      "jsonLdCount": 1
+    },
+    "/games/balatro/": {
+      "status": 200,
+      "sizeBytes": 55007,
+      "title": "Balatro (2024) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/balatro/",
+      "jsonLdCount": 1
+    },
+    "/games/astro-bot/": {
+      "status": 200,
+      "sizeBytes": 55801,
+      "title": "Astro Bot (2024) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/astro-bot/",
+      "jsonLdCount": 1
+    },
+    "/games/baldur-s-gate-ii-shadows-of-amn/": {
+      "status": 200,
+      "sizeBytes": 55358,
+      "title": "Baldur&#039;s Gate II: Shadows of Amn (2000) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/baldur-s-gate-ii-shadows-of-amn/",
+      "jsonLdCount": 1
+    },
+    "/games/animal-crossing-gcn/": {
+      "status": 200,
+      "sizeBytes": 55246,
+      "title": "Animal Crossing (2001) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/animal-crossing-gcn/",
+      "jsonLdCount": 1
+    },
+    "/games/animal-crossing-new-horizons/": {
+      "status": 200,
+      "sizeBytes": 55290,
+      "title": "Animal Crossing: New Horizons (2020) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/animal-crossing-new-horizons/",
+      "jsonLdCount": 1
+    },
+    "/games/asteroids/": {
+      "status": 200,
+      "sizeBytes": 59661,
+      "title": "Asteroids (1979) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/asteroids/",
+      "jsonLdCount": 1
+    },
+    "/games/banjo-kazooie/": {
+      "status": 200,
+      "sizeBytes": 56076,
+      "title": "Banjo-Kazooie (1998) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/banjo-kazooie/",
+      "jsonLdCount": 1
+    },
+    "/games/batman-arkham-asylum/": {
+      "status": 200,
+      "sizeBytes": 55131,
+      "title": "Batman: Arkham Asylum (2009) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/batman-arkham-asylum/",
+      "jsonLdCount": 1
+    },
+    "/games/batman-arkham-city/": {
+      "status": 200,
+      "sizeBytes": 55276,
+      "title": "Batman: Arkham City (2011) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/batman-arkham-city/",
+      "jsonLdCount": 1
+    },
+    "/games/battlezone/": {
+      "status": 200,
+      "sizeBytes": 57810,
+      "title": "Battlezone (1980) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/battlezone/",
+      "jsonLdCount": 1
+    },
+    "/games/baldur-s-gate-3/": {
+      "status": 200,
+      "sizeBytes": 56171,
+      "title": "Baldur&#039;s Gate 3 (2023) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/baldur-s-gate-3/",
+      "jsonLdCount": 1
+    },
+    "/games/beyond-good-and-evil/": {
+      "status": 200,
+      "sizeBytes": 55304,
+      "title": "Beyond Good &amp; Evil (2003) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/beyond-good-and-evil/",
+      "jsonLdCount": 1
+    },
+    "/games/bayonetta-2/": {
+      "status": 200,
+      "sizeBytes": 54941,
+      "title": "Bayonetta 2 (2014) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/bayonetta-2/",
+      "jsonLdCount": 1
+    },
+    "/games/batman-arkham-origins/": {
+      "status": 200,
+      "sizeBytes": 55272,
+      "title": "Batman: Arkham Origins (2013) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/batman-arkham-origins/",
+      "jsonLdCount": 1
+    },
+    "/games/binary-domain/": {
+      "status": 200,
+      "sizeBytes": 55131,
+      "title": "Binary Domain (2012) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/binary-domain/",
+      "jsonLdCount": 1
+    },
+    "/games/bioshock/": {
+      "status": 200,
+      "sizeBytes": 56221,
+      "title": "BioShock (2007) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/bioshock/",
+      "jsonLdCount": 1
+    },
+    "/games/beyond-two-souls/": {
+      "status": 200,
+      "sizeBytes": 55208,
+      "title": "Beyond: Two Souls (2013) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/beyond-two-souls/",
+      "jsonLdCount": 1
+    },
+    "/games/bioshock-infinite/": {
+      "status": 200,
+      "sizeBytes": 55216,
+      "title": "BioShock Infinite (2013) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/bioshock-infinite/",
+      "jsonLdCount": 1
+    },
+    "/games/bioshock-2/": {
+      "status": 200,
+      "sizeBytes": 55073,
+      "title": "BioShock 2 (2010) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/bioshock-2/",
+      "jsonLdCount": 1
+    },
+    "/games/bayonetta/": {
+      "status": 200,
+      "sizeBytes": 55729,
+      "title": "Bayonetta (2009) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/bayonetta/",
+      "jsonLdCount": 1
+    },
+    "/games/black-myth-wukong/": {
+      "status": 200,
+      "sizeBytes": 55218,
+      "title": "Black Myth: Wukong (2024) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/black-myth-wukong/",
+      "jsonLdCount": 1
+    },
+    "/games/bonk-s-adventure/": {
+      "status": 200,
+      "sizeBytes": 55865,
+      "title": "Bonk&#039;s Adventure (1989) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/bonk-s-adventure/",
+      "jsonLdCount": 1
+    },
+    "/games/black/": {
+      "status": 200,
+      "sizeBytes": 54957,
+      "title": "Black (2006) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/black/",
+      "jsonLdCount": 1
+    },
+    "/games/borderlands/": {
+      "status": 200,
+      "sizeBytes": 55043,
+      "title": "Borderlands (2009) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/borderlands/",
+      "jsonLdCount": 1
+    },
+    "/games/bully/": {
+      "status": 200,
+      "sizeBytes": 54985,
+      "title": "Bully (2006) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/bully/",
+      "jsonLdCount": 1
+    },
+    "/games/bloodborne/": {
+      "status": 200,
+      "sizeBytes": 56011,
+      "title": "Bloodborne (2015) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/bloodborne/",
+      "jsonLdCount": 1
+    },
+    "/games/burnout-3-takedown/": {
+      "status": 200,
+      "sizeBytes": 56018,
+      "title": "Burnout 3: Takedown (2004) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/burnout-3-takedown/",
+      "jsonLdCount": 1
+    },
+    "/games/burnout-paradise/": {
+      "status": 200,
+      "sizeBytes": 55180,
+      "title": "Burnout Paradise (2008) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/burnout-paradise/",
+      "jsonLdCount": 1
+    },
+    "/games/borderlands-2/": {
+      "status": 200,
+      "sizeBytes": 55115,
+      "title": "Borderlands 2 (2012) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/borderlands-2/",
+      "jsonLdCount": 1
+    },
+    "/games/braid/": {
+      "status": 200,
+      "sizeBytes": 56056,
+      "title": "Braid (2008) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/braid/",
+      "jsonLdCount": 1
+    },
+    "/games/breakout/": {
+      "status": 200,
+      "sizeBytes": 58582,
+      "title": "Breakout (1976) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/breakout/",
+      "jsonLdCount": 1
+    },
+    "/games/burnout-revenge/": {
+      "status": 200,
+      "sizeBytes": 55085,
+      "title": "Burnout Revenge (2005) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/burnout-revenge/",
+      "jsonLdCount": 1
+    },
+    "/games/captain-toad-treasure-tracker/": {
+      "status": 200,
+      "sizeBytes": 55270,
+      "title": "Captain Toad: Treasure Tracker (2014) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/captain-toad-treasure-tracker/",
+      "jsonLdCount": 1
+    },
+    "/games/blue-dragon/": {
+      "status": 200,
+      "sizeBytes": 55104,
+      "title": "Blue Dragon (2006) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/blue-dragon/",
+      "jsonLdCount": 1
+    },
+    "/games/castlevania-rondo-of-blood/": {
+      "status": 200,
+      "sizeBytes": 58443,
+      "title": "Castlevania: Rondo of Blood (1993) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/castlevania-rondo-of-blood/",
+      "jsonLdCount": 1
+    },
+    "/games/castlevania-lords-of-shadow/": {
+      "status": 200,
+      "sizeBytes": 55396,
+      "title": "Castlevania: Lords of Shadow (2010) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/castlevania-lords-of-shadow/",
+      "jsonLdCount": 1
+    },
+    "/games/call-of-duty-4-modern-warfare/": {
+      "status": 200,
+      "sizeBytes": 57423,
+      "title": "Call of Duty 4: Modern Warfare (2007) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/call-of-duty-4-modern-warfare/",
+      "jsonLdCount": 1
+    },
+    "/games/castlevania-symphony-of-the-night/": {
+      "status": 200,
+      "sizeBytes": 61023,
+      "title": "Castlevania: Symphony of the Night (1997) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/castlevania-symphony-of-the-night/",
+      "jsonLdCount": 1
+    },
+    "/games/castlevania-aria-of-sorrow/": {
+      "status": 200,
+      "sizeBytes": 55350,
+      "title": "Castlevania: Aria of Sorrow (2003) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/castlevania-aria-of-sorrow/",
+      "jsonLdCount": 1
+    },
+    "/games/champions-of-norrath/": {
+      "status": 200,
+      "sizeBytes": 55136,
+      "title": "Champions of Norrath (2004) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/champions-of-norrath/",
+      "jsonLdCount": 1
+    },
+    "/games/castlevania/": {
+      "status": 200,
+      "sizeBytes": 58214,
+      "title": "Castlevania (1986) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/castlevania/",
+      "jsonLdCount": 1
+    },
+    "/games/civilization/": {
+      "status": 200,
+      "sizeBytes": 58002,
+      "title": "Sid Meier&#039;s Civilization (1991) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/civilization/",
+      "jsonLdCount": 1
+    },
+    "/games/civilization-ii/": {
+      "status": 200,
+      "sizeBytes": 55121,
+      "title": "Civilization II (1996) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/civilization-ii/",
+      "jsonLdCount": 1
+    },
+    "/games/chrono-trigger/": {
+      "status": 200,
+      "sizeBytes": 58673,
+      "title": "Chrono Trigger (1995) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/chrono-trigger/",
+      "jsonLdCount": 1
+    },
+    "/games/celeste/": {
+      "status": 200,
+      "sizeBytes": 55982,
+      "title": "Celeste (2018) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/celeste/",
+      "jsonLdCount": 1
+    },
+    "/games/command-conquer/": {
+      "status": 200,
+      "sizeBytes": 58586,
+      "title": "Command &amp; Conquer (1995) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/command-conquer/",
+      "jsonLdCount": 1
+    },
+    "/games/computer-space/": {
+      "status": 200,
+      "sizeBytes": 58857,
+      "title": "Computer Space (1971) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/computer-space/",
+      "jsonLdCount": 1
+    },
+    "/games/civilization-iv/": {
+      "status": 200,
+      "sizeBytes": 55053,
+      "title": "Civilization IV (2005) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/civilization-iv/",
+      "jsonLdCount": 1
+    },
+    "/games/crash-bandicoot/": {
+      "status": 200,
+      "sizeBytes": 56004,
+      "title": "Crash Bandicoot (1996) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/crash-bandicoot/",
+      "jsonLdCount": 1
+    },
+    "/games/control/": {
+      "status": 200,
+      "sizeBytes": 54954,
+      "title": "Control (2019) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/control/",
+      "jsonLdCount": 1
+    },
+    "/games/command-and-conquer-red-alert/": {
+      "status": 200,
+      "sizeBytes": 55422,
+      "title": "Command &amp; Conquer: Red Alert (1996) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/command-and-conquer-red-alert/",
+      "jsonLdCount": 1
+    },
+    "/games/colossal-cave-adventure/": {
+      "status": 200,
+      "sizeBytes": 59359,
+      "title": "Colossal Cave Adventure (1976) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/colossal-cave-adventure/",
+      "jsonLdCount": 1
+    },
+    "/games/contra/": {
+      "status": 200,
+      "sizeBytes": 59522,
+      "title": "Contra (1987) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/contra/",
+      "jsonLdCount": 1
+    },
+    "/games/cuphead/": {
+      "status": 200,
+      "sizeBytes": 55034,
+      "title": "Cuphead (2020) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/cuphead/",
+      "jsonLdCount": 1
+    },
+    "/games/crysis/": {
+      "status": 200,
+      "sizeBytes": 55847,
+      "title": "Crysis (2007) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/crysis/",
+      "jsonLdCount": 1
+    },
+    "/games/dark-cloud/": {
+      "status": 200,
+      "sizeBytes": 54982,
+      "title": "Dark Cloud (2000) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/dark-cloud/",
+      "jsonLdCount": 1
+    },
+    "/games/crash-bandicoot-4-it-s-about-time/": {
+      "status": 200,
+      "sizeBytes": 55520,
+      "title": "Crash Bandicoot 4: It&#039;s About Time (2020) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/crash-bandicoot-4-it-s-about-time/",
+      "jsonLdCount": 1
+    },
+    "/games/dark-souls/": {
+      "status": 200,
+      "sizeBytes": 57009,
+      "title": "Dark Souls (2011) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/dark-souls/",
+      "jsonLdCount": 1
+    },
+    "/games/command-and-conquer-red-alert-2/": {
+      "status": 200,
+      "sizeBytes": 55418,
+      "title": "Command &amp; Conquer: Red Alert 2 (2000) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/command-and-conquer-red-alert-2/",
+      "jsonLdCount": 1
+    },
+    "/games/crackdown/": {
+      "status": 200,
+      "sizeBytes": 55078,
+      "title": "Crackdown (2007) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/crackdown/",
+      "jsonLdCount": 1
+    },
+    "/games/darksiders-ii/": {
+      "status": 200,
+      "sizeBytes": 55105,
+      "title": "Darksiders II (2012) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/darksiders-ii/",
+      "jsonLdCount": 1
+    },
+    "/games/dark-souls-ii/": {
+      "status": 200,
+      "sizeBytes": 55088,
+      "title": "Dark Souls II (2014) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/dark-souls-ii/",
+      "jsonLdCount": 1
+    },
+    "/games/daytona-usa/": {
+      "status": 200,
+      "sizeBytes": 55712,
+      "title": "Daytona USA (1994) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/daytona-usa/",
+      "jsonLdCount": 1
+    },
+    "/games/dark-cloud-2/": {
+      "status": 200,
+      "sizeBytes": 55034,
+      "title": "Dark Cloud 2 (2002) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/dark-cloud-2/",
+      "jsonLdCount": 1
+    },
+    "/games/darksiders/": {
+      "status": 200,
+      "sizeBytes": 55088,
+      "title": "Darksiders (2010) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/darksiders/",
+      "jsonLdCount": 1
+    },
+    "/games/dead-cells/": {
+      "status": 200,
+      "sizeBytes": 55004,
+      "title": "Dead Cells (2018) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/dead-cells/",
+      "jsonLdCount": 1
+    },
+    "/games/dead-rising/": {
+      "status": 200,
+      "sizeBytes": 55127,
+      "title": "Dead Rising (2006) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/dead-rising/",
+      "jsonLdCount": 1
+    },
+    "/games/days-gone/": {
+      "status": 200,
+      "sizeBytes": 55080,
+      "title": "Days Gone (2019) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/days-gone/",
+      "jsonLdCount": 1
+    },
+    "/games/dead-space-2/": {
+      "status": 200,
+      "sizeBytes": 55106,
+      "title": "Dead Space 2 (2011) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/dead-space-2/",
+      "jsonLdCount": 1
+    },
+    "/games/dead-space/": {
+      "status": 200,
+      "sizeBytes": 56081,
+      "title": "Dead Space (2008) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/dead-space/",
+      "jsonLdCount": 1
+    },
+    "/games/death-s-door/": {
+      "status": 200,
+      "sizeBytes": 55217,
+      "title": "Death&#039;s Door (2021) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/death-s-door/",
+      "jsonLdCount": 1
+    },
+    "/games/defender/": {
+      "status": 200,
+      "sizeBytes": 59782,
+      "title": "Defender (1981) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/defender/",
+      "jsonLdCount": 1
+    },
+    "/games/dead-space-2023/": {
+      "status": 200,
+      "sizeBytes": 55263,
+      "title": "Dead Space (2023) (2023) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/dead-space-2023/",
+      "jsonLdCount": 1
+    },
+    "/games/dead-space-3/": {
+      "status": 200,
+      "sizeBytes": 55144,
+      "title": "Dead Space 3 (2013) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/dead-space-3/",
+      "jsonLdCount": 1
+    },
+    "/games/demon-s-souls-ps5/": {
+      "status": 200,
+      "sizeBytes": 55342,
+      "title": "Demon&#039;s Souls (2020) (2020) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/demon-s-souls-ps5/",
+      "jsonLdCount": 1
+    },
+    "/games/death-stranding/": {
+      "status": 200,
+      "sizeBytes": 56193,
+      "title": "Death Stranding (2019) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/death-stranding/",
+      "jsonLdCount": 1
+    },
+    "/games/demons-souls/": {
+      "status": 200,
+      "sizeBytes": 57116,
+      "title": "Demon&#039;s Souls (2009) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/demons-souls/",
+      "jsonLdCount": 1
+    },
+    "/games/defender-of-the-crown/": {
+      "status": 200,
+      "sizeBytes": 56053,
+      "title": "Defender of the Crown (1986) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/defender-of-the-crown/",
+      "jsonLdCount": 1
+    },
+    "/games/deus-ex/": {
+      "status": 200,
+      "sizeBytes": 56188,
+      "title": "Deus Ex (2000) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/deus-ex/",
+      "jsonLdCount": 1
+    },
+    "/games/devil-may-cry/": {
+      "status": 200,
+      "sizeBytes": 55008,
+      "title": "Devil May Cry (2001) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/devil-may-cry/",
+      "jsonLdCount": 1
+    },
+    "/games/diablo/": {
+      "status": 200,
+      "sizeBytes": 56079,
+      "title": "Diablo (1996) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/diablo/",
+      "jsonLdCount": 1
+    },
+    "/games/diablo-ii/": {
+      "status": 200,
+      "sizeBytes": 56005,
+      "title": "Diablo II (2000) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/diablo-ii/",
+      "jsonLdCount": 1
+    },
+    "/games/deathloop/": {
+      "status": 200,
+      "sizeBytes": 55111,
+      "title": "Deathloop (2021) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/deathloop/",
+      "jsonLdCount": 1
+    },
+    "/games/devil-may-cry-3-dante-s-awakening/": {
+      "status": 200,
+      "sizeBytes": 55533,
+      "title": "Devil May Cry 3: Dante&#039;s Awakening (2005) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/devil-may-cry-3-dante-s-awakening/",
+      "jsonLdCount": 1
+    },
+    "/games/detroit-become-human/": {
+      "status": 200,
+      "sizeBytes": 56087,
+      "title": "Detroit: Become Human (2018) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/detroit-become-human/",
+      "jsonLdCount": 1
+    },
+    "/games/disco-elysium/": {
+      "status": 200,
+      "sizeBytes": 56149,
+      "title": "Disco Elysium (2019) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/disco-elysium/",
+      "jsonLdCount": 1
+    },
+    "/games/donkey-kong-country-returns/": {
+      "status": 200,
+      "sizeBytes": 55272,
+      "title": "Donkey Kong Country Returns (2010) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/donkey-kong-country-returns/",
+      "jsonLdCount": 1
+    },
+    "/games/disgaea-hour-of-darkness/": {
+      "status": 200,
+      "sizeBytes": 55258,
+      "title": "Disgaea: Hour of Darkness (2003) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/disgaea-hour-of-darkness/",
+      "jsonLdCount": 1
+    },
+    "/games/deus-ex-human-revolution/": {
+      "status": 200,
+      "sizeBytes": 55385,
+      "title": "Deus Ex: Human Revolution (2011) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/deus-ex-human-revolution/",
+      "jsonLdCount": 1
+    },
+    "/games/donkey-kong-country/": {
+      "status": 200,
+      "sizeBytes": 58382,
+      "title": "Donkey Kong Country (1994) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/donkey-kong-country/",
+      "jsonLdCount": 1
+    },
+    "/games/donkey-kong-country-tropical-freeze/": {
+      "status": 200,
+      "sizeBytes": 55397,
+      "title": "Donkey Kong Country: Tropical Freeze (2014) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/donkey-kong-country-tropical-freeze/",
+      "jsonLdCount": 1
+    },
+    "/games/dishonored/": {
+      "status": 200,
+      "sizeBytes": 55806,
+      "title": "Dishonored (2012) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/dishonored/",
+      "jsonLdCount": 1
+    },
+    "/games/donkey-kong/": {
+      "status": 200,
+      "sizeBytes": 58255,
+      "title": "Donkey Kong (1981) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/donkey-kong/",
+      "jsonLdCount": 1
+    },
+    "/games/doom-ii-hell-on-earth/": {
+      "status": 200,
+      "sizeBytes": 55175,
+      "title": "Doom II: Hell on Earth (1994) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/doom-ii-hell-on-earth/",
+      "jsonLdCount": 1
+    },
+    "/games/doom/": {
+      "status": 200,
+      "sizeBytes": 58657,
+      "title": "Doom (1993) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/doom/",
+      "jsonLdCount": 1
+    },
+    "/games/dragon-quest/": {
+      "status": 200,
+      "sizeBytes": 58215,
+      "title": "Dragon Quest (1986) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/dragon-quest/",
+      "jsonLdCount": 1
+    },
+    "/games/dragon-age-ii/": {
+      "status": 200,
+      "sizeBytes": 55058,
+      "title": "Dragon Age II (2011) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/dragon-age-ii/",
+      "jsonLdCount": 1
+    },
+    "/games/dragon-s-dogma/": {
+      "status": 200,
+      "sizeBytes": 55057,
+      "title": "Dragon&#039;s Dogma (2012) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/dragon-s-dogma/",
+      "jsonLdCount": 1
+    },
+    "/games/dragon-age-inquisition/": {
+      "status": 200,
+      "sizeBytes": 55304,
+      "title": "Dragon Age: Inquisition (2014) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/dragon-age-inquisition/",
+      "jsonLdCount": 1
+    },
+    "/games/dragon-s-dogma-2/": {
+      "status": 200,
+      "sizeBytes": 55220,
+      "title": "Dragon&#039;s Dogma 2 (2024) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/dragon-s-dogma-2/",
+      "jsonLdCount": 1
+    },
+    "/games/dragon-age-origins/": {
+      "status": 200,
+      "sizeBytes": 55085,
+      "title": "Dragon Age: Origins (2009) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/dragon-age-origins/",
+      "jsonLdCount": 1
+    },
+    "/games/dragon-ball-sparking-zero/": {
+      "status": 200,
+      "sizeBytes": 55389,
+      "title": "Dragon Ball: Sparking! ZERO (2024) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/dragon-ball-sparking-zero/",
+      "jsonLdCount": 1
+    },
+    "/games/dune-ii/": {
+      "status": 200,
+      "sizeBytes": 58213,
+      "title": "Dune II: The Building of a Dynasty (1992) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/dune-ii/",
+      "jsonLdCount": 1
+    },
+    "/games/elden-ring/": {
+      "status": 200,
+      "sizeBytes": 56340,
+      "title": "Elden Ring (2022) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/elden-ring/",
+      "jsonLdCount": 1
+    },
+    "/games/earthbound/": {
+      "status": 200,
+      "sizeBytes": 58630,
+      "title": "EarthBound (1994) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/earthbound/",
+      "jsonLdCount": 1
+    },
+    "/games/elite/": {
+      "status": 200,
+      "sizeBytes": 58015,
+      "title": "Elite (1984) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/elite/",
+      "jsonLdCount": 1
+    },
+    "/games/enslaved-odyssey-to-the-west/": {
+      "status": 200,
+      "sizeBytes": 55439,
+      "title": "Enslaved: Odyssey to the West (2010) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/enslaved-odyssey-to-the-west/",
+      "jsonLdCount": 1
+    },
+    "/games/dreams/": {
+      "status": 200,
+      "sizeBytes": 55091,
+      "title": "Dreams (2020) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/dreams/",
+      "jsonLdCount": 1
+    },
+    "/games/eternal-darkness-sanity-s-requiem/": {
+      "status": 200,
+      "sizeBytes": 55613,
+      "title": "Eternal Darkness: Sanity&#039;s Requiem (2002) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/eternal-darkness-sanity-s-requiem/",
+      "jsonLdCount": 1
+    },
+    "/games/echochrome/": {
+      "status": 200,
+      "sizeBytes": 54971,
+      "title": "Echochrome (2008) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/echochrome/",
+      "jsonLdCount": 1
+    },
+    "/games/f-zero/": {
+      "status": 200,
+      "sizeBytes": 58216,
+      "title": "F-Zero (1990) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/f-zero/",
+      "jsonLdCount": 1
+    },
+    "/games/fable/": {
+      "status": 200,
+      "sizeBytes": 55012,
+      "title": "Fable (2004) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/fable/",
+      "jsonLdCount": 1
+    },
+    "/games/dragon-quest-viii-journey-of-the-cursed-king/": {
+      "status": 200,
+      "sizeBytes": 55564,
+      "title": "Dragon Quest VIII: Journey of the Cursed King (2004) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/dragon-quest-viii-journey-of-the-cursed-king/",
+      "jsonLdCount": 1
+    },
+    "/games/f-zero-gx/": {
+      "status": 200,
+      "sizeBytes": 54992,
+      "title": "F-Zero GX (2003) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/f-zero-gx/",
+      "jsonLdCount": 1
+    },
+    "/games/fable-ii/": {
+      "status": 200,
+      "sizeBytes": 54971,
+      "title": "Fable II (2008) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/fable-ii/",
+      "jsonLdCount": 1
+    },
+    "/games/dragon-s-lair/": {
+      "status": 200,
+      "sizeBytes": 58157,
+      "title": "Dragon&#039;s Lair (1983) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/dragon-s-lair/",
+      "jsonLdCount": 1
+    },
+    "/games/fallout/": {
+      "status": 200,
+      "sizeBytes": 56449,
+      "title": "Fallout: A Post Nuclear Role Playing Game (1997) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/fallout/",
+      "jsonLdCount": 1
+    },
+    "/games/fallout-2/": {
+      "status": 200,
+      "sizeBytes": 54924,
+      "title": "Fallout 2 (1998) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/fallout-2/",
+      "jsonLdCount": 1
+    },
+    "/games/fallout-3/": {
+      "status": 200,
+      "sizeBytes": 56081,
+      "title": "Fallout 3 (2008) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/fallout-3/",
+      "jsonLdCount": 1
+    },
+    "/games/everquest/": {
+      "status": 200,
+      "sizeBytes": 55799,
+      "title": "EverQuest (1999) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/everquest/",
+      "jsonLdCount": 1
+    },
+    "/games/fallout-new-vegas/": {
+      "status": 200,
+      "sizeBytes": 55233,
+      "title": "Fallout: New Vegas (2010) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/fallout-new-vegas/",
+      "jsonLdCount": 1
+    },
+    "/games/final-fantasy/": {
+      "status": 200,
+      "sizeBytes": 58557,
+      "title": "Final Fantasy (1987) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/final-fantasy/",
+      "jsonLdCount": 1
+    },
+    "/games/final-fantasy-vi/": {
+      "status": 200,
+      "sizeBytes": 58678,
+      "title": "Final Fantasy VI (1994) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/final-fantasy-vi/",
+      "jsonLdCount": 1
+    },
+    "/games/far-cry-3/": {
+      "status": 200,
+      "sizeBytes": 54999,
+      "title": "Far Cry 3 (2012) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/far-cry-3/",
+      "jsonLdCount": 1
+    },
+    "/games/fatal-frame/": {
+      "status": 200,
+      "sizeBytes": 54938,
+      "title": "Fatal Frame (2001) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/fatal-frame/",
+      "jsonLdCount": 1
+    },
+    "/games/final-fantasy-vii-rebirth/": {
+      "status": 200,
+      "sizeBytes": 56003,
+      "title": "Final Fantasy VII Rebirth (2024) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/final-fantasy-vii-rebirth/",
+      "jsonLdCount": 1
+    },
+    "/games/final-fantasy-vii-remake/": {
+      "status": 200,
+      "sizeBytes": 56087,
+      "title": "Final Fantasy VII Remake (2020) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/final-fantasy-vii-remake/",
+      "jsonLdCount": 1
+    },
+    "/games/fatal-frame-ii-crimson-butterfly/": {
+      "status": 200,
+      "sizeBytes": 55318,
+      "title": "Fatal Frame II: Crimson Butterfly (2003) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/fatal-frame-ii-crimson-butterfly/",
+      "jsonLdCount": 1
+    },
+    "/games/final-fantasy-xii/": {
+      "status": 200,
+      "sizeBytes": 54973,
+      "title": "Final Fantasy XII (2006) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/final-fantasy-xii/",
+      "jsonLdCount": 1
+    },
+    "/games/final-fantasy-vii-remake-intergrade/": {
+      "status": 200,
+      "sizeBytes": 55509,
+      "title": "Final Fantasy VII Remake Intergrade (2021) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/final-fantasy-vii-remake-intergrade/",
+      "jsonLdCount": 1
+    },
+    "/games/final-fantasy-xvi/": {
+      "status": 200,
+      "sizeBytes": 56030,
+      "title": "Final Fantasy XVI (2023) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/final-fantasy-xvi/",
+      "jsonLdCount": 1
+    },
+    "/games/final-fantasy-x/": {
+      "status": 200,
+      "sizeBytes": 54975,
+      "title": "Final Fantasy X (2001) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/final-fantasy-x/",
+      "jsonLdCount": 1
+    },
+    "/games/fire-emblem-awakening/": {
+      "status": 200,
+      "sizeBytes": 55222,
+      "title": "Fire Emblem: Awakening (2012) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/fire-emblem-awakening/",
+      "jsonLdCount": 1
+    },
+    "/games/fire-emblem-three-houses/": {
+      "status": 200,
+      "sizeBytes": 55286,
+      "title": "Fire Emblem: Three Houses (2019) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/fire-emblem-three-houses/",
+      "jsonLdCount": 1
+    },
+    "/games/folklore/": {
+      "status": 200,
+      "sizeBytes": 55030,
+      "title": "Folklore (2007) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/folklore/",
+      "jsonLdCount": 1
+    },
+    "/games/forza-horizon/": {
+      "status": 200,
+      "sizeBytes": 55056,
+      "title": "Forza Horizon (2012) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/forza-horizon/",
+      "jsonLdCount": 1
+    },
+    "/games/forza-horizon-4/": {
+      "status": 200,
+      "sizeBytes": 55171,
+      "title": "Forza Horizon 4 (2018) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/forza-horizon-4/",
+      "jsonLdCount": 1
+    },
+    "/games/forza-horizon-5/": {
+      "status": 200,
+      "sizeBytes": 55105,
+      "title": "Forza Horizon 5 (2021) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/forza-horizon-5/",
+      "jsonLdCount": 1
+    },
+    "/games/galaga/": {
+      "status": 200,
+      "sizeBytes": 58073,
+      "title": "Galaga (1981) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/galaga/",
+      "jsonLdCount": 1
+    },
+    "/games/final-fantasy-vii/": {
+      "status": 200,
+      "sizeBytes": 60524,
+      "title": "Final Fantasy VII (1997) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/final-fantasy-vii/",
+      "jsonLdCount": 1
+    },
+    "/games/frogger/": {
+      "status": 200,
+      "sizeBytes": 59358,
+      "title": "Frogger (1981) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/frogger/",
+      "jsonLdCount": 1
+    },
+    "/games/ghost-of-tsushima/": {
+      "status": 200,
+      "sizeBytes": 56883,
+      "title": "Ghost of Tsushima (2020) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/ghost-of-tsushima/",
+      "jsonLdCount": 1
+    },
+    "/games/gears-of-war-3/": {
+      "status": 200,
+      "sizeBytes": 55082,
+      "title": "Gears of War 3 (2011) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/gears-of-war-3/",
+      "jsonLdCount": 1
+    },
+    "/games/gears-of-war/": {
+      "status": 200,
+      "sizeBytes": 55954,
+      "title": "Gears of War (2006) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/gears-of-war/",
+      "jsonLdCount": 1
+    },
+    "/games/gears-of-war-2/": {
+      "status": 200,
+      "sizeBytes": 55113,
+      "title": "Gears of War 2 (2008) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/gears-of-war-2/",
+      "jsonLdCount": 1
+    },
+    "/games/god-of-war-iii/": {
+      "status": 200,
+      "sizeBytes": 55049,
+      "title": "God of War III (2010) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/god-of-war-iii/",
+      "jsonLdCount": 1
+    },
+    "/games/god-of-war-2018/": {
+      "status": 200,
+      "sizeBytes": 55904,
+      "title": "God of War (2018) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/god-of-war-2018/",
+      "jsonLdCount": 1
+    },
+    "/games/god-of-war-ii/": {
+      "status": 200,
+      "sizeBytes": 54951,
+      "title": "God of War II (2007) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/god-of-war-ii/",
+      "jsonLdCount": 1
+    },
+    "/games/ghosts-n-goblins/": {
+      "status": 200,
+      "sizeBytes": 57940,
+      "title": "Ghosts &#039;n Goblins (1985) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/ghosts-n-goblins/",
+      "jsonLdCount": 1
+    },
+    "/games/ghostwire-tokyo/": {
+      "status": 200,
+      "sizeBytes": 55111,
+      "title": "Ghostwire: Tokyo (2022) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/ghostwire-tokyo/",
+      "jsonLdCount": 1
+    },
+    "/games/god-of-war-ragnarok/": {
+      "status": 200,
+      "sizeBytes": 56025,
+      "title": "God of War Ragnarök (2022) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/god-of-war-ragnarok/",
+      "jsonLdCount": 1
+    },
+    "/games/golden-sun/": {
+      "status": 200,
+      "sizeBytes": 55021,
+      "title": "Golden Sun (2001) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/golden-sun/",
+      "jsonLdCount": 1
+    },
+    "/games/gradius/": {
+      "status": 200,
+      "sizeBytes": 58123,
+      "title": "Gradius (1985) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/gradius/",
+      "jsonLdCount": 1
+    },
+    "/games/gran-turismo/": {
+      "status": 200,
+      "sizeBytes": 56172,
+      "title": "Gran Turismo (1997) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/gran-turismo/",
+      "jsonLdCount": 1
+    },
+    "/games/gran-turismo-3-a-spec/": {
+      "status": 200,
+      "sizeBytes": 55132,
+      "title": "Gran Turismo 3: A-Spec (2001) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/gran-turismo-3-a-spec/",
+      "jsonLdCount": 1
+    },
+    "/games/god-hand/": {
+      "status": 200,
+      "sizeBytes": 54995,
+      "title": "God Hand (2006) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/god-hand/",
+      "jsonLdCount": 1
+    },
+    "/games/gran-turismo-4/": {
+      "status": 200,
+      "sizeBytes": 55029,
+      "title": "Gran Turismo 4 (2004) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/gran-turismo-4/",
+      "jsonLdCount": 1
+    },
+    "/games/gran-turismo-5/": {
+      "status": 200,
+      "sizeBytes": 55108,
+      "title": "Gran Turismo 5 (2010) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/gran-turismo-5/",
+      "jsonLdCount": 1
+    },
+    "/games/god-of-war/": {
+      "status": 200,
+      "sizeBytes": 56135,
+      "title": "God of War (2005) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/god-of-war/",
+      "jsonLdCount": 1
+    },
+    "/games/gran-turismo-7/": {
+      "status": 200,
+      "sizeBytes": 56119,
+      "title": "Gran Turismo 7 (2022) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/gran-turismo-7/",
+      "jsonLdCount": 1
+    },
+    "/games/grand-theft-auto-episodes-from-liberty-city/": {
+      "status": 200,
+      "sizeBytes": 55665,
+      "title": "Grand Theft Auto: Episodes from Liberty City (2009) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/grand-theft-auto-episodes-from-liberty-city/",
+      "jsonLdCount": 1
+    },
+    "/games/goldeneye-007/": {
+      "status": 200,
+      "sizeBytes": 56097,
+      "title": "GoldenEye 007 (1997) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/goldeneye-007/",
+      "jsonLdCount": 1
+    },
+    "/games/gran-turismo-6/": {
+      "status": 200,
+      "sizeBytes": 55118,
+      "title": "Gran Turismo 6 (2013) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/gran-turismo-6/",
+      "jsonLdCount": 1
+    },
+    "/games/granblue-fantasy-relink/": {
+      "status": 200,
+      "sizeBytes": 55312,
+      "title": "Granblue Fantasy: Relink (2024) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/granblue-fantasy-relink/",
+      "jsonLdCount": 1
+    },
+    "/games/grand-theft-auto-iii/": {
+      "status": 200,
+      "sizeBytes": 60537,
+      "title": "Grand Theft Auto III (2001) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/grand-theft-auto-iii/",
+      "jsonLdCount": 1
+    },
+    "/games/grand-theft-auto-v/": {
+      "status": 200,
+      "sizeBytes": 56483,
+      "title": "Grand Theft Auto V (2013) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/grand-theft-auto-v/",
+      "jsonLdCount": 1
+    },
+    "/games/grand-theft-auto-vice-city/": {
+      "status": 200,
+      "sizeBytes": 55047,
+      "title": "Grand Theft Auto: Vice City (2002) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/grand-theft-auto-vice-city/",
+      "jsonLdCount": 1
+    },
+    "/games/grand-theft-auto-iv/": {
+      "status": 200,
+      "sizeBytes": 55226,
+      "title": "Grand Theft Auto IV (2008) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/grand-theft-auto-iv/",
+      "jsonLdCount": 1
+    },
+    "/games/grand-theft-auto-san-andreas/": {
+      "status": 200,
+      "sizeBytes": 56466,
+      "title": "Grand Theft Auto: San Andreas (2004) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/grand-theft-auto-san-andreas/",
+      "jsonLdCount": 1
+    },
+    "/games/gravity-rush-2/": {
+      "status": 200,
+      "sizeBytes": 55098,
+      "title": "Gravity Rush 2 (2017) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/gravity-rush-2/",
+      "jsonLdCount": 1
+    },
+    "/games/half-life/": {
+      "status": 200,
+      "sizeBytes": 60226,
+      "title": "Half-Life (1998) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/half-life/",
+      "jsonLdCount": 1
+    },
+    "/games/guitar-hero/": {
+      "status": 200,
+      "sizeBytes": 54956,
+      "title": "Guitar Hero (2005) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/guitar-hero/",
+      "jsonLdCount": 1
+    },
+    "/games/grim-fandango/": {
+      "status": 200,
+      "sizeBytes": 55074,
+      "title": "Grim Fandango (1998) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/grim-fandango/",
+      "jsonLdCount": 1
+    },
+    "/games/guitar-hero-ii/": {
+      "status": 200,
+      "sizeBytes": 55023,
+      "title": "Guitar Hero II (2006) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/guitar-hero-ii/",
+      "jsonLdCount": 1
+    },
+    "/games/gun-fight/": {
+      "status": 200,
+      "sizeBytes": 55664,
+      "title": "Gun Fight (1975) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/gun-fight/",
+      "jsonLdCount": 1
+    },
+    "/games/half-life-alyx/": {
+      "status": 200,
+      "sizeBytes": 55774,
+      "title": "Half-Life: Alyx (2020) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/half-life-alyx/",
+      "jsonLdCount": 1
+    },
+    "/games/halo-3/": {
+      "status": 200,
+      "sizeBytes": 54972,
+      "title": "Halo 3 (2007) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/halo-3/",
+      "jsonLdCount": 1
+    },
+    "/games/guacamelee/": {
+      "status": 200,
+      "sizeBytes": 54968,
+      "title": "Guacamelee! (2013) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/guacamelee/",
+      "jsonLdCount": 1
+    },
+    "/games/heavy-rain/": {
+      "status": 200,
+      "sizeBytes": 55021,
+      "title": "Heavy Rain (2010) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/heavy-rain/",
+      "jsonLdCount": 1
+    },
+    "/games/halo-2/": {
+      "status": 200,
+      "sizeBytes": 55590,
+      "title": "Halo 2 (2004) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/halo-2/",
+      "jsonLdCount": 1
+    },
+    "/games/heavenly-sword/": {
+      "status": 200,
+      "sizeBytes": 55110,
+      "title": "Heavenly Sword (2007) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/heavenly-sword/",
+      "jsonLdCount": 1
+    },
+    "/games/halo-combat-evolved/": {
+      "status": 200,
+      "sizeBytes": 56292,
+      "title": "Halo: Combat Evolved (2001) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/halo-combat-evolved/",
+      "jsonLdCount": 1
+    },
+    "/games/halo-reach/": {
+      "status": 200,
+      "sizeBytes": 55003,
+      "title": "Halo: Reach (2010) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/halo-reach/",
+      "jsonLdCount": 1
+    },
+    "/games/homeworld/": {
+      "status": 200,
+      "sizeBytes": 56932,
+      "title": "Homeworld (1999) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/homeworld/",
+      "jsonLdCount": 1
+    },
+    "/games/horizon-call-of-the-mountain/": {
+      "status": 200,
+      "sizeBytes": 55397,
+      "title": "Horizon Call of the Mountain (2023) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/horizon-call-of-the-mountain/",
+      "jsonLdCount": 1
+    },
+    "/games/helldivers-2/": {
+      "status": 200,
+      "sizeBytes": 56005,
+      "title": "Helldivers 2 (2024) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/helldivers-2/",
+      "jsonLdCount": 1
+    },
+    "/games/hades/": {
+      "status": 200,
+      "sizeBytes": 55768,
+      "title": "Hades (2020) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/hades/",
+      "jsonLdCount": 1
+    },
+    "/games/hollow-knight/": {
+      "status": 200,
+      "sizeBytes": 56133,
+      "title": "Hollow Knight (2017) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/hollow-knight/",
+      "jsonLdCount": 1
+    },
+    "/games/ico/": {
+      "status": 200,
+      "sizeBytes": 56019,
+      "title": "Ico (2001) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/ico/",
+      "jsonLdCount": 1
+    },
+    "/games/half-life-2/": {
+      "status": 200,
+      "sizeBytes": 56209,
+      "title": "Half-Life 2 (2004) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/half-life-2/",
+      "jsonLdCount": 1
+    },
+    "/games/hotline-miami/": {
+      "status": 200,
+      "sizeBytes": 55063,
+      "title": "Hotline Miami (2012) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/hotline-miami/",
+      "jsonLdCount": 1
+    },
+    "/games/hi-fi-rush/": {
+      "status": 200,
+      "sizeBytes": 55880,
+      "title": "Hi-Fi Rush (2023) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/hi-fi-rush/",
+      "jsonLdCount": 1
+    },
+    "/games/heroes-of-might-and-magic-iii/": {
+      "status": 200,
+      "sizeBytes": 55324,
+      "title": "Heroes of Might and Magic III (1999) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/heroes-of-might-and-magic-iii/",
+      "jsonLdCount": 1
+    },
+    "/games/horizon-forbidden-west/": {
+      "status": 200,
+      "sizeBytes": 56123,
+      "title": "Horizon Forbidden West (2022) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/horizon-forbidden-west/",
+      "jsonLdCount": 1
+    },
+    "/games/horizon-zero-dawn/": {
+      "status": 200,
+      "sizeBytes": 55910,
+      "title": "Horizon Zero Dawn (2017) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/horizon-zero-dawn/",
+      "jsonLdCount": 1
+    },
+    "/games/infamous-2/": {
+      "status": 200,
+      "sizeBytes": 55007,
+      "title": "Infamous 2 (2011) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/infamous-2/",
+      "jsonLdCount": 1
+    },
+    "/games/jak-3/": {
+      "status": 200,
+      "sizeBytes": 54938,
+      "title": "Jak 3 (2004) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/jak-3/",
+      "jsonLdCount": 1
+    },
+    "/games/inside/": {
+      "status": 200,
+      "sizeBytes": 55742,
+      "title": "Inside (2016) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/inside/",
+      "jsonLdCount": 1
+    },
+    "/games/joust/": {
+      "status": 200,
+      "sizeBytes": 58512,
+      "title": "Joust (1982) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/joust/",
+      "jsonLdCount": 1
+    },
+    "/games/infamous/": {
+      "status": 200,
+      "sizeBytes": 55011,
+      "title": "Infamous (2009) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/infamous/",
+      "jsonLdCount": 1
+    },
+    "/games/judgment/": {
+      "status": 200,
+      "sizeBytes": 54971,
+      "title": "Judgment (2018) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/judgment/",
+      "jsonLdCount": 1
+    },
+    "/games/jak-ii/": {
+      "status": 200,
+      "sizeBytes": 54838,
+      "title": "Jak II (2003) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/jak-ii/",
+      "jsonLdCount": 1
+    },
+    "/games/journey/": {
+      "status": 200,
+      "sizeBytes": 56012,
+      "title": "Journey (2012) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/journey/",
+      "jsonLdCount": 1
+    },
+    "/games/just-cause-2/": {
+      "status": 200,
+      "sizeBytes": 55160,
+      "title": "Just Cause 2 (2010) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/just-cause-2/",
+      "jsonLdCount": 1
+    },
+    "/games/katamari-damacy/": {
+      "status": 200,
+      "sizeBytes": 55082,
+      "title": "Katamari Damacy (2004) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/katamari-damacy/",
+      "jsonLdCount": 1
+    },
+    "/games/killzone-3/": {
+      "status": 200,
+      "sizeBytes": 55040,
+      "title": "Killzone 3 (2011) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/killzone-3/",
+      "jsonLdCount": 1
+    },
+    "/games/kid-icarus-uprising/": {
+      "status": 200,
+      "sizeBytes": 55131,
+      "title": "Kid Icarus: Uprising (2012) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/kid-icarus-uprising/",
+      "jsonLdCount": 1
+    },
+    "/games/king-s-quest-quest-for-the-crown/": {
+      "status": 200,
+      "sizeBytes": 55481,
+      "title": "King&#039;s Quest: Quest for the Crown (1984) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/king-s-quest-quest-for-the-crown/",
+      "jsonLdCount": 1
+    },
+    "/games/killzone-2/": {
+      "status": 200,
+      "sizeBytes": 55000,
+      "title": "Killzone 2 (2009) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/killzone-2/",
+      "jsonLdCount": 1
+    },
+    "/games/kingdom-hearts-ii/": {
+      "status": 200,
+      "sizeBytes": 55064,
+      "title": "Kingdom Hearts II (2005) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/kingdom-hearts-ii/",
+      "jsonLdCount": 1
+    },
+    "/games/kingdom-hearts/": {
+      "status": 200,
+      "sizeBytes": 54990,
+      "title": "Kingdom Hearts (2002) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/kingdom-hearts/",
+      "jsonLdCount": 1
+    },
+    "/games/kirby-and-the-forgotten-land/": {
+      "status": 200,
+      "sizeBytes": 55301,
+      "title": "Kirby and the Forgotten Land (2022) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/kirby-and-the-forgotten-land/",
+      "jsonLdCount": 1
+    },
+    "/games/infamous-second-son/": {
+      "status": 200,
+      "sizeBytes": 55172,
+      "title": "Infamous Second Son (2014) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/infamous-second-son/",
+      "jsonLdCount": 1
+    },
+    "/games/l-a-noire/": {
+      "status": 200,
+      "sizeBytes": 54956,
+      "title": "L.A. Noire (2011) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/l-a-noire/",
+      "jsonLdCount": 1
+    },
+    "/games/kirby-s-return-to-dream-land/": {
+      "status": 200,
+      "sizeBytes": 55371,
+      "title": "Kirby&#039;s Return to Dream Land (2011) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/kirby-s-return-to-dream-land/",
+      "jsonLdCount": 1
+    },
+    "/games/klonoa-2-lunatea-s-veil/": {
+      "status": 200,
+      "sizeBytes": 55185,
+      "title": "Klonoa 2: Lunatea&#039;s Veil (2001) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/klonoa-2-lunatea-s-veil/",
+      "jsonLdCount": 1
+    },
+    "/games/jak-and-daxter-the-precursor-legacy/": {
+      "status": 200,
+      "sizeBytes": 55433,
+      "title": "Jak and Daxter: The Precursor Legacy (2001) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/jak-and-daxter-the-precursor-legacy/",
+      "jsonLdCount": 1
+    },
+    "/games/left-4-dead/": {
+      "status": 200,
+      "sizeBytes": 55806,
+      "title": "Left 4 Dead (2008) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/left-4-dead/",
+      "jsonLdCount": 1
+    },
+    "/games/left-4-dead-2/": {
+      "status": 200,
+      "sizeBytes": 55104,
+      "title": "Left 4 Dead 2 (2009) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/left-4-dead-2/",
+      "jsonLdCount": 1
+    },
+    "/games/kingdoms-of-amalur-reckoning/": {
+      "status": 200,
+      "sizeBytes": 55357,
+      "title": "Kingdoms of Amalur: Reckoning (2012) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/kingdoms-of-amalur-reckoning/",
+      "jsonLdCount": 1
+    },
+    "/games/like-a-dragon-infinite-wealth/": {
+      "status": 200,
+      "sizeBytes": 55472,
+      "title": "Like a Dragon: Infinite Wealth (2024) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/like-a-dragon-infinite-wealth/",
+      "jsonLdCount": 1
+    },
+    "/games/lords-of-the-fallen-2023/": {
+      "status": 200,
+      "sizeBytes": 55311,
+      "title": "Lords of the Fallen (2023) (2023) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/lords-of-the-fallen-2023/",
+      "jsonLdCount": 1
+    },
+    "/games/lies-of-p/": {
+      "status": 200,
+      "sizeBytes": 55046,
+      "title": "Lies of P (2023) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/lies-of-p/",
+      "jsonLdCount": 1
+    },
+    "/games/lost-odyssey/": {
+      "status": 200,
+      "sizeBytes": 55096,
+      "title": "Lost Odyssey (2007) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/lost-odyssey/",
+      "jsonLdCount": 1
+    },
+    "/games/littlebigplanet/": {
+      "status": 200,
+      "sizeBytes": 55079,
+      "title": "LittleBigPlanet (2008) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/littlebigplanet/",
+      "jsonLdCount": 1
+    },
+    "/games/luigi-s-mansion/": {
+      "status": 200,
+      "sizeBytes": 55117,
+      "title": "Luigi&#039;s Mansion (2001) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/luigi-s-mansion/",
+      "jsonLdCount": 1
+    },
+    "/games/manhunt/": {
+      "status": 200,
+      "sizeBytes": 54956,
+      "title": "Manhunt (2003) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/manhunt/",
+      "jsonLdCount": 1
+    },
+    "/games/luigi-s-mansion-3/": {
+      "status": 200,
+      "sizeBytes": 55109,
+      "title": "Luigi&#039;s Mansion 3 (2019) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/luigi-s-mansion-3/",
+      "jsonLdCount": 1
+    },
+    "/games/marble-madness/": {
+      "status": 200,
+      "sizeBytes": 57857,
+      "title": "Marble Madness (1984) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/marble-madness/",
+      "jsonLdCount": 1
+    },
+    "/games/mario-and-luigi-superstar-saga/": {
+      "status": 200,
+      "sizeBytes": 55353,
+      "title": "Mario &amp; Luigi: Superstar Saga (2003) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/mario-and-luigi-superstar-saga/",
+      "jsonLdCount": 1
+    },
+    "/games/littlebigplanet-2/": {
+      "status": 200,
+      "sizeBytes": 55176,
+      "title": "LittleBigPlanet 2 (2011) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/littlebigplanet-2/",
+      "jsonLdCount": 1
+    },
+    "/games/marvel-s-spider-man-miles-morales/": {
+      "status": 200,
+      "sizeBytes": 55501,
+      "title": "Marvel&#039;s Spider-Man: Miles Morales (2020) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/marvel-s-spider-man-miles-morales/",
+      "jsonLdCount": 1
+    },
+    "/games/marvel-s-spider-man-2/": {
+      "status": 200,
+      "sizeBytes": 56138,
+      "title": "Marvel&#039;s Spider-Man 2 (2023) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/marvel-s-spider-man-2/",
+      "jsonLdCount": 1
+    },
+    "/games/lost-judgment/": {
+      "status": 200,
+      "sizeBytes": 55136,
+      "title": "Lost Judgment (2021) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/lost-judgment/",
+      "jsonLdCount": 1
+    },
+    "/games/lunar-lander/": {
+      "status": 200,
+      "sizeBytes": 58137,
+      "title": "Lunar Lander (1979) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/lunar-lander/",
+      "jsonLdCount": 1
+    },
+    "/games/mass-effect/": {
+      "status": 200,
+      "sizeBytes": 56194,
+      "title": "Mass Effect (2007) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/mass-effect/",
+      "jsonLdCount": 1
+    },
+    "/games/marvel-s-spider-man-remastered/": {
+      "status": 200,
+      "sizeBytes": 55567,
+      "title": "Marvel&#039;s Spider-Man Remastered (2020) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/marvel-s-spider-man-remastered/",
+      "jsonLdCount": 1
+    },
+    "/games/mass-effect-2/": {
+      "status": 200,
+      "sizeBytes": 55984,
+      "title": "Mass Effect 2 (2010) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/mass-effect-2/",
+      "jsonLdCount": 1
+    },
+    "/games/marvel-s-spider-man/": {
+      "status": 200,
+      "sizeBytes": 56033,
+      "title": "Marvel&#039;s Spider-Man (2018) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/marvel-s-spider-man/",
+      "jsonLdCount": 1
+    },
+    "/games/max-payne-3/": {
+      "status": 200,
+      "sizeBytes": 55060,
+      "title": "Max Payne 3 (2012) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/max-payne-3/",
+      "jsonLdCount": 1
+    },
+    "/games/max-payne/": {
+      "status": 200,
+      "sizeBytes": 55923,
+      "title": "Max Payne (2001) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/max-payne/",
+      "jsonLdCount": 1
+    },
+    "/games/mega-man-2/": {
+      "status": 200,
+      "sizeBytes": 58167,
+      "title": "Mega Man 2 (1988) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/mega-man-2/",
+      "jsonLdCount": 1
+    },
+    "/games/mass-effect-3/": {
+      "status": 200,
+      "sizeBytes": 55122,
+      "title": "Mass Effect 3 (2012) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/mass-effect-3/",
+      "jsonLdCount": 1
+    },
+    "/games/mercenaries-playground-of-destruction/": {
+      "status": 200,
+      "sizeBytes": 55493,
+      "title": "Mercenaries: Playground of Destruction (2005) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/mercenaries-playground-of-destruction/",
+      "jsonLdCount": 1
+    },
+    "/games/metal-gear-solid/": {
+      "status": 200,
+      "sizeBytes": 60649,
+      "title": "Metal Gear Solid (1998) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/metal-gear-solid/",
+      "jsonLdCount": 1
+    },
+    "/games/metal-gear-solid-2-sons-of-liberty/": {
+      "status": 200,
+      "sizeBytes": 56695,
+      "title": "Metal Gear Solid 2: Sons of Liberty (2001) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/metal-gear-solid-2-sons-of-liberty/",
+      "jsonLdCount": 1
+    },
+    "/games/metal-gear-solid-4-guns-of-the-patriots/": {
+      "status": 200,
+      "sizeBytes": 55470,
+      "title": "Metal Gear Solid 4: Guns of the Patriots (2008) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/metal-gear-solid-4-guns-of-the-patriots/",
+      "jsonLdCount": 1
+    },
+    "/games/metroid-fusion/": {
+      "status": 200,
+      "sizeBytes": 55034,
+      "title": "Metroid Fusion (2002) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/metroid-fusion/",
+      "jsonLdCount": 1
+    },
+    "/games/metroid-dread/": {
+      "status": 200,
+      "sizeBytes": 55082,
+      "title": "Metroid Dread (2021) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/metroid-dread/",
+      "jsonLdCount": 1
+    },
+    "/games/metroid-prime-2-echoes/": {
+      "status": 200,
+      "sizeBytes": 55241,
+      "title": "Metroid Prime 2: Echoes (2004) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/metroid-prime-2-echoes/",
+      "jsonLdCount": 1
+    },
+    "/games/metal-gear-solid-3-snake-eater/": {
+      "status": 200,
+      "sizeBytes": 55411,
+      "title": "Metal Gear Solid 3: Snake Eater (2004) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/metal-gear-solid-3-snake-eater/",
+      "jsonLdCount": 1
+    },
+    "/games/metroid-prime/": {
+      "status": 200,
+      "sizeBytes": 56850,
+      "title": "Metroid Prime (2002) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/metroid-prime/",
+      "jsonLdCount": 1
+    },
+    "/games/metroid-prime-3-corruption/": {
+      "status": 200,
+      "sizeBytes": 55147,
+      "title": "Metroid Prime 3: Corruption (2007) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/metroid-prime-3-corruption/",
+      "jsonLdCount": 1
+    },
+    "/games/metroid-zero-mission/": {
+      "status": 200,
+      "sizeBytes": 55235,
+      "title": "Metroid: Zero Mission (2004) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/metroid-zero-mission/",
+      "jsonLdCount": 1
+    },
+    "/games/minecraft/": {
+      "status": 200,
+      "sizeBytes": 60603,
+      "title": "Minecraft (2011) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/minecraft/",
+      "jsonLdCount": 1
+    },
+    "/games/missile-command/": {
+      "status": 200,
+      "sizeBytes": 58746,
+      "title": "Missile Command (1980) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/missile-command/",
+      "jsonLdCount": 1
+    },
+    "/games/metal-slug/": {
+      "status": 200,
+      "sizeBytes": 56041,
+      "title": "Metal Slug: Super Vehicle-001 (1996) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/metal-slug/",
+      "jsonLdCount": 1
+    },
+    "/games/monster-hunter-world/": {
+      "status": 200,
+      "sizeBytes": 55987,
+      "title": "Monster Hunter: World (2018) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/monster-hunter-world/",
+      "jsonLdCount": 1
+    },
+    "/games/monkey-island-2-lechuck-s-revenge/": {
+      "status": 200,
+      "sizeBytes": 55389,
+      "title": "Monkey Island 2: LeChuck&#039;s Revenge (1991) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/monkey-island-2-lechuck-s-revenge/",
+      "jsonLdCount": 1
+    },
+    "/games/midnight-club-3-dub-edition/": {
+      "status": 200,
+      "sizeBytes": 55324,
+      "title": "Midnight Club 3: DUB Edition (2005) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/midnight-club-3-dub-edition/",
+      "jsonLdCount": 1
+    },
+    "/games/metroid/": {
+      "status": 200,
+      "sizeBytes": 58404,
+      "title": "Metroid (1986) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/metroid/",
+      "jsonLdCount": 1
+    },
+    "/games/motorstorm/": {
+      "status": 200,
+      "sizeBytes": 55047,
+      "title": "MotorStorm (2006) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/motorstorm/",
+      "jsonLdCount": 1
+    },
+    "/games/need-for-speed-underground/": {
+      "status": 200,
+      "sizeBytes": 55325,
+      "title": "Need for Speed: Underground (2003) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/need-for-speed-underground/",
+      "jsonLdCount": 1
+    },
+    "/games/need-for-speed-most-wanted-2005/": {
+      "status": 200,
+      "sizeBytes": 55316,
+      "title": "Need for Speed: Most Wanted (2005) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/need-for-speed-most-wanted-2005/",
+      "jsonLdCount": 1
+    },
+    "/games/motorstorm-pacific-rift/": {
+      "status": 200,
+      "sizeBytes": 55178,
+      "title": "MotorStorm: Pacific Rift (2008) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/motorstorm-pacific-rift/",
+      "jsonLdCount": 1
+    },
+    "/games/ni-no-kuni-wrath-of-the-white-witch/": {
+      "status": 200,
+      "sizeBytes": 55387,
+      "title": "Ni no Kuni: Wrath of the White Witch (2011) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/ni-no-kuni-wrath-of-the-white-witch/",
+      "jsonLdCount": 1
+    },
+    "/games/mortal-kombat/": {
+      "status": 200,
+      "sizeBytes": 58405,
+      "title": "Mortal Kombat (1992) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/mortal-kombat/",
+      "jsonLdCount": 1
+    },
+    "/games/nier-automata/": {
+      "status": 200,
+      "sizeBytes": 55934,
+      "title": "NieR: Automata (2017) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/nier-automata/",
+      "jsonLdCount": 1
+    },
+    "/games/myst/": {
+      "status": 200,
+      "sizeBytes": 58017,
+      "title": "Myst (1993) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/myst/",
+      "jsonLdCount": 1
+    },
+    "/games/ms-pac-man/": {
+      "status": 200,
+      "sizeBytes": 59690,
+      "title": "Ms. Pac-Man (1982) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/ms-pac-man/",
+      "jsonLdCount": 1
+    },
+    "/games/night-driver/": {
+      "status": 200,
+      "sizeBytes": 55715,
+      "title": "Night Driver (1976) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/night-driver/",
+      "jsonLdCount": 1
+    },
+    "/games/nioh-2/": {
+      "status": 200,
+      "sizeBytes": 55035,
+      "title": "Nioh 2 (2020) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/nioh-2/",
+      "jsonLdCount": 1
+    },
+    "/games/nights-into-dreams/": {
+      "status": 200,
+      "sizeBytes": 55999,
+      "title": "Nights into Dreams (1996) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/nights-into-dreams/",
+      "jsonLdCount": 1
+    },
+    "/games/onimusha-3-demon-siege/": {
+      "status": 200,
+      "sizeBytes": 55228,
+      "title": "Onimusha 3: Demon Siege (2004) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/onimusha-3-demon-siege/",
+      "jsonLdCount": 1
+    },
+    "/games/ninja-gaiden-black/": {
+      "status": 200,
+      "sizeBytes": 55103,
+      "title": "Ninja Gaiden Black (2005) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/ninja-gaiden-black/",
+      "jsonLdCount": 1
+    },
+    "/games/okami/": {
+      "status": 200,
+      "sizeBytes": 55824,
+      "title": "Ōkami (2006) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/okami/",
+      "jsonLdCount": 1
+    },
+    "/games/odin-sphere/": {
+      "status": 200,
+      "sizeBytes": 54975,
+      "title": "Odin Sphere (2007) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/odin-sphere/",
+      "jsonLdCount": 1
+    },
+    "/games/ninja-gaiden/": {
+      "status": 200,
+      "sizeBytes": 58106,
+      "title": "Ninja Gaiden (1988) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/ninja-gaiden/",
+      "jsonLdCount": 1
+    },
+    "/games/onimusha-warlords/": {
+      "status": 200,
+      "sizeBytes": 55127,
+      "title": "Onimusha: Warlords (2001) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/onimusha-warlords/",
+      "jsonLdCount": 1
+    },
+    "/games/ninja-gaiden-2004/": {
+      "status": 200,
+      "sizeBytes": 55854,
+      "title": "Ninja Gaiden (2004) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/ninja-gaiden-2004/",
+      "jsonLdCount": 1
+    },
+    "/games/pacific-drive/": {
+      "status": 200,
+      "sizeBytes": 55207,
+      "title": "Pacific Drive (2024) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/pacific-drive/",
+      "jsonLdCount": 1
+    },
+    "/games/outer-wilds/": {
+      "status": 200,
+      "sizeBytes": 55103,
+      "title": "Outer Wilds (2019) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/outer-wilds/",
+      "jsonLdCount": 1
+    },
+    "/games/pac-man/": {
+      "status": 200,
+      "sizeBytes": 58747,
+      "title": "Pac-Man (1980) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/pac-man/",
+      "jsonLdCount": 1
+    },
+    "/games/panzer-dragoon/": {
+      "status": 200,
+      "sizeBytes": 55842,
+      "title": "Panzer Dragoon (1995) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/panzer-dragoon/",
+      "jsonLdCount": 1
+    },
+    "/games/persona-3/": {
+      "status": 200,
+      "sizeBytes": 55099,
+      "title": "Shin Megami Tensei: Persona 3 (2006) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/persona-3/",
+      "jsonLdCount": 1
+    },
+    "/games/ori-and-the-will-of-the-wisps/": {
+      "status": 200,
+      "sizeBytes": 55405,
+      "title": "Ori and the Will of the Wisps (2020) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/ori-and-the-will-of-the-wisps/",
+      "jsonLdCount": 1
+    },
+    "/games/persona-3-reload/": {
+      "status": 200,
+      "sizeBytes": 55194,
+      "title": "Persona 3 Reload (2024) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/persona-3-reload/",
+      "jsonLdCount": 1
+    },
+    "/games/ori-and-the-blind-forest/": {
+      "status": 200,
+      "sizeBytes": 55282,
+      "title": "Ori and the Blind Forest (2015) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/ori-and-the-blind-forest/",
+      "jsonLdCount": 1
+    },
+    "/games/nioh/": {
+      "status": 200,
+      "sizeBytes": 54883,
+      "title": "Nioh (2017) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/nioh/",
+      "jsonLdCount": 1
+    },
+    "/games/panzer-dragoon-saga/": {
+      "status": 200,
+      "sizeBytes": 57026,
+      "title": "Panzer Dragoon Saga (1998) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/panzer-dragoon-saga/",
+      "jsonLdCount": 1
+    },
+    "/games/persona-5/": {
+      "status": 200,
+      "sizeBytes": 56041,
+      "title": "Persona 5 (2016) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/persona-5/",
+      "jsonLdCount": 1
+    },
+    "/games/paper-mario-the-thousand-year-door/": {
+      "status": 200,
+      "sizeBytes": 55440,
+      "title": "Paper Mario: The Thousand-Year Door (2004) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/paper-mario-the-thousand-year-door/",
+      "jsonLdCount": 1
+    },
+    "/games/phantasy-star/": {
+      "status": 200,
+      "sizeBytes": 58361,
+      "title": "Phantasy Star (1987) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/phantasy-star/",
+      "jsonLdCount": 1
+    },
+    "/games/out-run/": {
+      "status": 200,
+      "sizeBytes": 58841,
+      "title": "Out Run (1986) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/out-run/",
+      "jsonLdCount": 1
+    },
+    "/games/persona-4/": {
+      "status": 200,
+      "sizeBytes": 55032,
+      "title": "Shin Megami Tensei: Persona 4 (2008) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/persona-4/",
+      "jsonLdCount": 1
+    },
+    "/games/pikmin-2/": {
+      "status": 200,
+      "sizeBytes": 54980,
+      "title": "Pikmin 2 (2004) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/pikmin-2/",
+      "jsonLdCount": 1
+    },
+    "/games/playstation-all-stars-battle-royale/": {
+      "status": 200,
+      "sizeBytes": 55454,
+      "title": "PlayStation All-Stars Battle Royale (2012) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/playstation-all-stars-battle-royale/",
+      "jsonLdCount": 1
+    },
+    "/games/phantasy-star-online/": {
+      "status": 200,
+      "sizeBytes": 56197,
+      "title": "Phantasy Star Online (2000) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/phantasy-star-online/",
+      "jsonLdCount": 1
+    },
+    "/games/planescape-torment/": {
+      "status": 200,
+      "sizeBytes": 55195,
+      "title": "Planescape: Torment (1999) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/planescape-torment/",
+      "jsonLdCount": 1
+    },
+    "/games/pokemon-emerald/": {
+      "status": 200,
+      "sizeBytes": 55124,
+      "title": "Pokemon Emerald (2004) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/pokemon-emerald/",
+      "jsonLdCount": 1
+    },
+    "/games/pikmin/": {
+      "status": 200,
+      "sizeBytes": 54933,
+      "title": "Pikmin (2001) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/pikmin/",
+      "jsonLdCount": 1
+    },
+    "/games/pole-position/": {
+      "status": 200,
+      "sizeBytes": 58053,
+      "title": "Pole Position (1982) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/pole-position/",
+      "jsonLdCount": 1
+    },
+    "/games/pokemon-legends-arceus/": {
+      "status": 200,
+      "sizeBytes": 55284,
+      "title": "Pokemon Legends: Arceus (2022) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/pokemon-legends-arceus/",
+      "jsonLdCount": 1
+    },
+    "/games/pong/": {
+      "status": 200,
+      "sizeBytes": 58637,
+      "title": "Pong (1972) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/pong/",
+      "jsonLdCount": 1
+    },
+    "/games/pikmin-3/": {
+      "status": 200,
+      "sizeBytes": 54912,
+      "title": "Pikmin 3 (2013) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/pikmin-3/",
+      "jsonLdCount": 1
+    },
+    "/games/prince-of-persia/": {
+      "status": 200,
+      "sizeBytes": 58130,
+      "title": "Prince of Persia (1989) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/prince-of-persia/",
+      "jsonLdCount": 1
+    },
+    "/games/portal-2/": {
+      "status": 200,
+      "sizeBytes": 56273,
+      "title": "Portal 2 (2011) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/portal-2/",
+      "jsonLdCount": 1
+    },
+    "/games/pitfall/": {
+      "status": 200,
+      "sizeBytes": 57855,
+      "title": "Pitfall! (1982) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/pitfall/",
+      "jsonLdCount": 1
+    },
+    "/games/prince-of-persia-the-lost-crown/": {
+      "status": 200,
+      "sizeBytes": 55487,
+      "title": "Prince of Persia: The Lost Crown (2024) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/prince-of-persia-the-lost-crown/",
+      "jsonLdCount": 1
+    },
+    "/games/pokemon-red-blue/": {
+      "status": 200,
+      "sizeBytes": 60592,
+      "title": "Pokémon Red and Blue (1996) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/pokemon-red-blue/",
+      "jsonLdCount": 1
+    },
+    "/games/prince-of-persia-the-sands-of-time/": {
+      "status": 200,
+      "sizeBytes": 55546,
+      "title": "Prince of Persia: The Sands of Time (2003) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/prince-of-persia-the-sands-of-time/",
+      "jsonLdCount": 1
+    },
+    "/games/psychonauts/": {
+      "status": 200,
+      "sizeBytes": 55160,
+      "title": "Psychonauts (2005) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/psychonauts/",
+      "jsonLdCount": 1
+    },
+    "/games/prince-of-persia-warrior-within/": {
+      "status": 200,
+      "sizeBytes": 55529,
+      "title": "Prince of Persia: Warrior Within (2004) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/prince-of-persia-warrior-within/",
+      "jsonLdCount": 1
+    },
+    "/games/psychonauts-2/": {
+      "status": 200,
+      "sizeBytes": 55212,
+      "title": "Psychonauts 2 (2021) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/psychonauts-2/",
+      "jsonLdCount": 1
+    },
+    "/games/populous/": {
+      "status": 200,
+      "sizeBytes": 55701,
+      "title": "Populous (1989) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/populous/",
+      "jsonLdCount": 1
+    },
+    "/games/prince-of-persia-the-two-thrones/": {
+      "status": 200,
+      "sizeBytes": 55476,
+      "title": "Prince of Persia: The Two Thrones (2005) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/prince-of-persia-the-two-thrones/",
+      "jsonLdCount": 1
+    },
+    "/games/punch-out-wii/": {
+      "status": 200,
+      "sizeBytes": 55037,
+      "title": "Punch-Out!! (Wii) (2009) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/punch-out-wii/",
+      "jsonLdCount": 1
+    },
+    "/games/puppeteer/": {
+      "status": 200,
+      "sizeBytes": 55046,
+      "title": "Puppeteer (2013) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/puppeteer/",
+      "jsonLdCount": 1
+    },
+    "/games/quake/": {
+      "status": 200,
+      "sizeBytes": 56097,
+      "title": "Quake (1996) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/quake/",
+      "jsonLdCount": 1
+    },
+    "/games/portal/": {
+      "status": 200,
+      "sizeBytes": 60100,
+      "title": "Portal (2007) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/portal/",
+      "jsonLdCount": 1
+    },
+    "/games/quake-iii-arena/": {
+      "status": 200,
+      "sizeBytes": 55143,
+      "title": "Quake III Arena (1999) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/quake-iii-arena/",
+      "jsonLdCount": 1
+    },
+    "/games/ratchet-and-clank-going-commando/": {
+      "status": 200,
+      "sizeBytes": 55442,
+      "title": "Ratchet &amp; Clank: Going Commando (2003) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/ratchet-and-clank-going-commando/",
+      "jsonLdCount": 1
+    },
+    "/games/quake-ii/": {
+      "status": 200,
+      "sizeBytes": 54978,
+      "title": "Quake II (1997) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/quake-ii/",
+      "jsonLdCount": 1
+    },
+    "/games/ratchet-and-clank-future-a-crack-in-time/": {
+      "status": 200,
+      "sizeBytes": 55616,
+      "title": "Ratchet &amp; Clank Future: A Crack in Time (2009) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/ratchet-and-clank-future-a-crack-in-time/",
+      "jsonLdCount": 1
+    },
+    "/games/ratchet-clank-rift-apart/": {
+      "status": 200,
+      "sizeBytes": 56143,
+      "title": "Ratchet &amp; Clank: Rift Apart (2021) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/ratchet-clank-rift-apart/",
+      "jsonLdCount": 1
+    },
+    "/games/quantum-break/": {
+      "status": 200,
+      "sizeBytes": 55206,
+      "title": "Quantum Break (2016) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/quantum-break/",
+      "jsonLdCount": 1
+    },
+    "/games/ratchet-and-clank-up-your-arsenal/": {
+      "status": 200,
+      "sizeBytes": 55460,
+      "title": "Ratchet &amp; Clank: Up Your Arsenal (2004) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/ratchet-and-clank-up-your-arsenal/",
+      "jsonLdCount": 1
+    },
+    "/games/ratchet-clank/": {
+      "status": 200,
+      "sizeBytes": 55094,
+      "title": "Ratchet &amp; Clank (2002) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/ratchet-clank/",
+      "jsonLdCount": 1
+    },
+    "/games/ratchet-and-clank-2016/": {
+      "status": 200,
+      "sizeBytes": 55337,
+      "title": "Ratchet &amp; Clank (2016) (2016) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/ratchet-and-clank-2016/",
+      "jsonLdCount": 1
+    },
+    "/games/rayman-origins/": {
+      "status": 200,
+      "sizeBytes": 55166,
+      "title": "Rayman Origins (2011) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/rayman-origins/",
+      "jsonLdCount": 1
+    },
+    "/games/rayman-legends/": {
+      "status": 200,
+      "sizeBytes": 55192,
+      "title": "Rayman Legends (2013) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/rayman-legends/",
+      "jsonLdCount": 1
+    },
+    "/games/red-dead-redemption-2/": {
+      "status": 200,
+      "sizeBytes": 56371,
+      "title": "Red Dead Redemption 2 (2018) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/red-dead-redemption-2/",
+      "jsonLdCount": 1
+    },
+    "/games/remnant-ii/": {
+      "status": 200,
+      "sizeBytes": 55075,
+      "title": "Remnant II (2023) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/remnant-ii/",
+      "jsonLdCount": 1
+    },
+    "/games/red-dead-redemption/": {
+      "status": 200,
+      "sizeBytes": 57081,
+      "title": "Red Dead Redemption (2010) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/red-dead-redemption/",
+      "jsonLdCount": 1
+    },
+    "/games/resident-evil/": {
+      "status": 200,
+      "sizeBytes": 61216,
+      "title": "Resident Evil (1996) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/resident-evil/",
+      "jsonLdCount": 1
+    },
+    "/games/resident-evil-2/": {
+      "status": 200,
+      "sizeBytes": 56426,
+      "title": "Resident Evil 2 (1998) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/resident-evil-2/",
+      "jsonLdCount": 1
+    },
+    "/games/resident-evil-2-2019/": {
+      "status": 200,
+      "sizeBytes": 55230,
+      "title": "Resident Evil 2 (2019) (2019) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/resident-evil-2-2019/",
+      "jsonLdCount": 1
+    },
+    "/games/resident-evil-3-2020/": {
+      "status": 200,
+      "sizeBytes": 55270,
+      "title": "Resident Evil 3 (2020) (2020) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/resident-evil-3-2020/",
+      "jsonLdCount": 1
+    },
+    "/games/resident-evil-4/": {
+      "status": 200,
+      "sizeBytes": 56302,
+      "title": "Resident Evil 4 (2005) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/resident-evil-4/",
+      "jsonLdCount": 1
+    },
+    "/games/resident-evil-7-biohazard/": {
+      "status": 200,
+      "sizeBytes": 55332,
+      "title": "Resident Evil 7: Biohazard (2017) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/resident-evil-7-biohazard/",
+      "jsonLdCount": 1
+    },
+    "/games/resident-evil-village/": {
+      "status": 200,
+      "sizeBytes": 55253,
+      "title": "Resident Evil Village (2021) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/resident-evil-village/",
+      "jsonLdCount": 1
+    },
+    "/games/ratchet-and-clank-future-tools-of-destruction/": {
+      "status": 200,
+      "sizeBytes": 55723,
+      "title": "Ratchet &amp; Clank Future: Tools of Destruction (2007) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/ratchet-and-clank-future-tools-of-destruction/",
+      "jsonLdCount": 1
+    },
+    "/games/resistance-3/": {
+      "status": 200,
+      "sizeBytes": 55055,
+      "title": "Resistance 3 (2011) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/resistance-3/",
+      "jsonLdCount": 1
+    },
+    "/games/resistance-2/": {
+      "status": 200,
+      "sizeBytes": 55012,
+      "title": "Resistance 2 (2008) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/resistance-2/",
+      "jsonLdCount": 1
+    },
+    "/games/resistance-fall-of-man/": {
+      "status": 200,
+      "sizeBytes": 55230,
+      "title": "Resistance: Fall of Man (2006) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/resistance-fall-of-man/",
+      "jsonLdCount": 1
+    },
+    "/games/riven/": {
+      "status": 200,
+      "sizeBytes": 55079,
+      "title": "Riven: The Sequel to Myst (1997) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/riven/",
+      "jsonLdCount": 1
+    },
+    "/games/rise-of-the-ronin/": {
+      "status": 200,
+      "sizeBytes": 55173,
+      "title": "Rise of the Ronin (2024) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/rise-of-the-ronin/",
+      "jsonLdCount": 1
+    },
+    "/games/returnal/": {
+      "status": 200,
+      "sizeBytes": 55995,
+      "title": "Returnal (2021) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/returnal/",
+      "jsonLdCount": 1
+    },
+    "/games/rollercoaster-tycoon/": {
+      "status": 200,
+      "sizeBytes": 55202,
+      "title": "RollerCoaster Tycoon (1999) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/rollercoaster-tycoon/",
+      "jsonLdCount": 1
+    },
+    "/games/saints-row-the-third/": {
+      "status": 200,
+      "sizeBytes": 55178,
+      "title": "Saints Row: The Third (2011) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/saints-row-the-third/",
+      "jsonLdCount": 1
+    },
+    "/games/sea-of-thieves/": {
+      "status": 200,
+      "sizeBytes": 55146,
+      "title": "Sea of Thieves (2018) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/sea-of-thieves/",
+      "jsonLdCount": 1
+    },
+    "/games/sega-rally-championship/": {
+      "status": 200,
+      "sizeBytes": 55920,
+      "title": "Sega Rally Championship (1995) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/sega-rally-championship/",
+      "jsonLdCount": 1
+    },
+    "/games/secret-of-mana/": {
+      "status": 200,
+      "sizeBytes": 58472,
+      "title": "Secret of Mana (1993) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/secret-of-mana/",
+      "jsonLdCount": 1
+    },
+    "/games/sekiro-shadows-die-twice/": {
+      "status": 200,
+      "sizeBytes": 56098,
+      "title": "Sekiro: Shadows Die Twice (2019) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/sekiro-shadows-die-twice/",
+      "jsonLdCount": 1
+    },
+    "/games/shadow-of-the-colossus-2018/": {
+      "status": 200,
+      "sizeBytes": 55391,
+      "title": "Shadow of the Colossus (2018) (2018) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/shadow-of-the-colossus-2018/",
+      "jsonLdCount": 1
+    },
+    "/games/rogue/": {
+      "status": 200,
+      "sizeBytes": 58409,
+      "title": "Rogue: Exploring The Dungeons of Doom (1980) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/rogue/",
+      "jsonLdCount": 1
+    },
+    "/games/shin-megami-tensei-nocturne/": {
+      "status": 200,
+      "sizeBytes": 55338,
+      "title": "Shin Megami Tensei III: Nocturne (2003) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/shin-megami-tensei-nocturne/",
+      "jsonLdCount": 1
+    },
+    "/games/sea-of-stars/": {
+      "status": 200,
+      "sizeBytes": 55128,
+      "title": "Sea of Stars (2023) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/sea-of-stars/",
+      "jsonLdCount": 1
+    },
+    "/games/silent-hill-3/": {
+      "status": 200,
+      "sizeBytes": 55002,
+      "title": "Silent Hill 3 (2003) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/silent-hill-3/",
+      "jsonLdCount": 1
+    },
+    "/games/silent-hill/": {
+      "status": 200,
+      "sizeBytes": 56162,
+      "title": "Silent Hill (1999) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/silent-hill/",
+      "jsonLdCount": 1
+    },
+    "/games/shadow-of-the-colossus/": {
+      "status": 200,
+      "sizeBytes": 56402,
+      "title": "Shadow of the Colossus (2005) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/shadow-of-the-colossus/",
+      "jsonLdCount": 1
+    },
+    "/games/shenmue/": {
+      "status": 200,
+      "sizeBytes": 56146,
+      "title": "Shenmue (1999) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/shenmue/",
+      "jsonLdCount": 1
+    },
+    "/games/silent-hill-2/": {
+      "status": 200,
+      "sizeBytes": 56290,
+      "title": "Silent Hill 2 (2001) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/silent-hill-2/",
+      "jsonLdCount": 1
+    },
+    "/games/sin-and-punishment-star-successor/": {
+      "status": 200,
+      "sizeBytes": 55397,
+      "title": "Sin &amp; Punishment: Star Successor (2009) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/sin-and-punishment-star-successor/",
+      "jsonLdCount": 1
+    },
+    "/games/simcity/": {
+      "status": 200,
+      "sizeBytes": 57960,
+      "title": "SimCity (1989) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/simcity/",
+      "jsonLdCount": 1
+    },
+    "/games/siren-blood-curse/": {
+      "status": 200,
+      "sizeBytes": 55130,
+      "title": "Siren: Blood Curse (2008) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/siren-blood-curse/",
+      "jsonLdCount": 1
+    },
+    "/games/simcity-2000/": {
+      "status": 200,
+      "sizeBytes": 55194,
+      "title": "SimCity 2000 (1993) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/simcity-2000/",
+      "jsonLdCount": 1
+    },
+    "/games/silent-hill-4-the-room/": {
+      "status": 200,
+      "sizeBytes": 55269,
+      "title": "Silent Hill 4: The Room (2004) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/silent-hill-4-the-room/",
+      "jsonLdCount": 1
+    },
+    "/games/silent-hill-2-2024/": {
+      "status": 200,
+      "sizeBytes": 55279,
+      "title": "Silent Hill 2 (2024) (2024) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/silent-hill-2-2024/",
+      "jsonLdCount": 1
+    },
+    "/games/skate-2/": {
+      "status": 200,
+      "sizeBytes": 55078,
+      "title": "Skate 2 (2009) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/skate-2/",
+      "jsonLdCount": 1
+    },
+    "/games/slay-the-spire/": {
+      "status": 200,
+      "sizeBytes": 55075,
+      "title": "Slay the Spire (2019) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/slay-the-spire/",
+      "jsonLdCount": 1
+    },
+    "/games/socom-ii-u-s-navy-seals/": {
+      "status": 200,
+      "sizeBytes": 55319,
+      "title": "SOCOM II: U.S. Navy SEALs (2003) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/socom-ii-u-s-navy-seals/",
+      "jsonLdCount": 1
+    },
+    "/games/sly-cooper-and-the-thievius-raccoonus/": {
+      "status": 200,
+      "sizeBytes": 55511,
+      "title": "Sly Cooper and the Thievius Raccoonus (2002) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/sly-cooper-and-the-thievius-raccoonus/",
+      "jsonLdCount": 1
+    },
+    "/games/sleeping-dogs/": {
+      "status": 200,
+      "sizeBytes": 55005,
+      "title": "Sleeping Dogs (2012) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/sleeping-dogs/",
+      "jsonLdCount": 1
+    },
+    "/games/socom-u-s-navy-seals/": {
+      "status": 200,
+      "sizeBytes": 55231,
+      "title": "SOCOM: U.S. Navy SEALs (2002) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/socom-u-s-navy-seals/",
+      "jsonLdCount": 1
+    },
+    "/games/soulcalibur-ii/": {
+      "status": 200,
+      "sizeBytes": 55053,
+      "title": "Soulcalibur II (2003) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/soulcalibur-ii/",
+      "jsonLdCount": 1
+    },
+    "/games/soulcalibur/": {
+      "status": 200,
+      "sizeBytes": 55894,
+      "title": "Soulcalibur (1999) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/soulcalibur/",
+      "jsonLdCount": 1
+    },
+    "/games/sonic-the-hedgehog/": {
+      "status": 200,
+      "sizeBytes": 60043,
+      "title": "Sonic the Hedgehog (1991) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/sonic-the-hedgehog/",
+      "jsonLdCount": 1
+    },
+    "/games/soulcalibur-iii/": {
+      "status": 200,
+      "sizeBytes": 55100,
+      "title": "Soulcalibur III (2005) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/soulcalibur-iii/",
+      "jsonLdCount": 1
+    },
+    "/games/space-wars/": {
+      "status": 200,
+      "sizeBytes": 55750,
+      "title": "Space Wars (1977) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/space-wars/",
+      "jsonLdCount": 1
+    },
+    "/games/space-race/": {
+      "status": 200,
+      "sizeBytes": 55663,
+      "title": "Space Race (1973) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/space-race/",
+      "jsonLdCount": 1
+    },
+    "/games/space-invaders/": {
+      "status": 200,
+      "sizeBytes": 58445,
+      "title": "Space Invaders (1978) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/space-invaders/",
+      "jsonLdCount": 1
+    },
+    "/games/spec-ops-the-line/": {
+      "status": 200,
+      "sizeBytes": 55263,
+      "title": "Spec Ops: The Line (2012) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/spec-ops-the-line/",
+      "jsonLdCount": 1
+    },
+    "/games/sly-2-band-of-thieves/": {
+      "status": 200,
+      "sizeBytes": 55284,
+      "title": "Sly 2: Band of Thieves (2004) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/sly-2-band-of-thieves/",
+      "jsonLdCount": 1
+    },
+    "/games/sly-3-honor-among-thieves/": {
+      "status": 200,
+      "sizeBytes": 55299,
+      "title": "Sly 3: Honor Among Thieves (2005) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/sly-3-honor-among-thieves/",
+      "jsonLdCount": 1
+    },
+    "/games/splatoon-3/": {
+      "status": 200,
+      "sizeBytes": 55053,
+      "title": "Splatoon 3 (2022) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/splatoon-3/",
+      "jsonLdCount": 1
+    },
+    "/games/sonic-the-hedgehog-2/": {
+      "status": 200,
+      "sizeBytes": 58499,
+      "title": "Sonic the Hedgehog 2 (1992) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/sonic-the-hedgehog-2/",
+      "jsonLdCount": 1
+    },
+    "/games/ssx-3/": {
+      "status": 200,
+      "sizeBytes": 54879,
+      "title": "SSX 3 (2003) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/ssx-3/",
+      "jsonLdCount": 1
+    },
+    "/games/splatoon-2/": {
+      "status": 200,
+      "sizeBytes": 54993,
+      "title": "Splatoon 2 (2017) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/splatoon-2/",
+      "jsonLdCount": 1
+    },
+    "/games/ssx-tricky/": {
+      "status": 200,
+      "sizeBytes": 54922,
+      "title": "SSX Tricky (2001) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/ssx-tricky/",
+      "jsonLdCount": 1
+    },
+    "/games/ssx/": {
+      "status": 200,
+      "sizeBytes": 54840,
+      "title": "SSX (2000) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/ssx/",
+      "jsonLdCount": 1
+    },
+    "/games/spider-man-2-2004/": {
+      "status": 200,
+      "sizeBytes": 55048,
+      "title": "Spider-Man 2 (2004) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/spider-man-2-2004/",
+      "jsonLdCount": 1
+    },
+    "/games/star-fox/": {
+      "status": 200,
+      "sizeBytes": 55694,
+      "title": "Star Fox (1993) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/star-fox/",
+      "jsonLdCount": 1
+    },
+    "/games/star-ocean-till-the-end-of-time/": {
+      "status": 200,
+      "sizeBytes": 55278,
+      "title": "Star Ocean: Till the End of Time (2003) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/star-ocean-till-the-end-of-time/",
+      "jsonLdCount": 1
+    },
+    "/games/spelunky-2/": {
+      "status": 200,
+      "sizeBytes": 55094,
+      "title": "Spelunky 2 (2020) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/spelunky-2/",
+      "jsonLdCount": 1
+    },
+    "/games/street-fighter-6/": {
+      "status": 200,
+      "sizeBytes": 55135,
+      "title": "Street Fighter 6 (2023) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/street-fighter-6/",
+      "jsonLdCount": 1
+    },
+    "/games/starfield/": {
+      "status": 200,
+      "sizeBytes": 55094,
+      "title": "Starfield (2023) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/starfield/",
+      "jsonLdCount": 1
+    },
+    "/games/star-wars-battlefront-2004/": {
+      "status": 200,
+      "sizeBytes": 55320,
+      "title": "Star Wars: Battlefront (2004) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/star-wars-battlefront-2004/",
+      "jsonLdCount": 1
+    },
+    "/games/star-wars-battlefront-ii-2005/": {
+      "status": 200,
+      "sizeBytes": 55340,
+      "title": "Star Wars: Battlefront II (2005) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/star-wars-battlefront-ii-2005/",
+      "jsonLdCount": 1
+    },
+    "/games/sunset-overdrive/": {
+      "status": 200,
+      "sizeBytes": 55272,
+      "title": "Sunset Overdrive (2014) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/sunset-overdrive/",
+      "jsonLdCount": 1
+    },
+    "/games/star-wars-knights-of-the-old-republic/": {
+      "status": 200,
+      "sizeBytes": 56577,
+      "title": "Star Wars: Knights of the Old Republic (2003) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/star-wars-knights-of-the-old-republic/",
+      "jsonLdCount": 1
+    },
+    "/games/street-fighter-ii/": {
+      "status": 200,
+      "sizeBytes": 59145,
+      "title": "Street Fighter II: The World Warrior (1991) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/street-fighter-ii/",
+      "jsonLdCount": 1
+    },
+    "/games/subnautica/": {
+      "status": 200,
+      "sizeBytes": 55112,
+      "title": "Subnautica (2018) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/subnautica/",
+      "jsonLdCount": 1
+    },
+    "/games/super-mario-galaxy/": {
+      "status": 200,
+      "sizeBytes": 56152,
+      "title": "Super Mario Galaxy (2007) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/super-mario-galaxy/",
+      "jsonLdCount": 1
+    },
+    "/games/super-mario-64/": {
+      "status": 200,
+      "sizeBytes": 56208,
+      "title": "Super Mario 64 (1996) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/super-mario-64/",
+      "jsonLdCount": 1
+    },
+    "/games/super-mario-3d-world/": {
+      "status": 200,
+      "sizeBytes": 55087,
+      "title": "Super Mario 3D World (2013) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/super-mario-3d-world/",
+      "jsonLdCount": 1
+    },
+    "/games/super-mario-bros-3/": {
+      "status": 200,
+      "sizeBytes": 59043,
+      "title": "Super Mario Bros. 3 (1988) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/super-mario-bros-3/",
+      "jsonLdCount": 1
+    },
+    "/games/super-mario-bros-wonder/": {
+      "status": 200,
+      "sizeBytes": 55268,
+      "title": "Super Mario Bros. Wonder (2023) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/super-mario-bros-wonder/",
+      "jsonLdCount": 1
+    },
+    "/games/super-mario-galaxy-2/": {
+      "status": 200,
+      "sizeBytes": 55005,
+      "title": "Super Mario Galaxy 2 (2010) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/super-mario-galaxy-2/",
+      "jsonLdCount": 1
+    },
+    "/games/super-mario-bros/": {
+      "status": 200,
+      "sizeBytes": 58675,
+      "title": "Super Mario Bros. (1985) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/super-mario-bros/",
+      "jsonLdCount": 1
+    },
+    "/games/suikoden-iii/": {
+      "status": 200,
+      "sizeBytes": 55051,
+      "title": "Suikoden III (2002) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/suikoden-iii/",
+      "jsonLdCount": 1
+    },
+    "/games/super-mario-odyssey/": {
+      "status": 200,
+      "sizeBytes": 56123,
+      "title": "Super Mario Odyssey (2017) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/super-mario-odyssey/",
+      "jsonLdCount": 1
+    },
+    "/games/starcraft/": {
+      "status": 200,
+      "sizeBytes": 56250,
+      "title": "StarCraft (1998) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/starcraft/",
+      "jsonLdCount": 1
+    },
+    "/games/super-mario-kart/": {
+      "status": 200,
+      "sizeBytes": 59118,
+      "title": "Super Mario Kart (1992) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/super-mario-kart/",
+      "jsonLdCount": 1
+    },
+    "/games/stellar-blade/": {
+      "status": 200,
+      "sizeBytes": 55770,
+      "title": "Stellar Blade (2024) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/stellar-blade/",
+      "jsonLdCount": 1
+    },
+    "/games/super-monkey-ball/": {
+      "status": 200,
+      "sizeBytes": 55170,
+      "title": "Super Monkey Ball (2001) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/super-monkey-ball/",
+      "jsonLdCount": 1
+    },
+    "/games/super-metroid/": {
+      "status": 200,
+      "sizeBytes": 60144,
+      "title": "Super Metroid (1994) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/super-metroid/",
+      "jsonLdCount": 1
+    },
+    "/games/super-paper-mario/": {
+      "status": 200,
+      "sizeBytes": 55059,
+      "title": "Super Paper Mario (2007) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/super-paper-mario/",
+      "jsonLdCount": 1
+    },
+    "/games/super-mario-world/": {
+      "status": 200,
+      "sizeBytes": 58224,
+      "title": "Super Mario World (1990) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/super-mario-world/",
+      "jsonLdCount": 1
+    },
+    "/games/super-mario-sunshine/": {
+      "status": 200,
+      "sizeBytes": 55093,
+      "title": "Super Mario Sunshine (2002) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/super-mario-sunshine/",
+      "jsonLdCount": 1
+    },
+    "/games/super-smash-bros/": {
+      "status": 200,
+      "sizeBytes": 56101,
+      "title": "Super Smash Bros. (1999) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/super-smash-bros/",
+      "jsonLdCount": 1
+    },
+    "/games/super-smash-bros-melee/": {
+      "status": 200,
+      "sizeBytes": 57026,
+      "title": "Super Smash Bros. Melee (2001) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/super-smash-bros-melee/",
+      "jsonLdCount": 1
+    },
+    "/games/tales-of-graces-f/": {
+      "status": 200,
+      "sizeBytes": 55198,
+      "title": "Tales of Graces f (2010) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/tales-of-graces-f/",
+      "jsonLdCount": 1
+    },
+    "/games/system-shock-2/": {
+      "status": 200,
+      "sizeBytes": 56214,
+      "title": "System Shock 2 (1999) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/system-shock-2/",
+      "jsonLdCount": 1
+    },
+    "/games/super-smash-bros-ultimate/": {
+      "status": 200,
+      "sizeBytes": 56108,
+      "title": "Super Smash Bros. Ultimate (2018) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/super-smash-bros-ultimate/",
+      "jsonLdCount": 1
+    },
+    "/games/tekken-5/": {
+      "status": 200,
+      "sizeBytes": 54891,
+      "title": "Tekken 5 (2005) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/tekken-5/",
+      "jsonLdCount": 1
+    },
+    "/games/tales-of-symphonia/": {
+      "status": 200,
+      "sizeBytes": 55196,
+      "title": "Tales of Symphonia (2003) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/tales-of-symphonia/",
+      "jsonLdCount": 1
+    },
+    "/games/tekken-8/": {
+      "status": 200,
+      "sizeBytes": 55110,
+      "title": "Tekken 8 (2024) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/tekken-8/",
+      "jsonLdCount": 1
+    },
+    "/games/tales-of-xillia/": {
+      "status": 200,
+      "sizeBytes": 55142,
+      "title": "Tales of Xillia (2011) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/tales-of-xillia/",
+      "jsonLdCount": 1
+    },
+    "/games/tetris-effect/": {
+      "status": 200,
+      "sizeBytes": 55058,
+      "title": "Tetris Effect (2018) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/tetris-effect/",
+      "jsonLdCount": 1
+    },
+    "/games/the-curse-of-monkey-island/": {
+      "status": 200,
+      "sizeBytes": 55976,
+      "title": "The Curse of Monkey Island (1997) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/the-curse-of-monkey-island/",
+      "jsonLdCount": 1
+    },
+    "/games/tempest/": {
+      "status": 200,
+      "sizeBytes": 57655,
+      "title": "Tempest (1981) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/tempest/",
+      "jsonLdCount": 1
+    },
+    "/games/tetris/": {
+      "status": 200,
+      "sizeBytes": 59329,
+      "title": "Tetris (1984) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/tetris/",
+      "jsonLdCount": 1
+    },
+    "/games/the-elder-scrolls-iii-morrowind/": {
+      "status": 200,
+      "sizeBytes": 56353,
+      "title": "The Elder Scrolls III: Morrowind (2002) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/the-elder-scrolls-iii-morrowind/",
+      "jsonLdCount": 1
+    },
+    "/games/the-elder-scrolls-v-skyrim/": {
+      "status": 200,
+      "sizeBytes": 61315,
+      "title": "The Elder Scrolls V: Skyrim (2011) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/the-elder-scrolls-v-skyrim/",
+      "jsonLdCount": 1
+    },
+    "/games/the-elder-scrolls-iv-oblivion/": {
+      "status": 200,
+      "sizeBytes": 56538,
+      "title": "The Elder Scrolls IV: Oblivion (2006) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/the-elder-scrolls-iv-oblivion/",
+      "jsonLdCount": 1
+    },
+    "/games/the-great-giana-sisters/": {
+      "status": 200,
+      "sizeBytes": 56004,
+      "title": "The Great Giana Sisters (1987) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/the-great-giana-sisters/",
+      "jsonLdCount": 1
+    },
+    "/games/the-last-guardian/": {
+      "status": 200,
+      "sizeBytes": 55174,
+      "title": "The Last Guardian (2016) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/the-last-guardian/",
+      "jsonLdCount": 1
+    },
+    "/games/tales-of-arise/": {
+      "status": 200,
+      "sizeBytes": 55192,
+      "title": "Tales of Arise (2021) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/tales-of-arise/",
+      "jsonLdCount": 1
+    },
+    "/games/the-legend-of-zelda/": {
+      "status": 200,
+      "sizeBytes": 58763,
+      "title": "The Legend of Zelda (1986) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/the-legend-of-zelda/",
+      "jsonLdCount": 1
+    },
+    "/games/super-stardust-hd/": {
+      "status": 200,
+      "sizeBytes": 55168,
+      "title": "Super Stardust HD (2007) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/super-stardust-hd/",
+      "jsonLdCount": 1
+    },
+    "/games/the-last-of-us-part-ii/": {
+      "status": 200,
+      "sizeBytes": 56875,
+      "title": "The Last of Us Part II (2020) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/the-last-of-us-part-ii/",
+      "jsonLdCount": 1
+    },
+    "/games/the-last-of-us/": {
+      "status": 200,
+      "sizeBytes": 56281,
+      "title": "The Last of Us (2013) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/the-last-of-us/",
+      "jsonLdCount": 1
+    },
+    "/games/the-legend-of-zelda-a-link-between-worlds/": {
+      "status": 200,
+      "sizeBytes": 55560,
+      "title": "The Legend of Zelda: A Link Between Worlds (2013) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/the-legend-of-zelda-a-link-between-worlds/",
+      "jsonLdCount": 1
+    },
+    "/games/the-last-of-us-part-i/": {
+      "status": 200,
+      "sizeBytes": 55351,
+      "title": "The Last of Us Part I (2022) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/the-last-of-us-part-i/",
+      "jsonLdCount": 1
+    },
+    "/games/the-legend-of-zelda-tears-of-the-kingdom/": {
+      "status": 200,
+      "sizeBytes": 55549,
+      "title": "The Legend of Zelda: Tears of the Kingdom (2023) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/the-legend-of-zelda-tears-of-the-kingdom/",
+      "jsonLdCount": 1
+    },
+    "/games/the-legend-of-zelda-a-link-to-the-past/": {
+      "status": 200,
+      "sizeBytes": 58650,
+      "title": "The Legend of Zelda: A Link to the Past (1991) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/the-legend-of-zelda-a-link-to-the-past/",
+      "jsonLdCount": 1
+    },
+    "/games/the-legend-of-zelda-breath-of-the-wild/": {
+      "status": 200,
+      "sizeBytes": 56688,
+      "title": "The Legend of Zelda: Breath of the Wild (2017) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/the-legend-of-zelda-breath-of-the-wild/",
+      "jsonLdCount": 1
+    },
+    "/games/the-legend-of-zelda-twilight-princess/": {
+      "status": 200,
+      "sizeBytes": 55464,
+      "title": "The Legend of Zelda: Twilight Princess (2006) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/the-legend-of-zelda-twilight-princess/",
+      "jsonLdCount": 1
+    },
+    "/games/the-legend-of-zelda-the-minish-cap/": {
+      "status": 200,
+      "sizeBytes": 55458,
+      "title": "The Legend of Zelda: The Minish Cap (2004) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/the-legend-of-zelda-the-minish-cap/",
+      "jsonLdCount": 1
+    },
+    "/games/the-warriors/": {
+      "status": 200,
+      "sizeBytes": 55063,
+      "title": "The Warriors (2005) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/the-warriors/",
+      "jsonLdCount": 1
+    },
+    "/games/the-legend-of-zelda-the-wind-waker/": {
+      "status": 200,
+      "sizeBytes": 56369,
+      "title": "The Legend of Zelda: The Wind Waker (2002) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/the-legend-of-zelda-the-wind-waker/",
+      "jsonLdCount": 1
+    },
+    "/games/the-legend-of-zelda-ocarina-of-time/": {
+      "status": 200,
+      "sizeBytes": 60867,
+      "title": "The Legend of Zelda: Ocarina of Time (1998) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/the-legend-of-zelda-ocarina-of-time/",
+      "jsonLdCount": 1
+    },
+    "/games/the-witcher-3-wild-hunt/": {
+      "status": 200,
+      "sizeBytes": 56471,
+      "title": "The Witcher 3: Wild Hunt (2015) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/the-witcher-3-wild-hunt/",
+      "jsonLdCount": 1
+    },
+    "/games/the-sims/": {
+      "status": 200,
+      "sizeBytes": 60427,
+      "title": "The Sims (2000) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/the-sims/",
+      "jsonLdCount": 1
+    },
+    "/games/the-legend-of-zelda-skyward-sword/": {
+      "status": 200,
+      "sizeBytes": 55402,
+      "title": "The Legend of Zelda: Skyward Sword (2011) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/the-legend-of-zelda-skyward-sword/",
+      "jsonLdCount": 1
+    },
+    "/games/the-secret-of-monkey-island/": {
+      "status": 200,
+      "sizeBytes": 58514,
+      "title": "The Secret of Monkey Island (1990) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/the-secret-of-monkey-island/",
+      "jsonLdCount": 1
+    },
+    "/games/timesplitters-future-perfect/": {
+      "status": 200,
+      "sizeBytes": 55395,
+      "title": "TimeSplitters: Future Perfect (2005) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/timesplitters-future-perfect/",
+      "jsonLdCount": 1
+    },
+    "/games/timesplitters-2/": {
+      "status": 200,
+      "sizeBytes": 55169,
+      "title": "TimeSplitters 2 (2002) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/timesplitters-2/",
+      "jsonLdCount": 1
+    },
+    "/games/the-wolf-among-us/": {
+      "status": 200,
+      "sizeBytes": 55179,
+      "title": "The Wolf Among Us (2013) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/the-wolf-among-us/",
+      "jsonLdCount": 1
+    },
+    "/games/thief-the-dark-project/": {
+      "status": 200,
+      "sizeBytes": 56171,
+      "title": "Thief: The Dark Project (1998) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/thief-the-dark-project/",
+      "jsonLdCount": 1
+    },
+    "/games/tokyo-jungle/": {
+      "status": 200,
+      "sizeBytes": 55092,
+      "title": "Tokyo Jungle (2012) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/tokyo-jungle/",
+      "jsonLdCount": 1
+    },
+    "/games/tomb-raider/": {
+      "status": 200,
+      "sizeBytes": 56023,
+      "title": "Tomb Raider (1996) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/tomb-raider/",
+      "jsonLdCount": 1
+    },
+    "/games/tomb-raider-2013/": {
+      "status": 200,
+      "sizeBytes": 55067,
+      "title": "Tomb Raider (2013) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/tomb-raider-2013/",
+      "jsonLdCount": 1
+    },
+    "/games/titanfall-2/": {
+      "status": 200,
+      "sizeBytes": 56000,
+      "title": "Titanfall 2 (2016) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/titanfall-2/",
+      "jsonLdCount": 1
+    },
+    "/games/the-walking-dead-season-1/": {
+      "status": 200,
+      "sizeBytes": 55201,
+      "title": "The Walking Dead: Season 1 (2012) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/the-walking-dead-season-1/",
+      "jsonLdCount": 1
+    },
+    "/games/tony-hawk-s-pro-skater-1-plus-2/": {
+      "status": 200,
+      "sizeBytes": 55534,
+      "title": "Tony Hawk&#039;s Pro Skater 1 + 2 (2020) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/tony-hawk-s-pro-skater-1-plus-2/",
+      "jsonLdCount": 1
+    },
+    "/games/tony-hawk-s-pro-skater-3/": {
+      "status": 200,
+      "sizeBytes": 55264,
+      "title": "Tony Hawk&#039;s Pro Skater 3 (2001) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/tony-hawk-s-pro-skater-3/",
+      "jsonLdCount": 1
+    },
+    "/games/tony-hawk-s-pro-skater-2/": {
+      "status": 200,
+      "sizeBytes": 56541,
+      "title": "Tony Hawk&#039;s Pro Skater 2 (2000) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/tony-hawk-s-pro-skater-2/",
+      "jsonLdCount": 1
+    },
+    "/games/tony-hawk-s-pro-skater-4/": {
+      "status": 200,
+      "sizeBytes": 55226,
+      "title": "Tony Hawk&#039;s Pro Skater 4 (2002) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/tony-hawk-s-pro-skater-4/",
+      "jsonLdCount": 1
+    },
+    "/games/tony-hawk-s-underground/": {
+      "status": 200,
+      "sizeBytes": 55279,
+      "title": "Tony Hawk&#039;s Underground (2003) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/tony-hawk-s-underground/",
+      "jsonLdCount": 1
+    },
+    "/games/ultima-iv-quest-of-the-avatar/": {
+      "status": 200,
+      "sizeBytes": 55430,
+      "title": "Ultima IV: Quest of the Avatar (1985) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/ultima-iv-quest-of-the-avatar/",
+      "jsonLdCount": 1
+    },
+    "/games/uncharted-3-drake-s-deception/": {
+      "status": 200,
+      "sizeBytes": 55364,
+      "title": "Uncharted 3: Drake&#039;s Deception (2011) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/uncharted-3-drake-s-deception/",
+      "jsonLdCount": 1
+    },
+    "/games/total-annihilation/": {
+      "status": 200,
+      "sizeBytes": 55193,
+      "title": "Total Annihilation (1997) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/total-annihilation/",
+      "jsonLdCount": 1
+    },
+    "/games/uncharted-drake-s-fortune/": {
+      "status": 200,
+      "sizeBytes": 55368,
+      "title": "Uncharted: Drake&#039;s Fortune (2007) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/uncharted-drake-s-fortune/",
+      "jsonLdCount": 1
+    },
+    "/games/uncharted-4-a-thief-s-end/": {
+      "status": 200,
+      "sizeBytes": 56127,
+      "title": "Uncharted 4: A Thief&#039;s End (2016) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/uncharted-4-a-thief-s-end/",
+      "jsonLdCount": 1
+    },
+    "/games/undertale/": {
+      "status": 200,
+      "sizeBytes": 56907,
+      "title": "Undertale (2015) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/undertale/",
+      "jsonLdCount": 1
+    },
+    "/games/uncharted-legacy-of-thieves-collection/": {
+      "status": 200,
+      "sizeBytes": 55601,
+      "title": "Uncharted: Legacy of Thieves Collection (2022) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/uncharted-legacy-of-thieves-collection/",
+      "jsonLdCount": 1
+    },
+    "/games/unreal-tournament/": {
+      "status": 200,
+      "sizeBytes": 55299,
+      "title": "Unreal Tournament (1999) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/unreal-tournament/",
+      "jsonLdCount": 1
+    },
+    "/games/unreal/": {
+      "status": 200,
+      "sizeBytes": 55755,
+      "title": "Unreal (1998) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/unreal/",
+      "jsonLdCount": 1
+    },
+    "/games/twisted-metal-2012/": {
+      "status": 200,
+      "sizeBytes": 55142,
+      "title": "Twisted Metal (2012) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/twisted-metal-2012/",
+      "jsonLdCount": 1
+    },
+    "/games/vanquish/": {
+      "status": 200,
+      "sizeBytes": 54973,
+      "title": "Vanquish (2010) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/vanquish/",
+      "jsonLdCount": 1
+    },
+    "/games/viewtiful-joe/": {
+      "status": 200,
+      "sizeBytes": 54996,
+      "title": "Viewtiful Joe (2003) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/viewtiful-joe/",
+      "jsonLdCount": 1
+    },
+    "/games/valkyria-chronicles/": {
+      "status": 200,
+      "sizeBytes": 55153,
+      "title": "Valkyria Chronicles (2008) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/valkyria-chronicles/",
+      "jsonLdCount": 1
+    },
+    "/games/until-dawn/": {
+      "status": 200,
+      "sizeBytes": 55943,
+      "title": "Until Dawn (2015) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/until-dawn/",
+      "jsonLdCount": 1
+    },
+    "/games/warcraft-iii-reign-of-chaos/": {
+      "status": 200,
+      "sizeBytes": 55309,
+      "title": "Warcraft III: Reign of Chaos (2002) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/warcraft-iii-reign-of-chaos/",
+      "jsonLdCount": 1
+    },
+    "/games/uncharted-2-among-thieves/": {
+      "status": 200,
+      "sizeBytes": 56240,
+      "title": "Uncharted 2: Among Thieves (2009) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/uncharted-2-among-thieves/",
+      "jsonLdCount": 1
+    },
+    "/games/virtua-fighter/": {
+      "status": 200,
+      "sizeBytes": 58877,
+      "title": "Virtua Fighter (1993) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/virtua-fighter/",
+      "jsonLdCount": 1
+    },
+    "/games/warhammer-40-000-space-marine-2/": {
+      "status": 200,
+      "sizeBytes": 55506,
+      "title": "Warhammer 40,000: Space Marine 2 (2024) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/warhammer-40-000-space-marine-2/",
+      "jsonLdCount": 1
+    },
+    "/games/we-love-katamari/": {
+      "status": 200,
+      "sizeBytes": 55036,
+      "title": "We Love Katamari (2005) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/we-love-katamari/",
+      "jsonLdCount": 1
+    },
+    "/games/twisted-metal-black/": {
+      "status": 200,
+      "sizeBytes": 55223,
+      "title": "Twisted Metal: Black (2001) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/twisted-metal-black/",
+      "jsonLdCount": 1
+    },
+    "/games/wasteland/": {
+      "status": 200,
+      "sizeBytes": 55935,
+      "title": "Wasteland (1988) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/wasteland/",
+      "jsonLdCount": 1
+    },
+    "/games/what-remains-of-edith-finch/": {
+      "status": 200,
+      "sizeBytes": 55383,
+      "title": "What Remains of Edith Finch (2017) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/what-remains-of-edith-finch/",
+      "jsonLdCount": 1
+    },
+    "/games/virtua-fighter-4-evolution/": {
+      "status": 200,
+      "sizeBytes": 55232,
+      "title": "Virtua Fighter 4: Evolution (2002) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/virtua-fighter-4-evolution/",
+      "jsonLdCount": 1
+    },
+    "/games/warcraft-ii-tides-of-darkness/": {
+      "status": 200,
+      "sizeBytes": 55335,
+      "title": "Warcraft II: Tides of Darkness (1995) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/warcraft-ii-tides-of-darkness/",
+      "jsonLdCount": 1
+    },
+    "/games/wii-sports/": {
+      "status": 200,
+      "sizeBytes": 60531,
+      "title": "Wii Sports (2006) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/wii-sports/",
+      "jsonLdCount": 1
+    },
+    "/games/wipeout-hd/": {
+      "status": 200,
+      "sizeBytes": 55055,
+      "title": "WipEout HD (2008) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/wipeout-hd/",
+      "jsonLdCount": 1
+    },
+    "/games/wii-sports-resort/": {
+      "status": 200,
+      "sizeBytes": 55068,
+      "title": "Wii Sports Resort (2009) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/wii-sports-resort/",
+      "jsonLdCount": 1
+    },
+    "/games/wolfenstein-3d/": {
+      "status": 200,
+      "sizeBytes": 58224,
+      "title": "Wolfenstein 3D (1992) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/wolfenstein-3d/",
+      "jsonLdCount": 1
+    },
+    "/games/world-of-warcraft/": {
+      "status": 200,
+      "sizeBytes": 56317,
+      "title": "World of Warcraft (2004) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/world-of-warcraft/",
+      "jsonLdCount": 1
+    },
+    "/games/wonder-boy-iii-the-dragon-s-trap/": {
+      "status": 200,
+      "sizeBytes": 56269,
+      "title": "Wonder Boy III: The Dragon&#039;s Trap (1989) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/wonder-boy-iii-the-dragon-s-trap/",
+      "jsonLdCount": 1
+    },
+    "/games/wild-arms-3/": {
+      "status": 200,
+      "sizeBytes": 54991,
+      "title": "Wild Arms 3 (2002) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/wild-arms-3/",
+      "jsonLdCount": 1
+    },
+    "/games/yakuza-0/": {
+      "status": 200,
+      "sizeBytes": 54981,
+      "title": "Yakuza 0 (2015) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/yakuza-0/",
+      "jsonLdCount": 1
+    },
+    "/games/xenoblade-chronicles-3/": {
+      "status": 200,
+      "sizeBytes": 55269,
+      "title": "Xenoblade Chronicles 3 (2022) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/xenoblade-chronicles-3/",
+      "jsonLdCount": 1
+    },
+    "/games/xenosaga-episode-i-der-wille-zur-macht/": {
+      "status": 200,
+      "sizeBytes": 55463,
+      "title": "Xenosaga Episode I: Der Wille zur Macht (2002) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/xenosaga-episode-i-der-wille-zur-macht/",
+      "jsonLdCount": 1
+    },
+    "/games/yakuza-3/": {
+      "status": 200,
+      "sizeBytes": 54997,
+      "title": "Yakuza 3 (2009) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/yakuza-3/",
+      "jsonLdCount": 1
+    },
+    "/games/wipeout/": {
+      "status": 200,
+      "sizeBytes": 56900,
+      "title": "WipEout (1995) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/wipeout/",
+      "jsonLdCount": 1
+    },
+    "/games/xenoblade-chronicles/": {
+      "status": 200,
+      "sizeBytes": 56022,
+      "title": "Xenoblade Chronicles (2010) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/xenoblade-chronicles/",
+      "jsonLdCount": 1
+    },
+    "/games/wizardry-proving-grounds-of-the-mad-overlord/": {
+      "status": 200,
+      "sizeBytes": 55605,
+      "title": "Wizardry: Proving Grounds of the Mad Overlord (1981) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/wizardry-proving-grounds-of-the-mad-overlord/",
+      "jsonLdCount": 1
+    },
+    "/games/yakuza-like-a-dragon/": {
+      "status": 200,
+      "sizeBytes": 55204,
+      "title": "Yakuza: Like a Dragon (2020) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/yakuza-like-a-dragon/",
+      "jsonLdCount": 1
+    },
+    "/games/zone-of-the-enders-the-2nd-runner/": {
+      "status": 200,
+      "sizeBytes": 55400,
+      "title": "Zone of the Enders: The 2nd Runner (2003) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/zone-of-the-enders-the-2nd-runner/",
+      "jsonLdCount": 1
+    },
+    "/games/yakuza-5/": {
+      "status": 200,
+      "sizeBytes": 55072,
+      "title": "Yakuza 5 (2012) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/yakuza-5/",
+      "jsonLdCount": 1
+    },
+    "/games/yars-revenge/": {
+      "status": 200,
+      "sizeBytes": 57892,
+      "title": "Yars&#039; Revenge (1982) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/yars-revenge/",
+      "jsonLdCount": 1
+    },
+    "/consoles/amstrad-gx4000/": {
+      "status": 200,
+      "sizeBytes": 70493,
+      "title": "Amstrad GX4000 (1990) — Hardware Archive Exhibit — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/consoles/amstrad-gx4000/",
+      "jsonLdCount": 1
+    },
+    "/consoles/3do-interactive-multiplayer/": {
+      "status": 200,
+      "sizeBytes": 71934,
+      "title": "3DO Interactive Multiplayer (1993) — Hardware Archive Exhibit — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/consoles/3do-interactive-multiplayer/",
+      "jsonLdCount": 1
+    },
+    "/games/yakuza-4/": {
+      "status": 200,
+      "sizeBytes": 54930,
+      "title": "Yakuza 4 (2010) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/yakuza-4/",
+      "jsonLdCount": 1
+    },
+    "/consoles/atari-2600/": {
+      "status": 200,
+      "sizeBytes": 72549,
+      "title": "Atari 2600 (VCS) (1977) — Hardware Archive Exhibit — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/consoles/atari-2600/",
+      "jsonLdCount": 1
+    },
+    "/consoles/apple-bandai-pippin/": {
+      "status": 200,
+      "sizeBytes": 70682,
+      "title": "Apple Bandai Pippin (1996) — Hardware Archive Exhibit — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/consoles/apple-bandai-pippin/",
+      "jsonLdCount": 1
+    },
+    "/games/xenoblade-chronicles-x/": {
+      "status": 200,
+      "sizeBytes": 55146,
+      "title": "Xenoblade Chronicles X (2015) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/xenoblade-chronicles-x/",
+      "jsonLdCount": 1
+    },
+    "/games/zork/": {
+      "status": 200,
+      "sizeBytes": 58545,
+      "title": "Zork: The Great Underground Empire (1977) — Landmark Games Archive — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/games/zork/",
+      "jsonLdCount": 1
+    },
+    "/consoles/atari-jaguar/": {
+      "status": 200,
+      "sizeBytes": 70720,
+      "title": "Atari Jaguar (1993) — Hardware Archive Exhibit — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/consoles/atari-jaguar/",
+      "jsonLdCount": 1
+    },
+    "/consoles/atari-5200/": {
+      "status": 200,
+      "sizeBytes": 70514,
+      "title": "Atari 5200 SuperSystem (1982) — Hardware Archive Exhibit — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/consoles/atari-5200/",
+      "jsonLdCount": 1
+    },
+    "/consoles/atari-xegs/": {
+      "status": 200,
+      "sizeBytes": 70610,
+      "title": "Atari XEGS (XE Game System) (1987) — Hardware Archive Exhibit — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/consoles/atari-xegs/",
+      "jsonLdCount": 1
+    },
+    "/consoles/bally-astrocade/": {
+      "status": 200,
+      "sizeBytes": 70635,
+      "title": "Bally Astrocade (1977) — Hardware Archive Exhibit — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/consoles/bally-astrocade/",
+      "jsonLdCount": 1
+    },
+    "/consoles/atari-7800/": {
+      "status": 200,
+      "sizeBytes": 70367,
+      "title": "Atari 7800 ProSystem (1986) — Hardware Archive Exhibit — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/consoles/atari-7800/",
+      "jsonLdCount": 1
+    },
+    "/consoles/colecovision/": {
+      "status": 200,
+      "sizeBytes": 71277,
+      "title": "ColecoVision (1982) — Hardware Archive Exhibit — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/consoles/colecovision/",
+      "jsonLdCount": 1
+    },
+    "/consoles/coleco-telstar/": {
+      "status": 200,
+      "sizeBytes": 70243,
+      "title": "Coleco Telstar (1976) — Hardware Archive Exhibit — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/consoles/coleco-telstar/",
+      "jsonLdCount": 1
+    },
+    "/consoles/color-tv-game/": {
+      "status": 200,
+      "sizeBytes": 71279,
+      "title": "Nintendo Color TV-Game Series (1977) — Hardware Archive Exhibit — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/consoles/color-tv-game/",
+      "jsonLdCount": 1
+    },
+    "/consoles/dreamcast/": {
+      "status": 200,
+      "sizeBytes": 72188,
+      "title": "Sega Dreamcast (1998) — Hardware Archive Exhibit — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/consoles/dreamcast/",
+      "jsonLdCount": 1
+    },
+    "/consoles/fm-towns-marty/": {
+      "status": 200,
+      "sizeBytes": 70480,
+      "title": "FM Towns Marty (1993) — Hardware Archive Exhibit — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/consoles/fm-towns-marty/",
+      "jsonLdCount": 1
+    },
+    "/consoles/game-boy/": {
+      "status": 200,
+      "sizeBytes": 72190,
+      "title": "Nintendo Game Boy (1989) — Hardware Archive Exhibit — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/consoles/game-boy/",
+      "jsonLdCount": 1
+    },
+    "/consoles/game-boy-advance/": {
+      "status": 200,
+      "sizeBytes": 71297,
+      "title": "Nintendo Game Boy Advance (2001) — Hardware Archive Exhibit — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/consoles/game-boy-advance/",
+      "jsonLdCount": 1
+    },
+    "/consoles/home-pong/": {
+      "status": 200,
+      "sizeBytes": 70698,
+      "title": "Atari Home Pong (C-100) (1975) — Hardware Archive Exhibit — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/consoles/home-pong/",
+      "jsonLdCount": 1
+    },
+    "/consoles/game-boy-color/": {
+      "status": 200,
+      "sizeBytes": 71054,
+      "title": "Nintendo Game Boy Color (1998) — Hardware Archive Exhibit — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/consoles/game-boy-color/",
+      "jsonLdCount": 1
+    },
+    "/consoles/magnavox-odyssey-2/": {
+      "status": 200,
+      "sizeBytes": 71258,
+      "title": "Magnavox Odyssey² (Philips Videopac G7000) (1978) — Hardware Archive Exhibit — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/consoles/magnavox-odyssey-2/",
+      "jsonLdCount": 1
+    },
+    "/consoles/fairchild-channel-f/": {
+      "status": 200,
+      "sizeBytes": 71732,
+      "title": "Fairchild Channel F (1976) — Hardware Archive Exhibit — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/consoles/fairchild-channel-f/",
+      "jsonLdCount": 1
+    },
+    "/consoles/gamecube/": {
+      "status": 200,
+      "sizeBytes": 72659,
+      "title": "Nintendo GameCube (2001) — Hardware Archive Exhibit — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/consoles/gamecube/",
+      "jsonLdCount": 1
+    },
+    "/consoles/atari-lynx/": {
+      "status": 200,
+      "sizeBytes": 70319,
+      "title": "Atari Lynx (1989) — Hardware Archive Exhibit — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/consoles/atari-lynx/",
+      "jsonLdCount": 1
+    },
+    "/consoles/intellivision/": {
+      "status": 200,
+      "sizeBytes": 71189,
+      "title": "Intellivision (1979) — Hardware Archive Exhibit — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/consoles/intellivision/",
+      "jsonLdCount": 1
+    },
+    "/consoles/neo-geo-aes/": {
+      "status": 200,
+      "sizeBytes": 71373,
+      "title": "Neo Geo AES (1990) — Hardware Archive Exhibit — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/consoles/neo-geo-aes/",
+      "jsonLdCount": 1
+    },
+    "/consoles/neo-geo-pocket-color/": {
+      "status": 200,
+      "sizeBytes": 70777,
+      "title": "Neo Geo Pocket Color (1999) — Hardware Archive Exhibit — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/consoles/neo-geo-pocket-color/",
+      "jsonLdCount": 1
+    },
+    "/consoles/neo-geo-cd/": {
+      "status": 200,
+      "sizeBytes": 70330,
+      "title": "Neo Geo CD (1994) — Hardware Archive Exhibit — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/consoles/neo-geo-cd/",
+      "jsonLdCount": 1
+    },
+    "/consoles/n-gage/": {
+      "status": 200,
+      "sizeBytes": 70441,
+      "title": "Nokia N-Gage (2003) — Hardware Archive Exhibit — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/consoles/n-gage/",
+      "jsonLdCount": 1
+    },
+    "/consoles/nintendo-3ds/": {
+      "status": 200,
+      "sizeBytes": 71655,
+      "title": "Nintendo 3DS (2011) — Hardware Archive Exhibit — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/consoles/nintendo-3ds/",
+      "jsonLdCount": 1
+    },
+    "/consoles/magnavox-odyssey/": {
+      "status": 200,
+      "sizeBytes": 71445,
+      "title": "Magnavox Odyssey (1972) — Hardware Archive Exhibit — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/consoles/magnavox-odyssey/",
+      "jsonLdCount": 1
+    },
+    "/consoles/pc-fx/": {
+      "status": 200,
+      "sizeBytes": 70367,
+      "title": "NEC PC-FX (1994) — Hardware Archive Exhibit — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/consoles/pc-fx/",
+      "jsonLdCount": 1
+    },
+    "/consoles/panasonic-q/": {
+      "status": 200,
+      "sizeBytes": 70225,
+      "title": "Panasonic Q (2001) — Hardware Archive Exhibit — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/consoles/panasonic-q/",
+      "jsonLdCount": 1
+    },
+    "/consoles/nintendo-64/": {
+      "status": 200,
+      "sizeBytes": 73256,
+      "title": "Nintendo 64 (1996) — Hardware Archive Exhibit — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/consoles/nintendo-64/",
+      "jsonLdCount": 1
+    },
+    "/consoles/philips-cd-i/": {
+      "status": 200,
+      "sizeBytes": 70544,
+      "title": "Philips CD-i (1991) — Hardware Archive Exhibit — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/consoles/philips-cd-i/",
+      "jsonLdCount": 1
+    },
+    "/consoles/nintendo-entertainment-system/": {
+      "status": 200,
+      "sizeBytes": 76193,
+      "title": "Nintendo Entertainment System (NES / Famicom) (1983) — Hardware Archive Exhibit — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/consoles/nintendo-entertainment-system/",
+      "jsonLdCount": 1
+    },
+    "/consoles/playstation/": {
+      "status": 200,
+      "sizeBytes": 74939,
+      "title": "Sony PlayStation (1994) — Hardware Archive Exhibit — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/consoles/playstation/",
+      "jsonLdCount": 1
+    },
+    "/consoles/playstation-2/": {
+      "status": 200,
+      "sizeBytes": 73514,
+      "title": "Sony PlayStation 2 (2000) — Hardware Archive Exhibit — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/consoles/playstation-2/",
+      "jsonLdCount": 1
+    },
+    "/consoles/playstation-4/": {
+      "status": 200,
+      "sizeBytes": 73056,
+      "title": "Sony PlayStation 4 (2013) — Hardware Archive Exhibit — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/consoles/playstation-4/",
+      "jsonLdCount": 1
+    },
+    "/consoles/nintendo-switch/": {
+      "status": 200,
+      "sizeBytes": 72635,
+      "title": "Nintendo Switch (2017) — Hardware Archive Exhibit — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/consoles/nintendo-switch/",
+      "jsonLdCount": 1
+    },
+    "/consoles/playstation-4-pro/": {
+      "status": 200,
+      "sizeBytes": 70998,
+      "title": "Sony PlayStation 4 Pro (2016) — Hardware Archive Exhibit — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/consoles/playstation-4-pro/",
+      "jsonLdCount": 1
+    },
+    "/consoles/playstation-5/": {
+      "status": 200,
+      "sizeBytes": 72304,
+      "title": "Sony PlayStation 5 (2020) — Hardware Archive Exhibit — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/consoles/playstation-5/",
+      "jsonLdCount": 1
+    },
+    "/consoles/playstation-5-pro/": {
+      "status": 200,
+      "sizeBytes": 71958,
+      "title": "Sony PlayStation 5 Pro (2024) — Hardware Archive Exhibit — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/consoles/playstation-5-pro/",
+      "jsonLdCount": 1
+    },
+    "/consoles/playstation-portable/": {
+      "status": 200,
+      "sizeBytes": 71075,
+      "title": "PlayStation Portable (PSP) (2004) — Hardware Archive Exhibit — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/consoles/playstation-portable/",
+      "jsonLdCount": 1
+    },
+    "/consoles/sega-32x/": {
+      "status": 200,
+      "sizeBytes": 70236,
+      "title": "Sega 32X (1994) — Hardware Archive Exhibit — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/consoles/sega-32x/",
+      "jsonLdCount": 1
+    },
+    "/consoles/sega-game-gear/": {
+      "status": 200,
+      "sizeBytes": 70314,
+      "title": "Sega Game Gear (1990) — Hardware Archive Exhibit — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/consoles/sega-game-gear/",
+      "jsonLdCount": 1
+    },
+    "/consoles/playstation-vita/": {
+      "status": 200,
+      "sizeBytes": 70860,
+      "title": "PlayStation Vita (2011) — Hardware Archive Exhibit — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/consoles/playstation-vita/",
+      "jsonLdCount": 1
+    },
+    "/consoles/sega-cd/": {
+      "status": 200,
+      "sizeBytes": 70888,
+      "title": "Sega CD (Mega-CD) (1991) — Hardware Archive Exhibit — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/consoles/sega-cd/",
+      "jsonLdCount": 1
+    },
+    "/consoles/nintendo-ds/": {
+      "status": 200,
+      "sizeBytes": 71980,
+      "title": "Nintendo DS (2004) — Hardware Archive Exhibit — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/consoles/nintendo-ds/",
+      "jsonLdCount": 1
+    },
+    "/consoles/sega-master-system/": {
+      "status": 200,
+      "sizeBytes": 71787,
+      "title": "Sega Master System (Mark III) (1985) — Hardware Archive Exhibit — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/consoles/sega-master-system/",
+      "jsonLdCount": 1
+    },
+    "/consoles/sega-sg-1000/": {
+      "status": 200,
+      "sizeBytes": 70303,
+      "title": "Sega SG-1000 (1983) — Hardware Archive Exhibit — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/consoles/sega-sg-1000/",
+      "jsonLdCount": 1
+    },
+    "/consoles/sega-saturn/": {
+      "status": 200,
+      "sizeBytes": 71242,
+      "title": "Sega Saturn (1994) — Hardware Archive Exhibit — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/consoles/sega-saturn/",
+      "jsonLdCount": 1
+    },
+    "/consoles/sega-genesis/": {
+      "status": 200,
+      "sizeBytes": 72301,
+      "title": "Sega Genesis / Mega Drive (1988) — Hardware Archive Exhibit — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/consoles/sega-genesis/",
+      "jsonLdCount": 1
+    },
+    "/consoles/super-nintendo-entertainment-system/": {
+      "status": 200,
+      "sizeBytes": 75335,
+      "title": "Super Nintendo Entertainment System (SNES / Super Famicom) (1990) — Hardware Archive Exhibit — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/consoles/super-nintendo-entertainment-system/",
+      "jsonLdCount": 1
+    },
+    "/consoles/playstation-3/": {
+      "status": 200,
+      "sizeBytes": 73090,
+      "title": "Sony PlayStation 3 (2006) — Hardware Archive Exhibit — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/consoles/playstation-3/",
+      "jsonLdCount": 1
+    },
+    "/consoles/nintendo-switch-lite/": {
+      "status": 200,
+      "sizeBytes": 71061,
+      "title": "Nintendo Switch Lite (2019) — Hardware Archive Exhibit — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/consoles/nintendo-switch-lite/",
+      "jsonLdCount": 1
+    },
+    "/consoles/xbox-one-x/": {
+      "status": 200,
+      "sizeBytes": 70818,
+      "title": "Microsoft Xbox One X (2017) — Hardware Archive Exhibit — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/consoles/xbox-one-x/",
+      "jsonLdCount": 1
+    },
+    "/consoles/turbografx-16/": {
+      "status": 200,
+      "sizeBytes": 71516,
+      "title": "PC Engine / TurboGrafx-16 (1987) — Hardware Archive Exhibit — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/consoles/turbografx-16/",
+      "jsonLdCount": 1
+    },
+    "/consoles/xbox/": {
+      "status": 200,
+      "sizeBytes": 72444,
+      "title": "Microsoft Xbox (2001) — Hardware Archive Exhibit — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/consoles/xbox/",
+      "jsonLdCount": 1
+    },
+    "/consoles/wii-u/": {
+      "status": 200,
+      "sizeBytes": 71130,
+      "title": "Nintendo Wii U (2012) — Hardware Archive Exhibit — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/consoles/wii-u/",
+      "jsonLdCount": 1
+    },
+    "/consoles/xbox-series-s/": {
+      "status": 200,
+      "sizeBytes": 70678,
+      "title": "Microsoft Xbox Series S (2020) — Hardware Archive Exhibit — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/consoles/xbox-series-s/",
+      "jsonLdCount": 1
+    },
+    "/consoles/vectrex/": {
+      "status": 200,
+      "sizeBytes": 70328,
+      "title": "Vectrex (1982) — Hardware Archive Exhibit — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/consoles/vectrex/",
+      "jsonLdCount": 1
+    },
+    "/consoles/virtual-boy/": {
+      "status": 200,
+      "sizeBytes": 70798,
+      "title": "Nintendo Virtual Boy (1995) — Hardware Archive Exhibit — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/consoles/virtual-boy/",
+      "jsonLdCount": 1
+    },
+    "/consoles/xbox-series-x/": {
+      "status": 200,
+      "sizeBytes": 70819,
+      "title": "Microsoft Xbox Series X (2020) — Hardware Archive Exhibit — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/consoles/xbox-series-x/",
+      "jsonLdCount": 1
+    },
+    "/consoles/xbox-one/": {
+      "status": 200,
+      "sizeBytes": 71788,
+      "title": "Microsoft Xbox One (2013) — Hardware Archive Exhibit — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/consoles/xbox-one/",
+      "jsonLdCount": 1
+    },
+    "/consoles/wii/": {
+      "status": 200,
+      "sizeBytes": 71563,
+      "title": "Nintendo Wii (2006) — Hardware Archive Exhibit — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/consoles/wii/",
+      "jsonLdCount": 1
+    },
+    "/consoles/xbox-360/": {
+      "status": 200,
+      "sizeBytes": 72508,
+      "title": "Microsoft Xbox 360 (2005) — Hardware Archive Exhibit — NostalgicVerse",
+      "canonical": "https://nostalgicverse.com/consoles/xbox-360/",
+      "jsonLdCount": 1
+    }
+  },
+  "issues": []
+}

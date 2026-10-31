@@ -1,0 +1,89 @@
+{
+  "id": "game-fallout",
+  "slug": "fallout",
+  "title": "Fallout: A Post Nuclear Role Playing Game",
+  "japaneseTitle": "フォールアウト",
+  "url": "/games/fallout/",
+  "originalReleaseYear": 1997,
+  "exactReleaseDate": "1997-10-10",
+  "developer": "Interplay Productions",
+  "publisher": "Interplay Productions",
+  "director": "Tim Cain",
+  "designer": "Tim Cain, Leonard Boyarsky, Christopher Taylor, Jason Anderson",
+  "composer": "Mark Morgan",
+  "originalLaunchPlatform": "MS-DOS / Windows",
+  "platforms": [
+    "MS-DOS",
+    "Microsoft Windows",
+    "Mac OS"
+  ],
+  "genre": "rpg",
+  "subgenres": [
+    "CRPG",
+    "Post-Apocalyptic RPG",
+    "Turn-Based Tactical RPG"
+  ],
+  "era": "1990s",
+  "shortDescription": "Interplay's grim, darkly comedic post-nuclear RPG that established the SPECIAL character system and retro-futuristic Wasteland lore.",
+  "historicalSignificance": "Pioneered morally complex, open-ended quest design in Western RPGs where diplomacy, combat, stealth, and scientific intelligence were equally viable paths, backed by the iconic SPECIAL attribute system and 1950s retro-futuristic atompunk aesthetic.",
+  "editorialContent": {
+    "overview": "Created by a passionate division within Interplay led by Tim Cain, Leonard Boyarsky, and Jason Anderson, Fallout was released in October 1997 as the spiritual successor to 1988's Wasteland. Set in a desolate 22nd-century Southern California following a 2077 nuclear holocaust, the game cast players as the Vault Dweller, tasked with venturing into the radiated unknown to recover a replacement water chip for Vault 13.",
+    "gameplay": "Built upon the SPECIAL system (Strength, Perception, Endurance, Charisma, Intelligence, Agility, Luck), character creation directly shapes dialogue trees, problem-solving, and survival odds. Combat operates on a turn-based Action Point system featuring targeted anatomical shots, accompanied by Mark Morgan's eerie ambient industrial soundscapes.",
+    "technicalInnovation": "Integrated an intricate karma and reputation tracking matrix across disparate settlements (Shady Sands, Junktown, The Hub, Necropolis), producing non-linear narrative outcomes and distinct ending slides for every society encountered.",
+    "culturalImpact": "Fallout redefined Western computer role-playing, spawning an iconic entertainment empire encompassing major sequels, tabletop games, and a critically acclaimed television series, while popularizing Vault Boy and retro-futuristic Americana.",
+    "preservationNotes": "Preserved through community patch projects (Fallout Fixt) and modern digital archives on GOG and Steam."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "October 10, 1997",
+    "leadPlatform": "Microsoft Windows",
+    "genre": "rpg",
+    "sales": "Over 600,000 copies worldwide in initial retail run",
+    "awards": [
+      "Computer Gaming World RPG of the Year 1997",
+      "GameSpot RPG of the Year 1997"
+    ],
+    "technicalSpecs": {
+      "engine": "Interplay in-house 2D hex-grid isometric engine",
+      "resolution": "640x480 SVGA 256 colors",
+      "soundChip": "DirectSound / AWE32 with Mark Morgan dark ambient soundtrack",
+      "mediaFormat": "CD-ROM"
+    },
+    "relationships": {
+      "primaryConsole": "pc",
+      "developerEntity": "Interplay Entertainment",
+      "lineage": [
+        "Wasteland",
+        "Fallout 2",
+        "Fallout: New Vegas",
+        "The Outer Worlds"
+      ]
+    }
+  },
+  "assets": {
+    "cover": "/assets/images/games/fallout.webp",
+    "banner": "/assets/images/games/fallout-banner.webp",
+    "screenshots": [
+      "/assets/images/games/fallout-screen1.webp",
+      "/assets/images/games/fallout-screen2.webp"
+    ],
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/af/Fallout.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/af/Fallout.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Fallout.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "fallout",
+    "interplay",
+    "tim cain",
+    "special",
+    "vault dweller",
+    "wasteland",
+    "post-apocalyptic"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

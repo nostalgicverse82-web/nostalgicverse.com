@@ -1,0 +1,83 @@
+{
+  "id": "game-bonk-s-adventure",
+  "slug": "bonk-s-adventure",
+  "title": "Bonk's Adventure",
+  "japaneseTitle": "PC原人 (PC-Genjin)",
+  "url": "/games/bonk-s-adventure/",
+  "originalReleaseYear": 1989,
+  "exactReleaseDate": "1989-12-15",
+  "developer": "Red Company / Atlus",
+  "publisher": "Hudson Soft / NEC",
+  "director": "Kenji Kobuta",
+  "designer": "Ryoichi Hasegawa",
+  "composer": "Tsukasa Masuko",
+  "originalLaunchPlatform": "TurboGrafx-16 / PC Engine",
+  "platforms": [
+    "TurboGrafx-16",
+    "NES",
+    "Game Boy",
+    "Amiga",
+    "Arcade"
+  ],
+  "genre": "platformer",
+  "subgenres": [
+    "2D Platformer",
+    "Mascot Platformer"
+  ],
+  "era": "1980s",
+  "shortDescription": "The definitive mascot platformer for the PC Engine and TurboGrafx-16, starring the big-headed cave-boy Bonk.",
+  "historicalSignificance": "The official flagship mascot title for NEC's TurboGrafx-16 (PC Engine in Japan), showcasing the console's vibrant 512-color palette and proving the 16-bit graphics generation had arrived.",
+  "editorialContent": {
+    "overview": "Originally created as a humorous comic mascot for a Japanese PC Engine monthly magazine, Bonk was transformed by Hudson Soft and Red Company into the system's official answer to Mario and Sonic, tasked with saving Princess Za from King Drool.",
+    "gameplay": "Distinguished by headbutting mechanics: Bonk dives skull-first into enemies, climbs sheer vertical cliffs by clamping his oversized jaws onto rock faces, and consumes meat power-ups to transform into raging invincible states.",
+    "technicalInnovation": "Showcased the PC Engine's phenomenal HuC6270 video display processor, displaying massive expressive character sprites and rich colorful multi-layered backgrounds far beyond the capabilities of the 8-bit NES.",
+    "culturalImpact": "Became an iconic symbol of the TurboGrafx-16 era, leading to multiple sequels and cementing Hudson Soft's reputation as a top platformer developer.",
+    "preservationNotes": "Preserved on original HuCard media and featured in the PC Engine / TurboGrafx-16 Mini console."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "December 15, 1989 (Japan) / 1990 (North America)",
+    "leadPlatform": "TurboGrafx-16",
+    "genre": "platformer",
+    "sales": "Flagship bestseller for the PC Engine / TurboGrafx-16 hardware line",
+    "awards": [
+      "Nominated Best Platform Game 1990 (Electronic Gaming Monthly)"
+    ],
+    "technicalSpecs": {
+      "engine": "Hudson Soft Custom HuCard Engine",
+      "resolution": "256 x 224 (up to 482 colors from 512 palette)",
+      "soundChip": "HuC6280 6-channel stereo PSG with wavetable synthesis",
+      "mediaFormat": "HuCard (credit-card-sized ROM card)"
+    },
+    "relationships": {
+      "primaryConsole": "turbografx-16",
+      "developerEntity": "Hudson Soft",
+      "lineage": [
+        "Bonk's Revenge",
+        "Bonk 3: Bonk's Big Adventure"
+      ]
+    }
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/5/53/BonksAdventure_box.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/5/53/BonksAdventure_box.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:BonksAdventure_box.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "bonk's adventure",
+    "pc genjin",
+    "turbografx-16",
+    "pc engine",
+    "hudson soft",
+    "nec",
+    "hucard",
+    "platformer",
+    "1989"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

@@ -1,0 +1,83 @@
+{
+  "id": "game-final-fantasy-vii-remake",
+  "slug": "final-fantasy-vii-remake",
+  "title": "Final Fantasy VII Remake",
+  "japaneseTitle": "ファイナルファンタジーVII リメイク",
+  "url": "/games/final-fantasy-vii-remake/",
+  "originalReleaseYear": 2020,
+  "exactReleaseDate": "2020-04-10",
+  "developer": "Square Enix",
+  "publisher": "Square Enix",
+  "director": "Tetsuya Nomura, Naoki Hamaguchi",
+  "designer": "Teruki Endo",
+  "composer": "Masashi Hamauzu, Mitsuto Suzuki, Nobuo Uematsu",
+  "originalLaunchPlatform": "PlayStation 4",
+  "platforms": [
+    "PlayStation 4",
+    "PlayStation 5",
+    "Microsoft Windows"
+  ],
+  "genre": "action-rpg",
+  "subgenres": [
+    "Hybrid Action-RPG",
+    "Cyberpunk Fantasy"
+  ],
+  "era": "2020s",
+  "shortDescription": "Square Enix's monumental reinvention of the Midgar chapter of their 1997 classic, featuring a groundbreaking hybrid ATB-action combat system.",
+  "historicalSignificance": "Delivered on a 15-year dream following the 2005 E3 PS3 tech demo, masterfully expanding the five-hour opening of Midgar into a sprawling 40-hour cinematic epic and winning Best RPG at The Game Awards.",
+  "editorialContent": {
+    "overview": "Set in the mako-powered dystopian metropolis of Midgar, mercenary Cloud Strife joins eco-terrorist resistance cell AVALANCHE in bombing Shinra's Mako Reactor 1, unaware that ethereal 'Whispers of Fate' are actively policing the timeline to prevent deviations from destiny.",
+    "gameplay": "Pioneered a flawless marriage between real-time character action and tactical command pausing: real-time attacks build the classic Active Time Battle (ATB) meter, allowing players to pause time to execute spells, abilities, and Limit Breaks.",
+    "technicalInnovation": "Built on Unreal Engine 4 with breathtaking art direction capturing the industrial scale of Midgar's towering Upper Plate and impoverished undercity slums.",
+    "culturalImpact": "Demonstrated that a remake can honor nostalgia while boldly subverting player expectations through meta-narrative storytelling.",
+    "preservationNotes": "Preserved on dual Blu-ray discs for PS4 and updated with photo mode and the INTERmission Yuffie episode on PS5."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "April 10, 2020",
+    "leadPlatform": "PlayStation 4",
+    "genre": "action-rpg",
+    "sales": "Over 7 million copies worldwide",
+    "awards": [
+      "The Game Awards Best Role Playing Game 2020",
+      "Best Score and Music The Game Awards 2020"
+    ],
+    "technicalSpecs": {
+      "engine": "Unreal Engine 4",
+      "resolution": "1080p (PS4) / Dynamic 1620p (PS4 Pro) / 4K (PS5 Intergrade)",
+      "soundChip": "Dynamic adaptive music streaming with live orchestral recordings",
+      "mediaFormat": "2x Blu-ray Discs"
+    },
+    "relationships": {
+      "primaryConsole": "playstation-4",
+      "developerEntity": "Square Enix",
+      "lineage": [
+        "Final Fantasy VII (1997)",
+        "Final Fantasy VII Rebirth"
+      ]
+    }
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/c/ce/FFVIIR_ELL_Box_Art.png",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/c/ce/FFVIIR_ELL_Box_Art.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:FFVIIR_ELL_Box_Art.png",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "final fantasy vii remake",
+    "cloud strife",
+    "tifa lockhart",
+    "aerith",
+    "sephiroth",
+    "midgar",
+    "square enix",
+    "tetsuya nomura",
+    "playstation 4",
+    "ps4"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

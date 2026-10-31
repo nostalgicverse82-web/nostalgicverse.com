@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://nostalgicverse.com/schemas/console.schema.json",
+  "title": "NostalgicVerse Hardware Exhibit Schema",
+  "description": "Standardized schema for console and microcomputer hardware exhibits.",
+  "type": "object",
+  "required": [
+    "id",
+    "slug",
+    "name",
+    "manufacturer",
+    "generation",
+    "originalReleaseYear"
+  ],
+  "properties": {
+    "id": { "type": "string", "pattern": "^console-[a-z0-9-]+$" },
+    "slug": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "name": { "type": "string" },
+    "manufacturer": { "type": "string" },
+    "generation": { "type": "string" },
+    "generationNumber": { "type": "integer" },
+    "originalReleaseYear": { "type": "integer" },
+    "exactReleaseDate": { "type": "string" },
+    "discontinuationYear": { "type": "integer" },
+    "unitsSoldWorldwide": { "type": "string" },
+    "mediaFormat": { "type": "string" },
+    "significance": { "type": "string" },
+    "verifiedFactualData": {
+      "type": "object",
+      "description": "Verified engineering and hardware architecture specifications. All optional.",
+      "properties": {
+        "cpu": { "type": "string" },
+        "cpuClock": { "type": "string" },
+        "gpuOrVideoChip": { "type": "string" },
+        "ram": { "type": "string" },
+        "videoRam": { "type": "string" },
+        "resolution": { "type": "string" },
+        "colorPalette": { "type": "string" },
+        "soundChip": { "type": "string" },
+        "audioChannels": { "type": "string" },
+        "controllerPorts": { "type": "integer" },
+        "powerSupply": { "type": "string" },
+        "avOutputs": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "editorialContent": {
+      "type": "object",
+      "properties": {
+        "overview": { "type": "string" },
+        "marketLegacy": { "type": "string" },
+        "engineeringInnovations": { "type": "string" },
+        "controllerDesign": { "type": "string" },
+        "preservationAndCommonFailures": { "type": "string" }
+      }
+    },
+    "keyGames": { "type": "array", "items": { "type": "string" } },
+    "relatedExhibits": {
+      "type": "object",
+      "properties": {
+        "games": { "type": "array", "items": { "type": "string" } },
+        "consoles": { "type": "array", "items": { "type": "string" } },
+        "timeline": { "type": "array", "items": { "type": "string" } },
+        "guides": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "assets": {
+      "type": "object",
+      "properties": {
+        "mainImage": { "type": "string" },
+        "heroImage": { "type": "string" },
+        "hardwareImage": { "type": "string" },
+        "controllerImage": { "type": "string" }
+      }
+    },
+    "keywords": { "type": "array", "items": { "type": "string" } }
+  }
+}
+

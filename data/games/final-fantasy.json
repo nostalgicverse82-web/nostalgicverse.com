@@ -1,0 +1,98 @@
+{
+  "id": "game-final-fantasy",
+  "slug": "final-fantasy",
+  "title": "Final Fantasy",
+  "japaneseTitle": "ファイナルファンタジー",
+  "url": "/games/final-fantasy/",
+  "originalReleaseYear": 1987,
+  "exactReleaseDate": "1987-12-18",
+  "developer": "Square Co., Ltd.",
+  "publisher": "Square",
+  "director": "Hironobu Sakaguchi",
+  "designer": "Akitoshi Kawazu & Nasir Gebelli",
+  "composer": "Nobuo Uematsu",
+  "originalLaunchPlatform": "Famicom",
+  "platforms": [
+    "Famicom",
+    "NES",
+    "MSX2",
+    "WonderSwan Color",
+    "PlayStation",
+    "Game Boy Advance"
+  ],
+  "genre": "rpg",
+  "subgenres": [
+    "Japanese Role-Playing Game",
+    "Turn-Based RPG"
+  ],
+  "era": "1980s",
+  "shortDescription": "Hironobu Sakaguchi's legendary fantasy RPG that rescued Square from bankruptcy, establishing party character customization, side-view combat, and Nobuo Uematsu's majestic soundtrack.",
+  "historicalSignificance": "Saved Square from financial ruin, established the multi-billion dollar Final Fantasy franchise, and pioneered 4-character party creation alongside dynamic side-view battle perspectives.",
+  "editorialContent": {
+    "overview": "Facing potential bankruptcy in late 1987, Square director Hironobu Sakaguchi poured all his creative ambitions into one last desperate endeavor, naming it Final Fantasy under the sincere belief that it would be his farewell video game before returning to university. Supported by legendary Iranian-American assembly programmer Nasir Gebelli, fantasy illustrator Yoshitaka Amano, and composer Nobuo Uematsu, Sakaguchi created an enduring global phenomenon.",
+    "gameplayMechanics": "Unlike Dragon Quest's solo protagonist, Final Fantasy empowers players to build a four-character party from six distinct classes: Fighter, Thief, Black Belt, Red Mage, White Mage, and Black Mage. Players explore an overworld by foot, pirate ship, and airship to restore four elemental crystals (Earth, Fire, Water, Air). Combat features a revolutionary side-view perspective where party members face off against monster sprites, taking turns executing physical strikes and spell charges.",
+    "technicalInnovation": "Nasir Gebelli's peerless 6502 assembly code achieved feats thought impossible on the Famicom, including an exceptionally fast multi-directional world-map scrolling engine and complex spell calculation routines contained in a 256-kilobyte ROM. Yoshitaka Amano's ethereal character concept sketches were translated into evocative pixel art, while Nobuo Uematsu's opening 'Prelude' arpeggios became an immortal gaming theme.",
+    "culturalImpact": "Final Fantasy was a colossal commercial triumph, selling over 1.4 million copies in Japan and revitalizing Square into an international RPG titan. It laid the foundation for one of the most celebrated and commercially lucrative franchises in entertainment history.",
+    "preservationNotes": "Preserved across original Japanese Famicom and Western NES cartridge dumps. Preservation mandates supporting the battery-backed SRAM save chip and original NES APU triangle-wave bass channels."
+  },
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "Sakaguchi, Hironobu. 'The Final Fantasy Retrospective', GameSpot (2007)",
+      "Uematsu, Nobuo. 'The Compositional Philosophy of Final Fantasy', Square Enix Archives (2010)",
+      "Square Co., Ltd. Final Fantasy Famicom Operations Manual (1987)"
+    ],
+    "romMediaFormat": "Famicom / NES ROM Cartridge (MMC1 PCB with 8KB SRAM)",
+    "romSizeOriginal": "256 KB ROM + 8 KB Battery SRAM",
+    "displayResolutionOriginal": "256 × 240 (NTSC)",
+    "audioHardware": "Ricoh 2A03 5-channel APU",
+    "inputMethod": "NES Controller (D-Pad, A/B buttons)",
+    "multiplayerCapability": "1 Player"
+  },
+  "relatedExhibits": {
+    "games": [
+      "final-fantasy-vii",
+      "dragon-quest",
+      "chrono-trigger"
+    ],
+    "consoles": [
+      "nintendo-entertainment-system",
+      "playstation"
+    ],
+    "genres": [
+      "rpg"
+    ],
+    "timeline": [
+      "ev-1987-pc-engine-japan"
+    ]
+  },
+  "assets": {
+    "heroImage": "/assets/images/games/final-fantasy-hero.webp",
+    "thumbnailImage": "/assets/images/games/final-fantasy.webp",
+    "coverImage": "/assets/images/games/final-fantasy-cover.webp",
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/d/d8/FF1_USA_boxart.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/d/d8/FF1_USA_boxart.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:FF1_USA_boxart.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "final fantasy",
+    "square",
+    "hironobu sakaguchi",
+    "nobuo uematsu",
+    "yoshitaka amano",
+    "nasir gebelli",
+    "warriors of light",
+    "airship",
+    "jrpg",
+    "famicom",
+    "nes",
+    "1987",
+    "1980s"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

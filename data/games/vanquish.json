@@ -1,0 +1,68 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-vanquish",
+  "slug": "vanquish",
+  "title": "Vanquish",
+  "originalReleaseYear": 2010,
+  "exactReleaseDate": "October 19, 2010",
+  "originalLaunchPlatform": "PlayStation 3",
+  "originalLaunchRegion": "North America",
+  "developer": "PlatinumGames",
+  "publisher": "Sega",
+  "platforms": [
+    "PlayStation 3",
+    "Xbox 360"
+  ],
+  "genre": "third-person-shooter",
+  "subgenres": [
+    "action"
+  ],
+  "era": "2010s",
+  "shortDescription": "Shinji Mikami's rocket-sliding shooter arming DARPA agent Sam Gideon with the Augmented Reaction Suit.",
+  "historicalSignificance": "Injected blistering character-action speed and boost-sliding mobility into the third-person cover shooter genre.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Vanquish",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Shinji Mikami's rocket-sliding shooter arming DARPA agent Sam Gideon with the Augmented Reaction Suit.",
+    "culturalImpact": "Injected blistering character-action speed and boost-sliding mobility into the third-person cover shooter genre."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 3"
+    ],
+    "genres": [
+      "third-person-shooter"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Vanquish_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Vanquish_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Vanquish",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Vanquish",
+    "PlatinumGames",
+    "Sega",
+    "PlayStation 3",
+    "third-person-shooter",
+    "2010",
+    "2010s",
+    "PlayStation 3",
+    "Xbox 360",
+    "action"
+  ],
+  "url": "/games/vanquish/",
+  "featured": false
+}

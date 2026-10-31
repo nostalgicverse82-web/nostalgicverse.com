@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-gran-turismo-5",
+  "slug": "gran-turismo-5",
+  "title": "Gran Turismo 5",
+  "originalReleaseYear": 2010,
+  "exactReleaseDate": "November 24, 2010",
+  "originalLaunchPlatform": "PlayStation 3",
+  "originalLaunchRegion": "Worldwide",
+  "developer": "Polyphony Digital",
+  "publisher": "Sony Computer Entertainment",
+  "platforms": [
+    "PlayStation 3"
+  ],
+  "genre": "racing",
+  "subgenres": [
+    "sim-racing"
+  ],
+  "era": "2010s",
+  "shortDescription": "Over 1,000 meticulously modeled cars, damage modeling, dynamic weather, and the debut of NASCAR and WRC licenses.",
+  "historicalSignificance": "One of the PS3's absolute commercial juggernauts, selling over 11 million copies worldwide.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Gran_Turismo_5",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Over 1,000 meticulously modeled cars, damage modeling, dynamic weather, and the debut of NASCAR and WRC licenses.",
+    "culturalImpact": "One of the PS3's absolute commercial juggernauts, selling over 11 million copies worldwide."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 3"
+    ],
+    "genres": [
+      "racing"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/0/08/Gran_Turismo_5_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/0/08/Gran_Turismo_5_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Gran_Turismo_5",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Gran Turismo 5",
+    "Polyphony Digital",
+    "Sony Computer Entertainment",
+    "PlayStation 3",
+    "racing",
+    "2010",
+    "2010s",
+    "PlayStation 3",
+    "sim-racing"
+  ],
+  "url": "/games/gran-turismo-5/",
+  "featured": false
+}

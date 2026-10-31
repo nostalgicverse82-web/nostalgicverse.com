@@ -1,0 +1,89 @@
+{
+  "id": "game-red-dead-redemption-2",
+  "slug": "red-dead-redemption-2",
+  "title": "Red Dead Redemption 2",
+  "japaneseTitle": "レッド・デッド・リデンプション2",
+  "url": "/games/red-dead-redemption-2/",
+  "originalReleaseYear": 2018,
+  "exactReleaseDate": "2018-10-26",
+  "developer": "Rockstar Studios",
+  "publisher": "Rockstar Games",
+  "director": "Dan Houser",
+  "designer": "Dan Houser, Imran Sarwar",
+  "composer": "Woody Jackson",
+  "originalLaunchPlatform": "PlayStation 4 / Xbox One",
+  "platforms": [
+    "PlayStation 4",
+    "Xbox One",
+    "Microsoft Windows"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "Western Open World",
+    "Hyper-Realistic Period Simulation",
+    "Cinematic Tragedy"
+  ],
+  "era": "2010s",
+  "shortDescription": "Rockstar's monumental hyper-detailed Western tragic epic following Arthur Morgan and the Van der Linde gang.",
+  "historicalSignificance": "The pinnacle of meticulous interactive world simulation and narrative tragic writing, bringing together eight years of development across 2,000 creators to deliver Arthur Morgan's redemption story with unmatched environmental fidelity.",
+  "editorialContent": {
+    "overview": "Developed across eight years by all of Rockstar's worldwide studios united under 'Rockstar Studios,' Red Dead Redemption 2 arrived in October 2018. Serving as a prequel to the 2010 original, it chronicles 1899 America through the weary eyes of Arthur Morgan, a senior enforcer in Dutch van der Linde's outlaw gang, struggling to maintain their nomadic family against creeping industrial civilization and law enforcement.",
+    "gameplay": "Gameplay is a deliberate, tactile simulation of late-19th-century life: Arthur cleans firearms, cooks meals over campfires, brushes and bonds with his horse, and engages in contextual greetings, antagonisms, or defusals with every NPC in the world. Gunplay enhances Dead Eye with multi-tier anatomical targeting and catastrophic ballistic wounds.",
+    "technicalInnovation": "Rockstar achieved staggering technological breakthroughs: 200 distinct animal species exhibiting authentic predator-prey food chains, volumetric atmospheric cloud and fog rendering, procedural mud and deep snow deformation, and thousands of bespoke animations.",
+    "culturalImpact": "RDR2 sold 17 million copies in its first weekend, grossing $725 million, and earned over 175 Game of the Year awards. Roger Clark's performance as Arthur Morgan became an instant touchstone for acting in video games, and D'Angelo's 'Unshaken' cemented its emotional stature.",
+    "preservationNotes": "Preserved on 2-disc Blu-ray packages for PS4 and Xbox One, and running at native 4K 60fps+ on modern PC hardware."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "October 26, 2018",
+    "leadPlatform": "PlayStation 4",
+    "genre": "action-adventure",
+    "sales": "Over 61 million copies worldwide (one of the highest-selling games in history)",
+    "awards": [
+      "The Game Awards 2018 (Best Narrative, Best Score, Best Audio Design, Best Performance)",
+      "Over 175 GOTY Awards"
+    ],
+    "technicalSpecs": {
+      "engine": "Rockstar Advanced Game Engine (RAGE) with Euphoria physics and volumetric weather",
+      "resolution": "1080p (PS4) / Native 4K (Xbox One X) / Scalable PC",
+      "soundChip": "Dolby Atmos / 7.1 Surround with Woody Jackson score and original songs by D'Angelo and Willie Nelson",
+      "mediaFormat": "2 Blu-ray Discs (Data Disc + Play Disc; 105 GB install)"
+    },
+    "relationships": {
+      "primaryConsole": "playstation-4",
+      "developerEntity": "Rockstar Games",
+      "lineage": [
+        "Red Dead Redemption",
+        "Grand Theft Auto V",
+        "Grand Theft Auto VI"
+      ]
+    }
+  },
+  "assets": {
+    "cover": "/assets/images/games/red-dead-redemption-2.webp",
+    "banner": "/assets/images/games/red-dead-redemption-2-banner.webp",
+    "screenshots": [
+      "/assets/images/games/red-dead-redemption-2-screen1.webp",
+      "/assets/images/games/red-dead-redemption-2-screen2.webp"
+    ],
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/4/44/Red_Dead_Redemption_II.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/4/44/Red_Dead_Redemption_II.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Red_Dead_Redemption_II.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "review-required",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "red dead redemption 2",
+    "rdr2",
+    "arthur morgan",
+    "dutch van der linde",
+    "rockstar games",
+    "western",
+    "dan houser",
+    "open world"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

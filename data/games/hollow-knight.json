@@ -1,0 +1,93 @@
+{
+  "id": "game-hollow-knight",
+  "slug": "hollow-knight",
+  "title": "Hollow Knight",
+  "japaneseTitle": "ホロウナイト",
+  "url": "/games/hollow-knight/",
+  "originalReleaseYear": 2017,
+  "exactReleaseDate": "2017-02-24",
+  "developer": "Team Cherry",
+  "publisher": "Team Cherry",
+  "director": "Ari Gibson, William Pellen",
+  "designer": "Ari Gibson, William Pellen",
+  "composer": "Christopher Larkin",
+  "originalLaunchPlatform": "Microsoft Windows",
+  "platforms": [
+    "Microsoft Windows",
+    "Mac OS",
+    "Linux",
+    "Nintendo Switch",
+    "PlayStation 4",
+    "Xbox One"
+  ],
+  "genre": "metroidvania",
+  "subgenres": [
+    "2D Metroidvania",
+    "Dark Fantasy Soulslike Platformer"
+  ],
+  "era": "2010s",
+  "shortDescription": "Team Cherry's breathtaking hand-drawn Metroidvania masterwork exploring the melancholic insect ruin of Hallownest.",
+  "historicalSignificance": "Widely acclaimed as the pinnacle of the modern Metroidvania genre, hand-crafted by an Australian indie trio (Team Cherry) with colossal scale, airtight nail swordplay, soul-recovery risk, and Christopher Larkin's melancholic chamber orchestral score.",
+  "editorialContent": {
+    "overview": "Created in Adelaide, South Australia by three-person indie studio Team Cherry (Ari Gibson, William Pellen, and David Kazi) following a 2014 Kickstarter, Hollow Knight was released on PC in February 2017. As a nameless, silent wanderer wielding a worn nail, players descend into Hallownest, a vast, interconnected subterranean kingdom of insects fallen into ruin and gripped by a sickly glowing infection.",
+    "gameplay": "Precision 2D platforming combines fluid swordplay, downward nail pogo-bouncing off hazards and enemies, and Soul resource management: striking enemies generates Soul, used either to cast powerful spells or focus to slowly heal masks. A modular Charm notch system allows players to customize their build across over 40 distinct combat and mobility badges.",
+    "technicalInnovation": "Built in Unity with thousands of hand-drawn traditional 2D animation frames, multi-plane parallax depth, and Christopher Larkin's evocative chamber music that dynamically responds to location depth and emotional resonance.",
+    "culturalImpact": "Hollow Knight sold over 3 million copies and elevated Team Cherry to legendary indie developer status, sparking an enduring passionate global fandom eagerly anticipating its sequel, Hollow Knight: Silksong.",
+    "preservationNotes": "Preserved natively on PC via Steam and GOG, as well as physical collector's editions across all modern game consoles published by Fangamer."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "February 24, 2017",
+    "leadPlatform": "Microsoft Windows",
+    "genre": "metroidvania",
+    "sales": "Over 3 million copies sold worldwide",
+    "awards": [
+      "PC Gamer Best Platformer 2017",
+      "Game Informer Best Metroidvania 2017",
+      "IGN Best Platformer nominee"
+    ],
+    "technicalSpecs": {
+      "engine": "Unity with Team Cherry custom 2D lighting and physics pipeline",
+      "resolution": "1080p Full HD (60fps locked)",
+      "soundChip": "High-fidelity digital audio with Christopher Larkin live strings and piano score",
+      "mediaFormat": "Digital Download / Physical Console Cartridge by Fangamer"
+    },
+    "relationships": {
+      "primaryConsole": "pc",
+      "developerEntity": "Team Cherry",
+      "lineage": [
+        "Castlevania: Symphony of the Night",
+        "Super Metroid",
+        "Dark Souls",
+        "Ori and the Will of the Wisps"
+      ]
+    }
+  },
+  "assets": {
+    "cover": "/assets/images/games/hollow-knight.webp",
+    "banner": "/assets/images/games/hollow-knight-banner.webp",
+    "screenshots": [
+      "/assets/images/games/hollow-knight-screen1.webp",
+      "/assets/images/games/hollow-knight-screen2.webp"
+    ],
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/d/de/Hollow_Knight_2026_cover_art.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/d/de/Hollow_Knight_2026_cover_art.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Hollow_Knight_2026_cover_art.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "hollow knight",
+    "team cherry",
+    "hallownest",
+    "hornet",
+    "nail",
+    "christopher larkin",
+    "metroidvania",
+    "indie game"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

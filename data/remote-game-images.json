@@ -1,0 +1,4907 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/remote-images.schema.json",
+  "description": "Verified direct remote image URLs for NostalgicVerse game exhibits.",
+  "lastAudited": "2026-09-21",
+  "totalGames": 528,
+  "counts": {
+    "localVerified": 296,
+    "remoteVerified": 24,
+    "reviewRequired": 0,
+    "missing": 0,
+    "fallback": 208
+  },
+  "domainsUsed": [
+    "upload.wikimedia.org",
+    "cdn.akamai.steamstatic.com"
+  ],
+  "games": {
+    "computer-space": {
+      "slug": "computer-space",
+      "title": "Computer Space",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 0"
+    },
+    "pong": {
+      "slug": "pong",
+      "title": "Pong",
+      "status": "verified",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/32/Signed_Pong_Cabinet.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "mime": "image/jpeg",
+      "imageType": "remote",
+      "verificationStatus": "verified",
+      "verificationNotes": "Verified HTTP 200 [image/jpeg]"
+    },
+    "space-race": {
+      "slug": "space-race",
+      "title": "Space Race",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 404"
+    },
+    "gun-fight": {
+      "slug": "gun-fight",
+      "title": "Gun Fight",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 404"
+    },
+    "breakout": {
+      "slug": "breakout",
+      "title": "Breakout",
+      "status": "verified",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/7/7a/BreakOut_arcadeflyer.png",
+      "sourceDomain": "upload.wikimedia.org",
+      "mime": "image/png",
+      "imageType": "remote",
+      "verificationStatus": "verified",
+      "verificationNotes": "Verified HTTP 200 [image/png]"
+    },
+    "colossal-cave-adventure": {
+      "slug": "colossal-cave-adventure",
+      "title": "Colossal Cave Adventure",
+      "status": "verified",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/25/ADVENT_--_Crowther_Woods.png",
+      "sourceDomain": "upload.wikimedia.org",
+      "mime": "image/png",
+      "imageType": "remote",
+      "verificationStatus": "verified",
+      "verificationNotes": "Verified HTTP 200 [image/png]"
+    },
+    "night-driver": {
+      "slug": "night-driver",
+      "title": "Night Driver",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/night-driver.jpg",
+      "sourceDomain": "local"
+    },
+    "space-wars": {
+      "slug": "space-wars",
+      "title": "Space Wars",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/space-wars.jpg",
+      "sourceDomain": "local"
+    },
+    "zork": {
+      "slug": "zork",
+      "title": "Zork: The Great Underground Empire",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/zork.jpg",
+      "sourceDomain": "local"
+    },
+    "space-invaders": {
+      "slug": "space-invaders",
+      "title": "Space Invaders",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/space-invaders.jpg",
+      "sourceDomain": "local"
+    },
+    "adventure": {
+      "slug": "adventure",
+      "title": "Adventure",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/adventure.jpg",
+      "sourceDomain": "local"
+    },
+    "asteroids": {
+      "slug": "asteroids",
+      "title": "Asteroids",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/asteroids.jpg",
+      "sourceDomain": "local"
+    },
+    "lunar-lander": {
+      "slug": "lunar-lander",
+      "title": "Lunar Lander",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/lunar-lander.jpg",
+      "sourceDomain": "local"
+    },
+    "battlezone": {
+      "slug": "battlezone",
+      "title": "Battlezone",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/battlezone.jpg",
+      "sourceDomain": "local"
+    },
+    "missile-command": {
+      "slug": "missile-command",
+      "title": "Missile Command",
+      "status": "verified",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/c/c7/Missile_Command_flyer.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "mime": "image/jpeg",
+      "imageType": "remote",
+      "verificationStatus": "verified",
+      "verificationNotes": "Verified HTTP 200 [image/jpeg]"
+    },
+    "pac-man": {
+      "slug": "pac-man",
+      "title": "Pac-Man",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/pac-man.jpg",
+      "sourceDomain": "local"
+    },
+    "rogue": {
+      "slug": "rogue",
+      "title": "Rogue: Exploring The Dungeons of Doom",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/rogue.jpg",
+      "sourceDomain": "local"
+    },
+    "defender": {
+      "slug": "defender",
+      "title": "Defender",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/defender.jpg",
+      "sourceDomain": "local"
+    },
+    "donkey-kong": {
+      "slug": "donkey-kong",
+      "title": "Donkey Kong",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/donkey-kong.jpg",
+      "sourceDomain": "local"
+    },
+    "frogger": {
+      "slug": "frogger",
+      "title": "Frogger",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/frogger.jpg",
+      "sourceDomain": "local"
+    },
+    "galaga": {
+      "slug": "galaga",
+      "title": "Galaga",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/galaga.jpg",
+      "sourceDomain": "local"
+    },
+    "tempest": {
+      "slug": "tempest",
+      "title": "Tempest",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/tempest.jpg",
+      "sourceDomain": "local"
+    },
+    "wizardry-proving-grounds-of-the-mad-overlord": {
+      "slug": "wizardry-proving-grounds-of-the-mad-overlord",
+      "title": "Wizardry: Proving Grounds of the Mad Overlord",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/wizardry-proving-grounds-of-the-mad-overlord.jpg",
+      "sourceDomain": "local"
+    },
+    "joust": {
+      "slug": "joust",
+      "title": "Joust",
+      "status": "verified",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/8/88/Joust_Flyer.png",
+      "sourceDomain": "upload.wikimedia.org",
+      "mime": "image/png",
+      "imageType": "remote",
+      "verificationStatus": "verified",
+      "verificationNotes": "Verified HTTP 200 [image/png]"
+    },
+    "ms-pac-man": {
+      "slug": "ms-pac-man",
+      "title": "Ms. Pac-Man",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/ms-pac-man.jpg",
+      "sourceDomain": "local"
+    },
+    "pitfall": {
+      "slug": "pitfall",
+      "title": "Pitfall!",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/pitfall.jpg",
+      "sourceDomain": "local"
+    },
+    "pole-position": {
+      "slug": "pole-position",
+      "title": "Pole Position",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/pole-position.jpg",
+      "sourceDomain": "local"
+    },
+    "yars-revenge": {
+      "slug": "yars-revenge",
+      "title": "Yars' Revenge",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/yars-revenge.jpg",
+      "sourceDomain": "local"
+    },
+    "dragon-s-lair": {
+      "slug": "dragon-s-lair",
+      "title": "Dragon's Lair",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/dragon-s-lair.jpg",
+      "sourceDomain": "local"
+    },
+    "elite": {
+      "slug": "elite",
+      "title": "Elite",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/elite.jpg",
+      "sourceDomain": "local"
+    },
+    "king-s-quest-quest-for-the-crown": {
+      "slug": "king-s-quest-quest-for-the-crown",
+      "title": "King's Quest: Quest for the Crown",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "marble-madness": {
+      "slug": "marble-madness",
+      "title": "Marble Madness",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/marble-madness.jpg",
+      "sourceDomain": "local"
+    },
+    "tetris": {
+      "slug": "tetris",
+      "title": "Tetris",
+      "status": "verified",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Tetris_on_Game_Boy.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "mime": "image/jpeg",
+      "imageType": "remote",
+      "verificationStatus": "verified",
+      "verificationNotes": "Verified HTTP 200 [image/jpeg]"
+    },
+    "ghosts-n-goblins": {
+      "slug": "ghosts-n-goblins",
+      "title": "Ghosts 'n Goblins",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/ghosts-n-goblins.jpg",
+      "sourceDomain": "local"
+    },
+    "gradius": {
+      "slug": "gradius",
+      "title": "Gradius",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/gradius.jpg",
+      "sourceDomain": "local"
+    },
+    "super-mario-bros": {
+      "slug": "super-mario-bros",
+      "title": "Super Mario Bros.",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/super-mario-bros.jpg",
+      "sourceDomain": "local"
+    },
+    "ultima-iv-quest-of-the-avatar": {
+      "slug": "ultima-iv-quest-of-the-avatar",
+      "title": "Ultima IV: Quest of the Avatar",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "castlevania": {
+      "slug": "castlevania",
+      "title": "Castlevania",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/castlevania.jpg",
+      "sourceDomain": "local"
+    },
+    "defender-of-the-crown": {
+      "slug": "defender-of-the-crown",
+      "title": "Defender of the Crown",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "dragon-quest": {
+      "slug": "dragon-quest",
+      "title": "Dragon Quest",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/dragon-quest.jpg",
+      "sourceDomain": "local"
+    },
+    "metroid": {
+      "slug": "metroid",
+      "title": "Metroid",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/metroid.jpg",
+      "sourceDomain": "local"
+    },
+    "out-run": {
+      "slug": "out-run",
+      "title": "Out Run",
+      "status": "verified",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/0/04/Out_Run_Coverart.png",
+      "sourceDomain": "upload.wikimedia.org",
+      "mime": "image/png",
+      "imageType": "remote",
+      "verificationStatus": "verified",
+      "verificationNotes": "Verified HTTP 200 [image/png]"
+    },
+    "the-legend-of-zelda": {
+      "slug": "the-legend-of-zelda",
+      "title": "The Legend of Zelda",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/the-legend-of-zelda.jpg",
+      "sourceDomain": "local"
+    },
+    "contra": {
+      "slug": "contra",
+      "title": "Contra",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/contra.jpg",
+      "sourceDomain": "local"
+    },
+    "final-fantasy": {
+      "slug": "final-fantasy",
+      "title": "Final Fantasy",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/final-fantasy.jpg",
+      "sourceDomain": "local"
+    },
+    "phantasy-star": {
+      "slug": "phantasy-star",
+      "title": "Phantasy Star",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/phantasy-star.jpg",
+      "sourceDomain": "local"
+    },
+    "the-great-giana-sisters": {
+      "slug": "the-great-giana-sisters",
+      "title": "The Great Giana Sisters",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "mega-man-2": {
+      "slug": "mega-man-2",
+      "title": "Mega Man 2",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/mega-man-2.jpg",
+      "sourceDomain": "local"
+    },
+    "ninja-gaiden": {
+      "slug": "ninja-gaiden",
+      "title": "Ninja Gaiden",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/ninja-gaiden.jpg",
+      "sourceDomain": "local"
+    },
+    "super-mario-bros-3": {
+      "slug": "super-mario-bros-3",
+      "title": "Super Mario Bros. 3",
+      "status": "verified",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a5/Super_Mario_Bros._3_coverart.png",
+      "sourceDomain": "upload.wikimedia.org",
+      "mime": "image/png",
+      "imageType": "remote",
+      "verificationStatus": "verified",
+      "verificationNotes": "Verified HTTP 200 [image/png]"
+    },
+    "wasteland": {
+      "slug": "wasteland",
+      "title": "Wasteland",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/wasteland.jpg",
+      "sourceDomain": "local"
+    },
+    "bonk-s-adventure": {
+      "slug": "bonk-s-adventure",
+      "title": "Bonk's Adventure",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "populous": {
+      "slug": "populous",
+      "title": "Populous",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/populous.jpg",
+      "sourceDomain": "local"
+    },
+    "prince-of-persia": {
+      "slug": "prince-of-persia",
+      "title": "Prince of Persia",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/prince-of-persia.jpg",
+      "sourceDomain": "local"
+    },
+    "simcity": {
+      "slug": "simcity",
+      "title": "SimCity",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/simcity.jpg",
+      "sourceDomain": "local"
+    },
+    "wonder-boy-iii-the-dragon-s-trap": {
+      "slug": "wonder-boy-iii-the-dragon-s-trap",
+      "title": "Wonder Boy III: The Dragon's Trap",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "f-zero": {
+      "slug": "f-zero",
+      "title": "F-Zero",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/f-zero.jpg",
+      "sourceDomain": "local"
+    },
+    "super-mario-world": {
+      "slug": "super-mario-world",
+      "title": "Super Mario World",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/super-mario-world.jpg",
+      "sourceDomain": "local"
+    },
+    "the-secret-of-monkey-island": {
+      "slug": "the-secret-of-monkey-island",
+      "title": "The Secret of Monkey Island",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/the-secret-of-monkey-island.jpg",
+      "sourceDomain": "local"
+    },
+    "monkey-island-2-lechuck-s-revenge": {
+      "slug": "monkey-island-2-lechuck-s-revenge",
+      "title": "Monkey Island 2: LeChuck's Revenge",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/monkey-island-2-lechuck-s-revenge.jpg",
+      "sourceDomain": "local"
+    },
+    "civilization": {
+      "slug": "civilization",
+      "title": "Sid Meier's Civilization",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/civilization.jpg",
+      "sourceDomain": "local"
+    },
+    "sonic-the-hedgehog": {
+      "slug": "sonic-the-hedgehog",
+      "title": "Sonic the Hedgehog",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/sonic-the-hedgehog.jpg",
+      "sourceDomain": "local"
+    },
+    "street-fighter-ii": {
+      "slug": "street-fighter-ii",
+      "title": "Street Fighter II: The World Warrior",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/street-fighter-ii.jpg",
+      "sourceDomain": "local"
+    },
+    "the-legend-of-zelda-a-link-to-the-past": {
+      "slug": "the-legend-of-zelda-a-link-to-the-past",
+      "title": "The Legend of Zelda: A Link to the Past",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/the-legend-of-zelda-a-link-to-the-past.jpg",
+      "sourceDomain": "local"
+    },
+    "alone-in-the-dark": {
+      "slug": "alone-in-the-dark",
+      "title": "Alone in the Dark",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/alone-in-the-dark.jpg",
+      "sourceDomain": "local"
+    },
+    "dune-ii": {
+      "slug": "dune-ii",
+      "title": "Dune II: The Building of a Dynasty",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/dune-ii.jpg",
+      "sourceDomain": "local"
+    },
+    "mortal-kombat": {
+      "slug": "mortal-kombat",
+      "title": "Mortal Kombat",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/mortal-kombat.jpg",
+      "sourceDomain": "local"
+    },
+    "sonic-the-hedgehog-2": {
+      "slug": "sonic-the-hedgehog-2",
+      "title": "Sonic the Hedgehog 2",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/sonic-the-hedgehog-2.jpg",
+      "sourceDomain": "local"
+    },
+    "super-mario-kart": {
+      "slug": "super-mario-kart",
+      "title": "Super Mario Kart",
+      "status": "verified",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/3/38/Supermariokart_box.JPG",
+      "sourceDomain": "upload.wikimedia.org",
+      "mime": "image/jpeg",
+      "imageType": "remote",
+      "verificationStatus": "verified",
+      "verificationNotes": "Verified HTTP 200 [image/jpeg]"
+    },
+    "wolfenstein-3d": {
+      "slug": "wolfenstein-3d",
+      "title": "Wolfenstein 3D",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/wolfenstein-3d.jpg",
+      "sourceDomain": "local"
+    },
+    "castlevania-rondo-of-blood": {
+      "slug": "castlevania-rondo-of-blood",
+      "title": "Castlevania: Rondo of Blood",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/castlevania-rondo-of-blood.jpg",
+      "sourceDomain": "local"
+    },
+    "doom": {
+      "slug": "doom",
+      "title": "Doom",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/doom.jpg",
+      "sourceDomain": "local"
+    },
+    "myst": {
+      "slug": "myst",
+      "title": "Myst",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/myst.jpg",
+      "sourceDomain": "local"
+    },
+    "secret-of-mana": {
+      "slug": "secret-of-mana",
+      "title": "Secret of Mana",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/secret-of-mana.jpg",
+      "sourceDomain": "local"
+    },
+    "simcity-2000": {
+      "slug": "simcity-2000",
+      "title": "SimCity 2000",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "star-fox": {
+      "slug": "star-fox",
+      "title": "Star Fox",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/star-fox.jpg",
+      "sourceDomain": "local"
+    },
+    "virtua-fighter": {
+      "slug": "virtua-fighter",
+      "title": "Virtua Fighter",
+      "status": "verified",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/b/bb/VirtuaFighter_arcadeflyer.png",
+      "sourceDomain": "upload.wikimedia.org",
+      "mime": "image/png",
+      "imageType": "remote",
+      "verificationStatus": "verified",
+      "verificationNotes": "Verified HTTP 200 [image/png]"
+    },
+    "daytona-usa": {
+      "slug": "daytona-usa",
+      "title": "Daytona USA",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 404"
+    },
+    "donkey-kong-country": {
+      "slug": "donkey-kong-country",
+      "title": "Donkey Kong Country",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/donkey-kong-country.jpg",
+      "sourceDomain": "local"
+    },
+    "doom-ii-hell-on-earth": {
+      "slug": "doom-ii-hell-on-earth",
+      "title": "Doom II: Hell on Earth",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "earthbound": {
+      "slug": "earthbound",
+      "title": "EarthBound",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/earthbound.jpg",
+      "sourceDomain": "local"
+    },
+    "final-fantasy-vi": {
+      "slug": "final-fantasy-vi",
+      "title": "Final Fantasy VI",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/final-fantasy-vi.jpg",
+      "sourceDomain": "local"
+    },
+    "super-metroid": {
+      "slug": "super-metroid",
+      "title": "Super Metroid",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/super-metroid.jpg",
+      "sourceDomain": "local"
+    },
+    "chrono-trigger": {
+      "slug": "chrono-trigger",
+      "title": "Chrono Trigger",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/chrono-trigger.jpg",
+      "sourceDomain": "local"
+    },
+    "command-conquer": {
+      "slug": "command-conquer",
+      "title": "Command & Conquer",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/command-conquer.jpg",
+      "sourceDomain": "local"
+    },
+    "panzer-dragoon": {
+      "slug": "panzer-dragoon",
+      "title": "Panzer Dragoon",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/panzer-dragoon.jpg",
+      "sourceDomain": "local"
+    },
+    "sega-rally-championship": {
+      "slug": "sega-rally-championship",
+      "title": "Sega Rally Championship",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 404"
+    },
+    "warcraft-ii-tides-of-darkness": {
+      "slug": "warcraft-ii-tides-of-darkness",
+      "title": "Warcraft II: Tides of Darkness",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "wipeout": {
+      "slug": "wipeout",
+      "title": "WipEout",
+      "status": "verified",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/c/c3/WipEoutCover.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "mime": "image/jpeg",
+      "imageType": "remote",
+      "verificationStatus": "verified",
+      "verificationNotes": "Verified HTTP 200 [image/jpeg]"
+    },
+    "civilization-ii": {
+      "slug": "civilization-ii",
+      "title": "Civilization II",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/civilization-ii.jpg",
+      "sourceDomain": "local"
+    },
+    "command-and-conquer-red-alert": {
+      "slug": "command-and-conquer-red-alert",
+      "title": "Command & Conquer: Red Alert",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/command-and-conquer-red-alert.jpg",
+      "sourceDomain": "local"
+    },
+    "crash-bandicoot": {
+      "slug": "crash-bandicoot",
+      "title": "Crash Bandicoot",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/crash-bandicoot.jpg",
+      "sourceDomain": "local"
+    },
+    "diablo": {
+      "slug": "diablo",
+      "title": "Diablo",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/diablo.jpg",
+      "sourceDomain": "local"
+    },
+    "metal-slug": {
+      "slug": "metal-slug",
+      "title": "Metal Slug: Super Vehicle-001",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/metal-slug.jpg",
+      "sourceDomain": "local"
+    },
+    "nights-into-dreams": {
+      "slug": "nights-into-dreams",
+      "title": "Nights into Dreams",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "pokemon-red-blue": {
+      "slug": "pokemon-red-blue",
+      "title": "Pokémon Red and Blue",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/pokemon-red-blue.jpg",
+      "sourceDomain": "local"
+    },
+    "quake": {
+      "slug": "quake",
+      "title": "Quake",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/quake.jpg",
+      "sourceDomain": "local"
+    },
+    "resident-evil": {
+      "slug": "resident-evil",
+      "title": "Resident Evil",
+      "status": "verified",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a6/Resident_Evil_1_cover.png",
+      "sourceDomain": "upload.wikimedia.org",
+      "mime": "image/png",
+      "imageType": "remote",
+      "verificationStatus": "verified",
+      "verificationNotes": "Verified HTTP 200 [image/png]"
+    },
+    "super-mario-64": {
+      "slug": "super-mario-64",
+      "title": "Super Mario 64",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/super-mario-64.jpg",
+      "sourceDomain": "local"
+    },
+    "tomb-raider": {
+      "slug": "tomb-raider",
+      "title": "Tomb Raider",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/tomb-raider.jpg",
+      "sourceDomain": "local"
+    },
+    "castlevania-symphony-of-the-night": {
+      "slug": "castlevania-symphony-of-the-night",
+      "title": "Castlevania: Symphony of the Night",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/castlevania-symphony-of-the-night.jpg",
+      "sourceDomain": "local"
+    },
+    "fallout": {
+      "slug": "fallout",
+      "title": "Fallout: A Post Nuclear Role Playing Game",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/fallout.jpg",
+      "sourceDomain": "local"
+    },
+    "final-fantasy-vii": {
+      "slug": "final-fantasy-vii",
+      "title": "Final Fantasy VII",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/final-fantasy-vii.jpg",
+      "sourceDomain": "local"
+    },
+    "goldeneye-007": {
+      "slug": "goldeneye-007",
+      "title": "GoldenEye 007",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/goldeneye-007.jpg",
+      "sourceDomain": "local"
+    },
+    "gran-turismo": {
+      "slug": "gran-turismo",
+      "title": "Gran Turismo",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/gran-turismo.jpg",
+      "sourceDomain": "local"
+    },
+    "quake-ii": {
+      "slug": "quake-ii",
+      "title": "Quake II",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/quake-ii.jpg",
+      "sourceDomain": "local"
+    },
+    "riven": {
+      "slug": "riven",
+      "title": "Riven: The Sequel to Myst",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 404"
+    },
+    "the-curse-of-monkey-island": {
+      "slug": "the-curse-of-monkey-island",
+      "title": "The Curse of Monkey Island",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/the-curse-of-monkey-island.jpg",
+      "sourceDomain": "local"
+    },
+    "total-annihilation": {
+      "slug": "total-annihilation",
+      "title": "Total Annihilation",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/total-annihilation.jpg",
+      "sourceDomain": "local"
+    },
+    "baldur-s-gate": {
+      "slug": "baldur-s-gate",
+      "title": "Baldur's Gate",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/baldur-s-gate.jpg",
+      "sourceDomain": "local"
+    },
+    "banjo-kazooie": {
+      "slug": "banjo-kazooie",
+      "title": "Banjo-Kazooie",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/banjo-kazooie.jpg",
+      "sourceDomain": "local"
+    },
+    "fallout-2": {
+      "slug": "fallout-2",
+      "title": "Fallout 2",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/fallout-2.jpg",
+      "sourceDomain": "local"
+    },
+    "grim-fandango": {
+      "slug": "grim-fandango",
+      "title": "Grim Fandango",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/grim-fandango.jpg",
+      "sourceDomain": "local"
+    },
+    "half-life": {
+      "slug": "half-life",
+      "title": "Half-Life",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/half-life.jpg",
+      "sourceDomain": "local"
+    },
+    "metal-gear-solid": {
+      "slug": "metal-gear-solid",
+      "title": "Metal Gear Solid",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/metal-gear-solid.jpg",
+      "sourceDomain": "local"
+    },
+    "panzer-dragoon-saga": {
+      "slug": "panzer-dragoon-saga",
+      "title": "Panzer Dragoon Saga",
+      "status": "verified",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/6/64/PanzerDragoonSagaBox.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "mime": "image/jpeg",
+      "imageType": "remote",
+      "verificationStatus": "verified",
+      "verificationNotes": "Verified HTTP 200 [image/jpeg]"
+    },
+    "resident-evil-2": {
+      "slug": "resident-evil-2",
+      "title": "Resident Evil 2",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/resident-evil-2.jpg",
+      "sourceDomain": "local"
+    },
+    "starcraft": {
+      "slug": "starcraft",
+      "title": "StarCraft",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/starcraft.jpg",
+      "sourceDomain": "local"
+    },
+    "the-legend-of-zelda-ocarina-of-time": {
+      "slug": "the-legend-of-zelda-ocarina-of-time",
+      "title": "The Legend of Zelda: Ocarina of Time",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/the-legend-of-zelda-ocarina-of-time.jpg",
+      "sourceDomain": "local"
+    },
+    "thief-the-dark-project": {
+      "slug": "thief-the-dark-project",
+      "title": "Thief: The Dark Project",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/thief-the-dark-project.jpg",
+      "sourceDomain": "local"
+    },
+    "unreal": {
+      "slug": "unreal",
+      "title": "Unreal",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "age-of-empires-ii-the-age-of-kings": {
+      "slug": "age-of-empires-ii-the-age-of-kings",
+      "title": "Age of Empires II: The Age of Kings",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "everquest": {
+      "slug": "everquest",
+      "title": "EverQuest",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/everquest.jpg",
+      "sourceDomain": "local"
+    },
+    "heroes-of-might-and-magic-iii": {
+      "slug": "heroes-of-might-and-magic-iii",
+      "title": "Heroes of Might and Magic III",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "homeworld": {
+      "slug": "homeworld",
+      "title": "Homeworld",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/homeworld.jpg",
+      "sourceDomain": "local"
+    },
+    "planescape-torment": {
+      "slug": "planescape-torment",
+      "title": "Planescape: Torment",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/planescape-torment.jpg",
+      "sourceDomain": "local"
+    },
+    "quake-iii-arena": {
+      "slug": "quake-iii-arena",
+      "title": "Quake III Arena",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/quake-iii-arena.jpg",
+      "sourceDomain": "local"
+    },
+    "rollercoaster-tycoon": {
+      "slug": "rollercoaster-tycoon",
+      "title": "RollerCoaster Tycoon",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/rollercoaster-tycoon.jpg",
+      "sourceDomain": "local"
+    },
+    "shenmue": {
+      "slug": "shenmue",
+      "title": "Shenmue",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/shenmue.jpg",
+      "sourceDomain": "local"
+    },
+    "silent-hill": {
+      "slug": "silent-hill",
+      "title": "Silent Hill",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/silent-hill.jpg",
+      "sourceDomain": "local"
+    },
+    "soulcalibur": {
+      "slug": "soulcalibur",
+      "title": "Soulcalibur",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/soulcalibur.jpg",
+      "sourceDomain": "local"
+    },
+    "super-smash-bros": {
+      "slug": "super-smash-bros",
+      "title": "Super Smash Bros.",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/super-smash-bros.jpg",
+      "sourceDomain": "local"
+    },
+    "system-shock-2": {
+      "slug": "system-shock-2",
+      "title": "System Shock 2",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/system-shock-2.jpg",
+      "sourceDomain": "local"
+    },
+    "unreal-tournament": {
+      "slug": "unreal-tournament",
+      "title": "Unreal Tournament",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "baldur-s-gate-ii-shadows-of-amn": {
+      "slug": "baldur-s-gate-ii-shadows-of-amn",
+      "title": "Baldur's Gate II: Shadows of Amn",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "command-and-conquer-red-alert-2": {
+      "slug": "command-and-conquer-red-alert-2",
+      "title": "Command & Conquer: Red Alert 2",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/command-and-conquer-red-alert-2.jpg",
+      "sourceDomain": "local"
+    },
+    "dark-cloud": {
+      "slug": "dark-cloud",
+      "title": "Dark Cloud",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/dark-cloud.jpg",
+      "sourceDomain": "local"
+    },
+    "deus-ex": {
+      "slug": "deus-ex",
+      "title": "Deus Ex",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/deus-ex.jpg",
+      "sourceDomain": "local"
+    },
+    "diablo-ii": {
+      "slug": "diablo-ii",
+      "title": "Diablo II",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "phantasy-star-online": {
+      "slug": "phantasy-star-online",
+      "title": "Phantasy Star Online",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/phantasy-star-online.jpg",
+      "sourceDomain": "local"
+    },
+    "ssx": {
+      "slug": "ssx",
+      "title": "SSX",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "the-sims": {
+      "slug": "the-sims",
+      "title": "The Sims",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/the-sims.jpg",
+      "sourceDomain": "local"
+    },
+    "tony-hawk-s-pro-skater-2": {
+      "slug": "tony-hawk-s-pro-skater-2",
+      "title": "Tony Hawk's Pro Skater 2",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/tony-hawk-s-pro-skater-2.jpg",
+      "sourceDomain": "local"
+    },
+    "ace-combat-04-shattered-skies": {
+      "slug": "ace-combat-04-shattered-skies",
+      "title": "Ace Combat 04: Shattered Skies",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "advance-wars": {
+      "slug": "advance-wars",
+      "title": "Advance Wars",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "animal-crossing-gcn": {
+      "slug": "animal-crossing-gcn",
+      "title": "Animal Crossing",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/animal-crossing-gcn.jpg",
+      "sourceDomain": "local"
+    },
+    "devil-may-cry": {
+      "slug": "devil-may-cry",
+      "title": "Devil May Cry",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/devil-may-cry.jpg",
+      "sourceDomain": "local"
+    },
+    "fatal-frame": {
+      "slug": "fatal-frame",
+      "title": "Fatal Frame",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "final-fantasy-x": {
+      "slug": "final-fantasy-x",
+      "title": "Final Fantasy X",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "golden-sun": {
+      "slug": "golden-sun",
+      "title": "Golden Sun",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "gran-turismo-3-a-spec": {
+      "slug": "gran-turismo-3-a-spec",
+      "title": "Gran Turismo 3: A-Spec",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "grand-theft-auto-iii": {
+      "slug": "grand-theft-auto-iii",
+      "title": "Grand Theft Auto III",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/grand-theft-auto-iii.jpg",
+      "sourceDomain": "local"
+    },
+    "halo-combat-evolved": {
+      "slug": "halo-combat-evolved",
+      "title": "Halo: Combat Evolved",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/halo-combat-evolved.jpg",
+      "sourceDomain": "local"
+    },
+    "ico": {
+      "slug": "ico",
+      "title": "Ico",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/ico.jpg",
+      "sourceDomain": "local"
+    },
+    "jak-and-daxter-the-precursor-legacy": {
+      "slug": "jak-and-daxter-the-precursor-legacy",
+      "title": "Jak and Daxter: The Precursor Legacy",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "klonoa-2-lunatea-s-veil": {
+      "slug": "klonoa-2-lunatea-s-veil",
+      "title": "Klonoa 2: Lunatea's Veil",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "luigi-s-mansion": {
+      "slug": "luigi-s-mansion",
+      "title": "Luigi's Mansion",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 404"
+    },
+    "max-payne": {
+      "slug": "max-payne",
+      "title": "Max Payne",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/max-payne.jpg",
+      "sourceDomain": "local"
+    },
+    "metal-gear-solid-2-sons-of-liberty": {
+      "slug": "metal-gear-solid-2-sons-of-liberty",
+      "title": "Metal Gear Solid 2: Sons of Liberty",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/metal-gear-solid-2-sons-of-liberty.jpg",
+      "sourceDomain": "local"
+    },
+    "onimusha-warlords": {
+      "slug": "onimusha-warlords",
+      "title": "Onimusha: Warlords",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/onimusha-warlords.jpg",
+      "sourceDomain": "local"
+    },
+    "pikmin": {
+      "slug": "pikmin",
+      "title": "Pikmin",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "ssx-tricky": {
+      "slug": "ssx-tricky",
+      "title": "SSX Tricky",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "silent-hill-2": {
+      "slug": "silent-hill-2",
+      "title": "Silent Hill 2",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/silent-hill-2.jpg",
+      "sourceDomain": "local"
+    },
+    "super-monkey-ball": {
+      "slug": "super-monkey-ball",
+      "title": "Super Monkey Ball",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/super-monkey-ball.jpg",
+      "sourceDomain": "local"
+    },
+    "super-smash-bros-melee": {
+      "slug": "super-smash-bros-melee",
+      "title": "Super Smash Bros. Melee",
+      "status": "verified",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/7/75/Super_Smash_Bros_Melee_box_art.png",
+      "sourceDomain": "upload.wikimedia.org",
+      "mime": "image/png",
+      "imageType": "remote",
+      "verificationStatus": "verified",
+      "verificationNotes": "Verified HTTP 200 [image/png]"
+    },
+    "tony-hawk-s-pro-skater-3": {
+      "slug": "tony-hawk-s-pro-skater-3",
+      "title": "Tony Hawk's Pro Skater 3",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "twisted-metal-black": {
+      "slug": "twisted-metal-black",
+      "title": "Twisted Metal: Black",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "dark-cloud-2": {
+      "slug": "dark-cloud-2",
+      "title": "Dark Cloud 2",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "eternal-darkness-sanity-s-requiem": {
+      "slug": "eternal-darkness-sanity-s-requiem",
+      "title": "Eternal Darkness: Sanity's Requiem",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "grand-theft-auto-vice-city": {
+      "slug": "grand-theft-auto-vice-city",
+      "title": "Grand Theft Auto: Vice City",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/grand-theft-auto-vice-city.jpg",
+      "sourceDomain": "local"
+    },
+    "kingdom-hearts": {
+      "slug": "kingdom-hearts",
+      "title": "Kingdom Hearts",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/kingdom-hearts.jpg",
+      "sourceDomain": "local"
+    },
+    "metroid-fusion": {
+      "slug": "metroid-fusion",
+      "title": "Metroid Fusion",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "metroid-prime": {
+      "slug": "metroid-prime",
+      "title": "Metroid Prime",
+      "status": "verified",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/b/ba/MetroidPrimebox.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "mime": "image/jpeg",
+      "imageType": "remote",
+      "verificationStatus": "verified",
+      "verificationNotes": "Verified HTTP 200 [image/jpeg]"
+    },
+    "ratchet-clank": {
+      "slug": "ratchet-clank",
+      "title": "Ratchet & Clank",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/ratchet-clank.jpg",
+      "sourceDomain": "local"
+    },
+    "socom-u-s-navy-seals": {
+      "slug": "socom-u-s-navy-seals",
+      "title": "SOCOM: U.S. Navy SEALs",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "sly-cooper-and-the-thievius-raccoonus": {
+      "slug": "sly-cooper-and-the-thievius-raccoonus",
+      "title": "Sly Cooper and the Thievius Raccoonus",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "suikoden-iii": {
+      "slug": "suikoden-iii",
+      "title": "Suikoden III",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "super-mario-sunshine": {
+      "slug": "super-mario-sunshine",
+      "title": "Super Mario Sunshine",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "the-elder-scrolls-iii-morrowind": {
+      "slug": "the-elder-scrolls-iii-morrowind",
+      "title": "The Elder Scrolls III: Morrowind",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/the-elder-scrolls-iii-morrowind.jpg",
+      "sourceDomain": "local"
+    },
+    "the-legend-of-zelda-the-wind-waker": {
+      "slug": "the-legend-of-zelda-the-wind-waker",
+      "title": "The Legend of Zelda: The Wind Waker",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/the-legend-of-zelda-the-wind-waker.jpg",
+      "sourceDomain": "local"
+    },
+    "timesplitters-2": {
+      "slug": "timesplitters-2",
+      "title": "TimeSplitters 2",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 404"
+    },
+    "tony-hawk-s-pro-skater-4": {
+      "slug": "tony-hawk-s-pro-skater-4",
+      "title": "Tony Hawk's Pro Skater 4",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 404"
+    },
+    "virtua-fighter-4-evolution": {
+      "slug": "virtua-fighter-4-evolution",
+      "title": "Virtua Fighter 4: Evolution",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "warcraft-iii-reign-of-chaos": {
+      "slug": "warcraft-iii-reign-of-chaos",
+      "title": "Warcraft III: Reign of Chaos",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "wild-arms-3": {
+      "slug": "wild-arms-3",
+      "title": "Wild Arms 3",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "xenosaga-episode-i-der-wille-zur-macht": {
+      "slug": "xenosaga-episode-i-der-wille-zur-macht",
+      "title": "Xenosaga Episode I: Der Wille zur Macht",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "beyond-good-and-evil": {
+      "slug": "beyond-good-and-evil",
+      "title": "Beyond Good & Evil",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/beyond-good-and-evil.jpg",
+      "sourceDomain": "local"
+    },
+    "castlevania-aria-of-sorrow": {
+      "slug": "castlevania-aria-of-sorrow",
+      "title": "Castlevania: Aria of Sorrow",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "disgaea-hour-of-darkness": {
+      "slug": "disgaea-hour-of-darkness",
+      "title": "Disgaea: Hour of Darkness",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "f-zero-gx": {
+      "slug": "f-zero-gx",
+      "title": "F-Zero GX",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "fatal-frame-ii-crimson-butterfly": {
+      "slug": "fatal-frame-ii-crimson-butterfly",
+      "title": "Fatal Frame II: Crimson Butterfly",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 404"
+    },
+    "jak-ii": {
+      "slug": "jak-ii",
+      "title": "Jak II",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "manhunt": {
+      "slug": "manhunt",
+      "title": "Manhunt",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "mario-and-luigi-superstar-saga": {
+      "slug": "mario-and-luigi-superstar-saga",
+      "title": "Mario & Luigi: Superstar Saga",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "need-for-speed-underground": {
+      "slug": "need-for-speed-underground",
+      "title": "Need for Speed: Underground",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "prince-of-persia-the-sands-of-time": {
+      "slug": "prince-of-persia-the-sands-of-time",
+      "title": "Prince of Persia: The Sands of Time",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/prince-of-persia-the-sands-of-time.jpg",
+      "sourceDomain": "local"
+    },
+    "ratchet-and-clank-going-commando": {
+      "slug": "ratchet-and-clank-going-commando",
+      "title": "Ratchet & Clank: Going Commando",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "socom-ii-u-s-navy-seals": {
+      "slug": "socom-ii-u-s-navy-seals",
+      "title": "SOCOM II: U.S. Navy SEALs",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "ssx-3": {
+      "slug": "ssx-3",
+      "title": "SSX 3",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "shin-megami-tensei-nocturne": {
+      "slug": "shin-megami-tensei-nocturne",
+      "title": "Shin Megami Tensei III: Nocturne",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/shin-megami-tensei-nocturne.jpg",
+      "sourceDomain": "local"
+    },
+    "silent-hill-3": {
+      "slug": "silent-hill-3",
+      "title": "Silent Hill 3",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "soulcalibur-ii": {
+      "slug": "soulcalibur-ii",
+      "title": "Soulcalibur II",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/soulcalibur-ii.jpg",
+      "sourceDomain": "local"
+    },
+    "star-ocean-till-the-end-of-time": {
+      "slug": "star-ocean-till-the-end-of-time",
+      "title": "Star Ocean: Till the End of Time",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "star-wars-knights-of-the-old-republic": {
+      "slug": "star-wars-knights-of-the-old-republic",
+      "title": "Star Wars: Knights of the Old Republic",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/star-wars-knights-of-the-old-republic.jpg",
+      "sourceDomain": "local"
+    },
+    "tales-of-symphonia": {
+      "slug": "tales-of-symphonia",
+      "title": "Tales of Symphonia",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/tales-of-symphonia.jpg",
+      "sourceDomain": "local"
+    },
+    "tony-hawk-s-underground": {
+      "slug": "tony-hawk-s-underground",
+      "title": "Tony Hawk's Underground",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "viewtiful-joe": {
+      "slug": "viewtiful-joe",
+      "title": "Viewtiful Joe",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "zone-of-the-enders-the-2nd-runner": {
+      "slug": "zone-of-the-enders-the-2nd-runner",
+      "title": "Zone of the Enders: The 2nd Runner",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/zone-of-the-enders-the-2nd-runner.jpg",
+      "sourceDomain": "local"
+    },
+    "ace-combat-5-the-unsung-war": {
+      "slug": "ace-combat-5-the-unsung-war",
+      "title": "Ace Combat 5: The Unsung War",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 404"
+    },
+    "burnout-3-takedown": {
+      "slug": "burnout-3-takedown",
+      "title": "Burnout 3: Takedown",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "champions-of-norrath": {
+      "slug": "champions-of-norrath",
+      "title": "Champions of Norrath",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "dragon-quest-viii-journey-of-the-cursed-king": {
+      "slug": "dragon-quest-viii-journey-of-the-cursed-king",
+      "title": "Dragon Quest VIII: Journey of the Cursed King",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "fable": {
+      "slug": "fable",
+      "title": "Fable",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "gran-turismo-4": {
+      "slug": "gran-turismo-4",
+      "title": "Gran Turismo 4",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "grand-theft-auto-san-andreas": {
+      "slug": "grand-theft-auto-san-andreas",
+      "title": "Grand Theft Auto: San Andreas",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/grand-theft-auto-san-andreas.jpg",
+      "sourceDomain": "local"
+    },
+    "half-life-2": {
+      "slug": "half-life-2",
+      "title": "Half-Life 2",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/half-life-2.jpg",
+      "sourceDomain": "local"
+    },
+    "halo-2": {
+      "slug": "halo-2",
+      "title": "Halo 2",
+      "status": "verified",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/9/92/Halo2-cover.png",
+      "sourceDomain": "upload.wikimedia.org",
+      "mime": "image/png",
+      "imageType": "remote",
+      "verificationStatus": "verified",
+      "verificationNotes": "Verified HTTP 200 [image/png]"
+    },
+    "jak-3": {
+      "slug": "jak-3",
+      "title": "Jak 3",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 404"
+    },
+    "katamari-damacy": {
+      "slug": "katamari-damacy",
+      "title": "Katamari Damacy",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/katamari-damacy.jpg",
+      "sourceDomain": "local"
+    },
+    "metal-gear-solid-3-snake-eater": {
+      "slug": "metal-gear-solid-3-snake-eater",
+      "title": "Metal Gear Solid 3: Snake Eater",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/metal-gear-solid-3-snake-eater.jpg",
+      "sourceDomain": "local"
+    },
+    "metroid-prime-2-echoes": {
+      "slug": "metroid-prime-2-echoes",
+      "title": "Metroid Prime 2: Echoes",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "metroid-zero-mission": {
+      "slug": "metroid-zero-mission",
+      "title": "Metroid: Zero Mission",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "ninja-gaiden-2004": {
+      "slug": "ninja-gaiden-2004",
+      "title": "Ninja Gaiden",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "onimusha-3-demon-siege": {
+      "slug": "onimusha-3-demon-siege",
+      "title": "Onimusha 3: Demon Siege",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "paper-mario-the-thousand-year-door": {
+      "slug": "paper-mario-the-thousand-year-door",
+      "title": "Paper Mario: The Thousand-Year Door",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "pikmin-2": {
+      "slug": "pikmin-2",
+      "title": "Pikmin 2",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "pokemon-emerald": {
+      "slug": "pokemon-emerald",
+      "title": "Pokemon Emerald",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 404"
+    },
+    "prince-of-persia-warrior-within": {
+      "slug": "prince-of-persia-warrior-within",
+      "title": "Prince of Persia: Warrior Within",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/prince-of-persia-warrior-within.jpg",
+      "sourceDomain": "local"
+    },
+    "ratchet-and-clank-up-your-arsenal": {
+      "slug": "ratchet-and-clank-up-your-arsenal",
+      "title": "Ratchet & Clank: Up Your Arsenal",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "silent-hill-4-the-room": {
+      "slug": "silent-hill-4-the-room",
+      "title": "Silent Hill 4: The Room",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "sly-2-band-of-thieves": {
+      "slug": "sly-2-band-of-thieves",
+      "title": "Sly 2: Band of Thieves",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "spider-man-2-2004": {
+      "slug": "spider-man-2-2004",
+      "title": "Spider-Man 2",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "star-wars-battlefront-2004": {
+      "slug": "star-wars-battlefront-2004",
+      "title": "Star Wars: Battlefront",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/star-wars-battlefront-2004.jpg",
+      "sourceDomain": "local"
+    },
+    "the-legend-of-zelda-the-minish-cap": {
+      "slug": "the-legend-of-zelda-the-minish-cap",
+      "title": "The Legend of Zelda: The Minish Cap",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "world-of-warcraft": {
+      "slug": "world-of-warcraft",
+      "title": "World of Warcraft",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/world-of-warcraft.jpg",
+      "sourceDomain": "local"
+    },
+    "burnout-revenge": {
+      "slug": "burnout-revenge",
+      "title": "Burnout Revenge",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 404"
+    },
+    "civilization-iv": {
+      "slug": "civilization-iv",
+      "title": "Civilization IV",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/civilization-iv.jpg",
+      "sourceDomain": "local"
+    },
+    "devil-may-cry-3-dante-s-awakening": {
+      "slug": "devil-may-cry-3-dante-s-awakening",
+      "title": "Devil May Cry 3: Dante's Awakening",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "god-of-war": {
+      "slug": "god-of-war",
+      "title": "God of War",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/god-of-war.jpg",
+      "sourceDomain": "local"
+    },
+    "guitar-hero": {
+      "slug": "guitar-hero",
+      "title": "Guitar Hero",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "kingdom-hearts-ii": {
+      "slug": "kingdom-hearts-ii",
+      "title": "Kingdom Hearts II",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/kingdom-hearts-ii.jpg",
+      "sourceDomain": "local"
+    },
+    "mercenaries-playground-of-destruction": {
+      "slug": "mercenaries-playground-of-destruction",
+      "title": "Mercenaries: Playground of Destruction",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "midnight-club-3-dub-edition": {
+      "slug": "midnight-club-3-dub-edition",
+      "title": "Midnight Club 3: DUB Edition",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "need-for-speed-most-wanted-2005": {
+      "slug": "need-for-speed-most-wanted-2005",
+      "title": "Need for Speed: Most Wanted",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/need-for-speed-most-wanted-2005.jpg",
+      "sourceDomain": "local"
+    },
+    "ninja-gaiden-black": {
+      "slug": "ninja-gaiden-black",
+      "title": "Ninja Gaiden Black",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 404"
+    },
+    "prince-of-persia-the-two-thrones": {
+      "slug": "prince-of-persia-the-two-thrones",
+      "title": "Prince of Persia: The Two Thrones",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/prince-of-persia-the-two-thrones.jpg",
+      "sourceDomain": "local"
+    },
+    "psychonauts": {
+      "slug": "psychonauts",
+      "title": "Psychonauts",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/psychonauts.jpg",
+      "sourceDomain": "local"
+    },
+    "resident-evil-4": {
+      "slug": "resident-evil-4",
+      "title": "Resident Evil 4",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/resident-evil-4.jpg",
+      "sourceDomain": "local"
+    },
+    "shadow-of-the-colossus": {
+      "slug": "shadow-of-the-colossus",
+      "title": "Shadow of the Colossus",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/shadow-of-the-colossus.jpg",
+      "sourceDomain": "local"
+    },
+    "sly-3-honor-among-thieves": {
+      "slug": "sly-3-honor-among-thieves",
+      "title": "Sly 3: Honor Among Thieves",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "soulcalibur-iii": {
+      "slug": "soulcalibur-iii",
+      "title": "Soulcalibur III",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/soulcalibur-iii.jpg",
+      "sourceDomain": "local"
+    },
+    "star-wars-battlefront-ii-2005": {
+      "slug": "star-wars-battlefront-ii-2005",
+      "title": "Star Wars: Battlefront II",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/star-wars-battlefront-ii-2005.jpg",
+      "sourceDomain": "local"
+    },
+    "tekken-5": {
+      "slug": "tekken-5",
+      "title": "Tekken 5",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "the-warriors": {
+      "slug": "the-warriors",
+      "title": "The Warriors",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/the-warriors.jpg",
+      "sourceDomain": "local"
+    },
+    "timesplitters-future-perfect": {
+      "slug": "timesplitters-future-perfect",
+      "title": "TimeSplitters: Future Perfect",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 404"
+    },
+    "we-love-katamari": {
+      "slug": "we-love-katamari",
+      "title": "We Love Katamari",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/we-love-katamari.jpg",
+      "sourceDomain": "local"
+    },
+    "black": {
+      "slug": "black",
+      "title": "Black",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "blue-dragon": {
+      "slug": "blue-dragon",
+      "title": "Blue Dragon",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "bully": {
+      "slug": "bully",
+      "title": "Bully",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/bully.jpg",
+      "sourceDomain": "local"
+    },
+    "dead-rising": {
+      "slug": "dead-rising",
+      "title": "Dead Rising",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/dead-rising.jpg",
+      "sourceDomain": "local"
+    },
+    "final-fantasy-xii": {
+      "slug": "final-fantasy-xii",
+      "title": "Final Fantasy XII",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/final-fantasy-xii.jpg",
+      "sourceDomain": "local"
+    },
+    "gears-of-war": {
+      "slug": "gears-of-war",
+      "title": "Gears of War",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "god-hand": {
+      "slug": "god-hand",
+      "title": "God Hand",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/god-hand.jpg",
+      "sourceDomain": "local"
+    },
+    "guitar-hero-ii": {
+      "slug": "guitar-hero-ii",
+      "title": "Guitar Hero II",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 404"
+    },
+    "motorstorm": {
+      "slug": "motorstorm",
+      "title": "MotorStorm",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "resistance-fall-of-man": {
+      "slug": "resistance-fall-of-man",
+      "title": "Resistance: Fall of Man",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "persona-3": {
+      "slug": "persona-3",
+      "title": "Shin Megami Tensei: Persona 3",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "the-elder-scrolls-iv-oblivion": {
+      "slug": "the-elder-scrolls-iv-oblivion",
+      "title": "The Elder Scrolls IV: Oblivion",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/the-elder-scrolls-iv-oblivion.jpg",
+      "sourceDomain": "local"
+    },
+    "the-legend-of-zelda-twilight-princess": {
+      "slug": "the-legend-of-zelda-twilight-princess",
+      "title": "The Legend of Zelda: Twilight Princess",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "wii-sports": {
+      "slug": "wii-sports",
+      "title": "Wii Sports",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/wii-sports.jpg",
+      "sourceDomain": "local"
+    },
+    "okami": {
+      "slug": "okami",
+      "title": "Ōkami",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/okami.jpg",
+      "sourceDomain": "local"
+    },
+    "bioshock": {
+      "slug": "bioshock",
+      "title": "BioShock",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/bioshock.jpg",
+      "sourceDomain": "local"
+    },
+    "call-of-duty-4-modern-warfare": {
+      "slug": "call-of-duty-4-modern-warfare",
+      "title": "Call of Duty 4: Modern Warfare",
+      "status": "verified",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/5/5f/Call_of_Duty_4_Modern_Warfare.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "mime": "image/jpeg",
+      "imageType": "remote",
+      "verificationStatus": "verified",
+      "verificationNotes": "Verified HTTP 200 [image/jpeg]"
+    },
+    "crackdown": {
+      "slug": "crackdown",
+      "title": "Crackdown",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "crysis": {
+      "slug": "crysis",
+      "title": "Crysis",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "folklore": {
+      "slug": "folklore",
+      "title": "Folklore",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "god-of-war-ii": {
+      "slug": "god-of-war-ii",
+      "title": "God of War II",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/god-of-war-ii.jpg",
+      "sourceDomain": "local"
+    },
+    "halo-3": {
+      "slug": "halo-3",
+      "title": "Halo 3",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/halo-3.jpg",
+      "sourceDomain": "local"
+    },
+    "heavenly-sword": {
+      "slug": "heavenly-sword",
+      "title": "Heavenly Sword",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "lost-odyssey": {
+      "slug": "lost-odyssey",
+      "title": "Lost Odyssey",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/lost-odyssey.jpg",
+      "sourceDomain": "local"
+    },
+    "mass-effect": {
+      "slug": "mass-effect",
+      "title": "Mass Effect",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/mass-effect.jpg",
+      "sourceDomain": "local"
+    },
+    "metroid-prime-3-corruption": {
+      "slug": "metroid-prime-3-corruption",
+      "title": "Metroid Prime 3: Corruption",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 404"
+    },
+    "odin-sphere": {
+      "slug": "odin-sphere",
+      "title": "Odin Sphere",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "portal": {
+      "slug": "portal",
+      "title": "Portal",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/portal.jpg",
+      "sourceDomain": "local"
+    },
+    "ratchet-and-clank-future-tools-of-destruction": {
+      "slug": "ratchet-and-clank-future-tools-of-destruction",
+      "title": "Ratchet & Clank Future: Tools of Destruction",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "super-mario-galaxy": {
+      "slug": "super-mario-galaxy",
+      "title": "Super Mario Galaxy",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/super-mario-galaxy.jpg",
+      "sourceDomain": "local"
+    },
+    "super-paper-mario": {
+      "slug": "super-paper-mario",
+      "title": "Super Paper Mario",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "super-stardust-hd": {
+      "slug": "super-stardust-hd",
+      "title": "Super Stardust HD",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "uncharted-drake-s-fortune": {
+      "slug": "uncharted-drake-s-fortune",
+      "title": "Uncharted: Drake's Fortune",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "braid": {
+      "slug": "braid",
+      "title": "Braid",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/braid.jpg",
+      "sourceDomain": "local"
+    },
+    "burnout-paradise": {
+      "slug": "burnout-paradise",
+      "title": "Burnout Paradise",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/burnout-paradise.jpg",
+      "sourceDomain": "local"
+    },
+    "dead-space": {
+      "slug": "dead-space",
+      "title": "Dead Space",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/dead-space.jpg",
+      "sourceDomain": "local"
+    },
+    "echochrome": {
+      "slug": "echochrome",
+      "title": "Echochrome",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "fable-ii": {
+      "slug": "fable-ii",
+      "title": "Fable II",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "fallout-3": {
+      "slug": "fallout-3",
+      "title": "Fallout 3",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/fallout-3.jpg",
+      "sourceDomain": "local"
+    },
+    "gears-of-war-2": {
+      "slug": "gears-of-war-2",
+      "title": "Gears of War 2",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "grand-theft-auto-iv": {
+      "slug": "grand-theft-auto-iv",
+      "title": "Grand Theft Auto IV",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/grand-theft-auto-iv.jpg",
+      "sourceDomain": "local"
+    },
+    "left-4-dead": {
+      "slug": "left-4-dead",
+      "title": "Left 4 Dead",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/left-4-dead.jpg",
+      "sourceDomain": "local"
+    },
+    "littlebigplanet": {
+      "slug": "littlebigplanet",
+      "title": "LittleBigPlanet",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "metal-gear-solid-4-guns-of-the-patriots": {
+      "slug": "metal-gear-solid-4-guns-of-the-patriots",
+      "title": "Metal Gear Solid 4: Guns of the Patriots",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 404"
+    },
+    "motorstorm-pacific-rift": {
+      "slug": "motorstorm-pacific-rift",
+      "title": "MotorStorm: Pacific Rift",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "resistance-2": {
+      "slug": "resistance-2",
+      "title": "Resistance 2",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/resistance-2.jpg",
+      "sourceDomain": "local"
+    },
+    "persona-4": {
+      "slug": "persona-4",
+      "title": "Shin Megami Tensei: Persona 4",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "siren-blood-curse": {
+      "slug": "siren-blood-curse",
+      "title": "Siren: Blood Curse",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "valkyria-chronicles": {
+      "slug": "valkyria-chronicles",
+      "title": "Valkyria Chronicles",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/valkyria-chronicles.jpg",
+      "sourceDomain": "local"
+    },
+    "wipeout-hd": {
+      "slug": "wipeout-hd",
+      "title": "WipEout HD",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "batman-arkham-asylum": {
+      "slug": "batman-arkham-asylum",
+      "title": "Batman: Arkham Asylum",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/batman-arkham-asylum.jpg",
+      "sourceDomain": "local"
+    },
+    "bayonetta": {
+      "slug": "bayonetta",
+      "title": "Bayonetta",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/bayonetta.jpg",
+      "sourceDomain": "local"
+    },
+    "borderlands": {
+      "slug": "borderlands",
+      "title": "Borderlands",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/borderlands.jpg",
+      "sourceDomain": "local"
+    },
+    "demons-souls": {
+      "slug": "demons-souls",
+      "title": "Demon's Souls",
+      "status": "verified",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/9/91/Demon%27s_Souls_Cover.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "mime": "image/jpeg",
+      "imageType": "remote",
+      "verificationStatus": "verified",
+      "verificationNotes": "Verified HTTP 200 [image/jpeg]"
+    },
+    "dragon-age-origins": {
+      "slug": "dragon-age-origins",
+      "title": "Dragon Age: Origins",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/dragon-age-origins.jpg",
+      "sourceDomain": "local"
+    },
+    "grand-theft-auto-episodes-from-liberty-city": {
+      "slug": "grand-theft-auto-episodes-from-liberty-city",
+      "title": "Grand Theft Auto: Episodes from Liberty City",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/grand-theft-auto-episodes-from-liberty-city.jpg",
+      "sourceDomain": "local"
+    },
+    "infamous": {
+      "slug": "infamous",
+      "title": "Infamous",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "killzone-2": {
+      "slug": "killzone-2",
+      "title": "Killzone 2",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "left-4-dead-2": {
+      "slug": "left-4-dead-2",
+      "title": "Left 4 Dead 2",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/left-4-dead-2.jpg",
+      "sourceDomain": "local"
+    },
+    "punch-out-wii": {
+      "slug": "punch-out-wii",
+      "title": "Punch-Out!! (Wii)",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "ratchet-and-clank-future-a-crack-in-time": {
+      "slug": "ratchet-and-clank-future-a-crack-in-time",
+      "title": "Ratchet & Clank Future: A Crack in Time",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "sin-and-punishment-star-successor": {
+      "slug": "sin-and-punishment-star-successor",
+      "title": "Sin & Punishment: Star Successor",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "skate-2": {
+      "slug": "skate-2",
+      "title": "Skate 2",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/skate-2.jpg",
+      "sourceDomain": "local"
+    },
+    "uncharted-2-among-thieves": {
+      "slug": "uncharted-2-among-thieves",
+      "title": "Uncharted 2: Among Thieves",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/uncharted-2-among-thieves.jpg",
+      "sourceDomain": "local"
+    },
+    "wii-sports-resort": {
+      "slug": "wii-sports-resort",
+      "title": "Wii Sports Resort",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "yakuza-3": {
+      "slug": "yakuza-3",
+      "title": "Yakuza 3",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/yakuza-3.jpg",
+      "sourceDomain": "local"
+    },
+    "alan-wake": {
+      "slug": "alan-wake",
+      "title": "Alan Wake",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "bioshock-2": {
+      "slug": "bioshock-2",
+      "title": "BioShock 2",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/bioshock-2.jpg",
+      "sourceDomain": "local"
+    },
+    "castlevania-lords-of-shadow": {
+      "slug": "castlevania-lords-of-shadow",
+      "title": "Castlevania: Lords of Shadow",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/castlevania-lords-of-shadow.jpg",
+      "sourceDomain": "local"
+    },
+    "darksiders": {
+      "slug": "darksiders",
+      "title": "Darksiders",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/darksiders.jpg",
+      "sourceDomain": "local"
+    },
+    "donkey-kong-country-returns": {
+      "slug": "donkey-kong-country-returns",
+      "title": "Donkey Kong Country Returns",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "enslaved-odyssey-to-the-west": {
+      "slug": "enslaved-odyssey-to-the-west",
+      "title": "Enslaved: Odyssey to the West",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/enslaved-odyssey-to-the-west.jpg",
+      "sourceDomain": "local"
+    },
+    "fallout-new-vegas": {
+      "slug": "fallout-new-vegas",
+      "title": "Fallout: New Vegas",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/fallout-new-vegas.jpg",
+      "sourceDomain": "local"
+    },
+    "god-of-war-iii": {
+      "slug": "god-of-war-iii",
+      "title": "God of War III",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/god-of-war-iii.jpg",
+      "sourceDomain": "local"
+    },
+    "gran-turismo-5": {
+      "slug": "gran-turismo-5",
+      "title": "Gran Turismo 5",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "halo-reach": {
+      "slug": "halo-reach",
+      "title": "Halo: Reach",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/halo-reach.jpg",
+      "sourceDomain": "local"
+    },
+    "heavy-rain": {
+      "slug": "heavy-rain",
+      "title": "Heavy Rain",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/heavy-rain.jpg",
+      "sourceDomain": "local"
+    },
+    "just-cause-2": {
+      "slug": "just-cause-2",
+      "title": "Just Cause 2",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "mass-effect-2": {
+      "slug": "mass-effect-2",
+      "title": "Mass Effect 2",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/mass-effect-2.jpg",
+      "sourceDomain": "local"
+    },
+    "red-dead-redemption": {
+      "slug": "red-dead-redemption",
+      "title": "Red Dead Redemption",
+      "status": "verified",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a7/Red_Dead_Redemption.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "mime": "image/jpeg",
+      "imageType": "remote",
+      "verificationStatus": "verified",
+      "verificationNotes": "Verified HTTP 200 [image/jpeg]"
+    },
+    "super-mario-galaxy-2": {
+      "slug": "super-mario-galaxy-2",
+      "title": "Super Mario Galaxy 2",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "tales-of-graces-f": {
+      "slug": "tales-of-graces-f",
+      "title": "Tales of Graces f",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "vanquish": {
+      "slug": "vanquish",
+      "title": "Vanquish",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/vanquish.jpg",
+      "sourceDomain": "local"
+    },
+    "xenoblade-chronicles": {
+      "slug": "xenoblade-chronicles",
+      "title": "Xenoblade Chronicles",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "yakuza-4": {
+      "slug": "yakuza-4",
+      "title": "Yakuza 4",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/yakuza-4.jpg",
+      "sourceDomain": "local"
+    },
+    "batman-arkham-city": {
+      "slug": "batman-arkham-city",
+      "title": "Batman: Arkham City",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/batman-arkham-city.jpg",
+      "sourceDomain": "local"
+    },
+    "dark-souls": {
+      "slug": "dark-souls",
+      "title": "Dark Souls",
+      "status": "verified",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/8/8d/Dark_Souls_Cover_Art.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "mime": "image/jpeg",
+      "imageType": "remote",
+      "verificationStatus": "verified",
+      "verificationNotes": "Verified HTTP 200 [image/jpeg]"
+    },
+    "dead-space-2": {
+      "slug": "dead-space-2",
+      "title": "Dead Space 2",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/dead-space-2.jpg",
+      "sourceDomain": "local"
+    },
+    "deus-ex-human-revolution": {
+      "slug": "deus-ex-human-revolution",
+      "title": "Deus Ex: Human Revolution",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/deus-ex-human-revolution.jpg",
+      "sourceDomain": "local"
+    },
+    "dragon-age-ii": {
+      "slug": "dragon-age-ii",
+      "title": "Dragon Age II",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/dragon-age-ii.jpg",
+      "sourceDomain": "local"
+    },
+    "gears-of-war-3": {
+      "slug": "gears-of-war-3",
+      "title": "Gears of War 3",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "infamous-2": {
+      "slug": "infamous-2",
+      "title": "Infamous 2",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "killzone-3": {
+      "slug": "killzone-3",
+      "title": "Killzone 3",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "kirby-s-return-to-dream-land": {
+      "slug": "kirby-s-return-to-dream-land",
+      "title": "Kirby's Return to Dream Land",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "l-a-noire": {
+      "slug": "l-a-noire",
+      "title": "L.A. Noire",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/l-a-noire.jpg",
+      "sourceDomain": "local"
+    },
+    "littlebigplanet-2": {
+      "slug": "littlebigplanet-2",
+      "title": "LittleBigPlanet 2",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "minecraft": {
+      "slug": "minecraft",
+      "title": "Minecraft",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 0"
+    },
+    "ni-no-kuni-wrath-of-the-white-witch": {
+      "slug": "ni-no-kuni-wrath-of-the-white-witch",
+      "title": "Ni no Kuni: Wrath of the White Witch",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/ni-no-kuni-wrath-of-the-white-witch.jpg",
+      "sourceDomain": "local"
+    },
+    "portal-2": {
+      "slug": "portal-2",
+      "title": "Portal 2",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/portal-2.jpg",
+      "sourceDomain": "local"
+    },
+    "rayman-origins": {
+      "slug": "rayman-origins",
+      "title": "Rayman Origins",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/rayman-origins.jpg",
+      "sourceDomain": "local"
+    },
+    "resistance-3": {
+      "slug": "resistance-3",
+      "title": "Resistance 3",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 404"
+    },
+    "saints-row-the-third": {
+      "slug": "saints-row-the-third",
+      "title": "Saints Row: The Third",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/saints-row-the-third.jpg",
+      "sourceDomain": "local"
+    },
+    "tales-of-xillia": {
+      "slug": "tales-of-xillia",
+      "title": "Tales of Xillia",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "the-elder-scrolls-v-skyrim": {
+      "slug": "the-elder-scrolls-v-skyrim",
+      "title": "The Elder Scrolls V: Skyrim",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/the-elder-scrolls-v-skyrim.jpg",
+      "sourceDomain": "local"
+    },
+    "the-legend-of-zelda-skyward-sword": {
+      "slug": "the-legend-of-zelda-skyward-sword",
+      "title": "The Legend of Zelda: Skyward Sword",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "uncharted-3-drake-s-deception": {
+      "slug": "uncharted-3-drake-s-deception",
+      "title": "Uncharted 3: Drake's Deception",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "binary-domain": {
+      "slug": "binary-domain",
+      "title": "Binary Domain",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/binary-domain.jpg",
+      "sourceDomain": "local"
+    },
+    "borderlands-2": {
+      "slug": "borderlands-2",
+      "title": "Borderlands 2",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/borderlands-2.jpg",
+      "sourceDomain": "local"
+    },
+    "darksiders-ii": {
+      "slug": "darksiders-ii",
+      "title": "Darksiders II",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/darksiders-ii.jpg",
+      "sourceDomain": "local"
+    },
+    "dishonored": {
+      "slug": "dishonored",
+      "title": "Dishonored",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/dishonored.jpg",
+      "sourceDomain": "local"
+    },
+    "dragon-s-dogma": {
+      "slug": "dragon-s-dogma",
+      "title": "Dragon's Dogma",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/dragon-s-dogma.jpg",
+      "sourceDomain": "local"
+    },
+    "far-cry-3": {
+      "slug": "far-cry-3",
+      "title": "Far Cry 3",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "fire-emblem-awakening": {
+      "slug": "fire-emblem-awakening",
+      "title": "Fire Emblem: Awakening",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "forza-horizon": {
+      "slug": "forza-horizon",
+      "title": "Forza Horizon",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/forza-horizon.jpg",
+      "sourceDomain": "local"
+    },
+    "hotline-miami": {
+      "slug": "hotline-miami",
+      "title": "Hotline Miami",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/hotline-miami.jpg",
+      "sourceDomain": "local"
+    },
+    "journey": {
+      "slug": "journey",
+      "title": "Journey",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/journey.jpg",
+      "sourceDomain": "local"
+    },
+    "kid-icarus-uprising": {
+      "slug": "kid-icarus-uprising",
+      "title": "Kid Icarus: Uprising",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 404"
+    },
+    "kingdoms-of-amalur-reckoning": {
+      "slug": "kingdoms-of-amalur-reckoning",
+      "title": "Kingdoms of Amalur: Reckoning",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/kingdoms-of-amalur-reckoning.jpg",
+      "sourceDomain": "local"
+    },
+    "mass-effect-3": {
+      "slug": "mass-effect-3",
+      "title": "Mass Effect 3",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/mass-effect-3.jpg",
+      "sourceDomain": "local"
+    },
+    "max-payne-3": {
+      "slug": "max-payne-3",
+      "title": "Max Payne 3",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/max-payne-3.jpg",
+      "sourceDomain": "local"
+    },
+    "playstation-all-stars-battle-royale": {
+      "slug": "playstation-all-stars-battle-royale",
+      "title": "PlayStation All-Stars Battle Royale",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "sleeping-dogs": {
+      "slug": "sleeping-dogs",
+      "title": "Sleeping Dogs",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/sleeping-dogs.jpg",
+      "sourceDomain": "local"
+    },
+    "spec-ops-the-line": {
+      "slug": "spec-ops-the-line",
+      "title": "Spec Ops: The Line",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "the-walking-dead-season-1": {
+      "slug": "the-walking-dead-season-1",
+      "title": "The Walking Dead: Season 1",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "tokyo-jungle": {
+      "slug": "tokyo-jungle",
+      "title": "Tokyo Jungle",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "twisted-metal-2012": {
+      "slug": "twisted-metal-2012",
+      "title": "Twisted Metal",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 404"
+    },
+    "yakuza-5": {
+      "slug": "yakuza-5",
+      "title": "Yakuza 5",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/yakuza-5.jpg",
+      "sourceDomain": "local"
+    },
+    "batman-arkham-origins": {
+      "slug": "batman-arkham-origins",
+      "title": "Batman: Arkham Origins",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/batman-arkham-origins.jpg",
+      "sourceDomain": "local"
+    },
+    "beyond-two-souls": {
+      "slug": "beyond-two-souls",
+      "title": "Beyond: Two Souls",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/beyond-two-souls.jpg",
+      "sourceDomain": "local"
+    },
+    "bioshock-infinite": {
+      "slug": "bioshock-infinite",
+      "title": "BioShock Infinite",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/bioshock-infinite.jpg",
+      "sourceDomain": "local"
+    },
+    "dead-space-3": {
+      "slug": "dead-space-3",
+      "title": "Dead Space 3",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/dead-space-3.jpg",
+      "sourceDomain": "local"
+    },
+    "gran-turismo-6": {
+      "slug": "gran-turismo-6",
+      "title": "Gran Turismo 6",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "grand-theft-auto-v": {
+      "slug": "grand-theft-auto-v",
+      "title": "Grand Theft Auto V",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/grand-theft-auto-v.jpg",
+      "sourceDomain": "local"
+    },
+    "guacamelee": {
+      "slug": "guacamelee",
+      "title": "Guacamelee!",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/guacamelee.jpg",
+      "sourceDomain": "local"
+    },
+    "pikmin-3": {
+      "slug": "pikmin-3",
+      "title": "Pikmin 3",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "puppeteer": {
+      "slug": "puppeteer",
+      "title": "Puppeteer",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/puppeteer.jpg",
+      "sourceDomain": "local"
+    },
+    "rayman-legends": {
+      "slug": "rayman-legends",
+      "title": "Rayman Legends",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/rayman-legends.jpg",
+      "sourceDomain": "local"
+    },
+    "super-mario-3d-world": {
+      "slug": "super-mario-3d-world",
+      "title": "Super Mario 3D World",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "the-last-of-us": {
+      "slug": "the-last-of-us",
+      "title": "The Last of Us",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/the-last-of-us.jpg",
+      "sourceDomain": "local"
+    },
+    "the-legend-of-zelda-a-link-between-worlds": {
+      "slug": "the-legend-of-zelda-a-link-between-worlds",
+      "title": "The Legend of Zelda: A Link Between Worlds",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "the-wolf-among-us": {
+      "slug": "the-wolf-among-us",
+      "title": "The Wolf Among Us",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/the-wolf-among-us.jpg",
+      "sourceDomain": "local"
+    },
+    "tomb-raider-2013": {
+      "slug": "tomb-raider-2013",
+      "title": "Tomb Raider",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/tomb-raider-2013.jpg",
+      "sourceDomain": "local"
+    },
+    "bayonetta-2": {
+      "slug": "bayonetta-2",
+      "title": "Bayonetta 2",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "captain-toad-treasure-tracker": {
+      "slug": "captain-toad-treasure-tracker",
+      "title": "Captain Toad: Treasure Tracker",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "dark-souls-ii": {
+      "slug": "dark-souls-ii",
+      "title": "Dark Souls II",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/dark-souls-ii.jpg",
+      "sourceDomain": "local"
+    },
+    "donkey-kong-country-tropical-freeze": {
+      "slug": "donkey-kong-country-tropical-freeze",
+      "title": "Donkey Kong Country: Tropical Freeze",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 404"
+    },
+    "dragon-age-inquisition": {
+      "slug": "dragon-age-inquisition",
+      "title": "Dragon Age: Inquisition",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/dragon-age-inquisition.jpg",
+      "sourceDomain": "local"
+    },
+    "infamous-second-son": {
+      "slug": "infamous-second-son",
+      "title": "Infamous Second Son",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "sunset-overdrive": {
+      "slug": "sunset-overdrive",
+      "title": "Sunset Overdrive",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/sunset-overdrive.jpg",
+      "sourceDomain": "local"
+    },
+    "bloodborne": {
+      "slug": "bloodborne",
+      "title": "Bloodborne",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/bloodborne.jpg",
+      "sourceDomain": "local"
+    },
+    "ori-and-the-blind-forest": {
+      "slug": "ori-and-the-blind-forest",
+      "title": "Ori and the Blind Forest",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/ori-and-the-blind-forest.jpg",
+      "sourceDomain": "local"
+    },
+    "the-witcher-3-wild-hunt": {
+      "slug": "the-witcher-3-wild-hunt",
+      "title": "The Witcher 3: Wild Hunt",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/the-witcher-3-wild-hunt.jpg",
+      "sourceDomain": "local"
+    },
+    "undertale": {
+      "slug": "undertale",
+      "title": "Undertale",
+      "status": "verified",
+      "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/391540/header.jpg",
+      "sourceDomain": "cdn.akamai.steamstatic.com",
+      "mime": "image/jpeg",
+      "imageType": "remote",
+      "verificationStatus": "verified",
+      "verificationNotes": "Verified HTTP 200 [image/jpeg]"
+    },
+    "until-dawn": {
+      "slug": "until-dawn",
+      "title": "Until Dawn",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/until-dawn.jpg",
+      "sourceDomain": "local"
+    },
+    "xenoblade-chronicles-x": {
+      "slug": "xenoblade-chronicles-x",
+      "title": "Xenoblade Chronicles X",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "yakuza-0": {
+      "slug": "yakuza-0",
+      "title": "Yakuza 0",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "inside": {
+      "slug": "inside",
+      "title": "Inside",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "persona-5": {
+      "slug": "persona-5",
+      "title": "Persona 5",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/persona-5.jpg",
+      "sourceDomain": "local"
+    },
+    "quantum-break": {
+      "slug": "quantum-break",
+      "title": "Quantum Break",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/quantum-break.jpg",
+      "sourceDomain": "local"
+    },
+    "ratchet-and-clank-2016": {
+      "slug": "ratchet-and-clank-2016",
+      "title": "Ratchet & Clank (2016)",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "the-last-guardian": {
+      "slug": "the-last-guardian",
+      "title": "The Last Guardian",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "titanfall-2": {
+      "slug": "titanfall-2",
+      "title": "Titanfall 2",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/titanfall-2.jpg",
+      "sourceDomain": "local"
+    },
+    "uncharted-4-a-thief-s-end": {
+      "slug": "uncharted-4-a-thief-s-end",
+      "title": "Uncharted 4: A Thief's End",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "gravity-rush-2": {
+      "slug": "gravity-rush-2",
+      "title": "Gravity Rush 2",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 404"
+    },
+    "hollow-knight": {
+      "slug": "hollow-knight",
+      "title": "Hollow Knight",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/hollow-knight.jpg",
+      "sourceDomain": "local"
+    },
+    "horizon-zero-dawn": {
+      "slug": "horizon-zero-dawn",
+      "title": "Horizon Zero Dawn",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "nier-automata": {
+      "slug": "nier-automata",
+      "title": "NieR: Automata",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/nier-automata.jpg",
+      "sourceDomain": "local"
+    },
+    "nioh": {
+      "slug": "nioh",
+      "title": "Nioh",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "resident-evil-7-biohazard": {
+      "slug": "resident-evil-7-biohazard",
+      "title": "Resident Evil 7: Biohazard",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/resident-evil-7-biohazard.jpg",
+      "sourceDomain": "local"
+    },
+    "splatoon-2": {
+      "slug": "splatoon-2",
+      "title": "Splatoon 2",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "super-mario-odyssey": {
+      "slug": "super-mario-odyssey",
+      "title": "Super Mario Odyssey",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/super-mario-odyssey.jpg",
+      "sourceDomain": "local"
+    },
+    "the-legend-of-zelda-breath-of-the-wild": {
+      "slug": "the-legend-of-zelda-breath-of-the-wild",
+      "title": "The Legend of Zelda: Breath of the Wild",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/the-legend-of-zelda-breath-of-the-wild.jpg",
+      "sourceDomain": "local"
+    },
+    "what-remains-of-edith-finch": {
+      "slug": "what-remains-of-edith-finch",
+      "title": "What Remains of Edith Finch",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/what-remains-of-edith-finch.jpg",
+      "sourceDomain": "local"
+    },
+    "celeste": {
+      "slug": "celeste",
+      "title": "Celeste",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/celeste.jpg",
+      "sourceDomain": "local"
+    },
+    "dead-cells": {
+      "slug": "dead-cells",
+      "title": "Dead Cells",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/dead-cells.jpg",
+      "sourceDomain": "local"
+    },
+    "detroit-become-human": {
+      "slug": "detroit-become-human",
+      "title": "Detroit: Become Human",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/detroit-become-human.jpg",
+      "sourceDomain": "local"
+    },
+    "forza-horizon-4": {
+      "slug": "forza-horizon-4",
+      "title": "Forza Horizon 4",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/forza-horizon-4.jpg",
+      "sourceDomain": "local"
+    },
+    "god-of-war-2018": {
+      "slug": "god-of-war-2018",
+      "title": "God of War",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/god-of-war-2018.jpg",
+      "sourceDomain": "local"
+    },
+    "judgment": {
+      "slug": "judgment",
+      "title": "Judgment",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/judgment.jpg",
+      "sourceDomain": "local"
+    },
+    "marvel-s-spider-man": {
+      "slug": "marvel-s-spider-man",
+      "title": "Marvel's Spider-Man",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/marvel-s-spider-man.jpg",
+      "sourceDomain": "local"
+    },
+    "monster-hunter-world": {
+      "slug": "monster-hunter-world",
+      "title": "Monster Hunter: World",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/monster-hunter-world.jpg",
+      "sourceDomain": "local"
+    },
+    "red-dead-redemption-2": {
+      "slug": "red-dead-redemption-2",
+      "title": "Red Dead Redemption 2",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/red-dead-redemption-2.jpg",
+      "sourceDomain": "local"
+    },
+    "sea-of-thieves": {
+      "slug": "sea-of-thieves",
+      "title": "Sea of Thieves",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "shadow-of-the-colossus-2018": {
+      "slug": "shadow-of-the-colossus-2018",
+      "title": "Shadow of the Colossus (2018)",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "subnautica": {
+      "slug": "subnautica",
+      "title": "Subnautica",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "super-smash-bros-ultimate": {
+      "slug": "super-smash-bros-ultimate",
+      "title": "Super Smash Bros. Ultimate",
+      "status": "verified",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/5/50/Super_Smash_Bros._Ultimate.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "mime": "image/jpeg",
+      "imageType": "remote",
+      "verificationStatus": "verified",
+      "verificationNotes": "Verified HTTP 200 [image/jpeg]"
+    },
+    "tetris-effect": {
+      "slug": "tetris-effect",
+      "title": "Tetris Effect",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "control": {
+      "slug": "control",
+      "title": "Control",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "days-gone": {
+      "slug": "days-gone",
+      "title": "Days Gone",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/days-gone.jpg",
+      "sourceDomain": "local"
+    },
+    "death-stranding": {
+      "slug": "death-stranding",
+      "title": "Death Stranding",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/death-stranding.jpg",
+      "sourceDomain": "local"
+    },
+    "disco-elysium": {
+      "slug": "disco-elysium",
+      "title": "Disco Elysium",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "fire-emblem-three-houses": {
+      "slug": "fire-emblem-three-houses",
+      "title": "Fire Emblem: Three Houses",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "luigi-s-mansion-3": {
+      "slug": "luigi-s-mansion-3",
+      "title": "Luigi's Mansion 3",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "outer-wilds": {
+      "slug": "outer-wilds",
+      "title": "Outer Wilds",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "resident-evil-2-2019": {
+      "slug": "resident-evil-2-2019",
+      "title": "Resident Evil 2 (2019)",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 404"
+    },
+    "sekiro-shadows-die-twice": {
+      "slug": "sekiro-shadows-die-twice",
+      "title": "Sekiro: Shadows Die Twice",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/sekiro-shadows-die-twice.jpg",
+      "sourceDomain": "local"
+    },
+    "slay-the-spire": {
+      "slug": "slay-the-spire",
+      "title": "Slay the Spire",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "animal-crossing-new-horizons": {
+      "slug": "animal-crossing-new-horizons",
+      "title": "Animal Crossing: New Horizons",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/animal-crossing-new-horizons.jpg",
+      "sourceDomain": "local"
+    },
+    "astro-s-playroom": {
+      "slug": "astro-s-playroom",
+      "title": "Astro's Playroom",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "crash-bandicoot-4-it-s-about-time": {
+      "slug": "crash-bandicoot-4-it-s-about-time",
+      "title": "Crash Bandicoot 4: It's About Time",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/crash-bandicoot-4-it-s-about-time.jpg",
+      "sourceDomain": "local"
+    },
+    "cuphead": {
+      "slug": "cuphead",
+      "title": "Cuphead",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/cuphead.jpg",
+      "sourceDomain": "local"
+    },
+    "demon-s-souls-ps5": {
+      "slug": "demon-s-souls-ps5",
+      "title": "Demon's Souls (2020)",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "dreams": {
+      "slug": "dreams",
+      "title": "Dreams",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/dreams.jpg",
+      "sourceDomain": "local"
+    },
+    "final-fantasy-vii-remake": {
+      "slug": "final-fantasy-vii-remake",
+      "title": "Final Fantasy VII Remake",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "ghost-of-tsushima": {
+      "slug": "ghost-of-tsushima",
+      "title": "Ghost of Tsushima",
+      "status": "verified",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b6/Ghost_of_Tsushima.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "mime": "image/jpeg",
+      "imageType": "remote",
+      "verificationStatus": "verified",
+      "verificationNotes": "Verified HTTP 200 [image/jpeg]"
+    },
+    "hades": {
+      "slug": "hades",
+      "title": "Hades",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/hades.jpg",
+      "sourceDomain": "local"
+    },
+    "half-life-alyx": {
+      "slug": "half-life-alyx",
+      "title": "Half-Life: Alyx",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/half-life-alyx.jpg",
+      "sourceDomain": "local"
+    },
+    "marvel-s-spider-man-remastered": {
+      "slug": "marvel-s-spider-man-remastered",
+      "title": "Marvel's Spider-Man Remastered",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/marvel-s-spider-man-remastered.jpg",
+      "sourceDomain": "local"
+    },
+    "marvel-s-spider-man-miles-morales": {
+      "slug": "marvel-s-spider-man-miles-morales",
+      "title": "Marvel's Spider-Man: Miles Morales",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/marvel-s-spider-man-miles-morales.jpg",
+      "sourceDomain": "local"
+    },
+    "nioh-2": {
+      "slug": "nioh-2",
+      "title": "Nioh 2",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/nioh-2.jpg",
+      "sourceDomain": "local"
+    },
+    "ori-and-the-will-of-the-wisps": {
+      "slug": "ori-and-the-will-of-the-wisps",
+      "title": "Ori and the Will of the Wisps",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/ori-and-the-will-of-the-wisps.jpg",
+      "sourceDomain": "local"
+    },
+    "resident-evil-3-2020": {
+      "slug": "resident-evil-3-2020",
+      "title": "Resident Evil 3 (2020)",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "spelunky-2": {
+      "slug": "spelunky-2",
+      "title": "Spelunky 2",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/spelunky-2.jpg",
+      "sourceDomain": "local"
+    },
+    "the-last-of-us-part-ii": {
+      "slug": "the-last-of-us-part-ii",
+      "title": "The Last of Us Part II",
+      "status": "verified",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/4/4f/TLOU_P2_Box_Art_2.png",
+      "sourceDomain": "upload.wikimedia.org",
+      "mime": "image/png",
+      "imageType": "remote",
+      "verificationStatus": "verified",
+      "verificationNotes": "Verified HTTP 200 [image/png]"
+    },
+    "tony-hawk-s-pro-skater-1-plus-2": {
+      "slug": "tony-hawk-s-pro-skater-1-plus-2",
+      "title": "Tony Hawk's Pro Skater 1 + 2",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "yakuza-like-a-dragon": {
+      "slug": "yakuza-like-a-dragon",
+      "title": "Yakuza: Like a Dragon",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/yakuza-like-a-dragon.jpg",
+      "sourceDomain": "local"
+    },
+    "alan-wake-remastered": {
+      "slug": "alan-wake-remastered",
+      "title": "Alan Wake Remastered",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "death-s-door": {
+      "slug": "death-s-door",
+      "title": "Death's Door",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/death-s-door.jpg",
+      "sourceDomain": "local"
+    },
+    "deathloop": {
+      "slug": "deathloop",
+      "title": "Deathloop",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/deathloop.jpg",
+      "sourceDomain": "local"
+    },
+    "final-fantasy-vii-remake-intergrade": {
+      "slug": "final-fantasy-vii-remake-intergrade",
+      "title": "Final Fantasy VII Remake Intergrade",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "forza-horizon-5": {
+      "slug": "forza-horizon-5",
+      "title": "Forza Horizon 5",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/forza-horizon-5.jpg",
+      "sourceDomain": "local"
+    },
+    "lost-judgment": {
+      "slug": "lost-judgment",
+      "title": "Lost Judgment",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/lost-judgment.jpg",
+      "sourceDomain": "local"
+    },
+    "metroid-dread": {
+      "slug": "metroid-dread",
+      "title": "Metroid Dread",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "psychonauts-2": {
+      "slug": "psychonauts-2",
+      "title": "Psychonauts 2",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/psychonauts-2.jpg",
+      "sourceDomain": "local"
+    },
+    "ratchet-clank-rift-apart": {
+      "slug": "ratchet-clank-rift-apart",
+      "title": "Ratchet & Clank: Rift Apart",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/ratchet-clank-rift-apart.jpg",
+      "sourceDomain": "local"
+    },
+    "resident-evil-village": {
+      "slug": "resident-evil-village",
+      "title": "Resident Evil Village",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/resident-evil-village.jpg",
+      "sourceDomain": "local"
+    },
+    "returnal": {
+      "slug": "returnal",
+      "title": "Returnal",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/returnal.jpg",
+      "sourceDomain": "local"
+    },
+    "tales-of-arise": {
+      "slug": "tales-of-arise",
+      "title": "Tales of Arise",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "elden-ring": {
+      "slug": "elden-ring",
+      "title": "Elden Ring",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/elden-ring.jpg",
+      "sourceDomain": "local"
+    },
+    "ghostwire-tokyo": {
+      "slug": "ghostwire-tokyo",
+      "title": "Ghostwire: Tokyo",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/ghostwire-tokyo.jpg",
+      "sourceDomain": "local"
+    },
+    "god-of-war-ragnarok": {
+      "slug": "god-of-war-ragnarok",
+      "title": "God of War Ragnarök",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/god-of-war-ragnarok.jpg",
+      "sourceDomain": "local"
+    },
+    "gran-turismo-7": {
+      "slug": "gran-turismo-7",
+      "title": "Gran Turismo 7",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/gran-turismo-7.jpg",
+      "sourceDomain": "local"
+    },
+    "horizon-forbidden-west": {
+      "slug": "horizon-forbidden-west",
+      "title": "Horizon Forbidden West",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/horizon-forbidden-west.jpg",
+      "sourceDomain": "local"
+    },
+    "kirby-and-the-forgotten-land": {
+      "slug": "kirby-and-the-forgotten-land",
+      "title": "Kirby and the Forgotten Land",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "pokemon-legends-arceus": {
+      "slug": "pokemon-legends-arceus",
+      "title": "Pokemon Legends: Arceus",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 404"
+    },
+    "splatoon-3": {
+      "slug": "splatoon-3",
+      "title": "Splatoon 3",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "the-last-of-us-part-i": {
+      "slug": "the-last-of-us-part-i",
+      "title": "The Last of Us Part I",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/the-last-of-us-part-i.jpg",
+      "sourceDomain": "local"
+    },
+    "uncharted-legacy-of-thieves-collection": {
+      "slug": "uncharted-legacy-of-thieves-collection",
+      "title": "Uncharted: Legacy of Thieves Collection",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/uncharted-legacy-of-thieves-collection.jpg",
+      "sourceDomain": "local"
+    },
+    "xenoblade-chronicles-3": {
+      "slug": "xenoblade-chronicles-3",
+      "title": "Xenoblade Chronicles 3",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "alan-wake-2": {
+      "slug": "alan-wake-2",
+      "title": "Alan Wake 2",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/alan-wake-2.jpg",
+      "sourceDomain": "local"
+    },
+    "armored-core-vi-fires-of-rubicon": {
+      "slug": "armored-core-vi-fires-of-rubicon",
+      "title": "Armored Core VI: Fires of Rubicon",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/armored-core-vi-fires-of-rubicon.jpg",
+      "sourceDomain": "local"
+    },
+    "baldur-s-gate-3": {
+      "slug": "baldur-s-gate-3",
+      "title": "Baldur's Gate 3",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/baldur-s-gate-3.jpg",
+      "sourceDomain": "local"
+    },
+    "dead-space-2023": {
+      "slug": "dead-space-2023",
+      "title": "Dead Space (2023)",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "final-fantasy-xvi": {
+      "slug": "final-fantasy-xvi",
+      "title": "Final Fantasy XVI",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/final-fantasy-xvi.jpg",
+      "sourceDomain": "local"
+    },
+    "hi-fi-rush": {
+      "slug": "hi-fi-rush",
+      "title": "Hi-Fi Rush",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/hi-fi-rush.jpg",
+      "sourceDomain": "local"
+    },
+    "horizon-call-of-the-mountain": {
+      "slug": "horizon-call-of-the-mountain",
+      "title": "Horizon Call of the Mountain",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "lies-of-p": {
+      "slug": "lies-of-p",
+      "title": "Lies of P",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/lies-of-p.jpg",
+      "sourceDomain": "local"
+    },
+    "lords-of-the-fallen-2023": {
+      "slug": "lords-of-the-fallen-2023",
+      "title": "Lords of the Fallen (2023)",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "marvel-s-spider-man-2": {
+      "slug": "marvel-s-spider-man-2",
+      "title": "Marvel's Spider-Man 2",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "remnant-ii": {
+      "slug": "remnant-ii",
+      "title": "Remnant II",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/remnant-ii.jpg",
+      "sourceDomain": "local"
+    },
+    "sea-of-stars": {
+      "slug": "sea-of-stars",
+      "title": "Sea of Stars",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "starfield": {
+      "slug": "starfield",
+      "title": "Starfield",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/starfield.jpg",
+      "sourceDomain": "local"
+    },
+    "street-fighter-6": {
+      "slug": "street-fighter-6",
+      "title": "Street Fighter 6",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/street-fighter-6.jpg",
+      "sourceDomain": "local"
+    },
+    "super-mario-bros-wonder": {
+      "slug": "super-mario-bros-wonder",
+      "title": "Super Mario Bros. Wonder",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "the-legend-of-zelda-tears-of-the-kingdom": {
+      "slug": "the-legend-of-zelda-tears-of-the-kingdom",
+      "title": "The Legend of Zelda: Tears of the Kingdom",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "astro-bot": {
+      "slug": "astro-bot",
+      "title": "Astro Bot",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/astro-bot.jpg",
+      "sourceDomain": "local"
+    },
+    "balatro": {
+      "slug": "balatro",
+      "title": "Balatro",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "black-myth-wukong": {
+      "slug": "black-myth-wukong",
+      "title": "Black Myth: Wukong",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "dragon-ball-sparking-zero": {
+      "slug": "dragon-ball-sparking-zero",
+      "title": "Dragon Ball: Sparking! ZERO",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/dragon-ball-sparking-zero.jpg",
+      "sourceDomain": "local"
+    },
+    "dragon-s-dogma-2": {
+      "slug": "dragon-s-dogma-2",
+      "title": "Dragon's Dogma 2",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/dragon-s-dogma-2.jpg",
+      "sourceDomain": "local"
+    },
+    "final-fantasy-vii-rebirth": {
+      "slug": "final-fantasy-vii-rebirth",
+      "title": "Final Fantasy VII Rebirth",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "granblue-fantasy-relink": {
+      "slug": "granblue-fantasy-relink",
+      "title": "Granblue Fantasy: Relink",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 404"
+    },
+    "helldivers-2": {
+      "slug": "helldivers-2",
+      "title": "Helldivers 2",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "like-a-dragon-infinite-wealth": {
+      "slug": "like-a-dragon-infinite-wealth",
+      "title": "Like a Dragon: Infinite Wealth",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/like-a-dragon-infinite-wealth.jpg",
+      "sourceDomain": "local"
+    },
+    "pacific-drive": {
+      "slug": "pacific-drive",
+      "title": "Pacific Drive",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "persona-3-reload": {
+      "slug": "persona-3-reload",
+      "title": "Persona 3 Reload",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/persona-3-reload.jpg",
+      "sourceDomain": "local"
+    },
+    "prince-of-persia-the-lost-crown": {
+      "slug": "prince-of-persia-the-lost-crown",
+      "title": "Prince of Persia: The Lost Crown",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/prince-of-persia-the-lost-crown.jpg",
+      "sourceDomain": "local"
+    },
+    "rise-of-the-ronin": {
+      "slug": "rise-of-the-ronin",
+      "title": "Rise of the Ronin",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "silent-hill-2-2024": {
+      "slug": "silent-hill-2-2024",
+      "title": "Silent Hill 2 (2024)",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "stellar-blade": {
+      "slug": "stellar-blade",
+      "title": "Stellar Blade",
+      "status": "review-required",
+      "imageType": "fallback",
+      "verificationStatus": "fallback",
+      "verificationNotes": "URL failed: HTTP 429"
+    },
+    "tekken-8": {
+      "slug": "tekken-8",
+      "title": "Tekken 8",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/tekken-8.jpg",
+      "sourceDomain": "local"
+    },
+    "warhammer-40-000-space-marine-2": {
+      "slug": "warhammer-40-000-space-marine-2",
+      "title": "Warhammer 40,000: Space Marine 2",
+      "status": "local-verified",
+      "imageType": "local",
+      "verificationStatus": "verified",
+      "verificationNotes": "Downloaded verified real artwork.",
+      "localPath": "/assets/images/games/warhammer-40-000-space-marine-2.jpg",
+      "sourceDomain": "local"
+    }
+  }
+}

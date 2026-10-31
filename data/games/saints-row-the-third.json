@@ -1,0 +1,70 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-saints-row-the-third",
+  "slug": "saints-row-the-third",
+  "title": "Saints Row: The Third",
+  "originalReleaseYear": 2011,
+  "exactReleaseDate": "November 15, 2011",
+  "originalLaunchPlatform": "PlayStation 3",
+  "originalLaunchRegion": "North America",
+  "developer": "Volition",
+  "publisher": "THQ",
+  "platforms": [
+    "PlayStation 3",
+    "Xbox 360",
+    "Microsoft Windows"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "open-world"
+  ],
+  "era": "2010s",
+  "shortDescription": "The 3rd Street Saints become global multimedia celebrities waging war against the Syndicate in Steelport.",
+  "historicalSignificance": "Embraced unapologetic absurdity and player freedom, celebrated for joyous open-world chaos.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Saints_Row:_The_Third",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "The 3rd Street Saints become global multimedia celebrities waging war against the Syndicate in Steelport.",
+    "culturalImpact": "Embraced unapologetic absurdity and player freedom, celebrated for joyous open-world chaos."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 3"
+    ],
+    "genres": [
+      "action-adventure"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/4/4b/Saints_Row_The_Third_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/4/4b/Saints_Row_The_Third_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Saints_Row:_The_Third",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Saints Row: The Third",
+    "Volition",
+    "THQ",
+    "PlayStation 3",
+    "action-adventure",
+    "2011",
+    "2010s",
+    "PlayStation 3",
+    "Xbox 360",
+    "Microsoft Windows",
+    "open-world"
+  ],
+  "url": "/games/saints-row-the-third/",
+  "featured": false
+}

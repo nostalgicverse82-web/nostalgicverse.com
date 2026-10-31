@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-zone-of-the-enders-the-2nd-runner",
+  "slug": "zone-of-the-enders-the-2nd-runner",
+  "title": "Zone of the Enders: The 2nd Runner",
+  "originalReleaseYear": 2003,
+  "exactReleaseDate": "February 13, 2003",
+  "originalLaunchPlatform": "PlayStation 2",
+  "originalLaunchRegion": "Japan",
+  "developer": "Konami Computer Entertainment Japan",
+  "publisher": "Konami",
+  "platforms": [
+    "PlayStation 2"
+  ],
+  "genre": "action",
+  "subgenres": [
+    "mecha"
+  ],
+  "era": "2000s",
+  "shortDescription": "Hideo Kojima produced high-speed mecha action starring Dingo Egret piloting the orbital frame Jehuty.",
+  "historicalSignificance": "Achieved anime-fidelity aerial mecha combat with stunning particle effects and laser vector visuals.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Zone_of_the_Enders:_The_2nd_Runner",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Hideo Kojima produced high-speed mecha action starring Dingo Egret piloting the orbital frame Jehuty.",
+    "culturalImpact": "Achieved anime-fidelity aerial mecha combat with stunning particle effects and laser vector visuals."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 2"
+    ],
+    "genres": [
+      "action"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Zoe2ndrunner.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Zoe2ndrunner.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Zone_of_the_Enders:_The_2nd_Runner",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Zone of the Enders: The 2nd Runner",
+    "Konami Computer Entertainment Japan",
+    "Konami",
+    "PlayStation 2",
+    "action",
+    "2003",
+    "2000s",
+    "PlayStation 2",
+    "mecha"
+  ],
+  "url": "/games/zone-of-the-enders-the-2nd-runner/",
+  "featured": false
+}

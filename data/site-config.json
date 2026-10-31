@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "name": "NostalgicVerse",
+  "tagline": "The Games That Made History.",
+  "description": "A premium digital gaming museum, historical archive, preservation platform, and editorial website dedicated to interactive entertainment history.",
+  "canonicalOrigin": "https://nostalgicverse.com",
+  "locale": "en-US",
+  "version": "2026.1.0",
+  "theme": {
+    "colors": {
+      "bg": "#08080C",
+      "bgAlt": "#0C0C11",
+      "surface": "#111118",
+      "surfaceRaised": "#15151D",
+      "surfaceActive": "#1C1C26",
+      "border": "#1E1E2C",
+      "borderStrong": "#2A2A38",
+      "borderHover": "rgba(0, 229, 255, 0.35)",
+      "textPrimary": "#F4F4F7",
+      "textSecondary": "#A7A7B5",
+      "textMuted": "#737381",
+      "accentCyan": "#00E5FF",
+      "accentGold": "#FFB300",
+      "accentCrimson": "#FF2A6D"
+    },
+    "typography": {
+      "fontSans": "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif",
+      "fontMono": "ui-monospace, 'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', monospace"
+    },
+    "layout": {
+      "containerMax": "1400px",
+      "headerHeight": "72px",
+      "radiusSm": "4px",
+      "radiusMd": "8px",
+      "radiusLg": "12px"
+    }
+  },
+  "assetRoots": {
+    "base": "/assets/",
+    "images": "/assets/images/",
+    "branding": "/assets/images/branding/",
+    "games": "/assets/images/games/",
+    "consoles": "/assets/images/consoles/",
+    "genres": "/assets/images/genres/",
+    "timeline": "/assets/images/timeline/",
+    "stories": "/assets/images/stories/",
+    "guides": "/assets/images/guides/",
+    "emulator": "/assets/images/emulator/",
+    "operatingSystem": "/assets/images/operating-system/",
+    "qrCode": "/assets/images/qr-code/",
+    "og": "/assets/images/og/",
+    "ui": "/assets/images/ui/",
+    "fonts": "/assets/fonts/"
+  },
+  "favorites": {
+    "storageKey": "nostalgicverse_favs"
+  },
+  "routes": {
+    "home": "/",
+    "games": "/games/",
+    "consoles": "/consoles/",
+    "timeline": "/timeline/",
+    "genres": "/genres/",
+    "guides": "/guides/",
+    "blog": "/blog/",
+    "search": "/search/",
+    "favorites": "/favorites/",
+    "random": "/random/",
+    "download": "/download/",
+    "about": "/about/",
+    "support": "/support/",
+    "legal": {
+      "privacy": "/legal/privacy.html",
+      "terms": "/legal/terms.html",
+      "cookies": "/legal/cookies.html",
+      "disclaimer": "/legal/disclaimer.html"
+    }
+  }
+}

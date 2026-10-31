@@ -1,0 +1,42 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+  "id": "console-playstation-4-pro",
+  "slug": "playstation-4-pro",
+  "name": "Sony PlayStation 4 Pro",
+  "manufacturer": "Sony",
+  "generation": "Eighth Generation",
+  "generationNumber": 8,
+  "originalReleaseYear": 2016,
+  "exactReleaseDate": "November 10, 2016",
+  "mediaFormat": "Blu-ray Disc & 4K Digital Streaming",
+  "significance": "Pioneered the mid-generation hardware refresh paradigm in console gaming, allowing players to upgrade graphics performance without breaking backward compatibility.",
+  "verifiedFactualData": {
+    "cpu": "Custom 8-core AMD 'Jaguar' @ 2.1 GHz",
+    "gpuOrVideoChip": "AMD GCN Polaris 4.2 TFLOPS (36 compute units @ 911 MHz)",
+    "ram": "8 GB unified GDDR5 RAM + 1 GB DDR3 background RAM"
+  },
+  "editorialContent": {
+    "overview": "The industry's first mid-generation console hardware upgrade, introducing 4K checkerboard rendering and HDR gaming.",
+    "marketLegacy": "Pioneered the mid-generation hardware refresh paradigm in console gaming, allowing players to upgrade graphics performance without breaking backward compatibility.",
+    "controllerDesign": "DualShock 4 v2"
+  },
+  "keyGames": [
+    "horizon-zero-dawn",
+    "god-of-war",
+    "death-stranding"
+  ],
+  "assets": {
+    "mainImage": "/assets/images/consoles/playstation-4-pro.png",
+    "heroImage": "/assets/images/consoles/playstation-4-pro-hero.png",
+    "hardwareImage": "/assets/images/consoles/playstation-4-pro-hardware.png"
+  },
+  "keywords": [
+    "playstation 4 pro",
+    "ps4 pro",
+    "sony",
+    "mid-gen",
+    "eighth generation",
+    "4k",
+    "2016"
+  ]
+}

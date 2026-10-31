@@ -1,0 +1,43 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+  "id": "console-wii-u",
+  "slug": "wii-u",
+  "name": "Nintendo Wii U",
+  "manufacturer": "Nintendo",
+  "generation": "Eighth Generation",
+  "generationNumber": 8,
+  "originalReleaseYear": 2012,
+  "exactReleaseDate": "November 18, 2012",
+  "mediaFormat": "High-density Wii U Optical Disc (25GB)",
+  "significance": "Laid the design and engineering foundation for the hybrid architecture that would achieve astronomical success with the Nintendo Switch.",
+  "verifiedFactualData": {
+    "cpu": "Triple-core IBM PowerPC 'Espresso' @ 1.24 GHz",
+    "gpuOrVideoChip": "AMD Radeon-based 'Latte' @ 550 MHz",
+    "ram": "2 GB DDR3 RAM (1 GB dedicated to games, 1 GB to OS)"
+  },
+  "editorialContent": {
+    "overview": "Nintendo's experimental dual-screen home console, introducing off-TV streaming play and asymmetric game design.",
+    "marketLegacy": "Laid the design and engineering foundation for the hybrid architecture that would achieve astronomical success with the Nintendo Switch.",
+    "controllerDesign": "Wii U GamePad with 6.2-inch resistive touchscreen, dual analog sticks, motion sensors"
+  },
+  "keyGames": [
+    "super-mario-3d-world",
+    "mario-kart-8",
+    "splatoon",
+    "super-smash-bros-for-wii-u"
+  ],
+  "assets": {
+    "mainImage": "/assets/images/consoles/wii-u.png",
+    "heroImage": "/assets/images/consoles/wii-u-hero.png",
+    "hardwareImage": "/assets/images/consoles/wii-u-hardware.png"
+  },
+  "keywords": [
+    "wii u",
+    "nintendo",
+    "eighth generation",
+    "gamepad",
+    "asymmetric gaming",
+    "miiverse",
+    "2012"
+  ]
+}

@@ -1,0 +1,3838 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- Primary SEO Metadata -->
+  <title>Games Archive — NostalgicVerse</title>
+  <meta name="description" content="The permanent digital catalogue of landmark video games. Explore over 70 historically verified titles across eras, original launch platforms, and genres that shaped interactive entertainment.">
+  <meta name="keywords" content="video game catalogue, retro game database, historical games, video game museum, PlayStation, Nintendo, Sega, classic gaming archive, original launch platform">
+  <meta name="author" content="NostalgicVerse Digital Museum">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://nostalgicverse.com/games/">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <meta name="theme-color" content="#08080C">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://nostalgicverse.com/games/">
+  <meta property="og:title" content="Games Archive — NostalgicVerse">
+  <meta property="og:description" content="The permanent museum catalogue of landmark video games. Filter by original launch platform, era, and genre to explore the games that made history.">
+  <meta property="og:site_name" content="NostalgicVerse">
+  <meta property="og:image" content="https://nostalgicverse.com/assets/images/branding/logo/logo.png">
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://nostalgicverse.com/games/">
+  <meta name="twitter:title" content="Games Archive — NostalgicVerse">
+  <meta name="twitter:description" content="The permanent museum catalogue of landmark video games. Filter by original launch platform, era, and genre to explore the games that made history.">
+  <meta name="twitter:image" content="https://nostalgicverse.com/assets/images/branding/logo/logo.png">
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "CollectionPage",
+        "@id": "https://nostalgicverse.com/games/#collectionpage",
+        "url": "https://nostalgicverse.com/games/",
+        "name": "Games Archive — NostalgicVerse",
+        "description": "A curated digital catalogue of landmark video games, historical eras, original launch platforms, and genres that shaped interactive entertainment.",
+        "isPartOf": {
+          "@type": "WebSite",
+          "@id": "https://nostalgicverse.com/#website",
+          "url": "https://nostalgicverse.com/",
+          "name": "NostalgicVerse"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://nostalgicverse.com/games/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://nostalgicverse.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Games",
+            "item": "https://nostalgicverse.com/games/"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    /* ==========================================================================
+       01. MASTER DESIGN TOKENS
+       ========================================================================== */
+    :root {
+      /* Backgrounds & Surfaces */
+      --nv-bg: #08080C;
+      --nv-bg-alt: #0C0C11;
+      --nv-surface: #111118;
+      --nv-surface-raised: #15151D;
+      --nv-surface-active: #1C1C26;
+      --nv-border: #1E1E2C;
+      --nv-border-strong: #2A2A38;
+      --nv-border-hover: rgba(0, 229, 255, 0.35);
+
+      /* Typography Colors */
+      --nv-text-primary: #F4F4F7;
+      --nv-text-secondary: #A7A7B5;
+      --nv-text-muted: #737381;
+
+      /* Museum Accents */
+      --nv-cyan: #00E5FF;
+      --nv-gold: #FFB300;
+      --nv-crimson: #FF2A6D;
+
+      /* Font Stacks */
+      --nv-font-sans: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      --nv-font-mono: ui-monospace, "SFMono-Regular", Menlo, Consolas, "Liberation Mono", monospace;
+
+      /* Layout Geometry */
+      --nv-container-max: 1400px;
+      --nv-header-height: 72px;
+      --nv-radius-sm: 4px;
+      --nv-radius-md: 8px;
+      --nv-radius-lg: 12px;
+
+      /* Shadows & Depth */
+      --nv-shadow-ambient: 0 20px 60px rgba(0, 0, 0, 0.45);
+      --nv-shadow-card: 0 10px 30px rgba(0, 0, 0, 0.35);
+
+      /* Transitions */
+      --nv-transition-fast: 160ms cubic-bezier(0.16, 1, 0.3, 1);
+      --nv-transition-normal: 260ms cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    /* ==========================================================================
+       02. RESET & BASE STYLES
+       ========================================================================== */
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      font-size: 16px;
+      line-height: 1.5;
+      background-color: var(--nv-bg);
+      color: var(--nv-text-primary);
+      font-family: var(--nv-font-sans);
+      scroll-behavior: smooth;
+      text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      background-color: var(--nv-bg);
+      color: var(--nv-text-primary);
+      overflow-x: hidden;
+      position: relative;
+    }
+
+    body.menu-open {
+      overflow: hidden;
+    }
+
+    img, svg {
+      display: block;
+      max-width: 100%;
+      height: auto;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+      transition: color var(--nv-transition-fast);
+    }
+
+    button, input, select {
+      font-family: inherit;
+      font-size: inherit;
+      color: inherit;
+      border: none;
+      background: none;
+    }
+
+    button {
+      cursor: pointer;
+    }
+
+    /* Keyboard Accessibility */
+    :focus-visible {
+      outline: 2px solid var(--nv-cyan);
+      outline-offset: 3px;
+    }
+
+    .skip-link {
+      position: absolute;
+      top: -100px;
+      left: 16px;
+      z-index: 1000;
+      background: var(--nv-cyan);
+      color: #000;
+      font-weight: 700;
+      padding: 12px 20px;
+      border-radius: var(--nv-radius-sm);
+      font-family: var(--nv-font-mono);
+      font-size: 0.85rem;
+      transition: top var(--nv-transition-fast);
+    }
+
+    .skip-link:focus {
+      top: 16px;
+    }
+
+    .bg-grid-overlay {
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 0;
+      background-image:
+        linear-gradient(to right, rgba(255, 255, 255, 0.015) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(255, 255, 255, 0.015) 1px, transparent 1px);
+      background-size: 64px 64px;
+      mask-image: radial-gradient(ellipse at 50% 20%, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.15) 75%, transparent 100%);
+      -webkit-mask-image: radial-gradient(ellipse at 50% 20%, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.15) 75%, transparent 100%);
+    }
+
+    .container {
+      width: min(100% - 32px, var(--nv-container-max));
+      margin-inline: auto;
+      padding-inline: max(0px, env(safe-area-inset-left));
+      position: relative;
+      z-index: 1;
+    }
+
+    @media (min-width: 768px) {
+      .container {
+        width: min(100% - 64px, var(--nv-container-max));
+      }
+    }
+
+    /* ==========================================================================
+       03. MUSEUM TYPOGRAPHY & LABELS
+       ========================================================================== */
+    .catalog-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-family: var(--nv-font-mono);
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      color: var(--nv-text-muted);
+      margin-bottom: 12px;
+    }
+
+    .catalog-tag::before {
+      content: "";
+      display: inline-block;
+      width: 6px;
+      height: 6px;
+      background-color: var(--nv-border-strong);
+      border-radius: 1px;
+    }
+
+    .catalog-tag.tag-cyan {
+      color: var(--nv-cyan);
+    }
+    .catalog-tag.tag-cyan::before {
+      background-color: var(--nv-cyan);
+    }
+
+    .catalog-tag.tag-gold {
+      color: var(--nv-gold);
+    }
+    .catalog-tag.tag-gold::before {
+      background-color: var(--nv-gold);
+    }
+
+    .catalog-tag.tag-crimson {
+      color: var(--nv-crimson);
+    }
+    .catalog-tag.tag-crimson::before {
+      background-color: var(--nv-crimson);
+    }
+
+    .breadcrumbs {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-family: var(--nv-font-mono);
+      font-size: 0.75rem;
+      color: var(--nv-text-muted);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 24px;
+    }
+
+    .breadcrumbs a {
+      color: var(--nv-text-secondary);
+      transition: color var(--nv-transition-fast);
+    }
+
+    .breadcrumbs a:hover {
+      color: var(--nv-cyan);
+    }
+
+    .breadcrumbs .separator {
+      color: var(--nv-border-strong);
+    }
+
+    .breadcrumbs .current {
+      color: var(--nv-cyan);
+    }
+
+    .museum-divider {
+      border: 0;
+      height: 1px;
+      background-color: var(--nv-border);
+      margin: 80px 0;
+      position: relative;
+    }
+
+    .museum-divider::after {
+      content: "NOSTALGICVERSE ARCHIVE";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: var(--nv-bg);
+      padding: 0 16px;
+      font-family: var(--nv-font-mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.2em;
+      color: var(--nv-text-muted);
+    }
+
+    /* ==========================================================================
+       04. BUTTONS & CONTROLS
+       ========================================================================== */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 12px 24px;
+      font-family: var(--nv-font-sans);
+      font-size: 0.88rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      border-radius: var(--nv-radius-sm);
+      transition: background-color var(--nv-transition-fast), border-color var(--nv-transition-fast), transform var(--nv-transition-fast), color var(--nv-transition-fast);
+      min-height: 44px;
+      white-space: nowrap;
+    }
+
+    .btn-primary {
+      background-color: var(--nv-text-primary);
+      color: #08080C;
+      border: 1px solid var(--nv-text-primary);
+    }
+
+    .btn-primary:hover {
+      background-color: var(--nv-cyan);
+      border-color: var(--nv-cyan);
+      color: #08080C;
+      transform: translateY(-2px);
+    }
+
+    .btn-secondary {
+      background-color: rgba(255, 255, 255, 0.03);
+      color: var(--nv-text-primary);
+      border: 1px solid var(--nv-border-strong);
+    }
+
+    .btn-secondary:hover {
+      background-color: var(--nv-surface-raised);
+      border-color: var(--nv-cyan);
+      color: var(--nv-cyan);
+      transform: translateY(-2px);
+    }
+
+    .btn-inline {
+      padding: 0;
+      min-height: auto;
+      background: transparent;
+      color: var(--nv-cyan);
+      font-family: var(--nv-font-mono);
+      font-size: 0.82rem;
+      letter-spacing: 0.08em;
+      gap: 6px;
+    }
+
+    .btn-inline:hover {
+      color: var(--nv-text-primary);
+      text-decoration: underline;
+      text-underline-offset: 4px;
+    }
+
+    .fav-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      background: rgba(17, 17, 24, 0.82);
+      border: 1px solid var(--nv-border);
+      color: var(--nv-text-muted);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      transition: all var(--nv-transition-fast);
+      padding: 0;
+      flex-shrink: 0;
+    }
+
+    .fav-btn:hover {
+      border-color: var(--nv-crimson);
+      color: var(--nv-crimson);
+      transform: scale(1.08);
+    }
+
+    .fav-btn.is-active {
+      background: rgba(255, 42, 109, 0.15);
+      border-color: var(--nv-crimson);
+      color: var(--nv-crimson);
+    }
+
+    .fav-btn svg {
+      width: 17px;
+      height: 17px;
+      stroke: currentColor;
+      fill: transparent;
+      transition: fill var(--nv-transition-fast), transform var(--nv-transition-fast);
+    }
+
+    .fav-btn.is-active svg {
+      fill: var(--nv-crimson);
+    }
+
+    /* ==========================================================================
+       05. SITE HEADER & NAVIGATION
+       ========================================================================== */
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background-color: rgba(8, 8, 12, 0.88);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--nv-border);
+      height: var(--nv-header-height);
+      display: flex;
+      align-items: center;
+    }
+
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+    }
+
+    .brand-group {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .brand-logo-wrap {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--nv-text-primary);
+    }
+
+    .brand-mark {
+      width: 32px;
+      height: 32px;
+      background: var(--nv-surface-raised);
+      border: 1px solid var(--nv-border-strong);
+      border-radius: var(--nv-radius-sm);
+      display: grid;
+      place-items: center;
+      font-family: var(--nv-font-mono);
+      font-weight: 800;
+      font-size: 0.85rem;
+      color: var(--nv-cyan);
+    }
+
+    .brand-text {
+      font-size: 1.1rem;
+      font-weight: 800;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .site-nav {
+      display: none;
+    }
+
+    @media (min-width: 1024px) {
+      .site-nav {
+        display: flex;
+        align-items: center;
+        gap: 28px;
+      }
+
+      .nav-link {
+        font-family: var(--nv-font-sans);
+        font-size: 0.88rem;
+        font-weight: 500;
+        color: var(--nv-text-secondary);
+        letter-spacing: 0.02em;
+        position: relative;
+        padding-block: 6px;
+      }
+
+      .nav-link:hover, .nav-link.active {
+        color: var(--nv-text-primary);
+      }
+
+      .nav-link.active::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background-color: var(--nv-cyan);
+      }
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .header-action-btn {
+      width: 44px;
+      height: 44px;
+      display: grid;
+      place-items: center;
+      border-radius: var(--nv-radius-sm);
+      color: var(--nv-text-secondary);
+      border: 1px solid transparent;
+      position: relative;
+      transition: all var(--nv-transition-fast);
+    }
+
+    .header-action-btn:hover {
+      color: var(--nv-text-primary);
+      border-color: var(--nv-border);
+      background-color: var(--nv-surface);
+    }
+
+    .fav-badge {
+      position: absolute;
+      top: 6px;
+      right: 6px;
+      min-width: 16px;
+      height: 16px;
+      padding: 0 4px;
+      background-color: var(--nv-crimson);
+      color: #FFF;
+      font-family: var(--nv-font-mono);
+      font-size: 0.65rem;
+      font-weight: 700;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      transform: scale(0.6);
+      transition: all var(--nv-transition-fast);
+    }
+
+    .fav-badge.has-items {
+      opacity: 1;
+      transform: scale(1);
+    }
+
+    .menu-toggle {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 44px;
+      height: 44px;
+      border: 1px solid var(--nv-border);
+      border-radius: var(--nv-radius-sm);
+      color: var(--nv-text-primary);
+    }
+
+    @media (min-width: 1024px) {
+      .menu-toggle {
+        display: none;
+      }
+    }
+
+    /* ==========================================================================
+       06. MOBILE DRAWER
+       ========================================================================== */
+    .mobile-drawer-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(4, 4, 6, 0.75);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      z-index: 200;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity var(--nv-transition-normal);
+    }
+
+    .mobile-drawer {
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      width: min(85vw, 400px);
+      background-color: var(--nv-bg-alt);
+      border-left: 1px solid var(--nv-border);
+      z-index: 210;
+      padding: 32px 24px;
+      display: flex;
+      flex-direction: column;
+      transform: translateX(100%);
+      transition: transform var(--nv-transition-normal);
+      overflow-y: auto;
+    }
+
+    .mobile-drawer-overlay.is-open {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    .mobile-drawer.is-open {
+      transform: translateX(0);
+    }
+
+    .drawer-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 40px;
+    }
+
+    .drawer-nav {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      flex-grow: 1;
+    }
+
+    .drawer-nav-link {
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: var(--nv-text-secondary);
+      padding-block: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+    }
+
+    .drawer-nav-link:hover, .drawer-nav-link.active {
+      color: var(--nv-cyan);
+    }
+
+    .drawer-nav-link .nav-num {
+      font-family: var(--nv-font-mono);
+      font-size: 0.75rem;
+      color: var(--nv-text-muted);
+    }
+
+    .drawer-footer {
+      padding-top: 24px;
+      border-top: 1px solid var(--nv-border);
+      font-family: var(--nv-font-mono);
+      font-size: 0.75rem;
+      color: var(--nv-text-muted);
+    }
+
+    /* ==========================================================================
+       07. ARCHIVE HERO & HEADING
+       ========================================================================== */
+    .archive-hero {
+      padding-top: clamp(40px, 8vw, 72px);
+      padding-bottom: 40px;
+      position: relative;
+    }
+
+    .archive-hero-headline {
+      font-size: clamp(2.5rem, 6vw, 5rem);
+      font-weight: 900;
+      line-height: 1;
+      letter-spacing: -0.035em;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+
+    .archive-hero-lead {
+      font-size: clamp(1.05rem, 1.8vw, 1.25rem);
+      color: var(--nv-text-secondary);
+      max-width: 68ch;
+      line-height: 1.6;
+      margin-bottom: 36px;
+    }
+
+    .category-shortcuts {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .shortcut-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 16px;
+      background: var(--nv-surface);
+      border: 1px solid var(--nv-border);
+      border-radius: var(--nv-radius-sm);
+      font-family: var(--nv-font-mono);
+      font-size: 0.75rem;
+      letter-spacing: 0.08em;
+      color: var(--nv-text-secondary);
+      text-transform: uppercase;
+      transition: all var(--nv-transition-fast);
+    }
+
+    .shortcut-pill:hover {
+      border-color: var(--nv-cyan);
+      color: var(--nv-cyan);
+      background: var(--nv-surface-raised);
+      transform: translateY(-2px);
+    }
+
+    /* ==========================================================================
+       08. ARCHIVE STATS STRIP (DYNAMIC)
+       ========================================================================== */
+    .archive-stats-strip {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 16px;
+      background-color: var(--nv-surface);
+      border: 1px solid var(--nv-border);
+      border-radius: var(--nv-radius-md);
+      padding: 24px;
+      margin-bottom: 48px;
+    }
+
+    @media (min-width: 768px) {
+      .archive-stats-strip {
+        grid-template-columns: repeat(4, 1fr);
+        padding: 28px 36px;
+      }
+    }
+
+    .stat-item {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .stat-label {
+      font-family: var(--nv-font-mono);
+      font-size: 0.72rem;
+      letter-spacing: 0.14em;
+      color: var(--nv-text-muted);
+      text-transform: uppercase;
+    }
+
+    .stat-value {
+      font-family: var(--nv-font-mono);
+      font-size: clamp(1.8rem, 3.5vw, 2.5rem);
+      font-weight: 800;
+      color: var(--nv-text-primary);
+      line-height: 1;
+    }
+
+    /* ==========================================================================
+       09. FEATURED CURATED EXHIBITION
+       ========================================================================== */
+    .curated-exhibition {
+      margin-bottom: 64px;
+    }
+
+    .curated-header {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      margin-bottom: 24px;
+    }
+
+    .curated-title {
+      font-size: 1.4rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: -0.01em;
+    }
+
+    .curated-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 24px;
+    }
+
+    @media (min-width: 768px) {
+      .curated-grid {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    /* ==========================================================================
+       10. SEARCH & FILTER CONTROLS CONSOLE
+       ========================================================================== */
+    .archive-control-console {
+      background: var(--nv-surface);
+      border: 1px solid var(--nv-border-strong);
+      border-radius: var(--nv-radius-md);
+      padding: 24px;
+      margin-bottom: 32px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .search-row {
+      position: relative;
+      width: 100%;
+    }
+
+    .search-input-field {
+      width: 100%;
+      height: 52px;
+      background: var(--nv-bg);
+      border: 1px solid var(--nv-border-strong);
+      border-radius: var(--nv-radius-sm);
+      padding: 0 48px 0 48px;
+      color: var(--nv-text-primary);
+      font-size: 0.95rem;
+      transition: border-color var(--nv-transition-fast);
+    }
+
+    .search-input-field:focus {
+      border-color: var(--nv-cyan);
+      outline: none;
+    }
+
+    .search-input-field::placeholder {
+      color: var(--nv-text-muted);
+    }
+
+    .search-icon-adornment {
+      position: absolute;
+      left: 16px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--nv-text-muted);
+      pointer-events: none;
+    }
+
+    .search-clear-btn {
+      position: absolute;
+      right: 12px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 28px;
+      height: 28px;
+      display: none;
+      place-items: center;
+      color: var(--nv-text-muted);
+      border-radius: 50%;
+      background: var(--nv-surface-raised);
+    }
+
+    .search-clear-btn.is-visible {
+      display: grid;
+    }
+
+    .search-clear-btn:hover {
+      color: var(--nv-text-primary);
+    }
+
+    .filter-row {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 16px;
+    }
+
+    @media (min-width: 640px) {
+      .filter-row {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (min-width: 1024px) {
+      .filter-row {
+        grid-template-columns: 1.2fr 1.4fr 1.2fr 1.2fr auto;
+        align-items: center;
+      }
+    }
+
+    .filter-group {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .filter-label {
+      font-family: var(--nv-font-mono);
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--nv-text-muted);
+    }
+
+    .select-wrapper {
+      position: relative;
+    }
+
+    .filter-select {
+      width: 100%;
+      height: 44px;
+      background: var(--nv-bg);
+      border: 1px solid var(--nv-border);
+      border-radius: var(--nv-radius-sm);
+      padding: 0 36px 0 14px;
+      color: var(--nv-text-secondary);
+      font-size: 0.88rem;
+      appearance: none;
+      cursor: pointer;
+      transition: border-color var(--nv-transition-fast), color var(--nv-transition-fast);
+    }
+
+    .filter-select:hover {
+      border-color: var(--nv-border-strong);
+      color: var(--nv-text-primary);
+    }
+
+    .filter-select:focus {
+      border-color: var(--nv-cyan);
+      outline: none;
+    }
+
+    .select-arrow {
+      position: absolute;
+      right: 14px;
+      top: 50%;
+      transform: translateY(-50%);
+      pointer-events: none;
+      color: var(--nv-text-muted);
+    }
+
+    .reset-btn {
+      align-self: flex-end;
+      height: 44px;
+      padding: 0 16px;
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid var(--nv-border);
+      border-radius: var(--nv-radius-sm);
+      color: var(--nv-text-muted);
+      font-family: var(--nv-font-mono);
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      transition: all var(--nv-transition-fast);
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .reset-btn:hover {
+      border-color: var(--nv-crimson);
+      color: var(--nv-crimson);
+    }
+
+    /* Meta Bar for Results */
+    .catalogue-meta-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 24px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--nv-border);
+      font-family: var(--nv-font-mono);
+      font-size: 0.78rem;
+      color: var(--nv-text-muted);
+    }
+
+    .results-count-text {
+      color: var(--nv-cyan);
+      font-weight: 600;
+    }
+
+    /* ==========================================================================
+       11. MAIN GAME CATALOGUE GRID & CARD STYLING
+       ========================================================================== */
+    .games-archive-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 24px;
+    }
+
+    @media (min-width: 600px) {
+      .games-archive-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (min-width: 960px) {
+      .games-archive-grid {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    @media (min-width: 1240px) {
+      .games-archive-grid {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    }
+
+    /* Game Museum Card */
+    .museum-game-card {
+      background-color: var(--nv-surface);
+      border: 1px solid var(--nv-border);
+      border-radius: var(--nv-radius-md);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      transition: transform var(--nv-transition-normal), border-color var(--nv-transition-normal), box-shadow var(--nv-transition-normal);
+    }
+
+    .museum-game-card:hover {
+      transform: translateY(-4px);
+      border-color: var(--nv-border-hover);
+      box-shadow: var(--nv-shadow-card);
+    }
+
+    .card-media {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 16 / 10;
+      background-color: #050508;
+      overflow: hidden;
+    }
+
+    .card-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 400ms cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .museum-game-card:hover .card-image {
+      transform: scale(1.03);
+    }
+
+    /* Intentional Museum Fallback Plate */
+    .card-fallback-plate {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #09090E 0%, #13131E 100%);
+      padding: 16px;
+      text-align: center;
+      border-bottom: 1px solid var(--nv-border);
+    }
+
+    .card-fallback-plate svg {
+      width: 32px;
+      height: 32px;
+      stroke: var(--nv-text-muted);
+      opacity: 0.65;
+      margin-bottom: 8px;
+    }
+
+    .card-fallback-plate .plate-title {
+      font-family: var(--nv-font-mono);
+      font-size: 0.72rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--nv-text-muted);
+      margin-bottom: 4px;
+      line-height: 1.2;
+    }
+
+    .card-fallback-plate .plate-tag {
+      font-family: var(--nv-font-mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.08em;
+      color: var(--nv-cyan);
+      text-transform: uppercase;
+    }
+
+    .card-fav-anchor {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      z-index: 10;
+    }
+
+    .card-body {
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+      justify-content: space-between;
+    }
+
+    .card-meta-line {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-family: var(--nv-font-mono);
+      font-size: 0.72rem;
+      color: var(--nv-text-muted);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 6px;
+    }
+
+    .card-meta-line .first-release {
+      color: var(--nv-gold);
+      font-weight: 600;
+    }
+
+    .card-game-title {
+      font-size: 1.15rem;
+      font-weight: 700;
+      line-height: 1.25;
+      color: var(--nv-text-primary);
+      margin-bottom: 10px;
+    }
+
+    /* Museum Spec Matrix */
+    .card-spec-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      margin-bottom: 12px;
+      font-family: var(--nv-font-mono);
+      font-size: 0.72rem;
+      letter-spacing: 0.04em;
+    }
+
+    .card-spec-row {
+      display: flex;
+      align-items: baseline;
+      gap: 6px;
+      line-height: 1.35;
+    }
+
+    .spec-term {
+      color: var(--nv-text-muted);
+      font-size: 0.66rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      flex-shrink: 0;
+    }
+
+    .spec-val {
+      color: var(--nv-text-secondary);
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .spec-val.highlight-cyan {
+      color: var(--nv-cyan);
+      font-weight: 600;
+    }
+
+    .card-desc-text {
+      font-size: 0.85rem;
+      color: var(--nv-text-secondary);
+      line-height: 1.5;
+      margin-bottom: 16px;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .card-footer-action {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 12px;
+      border-top: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    .archive-id-badge {
+      font-family: var(--nv-font-mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.1em;
+      color: var(--nv-text-muted);
+      text-transform: uppercase;
+    }
+
+    /* Empty State Container */
+    .catalogue-empty-state {
+      display: none;
+      text-align: center;
+      padding: 80px 24px;
+      background: var(--nv-surface);
+      border: 1px dashed var(--nv-border-strong);
+      border-radius: var(--nv-radius-md);
+      margin-block: 20px;
+    }
+
+    .catalogue-empty-state.is-visible {
+      display: block;
+    }
+
+    .empty-icon {
+      margin-inline: auto;
+      margin-bottom: 16px;
+      color: var(--nv-text-muted);
+    }
+
+    .empty-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+      margin-bottom: 8px;
+      text-transform: uppercase;
+    }
+
+    .empty-desc {
+      font-size: 0.95rem;
+      color: var(--nv-text-secondary);
+      max-width: 48ch;
+      margin-inline: auto;
+      margin-bottom: 24px;
+    }
+
+    /* ==========================================================================
+       12. RANDOM DISCOVERY MODULE
+       ========================================================================== */
+    .archive-discovery-breaker {
+      margin-top: 80px;
+      background: linear-gradient(180deg, var(--nv-surface) 0%, var(--nv-bg-alt) 100%);
+      border: 1px solid var(--nv-border-strong);
+      border-radius: var(--nv-radius-lg);
+      padding: clamp(32px, 6vw, 64px);
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .breaker-content {
+      max-width: 640px;
+      margin-inline: auto;
+      position: relative;
+      z-index: 2;
+    }
+
+    .breaker-title {
+      font-size: clamp(1.8rem, 4vw, 2.8rem);
+      font-weight: 900;
+      line-height: 1.1;
+      text-transform: uppercase;
+      letter-spacing: -0.02em;
+      margin-bottom: 16px;
+    }
+
+    .breaker-title span {
+      color: var(--nv-cyan);
+    }
+
+    .breaker-lead {
+      font-size: 1.05rem;
+      color: var(--nv-text-secondary);
+      margin-bottom: 32px;
+      line-height: 1.6;
+    }
+
+    /* ==========================================================================
+       13. MUSEUM FOOTER
+       ========================================================================== */
+    .site-footer {
+      background-color: var(--nv-bg-alt);
+      border-top: 1px solid var(--nv-border);
+      padding-top: 80px;
+      padding-bottom: 40px;
+      margin-top: 96px;
+    }
+
+    .footer-top {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 48px;
+      margin-bottom: 64px;
+    }
+
+    @media (min-width: 768px) {
+      .footer-top {
+        grid-template-columns: 1.5fr repeat(3, 1fr);
+      }
+    }
+
+    .footer-brand-column {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .footer-logo {
+      font-size: 1.35rem;
+      font-weight: 800;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .footer-tagline {
+      font-size: 0.95rem;
+      color: var(--nv-text-secondary);
+      max-width: 32ch;
+      line-height: 1.5;
+    }
+
+    .footer-statement {
+      font-size: 0.82rem;
+      color: var(--nv-text-muted);
+      line-height: 1.6;
+      max-width: 38ch;
+      margin-top: 8px;
+    }
+
+    .footer-nav-title {
+      font-family: var(--nv-font-mono);
+      font-size: 0.75rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--nv-text-primary);
+      margin-bottom: 20px;
+    }
+
+    .footer-nav-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .footer-nav-link {
+      font-size: 0.9rem;
+      color: var(--nv-text-secondary);
+      transition: color var(--nv-transition-fast);
+    }
+
+    .footer-nav-link:hover {
+      color: var(--nv-cyan);
+    }
+
+    .footer-bottom {
+      padding-top: 32px;
+      border-top: 1px solid rgba(255, 255, 255, 0.05);
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      align-items: center;
+      justify-content: space-between;
+      font-family: var(--nv-font-mono);
+      font-size: 0.75rem;
+      color: var(--nv-text-muted);
+    }
+
+    @media (min-width: 768px) {
+      .footer-bottom {
+        flex-direction: row;
+      }
+    }
+
+    .footer-legal-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .footer-legal-links a:hover {
+      color: var(--nv-text-secondary);
+    }
+
+    /* ==========================================================================
+       14. REDUCED MOTION & ACCESSIBILITY
+       ========================================================================== */
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Accessible Skip Navigation -->
+  <a href="#main-content" class="skip-link">Skip to games catalogue</a>
+
+  <!-- Structural Grid Atmosphere -->
+  <div class="bg-grid-overlay" aria-hidden="true"></div>
+
+  <!-- ==========================================================================
+       GLOBAL FLAGSHIP HEADER
+       ========================================================================== -->
+  <header class="site-header" id="site-header">
+    <div class="container">
+      <div class="header-inner">
+        
+        <!-- Brand Landmark -->
+        <div class="brand-group">
+          <a href="/" class="brand-logo-wrap" aria-label="NostalgicVerse Homepage">
+            <span class="brand-mark" aria-hidden="true">NV</span>
+            <span class="brand-text">NostalgicVerse</span>
+          </a>
+        </div>
+
+        <!-- Desktop Navigation -->
+        <nav class="site-nav" aria-label="Primary Exhibition Navigation">
+          <a href="/" class="nav-link">Home</a>
+          <a href="/games/" class="nav-link active" aria-current="page">Games</a>
+          <a href="/consoles/" class="nav-link">Consoles</a>
+          <a href="/timeline/" class="nav-link">Timeline</a>
+          <a href="/genres/" class="nav-link">Genres</a>
+          <a href="/guides/" class="nav-link">Guides</a>
+          <a href="/blog/" class="nav-link">Stories</a>
+        </nav>
+
+        <!-- Utility Actions -->
+        <div class="header-actions">
+          <!-- Search Link -->
+          <a href="/search/" class="header-action-btn" aria-label="Search the Archive">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+          </a>
+
+          <!-- Favorites Link with Badge Counter -->
+          <a href="/favorites/" class="header-action-btn" aria-label="View Saved Archive Favorites">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path>
+            </svg>
+            <span class="fav-badge" id="header-fav-badge" aria-live="polite">0</span>
+          </a>
+
+          <!-- Mobile Menu Drawer Toggle -->
+          <button type="button" class="menu-toggle" id="menu-toggle-btn" aria-expanded="false" aria-controls="mobile-nav-drawer" aria-label="Open Archive Navigation">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <line x1="3" y1="12" x2="21" y2="12"></line>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- Accessible Mobile Navigation Drawer -->
+  <div class="mobile-drawer-overlay" id="drawer-backdrop" aria-hidden="true"></div>
+  
+  <aside class="mobile-drawer" id="mobile-nav-drawer" aria-label="Mobile Navigation" aria-hidden="true" tabindex="-1">
+    <div class="drawer-top">
+      <div class="brand-group">
+        <span class="brand-mark" aria-hidden="true">NV</span>
+        <span class="brand-text">NostalgicVerse</span>
+      </div>
+      <button type="button" class="menu-toggle" id="drawer-close-btn" aria-label="Close Archive Navigation">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+
+    <nav class="drawer-nav">
+      <a href="/" class="drawer-nav-link"><span>Home</span> <span class="nav-num">/01</span></a>
+      <a href="/games/" class="drawer-nav-link active"><span>Games</span> <span class="nav-num">/02</span></a>
+      <a href="/consoles/" class="drawer-nav-link"><span>Consoles</span> <span class="nav-num">/03</span></a>
+      <a href="/timeline/" class="drawer-nav-link"><span>Timeline</span> <span class="nav-num">/04</span></a>
+      <a href="/genres/" class="drawer-nav-link"><span>Genres</span> <span class="nav-num">/05</span></a>
+      <a href="/guides/" class="drawer-nav-link"><span>Guides</span> <span class="nav-num">/06</span></a>
+      <a href="/blog/" class="drawer-nav-link"><span>Stories</span> <span class="nav-num">/07</span></a>
+      <a href="/favorites/" class="drawer-nav-link"><span>Favorites Archive</span> <span class="nav-num">/FAV</span></a>
+      <a href="/random/" class="drawer-nav-link"><span>Random Discovery</span> <span class="nav-num">/RND</span></a>
+    </nav>
+
+    <div class="drawer-footer">
+      <p>ARCHIVE DATABASE // VER 2026.2</p>
+      <p style="margin-top: 6px;">The Games That Made History.</p>
+    </div>
+  </aside>
+
+  <!-- ==========================================================================
+       MAIN CONTENT: GAMES ARCHIVE
+       ========================================================================== -->
+  <main id="main-content">
+    <div class="container">
+
+      <!-- Breadcrumbs Landmark -->
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <a href="/">Home</a>
+        <span class="separator">/</span>
+        <span class="current" aria-current="page">Games</span>
+      </nav>
+
+      <!-- Archive Hero Section -->
+      <section class="archive-hero" aria-labelledby="archive-heading">
+        <span class="catalog-tag tag-cyan">Permanent Catalogue · Master Index</span>
+        <h1 class="archive-hero-headline" id="archive-heading">The Games Catalogue</h1>
+        <p class="archive-hero-lead">
+          A curated museum archive of landmark interactive software. Browse technological breakthroughs, foundational game mechanics, and generational milestones preserved with rigorous distinction between original launch hardware and subsequent ports.
+        </p>
+
+        <!-- Interconnected Category Navigation -->
+        <div class="category-shortcuts" aria-label="Archive navigation shortcuts">
+          <a href="/timeline/" class="shortcut-pill">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+            <span>Browse By Era</span>
+          </a>
+          <a href="/consoles/" class="shortcut-pill">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="6" width="20" height="12" rx="2"></rect><line x1="6" y1="12" x2="6" y2="12"></line><line x1="18" y1="12" x2="18" y2="12"></line></svg>
+            <span>Browse By Hardware</span>
+          </a>
+          <a href="/genres/" class="shortcut-pill">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+            <span>Browse By Genre</span>
+          </a>
+        </div>
+      </section>
+
+      <!-- Dynamic Archive Statistics Strip -->
+      <section class="archive-stats-strip" aria-label="Archive Metrics">
+        <div class="stat-item">
+          <span class="stat-label">CATALOGUED GAMES</span>
+          <span class="stat-value" id="stat-games-count">--</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-label">HISTORICAL ERAS</span>
+          <span class="stat-value" id="stat-eras-count">--</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-label">HARDWARE PLATFORMS</span>
+          <span class="stat-value" id="stat-platforms-count">--</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-label">PRIMARY GENRES</span>
+          <span class="stat-value" id="stat-genres-count">--</span>
+        </div>
+      </section>
+
+      <!-- Curated Selection: Cornerstones -->
+      <section class="curated-exhibition" aria-labelledby="curated-exhibition-title">
+        <div class="curated-header">
+          <div>
+            <span class="catalog-tag tag-gold">Featured Exhibition</span>
+            <h2 class="curated-title" id="curated-exhibition-title">Cornerstones of the Medium</h2>
+          </div>
+        </div>
+
+        <div class="curated-grid" id="curated-games-container">
+          <!-- Curated lead games mounted dynamically -->
+        </div>
+      </section>
+
+      <!-- Search & Filter Console -->
+      <section class="archive-control-console" aria-label="Archive Search and Filter Controls">
+        
+        <!-- Live Instant Search -->
+        <div class="search-row">
+          <label for="archive-search-input" class="visually-hidden" style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0,0,0,0);">Search games catalogue</label>
+          <svg class="search-icon-adornment" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          <input 
+            type="search" 
+            id="archive-search-input" 
+            class="search-input-field" 
+            placeholder="Search by title, developer, publisher, launch hardware, genre, year, or historical significance..."
+            autocomplete="off"
+            spellcheck="false"
+          >
+          <button type="button" class="search-clear-btn" id="search-clear-btn" aria-label="Clear search query">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+          </button>
+        </div>
+
+        <!-- Filters & Sorting Grid -->
+        <div class="filter-row">
+          
+          <!-- Filter: Era -->
+          <div class="filter-group">
+            <label for="filter-era-select" class="filter-label">ERA</label>
+            <div class="select-wrapper">
+              <select id="filter-era-select" class="filter-select" aria-label="Filter by historical era">
+                <option value="all">All Eras</option>
+              </select>
+              <svg class="select-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </div>
+          </div>
+
+          <!-- Filter: Original Launch Platform (Strict Launch Hardware) -->
+          <div class="filter-group">
+            <label for="filter-platform-select" class="filter-label">ORIGINAL PLATFORM</label>
+            <div class="select-wrapper">
+              <select id="filter-platform-select" class="filter-select" aria-label="Filter by original launch platform">
+                <option value="all">All Launch Platforms</option>
+              </select>
+              <svg class="select-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </div>
+          </div>
+
+          <!-- Filter: Genre -->
+          <div class="filter-group">
+            <label for="filter-genre-select" class="filter-label">GENRE</label>
+            <div class="select-wrapper">
+              <select id="filter-genre-select" class="filter-select" aria-label="Filter by genre taxonomy">
+                <option value="all">All Genres</option>
+              </select>
+              <svg class="select-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </div>
+          </div>
+
+          <!-- Sorting -->
+          <div class="filter-group">
+            <label for="sort-games-select" class="filter-label">ORDER</label>
+            <div class="select-wrapper">
+              <select id="sort-games-select" class="filter-select" aria-label="Sort catalogue results">
+                <option value="featured">Featured First</option>
+                <option value="year-asc">Release: Oldest First</option>
+                <option value="year-desc">Release: Newest First</option>
+                <option value="title-asc">Title: A → Z</option>
+                <option value="title-desc">Title: Z → A</option>
+              </select>
+              <svg class="select-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </div>
+          </div>
+
+          <!-- Reset Filter Button -->
+          <button type="button" id="reset-filters-btn" class="reset-btn" aria-label="Reset all search queries and filters">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="1 4 1 10 7 10"></polyline><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"></path></svg>
+            <span>Reset</span>
+          </button>
+
+        </div>
+
+      </section>
+
+      <!-- Live Results Meta Bar -->
+      <div class="catalogue-meta-bar">
+        <div>
+          <span>CATALOGUE STATUS: </span>
+          <span class="results-count-text" id="catalogue-result-counter">SHOWING ALL ENTRIES</span>
+        </div>
+        <div>
+          <span>QUERY ENGINE: LOCAL HISTORICAL SILICON</span>
+        </div>
+      </div>
+
+      <!-- Main Game Cards Grid -->
+      <div class="games-archive-grid" id="main-games-grid" role="region" aria-live="polite" aria-label="Game exhibition catalogue results">
+        <!-- Cards injected dynamically via safe DOM APIs -->
+      </div>
+
+      <!-- Clean Museum Empty State -->
+      <div class="catalogue-empty-state" id="catalogue-empty-state">
+        <svg class="empty-icon" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          <line x1="8" y1="11" x2="14" y2="11"></line>
+        </svg>
+        <h3 class="empty-title">No Archival Records Found</h3>
+        <p class="empty-desc">
+          No games in our permanent collection matched your active search query or filter criteria. Try adjusting keywords or clearing category parameters.
+        </p>
+        <button type="button" class="btn btn-secondary" id="empty-state-reset-btn">
+          <span>Reset All Filters</span>
+        </button>
+      </div>
+
+      <!-- Random Discovery Breaker -->
+      <section class="archive-discovery-breaker" aria-labelledby="discovery-breaker-title">
+        <div class="breaker-content">
+          <span class="catalog-tag tag-crimson">Uncurated Discovery</span>
+          <h2 class="breaker-title" id="discovery-breaker-title">
+            Don't know where to dive in?<br>
+            <span>Let the archive decide.</span>
+          </h2>
+          <p class="breaker-lead">
+            Select a randomized specimen from our verified collection of legendary games, forgotten technical achievements, and generational masterpieces.
+          </p>
+          <button type="button" class="btn btn-primary" id="random-discovery-btn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <polyline points="16 3 21 3 21 8"></polyline>
+              <line x1="4" y1="20" x2="21" y2="3"></line>
+              <polyline points="21 16 21 21 16 21"></polyline>
+              <line x1="15" y1="15" x2="21" y2="21"></line>
+              <line x1="4" y1="4" x2="9" y2="9"></line>
+            </svg>
+            <span id="random-btn-text">Discover Random Game</span>
+          </button>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- ==========================================================================
+       GLOBAL MUSEUM FOOTER
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      
+      <div class="footer-top">
+        
+        <div class="footer-brand-column">
+          <div class="brand-group">
+            <span class="brand-mark" aria-hidden="true">NV</span>
+            <span class="footer-logo">NostalgicVerse</span>
+          </div>
+          <p class="footer-tagline">
+            The Games That Made History.
+          </p>
+          <p class="footer-statement">
+            A permanent digital museum dedicated to preserving the hardware, software, engineering papers, and cultural memories that shaped modern interactive media.
+          </p>
+        </div>
+
+        <div class="footer-nav-column">
+          <h3 class="footer-nav-title">Exhibition Archive</h3>
+          <ul class="footer-nav-list">
+            <li><a href="/games/" class="footer-nav-link" aria-current="page">All Games Index</a></li>
+            <li><a href="/consoles/" class="footer-nav-link">Console Museum</a></li>
+            <li><a href="/timeline/" class="footer-nav-link">Chronology Timeline</a></li>
+            <li><a href="/genres/" class="footer-nav-link">Genre Taxonomy</a></li>
+            <li><a href="/eras/" class="footer-nav-link">Historical Eras</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-nav-column">
+          <h3 class="footer-nav-title">Editorial & Museum</h3>
+          <ul class="footer-nav-list">
+            <li><a href="/blog/" class="footer-nav-link">Archival Stories</a></li>
+            <li><a href="/guides/" class="footer-nav-link">Preservation Guides</a></li>
+            <li><a href="/random/" class="footer-nav-link">Random Discovery</a></li>
+            <li><a href="/favorites/" class="footer-nav-link">Saved Collection</a></li>
+            <li><a href="/about/" class="footer-nav-link">About NostalgicVerse</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-nav-column">
+          <h3 class="footer-nav-title">Legal & Support</h3>
+          <ul class="footer-nav-list">
+            <li><a href="/legal/privacy.html" class="footer-nav-link">Privacy Policy</a></li>
+            <li><a href="/legal/terms.html" class="footer-nav-link">Terms of Service</a></li>
+            <li><a href="/legal/cookies.html" class="footer-nav-link">Cookie Information</a></li>
+            <li><a href="/legal/disclaimer.html" class="footer-nav-link">Archival Disclaimer</a></li>
+            <li><a href="/support/" class="footer-nav-link">Support the Archive</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          <span>&copy; 2026 NOSTALGICVERSE. ALL HISTORICAL TRADEMARKS BELONG TO THEIR RESPECTIVE OWNERS.</span>
+        </div>
+        <div class="footer-legal-links">
+          <span>CATALOGUE NODE: GAMES / VERIFIED</span>
+          <span>LATENCY: ZERO DEPENDENCY</span>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       VANILLA JAVASCRIPT: DATA ARCHITECTURE, CATALOGUE ENGINE, FAVORITES
+       ========================================================================== -->
+  <script>
+    (function () {
+      'use strict';
+
+      /* --------------------------------------------------------------------------
+         01. VERIFIED HISTORICAL GAME DATASET (73 LANDMARK SPECIMENS)
+         -------------------------------------------------------------------------- */
+      const GAMES_DATA = [
+        /* --- 1980s ERA --- */
+        {
+          id: "game-pac-man",
+          slug: "pac-man",
+          title: "Pac-Man",
+          originalReleaseDate: "May 22, 1980",
+          originalReleaseYear: 1980,
+          originalLaunchPlatform: "Arcade",
+          originalLaunchRegion: "Japan",
+          platforms: ["Arcade", "Atari 2600", "NES"],
+          era: "1980s",
+          genre: "Action",
+          developer: "Namco",
+          publisher: "Namco",
+          image: "/assets/images/games/pac-man.webp",
+          url: "/games/pac-man/",
+          shortDescription: "Toru Iwatani's pop-culture phenomenon that defined early arcade gaming and introduced character-driven gameplay.",
+          historicalSignificance: "Created the maze-action genre, pioneered character branding in video games, and became an enduring worldwide cultural icon.",
+          keywords: ["pac-man", "arcade", "namco", "namco", "action", "1980", "1980s", "atari 2600", "nes", "created", "maze", "pioneered"],
+          featured: false
+        },
+        {
+          id: "game-donkey-kong",
+          slug: "donkey-kong",
+          title: "Donkey Kong",
+          originalReleaseDate: "July 9, 1981",
+          originalReleaseYear: 1981,
+          originalLaunchPlatform: "Arcade",
+          originalLaunchRegion: "Japan",
+          platforms: ["Arcade", "ColecoVision", "NES"],
+          era: "1980s",
+          genre: "Platformer",
+          developer: "Nintendo",
+          publisher: "Nintendo",
+          image: "/assets/images/games/donkey-kong.webp",
+          url: "/games/donkey-kong/",
+          shortDescription: "Shigeru Miyamoto's breakthrough platformer introducing Jumpman (Mario) and cinematic narrative framing.",
+          historicalSignificance: "Established the foundational jumping mechanic for platformers and launched Nintendo's legacy as a world-class game developer.",
+          keywords: ["donkey kong", "arcade", "nintendo", "nintendo", "platformer", "1981", "1980s", "colecovision", "nes", "established", "foundational", "jumping"],
+          featured: false
+        },
+        {
+          id: "game-tetris",
+          slug: "tetris",
+          title: "Tetris",
+          originalReleaseDate: "June 6, 1985",
+          originalReleaseYear: 1985,
+          originalLaunchPlatform: "Electronika 60",
+          originalLaunchRegion: "Soviet Union",
+          platforms: ["Electronika 60", "Game Boy", "NES", "PC"],
+          era: "1980s",
+          genre: "Puzzle",
+          developer: "Alexey Pajitnov",
+          publisher: "Academy of Sciences of the Soviet Union",
+          image: "/assets/images/games/tetris.webp",
+          url: "/games/tetris/",
+          shortDescription: "The quintessential tile-matching spatial puzzle game conceived by Alexey Pajitnov in Moscow.",
+          historicalSignificance: "Demonstrated pure game design geometry, catalyzed the explosive worldwide adoption of the Game Boy handheld, and remains universally played.",
+          keywords: ["tetris", "electronika 60", "alexey pajitnov", "academy of sciences of the soviet union", "puzzle", "1985", "1980s", "game boy", "nes", "demonstrated", "pure", "game"],
+          featured: false
+        },
+        {
+          id: "game-super-mario-bros",
+          slug: "super-mario-bros",
+          title: "Super Mario Bros.",
+          originalReleaseDate: "September 13, 1985",
+          originalReleaseYear: 1985,
+          originalLaunchPlatform: "NES / Famicom",
+          originalLaunchRegion: "Japan",
+          platforms: ["Famicom", "NES", "Arcade"],
+          era: "1980s",
+          genre: "Platformer",
+          developer: "Nintendo R&D4",
+          publisher: "Nintendo",
+          image: "/assets/images/games/super-mario-bros.webp",
+          url: "/games/super-mario-bros/",
+          shortDescription: "The seminal side-scrolling platformer that single-handedly revitalized the North American home console market post-1983 crash.",
+          historicalSignificance: "Defined the platforming vocabulary with precision physics, hidden warp zones, and legendary level design by Shigeru Miyamoto and Takashi Tezuka.",
+          keywords: ["super mario bros.", "nes / famicom", "nintendo r&d4", "nintendo", "platformer", "1985", "1980s", "famicom", "nes", "arcade", "defined", "platforming"],
+          featured: true
+        },
+        {
+          id: "game-the-legend-of-zelda",
+          slug: "the-legend-of-zelda",
+          title: "The Legend of Zelda",
+          originalReleaseDate: "February 21, 1986",
+          originalReleaseYear: 1986,
+          originalLaunchPlatform: "Famicom Disk System",
+          originalLaunchRegion: "Japan",
+          platforms: ["Famicom Disk System", "NES"],
+          era: "1980s",
+          genre: "Action-Adventure",
+          developer: "Nintendo R&D4",
+          publisher: "Nintendo",
+          image: "/assets/images/games/the-legend-of-zelda.webp",
+          url: "/games/the-legend-of-zelda/",
+          shortDescription: "A non-linear top-down fantasy quest across Hyrule, featuring battery-backed internal memory saves.",
+          historicalSignificance: "Pioneered non-linear exploration, environmental puzzle-solving, and consumer battery-backup saves on home game cartridges.",
+          keywords: ["the legend of zelda", "famicom disk system", "nintendo r&d4", "nintendo", "action-adventure", "1986", "1980s", "nes", "pioneered", "linear", "exploration", "environmental"],
+          featured: false
+        },
+        {
+          id: "game-dragon-quest",
+          slug: "dragon-quest",
+          title: "Dragon Quest",
+          originalReleaseDate: "May 27, 1986",
+          originalReleaseYear: 1986,
+          originalLaunchPlatform: "NES / Famicom",
+          originalLaunchRegion: "Japan",
+          platforms: ["Famicom", "NES", "MSX"],
+          era: "1980s",
+          genre: "RPG",
+          developer: "Chunsoft",
+          publisher: "Enix",
+          image: "/assets/images/games/dragon-quest.webp",
+          url: "/games/dragon-quest/",
+          shortDescription: "Yuji Horii and Akira Toriyama's fantasy quest that established the standard template for console Japanese RPGs.",
+          historicalSignificance: "Standardized turn-based combat, menu-driven commands, and episodic storytelling for generations of JRPGs across the industry.",
+          keywords: ["dragon quest", "nes / famicom", "chunsoft", "enix", "rpg", "1986", "1980s", "famicom", "nes", "msx", "standardized", "turn"],
+          featured: false
+        },
+        {
+          id: "game-metroid",
+          slug: "metroid",
+          title: "Metroid",
+          originalReleaseDate: "August 6, 1986",
+          originalReleaseYear: 1986,
+          originalLaunchPlatform: "Famicom Disk System",
+          originalLaunchRegion: "Japan",
+          platforms: ["Famicom Disk System", "NES"],
+          era: "1980s",
+          genre: "Action-Adventure",
+          developer: "Nintendo R&D1 / Intelligent Systems",
+          publisher: "Nintendo",
+          image: "/assets/images/games/metroid.webp",
+          url: "/games/metroid/",
+          shortDescription: "An isolated subterranean sci-fi expedition on planet Zebes featuring open labyrinthine backtracking and Samus Aran.",
+          historicalSignificance: "Established the foundational DNA of the Metroidvania subgenre and introduced one of the earliest prominent female protagonists in mainstream gaming.",
+          keywords: ["metroid", "famicom disk system", "nintendo r&d1 / intelligent systems", "nintendo", "action-adventure", "1986", "1980s", "nes", "established", "foundational", "metroidvania", "subgenre"],
+          featured: false
+        },
+        {
+          id: "game-castlevania",
+          slug: "castlevania",
+          title: "Castlevania",
+          originalReleaseDate: "September 26, 1986",
+          originalReleaseYear: 1986,
+          originalLaunchPlatform: "Famicom Disk System",
+          originalLaunchRegion: "Japan",
+          platforms: ["Famicom Disk System", "NES", "Arcade"],
+          era: "1980s",
+          genre: "Platformer",
+          developer: "Konami",
+          publisher: "Konami",
+          image: "/assets/images/games/castlevania.webp",
+          url: "/games/castlevania/",
+          shortDescription: "Simon Belmont's gothic horror whip-cracking assault against Count Dracula's demonic fortress.",
+          historicalSignificance: "Pioneered gothic horror aesthetics, deliberate action-platforming commitment, and timeless chiptune melodic composition.",
+          keywords: ["castlevania", "famicom disk system", "konami", "konami", "platformer", "1986", "1980s", "nes", "arcade", "pioneered", "gothic", "horror"],
+          featured: false
+        },
+        {
+          id: "game-final-fantasy",
+          slug: "final-fantasy",
+          title: "Final Fantasy",
+          originalReleaseDate: "December 18, 1987",
+          originalReleaseYear: 1987,
+          originalLaunchPlatform: "NES / Famicom",
+          originalLaunchRegion: "Japan",
+          platforms: ["Famicom", "NES"],
+          era: "1980s",
+          genre: "RPG",
+          developer: "Square",
+          publisher: "Square",
+          image: "/assets/images/games/final-fantasy.webp",
+          url: "/games/final-fantasy/",
+          shortDescription: "Hironobu Sakaguchi's high-stakes fantasy adventure that rescued Square from bankruptcy with four Warriors of Light.",
+          historicalSignificance: "Introduced job class custom party creation, side-view battle perspectives, and Nobuo Uematsu's foundational orchestral leitmotifs.",
+          keywords: ["final fantasy", "nes / famicom", "square", "square", "rpg", "1987", "1980s", "famicom", "nes", "introduced", "class", "custom"],
+          featured: false
+        },
+        {
+          id: "game-contra",
+          slug: "contra",
+          title: "Contra",
+          originalReleaseDate: "February 20, 1987",
+          originalReleaseYear: 1987,
+          originalLaunchPlatform: "Arcade",
+          originalLaunchRegion: "Japan",
+          platforms: ["Arcade", "NES"],
+          era: "1980s",
+          genre: "Shooter",
+          developer: "Konami",
+          publisher: "Konami",
+          image: "/assets/images/games/contra.webp",
+          url: "/games/contra/",
+          shortDescription: "High-intensity cooperative run-and-gun combat against alien horrors, immortalizing the Konami Code.",
+          historicalSignificance: "Popularized couch cooperative combat, intense bullet dodging, and the universal cultural immortality of the 30-lives Konami Code.",
+          keywords: ["contra", "arcade", "konami", "konami", "shooter", "1987", "1980s", "nes", "popularized", "couch", "cooperative", "combat"],
+          featured: false
+        },
+        {
+          id: "game-phantasy-star",
+          slug: "phantasy-star",
+          title: "Phantasy Star",
+          originalReleaseDate: "December 20, 1987",
+          originalReleaseYear: 1987,
+          originalLaunchPlatform: "Sega Master System",
+          originalLaunchRegion: "Japan",
+          platforms: ["Sega Master System", "Genesis"],
+          era: "1980s",
+          genre: "RPG",
+          developer: "Sega R&D2",
+          publisher: "Sega",
+          image: "/assets/images/games/phantasy-star.webp",
+          url: "/games/phantasy-star/",
+          shortDescription: "Sega's technological tour de force featuring 3D first-person scrolling dungeons and a female protagonist, Alis Landale.",
+          historicalSignificance: "Pushed 8-bit visual boundaries with smoothly animated polygonal pseudo-3D dungeon passages and rich sci-fi fantasy worldbuilding.",
+          keywords: ["phantasy star", "sega master system", "sega r&d2", "sega", "rpg", "1987", "1980s", "genesis", "pushed", "visual", "boundaries", "with"],
+          featured: false
+        },
+        {
+          id: "game-mega-man-2",
+          slug: "mega-man-2",
+          title: "Mega Man 2",
+          originalReleaseDate: "December 24, 1988",
+          originalReleaseYear: 1988,
+          originalLaunchPlatform: "NES / Famicom",
+          originalLaunchRegion: "Japan",
+          platforms: ["Famicom", "NES"],
+          era: "1980s",
+          genre: "Platformer",
+          developer: "Capcom",
+          publisher: "Capcom",
+          image: "/assets/images/games/mega-man-2.webp",
+          url: "/games/mega-man-2/",
+          shortDescription: "Keiji Inafune and Capcom's definitive action platformer with selectable Robot Master stages and weapon-stealing mechanics.",
+          historicalSignificance: "Refined the rock-paper-scissors boss weapon vulnerability system, paired with exceptional chiptune composition and pristine responsive control.",
+          keywords: ["mega man 2", "nes / famicom", "capcom", "capcom", "platformer", "1988", "1980s", "famicom", "nes", "refined", "rock", "paper"],
+          featured: false
+        },
+        {
+          id: "game-simcity",
+          slug: "simcity",
+          title: "SimCity",
+          originalReleaseDate: "February 2, 1989",
+          originalReleaseYear: 1989,
+          originalLaunchPlatform: "Macintosh",
+          originalLaunchRegion: "North America",
+          platforms: ["Macintosh", "Amiga", "PC", "SNES"],
+          era: "1980s",
+          genre: "Simulation",
+          developer: "Maxis",
+          publisher: "Maxis",
+          image: "/assets/images/games/simcity.webp",
+          url: "/games/simcity/",
+          shortDescription: "Will Wright's open-ended urban planning system simulation that rejected traditional victory and defeat conditions.",
+          historicalSignificance: "Pioneered systems-thinking simulation software, proving commercial viability for non-violent creative management games.",
+          keywords: ["simcity", "macintosh", "maxis", "maxis", "simulation", "1989", "1980s", "amiga", "pc", "snes", "pioneered", "systems"],
+          featured: false
+        },
+        {
+          id: "game-prince-of-persia",
+          slug: "prince-of-persia",
+          title: "Prince of Persia",
+          originalReleaseDate: "October 3, 1989",
+          originalReleaseYear: 1989,
+          originalLaunchPlatform: "Apple II",
+          originalLaunchRegion: "North America",
+          platforms: ["Apple II", "Amiga", "PC", "Macintosh", "SNES"],
+          era: "1980s",
+          genre: "Platformer",
+          developer: "Jordan Mechner",
+          publisher: "Brøderbund",
+          image: "/assets/images/games/prince-of-persia.webp",
+          url: "/games/prince-of-persia/",
+          shortDescription: "Jordan Mechner's rotoscoped Arabian fantasy platformer featuring fluid human locomotion and ticking-clock tension.",
+          historicalSignificance: "Introduced rotoscoped fluid animation techniques to digital gaming and established the cinematic platformer discipline.",
+          keywords: ["prince of persia", "apple ii", "jordan mechner", "brøderbund", "platformer", "1989", "1980s", "amiga", "pc", "macintosh", "snes", "introduced"],
+          featured: false
+        },
+
+        /* --- 1990s ERA --- */
+        {
+          id: "game-super-mario-world",
+          slug: "super-mario-world",
+          title: "Super Mario World",
+          originalReleaseDate: "November 21, 1990",
+          originalReleaseYear: 1990,
+          originalLaunchPlatform: "Super Nintendo (SNES)",
+          originalLaunchRegion: "Japan",
+          platforms: ["Super Famicom", "SNES", "Game Boy Advance"],
+          era: "1990s",
+          genre: "Platformer",
+          developer: "Nintendo EAD",
+          publisher: "Nintendo",
+          image: "/assets/images/games/super-mario-world.webp",
+          url: "/games/super-mario-world/",
+          shortDescription: "The Super Nintendo launch tour de force introducing Yoshi, branching world maps, and peerless 16-bit platforming physics.",
+          historicalSignificance: "Showcased 16-bit visual palettes, complex branching secret exit maps, and became one of the highest-rated platformers of all time.",
+          keywords: ["super mario world", "super nintendo (snes)", "nintendo ead", "nintendo", "platformer", "1990", "1990s", "super famicom", "snes", "showcased", "visual", "palettes"],
+          featured: false
+        },
+        {
+          id: "game-the-secret-of-monkey-island",
+          slug: "the-secret-of-monkey-island",
+          title: "The Secret of Monkey Island",
+          originalReleaseDate: "October 15, 1990",
+          originalReleaseYear: 1990,
+          originalLaunchPlatform: "PC",
+          originalLaunchRegion: "North America",
+          platforms: ["PC (DOS)", "Amiga", "Atari ST", "Macintosh"],
+          era: "1990s",
+          genre: "Adventure",
+          developer: "Lucasfilm Games",
+          publisher: "Lucasfilm Games",
+          image: "/assets/images/games/the-secret-of-monkey-island.webp",
+          url: "/games/the-secret-of-monkey-island/",
+          shortDescription: "Ron Gilbert's witty pirate adventure starring Guybrush Threepwood, powered by the SCUMM scripting engine.",
+          historicalSignificance: "Revolutionized adventure gaming by eliminating player death and unwinnable dead-ends in favor of puzzle exploration and sharp comedic dialogue.",
+          keywords: ["the secret of monkey island", "pc", "lucasfilm games", "lucasfilm games", "adventure", "1990", "1990s", "pc (dos)", "amiga", "revolutionized", "gaming"],
+          featured: false
+        },
+        {
+          id: "game-street-fighter-ii-the-world-warrior",
+          slug: "street-fighter-ii-the-world-warrior",
+          title: "Street Fighter II: The World Warrior",
+          originalReleaseDate: "February 6, 1991",
+          originalReleaseYear: 1991,
+          originalLaunchPlatform: "Arcade",
+          originalLaunchRegion: "Japan",
+          platforms: ["Arcade (CP System)", "SNES", "Sega Genesis"],
+          era: "1990s",
+          genre: "Fighting",
+          developer: "Capcom",
+          publisher: "Capcom",
+          image: "/assets/images/games/street-fighter-ii-the-world-warrior.webp",
+          url: "/games/street-fighter-ii-the-world-warrior/",
+          shortDescription: "Yoshiki Okamoto's arcade juggernaut that codified competitive fighting mechanics, special motion inputs, and combo systems.",
+          historicalSignificance: "Single-handedly ignited the 1990s competitive arcade phenomenon, established head-to-head tournament esports culture, and created the modern fighting game template.",
+          keywords: ["street fighter ii", "arcade", "capcom", "capcom", "fighting", "1991", "1990s", "snes", "genesis", "ignited", "competitive", "arcade"],
+          featured: false
+        },
+        {
+          id: "game-sonic-the-hedgehog",
+          slug: "sonic-the-hedgehog",
+          title: "Sonic the Hedgehog",
+          originalReleaseDate: "June 23, 1991",
+          originalReleaseYear: 1991,
+          originalLaunchPlatform: "Sega Genesis",
+          originalLaunchRegion: "North America",
+          platforms: ["Sega Genesis", "Arcade"],
+          era: "1990s",
+          genre: "Platformer",
+          developer: "Sonic Team",
+          publisher: "Sega",
+          image: "/assets/images/games/sonic-the-hedgehog.webp",
+          url: "/games/sonic-the-hedgehog/",
+          shortDescription: "Yuji Naka and Naoto Ohshima's blisteringly fast mascot platformer that made the Sega Genesis an international powerhouse.",
+          historicalSignificance: "Redefined platforming momentum with high-speed physics, vibrant visual design, and aggressive attitude that fueled the 16-bit console wars.",
+          keywords: ["sonic the hedgehog", "sega genesis", "sonic team", "sega", "platformer", "1991", "1990s", "arcade", "redefined", "platforming", "momentum", "with"],
+          featured: false
+        },
+        {
+          id: "game-the-legend-of-zelda-a-link-to-the-past",
+          slug: "the-legend-of-zelda-a-link-to-the-past",
+          title: "The Legend of Zelda: A Link to the Past",
+          originalReleaseDate: "November 21, 1991",
+          originalReleaseYear: 1991,
+          originalLaunchPlatform: "Super Nintendo (SNES)",
+          originalLaunchRegion: "Japan",
+          platforms: ["Super Famicom", "SNES", "Game Boy Advance"],
+          era: "1990s",
+          genre: "Action-Adventure",
+          developer: "Nintendo EAD",
+          publisher: "Nintendo",
+          image: "/assets/images/games/the-legend-of-zelda-a-link-to-the-past.webp",
+          url: "/games/the-legend-of-zelda-a-link-to-the-past/",
+          shortDescription: "Link's dual-world adventure across Light and Dark Hyrule, elevating top-down 16-bit level design to absolute perfection.",
+          historicalSignificance: "Perfected dual-world parallel puzzle design, multi-floor dungeon architecture, and defined the top-down action-adventure standard for decades.",
+          keywords: ["a link to the past", "super nintendo (snes)", "nintendo ead", "nintendo", "action-adventure", "1991", "1990s", "super famicom", "snes", "perfected", "dual", "world"],
+          featured: false
+        },
+        {
+          id: "game-mortal-kombat",
+          slug: "mortal-kombat",
+          title: "Mortal Kombat",
+          originalReleaseDate: "October 8, 1992",
+          originalReleaseYear: 1992,
+          originalLaunchPlatform: "Arcade",
+          originalLaunchRegion: "North America",
+          platforms: ["Arcade", "Sega Genesis", "SNES"],
+          era: "1990s",
+          genre: "Fighting",
+          developer: "Midway Games",
+          publisher: "Midway Games",
+          image: "/assets/images/games/mortal-kombat.webp",
+          url: "/games/mortal-kombat/",
+          shortDescription: "Ed Boon and John Tobias's digitized martial arts fighter featuring brutal Fatalities and visceral visceral realism.",
+          historicalSignificance: "Ignited intense global political debates on video game violence, directly leading to the creation of the ESRB rating system in 1994.",
+          keywords: ["mortal kombat", "arcade", "midway games", "midway games", "fighting", "1992", "1990s", "sega genesis", "snes", "ignited", "intense", "global"],
+          featured: false
+        },
+        {
+          id: "game-doom",
+          slug: "doom",
+          title: "Doom",
+          originalReleaseDate: "December 10, 1993",
+          originalReleaseYear: 1993,
+          originalLaunchPlatform: "PC",
+          originalLaunchRegion: "North America",
+          platforms: ["PC (DOS)", "Sega 32X", "SNES", "PlayStation"],
+          era: "1990s",
+          genre: "Shooter",
+          developer: "id Software",
+          publisher: "id Software",
+          image: "/assets/images/games/doom.webp",
+          url: "/games/doom/",
+          shortDescription: "John Carmack and John Romero's visceral sci-fi hellscape that popularized texture-mapped 3D graphics, multiplayer deathmatches, and shareware distribution.",
+          historicalSignificance: "Revolutionized computing graphics, spawned the first-person shooter genre, pioneered user modding, and inaugurated networked multiplayer LAN culture.",
+          keywords: ["doom", "pc", "id software", "id software", "shooter", "1993", "1990s", "pc (dos)", "sega 32x", "snes", "playstation", "revolutionized"],
+          featured: false
+        },
+        {
+          id: "game-super-metroid",
+          slug: "super-metroid",
+          title: "Super Metroid",
+          originalReleaseDate: "March 19, 1994",
+          originalReleaseYear: 1994,
+          originalLaunchPlatform: "Super Nintendo (SNES)",
+          originalLaunchRegion: "Japan",
+          platforms: ["Super Famicom", "SNES"],
+          era: "1990s",
+          genre: "Action-Adventure",
+          developer: "Nintendo R&D1 / Intelligent Systems",
+          publisher: "Nintendo",
+          image: "/assets/images/games/super-metroid.webp",
+          url: "/games/super-metroid/",
+          shortDescription: "Yoshio Sakamoto's 24-megabit atmospheric masterwork on planet Zebes, combining environmental storytelling and non-linear backtracking.",
+          historicalSignificance: "Set the gold standard for atmospheric environmental isolation, sequence breaking, and non-verbal tutorialization in 2D level design.",
+          keywords: ["super metroid", "super nintendo (snes)", "nintendo r&d1 / intelligent systems", "nintendo", "action-adventure", "1994", "1990s", "super famicom", "snes", "gold", "standard"],
+          featured: false
+        },
+        {
+          id: "game-final-fantasy-vi",
+          slug: "final-fantasy-vi",
+          title: "Final Fantasy VI",
+          originalReleaseDate: "April 2, 1994",
+          originalReleaseYear: 1994,
+          originalLaunchPlatform: "Super Nintendo (SNES)",
+          originalLaunchRegion: "Japan",
+          platforms: ["Super Famicom", "SNES", "PlayStation", "Game Boy Advance"],
+          era: "1990s",
+          genre: "RPG",
+          developer: "Square",
+          publisher: "Square",
+          image: "/assets/images/games/final-fantasy-vi.webp",
+          url: "/games/final-fantasy-vi/",
+          shortDescription: "Yoshinori Kitase and Hiroyuki Ito's operatic ensemble JRPG depicting a steampunk apocalypse caused by the mad jester Kefka.",
+          historicalSignificance: "Elevated 16-bit video game narrative maturity with ensemble character arcs, the iconic opera house sequence, and Nobuo Uematsu's magnum opus score.",
+          keywords: ["final fantasy vi", "super nintendo (snes)", "square", "square", "rpg", "1994", "1990s", "super famicom", "snes", "playstation", "elevated", "video"],
+          featured: false
+        },
+        {
+          id: "game-donkey-kong-country",
+          slug: "donkey-kong-country",
+          title: "Donkey Kong Country",
+          originalReleaseDate: "November 18, 1994",
+          originalReleaseYear: 1994,
+          originalLaunchPlatform: "Super Nintendo (SNES)",
+          originalLaunchRegion: "United Kingdom",
+          platforms: ["SNES", "Game Boy Color", "Game Boy Advance"],
+          era: "1990s",
+          genre: "Platformer",
+          developer: "Rare",
+          publisher: "Nintendo",
+          image: "/assets/images/games/donkey-kong-country.webp",
+          url: "/games/donkey-kong-country/",
+          shortDescription: "Rare's technical marvel featuring pre-rendered 3D Silicon Graphics sprites pushed through standard 16-bit hardware.",
+          historicalSignificance: "Demonstrated that cutting-edge 3D pre-rendering could extend 16-bit console lifecycles against nascent 32-bit competitors.",
+          keywords: ["donkey kong country", "super nintendo (snes)", "rare", "nintendo", "platformer", "1994", "1990s", "snes", "game boy color", "demonstrated", "that", "cutting"],
+          featured: false
+        },
+        {
+          id: "game-chrono-trigger",
+          slug: "chrono-trigger",
+          title: "Chrono Trigger",
+          originalReleaseDate: "March 11, 1995",
+          originalReleaseYear: 1995,
+          originalLaunchPlatform: "Super Nintendo (SNES)",
+          originalLaunchRegion: "Japan",
+          platforms: ["Super Famicom", "SNES", "PlayStation", "Nintendo DS"],
+          era: "1990s",
+          genre: "RPG",
+          developer: "Square",
+          publisher: "Square",
+          image: "/assets/images/games/chrono-trigger.webp",
+          url: "/games/chrono-trigger/",
+          shortDescription: "The legendary 'Dream Team' collaboration of Sakaguchi, Horii, and Toriyama, featuring seamless combat, time-travel, and multiple endings.",
+          historicalSignificance: "Pioneered seamless visible encounter battles without transition screens, multi-character tech combos, and the New Game+ replayability paradigm.",
+          keywords: ["chrono trigger", "super nintendo (snes)", "square", "square", "rpg", "1995", "1990s", "super famicom", "snes", "pioneered", "seamless", "visible"],
+          featured: false
+        },
+        {
+          id: "game-resident-evil",
+          slug: "resident-evil",
+          title: "Resident Evil",
+          originalReleaseDate: "March 22, 1996",
+          originalReleaseYear: 1996,
+          originalLaunchPlatform: "PlayStation",
+          originalLaunchRegion: "Japan",
+          platforms: ["PlayStation", "Sega Saturn", "PC"],
+          era: "1990s",
+          genre: "Survival Horror",
+          developer: "Capcom",
+          publisher: "Capcom",
+          image: "/assets/images/games/resident-evil.webp",
+          url: "/games/resident-evil/",
+          shortDescription: "Shinji Mikami's claustrophobic Spencer Mansion nightmare featuring tank controls, limited ink ribbons, and pre-rendered dread.",
+          historicalSignificance: "Coined the term 'Survival Horror' and established the commercial and design grammar of environmental terror and inventory conservation.",
+          keywords: ["resident evil", "playstation", "capcom", "capcom", "survival horror", "1996", "1990s", "sega saturn", "pc", "coined", "term", "survival"],
+          featured: false
+        },
+        {
+          id: "game-super-mario-64",
+          slug: "super-mario-64",
+          title: "Super Mario 64",
+          originalReleaseDate: "June 23, 1996",
+          originalReleaseYear: 1996,
+          originalLaunchPlatform: "Nintendo 64",
+          originalLaunchRegion: "Japan",
+          platforms: ["Nintendo 64"],
+          era: "1990s",
+          genre: "Platformer",
+          developer: "Nintendo EAD",
+          publisher: "Nintendo",
+          image: "/assets/images/games/super-mario-64.webp",
+          url: "/games/super-mario-64/",
+          shortDescription: "The defining milestone of spatial 3D game design, pioneering analog 360-degree control, dynamic orbital cameras, and playground traversal.",
+          historicalSignificance: "Wrote the fundamental grammar and camera mechanics for real-time 3D navigation, influencing virtually every 3D title that followed.",
+          keywords: ["super mario 64", "nintendo 64", "nintendo ead", "nintendo", "platformer", "1996", "1990s", "wrote", "fundamental", "grammar", "camera", "mechanics"],
+          featured: false
+        },
+        {
+          id: "game-crash-bandicoot",
+          slug: "crash-bandicoot",
+          title: "Crash Bandicoot",
+          originalReleaseDate: "September 9, 1996",
+          originalReleaseYear: 1996,
+          originalLaunchPlatform: "PlayStation",
+          originalLaunchRegion: "North America",
+          platforms: ["PlayStation"],
+          era: "1990s",
+          genre: "Platformer",
+          developer: "Naughty Dog",
+          publisher: "Sony Computer Entertainment",
+          image: "/assets/images/games/crash-bandicoot.webp",
+          url: "/games/crash-bandicoot/",
+          shortDescription: "Andy Gavin and Jason Rubin's technical tour de force pushing the PlayStation hardware beyond its theoretical polygon limits.",
+          historicalSignificance: "Gave the PlayStation its signature 3D platforming mascot and proved Western studios could compete at the highest tier of console tech.",
+          keywords: ["crash bandicoot", "playstation", "naughty dog", "sony computer entertainment", "platformer", "1996", "1990s", "gave", "signature", "platforming", "mascot"],
+          featured: false
+        },
+        {
+          id: "game-tomb-raider",
+          slug: "tomb-raider",
+          title: "Tomb Raider",
+          originalReleaseDate: "October 25, 1996",
+          originalReleaseYear: 1996,
+          originalLaunchPlatform: "Sega Saturn",
+          originalLaunchRegion: "United Kingdom",
+          platforms: ["Sega Saturn", "PlayStation", "PC"],
+          era: "1990s",
+          genre: "Action-Adventure",
+          developer: "Core Design",
+          publisher: "Eidos Interactive",
+          image: "/assets/images/games/tomb-raider.webp",
+          url: "/games/tomb-raider/",
+          shortDescription: "Toby Gard's archaeological spatial exploration adventure starring the formidable aristocratic adventurer Lara Croft.",
+          historicalSignificance: "Established third-person grid-based 3D acrobatic traversal and cemented Lara Croft as a breakthrough mainstream pop-culture icon.",
+          keywords: ["tomb raider", "sega saturn", "core design", "eidos interactive", "action-adventure", "1996", "1990s", "playstation", "pc", "established", "third", "person"],
+          featured: false
+        },
+        {
+          id: "game-pokemon-red-pokemon-blue",
+          slug: "pokemon-red-pokemon-blue",
+          title: "Pokémon Red / Pokémon Blue",
+          originalReleaseDate: "February 27, 1996",
+          originalReleaseYear: 1996,
+          originalLaunchPlatform: "Game Boy",
+          originalLaunchRegion: "Japan",
+          platforms: ["Game Boy"],
+          era: "1990s",
+          genre: "RPG",
+          developer: "Game Freak",
+          publisher: "Nintendo",
+          image: "/assets/images/games/pokemon-red-pokemon-blue.webp",
+          url: "/games/pokemon-red-pokemon-blue/",
+          shortDescription: "Satoshi Tajiri's insect-collecting dream transformed into a twin-cartridge social phenomenon built on Link Cable trading.",
+          historicalSignificance: "Created the highest-grossing entertainment franchise on Earth, proving the extraordinary social power of portable, connected play.",
+          keywords: ["pokémon red / pokémon blue", "game boy", "game freak", "nintendo", "rpg", "1996", "1990s", "created", "highest", "grossing", "entertainment", "franchise"],
+          featured: false
+        },
+        {
+          id: "game-final-fantasy-vii",
+          slug: "final-fantasy-vii",
+          title: "Final Fantasy VII",
+          originalReleaseDate: "January 31, 1997",
+          originalReleaseYear: 1997,
+          originalLaunchPlatform: "PlayStation",
+          originalLaunchRegion: "Japan",
+          platforms: ["PlayStation", "PC"],
+          era: "1990s",
+          genre: "RPG",
+          developer: "Square",
+          publisher: "Square",
+          image: "/assets/images/games/final-fantasy-vii.webp",
+          url: "/games/final-fantasy-vii/",
+          shortDescription: "The 3-disc optical epic following Cloud Strife and Shinra, whose cinematic pre-rendered cutscenes propelled Japanese RPGs to global ubiquity.",
+          historicalSignificance: "Mainstreamed cinematic storytelling on CD-ROM media, severed Square's decade-long Nintendo alliance, and propelled PlayStation into market dominance.",
+          keywords: ["final fantasy vii", "playstation", "square", "square", "rpg", "1997", "1990s", "pc", "mainstreamed", "cinematic", "storytelling", "media"],
+          featured: true
+        },
+        {
+          id: "game-castlevania-symphony-of-the-night",
+          slug: "castlevania-symphony-of-the-night",
+          title: "Castlevania: Symphony of the Night",
+          originalReleaseDate: "March 20, 1997",
+          originalReleaseYear: 1997,
+          originalLaunchPlatform: "PlayStation",
+          originalLaunchRegion: "Japan",
+          platforms: ["PlayStation", "Sega Saturn"],
+          era: "1990s",
+          genre: "Action-Adventure",
+          developer: "Konami Computer Entertainment Tokyo",
+          publisher: "Konami",
+          image: "/assets/images/games/castlevania-symphony-of-the-night.webp",
+          url: "/games/castlevania-symphony-of-the-night/",
+          shortDescription: "Koji Igarashi's non-linear gothic masterpiece blending Metroid-style progression with deep RPG leveling and Alucard's inverted castle.",
+          historicalSignificance: "Co-founded the Metroidvania genre and proved that high-resolution 2D sprite artistry remained transcendent in an era obsessed with primitive 3D.",
+          keywords: ["castlevania: symphony of the night", "playstation", "konami", "action-adventure", "1997", "1990s", "sega saturn", "founded", "metroidvania", "genre", "proved"],
+          featured: false
+        },
+        {
+          id: "game-goldeneye-007",
+          slug: "goldeneye-007",
+          title: "GoldenEye 007",
+          originalReleaseDate: "August 25, 1997",
+          originalReleaseYear: 1997,
+          originalLaunchPlatform: "Nintendo 64",
+          originalLaunchRegion: "United Kingdom",
+          platforms: ["Nintendo 64"],
+          era: "1990s",
+          genre: "Shooter",
+          developer: "Rare",
+          publisher: "Nintendo",
+          image: "/assets/images/games/goldeneye-007.webp",
+          url: "/games/goldeneye-007/",
+          shortDescription: "Martin Hollis and Rare's espionage masterwork proving first-person shooters could excel brilliantly on consoles with 4-player split-screen.",
+          historicalSignificance: "Pioneered locational damage, stealth objectives, sniper zoom optics, and set the baseline for four-player couch multiplayer console FPS gaming.",
+          keywords: ["goldeneye 007", "nintendo 64", "rare", "nintendo", "shooter", "1997", "1990s", "pioneered", "locational", "damage", "stealth", "objectives"],
+          featured: false
+        },
+        {
+          id: "game-gran-turismo",
+          slug: "gran-turismo",
+          title: "Gran Turismo",
+          originalReleaseDate: "December 23, 1997",
+          originalReleaseYear: 1997,
+          originalLaunchPlatform: "PlayStation",
+          originalLaunchRegion: "Japan",
+          platforms: ["PlayStation"],
+          era: "1990s",
+          genre: "Racing",
+          developer: "Polyphony Digital",
+          publisher: "Sony Computer Entertainment",
+          image: "/assets/images/games/gran-turismo.webp",
+          url: "/games/gran-turismo/",
+          shortDescription: "Kazunori Yamauchi's obsessive automotive simulation capturing authentic car physics, tuning economies, and hundreds of licensed vehicles.",
+          historicalSignificance: "Established the 'Real Driving Simulator' benchmark, pioneering accurate automotive physics and car-enthusiast culture in gaming.",
+          keywords: ["gran turismo", "playstation", "polyphony digital", "sony computer entertainment", "racing", "1997", "1990s", "established", "real", "driving", "simulator", "benchmark"],
+          featured: false
+        },
+        {
+          id: "game-resident-evil-2",
+          slug: "resident-evil-2",
+          title: "Resident Evil 2",
+          originalReleaseDate: "January 21, 1998",
+          originalReleaseYear: 1998,
+          originalLaunchPlatform: "PlayStation",
+          originalLaunchRegion: "Japan",
+          platforms: ["PlayStation", "Nintendo 64", "PC", "Dreamcast"],
+          era: "1990s",
+          genre: "Survival Horror",
+          developer: "Capcom Production Studio 4",
+          publisher: "Capcom",
+          image: "/assets/images/games/resident-evil-2.webp",
+          url: "/games/resident-evil-2/",
+          shortDescription: "Hideki Kamiya's cinematic survival horror masterpiece featuring twin-disc intertwined scenarios and the decaying streets of Raccoon City.",
+          historicalSignificance: "Perfected twin-protagonist narrative zapping where player actions in scenario A directly altered conditions and items in scenario B.",
+          keywords: ["resident evil 2", "playstation", "capcom", "capcom", "survival horror", "1998", "1990s", "nintendo 64", "pc", "dreamcast", "perfected", "twin"],
+          featured: false
+        },
+        {
+          id: "game-starcraft",
+          slug: "starcraft",
+          title: "StarCraft",
+          originalReleaseDate: "March 31, 1998",
+          originalReleaseYear: 1998,
+          originalLaunchPlatform: "PC",
+          originalLaunchRegion: "North America",
+          platforms: ["PC", "Macintosh", "Nintendo 64"],
+          era: "1990s",
+          genre: "Strategy",
+          developer: "Blizzard Entertainment",
+          publisher: "Blizzard Entertainment",
+          image: "/assets/images/games/starcraft.webp",
+          url: "/games/starcraft/",
+          shortDescription: "The asymmetric sci-fi RTS masterpiece pitting Terran, Zerg, and Protoss against one another in immaculate tactical balance.",
+          historicalSignificance: "Became the bedrock foundation of modern global esports, national televised tournaments in South Korea, and competitive RTS strategy.",
+          keywords: ["starcraft", "pc", "blizzard entertainment", "blizzard entertainment", "strategy", "1998", "1990s", "macintosh", "nintendo 64", "became", "bedrock", "foundation"],
+          featured: false
+        },
+        {
+          id: "game-metal-gear-solid",
+          slug: "metal-gear-solid",
+          title: "Metal Gear Solid",
+          originalReleaseDate: "September 3, 1998",
+          originalReleaseYear: 1998,
+          originalLaunchPlatform: "PlayStation",
+          originalLaunchRegion: "Japan",
+          platforms: ["PlayStation", "PC"],
+          era: "1990s",
+          genre: "Action-Adventure",
+          developer: "Konami Computer Entertainment Japan",
+          publisher: "Konami",
+          image: "/assets/images/games/metal-gear-solid.webp",
+          url: "/games/metal-gear-solid/",
+          shortDescription: "Hideo Kojima's cinematic espionage breakthrough combining real-time 3D cutscenes, mature geopolitical commentary, and fourth-wall trickery.",
+          historicalSignificance: "Pioneered modern cinematic game direction, cinematic voice acting, mature anti-nuclear themes, and innovative psycho-sensory mechanics.",
+          keywords: ["metal gear solid", "playstation", "konami", "action-adventure", "1998", "1990s", "pc", "pioneered", "modern", "cinematic", "game", "direction"],
+          featured: true
+        },
+        {
+          id: "game-half-life",
+          slug: "half-life",
+          title: "Half-Life",
+          originalReleaseDate: "November 19, 1998",
+          originalReleaseYear: 1998,
+          originalLaunchPlatform: "PC",
+          originalLaunchRegion: "North America",
+          platforms: ["PC", "PlayStation 2"],
+          era: "1990s",
+          genre: "Shooter",
+          developer: "Valve",
+          publisher: "Sierra On-Line",
+          image: "/assets/images/games/half-life.webp",
+          url: "/games/half-life/",
+          shortDescription: "Gordon Freeman's catastrophic day at the Black Mesa Research Facility, told entirely through uninterrupted first-person perspective.",
+          historicalSignificance: "Eliminated traditional immersion-breaking cutscenes in favor of real-time scripted environmental storytelling and incredible enemy artificial intelligence.",
+          keywords: ["half-life", "pc", "valve", "sierra on-line", "shooter", "1998", "1990s", "playstation 2", "eliminated", "traditional", "immersion", "breaking"],
+          featured: false
+        },
+        {
+          id: "game-the-legend-of-zelda-ocarina-of-time",
+          slug: "the-legend-of-zelda-ocarina-of-time",
+          title: "The Legend of Zelda: Ocarina of Time",
+          originalReleaseDate: "November 21, 1998",
+          originalReleaseYear: 1998,
+          originalLaunchPlatform: "Nintendo 64",
+          originalLaunchRegion: "Japan",
+          platforms: ["Nintendo 64"],
+          era: "1990s",
+          genre: "Action-Adventure",
+          developer: "Nintendo EAD",
+          publisher: "Nintendo",
+          image: "/assets/images/games/the-legend-of-zelda-ocarina-of-time.webp",
+          url: "/games/the-legend-of-zelda-ocarina-of-time/",
+          shortDescription: "Link's journey through time across Hyrule, introducing Z-targeting combat lock-on and context-sensitive action controls to spatial 3D.",
+          historicalSignificance: "Invented the fundamental grammatical baseline of 3D action combat (Z-targeting), dynamic diurnal day-night cycles, and heroic temporal storytelling.",
+          keywords: ["ocarina of time", "nintendo 64", "nintendo ead", "nintendo", "action-adventure", "1998", "1990s", "invented", "fundamental", "grammatical", "baseline"],
+          featured: true
+        },
+        {
+          id: "game-silent-hill",
+          slug: "silent-hill",
+          title: "Silent Hill",
+          originalReleaseDate: "January 31, 1999",
+          originalReleaseYear: 1999,
+          originalLaunchPlatform: "PlayStation",
+          originalLaunchRegion: "Japan",
+          platforms: ["PlayStation"],
+          era: "1990s",
+          genre: "Survival Horror",
+          developer: "Team Silent / Konami Computer Entertainment Tokyo",
+          publisher: "Konami",
+          image: "/assets/images/games/silent-hill.webp",
+          url: "/games/silent-hill/",
+          shortDescription: "Keiichiro Toyama and Team Silent's psychological nightmare turning hardware draw-distance limitations into terrifying volumetric fog and rust.",
+          historicalSignificance: "Shifted survival horror away from biological B-movie tropes toward deeply disturbing psychological trauma, surrealism, and industrial noise.",
+          keywords: ["silent hill", "playstation", "team silent", "konami", "survival horror", "1999", "1990s", "shifted", "survival", "horror", "away", "from"],
+          featured: false
+        },
+        {
+          id: "game-super-smash-bros",
+          slug: "super-smash-bros",
+          title: "Super Smash Bros.",
+          originalReleaseDate: "January 21, 1999",
+          originalReleaseYear: 1999,
+          originalLaunchPlatform: "Nintendo 64",
+          originalLaunchRegion: "Japan",
+          platforms: ["Nintendo 64"],
+          era: "1990s",
+          genre: "Fighting",
+          developer: "HAL Laboratory",
+          publisher: "Nintendo",
+          image: "/assets/images/games/super-smash-bros.webp",
+          url: "/games/super-smash-bros/",
+          shortDescription: "Masahiro Sakurai's platform brawler replacing traditional health bars with damage percentages and ring-out physics.",
+          historicalSignificance: "Created the platform-fighter subgenre and established the definitive cross-franchise celebratory crossover paradigm in gaming.",
+          keywords: ["super smash bros.", "nintendo 64", "hal laboratory", "nintendo", "fighting", "1999", "1990s", "created", "platform", "fighter", "subgenre", "established"],
+          featured: false
+        },
+        {
+          id: "game-shenmue",
+          slug: "shenmue",
+          title: "Shenmue",
+          originalReleaseDate: "December 29, 1999",
+          originalReleaseYear: 1999,
+          originalLaunchPlatform: "Dreamcast",
+          originalLaunchRegion: "Japan",
+          platforms: ["Dreamcast"],
+          era: "1990s",
+          genre: "Action-Adventure",
+          developer: "Sega AM2",
+          publisher: "Sega",
+          image: "/assets/images/games/shenmue.webp",
+          url: "/games/shenmue/",
+          shortDescription: "Yu Suzuki's sprawling FREE (Full Reactive Eyes Entertainment) magnum opus in 1986 Yokosuka, featuring fully voiced NPCs and day schedules.",
+          historicalSignificance: "Pioneered modern cinematic open-world details, Quick Time Events (QTEs), realistic weather systems, and diegetic mundane life simulation.",
+          keywords: ["shenmue", "dreamcast", "sega am2", "sega", "action-adventure", "1999", "1990s", "pioneered", "modern", "cinematic", "open", "world"],
+          featured: false
+        },
+
+        /* --- 2000s ERA --- */
+        {
+          id: "game-deus-ex",
+          slug: "deus-ex",
+          title: "Deus Ex",
+          originalReleaseDate: "June 23, 2000",
+          originalReleaseYear: 2000,
+          originalLaunchPlatform: "PC",
+          originalLaunchRegion: "North America",
+          platforms: ["PC", "Macintosh", "PlayStation 2"],
+          era: "2000s",
+          genre: "RPG",
+          developer: "Ion Storm",
+          publisher: "Eidos Interactive",
+          image: "/assets/images/games/deus-ex.webp",
+          url: "/games/deus-ex/",
+          shortDescription: "Warren Spector and Harvey Smith's cyberpunk masterpiece offering player agency across stealth, hacking, dialogue, and combat.",
+          historicalSignificance: "Codified the modern immersive sim philosophy, proving players could resolve complex branching geopolitical crises through emergent problem solving.",
+          keywords: ["deus ex", "pc", "ion storm", "eidos interactive", "rpg", "2000", "2000s", "macintosh", "playstation 2", "codified", "modern", "immersive"],
+          featured: false
+        },
+        {
+          id: "game-the-sims",
+          slug: "the-sims",
+          title: "The Sims",
+          originalReleaseDate: "February 4, 2000",
+          originalReleaseYear: 2000,
+          originalLaunchPlatform: "PC",
+          originalLaunchRegion: "North America",
+          platforms: ["PC", "Macintosh", "PlayStation 2", "Xbox", "GameCube"],
+          era: "2000s",
+          genre: "Simulation",
+          developer: "Maxis",
+          publisher: "Electronic Arts",
+          image: "/assets/images/games/the-sims.webp",
+          url: "/games/the-sims/",
+          shortDescription: "Will Wright's suburban domestic life simulator centered on human psychology, architecture, and personal relationships.",
+          historicalSignificance: "Broadened gaming demographics beyond traditional youth subcultures, becoming the best-selling PC franchise in history up to its era.",
+          keywords: ["the sims", "pc", "maxis", "electronic arts", "simulation", "2000", "2000s", "macintosh", "playstation 2", "xbox", "gamecube", "broadened"],
+          featured: false
+        },
+        {
+          id: "game-diablo-ii",
+          slug: "diablo-ii",
+          title: "Diablo II",
+          originalReleaseDate: "June 29, 2000",
+          originalReleaseYear: 2000,
+          originalLaunchPlatform: "PC",
+          originalLaunchRegion: "North America",
+          platforms: ["PC", "Macintosh"],
+          era: "2000s",
+          genre: "RPG",
+          developer: "Blizzard North",
+          publisher: "Blizzard Entertainment",
+          image: "/assets/images/games/diablo-ii.webp",
+          url: "/games/diablo-ii/",
+          shortDescription: "The dark gothic isometric action-RPG that perfected the addictive loop of randomized loot drops, skill trees, and online Battle.net runs.",
+          historicalSignificance: "Codified modern isometric action-RPG progression, color-coded rarity systems, and seasonal multiplayer ladder economies.",
+          keywords: ["diablo ii", "pc", "blizzard north", "blizzard entertainment", "rpg", "2000", "2000s", "macintosh", "codified", "modern", "isometric", "action"],
+          featured: false
+        },
+        {
+          id: "game-halo-combat-evolved",
+          slug: "halo-combat-evolved",
+          title: "Halo: Combat Evolved",
+          originalReleaseDate: "November 15, 2001",
+          originalReleaseYear: 2001,
+          originalLaunchPlatform: "Xbox",
+          originalLaunchRegion: "North America",
+          platforms: ["Xbox", "PC", "Macintosh"],
+          era: "2000s",
+          genre: "Shooter",
+          developer: "Bungie",
+          publisher: "Microsoft Game Studios",
+          image: "/assets/images/games/halo-combat-evolved.webp",
+          url: "/games/halo-combat-evolved/",
+          shortDescription: "Master Chief's campaign against the Covenant on an ancient ringworld, establishing the viability of the twin-stick console shooter.",
+          historicalSignificance: "Standardized modern console twin-stick FPS controls, self-regenerating shields, two-weapon carry limits, and anchored the entire Xbox brand.",
+          keywords: ["halo: combat evolved", "xbox", "bungie", "microsoft game studios", "shooter", "2001", "2000s", "pc", "macintosh", "standardized", "modern", "console"],
+          featured: false
+        },
+        {
+          id: "game-grand-theft-auto-iii",
+          slug: "grand-theft-auto-iii",
+          title: "Grand Theft Auto III",
+          originalReleaseDate: "October 22, 2001",
+          originalReleaseYear: 2001,
+          originalLaunchPlatform: "PlayStation 2",
+          originalLaunchRegion: "North America",
+          platforms: ["PlayStation 2", "PC", "Xbox"],
+          era: "2000s",
+          genre: "Action-Adventure",
+          developer: "DMA Design",
+          publisher: "Rockstar Games",
+          image: "/assets/images/games/grand-theft-auto-iii.webp",
+          url: "/games/grand-theft-auto-iii/",
+          shortDescription: "Claude's ruthless ascent through Liberty City's criminal underworld, rendering a living 3D open metropolis with total player freedom.",
+          historicalSignificance: "Defined the modern 3D open-world genre, revolutionized radio satire, and permanently altered the cultural and economic scale of interactive entertainment.",
+          keywords: ["grand theft auto iii", "playstation 2", "dma design", "rockstar games", "action-adventure", "2001", "2000s", "pc", "xbox", "defined", "modern", "open"],
+          featured: false
+        },
+        {
+          id: "game-silent-hill-2",
+          slug: "silent-hill-2",
+          title: "Silent Hill 2",
+          originalReleaseDate: "September 24, 2001",
+          originalReleaseYear: 2001,
+          originalLaunchPlatform: "PlayStation 2",
+          originalLaunchRegion: "North America",
+          platforms: ["PlayStation 2", "Xbox", "PC"],
+          era: "2000s",
+          genre: "Survival Horror",
+          developer: "Team Silent",
+          publisher: "Konami",
+          image: "/assets/images/games/silent-hill-2.webp",
+          url: "/games/silent-hill-2/",
+          shortDescription: "James Sunderland's descent into the foggy purgatory of Silent Hill to find his deceased wife, confronting manifestations of guilt.",
+          historicalSignificance: "Regarded as one of the greatest narrative achievements in video games, dealing with taboo themes of grief, sexual repression, and euthanasia.",
+          keywords: ["silent hill 2", "playstation 2", "team silent", "konami", "survival horror", "2001", "2000s", "xbox", "pc", "regarded", "greatest", "narrative"],
+          featured: false
+        },
+        {
+          id: "game-super-smash-bros-melee",
+          slug: "super-smash-bros-melee",
+          title: "Super Smash Bros. Melee",
+          originalReleaseDate: "November 21, 2001",
+          originalReleaseYear: 2001,
+          originalLaunchPlatform: "GameCube",
+          originalLaunchRegion: "Japan",
+          platforms: ["GameCube"],
+          era: "2000s",
+          genre: "Fighting",
+          developer: "HAL Laboratory",
+          publisher: "Nintendo",
+          image: "/assets/images/games/super-smash-bros-melee.webp",
+          url: "/games/super-smash-bros-melee/",
+          shortDescription: "The lightning-fast GameCube sequel whose emergent physics engine (wavedashing, L-canceling) birthed a legendary twenty-year competitive esport.",
+          historicalSignificance: "A masterpiece of hyper-kinetic momentum and physics that created one of the most passionate and resilient competitive grassroots communities in history.",
+          keywords: ["super smash bros. melee", "gamecube", "hal laboratory", "nintendo", "fighting", "2001", "2000s", "masterpiece", "hyper", "kinetic", "momentum"],
+          featured: false
+        },
+        {
+          id: "game-the-elder-scrolls-iii-morrowind",
+          slug: "the-elder-scrolls-iii-morrowind",
+          title: "The Elder Scrolls III: Morrowind",
+          originalReleaseDate: "May 1, 2002",
+          originalReleaseYear: 2002,
+          originalLaunchPlatform: "PC",
+          originalLaunchRegion: "North America",
+          platforms: ["PC", "Xbox"],
+          era: "2000s",
+          genre: "RPG",
+          developer: "Bethesda Game Studios",
+          publisher: "Bethesda Softworks",
+          image: "/assets/images/games/the-elder-scrolls-iii-morrowind.webp",
+          url: "/games/the-elder-scrolls-iii-morrowind/",
+          shortDescription: "Todd Howard and Ken Rolston's alien open-world fantasy across Vvardenfell, prioritizing deep lore and unrestrained role-playing freedom.",
+          historicalSignificance: "Brought deeply complex Western PC open-world role-playing systems onto home consoles and laid the architectural groundwork for modern RPG design.",
+          keywords: ["morrowind", "pc", "bethesda game studios", "bethesda softworks", "rpg", "2002", "2000s", "xbox", "brought", "deeply", "complex", "western"],
+          featured: false
+        },
+        {
+          id: "game-metroid-prime",
+          slug: "metroid-prime",
+          title: "Metroid Prime",
+          originalReleaseDate: "November 18, 2002",
+          originalReleaseYear: 2002,
+          originalLaunchPlatform: "GameCube",
+          originalLaunchRegion: "North America",
+          platforms: ["GameCube"],
+          era: "2000s",
+          genre: "Action-Adventure",
+          developer: "Retro Studios / Nintendo",
+          publisher: "Nintendo",
+          image: "/assets/images/games/metroid-prime.webp",
+          url: "/games/metroid-prime/",
+          shortDescription: "Samus Aran's isolation on Tallon IV translated into an astonishing first-person adventure with deep scan-visor environmental archaeology.",
+          historicalSignificance: "Proved that classic 2D atmospheric exploration could translate seamlessly into 3D first-person design without losing structural identity or sense of isolation.",
+          keywords: ["metroid prime", "gamecube", "retro studios / nintendo", "nintendo", "action-adventure", "2002", "2000s", "proved", "that", "classic", "atmospheric", "exploration"],
+          featured: false
+        },
+        {
+          id: "game-star-wars-knights-of-the-old-republic",
+          slug: "star-wars-knights-of-the-old-republic",
+          title: "Star Wars: Knights of the Old Republic",
+          originalReleaseDate: "July 15, 2003",
+          originalReleaseYear: 2003,
+          originalLaunchPlatform: "Xbox",
+          originalLaunchRegion: "North America",
+          platforms: ["Xbox", "PC", "Macintosh"],
+          era: "2000s",
+          genre: "RPG",
+          developer: "BioWare",
+          publisher: "LucasArts",
+          image: "/assets/images/games/star-wars-knights-of-the-old-republic.webp",
+          url: "/games/star-wars-knights-of-the-old-republic/",
+          shortDescription: "A millennia-old galactic war between the Jedi and Darth Malak, centered on moral alignment and the unforgettable identity twist of Revan.",
+          historicalSignificance: "Set the standard for cinematic dialogue wheels, moral branching consequences, and elevated licensed sci-fi games to high artistic acclaim.",
+          keywords: ["kotor", "xbox", "bioware", "lucasarts", "rpg", "2003", "2000s", "pc", "macintosh", "standard", "cinematic", "dialogue"],
+          featured: false
+        },
+        {
+          id: "game-half-life-2",
+          slug: "half-life-2",
+          title: "Half-Life 2",
+          originalReleaseDate: "November 16, 2004",
+          originalReleaseYear: 2004,
+          originalLaunchPlatform: "PC",
+          originalLaunchRegion: "North America",
+          platforms: ["PC", "Xbox", "Xbox 360", "PlayStation 3"],
+          era: "2000s",
+          genre: "Shooter",
+          developer: "Valve",
+          publisher: "Valve",
+          image: "/assets/images/games/half-life-2.webp",
+          url: "/games/half-life-2/",
+          shortDescription: "Gordon Freeman's journey through City 17 and Ravenholm, powered by the revolutionary Havok physics-driven Source engine and Gravity Gun.",
+          historicalSignificance: "Revolutionized in-game environmental physics manipulation, non-verbal emotional facial animation, and inaugurated Valve's digital platform, Steam.",
+          keywords: ["half-life 2", "pc", "valve", "valve", "shooter", "2004", "2000s", "xbox", "xbox 360", "playstation 3", "revolutionized", "environmental"],
+          featured: true
+        },
+        {
+          id: "game-world-of-warcraft",
+          slug: "world-of-warcraft",
+          title: "World of Warcraft",
+          originalReleaseDate: "November 23, 2004",
+          originalReleaseYear: 2004,
+          originalLaunchPlatform: "PC",
+          originalLaunchRegion: "North America",
+          platforms: ["PC", "Macintosh"],
+          era: "2000s",
+          genre: "RPG",
+          developer: "Blizzard Entertainment",
+          publisher: "Blizzard Entertainment",
+          image: "/assets/images/games/world-of-warcraft.webp",
+          url: "/games/world-of-warcraft/",
+          shortDescription: "Blizzard's peerlessly polished online virtual Azeroth, combining accessible quest progression with monumental 40-player raid teamwork.",
+          historicalSignificance: "Redefined online multiplayer scale, becoming a global cultural touchstone with over 12 million peak subscribers and mainstream social prominence.",
+          keywords: ["world of warcraft", "pc", "blizzard entertainment", "blizzard entertainment", "rpg", "2004", "2000s", "macintosh", "redefined", "online", "multiplayer", "scale"],
+          featured: false
+        },
+        {
+          id: "game-grand-theft-auto-san-andreas",
+          slug: "grand-theft-auto-san-andreas",
+          title: "Grand Theft Auto: San Andreas",
+          originalReleaseDate: "October 26, 2004",
+          originalReleaseYear: 2004,
+          originalLaunchPlatform: "PlayStation 2",
+          originalLaunchRegion: "North America",
+          platforms: ["PlayStation 2", "Xbox", "PC"],
+          era: "2000s",
+          genre: "Action-Adventure",
+          developer: "Rockstar North",
+          publisher: "Rockstar Games",
+          image: "/assets/images/games/grand-theft-auto-san-andreas.webp",
+          url: "/games/grand-theft-auto-san-andreas/",
+          shortDescription: "CJ's sprawling saga across Los Santos, San Fierro, and Las Venturas, featuring body customization, turf warfare, and 90s hip-hop culture.",
+          historicalSignificance: "The crowning technological achievement of the PlayStation 2 hardware, delivering an entire seamless virtual state without mid-game loading screens.",
+          keywords: ["san andreas", "playstation 2", "rockstar north", "rockstar games", "action-adventure", "2004", "2000s", "xbox", "pc", "crowning", "technological", "achievement"],
+          featured: false
+        },
+        {
+          id: "game-resident-evil-4",
+          slug: "resident-evil-4",
+          title: "Resident Evil 4",
+          originalReleaseDate: "January 11, 2005",
+          originalReleaseYear: 2005,
+          originalLaunchPlatform: "GameCube",
+          originalLaunchRegion: "North America",
+          platforms: ["GameCube", "PlayStation 2", "PC", "Wii"],
+          era: "2000s",
+          genre: "Survival Horror",
+          developer: "Capcom Production Studio 4",
+          publisher: "Capcom",
+          image: "/assets/images/games/resident-evil-4.webp",
+          url: "/games/resident-evil-4/",
+          shortDescription: "Shinji Mikami's reinvention of Leon S. Kennedy's mission in rural Spain, pioneering tight over-the-shoulder third-person shooting.",
+          historicalSignificance: "Invented the modern over-the-shoulder aiming camera perspective that became the ubiquitous standard for third-person action games for twenty years.",
+          keywords: ["resident evil 4", "gamecube", "capcom", "capcom", "survival horror", "2005", "2000s", "playstation 2", "pc", "wii", "invented", "modern"],
+          featured: false
+        },
+        {
+          id: "game-shadow-of-the-colossus",
+          slug: "shadow-of-the-colossus",
+          title: "Shadow of the Colossus",
+          originalReleaseDate: "October 18, 2005",
+          originalReleaseYear: 2005,
+          originalLaunchPlatform: "PlayStation 2",
+          originalLaunchRegion: "North America",
+          platforms: ["PlayStation 2"],
+          era: "2000s",
+          genre: "Action-Adventure",
+          developer: "Team Ico",
+          publisher: "Sony Computer Entertainment",
+          image: "/assets/images/games/shadow-of-the-colossus.webp",
+          url: "/games/shadow-of-the-colossus/",
+          shortDescription: "Fumito Ueda's poetic, melancholy quest across a desolate forbidden land to slay sixteen magnificent colossi with climbing mechanics.",
+          historicalSignificance: "Often cited as the definitive evidence of video games as fine art, trading busy dungeon layouts for architectural minimalism, silence, and emotional weight.",
+          keywords: ["shadow of the colossus", "playstation 2", "team ico", "sony computer entertainment", "action-adventure", "2005", "2000s", "often", "cited", "definitive", "evidence"],
+          featured: false
+        },
+        {
+          id: "game-bioshock",
+          slug: "bioshock",
+          title: "BioShock",
+          originalReleaseDate: "August 21, 2007",
+          originalReleaseYear: 2007,
+          originalLaunchPlatform: "Xbox 360",
+          originalLaunchRegion: "North America",
+          platforms: ["Xbox 360", "PC", "PlayStation 3"],
+          era: "2000s",
+          genre: "Shooter",
+          developer: "2K Boston / 2K Australia",
+          publisher: "2K Games",
+          image: "/assets/images/games/bioshock.webp",
+          url: "/games/bioshock/",
+          shortDescription: "Ken Levine's underwater dystopian collapse of Andrew Ryan's Rapture, confronting Objectivism, genetic splicing, and player agency.",
+          historicalSignificance: "Subverted video game obedience and narrative choice with the iconic 'Would You Kindly' revelation, elevating philosophical discourse in games.",
+          keywords: ["bioshock", "xbox 360", "2k boston", "2k games", "shooter", "2007", "2000s", "pc", "playstation 3", "subverted", "video", "game"],
+          featured: false
+        },
+        {
+          id: "game-portal",
+          slug: "portal",
+          title: "Portal",
+          originalReleaseDate: "October 10, 2007",
+          originalReleaseYear: 2007,
+          originalLaunchPlatform: "PC",
+          originalLaunchRegion: "North America",
+          platforms: ["PC", "Xbox 360", "PlayStation 3"],
+          era: "2000s",
+          genre: "Puzzle",
+          developer: "Valve",
+          publisher: "Valve",
+          image: "/assets/images/games/portal.webp",
+          url: "/games/portal/",
+          shortDescription: "Chell and the Aperture Science Handheld Portal Device facing off against the passive-aggressive rogue AI GLaDOS in sterile test chambers.",
+          historicalSignificance: "A masterclass in spatial problem-solving, economy of design, sharp comedic voice acting, and seamless environmental tutorial design.",
+          keywords: ["portal", "pc", "valve", "valve", "puzzle", "2007", "2000s", "xbox 360", "playstation 3", "masterclass", "spatial", "problem"],
+          featured: false
+        },
+        {
+          id: "game-call-of-duty-4-modern-warfare",
+          slug: "call-of-duty-4-modern-warfare",
+          title: "Call of Duty 4: Modern Warfare",
+          originalReleaseDate: "November 5, 2007",
+          originalReleaseYear: 2007,
+          originalLaunchPlatform: "Xbox 360",
+          originalLaunchRegion: "North America",
+          platforms: ["Xbox 360", "PlayStation 3", "PC"],
+          era: "2000s",
+          genre: "Shooter",
+          developer: "Infinity Ward",
+          publisher: "Activision",
+          image: "/assets/images/games/call-of-duty-4-modern-warfare.webp",
+          url: "/games/call-of-duty-4-modern-warfare/",
+          shortDescription: "Captain Price and Soap MacTavish's tactical operations in Pripyat and the Middle East, revolutionizing multiplayer with persistent XP and perks.",
+          historicalSignificance: "Codified the persistent multiplayer progression loop (Create-a-Class, killstreaks, XP unlocks) that reshaped online action gaming across the entire industry.",
+          keywords: ["modern warfare", "xbox 360", "infinity ward", "activision", "shooter", "2007", "2000s", "playstation 3", "pc", "codified", "persistent", "multiplayer"],
+          featured: false
+        },
+        {
+          id: "game-mass-effect",
+          slug: "mass-effect",
+          title: "Mass Effect",
+          originalReleaseDate: "November 20, 2007",
+          originalReleaseYear: 2007,
+          originalLaunchPlatform: "Xbox 360",
+          originalLaunchRegion: "North America",
+          platforms: ["Xbox 360", "PC", "PlayStation 3"],
+          era: "2000s",
+          genre: "RPG",
+          developer: "BioWare",
+          publisher: "Microsoft Game Studios",
+          image: "/assets/images/games/mass-effect.webp",
+          url: "/games/mass-effect/",
+          shortDescription: "Commander Shepard's journey aboard the SSV Normandy to stop Saren and the extinction-level Reaper threat, featuring the cinematic dialogue wheel.",
+          historicalSignificance: "Pioneered seamless cinematic interactive dialogue direction and persistent multi-game cross-save narrative consequences across a galactic sci-fi space opera.",
+          keywords: ["mass effect", "xbox 360", "bioware", "microsoft game studios", "rpg", "2007", "2000s", "pc", "playstation 3", "pioneered", "seamless", "cinematic"],
+          featured: false
+        },
+
+        /* --- 2010s ERA --- */
+        {
+          id: "game-red-dead-redemption",
+          slug: "red-dead-redemption",
+          title: "Red Dead Redemption",
+          originalReleaseDate: "May 18, 2010",
+          originalReleaseYear: 2010,
+          originalLaunchPlatform: "PlayStation 3",
+          originalLaunchRegion: "North America",
+          platforms: ["PlayStation 3", "Xbox 360"],
+          era: "2010s",
+          genre: "Action-Adventure",
+          developer: "Rockstar San Diego",
+          publisher: "Rockstar Games",
+          image: "/assets/images/games/red-dead-redemption.webp",
+          url: "/games/red-dead-redemption/",
+          shortDescription: "John Marston's tragic pursuit of his former Van der Linde gang members across the dying American frontier in 1911.",
+          historicalSignificance: "Demonstrated unprecedented cinematic gravitas and mature character characterization within a sprawling simulated Western wilderness.",
+          keywords: ["red dead redemption", "playstation 3", "rockstar san diego", "rockstar games", "action-adventure", "2010", "2010s", "xbox 360", "demonstrated", "unprecedented", "cinematic"],
+          featured: false
+        },
+        {
+          id: "game-minecraft",
+          slug: "minecraft",
+          title: "Minecraft",
+          originalReleaseDate: "November 18, 2011",
+          originalReleaseYear: 2011,
+          originalLaunchPlatform: "PC",
+          originalLaunchRegion: "Sweden",
+          platforms: ["PC", "Xbox 360", "PlayStation 3", "PlayStation 4", "Xbox One", "Nintendo Switch"],
+          era: "2010s",
+          genre: "Simulation",
+          developer: "Mojang",
+          publisher: "Mojang",
+          image: "/assets/images/games/minecraft.webp",
+          url: "/games/minecraft/",
+          shortDescription: "Markus 'Notch' Persson's voxel-based procedural sandbox offering limitless architectural creation, survival engineering, and emergent exploration.",
+          historicalSignificance: "Became the highest-selling video game in human history, fostering an unprecedented global generational literacy in digital systems and creative construction.",
+          keywords: ["minecraft", "pc", "mojang", "mojang", "simulation", "2011", "2010s", "xbox 360", "playstation 3", "became", "highest", "selling"],
+          featured: false
+        },
+        {
+          id: "game-dark-souls",
+          slug: "dark-souls",
+          title: "Dark Souls",
+          originalReleaseDate: "September 22, 2011",
+          originalReleaseYear: 2011,
+          originalLaunchPlatform: "PlayStation 3",
+          originalLaunchRegion: "Japan",
+          platforms: ["PlayStation 3", "Xbox 360", "PC"],
+          era: "2010s",
+          genre: "RPG",
+          developer: "FromSoftware",
+          publisher: "FromSoftware / Bandai Namco",
+          image: "/assets/images/games/dark-souls.webp",
+          url: "/games/dark-souls/",
+          shortDescription: "Hidetaka Miyazaki's uncompromising descent through the interconnected vertical ruin of Lordran, defined by environmental storytelling and bonfire respawns.",
+          historicalSignificance: "Spawned the 'Soulslike' genre, rejecting handholding in favor of deliberate combat discipline, diegetic multiplayer phantoms, and profound spatial architecture.",
+          keywords: ["dark souls", "playstation 3", "fromsoftware", "bandai namco", "rpg", "2011", "2010s", "xbox 360", "pc", "spawned", "soulslike", "genre"],
+          featured: true
+        },
+        {
+          id: "game-the-elder-scrolls-v-skyrim",
+          slug: "the-elder-scrolls-v-skyrim",
+          title: "The Elder Scrolls V: Skyrim",
+          originalReleaseDate: "November 11, 2011",
+          originalReleaseYear: 2011,
+          originalLaunchPlatform: "PC",
+          originalLaunchRegion: "North America",
+          platforms: ["PC", "Xbox 360", "PlayStation 3", "PlayStation 4", "Xbox One", "Nintendo Switch"],
+          era: "2010s",
+          genre: "RPG",
+          developer: "Bethesda Game Studios",
+          publisher: "Bethesda Softworks",
+          image: "/assets/images/games/the-elder-scrolls-v-skyrim.webp",
+          url: "/games/the-elder-scrolls-v-skyrim/",
+          shortDescription: "The Dragonborn's unscripted journey across the snow-capped mountains of Skyrim, featuring radiant quests and complete freeform lifestyle exploration.",
+          historicalSignificance: "Defined 2010s open-world fantasy exploration, inspiring thousands of community mods and becoming an enduring cultural phenomenon across every hardware generation.",
+          keywords: ["skyrim", "pc", "bethesda game studios", "bethesda softworks", "rpg", "2011", "2010s", "xbox 360", "playstation 3", "defined", "open", "world"],
+          featured: false
+        },
+        {
+          id: "game-portal-2",
+          slug: "portal-2",
+          title: "Portal 2",
+          originalReleaseDate: "April 18, 2011",
+          originalReleaseYear: 2011,
+          originalLaunchPlatform: "PC",
+          originalLaunchRegion: "North America",
+          platforms: ["PC", "Macintosh", "PlayStation 3", "Xbox 360"],
+          era: "2010s",
+          genre: "Puzzle",
+          developer: "Valve",
+          publisher: "Valve",
+          image: "/assets/images/games/portal-2.webp",
+          url: "/games/portal-2/",
+          shortDescription: "Chell's return to the decaying bowels of Aperture Science alongside Wheatley and Cave Johnson, introducing mobility gels and a two-player cooperative campaign.",
+          historicalSignificance: "Expanded minimalist spatial puzzles into a full-scale narrative comedy masterpiece, setting the pinnacle for co-op spatial problem solving.",
+          keywords: ["portal 2", "pc", "valve", "valve", "puzzle", "2011", "2010s", "macintosh", "playstation 3", "expanded", "minimalist", "spatial"],
+          featured: false
+        },
+        {
+          id: "game-the-last-of-us",
+          slug: "the-last-of-us",
+          title: "The Last of Us",
+          originalReleaseDate: "June 14, 2013",
+          originalReleaseYear: 2013,
+          originalLaunchPlatform: "PlayStation 3",
+          originalLaunchRegion: "North America",
+          platforms: ["PlayStation 3", "PlayStation 4"],
+          era: "2010s",
+          genre: "Action-Adventure",
+          developer: "Naughty Dog",
+          publisher: "Sony Computer Entertainment",
+          image: "/assets/images/games/the-last-of-us.webp",
+          url: "/games/the-last-of-us/",
+          shortDescription: "Joel and Ellie's harrowing overland trek across a fungal-ravaged America, capturing raw human vulnerability and desperate improvised combat.",
+          historicalSignificance: "Established a high-water mark for emotionally devastating character performance, motion capture fidelity, and nuanced human moral ambiguity in mainstream blockbusters.",
+          keywords: ["the last of us", "playstation 3", "naughty dog", "sony computer entertainment", "action-adventure", "2013", "2010s", "playstation 4", "established", "high", "water"],
+          featured: false
+        },
+        {
+          id: "game-grand-theft-auto-v",
+          slug: "grand-theft-auto-v",
+          title: "Grand Theft Auto V",
+          originalReleaseDate: "September 17, 2013",
+          originalReleaseYear: 2013,
+          originalLaunchPlatform: "PlayStation 3",
+          originalLaunchRegion: "North America",
+          platforms: ["PlayStation 3", "Xbox 360", "PlayStation 4", "Xbox One", "PC"],
+          era: "2010s",
+          genre: "Action-Adventure",
+          developer: "Rockstar North",
+          publisher: "Rockstar Games",
+          image: "/assets/images/games/grand-theft-auto-v.webp",
+          url: "/games/grand-theft-auto-v/",
+          shortDescription: "Michael, Franklin, and Trevor's interconnected crime sprees across Southern California, introducing real-time character-switching dynamics.",
+          historicalSignificance: "The most financially successful single entertainment release in human history, featuring unmatched open-world simulation density and online communal longevity.",
+          keywords: ["gta v", "playstation 3", "rockstar north", "rockstar games", "action-adventure", "2013", "2010s", "xbox 360", "playstation 4", "most", "financially", "successful"],
+          featured: false
+        },
+        {
+          id: "game-bloodborne",
+          slug: "bloodborne",
+          title: "Bloodborne",
+          originalReleaseDate: "March 24, 2015",
+          originalReleaseYear: 2015,
+          originalLaunchPlatform: "PlayStation 4",
+          originalLaunchRegion: "Japan",
+          platforms: ["PlayStation 4"],
+          era: "2010s",
+          genre: "RPG",
+          developer: "FromSoftware",
+          publisher: "Sony Computer Entertainment",
+          image: "/assets/images/games/bloodborne.webp",
+          url: "/games/bloodborne/",
+          shortDescription: "A hunter's nocturnal descent through the plague-ridden Victorian gothic streets of Yharnam into cosmic Lovecraftian insanity, emphasizing aggressive rally combat.",
+          historicalSignificance: "Pioneered fast-paced offensive risk-reward combat with the rally health mechanic, transforming gothic Victorian horror into a transcendent cosmic nightmare.",
+          keywords: ["bloodborne", "playstation 4", "fromsoftware", "sony computer entertainment", "rpg", "2015", "2010s", "pioneered", "fast", "paced", "offensive"],
+          featured: false
+        },
+        {
+          id: "game-the-witcher-3-wild-hunt",
+          slug: "the-witcher-3-wild-hunt",
+          title: "The Witcher 3: Wild Hunt",
+          originalReleaseDate: "May 19, 2015",
+          originalReleaseYear: 2015,
+          originalLaunchPlatform: "PC",
+          originalLaunchRegion: "Poland",
+          platforms: ["PC", "PlayStation 4", "Xbox One", "Nintendo Switch"],
+          era: "2010s",
+          genre: "RPG",
+          developer: "CD Projekt Red",
+          publisher: "CD Projekt",
+          image: "/assets/images/games/the-witcher-3-wild-hunt.webp",
+          url: "/games/the-witcher-3-wild-hunt/",
+          shortDescription: "Geralt of Rivia's search for his adopted daughter Ciri across war-torn Velen and the Skellige Isles, accompanied by morally gray folkloric side quests.",
+          historicalSignificance: "Reinvented modern open-world quest design by ensuring even minor side missions possessed multi-layered character motivations, psychological nuance, and unexpected moral tragedy.",
+          keywords: ["the witcher 3", "pc", "cd projekt red", "cd projekt", "rpg", "2015", "2010s", "playstation 4", "xbox one", "reinvented", "modern", "open"],
+          featured: false
+        },
+        {
+          id: "game-undertale",
+          slug: "undertale",
+          title: "Undertale",
+          originalReleaseDate: "September 15, 2015",
+          originalReleaseYear: 2015,
+          originalLaunchPlatform: "PC",
+          originalLaunchRegion: "North America",
+          platforms: ["PC", "Macintosh", "PlayStation 4", "PlayStation Vita", "Nintendo Switch"],
+          era: "2010s",
+          genre: "RPG",
+          developer: "Toby Fox",
+          publisher: "Toby Fox",
+          image: "/assets/images/games/undertale.webp",
+          url: "/games/undertale/",
+          shortDescription: "Toby Fox's subversive underground RPG where every encounter can be resolved peacefully through conversation, bullet-hell mercy, and empathy.",
+          historicalSignificance: "Deconstructed RPG violence and save-state morality, demonstrating that solo independent developers could craft globally influential narrative experiences with minimalist mechanics.",
+          keywords: ["undertale", "pc", "toby fox", "toby fox", "rpg", "2015", "2010s", "macintosh", "playstation 4", "deconstructed", "violence", "save"],
+          featured: false
+        },
+        {
+          id: "game-the-legend-of-zelda-breath-of-the-wild",
+          slug: "the-legend-of-zelda-breath-of-the-wild",
+          title: "The Legend of Zelda: Breath of the Wild",
+          originalReleaseDate: "March 3, 2017",
+          originalReleaseYear: 2017,
+          originalLaunchPlatform: "Nintendo Switch",
+          originalLaunchRegion: "Japan",
+          platforms: ["Nintendo Switch", "Wii U"],
+          era: "2010s",
+          genre: "Action-Adventure",
+          developer: "Nintendo EPD",
+          publisher: "Nintendo",
+          image: "/assets/images/games/the-legend-of-zelda-breath-of-the-wild.webp",
+          url: "/games/the-legend-of-zelda-breath-of-the-wild/",
+          shortDescription: "Link's awakening in a post-calamity Hyrule governed by chemistry engines, universal climbing physics, and absolute non-linear tactical freedom.",
+          historicalSignificance: "Reimagined the open-world genre through systemic physics, multi-elemental environmental interactions, and the elimination of checklist map markers in favor of organic sightlines.",
+          keywords: ["breath of the wild", "nintendo switch", "nintendo epd", "nintendo", "action-adventure", "2017", "2010s", "wii u", "reimagined", "open", "world"],
+          featured: false
+        },
+        {
+          id: "game-red-dead-redemption-2",
+          slug: "red-dead-redemption-2",
+          title: "Red Dead Redemption 2",
+          originalReleaseDate: "October 26, 2018",
+          originalReleaseYear: 2018,
+          originalLaunchPlatform: "PlayStation 4",
+          originalLaunchRegion: "North America",
+          platforms: ["PlayStation 4", "Xbox One", "PC"],
+          era: "2010s",
+          genre: "Action-Adventure",
+          developer: "Rockstar Games",
+          publisher: "Rockstar Games",
+          image: "/assets/images/games/red-dead-redemption-2.webp",
+          url: "/games/red-dead-redemption-2/",
+          shortDescription: "Arthur Morgan and the slow tragic dissolution of Dutch van der Linde's outlaw gang amidst the encroaching modern world at the turn of the 20th century.",
+          historicalSignificance: "Pushed ecological and behavioral NPC simulation to unmatched historical realism, capturing the slow emotional disintegration of the American outlaw dream.",
+          keywords: ["red dead redemption 2", "playstation 4", "rockstar games", "rockstar games", "action-adventure", "2018", "2010s", "xbox one", "pc", "pushed", "ecological", "behavioral"],
+          featured: false
+        }
+      ];
+
+      /* --------------------------------------------------------------------------
+         02. STORAGE ARCHITECTURE & FAVORITES COMPATIBILITY
+         -------------------------------------------------------------------------- */
+      const FAV_STORAGE_KEY = 'nostalgicverse_favs';
+
+      function getStoredFavorites() {
+        try {
+          const raw = localStorage.getItem(FAV_STORAGE_KEY);
+          if (!raw) return [];
+          const parsed = JSON.parse(raw);
+          return Array.isArray(parsed) ? parsed : [];
+        } catch (err) {
+          console.warn('NostalgicVerse: LocalStorage inaccessible.', err);
+          return [];
+        }
+      }
+
+      function saveFavorites(favsArray) {
+        try {
+          localStorage.setItem(FAV_STORAGE_KEY, JSON.stringify(favsArray));
+        } catch (err) {
+          console.warn('NostalgicVerse: Unable to write to LocalStorage.', err);
+        }
+      }
+
+      function isFavorite(id) {
+        return getStoredFavorites().some(item => item.id === id);
+      }
+
+      function toggleFavoriteGame(game) {
+        let favs = getStoredFavorites();
+        const exists = favs.some(f => f.id === game.id);
+
+        if (exists) {
+          favs = favs.filter(f => f.id !== game.id);
+        } else {
+          favs.push({
+            id: game.id,
+            title: game.title,
+            url: game.url
+          });
+        }
+
+        saveFavorites(favs);
+        updateFavoriteButtons();
+        updateFavoritesHeaderBadge();
+      }
+
+      function updateFavoriteButtons() {
+        const buttons = document.querySelectorAll('[data-fav-id]');
+        buttons.forEach(btn => {
+          const id = btn.getAttribute('data-fav-id');
+          const title = btn.getAttribute('data-fav-title') || 'Game';
+          const active = isFavorite(id);
+
+          if (active) {
+            btn.classList.add('is-active');
+            btn.setAttribute('aria-label', `Remove ${title} from favorites`);
+            btn.setAttribute('title', `Remove ${title} from favorites`);
+          } else {
+            btn.classList.remove('is-active');
+            btn.setAttribute('aria-label', `Add ${title} to favorites`);
+            btn.setAttribute('title', `Add ${title} to favorites`);
+          }
+        });
+      }
+
+      function updateFavoritesHeaderBadge() {
+        const badge = document.getElementById('header-fav-badge');
+        if (!badge) return;
+
+        const count = getStoredFavorites().length;
+        badge.textContent = String(count);
+
+        if (count > 0) {
+          badge.classList.add('has-items');
+        } else {
+          badge.classList.remove('has-items');
+        }
+      }
+
+      // Sync across browser tabs
+      window.addEventListener('storage', function (e) {
+        if (e.key === FAV_STORAGE_KEY) {
+          updateFavoriteButtons();
+          updateFavoritesHeaderBadge();
+        }
+      });
+
+      /* --------------------------------------------------------------------------
+         03. SAFE DOM FACTORY (HISTORICAL ARTIFACT CARDS)
+         -------------------------------------------------------------------------- */
+      function createGameCardElement(game, isCuratedLead) {
+        const card = document.createElement('article');
+        card.className = 'museum-game-card';
+        card.setAttribute('data-game-id', game.id);
+
+        // Media Container
+        const media = document.createElement('div');
+        media.className = 'card-media';
+
+        const img = document.createElement('img');
+        img.className = 'card-image';
+        img.src = game.image;
+        img.alt = `${game.title} archival artwork`;
+        img.width = 480;
+        img.height = 300;
+        img.loading = isCuratedLead ? 'eager' : 'lazy';
+        img.decoding = 'async';
+
+        // Intentional Museum Fallback Plate
+        const fallback = document.createElement('div');
+        fallback.className = 'card-fallback-plate';
+        fallback.style.display = 'none';
+        fallback.setAttribute('aria-hidden', 'true');
+
+        const fallbackSvg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+        fallbackSvg.setAttribute('viewBox', '0 0 24 24');
+        fallbackSvg.setAttribute('fill', 'none');
+        fallbackSvg.setAttribute('stroke', 'currentColor');
+        fallbackSvg.setAttribute('stroke-width', '1.5');
+        const fallbackPath = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+        fallbackPath.setAttribute('d', 'M6 11h12M6 11a4 4 0 0 1-4-4V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v2a4 4 0 0 1-4 4M6 11v6a5 5 0 0 0 10 0v-6');
+        fallbackSvg.appendChild(fallbackPath);
+
+        const fallbackTitle = document.createElement('span');
+        fallbackTitle.className = 'plate-title';
+        fallbackTitle.textContent = `EXHIBIT · ${game.title}`;
+
+        const fallbackTag = document.createElement('span');
+        fallbackTag.className = 'plate-tag';
+        fallbackTag.textContent = `${game.originalReleaseYear} · ${game.originalLaunchPlatform}`;
+
+        fallback.appendChild(fallbackSvg);
+        fallback.appendChild(fallbackTitle);
+        fallback.appendChild(fallbackTag);
+
+        img.addEventListener('error', function () {
+          img.style.display = 'none';
+          fallback.style.display = 'flex';
+        });
+
+        // Favorite Control
+        const favBtnWrap = document.createElement('div');
+        favBtnWrap.className = 'card-fav-anchor';
+
+        const favBtn = document.createElement('button');
+        favBtn.type = 'button';
+        favBtn.className = 'fav-btn';
+        favBtn.setAttribute('data-fav-id', game.id);
+        favBtn.setAttribute('data-fav-title', game.title);
+        favBtn.setAttribute('data-fav-url', game.url);
+        favBtn.setAttribute('aria-label', `Add ${game.title} to favorites`);
+
+        const favSvg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+        favSvg.setAttribute('viewBox', '0 0 24 24');
+        favSvg.setAttribute('stroke-width', '2');
+        favSvg.setAttribute('stroke-linecap', 'round');
+        favSvg.setAttribute('stroke-linejoin', 'round');
+
+        const favPath = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+        favPath.setAttribute('d', 'M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z');
+        favSvg.appendChild(favPath);
+        favBtn.appendChild(favSvg);
+
+        favBtn.addEventListener('click', function (e) {
+          e.preventDefault();
+          e.stopPropagation();
+          toggleFavoriteGame(game);
+        });
+
+        favBtnWrap.appendChild(favBtn);
+
+        media.appendChild(img);
+        media.appendChild(fallback);
+        media.appendChild(favBtnWrap);
+
+        // Body Content
+        const body = document.createElement('div');
+        body.className = 'card-body';
+
+        const topDiv = document.createElement('div');
+
+        // Meta Line: Era and First Released Year
+        const metaLine = document.createElement('div');
+        metaLine.className = 'card-meta-line';
+
+        const eraSpan = document.createElement('span');
+        eraSpan.textContent = `${game.era} ARCHIVE`;
+
+        const yearSpan = document.createElement('span');
+        yearSpan.className = 'first-release';
+        yearSpan.textContent = `DEBUT ${game.originalReleaseYear}`;
+
+        metaLine.appendChild(eraSpan);
+        metaLine.appendChild(yearSpan);
+
+        // Title
+        const title = document.createElement('h3');
+        title.className = 'card-game-title';
+        title.textContent = game.title;
+
+        // Spec Grid (Strict Museum Metadata Hierarchy)
+        const specGrid = document.createElement('div');
+        specGrid.className = 'card-spec-grid';
+
+        // Row 1: Original Launch Platform & Region
+        const rowPlat = document.createElement('div');
+        rowPlat.className = 'card-spec-row';
+        const termPlat = document.createElement('span');
+        termPlat.className = 'spec-term';
+        termPlat.textContent = 'ORIGINAL PLATFORM:';
+        const valPlat = document.createElement('span');
+        valPlat.className = 'spec-val highlight-cyan';
+        valPlat.textContent = `${game.originalLaunchPlatform} (${game.originalLaunchRegion})`;
+        rowPlat.appendChild(termPlat);
+        rowPlat.appendChild(valPlat);
+
+        // Row 2: Genre
+        const rowGenre = document.createElement('div');
+        rowGenre.className = 'card-spec-row';
+        const termGenre = document.createElement('span');
+        termGenre.className = 'spec-term';
+        termGenre.textContent = 'GENRE:';
+        const valGenre = document.createElement('span');
+        valGenre.className = 'spec-val';
+        valGenre.textContent = game.genre;
+        rowGenre.appendChild(termGenre);
+        rowGenre.appendChild(valGenre);
+
+        // Row 3: Developer
+        const rowDev = document.createElement('div');
+        rowDev.className = 'card-spec-row';
+        const termDev = document.createElement('span');
+        termDev.className = 'spec-term';
+        termDev.textContent = 'DEVELOPER:';
+        const valDev = document.createElement('span');
+        valDev.className = 'spec-val';
+        valDev.textContent = game.developer;
+        rowDev.appendChild(termDev);
+        rowDev.appendChild(valDev);
+
+        specGrid.appendChild(rowPlat);
+        specGrid.appendChild(rowGenre);
+        specGrid.appendChild(rowDev);
+
+        // Editorial Short Description
+        const descText = document.createElement('p');
+        descText.className = 'card-desc-text';
+        descText.textContent = game.shortDescription;
+
+        topDiv.appendChild(metaLine);
+        topDiv.appendChild(title);
+        topDiv.appendChild(specGrid);
+        topDiv.appendChild(descText);
+
+        // Footer Action
+        const footer = document.createElement('div');
+        footer.className = 'card-footer-action';
+
+        const link = document.createElement('a');
+        link.className = 'btn btn-inline';
+        link.href = game.url;
+
+        const linkSpan = document.createElement('span');
+        linkSpan.textContent = 'View Exhibit';
+        const arrowSpan = document.createTextNode(' →');
+
+        link.appendChild(linkSpan);
+        link.appendChild(arrowSpan);
+
+        const idBadge = document.createElement('span');
+        idBadge.className = 'archive-id-badge';
+        idBadge.textContent = `NV-ARC-${game.originalReleaseYear}`;
+
+        footer.appendChild(link);
+        footer.appendChild(idBadge);
+
+        body.appendChild(topDiv);
+        body.appendChild(footer);
+
+        card.appendChild(media);
+        card.appendChild(body);
+
+        return card;
+      }
+
+      /* --------------------------------------------------------------------------
+         04. DYNAMIC ARCHIVE STATISTICS STRIP
+         -------------------------------------------------------------------------- */
+      function renderArchiveStatistics() {
+        const totalGames = GAMES_DATA.length;
+        const eras = new Set(GAMES_DATA.map(g => g.era)).size;
+        const platforms = new Set(GAMES_DATA.map(g => g.originalLaunchPlatform)).size;
+        const genres = new Set(GAMES_DATA.map(g => g.genre)).size;
+
+        const gamesEl = document.getElementById('stat-games-count');
+        const erasEl = document.getElementById('stat-eras-count');
+        const platformsEl = document.getElementById('stat-platforms-count');
+        const genresEl = document.getElementById('stat-genres-count');
+
+        if (gamesEl) gamesEl.textContent = String(totalGames);
+        if (erasEl) erasEl.textContent = String(eras);
+        if (platformsEl) platformsEl.textContent = String(platforms);
+        if (genresEl) genresEl.textContent = String(genres);
+      }
+
+      /* --------------------------------------------------------------------------
+         05. FILTER CONTROLS DYNAMIC POPULATOR
+         -------------------------------------------------------------------------- */
+      function populateFilterControls() {
+        const eraSelect = document.getElementById('filter-era-select');
+        const platformSelect = document.getElementById('filter-platform-select');
+        const genreSelect = document.getElementById('filter-genre-select');
+
+        // Eras (Sorted Chronologically)
+        const eras = Array.from(new Set(GAMES_DATA.map(g => g.era))).sort();
+        eras.forEach(era => {
+          const opt = document.createElement('option');
+          opt.value = era;
+          opt.textContent = `${era} Era`;
+          eraSelect.appendChild(opt);
+        });
+
+        // Original Launch Platforms (Alphabetical)
+        const platforms = Array.from(new Set(GAMES_DATA.map(g => g.originalLaunchPlatform))).sort();
+        platforms.forEach(p => {
+          const opt = document.createElement('option');
+          opt.value = p;
+          opt.textContent = p;
+          platformSelect.appendChild(opt);
+        });
+
+        // Genres (Alphabetical)
+        const genres = Array.from(new Set(GAMES_DATA.map(g => g.genre))).sort();
+        genres.forEach(g => {
+          const opt = document.createElement('option');
+          opt.value = g;
+          opt.textContent = g;
+          genreSelect.appendChild(opt);
+        });
+      }
+
+      /* --------------------------------------------------------------------------
+         06. FILTER, SORT & RENDER ENGINE
+         -------------------------------------------------------------------------- */
+      const searchInput = document.getElementById('archive-search-input');
+      const searchClearBtn = document.getElementById('search-clear-btn');
+      const eraSelect = document.getElementById('filter-era-select');
+      const platformSelect = document.getElementById('filter-platform-select');
+      const genreSelect = document.getElementById('filter-genre-select');
+      const sortSelect = document.getElementById('sort-games-select');
+      const resetBtn = document.getElementById('reset-filters-btn');
+      const emptyResetBtn = document.getElementById('empty-state-reset-btn');
+      const mainGrid = document.getElementById('main-games-grid');
+      const emptyState = document.getElementById('catalogue-empty-state');
+      const resultCounter = document.getElementById('catalogue-result-counter');
+
+      function filterAndSortCatalogue() {
+        const query = searchInput ? searchInput.value.trim().toLowerCase() : '';
+        const selectedEra = eraSelect ? eraSelect.value : 'all';
+        const selectedPlatform = platformSelect ? platformSelect.value : 'all';
+        const selectedGenre = genreSelect ? genreSelect.value : 'all';
+        const currentSort = sortSelect ? sortSelect.value : 'featured';
+
+        // Toggle clear search button visibility
+        if (searchClearBtn) {
+          if (query.length > 0) {
+            searchClearBtn.classList.add('is-visible');
+          } else {
+            searchClearBtn.classList.remove('is-visible');
+          }
+        }
+
+        // 1. Filtering
+        let filtered = GAMES_DATA.filter(game => {
+          // Era Match
+          if (selectedEra !== 'all' && game.era !== selectedEra) return false;
+
+          // Original Launch Platform Match
+          if (selectedPlatform !== 'all' && game.originalLaunchPlatform !== selectedPlatform) return false;
+
+          // Genre Match
+          if (selectedGenre !== 'all' && game.genre !== selectedGenre) return false;
+
+          // Broad Client-Side Search
+          if (query.length > 0) {
+            const inTitle = game.title.toLowerCase().includes(query);
+            const inDev = game.developer.toLowerCase().includes(query);
+            const inPub = game.publisher.toLowerCase().includes(query);
+            const inOrigPlat = game.originalLaunchPlatform.toLowerCase().includes(query);
+            const inPlats = game.platforms.some(p => p.toLowerCase().includes(query));
+            const inGenre = game.genre.toLowerCase().includes(query);
+            const inYear = String(game.originalReleaseYear).includes(query);
+            const inEra = game.era.toLowerCase().includes(query);
+            const inKeywords = game.keywords.some(k => k.toLowerCase().includes(query));
+            const inSig = game.historicalSignificance.toLowerCase().includes(query);
+            const inDesc = game.shortDescription.toLowerCase().includes(query);
+
+            if (!inTitle && !inDev && !inPub && !inOrigPlat && !inPlats && !inGenre && !inYear && !inEra && !inKeywords && !inSig && !inDesc) {
+              return false;
+            }
+          }
+
+          return true;
+        });
+
+        // 2. Sorting
+        filtered.sort((a, b) => {
+          if (currentSort === 'year-asc') {
+            return a.originalReleaseYear - b.originalReleaseYear;
+          }
+          if (currentSort === 'year-desc') {
+            return b.originalReleaseYear - a.originalReleaseYear;
+          }
+          if (currentSort === 'title-asc') {
+            return a.title.localeCompare(b.title);
+          }
+          if (currentSort === 'title-desc') {
+            return b.title.localeCompare(a.title);
+          }
+          // Default: 'featured'
+          if (a.featured && !b.featured) return -1;
+          if (!a.featured && b.featured) return 1;
+          return a.originalReleaseYear - b.originalReleaseYear;
+        });
+
+        // 3. Render into DOM
+        if (mainGrid) {
+          mainGrid.textContent = ''; // Clean reset
+
+          if (filtered.length === 0) {
+            emptyState.classList.add('is-visible');
+            mainGrid.style.display = 'none';
+          } else {
+            emptyState.classList.remove('is-visible');
+            mainGrid.style.display = 'grid';
+
+            const fragment = document.createDocumentFragment();
+            filtered.forEach(game => {
+              fragment.appendChild(createGameCardElement(game, false));
+            });
+            mainGrid.appendChild(fragment);
+          }
+        }
+
+        // 4. Update Meta Count Text
+        if (resultCounter) {
+          const total = GAMES_DATA.length;
+          const shown = filtered.length;
+          resultCounter.textContent = `SHOWING ${shown} OF ${total} ARCHIVED EXHIBITS`;
+        }
+
+        updateFavoriteButtons();
+      }
+
+      function resetAllFilters() {
+        if (searchInput) searchInput.value = '';
+        if (eraSelect) eraSelect.value = 'all';
+        if (platformSelect) platformSelect.value = 'all';
+        if (genreSelect) genreSelect.value = 'all';
+        if (sortSelect) sortSelect.value = 'featured';
+        filterAndSortCatalogue();
+        if (searchInput) searchInput.focus();
+      }
+
+      /* --------------------------------------------------------------------------
+         07. MOUNT FEATURED CURATED CORNERSTONES
+         -------------------------------------------------------------------------- */
+      function renderFeaturedCornerstones() {
+        const container = document.getElementById('curated-games-container');
+        if (!container) return;
+
+        container.textContent = '';
+        const curatedList = GAMES_DATA.filter(g => g.featured).slice(0, 3);
+        const fragment = document.createDocumentFragment();
+
+        curatedList.forEach(game => {
+          fragment.appendChild(createGameCardElement(game, true));
+        });
+
+        container.appendChild(fragment);
+      }
+
+      /* --------------------------------------------------------------------------
+         08. RANDOM DISCOVERY INTERACTION
+         -------------------------------------------------------------------------- */
+      const randomBtn = document.getElementById('random-discovery-btn');
+      const randomBtnText = document.getElementById('random-btn-text');
+
+      if (randomBtn) {
+        randomBtn.addEventListener('click', function () {
+          if (GAMES_DATA.length === 0) return;
+
+          if (randomBtnText) randomBtnText.textContent = 'CONSULTING ARCHIVE...';
+          randomBtn.disabled = true;
+
+          setTimeout(function () {
+            const randomIndex = Math.floor(Math.random() * GAMES_DATA.length);
+            const targetGame = GAMES_DATA[randomIndex];
+            if (targetGame && targetGame.url) {
+              window.location.href = targetGame.url;
+            } else {
+              randomBtn.disabled = false;
+              if (randomBtnText) randomBtnText.textContent = 'Discover Random Game';
+            }
+          }, 350);
+        });
+      }
+
+      /* --------------------------------------------------------------------------
+         09. ACCESSIBLE MOBILE DRAWER
+         -------------------------------------------------------------------------- */
+      const menuBtn = document.getElementById('menu-toggle-btn');
+      const closeBtn = document.getElementById('drawer-close-btn');
+      const drawer = document.getElementById('mobile-nav-drawer');
+      const backdrop = document.getElementById('drawer-backdrop');
+
+      function openDrawer() {
+        if (!drawer || !backdrop) return;
+        document.body.classList.add('menu-open');
+        drawer.classList.add('is-open');
+        backdrop.classList.add('is-open');
+        menuBtn.setAttribute('aria-expanded', 'true');
+        drawer.setAttribute('aria-hidden', 'false');
+        drawer.focus();
+      }
+
+      function closeDrawer() {
+        if (!drawer || !backdrop) return;
+        document.body.classList.remove('menu-open');
+        drawer.classList.remove('is-open');
+        backdrop.classList.remove('is-open');
+        menuBtn.setAttribute('aria-expanded', 'false');
+        drawer.setAttribute('aria-hidden', 'true');
+        menuBtn.focus();
+      }
+
+      if (menuBtn) menuBtn.addEventListener('click', openDrawer);
+      if (closeBtn) closeBtn.addEventListener('click', closeDrawer);
+      if (backdrop) backdrop.addEventListener('click', closeDrawer);
+
+      document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape' && drawer && drawer.classList.contains('is-open')) {
+          closeDrawer();
+        }
+      });
+
+      /* --------------------------------------------------------------------------
+         10. EVENT LISTENERS SETUP & BOOTSTRAP
+         -------------------------------------------------------------------------- */
+      if (searchInput) {
+        searchInput.addEventListener('input', filterAndSortCatalogue);
+      }
+
+      if (searchClearBtn) {
+        searchClearBtn.addEventListener('click', function () {
+          searchInput.value = '';
+          filterAndSortCatalogue();
+          searchInput.focus();
+        });
+      }
+
+      if (eraSelect) eraSelect.addEventListener('change', filterAndSortCatalogue);
+      if (platformSelect) platformSelect.addEventListener('change', filterAndSortCatalogue);
+      if (genreSelect) genreSelect.addEventListener('change', filterAndSortCatalogue);
+      if (sortSelect) sortSelect.addEventListener('change', filterAndSortCatalogue);
+      if (resetBtn) resetBtn.addEventListener('click', resetAllFilters);
+      if (emptyResetBtn) emptyResetBtn.addEventListener('click', resetAllFilters);
+
+      window.addEventListener('DOMContentLoaded', function () {
+        renderArchiveStatistics();
+        populateFilterControls();
+        renderFeaturedCornerstones();
+        filterAndSortCatalogue();
+        updateFavoritesHeaderBadge();
+      });
+
+    })();
+  </script>
+</body>
+</html>

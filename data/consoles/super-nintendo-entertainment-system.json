@@ -1,0 +1,44 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+  "id": "console-snes",
+  "slug": "super-nintendo-entertainment-system",
+  "name": "Super Nintendo Entertainment System (SNES / Super Famicom)",
+  "manufacturer": "Nintendo",
+  "generation": "Fourth Generation",
+  "generationNumber": 4,
+  "originalReleaseYear": 1990,
+  "exactReleaseDate": "November 21, 1990",
+  "mediaFormat": "ROM Cartridge",
+  "significance": "Standardized shoulder buttons (L/R) on game controllers, advanced 2D pixel artistry to historic peaks, and hosted some of the greatest RPGs ever made.",
+  "verifiedFactualData": {
+    "cpu": "Ricoh 5A22 (16-bit 65C816 core) @ 3.58 MHz",
+    "gpuOrVideoChip": "Dual PPU custom chipset with Mode 7 scaling/rotation",
+    "ram": "128 KB work RAM, 64 KB video RAM, 64 KB audio RAM"
+  },
+  "editorialContent": {
+    "overview": "Nintendo's peerless 16-bit system featuring Mode 7 pseudo-3D hardware rotation and an unprecedented Sony-designed audio processor.",
+    "marketLegacy": "Standardized shoulder buttons (L/R) on game controllers, advanced 2D pixel artistry to historic peaks, and hosted some of the greatest RPGs ever made.",
+    "controllerDesign": "Four face buttons, two shoulder triggers (L/R standard)"
+  },
+  "keyGames": [
+    "super-mario-world",
+    "super-metroid",
+    "chrono-trigger",
+    "the-legend-of-zelda-a-link-to-the-past",
+    "final-fantasy-vi"
+  ],
+  "assets": {
+    "mainImage": "/assets/images/consoles/super-nintendo-entertainment-system.png",
+    "heroImage": "/assets/images/consoles/super-nintendo-entertainment-system-hero.png",
+    "hardwareImage": "/assets/images/consoles/super-nintendo-entertainment-system-hardware.png"
+  },
+  "keywords": [
+    "snes",
+    "super famicom",
+    "nintendo",
+    "fourth generation",
+    "16-bit",
+    "mode 7",
+    "1990"
+  ]
+}

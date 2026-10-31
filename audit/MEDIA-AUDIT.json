@@ -1,0 +1,3713 @@
+{
+  "timestamp": "2026-09-27T11:27:02.868Z",
+  "overallStatus": "PASS",
+  "summary": {
+    "totalGames": 528,
+    "localVerified": 297,
+    "remoteVerified": 230,
+    "fallbackPlates": 1,
+    "brokenOrMissing": 0,
+    "consolesChecked": 65,
+    "consolesValid": 65,
+    "avatarsChecked": 50,
+    "avatarsValid": 50
+  },
+  "games": [
+    {
+      "slug": "computer-space",
+      "title": "Computer Space",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/computerspace.png",
+      "isFallback": false
+    },
+    {
+      "slug": "pong",
+      "title": "Pong",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Signed_Pong_Cabinet.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "space-race",
+      "title": "Space Race",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Space_Race_flyer.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "gun-fight",
+      "title": "Gun Fight",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/ae/Gun_Fight_Flyer.png",
+      "isFallback": false
+    },
+    {
+      "slug": "breakout",
+      "title": "Breakout",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/7/7a/BreakOut_arcadeflyer.png",
+      "isFallback": false
+    },
+    {
+      "slug": "colossal-cave-adventure",
+      "title": "Colossal Cave Adventure",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/ADVENT_--_Crowther_Woods.png",
+      "isFallback": false
+    },
+    {
+      "slug": "night-driver",
+      "title": "Night Driver",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/night-driver.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "space-wars",
+      "title": "Space Wars",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/space-wars.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "zork",
+      "title": "Zork: The Great Underground Empire",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/zork.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "space-invaders",
+      "title": "Space Invaders",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/space-invaders.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "adventure",
+      "title": "Adventure",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/adventure.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "asteroids",
+      "title": "Asteroids",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/asteroids.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "lunar-lander",
+      "title": "Lunar Lander",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/lunar-lander.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "battlezone",
+      "title": "Battlezone",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/battlezone.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "missile-command",
+      "title": "Missile Command",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/c/c7/Missile_Command_flyer.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "pac-man",
+      "title": "Pac-Man",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/pac-man.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "rogue",
+      "title": "Rogue: Exploring The Dungeons of Doom",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/rogue.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "defender",
+      "title": "Defender",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/defender.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "donkey-kong",
+      "title": "Donkey Kong",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/donkey-kong.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "frogger",
+      "title": "Frogger",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/frogger.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "galaga",
+      "title": "Galaga",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/galaga.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "tempest",
+      "title": "Tempest",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/tempest.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "wizardry-proving-grounds-of-the-mad-overlord",
+      "title": "Wizardry: Proving Grounds of the Mad Overlord",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/wizardry-proving-grounds-of-the-mad-overlord.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "joust",
+      "title": "Joust",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/8/88/Joust_Flyer.png",
+      "isFallback": false
+    },
+    {
+      "slug": "ms-pac-man",
+      "title": "Ms. Pac-Man",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/ms-pac-man.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "pitfall",
+      "title": "Pitfall!",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/pitfall.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "pole-position",
+      "title": "Pole Position",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/pole-position.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "yars-revenge",
+      "title": "Yars' Revenge",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/yars-revenge.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "dragon-s-lair",
+      "title": "Dragon's Lair",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/dragon-s-lair.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "elite",
+      "title": "Elite",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/elite.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "king-s-quest-quest-for-the-crown",
+      "title": "King's Quest: Quest for the Crown",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Kings_Quest_I_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "marble-madness",
+      "title": "Marble Madness",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/marble-madness.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "tetris",
+      "title": "Tetris",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Tetris_on_Game_Boy.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "ghosts-n-goblins",
+      "title": "Ghosts 'n Goblins",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/ghosts-n-goblins.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "gradius",
+      "title": "Gradius",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/gradius.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "super-mario-bros",
+      "title": "Super Mario Bros.",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/super-mario-bros.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "ultima-iv-quest-of-the-avatar",
+      "title": "Ultima IV: Quest of the Avatar",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Ultima_IV_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "castlevania",
+      "title": "Castlevania",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/castlevania.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "defender-of-the-crown",
+      "title": "Defender of the Crown",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/5/5e/Defender_of_the_crown_cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "dragon-quest",
+      "title": "Dragon Quest",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/dragon-quest.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "metroid",
+      "title": "Metroid",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/metroid.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "out-run",
+      "title": "Out Run",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/0/04/Out_Run_Coverart.png",
+      "isFallback": false
+    },
+    {
+      "slug": "the-legend-of-zelda",
+      "title": "The Legend of Zelda",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/the-legend-of-zelda.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "contra",
+      "title": "Contra",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/contra.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "final-fantasy",
+      "title": "Final Fantasy",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/final-fantasy.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "phantasy-star",
+      "title": "Phantasy Star",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/phantasy-star.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "the-great-giana-sisters",
+      "title": "The Great Giana Sisters",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/f/f6/The_Great_Giana_Sisters_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "mega-man-2",
+      "title": "Mega Man 2",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/mega-man-2.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "ninja-gaiden",
+      "title": "Ninja Gaiden",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/ninja-gaiden.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "super-mario-bros-3",
+      "title": "Super Mario Bros. 3",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a5/Super_Mario_Bros._3_coverart.png",
+      "isFallback": false
+    },
+    {
+      "slug": "wasteland",
+      "title": "Wasteland",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/wasteland.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "bonk-s-adventure",
+      "title": "Bonk's Adventure",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/5/53/BonksAdventure_box.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "populous",
+      "title": "Populous",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/populous.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "prince-of-persia",
+      "title": "Prince of Persia",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/prince-of-persia.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "simcity",
+      "title": "SimCity",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/simcity.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "wonder-boy-iii-the-dragon-s-trap",
+      "title": "Wonder Boy III: The Dragon's Trap",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/f/f3/Wonder_Boy_III_The_Dragon%27s_Trap_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "f-zero",
+      "title": "F-Zero",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/f-zero.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "super-mario-world",
+      "title": "Super Mario World",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/super-mario-world.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "the-secret-of-monkey-island",
+      "title": "The Secret of Monkey Island",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/the-secret-of-monkey-island.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "monkey-island-2-lechuck-s-revenge",
+      "title": "Monkey Island 2: LeChuck's Revenge",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/monkey-island-2-lechuck-s-revenge.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "civilization",
+      "title": "Sid Meier's Civilization",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/civilization.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "sonic-the-hedgehog",
+      "title": "Sonic the Hedgehog",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/sonic-the-hedgehog.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "street-fighter-ii",
+      "title": "Street Fighter II: The World Warrior",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/street-fighter-ii.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "the-legend-of-zelda-a-link-to-the-past",
+      "title": "The Legend of Zelda: A Link to the Past",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/the-legend-of-zelda-a-link-to-the-past.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "alone-in-the-dark",
+      "title": "Alone in the Dark",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/alone-in-the-dark.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "dune-ii",
+      "title": "Dune II: The Building of a Dynasty",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/dune-ii.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "mortal-kombat",
+      "title": "Mortal Kombat",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/mortal-kombat.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "sonic-the-hedgehog-2",
+      "title": "Sonic the Hedgehog 2",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/sonic-the-hedgehog-2.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "super-mario-kart",
+      "title": "Super Mario Kart",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/3/38/Supermariokart_box.JPG",
+      "isFallback": false
+    },
+    {
+      "slug": "wolfenstein-3d",
+      "title": "Wolfenstein 3D",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/wolfenstein-3d.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "castlevania-rondo-of-blood",
+      "title": "Castlevania: Rondo of Blood",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/castlevania-rondo-of-blood.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "doom",
+      "title": "Doom",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/doom.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "myst",
+      "title": "Myst",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/myst.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "secret-of-mana",
+      "title": "Secret of Mana",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/secret-of-mana.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "simcity-2000",
+      "title": "SimCity 2000",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/SimCity_2000_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "star-fox",
+      "title": "Star Fox",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/star-fox.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "virtua-fighter",
+      "title": "Virtua Fighter",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/b/bb/VirtuaFighter_arcadeflyer.png",
+      "isFallback": false
+    },
+    {
+      "slug": "daytona-usa",
+      "title": "Daytona USA",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/7/7c/Daytona_USA_arcade_flyer.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "donkey-kong-country",
+      "title": "Donkey Kong Country",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/donkey-kong-country.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "doom-ii-hell-on-earth",
+      "title": "Doom II: Hell on Earth",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Doom_II_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "earthbound",
+      "title": "EarthBound",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/earthbound.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "final-fantasy-vi",
+      "title": "Final Fantasy VI",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/final-fantasy-vi.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "super-metroid",
+      "title": "Super Metroid",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/super-metroid.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "chrono-trigger",
+      "title": "Chrono Trigger",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/chrono-trigger.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "command-conquer",
+      "title": "Command & Conquer",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/command-conquer.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "panzer-dragoon",
+      "title": "Panzer Dragoon",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/panzer-dragoon.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "sega-rally-championship",
+      "title": "Sega Rally Championship",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/b/b5/Sega_Rally_Championship_Flyer.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "warcraft-ii-tides-of-darkness",
+      "title": "Warcraft II: Tides of Darkness",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Warcraft_II_Tides_of_Darkness_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "wipeout",
+      "title": "WipEout",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/c/c3/WipEoutCover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "civilization-ii",
+      "title": "Civilization II",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/civilization-ii.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "command-and-conquer-red-alert",
+      "title": "Command & Conquer: Red Alert",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/command-and-conquer-red-alert.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "crash-bandicoot",
+      "title": "Crash Bandicoot",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/crash-bandicoot.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "diablo",
+      "title": "Diablo",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/diablo.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "metal-slug",
+      "title": "Metal Slug: Super Vehicle-001",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/metal-slug.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "nights-into-dreams",
+      "title": "Nights into Dreams",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/e/e1/Nights_into_dreams_cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "pokemon-red-blue",
+      "title": "Pokémon Red and Blue",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/pokemon-red-blue.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "quake",
+      "title": "Quake",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/quake.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "resident-evil",
+      "title": "Resident Evil",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a6/Resident_Evil_1_cover.png",
+      "isFallback": false
+    },
+    {
+      "slug": "super-mario-64",
+      "title": "Super Mario 64",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/super-mario-64.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "tomb-raider",
+      "title": "Tomb Raider",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/tomb-raider.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "castlevania-symphony-of-the-night",
+      "title": "Castlevania: Symphony of the Night",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/castlevania-symphony-of-the-night.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "fallout",
+      "title": "Fallout: A Post Nuclear Role Playing Game",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/fallout.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "final-fantasy-vii",
+      "title": "Final Fantasy VII",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/final-fantasy-vii.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "goldeneye-007",
+      "title": "GoldenEye 007",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/goldeneye-007.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "gran-turismo",
+      "title": "Gran Turismo",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/gran-turismo.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "quake-ii",
+      "title": "Quake II",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/quake-ii.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "riven",
+      "title": "Riven: The Sequel to Myst",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Riven_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "the-curse-of-monkey-island",
+      "title": "The Curse of Monkey Island",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/the-curse-of-monkey-island.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "total-annihilation",
+      "title": "Total Annihilation",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/total-annihilation.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "baldur-s-gate",
+      "title": "Baldur's Gate",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/baldur-s-gate.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "banjo-kazooie",
+      "title": "Banjo-Kazooie",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/banjo-kazooie.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "fallout-2",
+      "title": "Fallout 2",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/fallout-2.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "grim-fandango",
+      "title": "Grim Fandango",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/grim-fandango.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "half-life",
+      "title": "Half-Life",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/half-life.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "metal-gear-solid",
+      "title": "Metal Gear Solid",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/metal-gear-solid.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "panzer-dragoon-saga",
+      "title": "Panzer Dragoon Saga",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/6/64/PanzerDragoonSagaBox.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "resident-evil-2",
+      "title": "Resident Evil 2",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/resident-evil-2.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "starcraft",
+      "title": "StarCraft",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/starcraft.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "the-legend-of-zelda-ocarina-of-time",
+      "title": "The Legend of Zelda: Ocarina of Time",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/the-legend-of-zelda-ocarina-of-time.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "thief-the-dark-project",
+      "title": "Thief: The Dark Project",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/thief-the-dark-project.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "unreal",
+      "title": "Unreal",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/8/80/Unreal1cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "age-of-empires-ii-the-age-of-kings",
+      "title": "Age of Empires II: The Age of Kings",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Age_of_Empires_II_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "everquest",
+      "title": "EverQuest",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/everquest.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "heroes-of-might-and-magic-iii",
+      "title": "Heroes of Might and Magic III",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Heroes_of_Might_and_Magic_III_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "homeworld",
+      "title": "Homeworld",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/homeworld.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "planescape-torment",
+      "title": "Planescape: Torment",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/planescape-torment.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "quake-iii-arena",
+      "title": "Quake III Arena",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/quake-iii-arena.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "rollercoaster-tycoon",
+      "title": "RollerCoaster Tycoon",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/rollercoaster-tycoon.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "shenmue",
+      "title": "Shenmue",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/shenmue.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "silent-hill",
+      "title": "Silent Hill",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/silent-hill.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "soulcalibur",
+      "title": "Soulcalibur",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/soulcalibur.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "super-smash-bros",
+      "title": "Super Smash Bros.",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/super-smash-bros.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "system-shock-2",
+      "title": "System Shock 2",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/system-shock-2.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "unreal-tournament",
+      "title": "Unreal Tournament",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Unreal_Tournament_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "baldur-s-gate-ii-shadows-of-amn",
+      "title": "Baldur's Gate II: Shadows of Amn",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Baldurs_Gate_II_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "command-and-conquer-red-alert-2",
+      "title": "Command & Conquer: Red Alert 2",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/command-and-conquer-red-alert-2.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "dark-cloud",
+      "title": "Dark Cloud",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/dark-cloud.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "deus-ex",
+      "title": "Deus Ex",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/deus-ex.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "diablo-ii",
+      "title": "Diablo II",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/d/d5/Diablo_II_Coverart.png",
+      "isFallback": false
+    },
+    {
+      "slug": "phantasy-star-online",
+      "title": "Phantasy Star Online",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/phantasy-star-online.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "ssx",
+      "title": "SSX",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/5/52/SSX_Coverart.png",
+      "isFallback": false
+    },
+    {
+      "slug": "the-sims",
+      "title": "The Sims",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/the-sims.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "tony-hawk-s-pro-skater-2",
+      "title": "Tony Hawk's Pro Skater 2",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/tony-hawk-s-pro-skater-2.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "ace-combat-04-shattered-skies",
+      "title": "Ace Combat 04: Shattered Skies",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/4/4e/Ace_Combat_04_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "advance-wars",
+      "title": "Advance Wars",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Advance_Wars_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "animal-crossing-gcn",
+      "title": "Animal Crossing",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/animal-crossing-gcn.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "devil-may-cry",
+      "title": "Devil May Cry",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/devil-may-cry.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "fatal-frame",
+      "title": "Fatal Frame",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/6/6f/Fatal_Frame_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "final-fantasy-x",
+      "title": "Final Fantasy X",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a9/Ffxboxart.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "golden-sun",
+      "title": "Golden Sun",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Golden_Sun_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "gran-turismo-3-a-spec",
+      "title": "Gran Turismo 3: A-Spec",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/e/e3/Gran_Turismo_3.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "grand-theft-auto-iii",
+      "title": "Grand Theft Auto III",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/grand-theft-auto-iii.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "halo-combat-evolved",
+      "title": "Halo: Combat Evolved",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/halo-combat-evolved.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "ico",
+      "title": "Ico",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/ico.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "jak-and-daxter-the-precursor-legacy",
+      "title": "Jak and Daxter: The Precursor Legacy",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a5/Jak_and_Daxter_-_The_Precursor_Legacy_Coverart.png",
+      "isFallback": false
+    },
+    {
+      "slug": "klonoa-2-lunatea-s-veil",
+      "title": "Klonoa 2: Lunatea's Veil",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/3/3d/Klonoa2_cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "luigi-s-mansion",
+      "title": "Luigi's Mansion",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/1/14/Luigi%27s_Mansion_Box_Art.png",
+      "isFallback": false
+    },
+    {
+      "slug": "max-payne",
+      "title": "Max Payne",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/max-payne.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "metal-gear-solid-2-sons-of-liberty",
+      "title": "Metal Gear Solid 2: Sons of Liberty",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/metal-gear-solid-2-sons-of-liberty.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "onimusha-warlords",
+      "title": "Onimusha: Warlords",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/onimusha-warlords.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "pikmin",
+      "title": "Pikmin",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/8/87/Pikmin_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "ssx-tricky",
+      "title": "SSX Tricky",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/b/b3/Ssx_tricky_box.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "silent-hill-2",
+      "title": "Silent Hill 2",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/silent-hill-2.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "super-monkey-ball",
+      "title": "Super Monkey Ball",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/super-monkey-ball.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "super-smash-bros-melee",
+      "title": "Super Smash Bros. Melee",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/7/75/Super_Smash_Bros_Melee_box_art.png",
+      "isFallback": false
+    },
+    {
+      "slug": "tony-hawk-s-pro-skater-3",
+      "title": "Tony Hawk's Pro Skater 3",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Tony_Hawk%27s_Pro_Skater_3_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "twisted-metal-black",
+      "title": "Twisted Metal: Black",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/d/da/Twisted_Metal_Black_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "dark-cloud-2",
+      "title": "Dark Cloud 2",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/8/87/Dark_Cloud_2_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "eternal-darkness-sanity-s-requiem",
+      "title": "Eternal Darkness: Sanity's Requiem",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Eternal_Darkness_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "grand-theft-auto-vice-city",
+      "title": "Grand Theft Auto: Vice City",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/grand-theft-auto-vice-city.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "kingdom-hearts",
+      "title": "Kingdom Hearts",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/kingdom-hearts.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "metroid-fusion",
+      "title": "Metroid Fusion",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Metroid_Fusion_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "metroid-prime",
+      "title": "Metroid Prime",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/b/ba/MetroidPrimebox.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "ratchet-clank",
+      "title": "Ratchet & Clank",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/ratchet-clank.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "socom-u-s-navy-seals",
+      "title": "SOCOM: U.S. Navy SEALs",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/1/14/SOCOM_US_Navy_SEALs_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "sly-cooper-and-the-thievius-raccoonus",
+      "title": "Sly Cooper and the Thievius Raccoonus",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/8/87/Sly_Cooper_and_the_Thievius_Raccoonus.png",
+      "isFallback": false
+    },
+    {
+      "slug": "suikoden-iii",
+      "title": "Suikoden III",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/ae/Suikoden_III_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "super-mario-sunshine",
+      "title": "Super Mario Sunshine",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/7/78/Super_mario_sunshine.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "the-elder-scrolls-iii-morrowind",
+      "title": "The Elder Scrolls III: Morrowind",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/the-elder-scrolls-iii-morrowind.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "the-legend-of-zelda-the-wind-waker",
+      "title": "The Legend of Zelda: The Wind Waker",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/the-legend-of-zelda-the-wind-waker.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "timesplitters-2",
+      "title": "TimeSplitters 2",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/0/07/Timesplitters_2_cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "tony-hawk-s-pro-skater-4",
+      "title": "Tony Hawk's Pro Skater 4",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/f/f6/Tony_Hawk%27s_Pro_Skater_4_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "virtua-fighter-4-evolution",
+      "title": "Virtua Fighter 4: Evolution",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/2/2a/Virtua_Fighter_4_Evolution_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "warcraft-iii-reign-of-chaos",
+      "title": "Warcraft III: Reign of Chaos",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/2/22/Warcraft_III_Reign_of_Chaos_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "wild-arms-3",
+      "title": "Wild Arms 3",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/c/c5/Wild_Arms_3_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "xenosaga-episode-i-der-wille-zur-macht",
+      "title": "Xenosaga Episode I: Der Wille zur Macht",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/d/df/Xenosaga_Episode_I_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "beyond-good-and-evil",
+      "title": "Beyond Good & Evil",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/beyond-good-and-evil.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "castlevania-aria-of-sorrow",
+      "title": "Castlevania: Aria of Sorrow",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Castlevania_Aria_of_Sorrow_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "disgaea-hour-of-darkness",
+      "title": "Disgaea: Hour of Darkness",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/5/52/Disgaea_Hour_of_Darkness_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "f-zero-gx",
+      "title": "F-Zero GX",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/4/4b/F-Zero_GX_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "fatal-frame-ii-crimson-butterfly",
+      "title": "Fatal Frame II: Crimson Butterfly",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Fatal_Frame_II_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "jak-ii",
+      "title": "Jak II",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/5/5e/Jak_II_Coverart.png",
+      "isFallback": false
+    },
+    {
+      "slug": "manhunt",
+      "title": "Manhunt",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Manhunt_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "mario-and-luigi-superstar-saga",
+      "title": "Mario & Luigi: Superstar Saga",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Mario_%26_Luigi_Superstar_Saga_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "need-for-speed-underground",
+      "title": "Need for Speed: Underground",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/0/05/Need_for_Speed_Underground_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "prince-of-persia-the-sands-of-time",
+      "title": "Prince of Persia: The Sands of Time",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/prince-of-persia-the-sands-of-time.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "ratchet-and-clank-going-commando",
+      "title": "Ratchet & Clank: Going Commando",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/d/dc/Ratchet_and_clank_going_commando.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "socom-ii-u-s-navy-seals",
+      "title": "SOCOM II: U.S. Navy SEALs",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/6/65/Socom2_cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "ssx-3",
+      "title": "SSX 3",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/9/91/SSX_3_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "shin-megami-tensei-nocturne",
+      "title": "Shin Megami Tensei III: Nocturne",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/shin-megami-tensei-nocturne.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "silent-hill-3",
+      "title": "Silent Hill 3",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/6/67/Silent_Hill_3_cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "soulcalibur-ii",
+      "title": "Soulcalibur II",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/soulcalibur-ii.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "star-ocean-till-the-end-of-time",
+      "title": "Star Ocean: Till the End of Time",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/7/7b/Star_Ocean_Till_the_End_of_Time_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "star-wars-knights-of-the-old-republic",
+      "title": "Star Wars: Knights of the Old Republic",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/star-wars-knights-of-the-old-republic.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "tales-of-symphonia",
+      "title": "Tales of Symphonia",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/tales-of-symphonia.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "tony-hawk-s-underground",
+      "title": "Tony Hawk's Underground",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/e/e9/Thugcover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "viewtiful-joe",
+      "title": "Viewtiful Joe",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/0/05/Viewtiful_Joe_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "zone-of-the-enders-the-2nd-runner",
+      "title": "Zone of the Enders: The 2nd Runner",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/zone-of-the-enders-the-2nd-runner.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "ace-combat-5-the-unsung-war",
+      "title": "Ace Combat 5: The Unsung War",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/1/15/Ace_Combat_5_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "burnout-3-takedown",
+      "title": "Burnout 3: Takedown",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/e/ed/Burnout_3_Takedown.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "champions-of-norrath",
+      "title": "Champions of Norrath",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/5/52/Champions_of_Norrath_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "dragon-quest-viii-journey-of-the-cursed-king",
+      "title": "Dragon Quest VIII: Journey of the Cursed King",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/9/90/Dq8boxart.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "fable",
+      "title": "Fable",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Fable_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "gran-turismo-4",
+      "title": "Gran Turismo 4",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Gran_Turismo_4_Coverart.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "grand-theft-auto-san-andreas",
+      "title": "Grand Theft Auto: San Andreas",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/grand-theft-auto-san-andreas.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "half-life-2",
+      "title": "Half-Life 2",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/half-life-2.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "halo-2",
+      "title": "Halo 2",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/9/92/Halo2-cover.png",
+      "isFallback": false
+    },
+    {
+      "slug": "jak-3",
+      "title": "Jak 3",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/6/6f/Jak_3_Coverart.png",
+      "isFallback": false
+    },
+    {
+      "slug": "katamari-damacy",
+      "title": "Katamari Damacy",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/katamari-damacy.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "metal-gear-solid-3-snake-eater",
+      "title": "Metal Gear Solid 3: Snake Eater",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/metal-gear-solid-3-snake-eater.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "metroid-prime-2-echoes",
+      "title": "Metroid Prime 2: Echoes",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Metroid_Prime_2_Echoes_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "metroid-zero-mission",
+      "title": "Metroid: Zero Mission",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Metroid_Zero_Mission_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "ninja-gaiden-2004",
+      "title": "Ninja Gaiden",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/9/99/NinjaGaidenXbox.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "onimusha-3-demon-siege",
+      "title": "Onimusha 3: Demon Siege",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/f/f6/Onimusha_3_Demon_Siege_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "paper-mario-the-thousand-year-door",
+      "title": "Paper Mario: The Thousand-Year Door",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Paper_Mario_The_Thousand-Year_Door_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "pikmin-2",
+      "title": "Pikmin 2",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Pikmin_2_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "pokemon-emerald",
+      "title": "Pokemon Emerald",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Pokemon_Emerald_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "prince-of-persia-warrior-within",
+      "title": "Prince of Persia: Warrior Within",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/prince-of-persia-warrior-within.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "ratchet-and-clank-up-your-arsenal",
+      "title": "Ratchet & Clank: Up Your Arsenal",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/b/b3/Ratchet_and_Clank_Up_Your_Arsenal.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "silent-hill-4-the-room",
+      "title": "Silent Hill 4: The Room",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/9/91/Silent_Hill_4_The_Room.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "sly-2-band-of-thieves",
+      "title": "Sly 2: Band of Thieves",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/2/23/Sly2BandofThieves.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "spider-man-2-2004",
+      "title": "Spider-Man 2",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a3/Spider-Man_2_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "star-wars-battlefront-2004",
+      "title": "Star Wars: Battlefront",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/star-wars-battlefront-2004.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "the-legend-of-zelda-the-minish-cap",
+      "title": "The Legend of Zelda: The Minish Cap",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/The_Legend_of_Zelda_The_Minish_Cap_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "world-of-warcraft",
+      "title": "World of Warcraft",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/world-of-warcraft.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "burnout-revenge",
+      "title": "Burnout Revenge",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/0/08/Burnout_revenge_cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "civilization-iv",
+      "title": "Civilization IV",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/civilization-iv.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "devil-may-cry-3-dante-s-awakening",
+      "title": "Devil May Cry 3: Dante's Awakening",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/c/c5/Dmc3_cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "god-of-war",
+      "title": "God of War",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/god-of-war.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "guitar-hero",
+      "title": "Guitar Hero",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/4/4e/Guitar_Hero_cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "kingdom-hearts-ii",
+      "title": "Kingdom Hearts II",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/kingdom-hearts-ii.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "mercenaries-playground-of-destruction",
+      "title": "Mercenaries: Playground of Destruction",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/c/c5/Mercenaries_Playground_of_Destruction_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "midnight-club-3-dub-edition",
+      "title": "Midnight Club 3: DUB Edition",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Midnight_Club_3_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "need-for-speed-most-wanted-2005",
+      "title": "Need for Speed: Most Wanted",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/need-for-speed-most-wanted-2005.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "ninja-gaiden-black",
+      "title": "Ninja Gaiden Black",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Ninja_Gaiden_Black_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "prince-of-persia-the-two-thrones",
+      "title": "Prince of Persia: The Two Thrones",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/prince-of-persia-the-two-thrones.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "psychonauts",
+      "title": "Psychonauts",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/psychonauts.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "resident-evil-4",
+      "title": "Resident Evil 4",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/resident-evil-4.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "shadow-of-the-colossus",
+      "title": "Shadow of the Colossus",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/shadow-of-the-colossus.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "sly-3-honor-among-thieves",
+      "title": "Sly 3: Honor Among Thieves",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/4/4b/Sly_3_Honor_Among_Thieves.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "soulcalibur-iii",
+      "title": "Soulcalibur III",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/soulcalibur-iii.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "star-wars-battlefront-ii-2005",
+      "title": "Star Wars: Battlefront II",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/star-wars-battlefront-ii-2005.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "tekken-5",
+      "title": "Tekken 5",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/0/07/Tekken_5_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "the-warriors",
+      "title": "The Warriors",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/the-warriors.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "timesplitters-future-perfect",
+      "title": "TimeSplitters: Future Perfect",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/1/18/Timesplitters_future_perfect_box.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "we-love-katamari",
+      "title": "We Love Katamari",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/we-love-katamari.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "black",
+      "title": "Black",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/d/dc/Black_cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "blue-dragon",
+      "title": "Blue Dragon",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Blue_Dragon_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "bully",
+      "title": "Bully",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/bully.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "dead-rising",
+      "title": "Dead Rising",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/dead-rising.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "final-fantasy-xii",
+      "title": "Final Fantasy XII",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/final-fantasy-xii.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "gears-of-war",
+      "title": "Gears of War",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/8/82/Gears_of_War_box_artwork.png",
+      "isFallback": false
+    },
+    {
+      "slug": "god-hand",
+      "title": "God Hand",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/god-hand.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "guitar-hero-ii",
+      "title": "Guitar Hero II",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/b/b2/Guitar_Hero_II_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "motorstorm",
+      "title": "MotorStorm",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/4/4b/MotorStorm_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "resistance-fall-of-man",
+      "title": "Resistance: Fall of Man",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/6/6f/Resistance_Fall_of_Man_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "persona-3",
+      "title": "Shin Megami Tensei: Persona 3",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/b/b9/Persona_3_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "the-elder-scrolls-iv-oblivion",
+      "title": "The Elder Scrolls IV: Oblivion",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/the-elder-scrolls-iv-oblivion.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "the-legend-of-zelda-twilight-princess",
+      "title": "The Legend of Zelda: Twilight Princess",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/b/ba/The_Legend_of_Zelda_Twilight_Princess_Game_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "wii-sports",
+      "title": "Wii Sports",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/wii-sports.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "okami",
+      "title": "Ōkami",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/okami.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "bioshock",
+      "title": "BioShock",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/bioshock.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "call-of-duty-4-modern-warfare",
+      "title": "Call of Duty 4: Modern Warfare",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/5/5f/Call_of_Duty_4_Modern_Warfare.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "crackdown",
+      "title": "Crackdown",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Crackdown_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "crysis",
+      "title": "Crysis",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/1/1e/Crysis_boxart.JPG",
+      "isFallback": false
+    },
+    {
+      "slug": "folklore",
+      "title": "Folklore",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Folklore_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "god-of-war-ii",
+      "title": "God of War II",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/god-of-war-ii.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "halo-3",
+      "title": "Halo 3",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/halo-3.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "heavenly-sword",
+      "title": "Heavenly Sword",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Heavenly_Sword_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "lost-odyssey",
+      "title": "Lost Odyssey",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/lost-odyssey.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "mass-effect",
+      "title": "Mass Effect",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/mass-effect.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "metroid-prime-3-corruption",
+      "title": "Metroid Prime 3: Corruption",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Metroid_Prime_3_Corruption_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "odin-sphere",
+      "title": "Odin Sphere",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Odin_Sphere_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "portal",
+      "title": "Portal",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/portal.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "ratchet-and-clank-future-tools-of-destruction",
+      "title": "Ratchet & Clank Future: Tools of Destruction",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/c/c5/Ratchet_%26_Clank_Future_Tools_of_Destruction_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "super-mario-galaxy",
+      "title": "Super Mario Galaxy",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/super-mario-galaxy.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "super-paper-mario",
+      "title": "Super Paper Mario",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Super_Paper_Mario_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "super-stardust-hd",
+      "title": "Super Stardust HD",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/4/4e/Super_Stardust_HD_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "uncharted-drake-s-fortune",
+      "title": "Uncharted: Drake's Fortune",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/8/8e/Uncharted_Drake%27s_Fortune_box_art.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "braid",
+      "title": "Braid",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/braid.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "burnout-paradise",
+      "title": "Burnout Paradise",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/burnout-paradise.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "dead-space",
+      "title": "Dead Space",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/dead-space.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "echochrome",
+      "title": "Echochrome",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/0/07/Echochrome_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "fable-ii",
+      "title": "Fable II",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Fable_II_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "fallout-3",
+      "title": "Fallout 3",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/fallout-3.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "gears-of-war-2",
+      "title": "Gears of War 2",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/8/87/Gears_of_War_2_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "grand-theft-auto-iv",
+      "title": "Grand Theft Auto IV",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/grand-theft-auto-iv.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "left-4-dead",
+      "title": "Left 4 Dead",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/left-4-dead.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "littlebigplanet",
+      "title": "LittleBigPlanet",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/d/dc/LittleBigPlanet_box.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "metal-gear-solid-4-guns-of-the-patriots",
+      "title": "Metal Gear Solid 4: Guns of the Patriots",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/1/1a/Mgs4_cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "motorstorm-pacific-rift",
+      "title": "MotorStorm: Pacific Rift",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/MotorStorm_Pacific_Rift_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "resistance-2",
+      "title": "Resistance 2",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/resistance-2.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "persona-4",
+      "title": "Shin Megami Tensei: Persona 4",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/3/30/Shin_Megami_Tensei_Persona_4_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "siren-blood-curse",
+      "title": "Siren: Blood Curse",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Siren_Blood_Curse_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "valkyria-chronicles",
+      "title": "Valkyria Chronicles",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/valkyria-chronicles.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "wipeout-hd",
+      "title": "WipEout HD",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/e/e9/Wipeout_HD_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "batman-arkham-asylum",
+      "title": "Batman: Arkham Asylum",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/batman-arkham-asylum.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "bayonetta",
+      "title": "Bayonetta",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/bayonetta.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "borderlands",
+      "title": "Borderlands",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/borderlands.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "demons-souls",
+      "title": "Demon's Souls",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/9/91/Demon%27s_Souls_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "dragon-age-origins",
+      "title": "Dragon Age: Origins",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/dragon-age-origins.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "grand-theft-auto-episodes-from-liberty-city",
+      "title": "Grand Theft Auto: Episodes from Liberty City",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/grand-theft-auto-episodes-from-liberty-city.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "infamous",
+      "title": "Infamous",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/2/23/Infamous_box_art.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "killzone-2",
+      "title": "Killzone 2",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/1/1e/Killzone_2_box_art.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "left-4-dead-2",
+      "title": "Left 4 Dead 2",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/left-4-dead-2.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "punch-out-wii",
+      "title": "Punch-Out!! (Wii)",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Punch-Out%21%21_Wii_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "ratchet-and-clank-future-a-crack-in-time",
+      "title": "Ratchet & Clank Future: A Crack in Time",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/6/6f/Ratchet_%26_Clank_Future_A_Crack_in_Time_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "sin-and-punishment-star-successor",
+      "title": "Sin & Punishment: Star Successor",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Sin_%26_Punishment_Star_Successor_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "skate-2",
+      "title": "Skate 2",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/skate-2.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "uncharted-2-among-thieves",
+      "title": "Uncharted 2: Among Thieves",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/uncharted-2-among-thieves.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "wii-sports-resort",
+      "title": "Wii Sports Resort",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Wii_Sports_Resort_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "yakuza-3",
+      "title": "Yakuza 3",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/yakuza-3.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "alan-wake",
+      "title": "Alan Wake",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Alan_Wake_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "bioshock-2",
+      "title": "BioShock 2",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/bioshock-2.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "castlevania-lords-of-shadow",
+      "title": "Castlevania: Lords of Shadow",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/castlevania-lords-of-shadow.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "darksiders",
+      "title": "Darksiders",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/darksiders.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "donkey-kong-country-returns",
+      "title": "Donkey Kong Country Returns",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Donkey_Kong_Country_Returns_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "enslaved-odyssey-to-the-west",
+      "title": "Enslaved: Odyssey to the West",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/enslaved-odyssey-to-the-west.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "fallout-new-vegas",
+      "title": "Fallout: New Vegas",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/fallout-new-vegas.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "god-of-war-iii",
+      "title": "God of War III",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/god-of-war-iii.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "gran-turismo-5",
+      "title": "Gran Turismo 5",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/0/08/Gran_Turismo_5_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "halo-reach",
+      "title": "Halo: Reach",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/halo-reach.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "heavy-rain",
+      "title": "Heavy Rain",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/heavy-rain.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "just-cause-2",
+      "title": "Just Cause 2",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/8/87/Just_Cause_2_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "mass-effect-2",
+      "title": "Mass Effect 2",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/mass-effect-2.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "red-dead-redemption",
+      "title": "Red Dead Redemption",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a7/Red_Dead_Redemption.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "super-mario-galaxy-2",
+      "title": "Super Mario Galaxy 2",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Super_Mario_Galaxy_2_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "tales-of-graces-f",
+      "title": "Tales of Graces f",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/1/14/Tales_of_Graces_f_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "vanquish",
+      "title": "Vanquish",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/vanquish.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "xenoblade-chronicles",
+      "title": "Xenoblade Chronicles",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/0/07/Xenoblade_box_art.png",
+      "isFallback": false
+    },
+    {
+      "slug": "yakuza-4",
+      "title": "Yakuza 4",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/yakuza-4.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "batman-arkham-city",
+      "title": "Batman: Arkham City",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/batman-arkham-city.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "dark-souls",
+      "title": "Dark Souls",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/8/8d/Dark_Souls_Cover_Art.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "dead-space-2",
+      "title": "Dead Space 2",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/dead-space-2.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "deus-ex-human-revolution",
+      "title": "Deus Ex: Human Revolution",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/deus-ex-human-revolution.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "dragon-age-ii",
+      "title": "Dragon Age II",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/dragon-age-ii.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "gears-of-war-3",
+      "title": "Gears of War 3",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/8/87/Gears_of_War_3_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "infamous-2",
+      "title": "Infamous 2",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/4/4e/Infamous_2_cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "killzone-3",
+      "title": "Killzone 3",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/4/4a/Killzone_3_box_art.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "kirby-s-return-to-dream-land",
+      "title": "Kirby's Return to Dream Land",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Kirby%27s_Return_to_Dream_Land_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "l-a-noire",
+      "title": "L.A. Noire",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/l-a-noire.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "littlebigplanet-2",
+      "title": "LittleBigPlanet 2",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/4/4b/LittleBigPlanet_2_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "minecraft",
+      "title": "Minecraft",
+      "status": "APPROVED_FALLBACK",
+      "url": "/assets/images/museum-fallback.svg",
+      "isFallback": true
+    },
+    {
+      "slug": "ni-no-kuni-wrath-of-the-white-witch",
+      "title": "Ni no Kuni: Wrath of the White Witch",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/ni-no-kuni-wrath-of-the-white-witch.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "portal-2",
+      "title": "Portal 2",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/portal-2.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "rayman-origins",
+      "title": "Rayman Origins",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/rayman-origins.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "resistance-3",
+      "title": "Resistance 3",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/2/23/Resistance_3_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "saints-row-the-third",
+      "title": "Saints Row: The Third",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/saints-row-the-third.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "tales-of-xillia",
+      "title": "Tales of Xillia",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/8/8e/Tales_of_Xillia_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "the-elder-scrolls-v-skyrim",
+      "title": "The Elder Scrolls V: Skyrim",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/the-elder-scrolls-v-skyrim.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "the-legend-of-zelda-skyward-sword",
+      "title": "The Legend of Zelda: Skyward Sword",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/The_Legend_of_Zelda_Skyward_Sword_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "uncharted-3-drake-s-deception",
+      "title": "Uncharted 3: Drake's Deception",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/5/53/Uncharted_3_box_art.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "binary-domain",
+      "title": "Binary Domain",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/binary-domain.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "borderlands-2",
+      "title": "Borderlands 2",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/borderlands-2.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "darksiders-ii",
+      "title": "Darksiders II",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/darksiders-ii.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "dishonored",
+      "title": "Dishonored",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/dishonored.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "dragon-s-dogma",
+      "title": "Dragon's Dogma",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/dragon-s-dogma.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "far-cry-3",
+      "title": "Far Cry 3",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/1/18/Far_Cry_3_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "fire-emblem-awakening",
+      "title": "Fire Emblem: Awakening",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Fire_Emblem_Awakening_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "forza-horizon",
+      "title": "Forza Horizon",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/forza-horizon.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "hotline-miami",
+      "title": "Hotline Miami",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/hotline-miami.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "journey",
+      "title": "Journey",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/journey.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "kid-icarus-uprising",
+      "title": "Kid Icarus: Uprising",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Kid_Icarus_Uprising_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "kingdoms-of-amalur-reckoning",
+      "title": "Kingdoms of Amalur: Reckoning",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/kingdoms-of-amalur-reckoning.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "mass-effect-3",
+      "title": "Mass Effect 3",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/mass-effect-3.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "max-payne-3",
+      "title": "Max Payne 3",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/max-payne-3.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "playstation-all-stars-battle-royale",
+      "title": "PlayStation All-Stars Battle Royale",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/PlayStation_All-Stars_Battle_Royale_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "sleeping-dogs",
+      "title": "Sleeping Dogs",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/sleeping-dogs.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "spec-ops-the-line",
+      "title": "Spec Ops: The Line",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Spec_Ops_The_Line_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "the-walking-dead-season-1",
+      "title": "The Walking Dead: Season 1",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/The_Walking_Dead_Season_1_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "tokyo-jungle",
+      "title": "Tokyo Jungle",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Tokyo_Jungle_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "twisted-metal-2012",
+      "title": "Twisted Metal",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Twisted_Metal_2012_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "yakuza-5",
+      "title": "Yakuza 5",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/yakuza-5.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "batman-arkham-origins",
+      "title": "Batman: Arkham Origins",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/batman-arkham-origins.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "beyond-two-souls",
+      "title": "Beyond: Two Souls",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/beyond-two-souls.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "bioshock-infinite",
+      "title": "BioShock Infinite",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/bioshock-infinite.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "dead-space-3",
+      "title": "Dead Space 3",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/dead-space-3.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "gran-turismo-6",
+      "title": "Gran Turismo 6",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/f/f6/Gran_Turismo_6_Coverart.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "grand-theft-auto-v",
+      "title": "Grand Theft Auto V",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/grand-theft-auto-v.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "guacamelee",
+      "title": "Guacamelee!",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/guacamelee.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "pikmin-3",
+      "title": "Pikmin 3",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Pikmin_3_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "puppeteer",
+      "title": "Puppeteer",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/puppeteer.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "rayman-legends",
+      "title": "Rayman Legends",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/rayman-legends.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "super-mario-3d-world",
+      "title": "Super Mario 3D World",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Super_Mario_3D_World_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "the-last-of-us",
+      "title": "The Last of Us",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/the-last-of-us.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "the-legend-of-zelda-a-link-between-worlds",
+      "title": "The Legend of Zelda: A Link Between Worlds",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/The_Legend_of_Zelda_A_Link_Between_Worlds_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "the-wolf-among-us",
+      "title": "The Wolf Among Us",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/the-wolf-among-us.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "tomb-raider-2013",
+      "title": "Tomb Raider",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/tomb-raider-2013.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "bayonetta-2",
+      "title": "Bayonetta 2",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Bayonetta_2_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "captain-toad-treasure-tracker",
+      "title": "Captain Toad: Treasure Tracker",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Captain_Toad_Treasure_Tracker_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "dark-souls-ii",
+      "title": "Dark Souls II",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/dark-souls-ii.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "donkey-kong-country-tropical-freeze",
+      "title": "Donkey Kong Country: Tropical Freeze",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Donkey_Kong_Country_Tropical_Freeze_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "dragon-age-inquisition",
+      "title": "Dragon Age: Inquisition",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/dragon-age-inquisition.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "infamous-second-son",
+      "title": "Infamous Second Son",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/1/14/Infamous_Second_Son_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "sunset-overdrive",
+      "title": "Sunset Overdrive",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/sunset-overdrive.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "bloodborne",
+      "title": "Bloodborne",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/bloodborne.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "ori-and-the-blind-forest",
+      "title": "Ori and the Blind Forest",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/ori-and-the-blind-forest.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "the-witcher-3-wild-hunt",
+      "title": "The Witcher 3: Wild Hunt",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/the-witcher-3-wild-hunt.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "undertale",
+      "title": "Undertale",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://cdn.akamai.steamstatic.com/steam/apps/391540/header.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "until-dawn",
+      "title": "Until Dawn",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/until-dawn.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "xenoblade-chronicles-x",
+      "title": "Xenoblade Chronicles X",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Xenoblade_Chronicles_X_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "yakuza-0",
+      "title": "Yakuza 0",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/8/87/Yakuza_0_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "inside",
+      "title": "Inside",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/e/ec/Inside_poster.png",
+      "isFallback": false
+    },
+    {
+      "slug": "persona-5",
+      "title": "Persona 5",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/persona-5.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "quantum-break",
+      "title": "Quantum Break",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/quantum-break.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "ratchet-and-clank-2016",
+      "title": "Ratchet & Clank (2016)",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/8/87/Ratchet_%26_Clank_2016_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "the-last-guardian",
+      "title": "The Last Guardian",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/b/ba/The_Last_Guardian_Cover_Art.png",
+      "isFallback": false
+    },
+    {
+      "slug": "titanfall-2",
+      "title": "Titanfall 2",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/titanfall-2.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "uncharted-4-a-thief-s-end",
+      "title": "Uncharted 4: A Thief's End",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/1/1a/Uncharted_4_box_artwork.png",
+      "isFallback": false
+    },
+    {
+      "slug": "gravity-rush-2",
+      "title": "Gravity Rush 2",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Gravity_Rush_2_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "hollow-knight",
+      "title": "Hollow Knight",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/hollow-knight.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "horizon-zero-dawn",
+      "title": "Horizon Zero Dawn",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/9/93/Horizon_Zero_Dawn.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "nier-automata",
+      "title": "NieR: Automata",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/nier-automata.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "nioh",
+      "title": "Nioh",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/5/52/Nioh_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "resident-evil-7-biohazard",
+      "title": "Resident Evil 7: Biohazard",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/resident-evil-7-biohazard.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "splatoon-2",
+      "title": "Splatoon 2",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Splatoon_2_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "super-mario-odyssey",
+      "title": "Super Mario Odyssey",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/super-mario-odyssey.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "the-legend-of-zelda-breath-of-the-wild",
+      "title": "The Legend of Zelda: Breath of the Wild",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/the-legend-of-zelda-breath-of-the-wild.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "what-remains-of-edith-finch",
+      "title": "What Remains of Edith Finch",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/what-remains-of-edith-finch.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "celeste",
+      "title": "Celeste",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/celeste.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "dead-cells",
+      "title": "Dead Cells",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/dead-cells.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "detroit-become-human",
+      "title": "Detroit: Become Human",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/detroit-become-human.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "forza-horizon-4",
+      "title": "Forza Horizon 4",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/forza-horizon-4.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "god-of-war-2018",
+      "title": "God of War",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/god-of-war-2018.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "judgment",
+      "title": "Judgment",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/judgment.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "marvel-s-spider-man",
+      "title": "Marvel's Spider-Man",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/marvel-s-spider-man.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "monster-hunter-world",
+      "title": "Monster Hunter: World",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/monster-hunter-world.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "red-dead-redemption-2",
+      "title": "Red Dead Redemption 2",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/red-dead-redemption-2.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "sea-of-thieves",
+      "title": "Sea of Thieves",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/8/87/Sea_of_Thieves_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "shadow-of-the-colossus-2018",
+      "title": "Shadow of the Colossus (2018)",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/0/07/Shadow_of_the_Colossus_PS4_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "subnautica",
+      "title": "Subnautica",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/d/dc/Subnautica_cover_art.png",
+      "isFallback": false
+    },
+    {
+      "slug": "super-smash-bros-ultimate",
+      "title": "Super Smash Bros. Ultimate",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/5/50/Super_Smash_Bros._Ultimate.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "tetris-effect",
+      "title": "Tetris Effect",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/8/87/Tetris_Effect_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "control",
+      "title": "Control",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/8/87/Control_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "days-gone",
+      "title": "Days Gone",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/days-gone.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "death-stranding",
+      "title": "Death Stranding",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/death-stranding.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "disco-elysium",
+      "title": "Disco Elysium",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/8/84/Disco_Elysium_poster.png",
+      "isFallback": false
+    },
+    {
+      "slug": "fire-emblem-three-houses",
+      "title": "Fire Emblem: Three Houses",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Fire_Emblem_Three_Houses_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "luigi-s-mansion-3",
+      "title": "Luigi's Mansion 3",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Luigi%27s_Mansion_3_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "outer-wilds",
+      "title": "Outer Wilds",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Outer_Wilds_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "resident-evil-2-2019",
+      "title": "Resident Evil 2 (2019)",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Resident_Evil_2_2019_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "sekiro-shadows-die-twice",
+      "title": "Sekiro: Shadows Die Twice",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/sekiro-shadows-die-twice.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "slay-the-spire",
+      "title": "Slay the Spire",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Slay_the_Spire_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "animal-crossing-new-horizons",
+      "title": "Animal Crossing: New Horizons",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/animal-crossing-new-horizons.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "astro-s-playroom",
+      "title": "Astro's Playroom",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/c/c5/Astro%27s_Playroom_cover_art.png",
+      "isFallback": false
+    },
+    {
+      "slug": "crash-bandicoot-4-it-s-about-time",
+      "title": "Crash Bandicoot 4: It's About Time",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/crash-bandicoot-4-it-s-about-time.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "cuphead",
+      "title": "Cuphead",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/cuphead.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "demon-s-souls-ps5",
+      "title": "Demon's Souls (2020)",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/2/23/Demons_Souls_PS5_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "dreams",
+      "title": "Dreams",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/dreams.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "final-fantasy-vii-remake",
+      "title": "Final Fantasy VII Remake",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/c/ce/FFVIIR_ELL_Box_Art.png",
+      "isFallback": false
+    },
+    {
+      "slug": "ghost-of-tsushima",
+      "title": "Ghost of Tsushima",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/b/b6/Ghost_of_Tsushima.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "hades",
+      "title": "Hades",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/hades.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "half-life-alyx",
+      "title": "Half-Life: Alyx",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/half-life-alyx.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "marvel-s-spider-man-remastered",
+      "title": "Marvel's Spider-Man Remastered",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/marvel-s-spider-man-remastered.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "marvel-s-spider-man-miles-morales",
+      "title": "Marvel's Spider-Man: Miles Morales",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/marvel-s-spider-man-miles-morales.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "nioh-2",
+      "title": "Nioh 2",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/nioh-2.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "ori-and-the-will-of-the-wisps",
+      "title": "Ori and the Will of the Wisps",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/ori-and-the-will-of-the-wisps.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "resident-evil-3-2020",
+      "title": "Resident Evil 3 (2020)",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/8/87/Resident_Evil_3_2020_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "spelunky-2",
+      "title": "Spelunky 2",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/spelunky-2.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "the-last-of-us-part-ii",
+      "title": "The Last of Us Part II",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/4/4f/TLOU_P2_Box_Art_2.png",
+      "isFallback": false
+    },
+    {
+      "slug": "tony-hawk-s-pro-skater-1-plus-2",
+      "title": "Tony Hawk's Pro Skater 1 + 2",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/8/87/Tony_Hawk%27s_Pro_Skater_1_%2B_2_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "yakuza-like-a-dragon",
+      "title": "Yakuza: Like a Dragon",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/yakuza-like-a-dragon.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "alan-wake-remastered",
+      "title": "Alan Wake Remastered",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Alan_Wake_Remastered_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "death-s-door",
+      "title": "Death's Door",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/death-s-door.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "deathloop",
+      "title": "Deathloop",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/deathloop.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "final-fantasy-vii-remake-intergrade",
+      "title": "Final Fantasy VII Remake Intergrade",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/FFVII_Remake_Intergrade_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "forza-horizon-5",
+      "title": "Forza Horizon 5",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/forza-horizon-5.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "lost-judgment",
+      "title": "Lost Judgment",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/lost-judgment.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "metroid-dread",
+      "title": "Metroid Dread",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Metroid_Dread_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "psychonauts-2",
+      "title": "Psychonauts 2",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/psychonauts-2.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "ratchet-clank-rift-apart",
+      "title": "Ratchet & Clank: Rift Apart",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/ratchet-clank-rift-apart.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "resident-evil-village",
+      "title": "Resident Evil Village",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/resident-evil-village.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "returnal",
+      "title": "Returnal",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/returnal.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "tales-of-arise",
+      "title": "Tales of Arise",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Tales_of_Arise_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "elden-ring",
+      "title": "Elden Ring",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/elden-ring.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "ghostwire-tokyo",
+      "title": "Ghostwire: Tokyo",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/ghostwire-tokyo.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "god-of-war-ragnarok",
+      "title": "God of War Ragnarök",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/god-of-war-ragnarok.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "gran-turismo-7",
+      "title": "Gran Turismo 7",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/gran-turismo-7.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "horizon-forbidden-west",
+      "title": "Horizon Forbidden West",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/horizon-forbidden-west.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "kirby-and-the-forgotten-land",
+      "title": "Kirby and the Forgotten Land",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Kirby_and_the_Forgotten_Land_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "pokemon-legends-arceus",
+      "title": "Pokemon Legends: Arceus",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Pokemon_Legends_Arceus_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "splatoon-3",
+      "title": "Splatoon 3",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Splatoon_3_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "the-last-of-us-part-i",
+      "title": "The Last of Us Part I",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/the-last-of-us-part-i.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "uncharted-legacy-of-thieves-collection",
+      "title": "Uncharted: Legacy of Thieves Collection",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/uncharted-legacy-of-thieves-collection.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "xenoblade-chronicles-3",
+      "title": "Xenoblade Chronicles 3",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Xenoblade_Chronicles_3_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "alan-wake-2",
+      "title": "Alan Wake 2",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/alan-wake-2.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "armored-core-vi-fires-of-rubicon",
+      "title": "Armored Core VI: Fires of Rubicon",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/armored-core-vi-fires-of-rubicon.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "baldur-s-gate-3",
+      "title": "Baldur's Gate 3",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/baldur-s-gate-3.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "dead-space-2023",
+      "title": "Dead Space (2023)",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Dead_Space_2023_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "final-fantasy-xvi",
+      "title": "Final Fantasy XVI",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/final-fantasy-xvi.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "hi-fi-rush",
+      "title": "Hi-Fi Rush",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/hi-fi-rush.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "horizon-call-of-the-mountain",
+      "title": "Horizon Call of the Mountain",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/8/87/Horizon_Call_of_the_Mountain_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "lies-of-p",
+      "title": "Lies of P",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/lies-of-p.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "lords-of-the-fallen-2023",
+      "title": "Lords of the Fallen (2023)",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Lords_of_the_Fallen_2023_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "marvel-s-spider-man-2",
+      "title": "Marvel's Spider-Man 2",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/0/0f/Spider-Man_2_PS5_cover_art.jpeg",
+      "isFallback": false
+    },
+    {
+      "slug": "remnant-ii",
+      "title": "Remnant II",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/remnant-ii.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "sea-of-stars",
+      "title": "Sea of Stars",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Sea_of_Stars_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "starfield",
+      "title": "Starfield",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/starfield.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "street-fighter-6",
+      "title": "Street Fighter 6",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/street-fighter-6.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "super-mario-bros-wonder",
+      "title": "Super Mario Bros. Wonder",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Super_Mario_Bros_Wonder_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "the-legend-of-zelda-tears-of-the-kingdom",
+      "title": "The Legend of Zelda: Tears of the Kingdom",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/The_Legend_of_Zelda_Tears_of_the_Kingdom_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "astro-bot",
+      "title": "Astro Bot",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/astro-bot.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "balatro",
+      "title": "Balatro",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Balatro_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "black-myth-wukong",
+      "title": "Black Myth: Wukong",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/0/07/Black_Myth_Wukong_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "dragon-ball-sparking-zero",
+      "title": "Dragon Ball: Sparking! ZERO",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/dragon-ball-sparking-zero.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "dragon-s-dogma-2",
+      "title": "Dragon's Dogma 2",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/dragon-s-dogma-2.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "final-fantasy-vii-rebirth",
+      "title": "Final Fantasy VII Rebirth",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a6/Final_Fantasy_VII_Rebirth_cover.png",
+      "isFallback": false
+    },
+    {
+      "slug": "granblue-fantasy-relink",
+      "title": "Granblue Fantasy: Relink",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Granblue_Fantasy_Relink_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "helldivers-2",
+      "title": "Helldivers 2",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/7/7b/Helldivers_2_cover_art.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "like-a-dragon-infinite-wealth",
+      "title": "Like a Dragon: Infinite Wealth",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/like-a-dragon-infinite-wealth.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "pacific-drive",
+      "title": "Pacific Drive",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Pacific_Drive_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "persona-3-reload",
+      "title": "Persona 3 Reload",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/persona-3-reload.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "prince-of-persia-the-lost-crown",
+      "title": "Prince of Persia: The Lost Crown",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/prince-of-persia-the-lost-crown.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "rise-of-the-ronin",
+      "title": "Rise of the Ronin",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Rise_of_the_Ronin_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "silent-hill-2-2024",
+      "title": "Silent Hill 2 (2024)",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Silent_Hill_2_Remake_Cover.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "stellar-blade",
+      "title": "Stellar Blade",
+      "status": "VERIFIED_REMOTE",
+      "url": "https://upload.wikimedia.org/wikipedia/en/0/0a/Stellar_Blade_cover_art.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "tekken-8",
+      "title": "Tekken 8",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/tekken-8.jpg",
+      "isFallback": false
+    },
+    {
+      "slug": "warhammer-40-000-space-marine-2",
+      "title": "Warhammer 40,000: Space Marine 2",
+      "status": "VERIFIED_LOCAL",
+      "url": "/assets/images/games/warhammer-40-000-space-marine-2.jpg",
+      "isFallback": false
+    }
+  ]
+}

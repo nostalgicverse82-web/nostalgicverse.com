@@ -1,0 +1,70 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-star-wars-battlefront-ii-2005",
+  "slug": "star-wars-battlefront-ii-2005",
+  "title": "Star Wars: Battlefront II",
+  "originalReleaseYear": 2005,
+  "exactReleaseDate": "October 31, 2005",
+  "originalLaunchPlatform": "PlayStation 2",
+  "originalLaunchRegion": "North America",
+  "developer": "Pandemic Studios",
+  "publisher": "LucasArts",
+  "platforms": [
+    "PlayStation 2",
+    "Xbox",
+    "Microsoft Windows"
+  ],
+  "genre": "shooter",
+  "subgenres": [
+    "third-person-shooter"
+  ],
+  "era": "2000s",
+  "shortDescription": "Massive expansion introducing space combat dogfights, playable Jedi/Sith heroes, and the 501st Legion campaign.",
+  "historicalSignificance": "Universally revered as a peak Star Wars interactive experience and a multiplayer console classic.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Star_Wars:_Battlefront_II",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Massive expansion introducing space combat dogfights, playable Jedi/Sith heroes, and the 501st Legion campaign.",
+    "culturalImpact": "Universally revered as a peak Star Wars interactive experience and a multiplayer console classic."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 2"
+    ],
+    "genres": [
+      "shooter"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/0/05/Star_Wars_Battlefront_II_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/0/05/Star_Wars_Battlefront_II_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Star_Wars:_Battlefront_II",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Star Wars: Battlefront II",
+    "Pandemic Studios",
+    "LucasArts",
+    "PlayStation 2",
+    "shooter",
+    "2005",
+    "2000s",
+    "PlayStation 2",
+    "Xbox",
+    "Microsoft Windows",
+    "third-person-shooter"
+  ],
+  "url": "/games/star-wars-battlefront-ii-2005/",
+  "featured": false
+}

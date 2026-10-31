@@ -1,0 +1,87 @@
+{
+  "id": "game-crysis",
+  "slug": "crysis",
+  "title": "Crysis",
+  "japaneseTitle": "クライシス",
+  "url": "/games/crysis/",
+  "originalReleaseYear": 2007,
+  "exactReleaseDate": "2007-11-13",
+  "developer": "Crytek",
+  "publisher": "Electronic Arts",
+  "director": "Cevat Yerli",
+  "designer": "Cevat Yerli",
+  "composer": "Inon Zur",
+  "originalLaunchPlatform": "Microsoft Windows / PC",
+  "platforms": [
+    "Microsoft Windows",
+    "PlayStation 3",
+    "Xbox 360",
+    "PlayStation 4",
+    "Xbox One",
+    "Nintendo Switch"
+  ],
+  "genre": "first-person-shooter",
+  "subgenres": [
+    "Sandbox FPS",
+    "Sci-Fi Action"
+  ],
+  "era": "2000s",
+  "shortDescription": "Crytek's monumental graphical and sandbox physics tour-de-force, immortalized by the iconic PC gaming benchmark phrase 'Can It Run Crysis?'.",
+  "historicalSignificance": "Pushed 3D PC graphics hardware so far ahead of its era that consumer graphics cards could not run it at maximum settings for nearly a decade, pioneering real-time volumetric sun rays, procedural foliage destructibility, and open-ended tactical nanosuit warfare.",
+  "editorialContent": {
+    "overview": "Set on the tropical Lingshan Islands in 2020, Delta Force operative Nomad is dispatched in a high-tech military Nanosuit to investigate an extraterrestrial archaeological discovery before an alien invasion flash-freezes the island.",
+    "gameplay": "Dynamic tactical sandbox combat powered by four distinct Nanosuit modes: Maximum Armor (bullet resistance), Maximum Speed (sprinting over water), Maximum Strength (leaping onto rooftops and throwing vehicles), and Cloak (active optical camouflage).",
+    "technicalInnovation": "CryEngine 2 introduced screen-space ambient occlusion (SSAO), real-time soft shadows, parallax occlusion mapping, fully destructible jungle environments where trees snap under gunfire, and volumetric god-rays.",
+    "culturalImpact": "Became an indelible cultural meme ('Can it run Crysis?') that defined PC hardware benchmarking and technical prestige for over fifteen years.",
+    "preservationNotes": "Preserved on PC DVD-ROM and remastered for modern systems with ray tracing."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "November 13, 2007",
+    "leadPlatform": "PC",
+    "genre": "first-person-shooter",
+    "sales": "Over 3 million copies sold on PC",
+    "awards": [
+      "Best PC Game E3 2007 Game Critics Awards",
+      "PC Gamer Game of the Year"
+    ],
+    "technicalSpecs": {
+      "engine": "CryEngine 2",
+      "resolution": "Scalable DirectX 10 3D resolution with real-time physics",
+      "soundChip": "DirectSound 3D with Inon Zur orchestral score",
+      "mediaFormat": "DVD-ROM"
+    },
+    "relationships": {
+      "primaryConsole": "pc",
+      "developerEntity": "Crytek",
+      "lineage": [
+        "Far Cry (2004)",
+        "Crysis 2",
+        "CryEngine"
+      ]
+    }
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/1/1e/Crysis_boxart.JPG",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/1/1e/Crysis_boxart.JPG",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Crysis_boxart.JPG",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "crysis",
+    "crytek",
+    "cevat yerli",
+    "nanosuit",
+    "cryengine 2",
+    "can it run crysis",
+    "pc benchmark",
+    "lingshan",
+    "fps",
+    "2007"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

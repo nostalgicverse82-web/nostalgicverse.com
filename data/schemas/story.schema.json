@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://nostalgicverse.com/schemas/story.schema.json",
+  "title": "NostalgicVerse Archival Story Schema",
+  "description": "Standardized schema for retrospective articles and technological investigative features.",
+  "type": "object",
+  "required": [
+    "id",
+    "slug",
+    "title",
+    "category",
+    "publishDate",
+    "readTime",
+    "author",
+    "summary"
+  ],
+  "properties": {
+    "id": { "type": "string", "pattern": "^story-[a-z0-9-]+$" },
+    "slug": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "title": { "type": "string" },
+    "category": { "type": "string" },
+    "publishDate": { "type": "string" },
+    "readTime": { "type": "string" },
+    "author": { "type": "string" },
+    "summary": { "type": "string" },
+    "verifiedFactualData": {
+      "type": "object",
+      "properties": {
+        "citations": { "type": "array", "items": { "type": "string" } },
+        "interviewSubjects": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "editorialContent": {
+      "type": "object",
+      "properties": {
+        "leadParagraph": { "type": "string" },
+        "bodySections": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "subheading": { "type": "string" },
+              "text": { "type": "string" }
+            }
+          }
+        },
+        "conclusion": { "type": "string" }
+      }
+    },
+    "relatedExhibits": {
+      "type": "object",
+      "properties": {
+        "games": { "type": "array", "items": { "type": "string" } },
+        "consoles": { "type": "array", "items": { "type": "string" } },
+        "stories": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "assets": {
+      "type": "object",
+      "properties": {
+        "heroImage": { "type": "string" },
+        "thumbnailImage": { "type": "string" }
+      }
+    },
+    "tags": { "type": "array", "items": { "type": "string" } }
+  }
+}
+

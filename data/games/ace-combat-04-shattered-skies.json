@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-ace-combat-04-shattered-skies",
+  "slug": "ace-combat-04-shattered-skies",
+  "title": "Ace Combat 04: Shattered Skies",
+  "originalReleaseYear": 2001,
+  "exactReleaseDate": "September 13, 2001",
+  "originalLaunchPlatform": "PlayStation 2",
+  "originalLaunchRegion": "Japan",
+  "developer": "Project Aces",
+  "publisher": "Namco",
+  "platforms": [
+    "PlayStation 2"
+  ],
+  "genre": "action",
+  "subgenres": [
+    "flight-simulator"
+  ],
+  "era": "2000s",
+  "shortDescription": "Project Aces' dramatic flight combat following Mobius 1 in the Usean Continental War against Yellow Squadron.",
+  "historicalSignificance": "Elevated flight action games to poetic narrative art, redefining aerial dogfight physics on PS2.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Ace_Combat_04:_Shattered_Skies",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Project Aces' dramatic flight combat following Mobius 1 in the Usean Continental War against Yellow Squadron.",
+    "culturalImpact": "Elevated flight action games to poetic narrative art, redefining aerial dogfight physics on PS2."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 2"
+    ],
+    "genres": [
+      "action"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/4/4e/Ace_Combat_04_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/4/4e/Ace_Combat_04_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ace_Combat_04:_Shattered_Skies",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Ace Combat 04: Shattered Skies",
+    "Project Aces",
+    "Namco",
+    "PlayStation 2",
+    "action",
+    "2001",
+    "2000s",
+    "PlayStation 2",
+    "flight-simulator"
+  ],
+  "url": "/games/ace-combat-04-shattered-skies/",
+  "featured": false
+}

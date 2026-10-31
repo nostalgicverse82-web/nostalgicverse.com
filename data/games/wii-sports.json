@@ -1,0 +1,78 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.json",
+  "id": "game-wii-sports",
+  "slug": "wii-sports",
+  "title": "Wii Sports",
+  "japaneseTitle": "Wii スポーツ",
+  "url": "/games/wii-sports/",
+  "originalReleaseYear": 2006,
+  "exactReleaseDate": "2006-11-19",
+  "developer": "Nintendo EAD",
+  "publisher": "Nintendo",
+  "director": "Keizo Ohta, Takayuki Shimamura",
+  "designer": "Katsuya Eguchi, Shigeru Miyamoto",
+  "composer": "Kazumi Totaka",
+  "originalLaunchPlatform": "Nintendo Wii",
+  "platforms": [
+    "Nintendo Wii"
+  ],
+  "genre": "Sports",
+  "subgenres": [
+    "Motion-Controlled Sports",
+    "Party Game",
+    "Fitness"
+  ],
+  "era": "2000s",
+  "shortDescription": "Nintendo EAD's groundbreaking motion-control pack-in showcase that transformed living rooms worldwide and spearheaded the Wii's industry-defining Blue Ocean expansion.",
+  "historicalSignificance": "Pioneered mass-market intuitive motion-sensing controls, eliminated traditional button-interface barriers for non-gamers, spearheaded Nintendo's demographic expansion into elderly and casual audiences, and became the fourth-highest selling video game in history.",
+  "editorialContent": {
+    "overview": "Premiering alongside the launch of the Nintendo Wii on November 19, 2006 in the Americas, Wii Sports was conceived by Nintendo president Satoru Iwata and legendary designer Shigeru Miyamoto as the direct operational embodiment of Nintendo's 'Blue Ocean' corporate strategy. Recognizing that the relentless escalating complexity of modern controllers (with dozens of buttons and dual analog sticks) was intimidating non-players and alienating mainstream families, Nintendo EAD developed Wii Sports as an intuitive counter-statement: a software title requiring zero prior gaming literacy that anyone, from young toddlers to elderly retirees, could pick up and instantly enjoy. Bundled with the console in all territories outside Japan and South Korea, Wii Sports went on to sell over 82.9 million units worldwide, sparking a global sociological phenomenon.",
+    "gameplayMechanics": "The title is structured around five streamlined athletic simulations: Tennis, Baseball, Bowling, Golf, and Boxing. The revolutionary design choice was stripping away complex navigational footwork to focus exclusively on authentic physical arm gestures: in Tennis, characters run autonomously toward the ball while players simply swing the Wii Remote like an actual racquet, with the timing, angle, and velocity of the arm stroke determining slice, topspin, and ball trajectory. In Bowling, players hold the B-trigger to position their shot, swing their arm backward, and release the trigger as their arm swings forward to release the ball down the lane, with slight wrist twists imparting authentic hook spin. Boxing utilized the Nunchuk peripheral for dual-fist punching, ducking, and weaving.",
+    "technicalInnovation": "Wii Sports translated physical human kinetics into digital gameplay via the Wii Remote's internal three-axis linear accelerometer (an Analog Devices ADXL330) paired with an optical infrared CMOS sensor tracking the console's television-mounted Sensor Bar. Rather than striving for high-polygon photorealism that might intimidate non-traditional players, the visual design utilized minimalist, stylized digital caricatures known as 'Miis'. The console's internal flash memory stored individual player Miis and tracked daily 'Wii Fitness' scores and skill metrics over time. Kazumi Totaka's iconic title theme and breezy, minimalist acoustic jingles provided an inviting, non-threatening atmosphere that felt more akin to a municipal country club than an aggressive digital video game.",
+    "culturalImpact": "Wii Sports achieved unprecedented cross-generational penetration, transcending the video game medium to become a fixture in senior living centers, children's hospitals, physical rehabilitation clinics, and family holiday living rooms. In 2007, international news outlets widely reported on 'Wii Bowling leagues' formed by retirement communities and fitness enthusiasts using the software for low-impact physical exercise. The title forced rival platform holders Sony and Microsoft to invest heavily in reactive motion-control peripherals (PlayStation Move and Xbox Kinect) and cemented the Nintendo Wii as a historic cultural juggernaut that redefined the boundaries of who could participate in digital play.",
+    "preservationNotes": "Physical preservation involves maintaining operational Wii Remote controllers and sensor bars. Accelerometer calibration drift and optical sensor bar LED degradation (using infrared emitters) must be monitored during hardware exhibition. Archival systems note that regional releases differed: Western copies shipped in cardboard sleeves as a hardware pack-in, whereas Japanese editions shipped in standard white DVD cases as a standalone retail software product."
+  },
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "Nintendo Co., Ltd. Wii Sports Operations Manual (RVL-RSPE-USA, 2006)",
+      "Iwata, Satoru & Miyamoto, Shigeru. 'Iwata Asks: Wii Sports' Nintendo Corporate Archives (2006)",
+      "Schreier, Jason. 'How Wii Sports Conquered the World' Wired Magazine (2007)",
+      "Juul, Jesper. A Casual Revolution: Reinventing Video Games and Their Players (2009)"
+    ],
+    "romMediaFormat": "1x Wii Optical Disc (12 cm Single-Layer Proprietary Format)",
+    "romSizeOriginal": "Approx. 1.4 GB on optical media",
+    "displayResolutionOriginal": "480p (Enhanced Definition / 16:9 Widescreen Progressive Scan)",
+    "audioHardware": "Nintendo Wii Audio DSP (Dolby Pro Logic II Surround Sound + Wii Remote Controller Speaker)",
+    "inputMethod": "Wii Remote (3-axis Accelerometer + Optical Sensor) + Optional Nunchuk Peripheral",
+    "multiplayerCapability": "Up to 4 Players (Simultaneous Local Split-Screen and Turn-Based Play)"
+  },
+  "assets": {
+    "heroImage": "/assets/images/games/wii-sports-hero.webp",
+    "thumbnailImage": "/assets/images/games/wii-sports.webp",
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/5/54/Wii_Sports_Sleeve_Cover_Art.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/5/54/Wii_Sports_Sleeve_Cover_Art.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Wii_Sports_Sleeve_Cover_Art.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "review-required",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "wii sports",
+    "nintendo wii",
+    "wii",
+    "nintendo ead",
+    "motion controls",
+    "wii remote",
+    "blue ocean",
+    "satoru iwata",
+    "shigeru miyamoto",
+    "sports",
+    "2006",
+    "2000s",
+    "bowling",
+    "tennis"
+  ],
+  "featured": false
+}

@@ -1,0 +1,87 @@
+{
+  "id": "game-goldeneye-007",
+  "slug": "goldeneye-007",
+  "title": "GoldenEye 007",
+  "japaneseTitle": "ゴールデンアイ 007",
+  "url": "/games/goldeneye-007/",
+  "originalReleaseYear": 1997,
+  "exactReleaseDate": "1997-08-25",
+  "developer": "Rare",
+  "publisher": "Nintendo",
+  "director": "Martin Hollis",
+  "designer": "Martin Hollis, David Doak",
+  "composer": "Graeme Norgate, Grant Kirkhope, Robin Beanland",
+  "originalLaunchPlatform": "Nintendo 64",
+  "platforms": [
+    "Nintendo 64"
+  ],
+  "genre": "first-person-shooter",
+  "subgenres": [
+    "Console FPS",
+    "Stealth Shooter",
+    "Split-Screen Multiplayer"
+  ],
+  "era": "1990s",
+  "shortDescription": "Rare's revolutionary console FPS that proved first-person shooters could excel on televisions and popularized split-screen multiplayer.",
+  "historicalSignificance": "Single-handedly proved that first-person shooters could be spectacular on home consoles, introducing stealth mechanics, location-based hit detection, context-sensitive objectives, and a 4-player split-screen deathmatch mode that defined dorm-room socializing in the late 1990s.",
+  "editorialContent": {
+    "overview": "Developed by a small, inexperienced team at Rare in Twycross, England, under director Martin Hollis, GoldenEye 007 arrived on the Nintendo 64 two years after the 1995 film's theatrical release. Defying all expectations for licensed movie tie-ins, it became one of the most commercially successful and influential shooters of all time.",
+    "gameplay": "Players infiltrate Soviet chemical facilities, Siberian radar bases, and jungle complexes as James Bond. Objectives vary dynamically based on difficulty settings—Secret Agent and 00 Agent demand hostage rescues, data downloads, and covert saboteur actions rather than mere body counts. Its legendary 4-player split-screen multiplayer featured iconic modes like The Living Daylights and You Only Live Twice.",
+    "technicalInnovation": "Introduced sniper scope zoom mechanics, headshot precision damage modeling, dynamic enemy reactions (limping, dropping weapons), and intelligent AI patrol states that reacted to gunshots and alarm sirens.",
+    "culturalImpact": "GoldenEye transformed the N64 into the quintessential party console of the late 90s, fostering unforgettable late-night competitive battles across Facility and Complex (and universally banishing Oddjob). It paved the way for Halo and the modern console shooter empire.",
+    "preservationNotes": "Preserved in its original 12 MB N64 cartridge format, and recently officially re-released on Xbox Game Pass and Nintendo Switch Online."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "August 25, 1997",
+    "leadPlatform": "Nintendo 64",
+    "genre": "first-person-shooter",
+    "sales": "Over 8 million units worldwide",
+    "awards": [
+      "BAFTA Interactive Entertainment Award for Game of the Year 1998",
+      "AIAS Interactive Achievement Award for Game of the Year 1998"
+    ],
+    "technicalSpecs": {
+      "engine": "Rare proprietary N64 3D engine",
+      "resolution": "320x240 progressive",
+      "soundChip": "Nintendo 64 RCP wavetable synth with dynamic acoustic mixing",
+      "mediaFormat": "96-Megabit (12 Megabyte) Cartridge"
+    },
+    "relationships": {
+      "primaryConsole": "nintendo-64",
+      "developerEntity": "Rare",
+      "lineage": [
+        "Doom",
+        "Perfect Dark",
+        "TimeSplitters",
+        "Halo"
+      ]
+    }
+  },
+  "assets": {
+    "cover": "/assets/images/games/goldeneye-007.webp",
+    "banner": "/assets/images/games/goldeneye-007-banner.webp",
+    "screenshots": [
+      "/assets/images/games/goldeneye-007-screen1.webp",
+      "/assets/images/games/goldeneye-007-screen2.webp"
+    ],
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/f/f1/GoldenEye_007_2010_remake_box_art.png",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/f/f1/GoldenEye_007_2010_remake_box_art.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:GoldenEye_007_2010_remake_box_art.png",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "goldeneye 007",
+    "rare",
+    "nintendo 64",
+    "james bond",
+    "martin hollis",
+    "split-screen",
+    "fps"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

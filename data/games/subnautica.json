@@ -1,0 +1,70 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-subnautica",
+  "slug": "subnautica",
+  "title": "Subnautica",
+  "originalReleaseYear": 2018,
+  "exactReleaseDate": "December 4, 2018",
+  "originalLaunchPlatform": "PlayStation 4",
+  "originalLaunchRegion": "Worldwide",
+  "developer": "Unknown Worlds Entertainment",
+  "publisher": "Gearbox Publishing",
+  "platforms": [
+    "PlayStation 4",
+    "Xbox One",
+    "Microsoft Windows"
+  ],
+  "genre": "survival",
+  "subgenres": [
+    "exploration"
+  ],
+  "era": "2010s",
+  "shortDescription": "Survival exploration upon alien oceanic planet 4546B, diving from coral shallows to terrifying abyssal trenches.",
+  "historicalSignificance": "Widely heralded as one of the finest survival games ever made, balancing tranquil beauty with deep-sea dread.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Subnautica",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Survival exploration upon alien oceanic planet 4546B, diving from coral shallows to terrifying abyssal trenches.",
+    "culturalImpact": "Widely heralded as one of the finest survival games ever made, balancing tranquil beauty with deep-sea dread."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 4"
+    ],
+    "genres": [
+      "survival"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/d/dc/Subnautica_cover_art.png",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/d/dc/Subnautica_cover_art.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Subnautica",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Subnautica",
+    "Unknown Worlds Entertainment",
+    "Gearbox Publishing",
+    "PlayStation 4",
+    "survival",
+    "2018",
+    "2010s",
+    "PlayStation 4",
+    "Xbox One",
+    "Microsoft Windows",
+    "exploration"
+  ],
+  "url": "/games/subnautica/",
+  "featured": false
+}

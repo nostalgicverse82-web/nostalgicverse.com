@@ -1,0 +1,76 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.json",
+  "id": "game-minecraft",
+  "slug": "minecraft",
+  "title": "Minecraft",
+  "url": "/games/minecraft/",
+  "originalReleaseYear": 2011,
+  "exactReleaseDate": "2011-11-18",
+  "developer": "Mojang Studios",
+  "publisher": "Mojang Studios",
+  "director": "Markus Persson, Jens Bergensten",
+  "designer": "Markus Persson, Jens Bergensten",
+  "composer": "Daniel Rosenfeld (C418)",
+  "originalLaunchPlatform": "PC",
+  "platforms": [
+    "PC",
+    "Xbox 360",
+    "PlayStation 3",
+    "PlayStation 4",
+    "Xbox One",
+    "Nintendo Switch",
+    "iOS",
+    "Android"
+  ],
+  "genre": "Simulation",
+  "subgenres": [
+    "Voxel Sandbox",
+    "Survival Game",
+    "Procedural World"
+  ],
+  "era": "2010s",
+  "shortDescription": "Markus 'Notch' Persson and Mojang's infinite voxel sandbox that democratized 3D architectural creativity and became the highest-selling video game in human history.",
+  "historicalSignificance": "Revolutionized procedural world generation and player-directed sandbox design, pioneered modern early-access development models, and established a generational medium for digital creativity and computational logic.",
+  "editorialContent": {
+    "overview": "Initially conceived in May 2009 by Swedish independent programmer Markus 'Notch' Persson as an experimental weekend Java prototype titled 'Cave Game' (heavily inspired by Infiniminer and Dwarf Fortress), Minecraft achieved official full release on November 18, 2011. Foregoing traditional narrative campaigns, structured quests, and hyper-realistic graphics in favor of a stark, blocky 16×16-pixel textured voxel aesthetic, Minecraft presented players with an infinite canvas of mathematical possibility. Transformed from a solo bedroom project into Mojang Studios and eventually acquired by Microsoft in 2014, Minecraft has sold over 300 million units, surpassing Tetris as the bestselling individual video game title in human history.",
+    "gameplayMechanics": "The core gameplay loop is defined by the elemental verbs of its title: excavating raw mineral resources ('mine') and assembling them into functional tools, shelter, and intricate machinery ('craft'). The world is divided into two foundational modes: Survival, where players must harvest food, craft armaments, and build defensive fortifications to survive nocturnal encounters with zombies, skeletons, spiders, and volatile Creepers; and Creative, where all resource restrictions and damage are disabled, granting limitless flight and infinite blocks for unrestricted architectural design. The 3×3 crafting grid provides a spatial taxonomy for tool synthesis. The introduction of Redstone—a mineral conducting simulated electrical logic—empowered players to assemble Boolean gates, shift registers, and fully functioning Turing-complete virtual microprocessors entirely within the game world.",
+    "technicalInnovation": "Minecraft achieved technical renown through its procedural world generation pipeline. Utilizing layered octave evaluations of 3D Perlin and Simplex noise algorithms, the engine computes an effectively infinite (bounded at 60 million blocks across) three-dimensional voxel terrain containing biomes, mountain ranges, labyrinthine cave networks, subterranean ravines, and ocean trenches from an arbitrary 64-bit numerical seed. The engine organizes space into vertical columns of 16×16×256 block 'chunks', dynamically streaming, rendering, and offloading world coordinates based on player proximity. Daniel Rosenfeld's (C418) minimalist, ambient piano and synthesizer score offered an introspective, serene auditory companion that became intrinsically linked with digital contemplation.",
+    "culturalImpact": "Minecraft fundamentally altered childhood play, digital literacy, and internet broadcasting culture throughout the 2010s. It became the definitive creative medium for a global generation, functioning as the digital equivalent of LEGO bricks. It catalyzed the modern YouTube gaming boom, propelling content creators, machinima animators, and let's-players into mainstream media celebrities. Furthermore, Minecraft entered formal educational curriculums worldwide via 'Minecraft: Education Edition', serving as an interactive classroom tool for teaching architectural planning, chemistry, ecology, and introductory computer programming.",
+    "preservationNotes": "Preservation of Minecraft encompasses documenting its historic evolutionary milestones: from early 2009 Classic builds and the Alpha/Beta eras to the landmark Adventure Update (Release 1.0) and modern Bedrock/Java parallel codebases. Archival institutions preserve original standalone Java server JARs, early texture packs, and seminal community-created modification platforms (Bukkit, Forge, Fabric) that defined decentralized digital community preservation."
+  },
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "Persson, Markus. 'About the Game: The Origins of Minecraft' Mojang Development Blog (2009-2011)",
+      "Goldberg, Daniel & Larsson, Linus. Minecraft: The Unlikely Tale of Markus 'Notch' Persson and the Game that Changed Everything (2013)",
+      "Mojang Studios. Minecraft 1.0 Release Documentation and Patch Notes (2011)",
+      "Guinness World Records. 'Best-Selling Video Game of All Time: Minecraft' (2023)"
+    ],
+    "romMediaFormat": "Digital Download / Executable Java Archive (.jar) / Cross-Platform Binary",
+    "romSizeOriginal": "Approx. 50 MB initial client installation",
+    "displayResolutionOriginal": "Dynamic / Resolution-Independent (OpenGL Voxel Pipeline)",
+    "audioHardware": "Software Audio Engine (OpenAL / LWJGL Sound Pipeline)",
+    "inputMethod": "Standard Keyboard & Mouse / Gamepad / Touchscreen",
+    "multiplayerCapability": "Unlimited (Client-Server Architecture / LAN / Dedicated Hosted Servers)"
+  },
+  "assets": {
+    "heroImage": "/assets/images/games/minecraft-hero.webp",
+    "thumbnailImage": "/assets/images/games/minecraft.webp"
+  },
+  "keywords": [
+    "minecraft",
+    "mojang",
+    "markus persson",
+    "notch",
+    "jens bergensten",
+    "c418",
+    "voxel",
+    "sandbox",
+    "survival",
+    "procedural",
+    "2011",
+    "2010s",
+    "redstone",
+    "creeper"
+  ],
+  "featured": true
+}

@@ -1,0 +1,68 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-skate-2",
+  "slug": "skate-2",
+  "title": "Skate 2",
+  "originalReleaseYear": 2009,
+  "exactReleaseDate": "January 21, 2009",
+  "originalLaunchPlatform": "PlayStation 3",
+  "originalLaunchRegion": "North America",
+  "developer": "EA Black Box",
+  "publisher": "Electronic Arts",
+  "platforms": [
+    "PlayStation 3",
+    "Xbox 360"
+  ],
+  "genre": "sports",
+  "subgenres": [
+    "skateboarding"
+  ],
+  "era": "2000s",
+  "shortDescription": "Rebuilt New San Vanelona introducing the ability to get off the board to move street obstacles with the Flickit dual-stick system.",
+  "historicalSignificance": "The definitive peak of analog stick physics skateboarding, delivering unmatched organic street satisfaction.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Skate_2",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Rebuilt New San Vanelona introducing the ability to get off the board to move street obstacles with the Flickit dual-stick system.",
+    "culturalImpact": "The definitive peak of analog stick physics skateboarding, delivering unmatched organic street satisfaction."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 3"
+    ],
+    "genres": [
+      "sports"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/8/87/Skate_2_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/8/87/Skate_2_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Skate_2",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Skate 2",
+    "EA Black Box",
+    "Electronic Arts",
+    "PlayStation 3",
+    "sports",
+    "2009",
+    "2000s",
+    "PlayStation 3",
+    "Xbox 360",
+    "skateboarding"
+  ],
+  "url": "/games/skate-2/",
+  "featured": false
+}

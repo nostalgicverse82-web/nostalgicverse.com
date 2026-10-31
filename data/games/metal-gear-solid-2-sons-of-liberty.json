@@ -1,0 +1,89 @@
+{
+  "id": "game-metal-gear-solid-2-sons-of-liberty",
+  "slug": "metal-gear-solid-2-sons-of-liberty",
+  "title": "Metal Gear Solid 2: Sons of Liberty",
+  "japaneseTitle": "メタルギアソリッド2 サンズ・オブ・リバティ",
+  "url": "/games/metal-gear-solid-2-sons-of-liberty/",
+  "originalReleaseYear": 2001,
+  "exactReleaseDate": "2001-11-13",
+  "developer": "Konami Computer Entertainment Japan (KCEJ)",
+  "publisher": "Konami",
+  "director": "Hideo Kojima",
+  "designer": "Hideo Kojima",
+  "composer": "Harry Gregson-Williams, Norihiko Hibino",
+  "originalLaunchPlatform": "PlayStation 2",
+  "platforms": [
+    "PlayStation 2",
+    "Xbox",
+    "Microsoft Windows"
+  ],
+  "genre": "stealth",
+  "subgenres": [
+    "Tactical Espionage Action",
+    "Postmodern Thriller"
+  ],
+  "era": "2000s",
+  "shortDescription": "Hideo Kojima's postmodern stealth masterpiece that shocked the world with Raiden and predicted the era of fake news and algorithm curation.",
+  "historicalSignificance": "One of gaming's greatest narrative and conceptual achievements, famously executing the protagonist bait-and-switch from Solid Snake to Raiden, and uncannily predicting 21st-century digital disinformation, algorithmic echo chambers, and AI-controlled information flow.",
+  "editorialContent": {
+    "overview": "Directed by Hideo Kojima following the monumental success of the 1998 original, Metal Gear Solid 2: Sons of Liberty launched on the PlayStation 2 in November 2001. After a bravura opening prologue on the USS Discovery tanker starring Solid Snake, the game subverted the entire gaming press and player base by shifting perspective to rookie operative Raiden on the offshore decontamination plant Big Shell.",
+    "gameplay": "Tactical espionage action reaches sublime heights: players can aim from a first-person perspective, shoot radios off guards' belts, hold enemies at gunpoint, hide inside lockers, hang from catwalk railings, and slip on bird droppings. The AI operates in coordinated tactical fireteams that clear rooms systematically.",
+    "technicalInnovation": "KCEJ pushed the PS2 Emotion Engine to generate real-time atmospheric rain physics, dynamic fabric deformation, individual melting ice cubes in drinking glasses, and Hollywood film composer Harry Gregson-Williams's cinematic orchestral score.",
+    "culturalImpact": "Once controversial for replacing Snake, MGS2 is today hailed as a philosophical prophet. Its final hour examination of digital information filtering, meme theory, and artificial intelligence censorship became terrifyingly accurate in the social media era.",
+    "preservationNotes": "Preserved via original PS2 DVD media, the 'Substance' expanded editions, the PS3/360 HD Collection by Bluepoint Games, and modern Master Collection volumes."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "November 13, 2001",
+    "leadPlatform": "PlayStation 2",
+    "genre": "stealth",
+    "sales": "Over 7 million copies worldwide",
+    "awards": [
+      "BAFTA Interactive Entertainment Award nominee",
+      "E3 Game Critics Awards Best Action Game"
+    ],
+    "technicalSpecs": {
+      "engine": "KCEJ proprietary PS2 60fps cinematic engine",
+      "resolution": "480i (60fps locked)",
+      "soundChip": "PS2 SPU2 with Dolby Pro Logic II and Harry Gregson-Williams score",
+      "mediaFormat": "DVD-ROM"
+    },
+    "relationships": {
+      "primaryConsole": "playstation-2",
+      "developerEntity": "Konami",
+      "lineage": [
+        "Metal Gear Solid",
+        "Metal Gear Solid 3: Snake Eater",
+        "Metal Gear Solid 4: Guns of the Patriots",
+        "Death Stranding"
+      ]
+    }
+  },
+  "assets": {
+    "cover": "/assets/images/games/metal-gear-solid-2-sons-of-liberty.webp",
+    "banner": "/assets/images/games/metal-gear-solid-2-sons-of-liberty-banner.webp",
+    "screenshots": [
+      "/assets/images/games/metal-gear-solid-2-sons-of-liberty-screen1.webp",
+      "/assets/images/games/metal-gear-solid-2-sons-of-liberty-screen2.webp"
+    ],
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/6/6a/Metalgear2boxart.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/6/6a/Metalgear2boxart.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Metalgear2boxart.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "metal gear solid 2",
+    "mgs2",
+    "hideo kojima",
+    "raiden",
+    "solid snake",
+    "patriots",
+    "stealth",
+    "harry gregson-williams"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

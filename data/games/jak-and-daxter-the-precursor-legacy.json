@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-jak-and-daxter-the-precursor-legacy",
+  "slug": "jak-and-daxter-the-precursor-legacy",
+  "title": "Jak and Daxter: The Precursor Legacy",
+  "originalReleaseYear": 2001,
+  "exactReleaseDate": "December 3, 2001",
+  "originalLaunchPlatform": "PlayStation 2",
+  "originalLaunchRegion": "North America",
+  "developer": "Naughty Dog",
+  "publisher": "Sony Computer Entertainment",
+  "platforms": [
+    "PlayStation 2"
+  ],
+  "genre": "platformer",
+  "subgenres": [
+    "3d-platformer"
+  ],
+  "era": "2000s",
+  "shortDescription": "Naughty Dog's seamless, zero-load-time 3D platformer following Jak and his ottsel companion Daxter.",
+  "historicalSignificance": "Revolutionized open-world streaming technology on PlayStation 2 with no visible loading screens.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Jak_and_Daxter:_The_Precursor_Legacy",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Naughty Dog's seamless, zero-load-time 3D platformer following Jak and his ottsel companion Daxter.",
+    "culturalImpact": "Revolutionized open-world streaming technology on PlayStation 2 with no visible loading screens."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 2"
+    ],
+    "genres": [
+      "platformer"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a5/Jak_and_Daxter_-_The_Precursor_Legacy_Coverart.png",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a5/Jak_and_Daxter_-_The_Precursor_Legacy_Coverart.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Jak_and_Daxter:_The_Precursor_Legacy",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Jak and Daxter: The Precursor Legacy",
+    "Naughty Dog",
+    "Sony Computer Entertainment",
+    "PlayStation 2",
+    "platformer",
+    "2001",
+    "2000s",
+    "PlayStation 2",
+    "3d-platformer"
+  ],
+  "url": "/games/jak-and-daxter-the-precursor-legacy/",
+  "featured": false
+}

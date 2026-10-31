@@ -1,0 +1,86 @@
+{
+  "id": "game-silent-hill",
+  "slug": "silent-hill",
+  "title": "Silent Hill",
+  "japaneseTitle": "サイレントヒル",
+  "url": "/games/silent-hill/",
+  "originalReleaseYear": 1999,
+  "exactReleaseDate": "1999-01-31",
+  "developer": "Team Silent (Konami Computer Entertainment Tokyo)",
+  "publisher": "Konami",
+  "director": "Keiichiro Toyama",
+  "designer": "Keiichiro Toyama, Hiroyuki Owaku",
+  "composer": "Akira Yamaoka",
+  "originalLaunchPlatform": "PlayStation",
+  "platforms": [
+    "PlayStation"
+  ],
+  "genre": "survival-horror",
+  "subgenres": [
+    "Psychological Horror",
+    "Atmospheric Survival Horror"
+  ],
+  "era": "1990s",
+  "shortDescription": "Team Silent's psychological horror masterpiece featuring fog, siren-driven nightmare transitions, and Akira Yamaoka's industrial soundtrack.",
+  "historicalSignificance": "Pioneered psychological horror in video games, turning hardware limitations into iconic artistic design via dense fog and shifting between the misty town and the rusted, blood-soaked Otherworld backed by Akira Yamaoka's chilling industrial soundscapes.",
+  "editorialContent": {
+    "overview": "Created by a group of disillusioned Konami developers known as 'Team Silent' under director Keiichiro Toyama, Silent Hill was released for the PlayStation in early 1999. Rather than relying on cinematic jump scares and B-movie creature tropes, it tapped into psychological dread, cult occultism, and David Lynchian surrealism as Harry Mason searches for his missing daughter Cheryl.",
+    "gameplay": "Harry is an ordinary writer who aims poorly and tires quickly. Players explore foggy town streets, abandoned elementary schools, and decayed hospitals guided by a static-filled radio that emits harsh noise when monsters draw near. A pocket flashlight illuminates narrow corridors while exposing Harry to grotesque monstrosities.",
+    "technicalInnovation": "Keiichiro Toyama ingeniously turned the PlayStation's limited 3D draw distance into the game's greatest artistic asset: an all-enveloping volumetric fog and pitch darkness that masked texture pop-in while inducing claustrophobic terror.",
+    "culturalImpact": "Silent Hill elevated video games into a mature medium for psychological horror, establishing a revered franchise and inspiring cinema, literature, and generations of indie horror creators.",
+    "preservationNotes": "Preserved via original PS1 optical discs and downloadable PlayStation Network classics releases."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "January 31, 1999",
+    "leadPlatform": "PlayStation",
+    "genre": "survival-horror",
+    "sales": "Over 2 million units worldwide",
+    "awards": [
+      "EGM Best Horror Game 1999",
+      "PlayStation Power Best Sound Design 1999"
+    ],
+    "technicalSpecs": {
+      "engine": "Team Silent full-3D polygonal PS1 engine with dynamic light sourcing",
+      "resolution": "320x240 progressive",
+      "soundChip": "PlayStation SPU 24-channel audio with Akira Yamaoka industrial noise audio",
+      "mediaFormat": "CD-ROM"
+    },
+    "relationships": {
+      "primaryConsole": "playstation",
+      "developerEntity": "Konami",
+      "lineage": [
+        "Silent Hill 2",
+        "Silent Hill 3",
+        "Siren",
+        "Alan Wake"
+      ]
+    }
+  },
+  "assets": {
+    "cover": "/assets/images/games/silent-hill.webp",
+    "banner": "/assets/images/games/silent-hill-banner.webp",
+    "screenshots": [
+      "/assets/images/games/silent-hill-screen1.webp",
+      "/assets/images/games/silent-hill-screen2.webp"
+    ],
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/9/96/Silent_Hill_video_game_cover.png",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/9/96/Silent_Hill_video_game_cover.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Silent_Hill_video_game_cover.png",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "silent hill",
+    "team silent",
+    "keiichiro toyama",
+    "akira yamaoka",
+    "konami",
+    "psychological horror",
+    "fog"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

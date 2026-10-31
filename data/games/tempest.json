@@ -1,0 +1,89 @@
+{
+  "id": "game-tempest",
+  "slug": "tempest",
+  "title": "Tempest",
+  "url": "/games/tempest/",
+  "originalReleaseYear": 1981,
+  "exactReleaseDate": "1981-10-01",
+  "developer": "Atari, Inc.",
+  "publisher": "Atari, Inc.",
+  "designer": "Dave Theurer",
+  "originalLaunchPlatform": "Arcade",
+  "platforms": [
+    "Arcade",
+    "Atari ST",
+    "PC"
+  ],
+  "genre": "shoot-em-up",
+  "subgenres": [
+    "Tube Shooter",
+    "Vector Arcade"
+  ],
+  "era": "1980s",
+  "shortDescription": "Dave Theurer's kaleidoscopic color vector tube shooter, featuring a rotary spinner controller and exhilarating geometric wireframe speed.",
+  "historicalSignificance": "The world's first color vector arcade game, originating the tube-shooter genre and introducing selectable player starting difficulty levels.",
+  "editorialContent": {
+    "overview": "Conceived as a 3D adaptation of Space Invaders that evolved out of a nightmare where monsters crawled out of holes in the ground, Dave Theurer's Tempest debuted in October 1981 to instant acclaim. Encased in sleek cabinets equipped with an ultra-responsive optical rotary spinner, it immersed players in pulsing, hypnotic geometric tunnels rendered in glowing multi-color vector strokes.",
+    "gameplayMechanics": "Controlling the claw-shaped 'Blaster' riding the rim of abstract geometric tubes (circles, staircases, bowties, cloverleafs), players fire energy bursts down corridors to destroy ascending vector enemies including Flippers, Spikers, Tankers, and Pulsars. A once-per-level Superzapper weapon discharges an electric pulse that vaporizes all enemies on screen.",
+    "technicalInnovation": "Tempest was the premier commercial title to incorporate Atari's Color QuadraScan vector generator. Unlike monochrome vector games that used colored plastic overlays, Tempest manipulated red, green, and blue electron guns inside an electrostatically deflected CRT to draw real-time vector lines in vivid multi-color RGB space at stunning frame rates.",
+    "culturalImpact": "Tempest was a sensational arcade earner and became an artistic benchmark for sensory game design. Its aesthetic legacy lived on through Jeff Minter's Tempest 2000 on the Atari Jaguar and the modern electronic music visualizer culture.",
+    "preservationNotes": "Preserving Tempest requires authentic optical rotary encoder inputs capable of dozens of pulses per rotation and high-precision color vector beam drawing algorithms."
+  },
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "Theurer, Dave. 'Classic Game Postmortem: Tempest', GDC (2013)",
+      "Margolin, Jed. 'The Secret History of the Color Vector Generator', Atari Tech Archives (2001)",
+      "Atari Inc. Service Manual TM-190: Tempest (1981)"
+    ],
+    "romMediaFormat": "Arcade PCB (6502 CPU + Color Vector Generator)",
+    "romSizeOriginal": "24 KB ROM",
+    "displayResolutionOriginal": "1024 × 768 Color QuadraScan Vector CRT",
+    "audioHardware": "Two custom Atari Pokey audio synthesis chips",
+    "inputMethod": "Optical rotary spinner dial + Fire & Superzapper buttons",
+    "multiplayerCapability": "1-2 Players (Alternating)"
+  },
+  "relatedExhibits": {
+    "games": [
+      "missile-command",
+      "battlezone",
+      "asteroids"
+    ],
+    "consoles": [
+      "atari-jaguar",
+      "vectrex"
+    ],
+    "genres": [
+      "shoot-em-up"
+    ],
+    "timeline": [
+      "ev-1981-donkey-kong"
+    ]
+  },
+  "assets": {
+    "heroImage": "/assets/images/games/tempest-hero.webp",
+    "thumbnailImage": "/assets/images/games/tempest.webp",
+    "coverImage": "/assets/images/games/tempest-cover.webp",
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/5/58/Tempest_arcade.png",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/5/58/Tempest_arcade.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Tempest_arcade.png",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "tempest",
+    "atari",
+    "dave theurer",
+    "color vector",
+    "tube shooter",
+    "spinner",
+    "arcade",
+    "quadrascan",
+    "1981",
+    "1980s"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

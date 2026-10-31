@@ -1,0 +1,68 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-persona-3",
+  "slug": "persona-3",
+  "title": "Shin Megami Tensei: Persona 3",
+  "originalReleaseYear": 2006,
+  "exactReleaseDate": "July 13, 2006",
+  "originalLaunchPlatform": "PlayStation 2",
+  "originalLaunchRegion": "Japan",
+  "developer": "Atlus",
+  "publisher": "Atlus",
+  "platforms": [
+    "PlayStation 2"
+  ],
+  "genre": "rpg",
+  "subgenres": [
+    "social-sim",
+    "turn-based-rpg"
+  ],
+  "era": "2000s",
+  "shortDescription": "Groundbreaking hybrid merging high school social simulation with nocturnal Tartarus dungeon crawling.",
+  "historicalSignificance": "Revitalized the Persona franchise by inventing the Social Link system and modern calendar framework.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Shin_Megami_Tensei:_Persona_3",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Groundbreaking hybrid merging high school social simulation with nocturnal Tartarus dungeon crawling.",
+    "culturalImpact": "Revitalized the Persona franchise by inventing the Social Link system and modern calendar framework."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 2"
+    ],
+    "genres": [
+      "rpg"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b9/Persona_3_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/b/b9/Persona_3_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Shin_Megami_Tensei:_Persona_3",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Shin Megami Tensei: Persona 3",
+    "Atlus",
+    "Atlus",
+    "PlayStation 2",
+    "rpg",
+    "2006",
+    "2000s",
+    "PlayStation 2",
+    "social-sim",
+    "turn-based-rpg"
+  ],
+  "url": "/games/persona-3/",
+  "featured": false
+}

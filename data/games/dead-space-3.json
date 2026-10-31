@@ -1,0 +1,70 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-dead-space-3",
+  "slug": "dead-space-3",
+  "title": "Dead Space 3",
+  "originalReleaseYear": 2013,
+  "exactReleaseDate": "February 5, 2013",
+  "originalLaunchPlatform": "PlayStation 3",
+  "originalLaunchRegion": "North America",
+  "developer": "Visceral Games",
+  "publisher": "Electronic Arts",
+  "platforms": [
+    "PlayStation 3",
+    "Xbox 360",
+    "Microsoft Windows"
+  ],
+  "genre": "survival-horror",
+  "subgenres": [
+    "action"
+  ],
+  "era": "2010s",
+  "shortDescription": "Isaac Clarke and John Carver journey to frozen Tau Volantis featuring deep modular weapon crafting and drop-in coop.",
+  "historicalSignificance": "Expanded lore on the cosmic origin of the Necromorph Moons while introducing cooperative hallucination mechanics.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Dead_Space_3",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Isaac Clarke and John Carver journey to frozen Tau Volantis featuring deep modular weapon crafting and drop-in coop.",
+    "culturalImpact": "Expanded lore on the cosmic origin of the Necromorph Moons while introducing cooperative hallucination mechanics."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 3"
+    ],
+    "genres": [
+      "survival-horror"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/8/87/Dead_Space_3_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/8/87/Dead_Space_3_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Dead_Space_3",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Dead Space 3",
+    "Visceral Games",
+    "Electronic Arts",
+    "PlayStation 3",
+    "survival-horror",
+    "2013",
+    "2013",
+    "PlayStation 3",
+    "Xbox 360",
+    "Microsoft Windows",
+    "action"
+  ],
+  "url": "/games/dead-space-3/",
+  "featured": false
+}

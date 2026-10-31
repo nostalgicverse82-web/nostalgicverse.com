@@ -1,0 +1,68 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-crash-bandicoot-4-it-s-about-time",
+  "slug": "crash-bandicoot-4-it-s-about-time",
+  "title": "Crash Bandicoot 4: It's About Time",
+  "originalReleaseYear": 2020,
+  "exactReleaseDate": "October 2, 2020",
+  "originalLaunchPlatform": "PlayStation 4",
+  "originalLaunchRegion": "Worldwide",
+  "developer": "Toys for Bob",
+  "publisher": "Activision",
+  "platforms": [
+    "PlayStation 4",
+    "Xbox One"
+  ],
+  "genre": "platformer",
+  "subgenres": [
+    "3d-platformer"
+  ],
+  "era": "2020s",
+  "shortDescription": "Direct continuation of the original Naughty Dog trilogy introducing Quantum Masks that alter gravity, time, and matter.",
+  "historicalSignificance": "Celebrated as a triumphant modern revival of precise 90s obstacle-course platforming design.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Crash_Bandicoot_4:_It's_About_Time",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Direct continuation of the original Naughty Dog trilogy introducing Quantum Masks that alter gravity, time, and matter.",
+    "culturalImpact": "Celebrated as a triumphant modern revival of precise 90s obstacle-course platforming design."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 4"
+    ],
+    "genres": [
+      "platformer"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/4/4b/Crash_Bandicoot_4_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/4/4b/Crash_Bandicoot_4_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Crash_Bandicoot_4:_It's_About_Time",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Crash Bandicoot 4: It's About Time",
+    "Toys for Bob",
+    "Activision",
+    "PlayStation 4",
+    "platformer",
+    "2020",
+    "2020s",
+    "PlayStation 4",
+    "Xbox One",
+    "3d-platformer"
+  ],
+  "url": "/games/crash-bandicoot-4-it-s-about-time/",
+  "featured": false
+}

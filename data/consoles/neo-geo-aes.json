@@ -1,0 +1,41 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+  "id": "console-neo-geo-aes",
+  "slug": "neo-geo-aes",
+  "name": "Neo Geo AES",
+  "manufacturer": "SNK",
+  "generation": "Fourth Generation",
+  "generationNumber": 4,
+  "originalReleaseYear": 1990,
+  "exactReleaseDate": "April 26, 1990",
+  "mediaFormat": "Large-format multi-PCB ROM Cartridge (up to 330–716 Mbit)",
+  "significance": "The most powerful 2D gaming hardware of its generation, proving that home consoles could run 100% identical arcade ROM boards.",
+  "verifiedFactualData": {
+    "cpu": "Motorola 68000 @ 12 MHz + Zilog Z80A @ 4 MHz",
+    "gpuOrVideoChip": "Custom line-based sprite generator (up to 380 sprites)",
+    "ram": "64 KB main RAM, 68 KB video RAM"
+  },
+  "editorialContent": {
+    "overview": "An uncompromised 24-bit arcade cabinet inside a home chassis, delivering pure arcade supremacy to luxury collectors.",
+    "marketLegacy": "The most powerful 2D gaming hardware of its generation, proving that home consoles could run 100% identical arcade ROM boards.",
+    "controllerDesign": "Full-size arcade-grade joystick console"
+  },
+  "keyGames": [
+    "fatal-fury",
+    "metal-slug",
+    "the-king-of-fighters-98"
+  ],
+  "assets": {
+    "mainImage": "/assets/images/consoles/neo-geo-aes.png",
+    "heroImage": "/assets/images/consoles/neo-geo-aes-hero.png",
+    "hardwareImage": "/assets/images/consoles/neo-geo-aes-hardware.png"
+  },
+  "keywords": [
+    "neo geo",
+    "snk",
+    "aes",
+    "fourth generation",
+    "arcade",
+    "1990"
+  ]
+}

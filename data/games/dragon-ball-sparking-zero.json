@@ -1,0 +1,70 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-dragon-ball-sparking-zero",
+  "slug": "dragon-ball-sparking-zero",
+  "title": "Dragon Ball: Sparking! ZERO",
+  "originalReleaseYear": 2024,
+  "exactReleaseDate": "October 11, 2024",
+  "originalLaunchPlatform": "PlayStation 5",
+  "originalLaunchRegion": "Worldwide",
+  "developer": "Spike Chunsoft",
+  "publisher": "Bandai Namco",
+  "platforms": [
+    "PlayStation 5",
+    "Xbox Series",
+    "PC"
+  ],
+  "genre": "fighting",
+  "subgenres": [
+    "arena-brawler"
+  ],
+  "era": "2020s",
+  "shortDescription": "The long-awaited modern resurrection of the beloved Budokai Tenkaichi arena fighting series featuring over 180 fighters.",
+  "historicalSignificance": "Delivered earth-shattering environmental destruction, beam clashes, and anime-accurate combat velocity on PS5.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Dragon_Ball:_Sparking!_ZERO",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "The long-awaited modern resurrection of the beloved Budokai Tenkaichi arena fighting series featuring over 180 fighters.",
+    "culturalImpact": "Delivered earth-shattering environmental destruction, beam clashes, and anime-accurate combat velocity on PS5."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 5"
+    ],
+    "genres": [
+      "fighting"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Dragon_Ball_Sparking_Zero_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Dragon_Ball_Sparking_Zero_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Dragon_Ball:_Sparking!_ZERO",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Dragon Ball: Sparking! ZERO",
+    "Spike Chunsoft",
+    "Bandai Namco",
+    "PlayStation 5",
+    "fighting",
+    "2024",
+    "2024",
+    "PlayStation 5",
+    "Xbox Series",
+    "PC",
+    "arena-brawler"
+  ],
+  "url": "/games/dragon-ball-sparking-zero/",
+  "featured": false
+}

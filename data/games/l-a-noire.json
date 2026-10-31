@@ -1,0 +1,68 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-l-a-noire",
+  "slug": "l-a-noire",
+  "title": "L.A. Noire",
+  "originalReleaseYear": 2011,
+  "exactReleaseDate": "May 17, 2011",
+  "originalLaunchPlatform": "PlayStation 3",
+  "originalLaunchRegion": "North America",
+  "developer": "Team Bondi",
+  "publisher": "Rockstar Games",
+  "platforms": [
+    "PlayStation 3",
+    "Xbox 360"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "detective"
+  ],
+  "era": "2010s",
+  "shortDescription": "WWII veteran Cole Phelps climbs the LAPD detective desks in 1947 Los Angeles solving gruesome crimes.",
+  "historicalSignificance": "Pioneered MotionScan facial capture technology to read suspect micro-expressions during interrogations.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/L.A._Noire",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "WWII veteran Cole Phelps climbs the LAPD detective desks in 1947 Los Angeles solving gruesome crimes.",
+    "culturalImpact": "Pioneered MotionScan facial capture technology to read suspect micro-expressions during interrogations."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 3"
+    ],
+    "genres": [
+      "action-adventure"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/LA_Noire_Box_Art.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/LA_Noire_Box_Art.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/L.A._Noire",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "L.A. Noire",
+    "Team Bondi",
+    "Rockstar Games",
+    "PlayStation 3",
+    "action-adventure",
+    "2011",
+    "2010s",
+    "PlayStation 3",
+    "Xbox 360",
+    "detective"
+  ],
+  "url": "/games/l-a-noire/",
+  "featured": false
+}

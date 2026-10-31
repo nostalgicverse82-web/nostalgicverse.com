@@ -1,0 +1,68 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-black",
+  "slug": "black",
+  "title": "Black",
+  "originalReleaseYear": 2006,
+  "exactReleaseDate": "February 24, 2006",
+  "originalLaunchPlatform": "PlayStation 2",
+  "originalLaunchRegion": "North America",
+  "developer": "Criterion Games",
+  "publisher": "Electronic Arts",
+  "platforms": [
+    "PlayStation 2",
+    "Xbox"
+  ],
+  "genre": "first-person-shooter",
+  "subgenres": [
+    "tactical-shooter"
+  ],
+  "era": "2000s",
+  "shortDescription": "Criterion's explosive love letter to action cinema treating guns as rock stars with destructive physics.",
+  "historicalSignificance": "Delivered groundbreaking environmental micro-destruction and sound design at the end of the PS2 cycle.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Black",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Criterion's explosive love letter to action cinema treating guns as rock stars with destructive physics.",
+    "culturalImpact": "Delivered groundbreaking environmental micro-destruction and sound design at the end of the PS2 cycle."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 2"
+    ],
+    "genres": [
+      "first-person-shooter"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/d/dc/Black_cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/d/dc/Black_cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Black",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Black",
+    "Criterion Games",
+    "Electronic Arts",
+    "PlayStation 2",
+    "first-person-shooter",
+    "2006",
+    "2000s",
+    "PlayStation 2",
+    "Xbox",
+    "tactical-shooter"
+  ],
+  "url": "/games/black/",
+  "featured": false
+}

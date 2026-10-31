@@ -1,0 +1,12 @@
+{
+  "id": "2a6e2229-7783-4743-a0d5-07f6d3dd9f88",
+  "label": "Synchronize search index, remove broken database references, and update legacy script in game_detail template.",
+  "timestamp": "2026-09-30T17:54:35.972Z",
+  "files": [
+    {
+      "path": "templates/game_detail.html",
+      "existed": false
+    }
+  ],
+  "dbBackedUp": true
+}

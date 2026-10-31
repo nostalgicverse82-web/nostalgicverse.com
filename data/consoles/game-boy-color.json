@@ -1,0 +1,41 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+  "id": "console-game-boy-color",
+  "slug": "game-boy-color",
+  "name": "Nintendo Game Boy Color",
+  "manufacturer": "Nintendo",
+  "generation": "Fifth Generation",
+  "generationNumber": 5,
+  "originalReleaseYear": 1998,
+  "exactReleaseDate": "October 21, 1998",
+  "mediaFormat": "ROM Cartridge",
+  "significance": "Maintained the Game Boy's untouchable handheld dominance into the late 1990s with complete backward compatibility and vibrant 56-color palettes.",
+  "verifiedFactualData": {
+    "cpu": "Custom 8-bit Sharp Z80 workalike @ 4.19 / 8.38 MHz (dual speed)",
+    "gpuOrVideoChip": "Custom 56-color reflective LCD controller",
+    "ram": "32 KB main RAM, 16 KB VRAM"
+  },
+  "editorialContent": {
+    "overview": "Colorized evolution of the Game Boy line with backward compatibility, infrared communications, and double processor clock.",
+    "marketLegacy": "Maintained the Game Boy's untouchable handheld dominance into the late 1990s with complete backward compatibility and vibrant 56-color palettes.",
+    "controllerDesign": "Integrated D-pad, A, B, Select, Start buttons"
+  },
+  "keyGames": [
+    "pokemon-gold-silver",
+    "the-legend-of-zelda-oracle-of-seasons",
+    "super-mario-bros-deluxe"
+  ],
+  "assets": {
+    "mainImage": "/assets/images/consoles/game-boy-color.png",
+    "heroImage": "/assets/images/consoles/game-boy-color-hero.png",
+    "hardwareImage": "/assets/images/consoles/game-boy-color-hardware.png"
+  },
+  "keywords": [
+    "game boy color",
+    "gbc",
+    "nintendo",
+    "handheld",
+    "fifth generation",
+    "1998"
+  ]
+}

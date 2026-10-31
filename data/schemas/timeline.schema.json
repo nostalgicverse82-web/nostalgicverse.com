@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://nostalgicverse.com/schemas/timeline.schema.json",
+  "title": "NostalgicVerse Chronological Milestone Schema",
+  "description": "Standardized schema for historical milestones across gaming chronology.",
+  "type": "object",
+  "required": [
+    "id",
+    "year",
+    "title",
+    "category",
+    "significanceLevel",
+    "summary"
+  ],
+  "properties": {
+    "id": { "type": "string", "pattern": "^ev-[0-9]{4}-[a-z0-9-]+$" },
+    "year": { "type": "integer" },
+    "exactDate": { "type": "string" },
+    "title": { "type": "string" },
+    "category": {
+      "type": "string",
+      "enum": ["Game Release", "Hardware Launch", "Industry Milestone", "Arcade Era", "Company Event"]
+    },
+    "significanceLevel": {
+      "type": "string",
+      "enum": ["Monumental", "Major", "Notable"]
+    },
+    "summary": { "type": "string" },
+    "verifiedFactualData": {
+      "type": "object",
+      "properties": {
+        "primarySources": { "type": "array", "items": { "type": "string" } },
+        "location": { "type": "string" },
+        "historicalEntitiesInvolved": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "editorialContent": {
+      "type": "object",
+      "properties": {
+        "historicalContext": { "type": "string" },
+        "immediateAftermath": { "type": "string" },
+        "longTermSignificance": { "type": "string" }
+      }
+    },
+    "relatedExhibits": {
+      "type": "object",
+      "properties": {
+        "games": { "type": "array", "items": { "type": "string" } },
+        "consoles": { "type": "array", "items": { "type": "string" } },
+        "companies": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "assets": {
+      "type": "object",
+      "properties": {
+        "milestoneImage": { "type": "string" }
+      }
+    },
+    "keywords": { "type": "array", "items": { "type": "string" } }
+  }
+}
+

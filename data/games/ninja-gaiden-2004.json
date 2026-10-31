@@ -1,0 +1,85 @@
+{
+  "id": "game-ninja-gaiden-2004",
+  "slug": "ninja-gaiden-2004",
+  "title": "Ninja Gaiden",
+  "japaneseTitle": "ニンジャガイデン",
+  "url": "/games/ninja-gaiden-2004/",
+  "originalReleaseYear": 2004,
+  "exactReleaseDate": "2004-03-02",
+  "developer": "Team Ninja",
+  "publisher": "Tecmo",
+  "director": "Tomonobu Itagaki",
+  "designer": "Tomonobu Itagaki, Hiroaki Matsui",
+  "composer": "Wakana Hara",
+  "originalLaunchPlatform": "Xbox",
+  "platforms": [
+    "Xbox",
+    "PlayStation 3 (Sigma)",
+    "PlayStation 4",
+    "Nintendo Switch",
+    "PC"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "Character Action",
+    "Hack and Slash"
+  ],
+  "era": "2000s",
+  "shortDescription": "Tomonobu Itagaki and Team Ninja's punishing 3D action reboot on original Xbox, setting the platinum standard for precision melee combat.",
+  "historicalSignificance": "Reinvented classic 2D ninja action for the 3D era, renowned for its uncompromising difficulty, razor-sharp 60 FPS responsiveness, and sophisticated enemy AI that flanked and blocked with brutal discipline.",
+  "editorialContent": {
+    "overview": "Following the massacre of the Hayabusa ninja clan and the theft of the evil Dark Dragon Blade by Doku, master ninja Ryu Hayabusa infiltrates the Holy Vigoor Empire on a relentless blood-soaked campaign of vengeance.",
+    "gameplay": "Demanding martial arts combat combining wall-running acrobatic mobility, the iconic Flying Swallow decapitation strike, Izuna Drop aerial piledrivers, and weapon mastery across katanas, nunchaku, and the massive Dabilahro greatsword.",
+    "technicalInnovation": "A technical showpiece for Microsoft's original Xbox, running at a locked 60 FPS with full normal mapping, advanced lighting, and Dolby Digital 5.1 surround sound.",
+    "culturalImpact": "Elevated the character action genre alongside Devil May Cry, revered by hardcore action enthusiasts as one of the tightest and most rewarding combat systems ever designed.",
+    "preservationNotes": "Preserved on original Xbox DVD-ROM, enhanced to native 4K 60 FPS on Xbox Series X through backward compatibility."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "March 2, 2004",
+    "leadPlatform": "Xbox",
+    "genre": "action-adventure",
+    "sales": "Over 1.5 million units sold across original and Black editions",
+    "awards": [
+      "EGM Game of the Month",
+      "IGN Best Action Game of 2004"
+    ],
+    "technicalSpecs": {
+      "engine": "Team Ninja Proprietary Xbox Engine",
+      "resolution": "480p at locked 60fps (enhanced to 4K on modern Xbox)",
+      "soundChip": "Dolby Digital 5.1 hardware audio",
+      "mediaFormat": "DVD-ROM"
+    },
+    "relationships": {
+      "primaryConsole": "xbox",
+      "developerEntity": "Team Ninja",
+      "lineage": [
+        "Ninja Gaiden (NES)",
+        "Ninja Gaiden Black",
+        "Nioh"
+      ]
+    }
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/9/99/NinjaGaidenXbox.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/9/99/NinjaGaidenXbox.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:NinjaGaidenXbox.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "ninja gaiden",
+    "ryu hayabusa",
+    "tomonobu itagaki",
+    "team ninja",
+    "xbox",
+    "character action",
+    "izuna drop",
+    "flying swallow",
+    "2004"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

@@ -1,0 +1,85 @@
+{
+  "id": "game-crash-bandicoot",
+  "slug": "crash-bandicoot",
+  "title": "Crash Bandicoot",
+  "japaneseTitle": "クラッシュ・バンディクー",
+  "url": "/games/crash-bandicoot/",
+  "originalReleaseYear": 1996,
+  "exactReleaseDate": "1996-09-09",
+  "developer": "Naughty Dog",
+  "publisher": "Sony Computer Entertainment",
+  "director": "Jason Rubin",
+  "designer": "Andy Gavin, Jason Rubin",
+  "composer": "Mutato Muzika (Mark Mothersbaugh, Josh Mancell)",
+  "originalLaunchPlatform": "PlayStation",
+  "platforms": [
+    "PlayStation"
+  ],
+  "genre": "platformer",
+  "subgenres": [
+    "Linear 3D Platformer",
+    "Corridor Runner"
+  ],
+  "era": "1990s",
+  "shortDescription": "Naughty Dog's technical tour de force that gave PlayStation its hyperactive, spunky marsupial mascot.",
+  "historicalSignificance": "Pioneered vertex animation streaming hacks on the PlayStation that pushed triple the standard polygon budget onto the screen, establishing Naughty Dog as an elite technical developer and creating the unofficial mascot of the original PlayStation.",
+  "editorialContent": {
+    "overview": "Created by Andy Gavin and Jason Rubin at Naughty Dog under Universal Interactive Studios, Crash Bandicoot debuted in September 1996 as Sony's premier answer to Mario and Sonic. Set across the fictional Wumpa Islands, the game combined lush cartoon visuals with grueling precision obstacle platforming across into-the-screen corridors and heart-stopping chase sequences.",
+    "gameplay": "Players steer Crash through tight linear 3D environments, employing spinning attacks, jumps, and slide drops to shatter Wumpa fruit crates, dodge TNT barrels, and navigate treacherous pit traps while pursued by giant rolling boulders.",
+    "technicalInnovation": "Naughty Dog engineered custom LISP-based compiler tools (GOAL predecessor) to compress complex 3D skeletal animations and bypass PlayStation memory limitations, achieving unprecedented polygon counts and silky character facial animations.",
+    "culturalImpact": "Crash Bandicoot established PlayStation's family-friendly credentials in North America and achieved massive commercial success in Japan—an extraordinarily rare feat for a Western platformer. It launched Naughty Dog toward their industry-defining pedigree.",
+    "preservationNotes": "Preserved via original black-label PS1 discs and fully reconstructed via the 2017 N. Sane Trilogy remastering project."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "September 9, 1996",
+    "leadPlatform": "PlayStation",
+    "genre": "platformer",
+    "sales": "6.8 million copies worldwide on PlayStation",
+    "awards": [
+      "Gold Prize at Sony PlayStation Awards Japan",
+      "E3 1996 Showstopper"
+    ],
+    "technicalSpecs": {
+      "engine": "Naughty Dog proprietary custom engine with vertex animation streaming",
+      "resolution": "320x240 progressive (240p)",
+      "soundChip": "PlayStation SPU (16-bit 24-channel ADPCM)",
+      "mediaFormat": "CD-ROM"
+    },
+    "relationships": {
+      "primaryConsole": "playstation",
+      "developerEntity": "Naughty Dog",
+      "lineage": [
+        "Crash Bandicoot 2: Cortex Strikes Back",
+        "Crash Bandicoot: Warped",
+        "Jak and Daxter"
+      ]
+    }
+  },
+  "assets": {
+    "cover": "/assets/images/games/crash-bandicoot.webp",
+    "banner": "/assets/images/games/crash-bandicoot-banner.webp",
+    "screenshots": [
+      "/assets/images/games/crash-bandicoot-screen1.webp",
+      "/assets/images/games/crash-bandicoot-screen2.webp"
+    ],
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/4/44/Crash_Bandicoot_Cover.png",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/4/44/Crash_Bandicoot_Cover.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Crash_Bandicoot_Cover.png",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "review-required",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "crash bandicoot",
+    "naughty dog",
+    "playstation",
+    "wumpa",
+    "cortex",
+    "platformer",
+    "jason rubin"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

@@ -1,0 +1,89 @@
+{
+  "id": "game-world-of-warcraft",
+  "slug": "world-of-warcraft",
+  "title": "World of Warcraft",
+  "japaneseTitle": "ワールド オブ ウォークラフト",
+  "url": "/games/world-of-warcraft/",
+  "originalReleaseYear": 2004,
+  "exactReleaseDate": "2004-11-23",
+  "developer": "Blizzard Entertainment",
+  "publisher": "Blizzard Entertainment",
+  "director": "Rob Pardo, Jeff Kaplan, Tom Chilton",
+  "designer": "Jeff Kaplan, Tom Chilton, Allen Adham",
+  "composer": "Jason Hayes, Tracy W. Bush, Derek Duke, Glenn Stafford",
+  "originalLaunchPlatform": "Microsoft Windows / Mac OS",
+  "platforms": [
+    "Microsoft Windows",
+    "Mac OS"
+  ],
+  "genre": "mmorpg",
+  "subgenres": [
+    "Theme Park MMORPG",
+    "Fantasy Online RPG"
+  ],
+  "era": "2000s",
+  "shortDescription": "Blizzard's global cultural phenomenon that democratized MMORPGs and welcomed over 12 million subscribers to Azeroth.",
+  "historicalSignificance": "The defining MMORPG in human history, discarding the brutal death penalties of early online games in favor of quest-driven progression, accessible instanced raiding, and rich social guild infrastructure that peaked at over 12 million active monthly subscribers.",
+  "editorialContent": {
+    "overview": "Launched by Blizzard Entertainment on the tenth anniversary of the Warcraft franchise in November 2004, World of Warcraft (WoW) transformed massively multiplayer online role-playing games from a niche hobby into an unprecedented global mainstream cultural phenomenon. Setting foot in Azeroth, players joined either the Alliance or the Horde across the continents of Kalimdor and the Eastern Kingdoms.",
+    "gameplay": "Players progress from humble beginnings killing boars outside Goldshire or Durotar up to 40-player endgame raids in Molten Core, Blackwing Lair, and Ahn'Qiraj. Seamless quest-driven leveling replaced mindless mob grinding, complemented by deep trade skills (Blacksmithing, Alchemy, Engineering) and world PvP warfare across Southshore and Stranglethorn Vale.",
+    "technicalInnovation": "Blizzard engineered an extraordinary seamless zone-streaming engine without loading screens between territories, supported by an open Lua/XML user-interface scripting API that enabled an expansive ecosystem of community add-ons.",
+    "culturalImpact": "World of Warcraft dominated 2000s internet culture, featured in an Emmy-winning South Park episode ('Make Love, Not Warcraft'), birthing the Leroy Jenkins meme, and uniting millions of players across countries and languages into lifelong friendships and marriages.",
+    "preservationNotes": "Preserved in active continuity on Blizzard's servers for over two decades, alongside the authentic recreation project World of Warcraft: Classic launched in 2019."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "November 23, 2004",
+    "leadPlatform": "Microsoft Windows",
+    "genre": "mmorpg",
+    "sales": "Over 12 million active concurrent monthly subscribers at its peak; billions in lifetime gross revenue",
+    "awards": [
+      "Spike Video Game Award for Best Military/Online Game 2005",
+      "GDC Game of the Year nominee"
+    ],
+    "technicalSpecs": {
+      "engine": "Blizzard custom 3D seamless zone streaming engine",
+      "resolution": "Scalable from 800x600 to modern 4K ultrawide",
+      "soundChip": "DirectSound 3D with Jason Hayes orchestral fantasy score",
+      "mediaFormat": "4 CD-ROM Discs / DVD-ROM"
+    },
+    "relationships": {
+      "primaryConsole": "pc",
+      "developerEntity": "Blizzard Entertainment",
+      "lineage": [
+        "Warcraft: Orcs & Humans",
+        "Warcraft III: Reign of Chaos",
+        "EverQuest",
+        "Final Fantasy XIV"
+      ]
+    }
+  },
+  "assets": {
+    "cover": "/assets/images/games/world-of-warcraft.webp",
+    "banner": "/assets/images/games/world-of-warcraft-banner.webp",
+    "screenshots": [
+      "/assets/images/games/world-of-warcraft-screen1.webp",
+      "/assets/images/games/world-of-warcraft-screen2.webp"
+    ],
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/6/65/World_of_Warcraft.png",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/6/65/World_of_Warcraft.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:World_of_Warcraft.png",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "world of warcraft",
+    "wow",
+    "blizzard",
+    "azeroth",
+    "alliance",
+    "horde",
+    "mmorpg",
+    "jeff kaplan",
+    "molten core"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": true
+}

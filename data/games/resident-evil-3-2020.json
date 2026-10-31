@@ -1,0 +1,70 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-resident-evil-3-2020",
+  "slug": "resident-evil-3-2020",
+  "title": "Resident Evil 3 (2020)",
+  "originalReleaseYear": 2020,
+  "exactReleaseDate": "April 3, 2020",
+  "originalLaunchPlatform": "PlayStation 4",
+  "originalLaunchRegion": "Worldwide",
+  "developer": "Capcom",
+  "publisher": "Capcom",
+  "platforms": [
+    "PlayStation 4",
+    "Xbox One",
+    "Microsoft Windows"
+  ],
+  "genre": "survival-horror",
+  "subgenres": [
+    "action"
+  ],
+  "era": "2020s",
+  "shortDescription": "Jill Valentine escapes Raccoon City while pursued through burning streets by the relentless biological weapon Nemesis.",
+  "historicalSignificance": "Delivered intense action pacing and modern over-the-shoulder gunplay with Jill's iconic emergency dodge.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Resident_Evil_3_(2020)",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Jill Valentine escapes Raccoon City while pursued through burning streets by the relentless biological weapon Nemesis.",
+    "culturalImpact": "Delivered intense action pacing and modern over-the-shoulder gunplay with Jill's iconic emergency dodge."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 4"
+    ],
+    "genres": [
+      "survival-horror"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/8/87/Resident_Evil_3_2020_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/8/87/Resident_Evil_3_2020_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Resident_Evil_3_(2020)",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Resident Evil 3 (2020)",
+    "Capcom",
+    "Capcom",
+    "PlayStation 4",
+    "survival-horror",
+    "2020",
+    "2020s",
+    "PlayStation 4",
+    "Xbox One",
+    "Microsoft Windows",
+    "action"
+  ],
+  "url": "/games/resident-evil-3-2020/",
+  "featured": false
+}

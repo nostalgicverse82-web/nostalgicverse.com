@@ -1,0 +1,26 @@
+# Phase 10 Before Cleanup
+
+- users: 1
+- sessions: 6
+- friend_requests: 0
+- friendships: TABLE NOT FOUND
+- conversations: 0
+- conversation_members: 0
+- messages: 0
+- notifications: 0
+- support_tickets: 0
+- ticket_messages: 0
+- submissions: 0
+- comments: 0
+- reviews: 0
+- reactions: 0
+- favorites: 0
+- collections: 0
+- reports: 0
+- audit_logs: 0
+- games: 530
+- consoles: 65
+- ideas: 0
+- compatibility_records: 0
+- owner_users: 1
+- normal_users: 0

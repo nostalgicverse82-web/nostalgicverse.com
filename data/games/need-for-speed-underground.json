@@ -1,0 +1,72 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-need-for-speed-underground",
+  "slug": "need-for-speed-underground",
+  "title": "Need for Speed: Underground",
+  "originalReleaseYear": 2003,
+  "exactReleaseDate": "November 17, 2003",
+  "originalLaunchPlatform": "PlayStation 2",
+  "originalLaunchRegion": "North America",
+  "developer": "EA Black Box",
+  "publisher": "Electronic Arts",
+  "platforms": [
+    "PlayStation 2",
+    "Xbox",
+    "GameCube",
+    "Microsoft Windows"
+  ],
+  "genre": "racing",
+  "subgenres": [
+    "arcade-racing"
+  ],
+  "era": "2000s",
+  "shortDescription": "Rebooted the franchise around import tuner culture, drag racing, drifting, and neon-lit night city circuits.",
+  "historicalSignificance": "Transformed racing culture in video games, selling millions and dominating pop culture.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Need_for_Speed:_Underground",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Rebooted the franchise around import tuner culture, drag racing, drifting, and neon-lit night city circuits.",
+    "culturalImpact": "Transformed racing culture in video games, selling millions and dominating pop culture."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 2"
+    ],
+    "genres": [
+      "racing"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/0/05/Need_for_Speed_Underground_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/0/05/Need_for_Speed_Underground_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Need_for_Speed:_Underground",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Need for Speed: Underground",
+    "EA Black Box",
+    "Electronic Arts",
+    "PlayStation 2",
+    "racing",
+    "2003",
+    "2000s",
+    "PlayStation 2",
+    "Xbox",
+    "GameCube",
+    "Microsoft Windows",
+    "arcade-racing"
+  ],
+  "url": "/games/need-for-speed-underground/",
+  "featured": false
+}

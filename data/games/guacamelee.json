@@ -1,0 +1,68 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-guacamelee",
+  "slug": "guacamelee",
+  "title": "Guacamelee!",
+  "originalReleaseYear": 2013,
+  "exactReleaseDate": "April 9, 2013",
+  "originalLaunchPlatform": "PlayStation 3",
+  "originalLaunchRegion": "North America",
+  "developer": "DrinkBox Studios",
+  "publisher": "DrinkBox Studios",
+  "platforms": [
+    "PlayStation 3",
+    "PS Vita"
+  ],
+  "genre": "metroidvania",
+  "subgenres": [
+    "platformer"
+  ],
+  "era": "2010s",
+  "shortDescription": "Agave farmer Juan Aguacate dons a legendary luchador mask to traverse the Living and Dead worlds.",
+  "historicalSignificance": "Flawlessly blended Mexican folklore with pinpoint Metroidvania platforming and fighting game combo mechanics.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Guacamelee!",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Agave farmer Juan Aguacate dons a legendary luchador mask to traverse the Living and Dead worlds.",
+    "culturalImpact": "Flawlessly blended Mexican folklore with pinpoint Metroidvania platforming and fighting game combo mechanics."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 3"
+    ],
+    "genres": [
+      "metroidvania"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/4/4e/Guacamelee_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/4/4e/Guacamelee_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Guacamelee!",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Guacamelee!",
+    "DrinkBox Studios",
+    "DrinkBox Studios",
+    "PlayStation 3",
+    "metroidvania",
+    "2013",
+    "2013",
+    "PlayStation 3",
+    "PS Vita",
+    "platformer"
+  ],
+  "url": "/games/guacamelee/",
+  "featured": false
+}

@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-captain-toad-treasure-tracker",
+  "slug": "captain-toad-treasure-tracker",
+  "title": "Captain Toad: Treasure Tracker",
+  "originalReleaseYear": 2014,
+  "exactReleaseDate": "November 13, 2014",
+  "originalLaunchPlatform": "Wii U",
+  "originalLaunchRegion": "Japan",
+  "developer": "Nintendo EAD Tokyo",
+  "publisher": "Nintendo",
+  "platforms": [
+    "Wii U"
+  ],
+  "genre": "puzzle",
+  "subgenres": [
+    "platformer"
+  ],
+  "era": "2010s",
+  "shortDescription": "Isometric diorama puzzle box adventures starring Captain Toad, who cannot jump due to his heavy backpack.",
+  "historicalSignificance": "Celebrated for inventive miniature spatial reasoning and charming Nintendo character warmth.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Captain_Toad:_Treasure_Tracker",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Isometric diorama puzzle box adventures starring Captain Toad, who cannot jump due to his heavy backpack.",
+    "culturalImpact": "Celebrated for inventive miniature spatial reasoning and charming Nintendo character warmth."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "Wii U"
+    ],
+    "genres": [
+      "puzzle"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Captain_Toad_Treasure_Tracker_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Captain_Toad_Treasure_Tracker_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Captain_Toad:_Treasure_Tracker",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Captain Toad: Treasure Tracker",
+    "Nintendo EAD Tokyo",
+    "Nintendo",
+    "Wii U",
+    "puzzle",
+    "2014",
+    "2014",
+    "Wii U",
+    "platformer"
+  ],
+  "url": "/games/captain-toad-treasure-tracker/",
+  "featured": false
+}

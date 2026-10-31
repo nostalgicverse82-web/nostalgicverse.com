@@ -1,0 +1,94 @@
+{
+  "id": "game-mortal-kombat",
+  "slug": "mortal-kombat",
+  "title": "Mortal Kombat",
+  "url": "/games/mortal-kombat/",
+  "originalReleaseYear": 1992,
+  "exactReleaseDate": "1992-10-08",
+  "developer": "Midway Games",
+  "publisher": "Midway Games",
+  "designer": "Ed Boon & John Tobias",
+  "composer": "Dan Forden",
+  "originalLaunchPlatform": "Arcade",
+  "platforms": [
+    "Arcade",
+    "Sega Genesis",
+    "SNES",
+    "Game Boy",
+    "Game Gear",
+    "PC"
+  ],
+  "genre": "fighting",
+  "subgenres": [
+    "2D Versus Fighting",
+    "Martial Arts"
+  ],
+  "era": "1990s",
+  "shortDescription": "Ed Boon and John Tobias' digitized martial arts arcade phenomenon featuring Fatalities, secret ninja Reptile, and blood that sparked congressional video game hearings.",
+  "historicalSignificance": "Pioneered digitized actor sprites and gruesome 'Fatality' finishing moves, becoming a massive cultural flashpoint that directly triggered the 1993 US Congressional hearings on video game violence and the creation of the ESRB rating system.",
+  "editorialContent": {
+    "overview": "Conceived and developed by a four-man team at Chicago's Midway Games led by programmer Ed Boon and artist John Tobias, Mortal Kombat entered arcades in October 1992. Designed to challenge Capcom's Street Fighter II, Mortal Kombat combined Asian martial arts cinema (drawing heavily from Enter the Dragon and Big Trouble in Little China) with intense visceral gore, creating an overnight arcade sensation.",
+    "gameplayMechanics": "Featuring a roster of seven distinct combatants (Liu Kang, Sub-Zero, Scorpion, Raiden, Sonya Blade, Johnny Cage, and Kano), combat utilizes a five-button layout: High Punch, Low Punch, High Kick, Low Kick, and a dedicated Block button. At the conclusion of the match, the announcer commands 'FINISH HIM!', giving the victor a brief window to execute secret joystick inputs for a character-specific 'Fatality' that graphically decapitates, incinerates, or extracts the opponent's spine.",
+    "technicalInnovation": "Tobias and Boon filmed live martial artists (including Ho-Sung Pak, Richard Divizio, and Daniel Pesina) against a solid background using a broadcast-quality video camera, digitizing the actors frame-by-frame and compressing the sprites into Midway's Y-Unit arcade hardware. The game also featured video gaming's first hidden unlockable fighting game character, the green ninja Reptile.",
+    "culturalImpact": "Mortal Kombat was an earth-shaking cultural phenomenon. Its graphic violence sparked intense national outrage, leading directly to the December 1993 United States Congressional hearings led by Senators Joe Lieberman and Herb Kohl, which pressured the industry to establish the Entertainment Software Rating Board (ESRB).",
+    "preservationNotes": "Preserved across original Midway Y-Unit and T-Unit arcade boards. Accurate 60Hz raster display and authentic Dan Forden FM/DAC audio reproduction ('Toasty!') are essential."
+  },
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "Boon, Ed & Tobias, John. 'Mortal Kombat: The Inside Story', GDC Postmortem (2012)",
+      "Lieberman, Joseph. 'Congressional Record: Video Game Violence Hearings', US Senate (1993)",
+      "Midway Manufacturing Co. Operator's Manual: Mortal Kombat (1992)"
+    ],
+    "romMediaFormat": "Arcade PCB (Midway Y-Unit / TMS34010 CPU)",
+    "romSizeOriginal": "16 MB (Digitized Sprite ROMs)",
+    "displayResolutionOriginal": "400 × 254 (Horizontal CRT)",
+    "audioHardware": "Williams BSMT2000 audio ASIC + Yamaha YM2151",
+    "inputMethod": "8-way joystick + 5 buttons (HP, LP, HK, LK, Block)",
+    "multiplayerCapability": "2 Players (Simultaneous Head-to-Head)"
+  },
+  "relatedExhibits": {
+    "games": [
+      "street-fighter-ii",
+      "doom"
+    ],
+    "consoles": [
+      "sega-genesis",
+      "super-nintendo-entertainment-system"
+    ],
+    "genres": [
+      "fighting"
+    ],
+    "timeline": [
+      "ev-1993-doom-shareware"
+    ]
+  },
+  "assets": {
+    "heroImage": "/assets/images/games/mortal-kombat-hero.webp",
+    "thumbnailImage": "/assets/images/games/mortal-kombat.webp",
+    "coverImage": "/assets/images/games/mortal-kombat-cover.webp",
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/3/33/Mortal_Kombat_cover.JPG",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/3/33/Mortal_Kombat_cover.JPG",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Mortal_Kombat_cover.JPG",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "mortal kombat",
+    "ed boon",
+    "john tobias",
+    "midway",
+    "fatality",
+    "scorpion",
+    "sub-zero",
+    "finish him",
+    "digitized actors",
+    "esrb",
+    "1992",
+    "1990s"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

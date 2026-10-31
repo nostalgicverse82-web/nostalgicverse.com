@@ -1,0 +1,70 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-tony-hawk-s-underground",
+  "slug": "tony-hawk-s-underground",
+  "title": "Tony Hawk's Underground",
+  "originalReleaseYear": 2003,
+  "exactReleaseDate": "October 27, 2003",
+  "originalLaunchPlatform": "PlayStation 2",
+  "originalLaunchRegion": "North America",
+  "developer": "Neversoft",
+  "publisher": "Activision",
+  "platforms": [
+    "PlayStation 2",
+    "Xbox",
+    "GameCube"
+  ],
+  "genre": "sports",
+  "subgenres": [
+    "skateboarding"
+  ],
+  "era": "2000s",
+  "shortDescription": "Narrative-driven skateboarding journey allowing players to dismount skateboards on foot and rise to pro ranks.",
+  "historicalSignificance": "Delivered a deeply personal street-level story mode with extensive level and trick creation suites.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Tony_Hawk's_Underground",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Narrative-driven skateboarding journey allowing players to dismount skateboards on foot and rise to pro ranks.",
+    "culturalImpact": "Delivered a deeply personal street-level story mode with extensive level and trick creation suites."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 2"
+    ],
+    "genres": [
+      "sports"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/e/e9/Thugcover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/e/e9/Thugcover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Tony_Hawk's_Underground",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Tony Hawk's Underground",
+    "Neversoft",
+    "Activision",
+    "PlayStation 2",
+    "sports",
+    "2003",
+    "2000s",
+    "PlayStation 2",
+    "Xbox",
+    "GameCube",
+    "skateboarding"
+  ],
+  "url": "/games/tony-hawk-s-underground/",
+  "featured": false
+}

@@ -1,0 +1,70 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-what-remains-of-edith-finch",
+  "slug": "what-remains-of-edith-finch",
+  "title": "What Remains of Edith Finch",
+  "originalReleaseYear": 2017,
+  "exactReleaseDate": "April 25, 2017",
+  "originalLaunchPlatform": "PlayStation 4",
+  "originalLaunchRegion": "Worldwide",
+  "developer": "Giant Sparrow",
+  "publisher": "Annapurna Interactive",
+  "platforms": [
+    "PlayStation 4",
+    "Xbox One",
+    "Microsoft Windows"
+  ],
+  "genre": "adventure",
+  "subgenres": [
+    "narrative"
+  ],
+  "era": "2010s",
+  "shortDescription": "Edith Finch uncovers the tragic final moments of her cursed family through deeply inventive interactive vignettes.",
+  "historicalSignificance": "Winner of the BAFTA Best Game award, heralded as a landmark high-water mark for video game storytelling.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/What_Remains_of_Edith_Finch",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Edith Finch uncovers the tragic final moments of her cursed family through deeply inventive interactive vignettes.",
+    "culturalImpact": "Winner of the BAFTA Best Game award, heralded as a landmark high-water mark for video game storytelling."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 4"
+    ],
+    "genres": [
+      "adventure"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/What_Remains_of_Edith_Finch_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/What_Remains_of_Edith_Finch_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/What_Remains_of_Edith_Finch",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "What Remains of Edith Finch",
+    "Giant Sparrow",
+    "Annapurna Interactive",
+    "PlayStation 4",
+    "adventure",
+    "2017",
+    "2010s",
+    "PlayStation 4",
+    "Xbox One",
+    "Microsoft Windows",
+    "narrative"
+  ],
+  "url": "/games/what-remains-of-edith-finch/",
+  "featured": false
+}

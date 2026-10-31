@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-super-mario-sunshine",
+  "slug": "super-mario-sunshine",
+  "title": "Super Mario Sunshine",
+  "originalReleaseYear": 2002,
+  "exactReleaseDate": "July 19, 2002",
+  "originalLaunchPlatform": "Nintendo GameCube",
+  "originalLaunchRegion": "Japan",
+  "developer": "Nintendo EAD",
+  "publisher": "Nintendo",
+  "platforms": [
+    "GameCube"
+  ],
+  "genre": "platformer",
+  "subgenres": [
+    "3d-platformer"
+  ],
+  "era": "2000s",
+  "shortDescription": "Mario cleans toxic sludge from Isle Delfino utilizing the water-propulsion mechanics of F.L.U.D.D.",
+  "historicalSignificance": "Celebrated for innovative water physics traversal and tropical sandbox level architecture on GameCube.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Super_Mario_Sunshine",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Mario cleans toxic sludge from Isle Delfino utilizing the water-propulsion mechanics of F.L.U.D.D.",
+    "culturalImpact": "Celebrated for innovative water physics traversal and tropical sandbox level architecture on GameCube."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "Nintendo GameCube"
+    ],
+    "genres": [
+      "platformer"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/7/78/Super_mario_sunshine.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/7/78/Super_mario_sunshine.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Super_Mario_Sunshine",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Super Mario Sunshine",
+    "Nintendo EAD",
+    "Nintendo",
+    "Nintendo GameCube",
+    "platformer",
+    "2002",
+    "2000s",
+    "GameCube",
+    "3d-platformer"
+  ],
+  "url": "/games/super-mario-sunshine/",
+  "featured": false
+}

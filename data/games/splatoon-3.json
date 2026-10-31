@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-splatoon-3",
+  "slug": "splatoon-3",
+  "title": "Splatoon 3",
+  "originalReleaseYear": 2022,
+  "exactReleaseDate": "September 9, 2022",
+  "originalLaunchPlatform": "Nintendo Switch",
+  "originalLaunchRegion": "Worldwide",
+  "developer": "Nintendo EPD",
+  "publisher": "Nintendo",
+  "platforms": [
+    "Nintendo Switch"
+  ],
+  "genre": "third-person-shooter",
+  "subgenres": [
+    "multiplayer"
+  ],
+  "era": "2020s",
+  "shortDescription": "Battle across the desert Splatlands with Squid Roll agility, Tri-Stringer bows, and the Return of the Mammalians.",
+  "historicalSignificance": "Broke all-time Japanese sales records on launch, representing Nintendo's multiplayer shooting craft at its peak.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Splatoon_3",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Multiplayer"
+  },
+  "editorialContent": {
+    "overview": "Battle across the desert Splatlands with Squid Roll agility, Tri-Stringer bows, and the Return of the Mammalians.",
+    "culturalImpact": "Broke all-time Japanese sales records on launch, representing Nintendo's multiplayer shooting craft at its peak."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "Nintendo Switch"
+    ],
+    "genres": [
+      "third-person-shooter"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Splatoon_3_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Splatoon_3_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Splatoon_3",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Splatoon 3",
+    "Nintendo EPD",
+    "Nintendo",
+    "Nintendo Switch",
+    "third-person-shooter",
+    "2022",
+    "2020s",
+    "Nintendo Switch",
+    "multiplayer"
+  ],
+  "url": "/games/splatoon-3/",
+  "featured": false
+}

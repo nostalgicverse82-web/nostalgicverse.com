@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-ratchet-and-clank-up-your-arsenal",
+  "slug": "ratchet-and-clank-up-your-arsenal",
+  "title": "Ratchet & Clank: Up Your Arsenal",
+  "originalReleaseYear": 2004,
+  "exactReleaseDate": "November 3, 2004",
+  "originalLaunchPlatform": "PlayStation 2",
+  "originalLaunchRegion": "North America",
+  "developer": "Insomniac Games",
+  "publisher": "Sony Computer Entertainment",
+  "platforms": [
+    "PlayStation 2"
+  ],
+  "genre": "platformer",
+  "subgenres": [
+    "action-adventure"
+  ],
+  "era": "2000s",
+  "shortDescription": "Third installment pitting the duo against Dr. Nefarious, adding online multiplayer and titanium bolt upgrades.",
+  "historicalSignificance": "Universally acclaimed as one of the finest action platformers ever made on PlayStation 2.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Ratchet_&_Clank:_Up_Your_Arsenal",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Third installment pitting the duo against Dr. Nefarious, adding online multiplayer and titanium bolt upgrades.",
+    "culturalImpact": "Universally acclaimed as one of the finest action platformers ever made on PlayStation 2."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 2"
+    ],
+    "genres": [
+      "platformer"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b3/Ratchet_and_Clank_Up_Your_Arsenal.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/b/b3/Ratchet_and_Clank_Up_Your_Arsenal.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ratchet_&_Clank:_Up_Your_Arsenal",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Ratchet & Clank: Up Your Arsenal",
+    "Insomniac Games",
+    "Sony Computer Entertainment",
+    "PlayStation 2",
+    "platformer",
+    "2004",
+    "2000s",
+    "PlayStation 2",
+    "action-adventure"
+  ],
+  "url": "/games/ratchet-and-clank-up-your-arsenal/",
+  "featured": false
+}

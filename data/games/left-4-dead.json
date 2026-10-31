@@ -1,0 +1,87 @@
+{
+  "id": "game-left-4-dead",
+  "slug": "left-4-dead",
+  "title": "Left 4 Dead",
+  "japaneseTitle": "レフト 4 デッド",
+  "url": "/games/left-4-dead/",
+  "originalReleaseYear": 2008,
+  "exactReleaseDate": "2008-11-18",
+  "developer": "Valve South (Turtle Rock Studios) / Valve",
+  "publisher": "Valve",
+  "director": "Mike Booth",
+  "designer": "Mike Booth, Chet Faliszek",
+  "composer": "Mike Morasky",
+  "originalLaunchPlatform": "Microsoft Windows / Xbox 360",
+  "platforms": [
+    "Microsoft Windows",
+    "Xbox 360",
+    "macOS"
+  ],
+  "genre": "shooter",
+  "subgenres": [
+    "Cooperative Shooter",
+    "Zombie Survival"
+  ],
+  "era": "2000s",
+  "shortDescription": "Valve's cooperative zombie survival masterpiece, pioneering dynamic procedural pacing via the revolutionary 'AI Director'.",
+  "historicalSignificance": "Redefined cooperative multiplayer by introducing the 'AI Director'—an artificial intelligence algorithm that dynamically alters enemy spawns, item availability, and music intensity based on player stress levels, selling over 12 million copies.",
+  "editorialContent": {
+    "overview": "Set in Pennsylvania in the aftermath of the 'Green Flu' rabies-like pandemic, four immune survivors—Bill, Zoey, Francis, and Louis—must fight through hordes of feral infected across iconic episodic movie campaigns like No Mercy and Blood Harvest.",
+    "gameplay": "Four-player cooperative survival emphasizing teamwork: players heal teammates, revive downed comrades, share pills, and coordinate against lethal Special Infected (Smoker, Boomer, Hunter, Tank, and Witch).",
+    "technicalInnovation": "Pioneered Valve's AI Director, procedurally orchestrating pacing, lighting, and hordes so no two playthroughs are ever identical, accompanied by dynamic reactive audio cues.",
+    "culturalImpact": "Spawned the modern 4-player cooperative PvE genre, directly inspiring Vermintide, Deep Rock Galactic, Back 4 Blood, and Helldivers.",
+    "preservationNotes": "Preserved on PC through Steam and on Xbox 360 DVD-ROM."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "November 18, 2008",
+    "leadPlatform": "PC",
+    "genre": "shooter",
+    "sales": "Over 12 million copies sold across the franchise",
+    "awards": [
+      "BAFTA Games Award for Multiplayer 2009",
+      "AIAS Computer Game of the Year"
+    ],
+    "technicalSpecs": {
+      "engine": "Source Engine",
+      "resolution": "Scalable PC resolution / 720p at 30fps (Xbox 360)",
+      "soundChip": "Dynamic adaptive Source audio with Mike Morasky score",
+      "mediaFormat": "DVD-ROM / Steam Digital"
+    },
+    "relationships": {
+      "primaryConsole": "pc",
+      "developerEntity": "Valve",
+      "lineage": [
+        "Counter-Strike",
+        "Left 4 Dead 2",
+        "Portal"
+      ]
+    }
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/5/5b/Left4Dead_Windows_motr.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/5/5b/Left4Dead_Windows_motr.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Left4Dead_Windows_motr.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "left 4 dead",
+    "valve",
+    "turtle rock",
+    "ai director",
+    "zombie",
+    "coop",
+    "bill",
+    "zoey",
+    "tank",
+    "witch",
+    "pc",
+    "xbox 360",
+    "2008"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

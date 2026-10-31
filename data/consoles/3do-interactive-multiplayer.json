@@ -1,0 +1,41 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+  "id": "console-3do",
+  "slug": "3do-interactive-multiplayer",
+  "name": "3DO Interactive Multiplayer",
+  "manufacturer": "3DO Company",
+  "generation": "Fifth Generation",
+  "generationNumber": 5,
+  "originalReleaseYear": 1993,
+  "exactReleaseDate": "October 4, 1993",
+  "mediaFormat": "Double-speed CD-ROM",
+  "significance": "Pioneered a consumer-electronics open licensing model (avoiding console royalties), but suffered commercial failure due to its prohibitive $700 price point.",
+  "verifiedFactualData": {
+    "cpu": "ARM60 32-bit RISC @ 12.5 MHz",
+    "gpuOrVideoChip": "Dual custom video animation coprocessors",
+    "ram": "2 MB DRAM, 1 MB VRAM"
+  },
+  "editorialContent": {
+    "overview": "Trip Hawkins' ambitious hardware licensing model seeking to create a standardized consumer multimedia audio-visual platform.",
+    "marketLegacy": "Pioneered a consumer-electronics open licensing model (avoiding console royalties), but suffered commercial failure due to its prohibitive $700 price point.",
+    "controllerDesign": "Daisy-chained 3-button control pad with audio jack"
+  },
+  "keyGames": [
+    "road-rash",
+    "gex",
+    "the-need-for-speed"
+  ],
+  "assets": {
+    "mainImage": "/assets/images/consoles/3do-interactive-multiplayer.png",
+    "heroImage": "/assets/images/consoles/3do-interactive-multiplayer-hero.png",
+    "hardwareImage": "/assets/images/consoles/3do-interactive-multiplayer-hardware.png"
+  },
+  "keywords": [
+    "3do",
+    "trip hawkins",
+    "fifth generation",
+    "cd-rom",
+    "panasonic",
+    "1993"
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-super-paper-mario",
+  "slug": "super-paper-mario",
+  "title": "Super Paper Mario",
+  "originalReleaseYear": 2007,
+  "exactReleaseDate": "April 9, 2007",
+  "originalLaunchPlatform": "Wii",
+  "originalLaunchRegion": "North America",
+  "developer": "Intelligent Systems",
+  "publisher": "Nintendo",
+  "platforms": [
+    "Wii"
+  ],
+  "genre": "platformer",
+  "subgenres": [
+    "rpg"
+  ],
+  "era": "2000s",
+  "shortDescription": "Mario flips between 2D and 3D perspectives to stop Count Bleck from consuming all dimensions in the Void.",
+  "historicalSignificance": "Acclaimed for ingenious perspective shifting puzzles and one of the deepest, most touching stories in Mario history.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Super_Paper_Mario",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Mario flips between 2D and 3D perspectives to stop Count Bleck from consuming all dimensions in the Void.",
+    "culturalImpact": "Acclaimed for ingenious perspective shifting puzzles and one of the deepest, most touching stories in Mario history."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "Wii"
+    ],
+    "genres": [
+      "platformer"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Super_Paper_Mario_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Super_Paper_Mario_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Super_Paper_Mario",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Super Paper Mario",
+    "Intelligent Systems",
+    "Nintendo",
+    "Wii",
+    "platformer",
+    "2007",
+    "2000s",
+    "Wii",
+    "rpg"
+  ],
+  "url": "/games/super-paper-mario/",
+  "featured": false
+}

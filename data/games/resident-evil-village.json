@@ -1,0 +1,72 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-resident-evil-village",
+  "slug": "resident-evil-village",
+  "title": "Resident Evil Village",
+  "originalReleaseYear": 2021,
+  "exactReleaseDate": "May 7, 2021",
+  "originalLaunchPlatform": "PlayStation 4",
+  "originalLaunchRegion": "Worldwide",
+  "developer": "Capcom",
+  "publisher": "Capcom",
+  "platforms": [
+    "PlayStation 4",
+    "PlayStation 5",
+    "Xbox One",
+    "PC"
+  ],
+  "genre": "survival-horror",
+  "subgenres": [
+    "action"
+  ],
+  "era": "2020s",
+  "shortDescription": "Ethan Winters fights four mutant lords in a snowy European village, including Lady Dimitrescu and Karl Heisenberg.",
+  "historicalSignificance": "Expertly harmonized the gothic action energy of Resident Evil 4 with intense modern first-person survival systems.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Resident_Evil_Village",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Ethan Winters fights four mutant lords in a snowy European village, including Lady Dimitrescu and Karl Heisenberg.",
+    "culturalImpact": "Expertly harmonized the gothic action energy of Resident Evil 4 with intense modern first-person survival systems."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 4"
+    ],
+    "genres": [
+      "survival-horror"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/8/87/Resident_Evil_Village_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/8/87/Resident_Evil_Village_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Resident_Evil_Village",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Resident Evil Village",
+    "Capcom",
+    "Capcom",
+    "PlayStation 4",
+    "survival-horror",
+    "2021",
+    "2020s",
+    "PlayStation 4",
+    "PlayStation 5",
+    "Xbox One",
+    "PC",
+    "action"
+  ],
+  "url": "/games/resident-evil-village/",
+  "featured": false
+}

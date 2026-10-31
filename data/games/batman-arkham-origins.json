@@ -1,0 +1,70 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-batman-arkham-origins",
+  "slug": "batman-arkham-origins",
+  "title": "Batman: Arkham Origins",
+  "originalReleaseYear": 2013,
+  "exactReleaseDate": "October 25, 2013",
+  "originalLaunchPlatform": "PlayStation 3",
+  "originalLaunchRegion": "North America",
+  "developer": "WB Games Montreal",
+  "publisher": "Warner Bros. Interactive",
+  "platforms": [
+    "PlayStation 3",
+    "Xbox 360",
+    "Microsoft Windows"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "open-world"
+  ],
+  "era": "2010s",
+  "shortDescription": "Prequel depicting a raw, unrefined Batman hunted by eight deadly assassins on Christmas Eve in Gotham.",
+  "historicalSignificance": "Featured celebrated boss encounters like Deathstroke and Firefly, alongside Crime Scene reconstruction detective tech.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Batman:_Arkham_Origins",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Prequel depicting a raw, unrefined Batman hunted by eight deadly assassins on Christmas Eve in Gotham.",
+    "culturalImpact": "Featured celebrated boss encounters like Deathstroke and Firefly, alongside Crime Scene reconstruction detective tech."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 3"
+    ],
+    "genres": [
+      "action-adventure"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/f/f6/Batman_Arkham_Origins_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/f/f6/Batman_Arkham_Origins_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Batman:_Arkham_Origins",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Batman: Arkham Origins",
+    "WB Games Montreal",
+    "Warner Bros. Interactive",
+    "PlayStation 3",
+    "action-adventure",
+    "2013",
+    "2013",
+    "PlayStation 3",
+    "Xbox 360",
+    "Microsoft Windows",
+    "open-world"
+  ],
+  "url": "/games/batman-arkham-origins/",
+  "featured": false
+}

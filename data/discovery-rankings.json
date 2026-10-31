@@ -1,0 +1,346 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "metadata": {
+    "generator": "tools/content/rank_discovery.py",
+    "version": "1.0.0",
+    "generatedAt": "2026-09-11T08:12:57.951737+00:00",
+    "algorithm": {
+      "name": "NostalgicVerse Multi-Factor Transparent Discovery Ranker",
+      "scoringWeights": {
+        "games": {
+          "historicalSignificance": 35,
+          "completeness": 30,
+          "relationshipRichness": 20,
+          "exhibitDepth": 15
+        },
+        "consoles": {
+          "historicalSignificance": 40,
+          "technicalCompleteness": 30,
+          "relationshipRichness": 20,
+          "assetPresence": 10
+        }
+      },
+      "diversityRules": [
+        "Max 2 items per era in featured collections",
+        "Max 2 items per genre in featured collections",
+        "Max 1 item per manufacturer/generation on hardware pedestal",
+        "Deterministic calendar/day-of-year rotation for exploration"
+      ]
+    },
+    "recordsEvaluated": {
+      "games": 528,
+      "consoles": 65,
+      "timelineEvents": 91,
+      "genres": 32,
+      "playstation4Games": 81,
+      "playstation5Games": 68,
+      "combinedPs4Ps5Games": 120,
+      "verifiedArtworkCount": 525
+    }
+  },
+  "featuredGames": [
+    {
+      "id": "game-missile-command",
+      "slug": "missile-command",
+      "title": "Missile Command",
+      "year": 1980,
+      "era": "1980s",
+      "genre": "shoot-em-up",
+      "platform": "Arcade",
+      "developer": "Atari, Inc.",
+      "score": 86,
+      "url": "/games/missile-command/"
+    },
+    {
+      "id": "game-joust",
+      "slug": "joust",
+      "title": "Joust",
+      "year": 1982,
+      "era": "1980s",
+      "genre": "platformer",
+      "platform": "Arcade",
+      "developer": "Williams Electronics",
+      "score": 83,
+      "url": "/games/joust/"
+    },
+    {
+      "id": "game-myst",
+      "slug": "myst",
+      "title": "Myst",
+      "year": 1993,
+      "era": "1990s",
+      "genre": "puzzle",
+      "platform": "Macintosh",
+      "developer": "Cyan",
+      "score": 83,
+      "url": "/games/myst/"
+    },
+    {
+      "id": "game-command-conquer",
+      "slug": "command-conquer",
+      "title": "Command & Conquer",
+      "year": 1995,
+      "era": "1990s",
+      "genre": "real-time-strategy",
+      "platform": "PC / MS-DOS",
+      "developer": "Westwood Studios",
+      "score": 83,
+      "url": "/games/command-conquer/"
+    },
+    {
+      "id": "game-zork",
+      "slug": "zork",
+      "title": "Zork: The Great Underground Empire",
+      "year": 1977,
+      "era": "1970s",
+      "genre": "point-and-click-adventure",
+      "platform": "DEC PDP-10",
+      "developer": "Infocom / MIT Dynamic Modelling Group",
+      "score": 79,
+      "url": "/games/zork/"
+    },
+    {
+      "id": "game-breakout",
+      "slug": "breakout",
+      "title": "Breakout",
+      "year": 1976,
+      "era": "1970s",
+      "genre": "puzzle",
+      "platform": "Arcade",
+      "developer": "Atari, Inc.",
+      "score": 78,
+      "url": "/games/breakout/"
+    }
+  ],
+  "explorationGames": [
+    {
+      "id": "game-pitfall",
+      "slug": "pitfall",
+      "title": "Pitfall!",
+      "year": 1982,
+      "era": "1980s",
+      "genre": "platformer",
+      "platform": "Atari 2600",
+      "developer": "Activision",
+      "score": 83,
+      "url": "/games/pitfall/"
+    },
+    {
+      "id": "game-mortal-kombat",
+      "slug": "mortal-kombat",
+      "title": "Mortal Kombat",
+      "year": 1992,
+      "era": "1990s",
+      "genre": "fighting",
+      "platform": "Arcade",
+      "developer": "Midway Games",
+      "score": 82,
+      "url": "/games/mortal-kombat/"
+    },
+    {
+      "id": "game-portal",
+      "slug": "portal",
+      "title": "Portal",
+      "year": 2007,
+      "era": "2000s",
+      "genre": "Puzzle",
+      "platform": "PC",
+      "developer": "Valve",
+      "score": 79,
+      "url": "/games/portal/"
+    },
+    {
+      "id": "game-colossal-cave-adventure",
+      "slug": "colossal-cave-adventure",
+      "title": "Colossal Cave Adventure",
+      "year": 1976,
+      "era": "1970s",
+      "genre": "point-and-click-adventure",
+      "platform": "DEC PDP-10",
+      "developer": "Will Crowther & Don Woods",
+      "score": 76,
+      "url": "/games/colossal-cave-adventure/"
+    },
+    {
+      "id": "game-the-witcher-3-wild-hunt",
+      "slug": "the-witcher-3-wild-hunt",
+      "title": "The Witcher 3: Wild Hunt",
+      "year": 2015,
+      "era": "2010s",
+      "genre": "action-rpg",
+      "platform": "PC / PS4 / Xbox One",
+      "developer": "CD Projekt Red",
+      "score": 76,
+      "url": "/games/the-witcher-3-wild-hunt/"
+    },
+    {
+      "id": "game-resident-evil-3-2020",
+      "slug": "resident-evil-3-2020",
+      "title": "Resident Evil 3 (2020)",
+      "year": 2020,
+      "era": "2020s",
+      "genre": "survival-horror",
+      "platform": "PlayStation 4",
+      "developer": "Capcom",
+      "score": 71,
+      "url": "/games/resident-evil-3-2020/"
+    }
+  ],
+  "featuredConsoles": [
+    {
+      "id": "console-nes",
+      "slug": "nintendo-entertainment-system",
+      "name": "Nintendo Entertainment System (NES / Famicom)",
+      "year": 1983,
+      "generation": "Third Generation",
+      "manufacturer": "Nintendo",
+      "score": 95,
+      "image": "/assets/images/consoles/nintendo-entertainment-system.png",
+      "url": "/consoles/nintendo-entertainment-system/"
+    },
+    {
+      "id": "console-playstation-1",
+      "slug": "playstation",
+      "name": "Sony PlayStation",
+      "year": 1994,
+      "generation": "Fifth Generation",
+      "manufacturer": "Sony",
+      "score": 95,
+      "image": "/assets/images/consoles/playstation.png",
+      "url": "/consoles/playstation/"
+    },
+    {
+      "id": "console-dreamcast",
+      "slug": "dreamcast",
+      "name": "Sega Dreamcast",
+      "year": 1998,
+      "generation": "Sixth Generation",
+      "manufacturer": "Sega",
+      "score": 95,
+      "image": "/assets/images/consoles/dreamcast.png",
+      "url": "/consoles/dreamcast/"
+    },
+    {
+      "id": "console-xbox-360",
+      "slug": "xbox-360",
+      "name": "Microsoft Xbox 360",
+      "year": 2005,
+      "generation": "Seventh Generation",
+      "manufacturer": "Microsoft",
+      "score": 95,
+      "image": "/assets/images/consoles/xbox-360.png",
+      "url": "/consoles/xbox-360/"
+    }
+  ],
+  "todayInHistory": {
+    "id": "ev-1977-atari-2600",
+    "year": 1977,
+    "date": "1977-09-11",
+    "title": "Atari 2600 (VCS) Establishes the Living Room Console Era",
+    "description": "Atari launches the Video Computer System featuring a MOS 6507 CPU and CX40 digital joystick. Supported by swappable ROM cartridges, it brings arcade gameplay into millions of households.",
+    "significance": "Defined the Second Generation of video games, becoming the cultural symbol of late 1970s home entertainment.",
+    "relatedConsole": "atari-2600",
+    "relatedGame": null,
+    "matchType": "exact_date_match"
+  },
+  "distributions": {
+    "eraDistribution": {
+      "2000s": 188,
+      "2010s": 131,
+      "1990s": 78,
+      "2020s": 75,
+      "1980s": 43,
+      "1970s": 13
+    },
+    "genreDistribution": {
+      "action-adventure": 105,
+      "platformer": 52,
+      "action-rpg": 51,
+      "rpg": 41,
+      "first-person-shooter": 33,
+      "racing": 24,
+      "survival-horror": 19,
+      "fighting": 14,
+      "real-time-strategy": 13,
+      "puzzle": 12,
+      "action": 12,
+      "sports": 11,
+      "adventure": 10,
+      "metroidvania": 10,
+      "third-person-shooter": 10,
+      "shooter": 9,
+      "Shooter": 7,
+      "shoot-em-up": 6,
+      "Action-Adventure": 6,
+      "stealth": 6,
+      "point-and-click-adventure": 5,
+      "roguelike": 5,
+      "role-playing": 5,
+      "beat-em-up": 5,
+      "arcade-racing": 4,
+      "turn-based-strategy": 4,
+      "tactical-rpg": 4,
+      "soulslike": 4,
+      "life-simulation": 3,
+      "Action": 3,
+      "Platformer": 3,
+      "simulation": 3,
+      "RPG": 3,
+      "immersive-sim": 3,
+      "survival": 3,
+      "Sports": 2,
+      "Puzzle": 2,
+      "Simulation": 2,
+      "tactical-shooter": 2,
+      "rhythm": 2,
+      "strategy": 1,
+      "city-building": 1,
+      "Fighting": 1,
+      "Survival Horror": 1,
+      "mmo": 1,
+      "turn-based-tactics": 1,
+      "mmorpg": 1,
+      "rail-shooter": 1,
+      "run-and-gun": 1,
+      "creative-sandbox": 1
+    },
+    "generationDistribution": {
+      "Fourth Generation": 11,
+      "Fifth Generation": 11,
+      "Second Generation": 9,
+      "Eighth Generation": 9,
+      "Sixth Generation": 7,
+      "Third Generation": 5,
+      "Seventh Generation": 5,
+      "First Generation": 4,
+      "Ninth Generation": 4
+    },
+    "topManufacturers": {
+      "Nintendo": 15,
+      "Sony": 9,
+      "Sega": 8,
+      "Atari": 7,
+      "Microsoft": 6,
+      "SNK": 3,
+      "Magnavox": 2,
+      "Coleco": 2
+    },
+    "playstationModern": {
+      "ps4Count": 81,
+      "ps5Count": 68,
+      "combinedCount": 120
+    }
+  },
+  "contentGaps": {
+    "missingGameArtworks": [
+      "minecraft",
+      "computer-space",
+      "homeworld"
+    ],
+    "totalMissingGameArtworks": 3,
+    "missingConsolePNGs": [],
+    "totalMissingConsolePNGs": 0,
+    "gamesWithoutExhibitPages": [],
+    "totalGamesWithoutExhibitPages": 0
+  }
+}

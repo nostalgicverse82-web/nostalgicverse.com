@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-the-legend-of-zelda-a-link-between-worlds",
+  "slug": "the-legend-of-zelda-a-link-between-worlds",
+  "title": "The Legend of Zelda: A Link Between Worlds",
+  "originalReleaseYear": 2013,
+  "exactReleaseDate": "November 22, 2013",
+  "originalLaunchPlatform": "Nintendo 3DS",
+  "originalLaunchRegion": "North America",
+  "developer": "Nintendo EAD",
+  "publisher": "Nintendo",
+  "platforms": [
+    "Nintendo 3DS"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "fantasy"
+  ],
+  "era": "2010s",
+  "shortDescription": "Direct sequel to A Link to the Past allowing Link to merge into 2D wall drawings to travel to parallel Lorule.",
+  "historicalSignificance": "Revolutionized Zelda pacing by allowing open item rentals and non-linear dungeon completion on 3DS.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_A_Link_Between_Worlds",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Direct sequel to A Link to the Past allowing Link to merge into 2D wall drawings to travel to parallel Lorule.",
+    "culturalImpact": "Revolutionized Zelda pacing by allowing open item rentals and non-linear dungeon completion on 3DS."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "Nintendo 3DS"
+    ],
+    "genres": [
+      "action-adventure"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/The_Legend_of_Zelda_A_Link_Between_Worlds_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/The_Legend_of_Zelda_A_Link_Between_Worlds_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_A_Link_Between_Worlds",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "The Legend of Zelda: A Link Between Worlds",
+    "Nintendo EAD",
+    "Nintendo",
+    "Nintendo 3DS",
+    "action-adventure",
+    "2013",
+    "2013",
+    "Nintendo 3DS",
+    "fantasy"
+  ],
+  "url": "/games/the-legend-of-zelda-a-link-between-worlds/",
+  "featured": false
+}

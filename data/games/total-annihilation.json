@@ -1,0 +1,68 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-total-annihilation",
+  "slug": "total-annihilation",
+  "title": "Total Annihilation",
+  "originalReleaseYear": 1997,
+  "exactReleaseDate": "September 30, 1997",
+  "originalLaunchPlatform": "PC",
+  "originalLaunchRegion": "North America",
+  "developer": "Cavedog Entertainment",
+  "publisher": "GT Interactive",
+  "platforms": [
+    "PC",
+    "Macintosh"
+  ],
+  "genre": "real-time-strategy",
+  "subgenres": [
+    "sci-fi"
+  ],
+  "era": "1990s",
+  "shortDescription": "Chris Taylor's robotic civil war between the Arm and Core featuring genuine 3D terrain and ballistic physics.",
+  "historicalSignificance": "Pioneered streaming metal/energy resource economies, 3D unit physics, and sweeping live orchestral game scores.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Total_Annihilation",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Chris Taylor's robotic civil war between the Arm and Core featuring genuine 3D terrain and ballistic physics.",
+    "culturalImpact": "Pioneered streaming metal/energy resource economies, 3D unit physics, and sweeping live orchestral game scores."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PC"
+    ],
+    "genres": [
+      "real-time-strategy"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Total_Annihilation_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Total_Annihilation_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Total_Annihilation",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Total Annihilation",
+    "Cavedog Entertainment",
+    "GT Interactive",
+    "PC",
+    "real-time-strategy",
+    "1997",
+    "1990s",
+    "PC",
+    "Macintosh",
+    "sci-fi"
+  ],
+  "url": "/games/total-annihilation/",
+  "featured": false
+}

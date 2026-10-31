@@ -1,0 +1,88 @@
+{
+  "id": "game-the-elder-scrolls-iii-morrowind",
+  "slug": "the-elder-scrolls-iii-morrowind",
+  "title": "The Elder Scrolls III: Morrowind",
+  "japaneseTitle": "モロウィンド",
+  "url": "/games/the-elder-scrolls-iii-morrowind/",
+  "originalReleaseYear": 2002,
+  "exactReleaseDate": "2002-05-01",
+  "developer": "Bethesda Game Studios",
+  "publisher": "Bethesda Softworks",
+  "director": "Todd Howard",
+  "designer": "Ken Rolston, Michael Kirkbride",
+  "composer": "Jeremy Soule",
+  "originalLaunchPlatform": "Microsoft Windows",
+  "platforms": [
+    "Microsoft Windows",
+    "Xbox"
+  ],
+  "genre": "action-rpg",
+  "subgenres": [
+    "Open-World WRPG",
+    "First-Person RPG"
+  ],
+  "era": "2000s",
+  "shortDescription": "Todd Howard and Michael Kirkbride's alien, open-world fantasy epic set on the island of Vvardenfell.",
+  "historicalSignificance": "Saved Bethesda Softworks from financial insolvency and established the modern open-world Western RPG paradigm, presenting the bizarre alien volcanic island of Vvardenfell where players enjoyed absolute freedom without quest markers or level-scaling enemies.",
+  "editorialContent": {
+    "overview": "Directed by Todd Howard with lead designer Ken Rolston and writer Michael Kirkbride, The Elder Scrolls III: Morrowind arrived in May 2002 on PC and subsequently on the original Xbox. Disembarking from an Imperial prison ship into the town of Seyda Neen, players enter the exotic dunmer homeland of Vvardenfell, populated by giant silt striders, mushroom towers, and the living Tribunal gods.",
+    "gameplay": "Features complete non-linear character freedom: players can join Great Houses (Hlaalu, Redoran, Telvanni), the Mages Guild, Morag Tong assassins, or pursue the Nerevarine prophecies. Traversal requires reading physical paper maps and following written journal directions (no GPS arrows). Spells can be crafted to levitate across mountains or jump across entire continents.",
+    "technicalInnovation": "Harnessed early pixel shaders on Nvidia GeForce 3/4 graphics cards to render photorealistic reflective water, combined with full day/night lighting, ash storms, and modding tools (The Elder Scrolls Construction Set).",
+    "culturalImpact": "Morrowind proved deep, hardcore PC computer role-playing games could become smash hits on home consoles (Xbox). Its esoteric worldbuilding and unforgettable Jeremy Soule orchestral theme cemented The Elder Scrolls as an industry-dominating fantasy empire.",
+    "preservationNotes": "Preserved via original PC/Xbox releases and completely revolutionized by the open-source OpenMW engine, which runs Morrowind natively on modern 64-bit multi-core operating systems."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "May 1, 2002",
+    "leadPlatform": "Microsoft Windows",
+    "genre": "action-rpg",
+    "sales": "Over 4 million copies worldwide",
+    "awards": [
+      "Game of the Year 2002 (IGN, Computer Gaming World)",
+      "RPG of the Year 2002"
+    ],
+    "technicalSpecs": {
+      "engine": "NetImmerse 3D engine with custom Bethesda world systems",
+      "resolution": "800x600 up to 1600x1200 PC, 480i/480p Xbox",
+      "soundChip": "DirectSound 3D / Miles Sound System with Jeremy Soule orchestral score",
+      "mediaFormat": "CD-ROM / DVD-ROM"
+    },
+    "relationships": {
+      "primaryConsole": "pc",
+      "developerEntity": "Bethesda Softworks",
+      "lineage": [
+        "The Elder Scrolls II: Daggerfall",
+        "The Elder Scrolls IV: Oblivion",
+        "The Elder Scrolls V: Skyrim",
+        "Fallout 3"
+      ]
+    }
+  },
+  "assets": {
+    "cover": "/assets/images/games/the-elder-scrolls-iii-morrowind.webp",
+    "banner": "/assets/images/games/the-elder-scrolls-iii-morrowind-banner.webp",
+    "screenshots": [
+      "/assets/images/games/the-elder-scrolls-iii-morrowind-screen1.webp",
+      "/assets/images/games/the-elder-scrolls-iii-morrowind-screen2.webp"
+    ],
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/5/53/MorrowindCOVER.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/5/53/MorrowindCOVER.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:MorrowindCOVER.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "review-required",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "morrowind",
+    "the elder scrolls",
+    "todd howard",
+    "vvardenfell",
+    "nerevarine",
+    "open world",
+    "bethesda",
+    "michael kirkbride"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

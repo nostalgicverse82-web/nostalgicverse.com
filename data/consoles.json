@@ -1,0 +1,2731 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "NostalgicVerse Consoles Master Dataset",
+  "description": "Canonical structured source data for gaming hardware exhibits, specifications, and platform generations.",
+  "lastUpdated": "2026-09-09",
+  "totalConsoles": 65,
+  "consoles": [
+    {
+      "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+      "id": "console-magnavox-odyssey",
+      "slug": "magnavox-odyssey",
+      "name": "Magnavox Odyssey",
+      "manufacturer": "Magnavox",
+      "generation": "First Generation",
+      "generationNumber": 1,
+      "originalReleaseYear": 1972,
+      "exactReleaseDate": "September 1972",
+      "mediaFormat": "Printed Circuit Jumper Cards",
+      "significance": "Established the commercial home video game industry, introducing television-connected interactive electronic gaming to consumer households.",
+      "verifiedFactualData": {
+        "cpu": "Discrete Transistor-Diode Logic",
+        "gpuOrVideoChip": "Analog Video Signal Generator",
+        "ram": "None"
+      },
+      "editorialContent": {
+        "overview": "Ralph Baer's pioneering 'Brown Box' commercialized as the world's very first home video game console.",
+        "marketLegacy": "Established the commercial home video game industry, introducing television-connected interactive electronic gaming to consumer households.",
+        "controllerDesign": "Dual hardwired dial controllers with reset button"
+      },
+      "keyGames": [
+        "table-tennis",
+        "roulette",
+        "submarines"
+      ],
+      "assets": {
+        "mainImage": "/assets/images/consoles/magnavox-odyssey.png",
+        "heroImage": "/assets/images/consoles/magnavox-odyssey-hero.png",
+        "hardwareImage": "/assets/images/consoles/magnavox-odyssey-hardware.png"
+      },
+      "keywords": [
+        "magnavox",
+        "odyssey",
+        "ralph baer",
+        "first generation",
+        "1972",
+        "analog",
+        "brown box"
+      ]
+    },
+    {
+      "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+      "id": "console-home-pong",
+      "slug": "home-pong",
+      "name": "Atari Home Pong (C-100)",
+      "manufacturer": "Atari",
+      "generation": "First Generation",
+      "generationNumber": 1,
+      "originalReleaseYear": 1975,
+      "exactReleaseDate": "September 1975",
+      "mediaFormat": "Dedicated Embedded Silicon",
+      "significance": "Solidified consumer appetite for dedicated home video gaming and ignited the home console boom through a landmark Sears partnership.",
+      "verifiedFactualData": {
+        "cpu": "Custom Atari Pong-on-a-Chip (D-MOS)",
+        "gpuOrVideoChip": "Integrated on custom chip",
+        "ram": "Internal registers"
+      },
+      "editorialContent": {
+        "overview": "Atari's commercial home console breakthrough, bringing the legendary table tennis arcade phenomenon into living rooms.",
+        "marketLegacy": "Solidified consumer appetite for dedicated home video gaming and ignited the home console boom through a landmark Sears partnership.",
+        "controllerDesign": "Dual integrated analog paddle dials on console chassis"
+      },
+      "keyGames": [
+        "pong"
+      ],
+      "assets": {
+        "mainImage": "/assets/images/consoles/home-pong.png",
+        "heroImage": "/assets/images/consoles/home-pong-hero.png",
+        "hardwareImage": "/assets/images/consoles/home-pong-hardware.png"
+      },
+      "keywords": [
+        "atari",
+        "pong",
+        "home pong",
+        "sears tele-games",
+        "first generation",
+        "1975"
+      ]
+    },
+    {
+      "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+      "id": "console-coleco-telstar",
+      "slug": "coleco-telstar",
+      "name": "Coleco Telstar",
+      "manufacturer": "Coleco",
+      "generation": "First Generation",
+      "generationNumber": 1,
+      "originalReleaseYear": 1976,
+      "exactReleaseDate": "June 1976",
+      "mediaFormat": "Dedicated Embedded Silicon",
+      "significance": "Pioneered low-cost consumer gaming hardware through third-party off-the-shelf LSI silicon, selling over one million units.",
+      "verifiedFactualData": {
+        "cpu": "General Instrument AY-3-8500 'Ball & Paddle' chip",
+        "gpuOrVideoChip": "Integrated on chip",
+        "ram": "None"
+      },
+      "editorialContent": {
+        "overview": "The first mass-market console utilizing General Instrument's single-chip architecture, spawning an affordable multi-game line.",
+        "marketLegacy": "Pioneered low-cost consumer gaming hardware through third-party off-the-shelf LSI silicon, selling over one million units.",
+        "controllerDesign": "Integrated paddle dials"
+      },
+      "keyGames": [
+        "pong-variants",
+        "hockey",
+        "handball"
+      ],
+      "assets": {
+        "mainImage": "/assets/images/consoles/coleco-telstar.png",
+        "heroImage": "/assets/images/consoles/coleco-telstar-hero.png",
+        "hardwareImage": "/assets/images/consoles/coleco-telstar-hardware.png"
+      },
+      "keywords": [
+        "coleco",
+        "telstar",
+        "ay-3-8500",
+        "first generation",
+        "1976",
+        "paddle"
+      ]
+    },
+    {
+      "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+      "id": "console-color-tv-game",
+      "slug": "color-tv-game",
+      "name": "Nintendo Color TV-Game Series",
+      "manufacturer": "Nintendo",
+      "generation": "First Generation",
+      "generationNumber": 1,
+      "originalReleaseYear": 1977,
+      "exactReleaseDate": "June 1, 1977",
+      "mediaFormat": "Dedicated Embedded Silicon",
+      "significance": "Marked Nintendo's monumental strategic transition from playing card and mechanical toy manufacturing into electronic video game hardware.",
+      "verifiedFactualData": {
+        "cpu": "Mitsubishi M58815P / M58816P LSI",
+        "gpuOrVideoChip": "Integrated color RF output",
+        "ram": "None"
+      },
+      "editorialContent": {
+        "overview": "Nintendo's historic first foray into video game home hardware, co-developed with Mitsubishi Electric.",
+        "marketLegacy": "Marked Nintendo's monumental strategic transition from playing card and mechanical toy manufacturing into electronic video game hardware.",
+        "controllerDesign": "Built-in dials / Detachable paddle cables"
+      },
+      "keyGames": [
+        "light-tennis",
+        "block-breaker"
+      ],
+      "assets": {
+        "mainImage": "/assets/images/consoles/color-tv-game.png",
+        "heroImage": "/assets/images/consoles/color-tv-game-hero.png",
+        "hardwareImage": "/assets/images/consoles/color-tv-game-hardware.png"
+      },
+      "keywords": [
+        "nintendo",
+        "color tv-game",
+        "japan",
+        "first generation",
+        "1977",
+        "mitsubishi"
+      ]
+    },
+    {
+      "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+      "id": "console-fairchild-channel-f",
+      "slug": "fairchild-channel-f",
+      "name": "Fairchild Channel F",
+      "manufacturer": "Fairchild",
+      "generation": "Second Generation",
+      "generationNumber": 2,
+      "originalReleaseYear": 1976,
+      "exactReleaseDate": "November 1976",
+      "mediaFormat": "ROM Cartridge (Videocart)",
+      "significance": "Invented the commercial cartridge paradigm, allowing games to be sold separately on swappable microchip media rather than hardwired into the machine.",
+      "verifiedFactualData": {
+        "cpu": "Fairchild F8 @ 1.79 MHz",
+        "gpuOrVideoChip": "Custom frame-buffer video logic",
+        "ram": "64 bytes scratchpad RAM, 2 KB VRAM"
+      },
+      "editorialContent": {
+        "overview": "Jerry Lawson's historic engineering breakthrough: the world's very first programmable ROM cartridge video game console.",
+        "marketLegacy": "Invented the commercial cartridge paradigm, allowing games to be sold separately on swappable microchip media rather than hardwired into the machine.",
+        "controllerDesign": "Unique 8-way multi-directional handle with twist, push, and pull functions"
+      },
+      "keyGames": [
+        "tic-tac-toe",
+        "desert-fox",
+        "space-war"
+      ],
+      "assets": {
+        "mainImage": "/assets/images/consoles/fairchild-channel-f.png",
+        "heroImage": "/assets/images/consoles/fairchild-channel-f-hero.png",
+        "hardwareImage": "/assets/images/consoles/fairchild-channel-f-hardware.png"
+      },
+      "keywords": [
+        "fairchild",
+        "channel f",
+        "jerry lawson",
+        "videocart",
+        "first rom cartridge",
+        "second generation",
+        "1976"
+      ]
+    },
+    {
+      "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+      "id": "console-atari-2600",
+      "slug": "atari-2600",
+      "name": "Atari 2600 (VCS)",
+      "manufacturer": "Atari",
+      "generation": "Second Generation",
+      "generationNumber": 2,
+      "originalReleaseYear": 1977,
+      "exactReleaseDate": "September 11, 1977",
+      "mediaFormat": "ROM Cartridge",
+      "significance": "Turned video games into a multi-billion dollar cultural phenomenon and popularized swappable ROM game cartridges before market saturation led to the 1983 crash.",
+      "verifiedFactualData": {
+        "cpu": "MOS Technology 6507 @ 1.19 MHz",
+        "gpuOrVideoChip": "Television Interface Adapter (TIA)",
+        "ram": "128 bytes RAM (in RIOT chip)"
+      },
+      "editorialContent": {
+        "overview": "The machine that popularized microprocessor-based hardware and swappable ROM cartridges in millions of living rooms.",
+        "marketLegacy": "Turned video games into a multi-billion dollar cultural phenomenon and popularized swappable ROM game cartridges before market saturation led to the 1983 crash.",
+        "controllerDesign": "CX40 single-button digital joystick, paddle controllers"
+      },
+      "keyGames": [
+        "pac-man",
+        "space-invaders",
+        "pitfall",
+        "adventure"
+      ],
+      "assets": {
+        "mainImage": "/assets/images/consoles/atari-2600.png",
+        "heroImage": "/assets/images/consoles/atari-2600-hero.png",
+        "hardwareImage": "/assets/images/consoles/atari-2600-hardware.png"
+      },
+      "keywords": [
+        "atari 2600",
+        "vcs",
+        "second generation",
+        "1977",
+        "joystick",
+        "cartridge"
+      ]
+    },
+    {
+      "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+      "id": "console-bally-astrocade",
+      "slug": "bally-astrocade",
+      "name": "Bally Astrocade",
+      "manufacturer": "Bally",
+      "generation": "Second Generation",
+      "generationNumber": 2,
+      "originalReleaseYear": 1977,
+      "exactReleaseDate": "October 1977",
+      "mediaFormat": "ROM Cartridge (Videocassette format)",
+      "significance": "Possessed the most advanced color bitmapped graphics of any early second-generation machine, introducing true arcade-quality visuals to early home systems.",
+      "verifiedFactualData": {
+        "cpu": "Zilog Z80 @ 1.789 MHz",
+        "gpuOrVideoChip": "Custom Bally 3-chip video processor",
+        "ram": "4 KB RAM"
+      },
+      "editorialContent": {
+        "overview": "A sophisticated hybrid console/computer system boasting authentic arcade graphics and built-in BASIC programming capabilities.",
+        "marketLegacy": "Possessed the most advanced color bitmapped graphics of any early second-generation machine, introducing true arcade-quality visuals to early home systems.",
+        "controllerDesign": "Pistol-grip controllers with 8-way joystick and rotating top paddle dial"
+      },
+      "keyGames": [
+        "gunfight",
+        "space-invaders",
+        "incredible-wizard"
+      ],
+      "assets": {
+        "mainImage": "/assets/images/consoles/bally-astrocade.png",
+        "heroImage": "/assets/images/consoles/bally-astrocade-hero.png",
+        "hardwareImage": "/assets/images/consoles/bally-astrocade-hardware.png"
+      },
+      "keywords": [
+        "bally",
+        "astrocade",
+        "midway",
+        "z80",
+        "second generation",
+        "1977"
+      ]
+    },
+    {
+      "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+      "id": "console-magnavox-odyssey-2",
+      "slug": "magnavox-odyssey-2",
+      "name": "Magnavox Odyssey² (Philips Videopac G7000)",
+      "manufacturer": "Magnavox",
+      "generation": "Second Generation",
+      "generationNumber": 2,
+      "originalReleaseYear": 1978,
+      "exactReleaseDate": "December 1978",
+      "mediaFormat": "ROM Cartridge",
+      "significance": "Pioneered educational software and hybrid board-game/video-game experiences, famously winning the early copyright lawsuit against Atari over K.C. Munchkin.",
+      "verifiedFactualData": {
+        "cpu": "Intel 8048 microcontroller @ 1.79 MHz",
+        "gpuOrVideoChip": "Intel 8244 custom audio/video display controller",
+        "ram": "64 bytes internal RAM + 128 bytes audio/video RAM"
+      },
+      "editorialContent": {
+        "overview": "Philips and Magnavox's distinctive system featuring a full membrane QWERTY keyboard and tabletop hybrid board game expansions.",
+        "marketLegacy": "Pioneered educational software and hybrid board-game/video-game experiences, famously winning the early copyright lawsuit against Atari over K.C. Munchkin.",
+        "controllerDesign": "Dual 8-way joysticks + integrated 49-key membrane alphanumeric keyboard"
+      },
+      "keyGames": [
+        "kc-munchkin",
+        "quest-for-the-rings",
+        "pick-axe-pete"
+      ],
+      "assets": {
+        "mainImage": "/assets/images/consoles/magnavox-odyssey-2.png",
+        "heroImage": "/assets/images/consoles/magnavox-odyssey-2-hero.png",
+        "hardwareImage": "/assets/images/consoles/magnavox-odyssey-2-hardware.png"
+      },
+      "keywords": [
+        "odyssey 2",
+        "videopac",
+        "philips",
+        "magnavox",
+        "keyboard",
+        "second generation",
+        "1978"
+      ]
+    },
+    {
+      "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+      "id": "console-intellivision",
+      "slug": "intellivision",
+      "name": "Intellivision",
+      "manufacturer": "Mattel Electronics",
+      "generation": "Second Generation",
+      "generationNumber": 2,
+      "originalReleaseYear": 1979,
+      "exactReleaseDate": "December 3, 1979",
+      "mediaFormat": "ROM Cartridge",
+      "significance": "Introduced the first 16-bit microprocessor architecture in a home console, birthed Utopia (widely considered the first city builder/RTS), and pioneered early voice synthesis.",
+      "verifiedFactualData": {
+        "cpu": "General Instrument CP1600 @ 894 kHz (16-bit)",
+        "gpuOrVideoChip": "Standard Television Interface Chip (STIC)",
+        "ram": "1,456 bytes RAM"
+      },
+      "editorialContent": {
+        "overview": "Mattel's sophisticated 16-bit processor challenger to Atari, offering advanced sports simulations and voice synthesis.",
+        "marketLegacy": "Introduced the first 16-bit microprocessor architecture in a home console, birthed Utopia (widely considered the first city builder/RTS), and pioneered early voice synthesis.",
+        "controllerDesign": "Dual numeric keypads with directional disc and side buttons"
+      },
+      "keyGames": [
+        "astrosmash",
+        "major-league-baseball",
+        "snafu",
+        "utopia"
+      ],
+      "assets": {
+        "mainImage": "/assets/images/consoles/intellivision.png",
+        "heroImage": "/assets/images/consoles/intellivision-hero.png",
+        "hardwareImage": "/assets/images/consoles/intellivision-hardware.png"
+      },
+      "keywords": [
+        "intellivision",
+        "mattel",
+        "second generation",
+        "1979",
+        "16-bit processor",
+        "utopia"
+      ]
+    },
+    {
+      "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+      "id": "console-colecovision",
+      "slug": "colecovision",
+      "name": "ColecoVision",
+      "manufacturer": "Coleco",
+      "generation": "Second Generation",
+      "generationNumber": 2,
+      "originalReleaseYear": 1982,
+      "exactReleaseDate": "August 1982",
+      "mediaFormat": "ROM Cartridge",
+      "significance": "Demonstrated that near-perfect arcade-faithful ports were possible on home televisions, setting a new visual benchmark prior to the 1983 crash.",
+      "verifiedFactualData": {
+        "cpu": "Zilog Z80A @ 3.58 MHz",
+        "gpuOrVideoChip": "Texas Instruments TMS9928A",
+        "ram": "1 KB RAM, 16 KB VRAM"
+      },
+      "editorialContent": {
+        "overview": "Delivered near-arcade-quality home conversions, famously bundled with Nintendo's Donkey Kong arcade license.",
+        "marketLegacy": "Demonstrated that near-perfect arcade-faithful ports were possible on home televisions, setting a new visual benchmark prior to the 1983 crash.",
+        "controllerDesign": "Dual numeric keypad controllers with short joystick and side buttons"
+      },
+      "keyGames": [
+        "donkey-kong",
+        "zaxxon",
+        "venture"
+      ],
+      "assets": {
+        "mainImage": "/assets/images/consoles/colecovision.png",
+        "heroImage": "/assets/images/consoles/colecovision-hero.png",
+        "hardwareImage": "/assets/images/consoles/colecovision-hardware.png"
+      },
+      "keywords": [
+        "colecovision",
+        "coleco",
+        "donkey kong",
+        "second generation",
+        "1982"
+      ]
+    },
+    {
+      "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+      "id": "console-atari-5200",
+      "slug": "atari-5200",
+      "name": "Atari 5200 SuperSystem",
+      "manufacturer": "Atari",
+      "generation": "Second Generation",
+      "generationNumber": 2,
+      "originalReleaseYear": 1982,
+      "exactReleaseDate": "November 1982",
+      "mediaFormat": "ROM Cartridge",
+      "significance": "Offered unprecedented home arcade graphical fidelity, though burdened by non-centering analog controllers and ill timing amidst the 1983 crash.",
+      "verifiedFactualData": {
+        "cpu": "Custom 6502C @ 1.79 MHz",
+        "gpuOrVideoChip": "ANTIC and GTIA custom chips",
+        "ram": "16 KB RAM"
+      },
+      "editorialContent": {
+        "overview": "Atari's powerful high-end console derived from its 8-bit computer architecture, featuring early 360-degree analog joysticks.",
+        "marketLegacy": "Offered unprecedented home arcade graphical fidelity, though burdened by non-centering analog controllers and ill timing amidst the 1983 crash.",
+        "controllerDesign": "Analog 360-degree joystick with 12-key numeric pad and dual fire buttons"
+      },
+      "keyGames": [
+        "pac-man",
+        "super-breakout",
+        "pole-position"
+      ],
+      "assets": {
+        "mainImage": "/assets/images/consoles/atari-5200.png",
+        "heroImage": "/assets/images/consoles/atari-5200-hero.png",
+        "hardwareImage": "/assets/images/consoles/atari-5200-hardware.png"
+      },
+      "keywords": [
+        "atari 5200",
+        "atari",
+        "second generation",
+        "1982",
+        "supersystem"
+      ]
+    },
+    {
+      "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+      "id": "console-vectrex",
+      "slug": "vectrex",
+      "name": "Vectrex",
+      "manufacturer": "Milton Bradley / GCE",
+      "generation": "Second Generation",
+      "generationNumber": 2,
+      "originalReleaseYear": 1982,
+      "exactReleaseDate": "November 1982",
+      "mediaFormat": "ROM Cartridge",
+      "significance": "Achieved authentic razor-sharp arcade vector rendering and introduced the 3D Imager, the first commercial 3D shutter glasses for a gaming console.",
+      "verifiedFactualData": {
+        "cpu": "Motorola 68A09 @ 1.5 MHz",
+        "gpuOrVideoChip": "Vector generator driving an integrated 9-inch monochrome CRT",
+        "ram": "1 KB RAM"
+      },
+      "editorialContent": {
+        "overview": "The only commercial vector-graphics home console, featuring its own integrated portrait cathode-ray tube screen.",
+        "marketLegacy": "Achieved authentic razor-sharp arcade vector rendering and introduced the 3D Imager, the first commercial 3D shutter glasses for a gaming console.",
+        "controllerDesign": "Analog joystick with 4 horizontally aligned action buttons"
+      },
+      "keyGames": [
+        "minestorm",
+        "scramble",
+        "spike"
+      ],
+      "assets": {
+        "mainImage": "/assets/images/consoles/vectrex.png",
+        "heroImage": "/assets/images/consoles/vectrex-hero.png",
+        "hardwareImage": "/assets/images/consoles/vectrex-hardware.png"
+      },
+      "keywords": [
+        "vectrex",
+        "gce",
+        "milton bradley",
+        "vector graphics",
+        "crt",
+        "second generation",
+        "1982"
+      ]
+    },
+    {
+      "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+      "id": "console-sega-sg-1000",
+      "slug": "sega-sg-1000",
+      "name": "Sega SG-1000",
+      "manufacturer": "Sega",
+      "generation": "Second Generation",
+      "generationNumber": 2,
+      "originalReleaseYear": 1983,
+      "exactReleaseDate": "July 15, 1983",
+      "mediaFormat": "ROM Cartridge & Sega Card (via Card Catcher)",
+      "significance": "Launched Sega's foundational home console hardware legacy, establishing the architecture that would evolve into the Master System.",
+      "verifiedFactualData": {
+        "cpu": "Zilog Z80A @ 3.58 MHz",
+        "gpuOrVideoChip": "Texas Instruments TMS9918A VDP",
+        "ram": "1 KB main RAM, 2 KB video RAM"
+      },
+      "editorialContent": {
+        "overview": "Sega's historic first home console, released on the exact same day in Japan as Nintendo's Family Computer.",
+        "marketLegacy": "Launched Sega's foundational home console hardware legacy, establishing the architecture that would evolve into the Master System.",
+        "controllerDesign": "Hardwired SJ-200 joystick controller"
+      },
+      "keyGames": [
+        "flicker",
+        "congo-bongo",
+        "zaxxon"
+      ],
+      "assets": {
+        "mainImage": "/assets/images/consoles/sega-sg-1000.png",
+        "heroImage": "/assets/images/consoles/sega-sg-1000-hero.png",
+        "hardwareImage": "/assets/images/consoles/sega-sg-1000-hardware.png"
+      },
+      "keywords": [
+        "sg-1000",
+        "sega",
+        "second generation",
+        "1983",
+        "japan",
+        "z80"
+      ]
+    },
+    {
+      "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+      "id": "console-nes",
+      "slug": "nintendo-entertainment-system",
+      "name": "Nintendo Entertainment System (NES / Famicom)",
+      "manufacturer": "Nintendo",
+      "generation": "Third Generation",
+      "generationNumber": 3,
+      "originalReleaseYear": 1983,
+      "exactReleaseDate": "July 15, 1983",
+      "mediaFormat": "ROM Cartridge",
+      "significance": "Established strict software licensing and quality seals, popularized the cross D-pad, and established Nintendo as an entertainment titan.",
+      "verifiedFactualData": {
+        "cpu": "Ricoh 2A03 (MOS 6502 core) @ 1.79 MHz",
+        "gpuOrVideoChip": "Ricoh 2C02 Picture Processing Unit (PPU)",
+        "ram": "2 KB work RAM, 2 KB video RAM"
+      },
+      "editorialContent": {
+        "overview": "The 8-bit juggernaut that resurrected the home video game industry following the catastrophic crash of 1983.",
+        "marketLegacy": "Established strict software licensing and quality seals, popularized the cross D-pad, and established Nintendo as an entertainment titan.",
+        "controllerDesign": "NES-004 directional pad controller, NES Zapper light gun"
+      },
+      "keyGames": [
+        "super-mario-bros",
+        "the-legend-of-zelda",
+        "metroid",
+        "mega-man-2",
+        "castlevania"
+      ],
+      "assets": {
+        "mainImage": "/assets/images/consoles/nintendo-entertainment-system.png",
+        "heroImage": "/assets/images/consoles/nintendo-entertainment-system-hero.png",
+        "hardwareImage": "/assets/images/consoles/nintendo-entertainment-system-hardware.png"
+      },
+      "keywords": [
+        "nes",
+        "famicom",
+        "nintendo",
+        "third generation",
+        "8-bit",
+        "1983",
+        "d-pad"
+      ]
+    },
+    {
+      "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+      "id": "console-sega-master-system",
+      "slug": "sega-master-system",
+      "name": "Sega Master System (Mark III)",
+      "manufacturer": "Sega",
+      "generation": "Third Generation",
+      "generationNumber": 3,
+      "originalReleaseYear": 1985,
+      "exactReleaseDate": "October 20, 1985",
+      "mediaFormat": "ROM Cartridge & Sega Card",
+      "significance": "Demonstrated superior color palette capabilities over the NES and inaugurated Sega's enduring international hardware presence.",
+      "verifiedFactualData": {
+        "cpu": "Zilog Z80 @ 3.58 MHz",
+        "gpuOrVideoChip": "Texas Instruments TMS9918A-derived VDP",
+        "ram": "8 KB work RAM, 16 KB video RAM"
+      },
+      "editorialContent": {
+        "overview": "Sega's technically superior 8-bit platform that achieved legendary status across Europe and Brazil.",
+        "marketLegacy": "Demonstrated superior color palette capabilities over the NES and inaugurated Sega's enduring international hardware presence.",
+        "controllerDesign": "Sega Control Pad with directional thumbpad and 2 buttons"
+      },
+      "keyGames": [
+        "phantasy-star",
+        "alex-kidd-in-miracle-world",
+        "wonder-boy-iii"
+      ],
+      "assets": {
+        "mainImage": "/assets/images/consoles/sega-master-system.png",
+        "heroImage": "/assets/images/consoles/sega-master-system-hero.png",
+        "hardwareImage": "/assets/images/consoles/sega-master-system-hardware.png"
+      },
+      "keywords": [
+        "sega master system",
+        "mark iii",
+        "sega",
+        "third generation",
+        "8-bit",
+        "1985"
+      ]
+    },
+    {
+      "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+      "id": "console-atari-7800",
+      "slug": "atari-7800",
+      "name": "Atari 7800 ProSystem",
+      "manufacturer": "Atari",
+      "generation": "Third Generation",
+      "generationNumber": 3,
+      "originalReleaseYear": 1986,
+      "exactReleaseDate": "May 1986",
+      "mediaFormat": "ROM Cartridge",
+      "significance": "One of the earliest consoles to feature full backward compatibility with its predecessor's software library (Atari 2600).",
+      "verifiedFactualData": {
+        "cpu": "Atari SALLY (6502 custom) @ 1.79 MHz",
+        "gpuOrVideoChip": "Custom MARIA graphics processor @ 7.16 MHz",
+        "ram": "4 KB RAM"
+      },
+      "editorialContent": {
+        "overview": "Atari's backwards-compatible 8-bit platform featuring impressive on-screen sprite counts powered by the MARIA chip.",
+        "marketLegacy": "One of the earliest consoles to feature full backward compatibility with its predecessor's software library (Atari 2600).",
+        "controllerDesign": "ProLine two-button digital joystick"
+      },
+      "keyGames": [
+        "asteroids",
+        "joust",
+        "pole-position-ii"
+      ],
+      "assets": {
+        "mainImage": "/assets/images/consoles/atari-7800.png",
+        "heroImage": "/assets/images/consoles/atari-7800-hero.png",
+        "hardwareImage": "/assets/images/consoles/atari-7800-hardware.png"
+      },
+      "keywords": [
+        "atari 7800",
+        "prosystem",
+        "atari",
+        "third generation",
+        "1986",
+        "maria chip"
+      ]
+    },
+    {
+      "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+      "id": "console-atari-xegs",
+      "slug": "atari-xegs",
+      "name": "Atari XEGS (XE Game System)",
+      "manufacturer": "Atari",
+      "generation": "Third Generation",
+      "generationNumber": 3,
+      "originalReleaseYear": 1987,
+      "exactReleaseDate": "November 1987",
+      "mediaFormat": "ROM Cartridge & Floppy Disk / Cassette (via peripherals)",
+      "significance": "Showcased Atari's effort to bridge the home computer and console markets during the height of the 8-bit Nintendo resurgence.",
+      "verifiedFactualData": {
+        "cpu": "MOS Technology 6502C @ 1.79 MHz",
+        "gpuOrVideoChip": "ANTIC and GTIA custom graphics chips",
+        "ram": "64 KB RAM"
+      },
+      "editorialContent": {
+        "overview": "A repackaged Atari 65XE computer designed as a hybrid console with detachable keyboard and light gun.",
+        "marketLegacy": "Showcased Atari's effort to bridge the home computer and console markets during the height of the 8-bit Nintendo resurgence.",
+        "controllerDesign": "Detachable keyboard, CX40 joystick, XG-1 light gun"
+      },
+      "keyGames": [
+        "missile-command",
+        "barnyard-blaster",
+        "bug-hunt"
+      ],
+      "assets": {
+        "mainImage": "/assets/images/consoles/atari-xegs.png",
+        "heroImage": "/assets/images/consoles/atari-xegs-hero.png",
+        "hardwareImage": "/assets/images/consoles/atari-xegs-hardware.png"
+      },
+      "keywords": [
+        "atari xegs",
+        "atari",
+        "third generation",
+        "1987",
+        "computer console"
+      ]
+    },
+    {
+      "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+      "id": "console-amstrad-gx4000",
+      "slug": "amstrad-gx4000",
+      "name": "Amstrad GX4000",
+      "manufacturer": "Amstrad",
+      "generation": "Third Generation",
+      "generationNumber": 3,
+      "originalReleaseYear": 1990,
+      "exactReleaseDate": "September 1990",
+      "mediaFormat": "ROM Cartridge",
+      "significance": "A notable European 8-bit console commercial casualty, arriving just as 16-bit systems like the Sega Mega Drive were dominating the continent.",
+      "verifiedFactualData": {
+        "cpu": "Zilog Z80A @ 4 MHz",
+        "gpuOrVideoChip": "Custom ASIC supporting hardware sprites and 32 on-screen colors from 4,096 palette",
+        "ram": "64 KB RAM, 16 KB VRAM"
+      },
+      "editorialContent": {
+        "overview": "Amstrad's short-lived console adaptation of its popular CPC+ home computer line for the European market.",
+        "marketLegacy": "A notable European 8-bit console commercial casualty, arriving just as 16-bit systems like the Sega Mega Drive were dominating the continent.",
+        "controllerDesign": "Dual 2-button digital gamepads"
+      },
+      "keyGames": [
+        "burnin-rubber",
+        "robocop-2",
+        "pang"
+      ],
+      "assets": {
+        "mainImage": "/assets/images/consoles/amstrad-gx4000.png",
+        "heroImage": "/assets/images/consoles/amstrad-gx4000-hero.png",
+        "hardwareImage": "/assets/images/consoles/amstrad-gx4000-hardware.png"
+      },
+      "keywords": [
+        "amstrad",
+        "gx4000",
+        "europe",
+        "third generation",
+        "1990",
+        "z80"
+      ]
+    },
+    {
+      "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+      "id": "console-turbografx-16",
+      "slug": "turbografx-16",
+      "name": "PC Engine / TurboGrafx-16",
+      "manufacturer": "NEC",
+      "generation": "Fourth Generation",
+      "generationNumber": 4,
+      "originalReleaseYear": 1987,
+      "exactReleaseDate": "October 30, 1987",
+      "mediaFormat": "HuCard (TurboChip) & CD-ROM²",
+      "significance": "Inaugurated CD-ROM optical gaming on home consoles via the CD-ROM² add-on, leading the 16-bit generational transition in Japan.",
+      "verifiedFactualData": {
+        "cpu": "Hudson HuC6280 (8-bit) @ 7.16 MHz",
+        "gpuOrVideoChip": "Hudson HuC6260 / HuC6270 16-bit video processors",
+        "ram": "8 KB work RAM, 64 KB video RAM"
+      },
+      "editorialContent": {
+        "overview": "The diminutive Japanese powerhouse that outsold the Famicom in Japan and pioneered console CD-ROM optical media in 1988.",
+        "marketLegacy": "Inaugurated CD-ROM optical gaming on home consoles via the CD-ROM² add-on, leading the 16-bit generational transition in Japan.",
+        "controllerDesign": "TurboPad with built-in turbo switches"
+      },
+      "keyGames": [
+        "bonk-adventure",
+        "r-type",
+        "ys-book-i-and-ii"
+      ],
+      "assets": {
+        "mainImage": "/assets/images/consoles/turbografx-16.png",
+        "heroImage": "/assets/images/consoles/turbografx-16-hero.png",
+        "hardwareImage": "/assets/images/consoles/turbografx-16-hardware.png"
+      },
+      "keywords": [
+        "turbografx-16",
+        "pc engine",
+        "nec",
+        "hudson",
+        "fourth generation",
+        "cd-rom",
+        "1987"
+      ]
+    },
+    {
+      "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+      "id": "console-sega-genesis",
+      "slug": "sega-genesis",
+      "name": "Sega Genesis / Mega Drive",
+      "manufacturer": "Sega",
+      "generation": "Fourth Generation",
+      "generationNumber": 4,
+      "originalReleaseYear": 1988,
+      "exactReleaseDate": "October 29, 1988",
+      "mediaFormat": "ROM Cartridge",
+      "significance": "Created the iconic 16-bit console war, dismantled Nintendo's near-monopoly in North America, and fostered an older demographic for video games.",
+      "verifiedFactualData": {
+        "cpu": "Motorola 68000 @ 7.6 MHz + Zilog Z80 @ 3.58 MHz",
+        "gpuOrVideoChip": "Yamaha YM7101 VDP",
+        "ram": "64 KB work RAM, 64 KB video RAM, 8 KB audio RAM"
+      },
+      "editorialContent": {
+        "overview": "The high-speed 16-bit arcade powerhouse that famously challenged Nintendo's monopoly with 'Blast Processing' and attitude.",
+        "marketLegacy": "Created the iconic 16-bit console war, dismantled Nintendo's near-monopoly in North America, and fostered an older demographic for video games.",
+        "controllerDesign": "Three-button control pad (later six-button pad)"
+      },
+      "keyGames": [
+        "sonic-the-hedgehog",
+        "streets-of-rage-2",
+        "gunstar-heroes"
+      ],
+      "assets": {
+        "mainImage": "/assets/images/consoles/sega-genesis.png",
+        "heroImage": "/assets/images/consoles/sega-genesis-hero.png",
+        "hardwareImage": "/assets/images/consoles/sega-genesis-hardware.png"
+      },
+      "keywords": [
+        "sega genesis",
+        "mega drive",
+        "sega",
+        "fourth generation",
+        "16-bit",
+        "sonic",
+        "1988"
+      ]
+    },
+    {
+      "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+      "id": "console-game-boy",
+      "slug": "game-boy",
+      "name": "Nintendo Game Boy",
+      "manufacturer": "Nintendo",
+      "generation": "Fourth Generation",
+      "generationNumber": 4,
+      "originalReleaseYear": 1989,
+      "exactReleaseDate": "April 21, 1989",
+      "mediaFormat": "ROM Cartridge (Game Pak)",
+      "significance": "Demonstrated that design economy, battery efficiency, and social connectivity through the Link Cable could triumph over superior raw visual specs.",
+      "verifiedFactualData": {
+        "cpu": "Sharp LR35902 (Z80/8080 hybrid) @ 4.19 MHz",
+        "gpuOrVideoChip": "Integrated 2-bit dot-matrix LCD driver",
+        "ram": "8 KB work RAM, 8 KB video RAM"
+      },
+      "editorialContent": {
+        "overview": "Gunpei Yokoi's monochrome handheld masterpiece prioritizing battery longevity and durable industrial design.",
+        "marketLegacy": "Demonstrated that design economy, battery efficiency, and social connectivity through the Link Cable could triumph over superior raw visual specs.",
+        "controllerDesign": "Integrated D-pad, A, B, Select, Start buttons"
+      },
+      "keyGames": [
+        "tetris",
+        "pokemon-red-pokemon-blue",
+        "the-legend-of-zelda-links-awakening"
+      ],
+      "assets": {
+        "mainImage": "/assets/images/consoles/game-boy.png",
+        "heroImage": "/assets/images/consoles/game-boy-hero.png",
+        "hardwareImage": "/assets/images/consoles/game-boy-hardware.png"
+      },
+      "keywords": [
+        "game boy",
+        "nintendo",
+        "handheld",
+        "gunpei yokoi",
+        "fourth generation",
+        "tetris",
+        "1989"
+      ]
+    },
+    {
+      "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+      "id": "console-atari-lynx",
+      "slug": "atari-lynx",
+      "name": "Atari Lynx",
+      "manufacturer": "Atari",
+      "generation": "Fourth Generation",
+      "generationNumber": 4,
+      "originalReleaseYear": 1989,
+      "exactReleaseDate": "September 1, 1989",
+      "mediaFormat": "ROM Cartridge",
+      "significance": "Pioneered hardware sprite zooming, scaling, and distortion in a handheld console, engineered by Epyx legends RJ Mical and Dave Needle.",
+      "verifiedFactualData": {
+        "cpu": "MOS 65SC02 @ up to 4 MHz",
+        "gpuOrVideoChip": "Suzy (16-bit custom graphics processor @ 16 MHz)",
+        "ram": "64 KB DRAM"
+      },
+      "editorialContent": {
+        "overview": "The world's first handheld electronic game console with a color LCD screen, featuring hardware sprite scaling and ambidextrous ergonomics.",
+        "marketLegacy": "Pioneered hardware sprite zooming, scaling, and distortion in a handheld console, engineered by Epyx legends RJ Mical and Dave Needle.",
+        "controllerDesign": "Reversible ambidextrous directional pad and dual fire button pairs"
+      },
+      "keyGames": [
+        "blue-lightning",
+        "california-games",
+        "chip-challenge"
+      ],
+      "assets": {
+        "mainImage": "/assets/images/consoles/atari-lynx.png",
+        "heroImage": "/assets/images/consoles/atari-lynx-hero.png",
+        "hardwareImage": "/assets/images/consoles/atari-lynx-hardware.png"
+      },
+      "keywords": [
+        "atari lynx",
+        "color lcd",
+        "handheld",
+        "fourth generation",
+        "1989",
+        "epyx"
+      ]
+    },
+    {
+      "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+      "id": "console-sega-game-gear",
+      "slug": "sega-game-gear",
+      "name": "Sega Game Gear",
+      "manufacturer": "Sega",
+      "generation": "Fourth Generation",
+      "generationNumber": 4,
+      "originalReleaseYear": 1990,
+      "exactReleaseDate": "October 6, 1990",
+      "mediaFormat": "ROM Cartridge",
+      "significance": "The primary full-color backlit handheld competitor to Nintendo's Game Boy, selling over 10 million units worldwide.",
+      "verifiedFactualData": {
+        "cpu": "Zilog Z80 @ 3.58 MHz",
+        "gpuOrVideoChip": "Modified Master System VDP (4,096 color palette)",
+        "ram": "8 KB work RAM, 16 KB video RAM"
+      },
+      "editorialContent": {
+        "overview": "Sega's full-color backlit handheld based on Master System architecture, offering TV tuner capabilities.",
+        "marketLegacy": "The primary full-color backlit handheld competitor to Nintendo's Game Boy, selling over 10 million units worldwide.",
+        "controllerDesign": "Integrated landscape layout with D-pad and two action buttons"
+      },
+      "keyGames": [
+        "sonic-the-hedgehog",
+        "shinobi",
+        "columns"
+      ],
+      "assets": {
+        "mainImage": "/assets/images/consoles/sega-game-gear.png",
+        "heroImage": "/assets/images/consoles/sega-game-gear-hero.png",
+        "hardwareImage": "/assets/images/consoles/sega-game-gear-hardware.png"
+      },
+      "keywords": [
+        "game gear",
+        "sega",
+        "handheld",
+        "fourth generation",
+        "color",
+        "1990"
+      ]
+    },
+    {
+      "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+      "id": "console-neo-geo-aes",
+      "slug": "neo-geo-aes",
+      "name": "Neo Geo AES",
+      "manufacturer": "SNK",
+      "generation": "Fourth Generation",
+      "generationNumber": 4,
+      "originalReleaseYear": 1990,
+      "exactReleaseDate": "April 26, 1990",
+      "mediaFormat": "Large-format multi-PCB ROM Cartridge (up to 330–716 Mbit)",
+      "significance": "The most powerful 2D gaming hardware of its generation, proving that home consoles could run 100% identical arcade ROM boards.",
+      "verifiedFactualData": {
+        "cpu": "Motorola 68000 @ 12 MHz + Zilog Z80A @ 4 MHz",
+        "gpuOrVideoChip": "Custom line-based sprite generator (up to 380 sprites)",
+        "ram": "64 KB main RAM, 68 KB video RAM"
+      },
+      "editorialContent": {
+        "overview": "An uncompromised 24-bit arcade cabinet inside a home chassis, delivering pure arcade supremacy to luxury collectors.",
+        "marketLegacy": "The most powerful 2D gaming hardware of its generation, proving that home consoles could run 100% identical arcade ROM boards.",
+        "controllerDesign": "Full-size arcade-grade joystick console"
+      },
+      "keyGames": [
+        "fatal-fury",
+        "metal-slug",
+        "the-king-of-fighters-98"
+      ],
+      "assets": {
+        "mainImage": "/assets/images/consoles/neo-geo-aes.png",
+        "heroImage": "/assets/images/consoles/neo-geo-aes-hero.png",
+        "hardwareImage": "/assets/images/consoles/neo-geo-aes-hardware.png"
+      },
+      "keywords": [
+        "neo geo",
+        "snk",
+        "aes",
+        "fourth generation",
+        "arcade",
+        "1990"
+      ]
+    },
+    {
+      "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+      "id": "console-snes",
+      "slug": "super-nintendo-entertainment-system",
+      "name": "Super Nintendo Entertainment System (SNES / Super Famicom)",
+      "manufacturer": "Nintendo",
+      "generation": "Fourth Generation",
+      "generationNumber": 4,
+      "originalReleaseYear": 1990,
+      "exactReleaseDate": "November 21, 1990",
+      "mediaFormat": "ROM Cartridge",
+      "significance": "Standardized shoulder buttons (L/R) on game controllers, advanced 2D pixel artistry to historic peaks, and hosted some of the greatest RPGs ever made.",
+      "verifiedFactualData": {
+        "cpu": "Ricoh 5A22 (16-bit 65C816 core) @ 3.58 MHz",
+        "gpuOrVideoChip": "Dual PPU custom chipset with Mode 7 scaling/rotation",
+        "ram": "128 KB work RAM, 64 KB video RAM, 64 KB audio RAM"
+      },
+      "editorialContent": {
+        "overview": "Nintendo's peerless 16-bit system featuring Mode 7 pseudo-3D hardware rotation and an unprecedented Sony-designed audio processor.",
+        "marketLegacy": "Standardized shoulder buttons (L/R) on game controllers, advanced 2D pixel artistry to historic peaks, and hosted some of the greatest RPGs ever made.",
+        "controllerDesign": "Four face buttons, two shoulder triggers (L/R standard)"
+      },
+      "keyGames": [
+        "super-mario-world",
+        "super-metroid",
+        "chrono-trigger",
+        "the-legend-of-zelda-a-link-to-the-past",
+        "final-fantasy-vi"
+      ],
+      "assets": {
+        "mainImage": "/assets/images/consoles/super-nintendo-entertainment-system.png",
+        "heroImage": "/assets/images/consoles/super-nintendo-entertainment-system-hero.png",
+        "hardwareImage": "/assets/images/consoles/super-nintendo-entertainment-system-hardware.png"
+      },
+      "keywords": [
+        "snes",
+        "super famicom",
+        "nintendo",
+        "fourth generation",
+        "16-bit",
+        "mode 7",
+        "1990"
+      ]
+    },
+    {
+      "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+      "id": "console-sega-cd",
+      "slug": "sega-cd",
+      "name": "Sega CD (Mega-CD)",
+      "manufacturer": "Sega",
+      "generation": "Fourth Generation",
+      "generationNumber": 4,
+      "originalReleaseYear": 1991,
+      "exactReleaseDate": "December 12, 1991",
+      "mediaFormat": "CD-ROM (500 MB)",
+      "significance": "Pioneered Full-Motion Video (FMV) gaming and high-fidelity CD audio soundtracks on home consoles, sparking congressional debates with Night Trap.",
+      "verifiedFactualData": {
+        "cpu": "Secondary Motorola 68000 @ 12.5 MHz",
+        "gpuOrVideoChip": "Custom ASIC for hardware rotation and scaling",
+        "ram": "512 KB program RAM, 256 KB word RAM, 64 KB CD-ROM cache"
+      },
+      "editorialContent": {
+        "overview": "Sega's CD-ROM multimedia expansion add-on adding secondary processing, scaling hardware, and Red Book CD audio.",
+        "marketLegacy": "Pioneered Full-Motion Video (FMV) gaming and high-fidelity CD audio soundtracks on home consoles, sparking congressional debates with Night Trap.",
+        "controllerDesign": "Sega Genesis control pad"
+      },
+      "keyGames": [
+        "sonic-cd",
+        "snatcher",
+        "lunar-silver-star-story",
+        "night-trap"
+      ],
+      "assets": {
+        "mainImage": "/assets/images/consoles/sega-cd.png",
+        "heroImage": "/assets/images/consoles/sega-cd-hero.png",
+        "hardwareImage": "/assets/images/consoles/sega-cd-hardware.png"
+      },
+      "keywords": [
+        "sega cd",
+        "mega-cd",
+        "sega",
+        "fourth generation",
+        "cd-rom",
+        "fmv",
+        "1991"
+      ]
+    },
+    {
+      "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+      "id": "console-philips-cd-i",
+      "slug": "philips-cd-i",
+      "name": "Philips CD-i",
+      "manufacturer": "Philips",
+      "generation": "Fourth Generation",
+      "generationNumber": 4,
+      "originalReleaseYear": 1991,
+      "exactReleaseDate": "December 3, 1991",
+      "mediaFormat": "CD-i / CD-ROM / Video CD",
+      "significance": "Infamous for licensing iconic Nintendo franchises (Mario and Zelda) during the aborted SNES-CD alliance, resulting in legendary full-motion video cutscenes.",
+      "verifiedFactualData": {
+        "cpu": "Philips 68070 (Motorola 68000 core) @ 15.5 MHz",
+        "gpuOrVideoChip": "MCD 212 custom video processor",
+        "ram": "1 MB RAM"
+      },
+      "editorialContent": {
+        "overview": "Philips' interactive multimedia standard intended as an all-in-one educational, encyclopedia, and interactive movie player.",
+        "marketLegacy": "Infamous for licensing iconic Nintendo franchises (Mario and Zelda) during the aborted SNES-CD alliance, resulting in legendary full-motion video cutscenes.",
+        "controllerDesign": "Infrared wireless remote, Commander controller"
+      },
+      "keyGames": [
+        "hotel-mario",
+        "zelda-wands-of-gamelon",
+        "burn-cycle"
+      ],
+      "assets": {
+        "mainImage": "/assets/images/consoles/philips-cd-i.png",
+        "heroImage": "/assets/images/consoles/philips-cd-i-hero.png",
+        "hardwareImage": "/assets/images/consoles/philips-cd-i-hardware.png"
+      },
+      "keywords": [
+        "philips cd-i",
+        "cd-i",
+        "multimedia",
+        "fourth generation",
+        "1991",
+        "zelda"
+      ]
+    },
+    {
+      "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+      "id": "console-sega-32x",
+      "slug": "sega-32x",
+      "name": "Sega 32X",
+      "manufacturer": "Sega",
+      "generation": "Fourth Generation",
+      "generationNumber": 4,
+      "originalReleaseYear": 1994,
+      "exactReleaseDate": "November 21, 1994",
+      "mediaFormat": "ROM Cartridge (via Genesis pass-through)",
+      "significance": "A cautionary tale of hardware fragmentation, launching mere months before the Sega Saturn and dividing developer resources.",
+      "verifiedFactualData": {
+        "cpu": "Dual Hitachi SH-2 32-bit RISC @ 23 MHz",
+        "gpuOrVideoChip": "Custom 32X VDP (32,768 simultaneous colors)",
+        "ram": "256 KB main RAM, 256 KB framebuffer VRAM"
+      },
+      "editorialContent": {
+        "overview": "Sega's intermediate 32-bit mushroom-shaped add-on attempting to bridge the Genesis with the impending 32-bit era.",
+        "marketLegacy": "A cautionary tale of hardware fragmentation, launching mere months before the Sega Saturn and dividing developer resources.",
+        "controllerDesign": "Sega Genesis 6-button control pad"
+      },
+      "keyGames": [
+        "virtua-racing-deluxe",
+        "star-wars-arcade",
+        "knuckles-chaotix"
+      ],
+      "assets": {
+        "mainImage": "/assets/images/consoles/sega-32x.png",
+        "heroImage": "/assets/images/consoles/sega-32x-hero.png",
+        "hardwareImage": "/assets/images/consoles/sega-32x-hardware.png"
+      },
+      "keywords": [
+        "sega 32x",
+        "32x",
+        "sega",
+        "fourth generation",
+        "32-bit add-on",
+        "1994"
+      ]
+    },
+    {
+      "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+      "id": "console-neo-geo-cd",
+      "slug": "neo-geo-cd",
+      "name": "Neo Geo CD",
+      "manufacturer": "SNK",
+      "generation": "Fourth Generation",
+      "generationNumber": 4,
+      "originalReleaseYear": 1994,
+      "exactReleaseDate": "September 9, 1994",
+      "mediaFormat": "Single-speed CD-ROM (later 2x in CDZ)",
+      "significance": "Made the arcade-masterpiece library of SNK accessible to consumers, despite being hampered by single-speed CD-ROM loading times.",
+      "verifiedFactualData": {
+        "cpu": "Motorola 68000 @ 12 MHz + Zilog Z80 @ 4 MHz",
+        "gpuOrVideoChip": "Custom graphics processor (identical to AES)",
+        "ram": "7 MB DRAM (56 Mbit)"
+      },
+      "editorialContent": {
+        "overview": "SNK's optical disc alternative to the prohibitively expensive AES cartridge system, slashing game prices to $50.",
+        "marketLegacy": "Made the arcade-masterpiece library of SNK accessible to consumers, despite being hampered by single-speed CD-ROM loading times.",
+        "controllerDesign": "Neo Geo CD control pad (thumb-switch microswitches)"
+      },
+      "keyGames": [
+        "the-king-of-fighters-94",
+        "samurai-shodown-ii",
+        "metal-slug"
+      ],
+      "assets": {
+        "mainImage": "/assets/images/consoles/neo-geo-cd.png",
+        "heroImage": "/assets/images/consoles/neo-geo-cd-hero.png",
+        "hardwareImage": "/assets/images/consoles/neo-geo-cd-hardware.png"
+      },
+      "keywords": [
+        "neo geo cd",
+        "snk",
+        "fourth generation",
+        "cd-rom",
+        "arcade ports",
+        "1994"
+      ]
+    },
+    {
+      "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+      "id": "console-fm-towns-marty",
+      "slug": "fm-towns-marty",
+      "name": "FM Towns Marty",
+      "manufacturer": "Fujitsu",
+      "generation": "Fifth Generation",
+      "generationNumber": 5,
+      "originalReleaseYear": 1993,
+      "exactReleaseDate": "February 20, 1993",
+      "mediaFormat": "CD-ROM & 3.5-inch Floppy Disk",
+      "significance": "Pioneered 32-bit x86 home gaming and backward compatibility with a rich computer software library of CD-ROM visual novels and arcade ports.",
+      "verifiedFactualData": {
+        "cpu": "AMD 386SX @ 16 MHz (32-bit)",
+        "gpuOrVideoChip": "Custom video controller (up to 32,768 colors)",
+        "ram": "2 MB RAM, 640 KB VRAM"
+      },
+      "editorialContent": {
+        "overview": "The world's first dedicated 32-bit home console, based on Fujitsu's popular Japanese FM Towns multimedia PC line.",
+        "marketLegacy": "Pioneered 32-bit x86 home gaming and backward compatibility with a rich computer software library of CD-ROM visual novels and arcade ports.",
+        "controllerDesign": "6-button digital controller"
+      },
+      "keyGames": [
+        "zak-mckracken",
+        "shadow-of-the-beast",
+        "splatterhouse"
+      ],
+      "assets": {
+        "mainImage": "/assets/images/consoles/fm-towns-marty.png",
+        "heroImage": "/assets/images/consoles/fm-towns-marty-hero.png",
+        "hardwareImage": "/assets/images/consoles/fm-towns-marty-hardware.png"
+      },
+      "keywords": [
+        "fm towns marty",
+        "fujitsu",
+        "32-bit",
+        "fifth generation",
+        "japan",
+        "1993"
+      ]
+    },
+    {
+      "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+      "id": "console-3do",
+      "slug": "3do-interactive-multiplayer",
+      "name": "3DO Interactive Multiplayer",
+      "manufacturer": "3DO Company",
+      "generation": "Fifth Generation",
+      "generationNumber": 5,
+      "originalReleaseYear": 1993,
+      "exactReleaseDate": "October 4, 1993",
+      "mediaFormat": "Double-speed CD-ROM",
+      "significance": "Pioneered a consumer-electronics open licensing model (avoiding console royalties), but suffered commercial failure due to its prohibitive $700 price point.",
+      "verifiedFactualData": {
+        "cpu": "ARM60 32-bit RISC @ 12.5 MHz",
+        "gpuOrVideoChip": "Dual custom video animation coprocessors",
+        "ram": "2 MB DRAM, 1 MB VRAM"
+      },
+      "editorialContent": {
+        "overview": "Trip Hawkins' ambitious hardware licensing model seeking to create a standardized consumer multimedia audio-visual platform.",
+        "marketLegacy": "Pioneered a consumer-electronics open licensing model (avoiding console royalties), but suffered commercial failure due to its prohibitive $700 price point.",
+        "controllerDesign": "Daisy-chained 3-button control pad with audio jack"
+      },
+      "keyGames": [
+        "road-rash",
+        "gex",
+        "the-need-for-speed"
+      ],
+      "assets": {
+        "mainImage": "/assets/images/consoles/3do-interactive-multiplayer.png",
+        "heroImage": "/assets/images/consoles/3do-interactive-multiplayer-hero.png",
+        "hardwareImage": "/assets/images/consoles/3do-interactive-multiplayer-hardware.png"
+      },
+      "keywords": [
+        "3do",
+        "trip hawkins",
+        "fifth generation",
+        "cd-rom",
+        "panasonic",
+        "1993"
+      ]
+    },
+    {
+      "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+      "id": "console-atari-jaguar",
+      "slug": "atari-jaguar",
+      "name": "Atari Jaguar",
+      "manufacturer": "Atari",
+      "generation": "Fifth Generation",
+      "generationNumber": 5,
+      "originalReleaseYear": 1993,
+      "exactReleaseDate": "November 23, 1993",
+      "mediaFormat": "ROM Cartridge (optional Jaguar CD add-on)",
+      "significance": "Marked Atari's final standalone home hardware release, highlighting the industrial shift toward unified Japanese and 32-bit CD-ROM architectures.",
+      "verifiedFactualData": {
+        "cpu": "Multi-chip architecture: 'Tom' (64-bit 26 MHz) & 'Jerry' (32-bit DSP)",
+        "gpuOrVideoChip": "Tom graphics processor (64-bit RISC)",
+        "ram": "2 MB fast-page mode DRAM"
+      },
+      "editorialContent": {
+        "overview": "Marketed as the world's first 64-bit system, remembered for Jeff Minter's Tempest 2000 and complex multi-chip programming.",
+        "marketLegacy": "Marked Atari's final standalone home hardware release, highlighting the industrial shift toward unified Japanese and 32-bit CD-ROM architectures.",
+        "controllerDesign": "Controller with directional pad, three fire buttons, and 12-key numeric keypad"
+      },
+      "keyGames": [
+        "alien-vs-predator",
+        "tempest-2000",
+        "iron-soldier"
+      ],
+      "assets": {
+        "mainImage": "/assets/images/consoles/atari-jaguar.png",
+        "heroImage": "/assets/images/consoles/atari-jaguar-hero.png",
+        "hardwareImage": "/assets/images/consoles/atari-jaguar-hardware.png"
+      },
+      "keywords": [
+        "atari jaguar",
+        "atari",
+        "fifth generation",
+        "64-bit",
+        "tempest 2000",
+        "1993"
+      ]
+    },
+    {
+      "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+      "id": "console-sega-saturn",
+      "slug": "sega-saturn",
+      "name": "Sega Saturn",
+      "manufacturer": "Sega",
+      "generation": "Fifth Generation",
+      "generationNumber": 5,
+      "originalReleaseYear": 1994,
+      "exactReleaseDate": "November 22, 1994",
+      "mediaFormat": "Double-speed CD-ROM",
+      "significance": "Showcased master-class 2D performance and groundbreaking arcade 3D conversions, though its dual-CPU architecture proved notoriously difficult for third parties to program.",
+      "verifiedFactualData": {
+        "cpu": "Dual Hitachi SH-2 32-bit RISC @ 28.6 MHz (8 processors total)",
+        "gpuOrVideoChip": "VDP1 (sprites/polygons) + VDP2 (background planes)",
+        "ram": "2 MB work RAM, 1.5 MB VRAM, 512 KB audio RAM"
+      },
+      "editorialContent": {
+        "overview": "Sega's complex dual-CPU architecture that achieved 2D sprite perfection and arcade-quality 3D ports.",
+        "marketLegacy": "Showcased master-class 2D performance and groundbreaking arcade 3D conversions, though its dual-CPU architecture proved notoriously difficult for third parties to program.",
+        "controllerDesign": "Six-button digital control pad, 3D analog pad (1996)"
+      },
+      "keyGames": [
+        "panzer-dragoon-saga",
+        "virtua-fighter-2",
+        "nights-into-dreams",
+        "radiant-silvergun"
+      ],
+      "assets": {
+        "mainImage": "/assets/images/consoles/sega-saturn.png",
+        "heroImage": "/assets/images/consoles/sega-saturn-hero.png",
+        "hardwareImage": "/assets/images/consoles/sega-saturn-hardware.png"
+      },
+      "keywords": [
+        "sega saturn",
+        "sega",
+        "fifth generation",
+        "32-bit",
+        "dual cpu",
+        "1994"
+      ]
+    },
+    {
+      "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+      "id": "console-playstation-1",
+      "slug": "playstation",
+      "name": "Sony PlayStation",
+      "manufacturer": "Sony",
+      "generation": "Fifth Generation",
+      "generationNumber": 5,
+      "originalReleaseYear": 1994,
+      "exactReleaseDate": "December 3, 1994",
+      "mediaFormat": "Double-speed CD-ROM (black optical disc)",
+      "significance": "The first computer entertainment platform in history to ship over 100 million units, permanently making gaming a dominant mature global medium.",
+      "verifiedFactualData": {
+        "cpu": "MIPS R3000A-compatible 32-bit RISC @ 33.87 MHz",
+        "gpuOrVideoChip": "Sony custom Geometry Transformation Engine (GTE)",
+        "ram": "2 MB main RAM, 1 MB VRAM, 512 KB sound RAM"
+      },
+      "editorialContent": {
+        "overview": "Ken Kutaragi's revolutionary 3D geometry engine that broke Nintendo's stranglehold and sold over 100 million units.",
+        "marketLegacy": "The first computer entertainment platform in history to ship over 100 million units, permanently making gaming a dominant mature global medium.",
+        "controllerDesign": "PlayStation digital controller, Dual Analog, DualShock (1997)"
+      },
+      "keyGames": [
+        "metal-gear-solid",
+        "final-fantasy-vii",
+        "resident-evil",
+        "gran-turismo",
+        "resident-evil-2",
+        "castlevania-symphony-of-the-night"
+      ],
+      "assets": {
+        "mainImage": "/assets/images/consoles/playstation.png",
+        "heroImage": "/assets/images/consoles/playstation-hero.png",
+        "hardwareImage": "/assets/images/consoles/playstation-hardware.png"
+      },
+      "keywords": [
+        "playstation",
+        "ps1",
+        "sony",
+        "fifth generation",
+        "32-bit",
+        "cd-rom",
+        "dualshock",
+        "1994"
+      ]
+    },
+    {
+      "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+      "id": "console-pc-fx",
+      "slug": "pc-fx",
+      "name": "NEC PC-FX",
+      "manufacturer": "NEC",
+      "generation": "Fifth Generation",
+      "generationNumber": 5,
+      "originalReleaseYear": 1994,
+      "exactReleaseDate": "December 23, 1994",
+      "mediaFormat": "Double-speed CD-ROM",
+      "significance": "A unique historical dead-end that rejected 3D polygonal accelerators in favor of 30 FPS full-screen JPEG anime playback, finding a cult niche in Japan.",
+      "verifiedFactualData": {
+        "cpu": "NEC V810 32-bit RISC @ 21.5 MHz",
+        "gpuOrVideoChip": "Custom video chip capable of full-screen JPEG video decoding",
+        "ram": "2 MB main RAM, 1.25 MB VRAM"
+      },
+      "editorialContent": {
+        "overview": "NEC's unique tower-chassis successor to the PC Engine, engineered entirely around anime Full-Motion Video decompression rather than 3D polygons.",
+        "marketLegacy": "A unique historical dead-end that rejected 3D polygonal accelerators in favor of 30 FPS full-screen JPEG anime playback, finding a cult niche in Japan.",
+        "controllerDesign": "PC-FX 6-button control pad"
+      },
+      "keyGames": [
+        "battle-heat",
+        "der-langrisser-fx",
+        "zenki-fx"
+      ],
+      "assets": {
+        "mainImage": "/assets/images/consoles/pc-fx.png",
+        "heroImage": "/assets/images/consoles/pc-fx-hero.png",
+        "hardwareImage": "/assets/images/consoles/pc-fx-hardware.png"
+      },
+      "keywords": [
+        "pc-fx",
+        "nec",
+        "fifth generation",
+        "anime fmv",
+        "japan",
+        "1994"
+      ]
+    },
+    {
+      "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+      "id": "console-virtual-boy",
+      "slug": "virtual-boy",
+      "name": "Nintendo Virtual Boy",
+      "manufacturer": "Nintendo",
+      "generation": "Fifth Generation",
+      "generationNumber": 5,
+      "originalReleaseYear": 1995,
+      "exactReleaseDate": "July 21, 1995",
+      "mediaFormat": "ROM Cartridge",
+      "significance": "Nintendo's shortest-lived hardware venture, remembered as an eccentric precursor to modern virtual reality that explored true parallax stereoscopic 3D.",
+      "verifiedFactualData": {
+        "cpu": "NEC V810 32-bit RISC @ 20 MHz",
+        "gpuOrVideoChip": "Dual oscillating mirror red LED display scanners (384x224)",
+        "ram": "128 KB main RAM, 128 KB VRAM"
+      },
+      "editorialContent": {
+        "overview": "Gunpei Yokoi's tabletop red-monochrome stereoscopic 3D headset that projected virtual depth using oscillating mirror lines.",
+        "marketLegacy": "Nintendo's shortest-lived hardware venture, remembered as an eccentric precursor to modern virtual reality that explored true parallax stereoscopic 3D.",
+        "controllerDesign": "Dual D-pad symmetrical M-shaped controller"
+      },
+      "keyGames": [
+        "wario-land-vb",
+        "teleroboxer",
+        "mario-clash"
+      ],
+      "assets": {
+        "mainImage": "/assets/images/consoles/virtual-boy.png",
+        "heroImage": "/assets/images/consoles/virtual-boy-hero.png",
+        "hardwareImage": "/assets/images/consoles/virtual-boy-hardware.png"
+      },
+      "keywords": [
+        "virtual boy",
+        "nintendo",
+        "gunpei yokoi",
+        "stereoscopic 3d",
+        "red led",
+        "fifth generation",
+        "1995"
+      ]
+    },
+    {
+      "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+      "id": "console-apple-pippin",
+      "slug": "apple-bandai-pippin",
+      "name": "Apple Bandai Pippin",
+      "manufacturer": "Apple / Bandai",
+      "generation": "Fifth Generation",
+      "generationNumber": 5,
+      "originalReleaseYear": 1996,
+      "exactReleaseDate": "March 28, 1996",
+      "mediaFormat": "Quad-speed 4x CD-ROM",
+      "significance": "A fascinating failure of the multimedia appliance era, representing Apple's sole entry into the dedicated home video game console market.",
+      "verifiedFactualData": {
+        "cpu": "PowerPC 603 @ 66 MHz",
+        "gpuOrVideoChip": "Custom 8/16-bit video chip",
+        "ram": "6 MB shared system/video memory"
+      },
+      "editorialContent": {
+        "overview": "Apple's open multimedia computer-console platform manufactured by Bandai, running a stripped-down version of classic Mac OS.",
+        "marketLegacy": "A fascinating failure of the multimedia appliance era, representing Apple's sole entry into the dedicated home video game console market.",
+        "controllerDesign": "AppleJack wireless controller with integrated trackball"
+      },
+      "keyGames": [
+        "super-marathon",
+        "gundam-tactics",
+        "racing-days"
+      ],
+      "assets": {
+        "mainImage": "/assets/images/consoles/apple-bandai-pippin.png",
+        "heroImage": "/assets/images/consoles/apple-bandai-pippin-hero.png",
+        "hardwareImage": "/assets/images/consoles/apple-bandai-pippin-hardware.png"
+      },
+      "keywords": [
+        "apple",
+        "pippin",
+        "bandai",
+        "macintosh",
+        "fifth generation",
+        "1996"
+      ]
+    },
+    {
+      "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+      "id": "console-nintendo-64",
+      "slug": "nintendo-64",
+      "name": "Nintendo 64",
+      "manufacturer": "Nintendo",
+      "generation": "Fifth Generation",
+      "generationNumber": 5,
+      "originalReleaseYear": 1996,
+      "exactReleaseDate": "June 23, 1996",
+      "mediaFormat": "Silicon ROM Cartridge (up to 64MB)",
+      "significance": "Standardized the analog thumbstick, four integrated controller ports for local multiplayer, and established the grammar of spatial 3D game design.",
+      "verifiedFactualData": {
+        "cpu": "NEC VR4300 (MIPS 64-bit) @ 93.75 MHz + SGI RCP @ 62.5 MHz",
+        "gpuOrVideoChip": "Silicon Graphics Reality Coprocessor (RDP/RSP)",
+        "ram": "4 MB unified RDRAM (expandable to 8 MB with Expansion Pak)"
+      },
+      "editorialContent": {
+        "overview": "Silicon Graphics coprocessor powerhouse that established 360-degree analog control and foundational 3D spatial navigation.",
+        "marketLegacy": "Standardized the analog thumbstick, four integrated controller ports for local multiplayer, and established the grammar of spatial 3D game design.",
+        "controllerDesign": "Trident three-prong controller with analog thumbstick, trigger Z-button"
+      },
+      "keyGames": [
+        "super-mario-64",
+        "the-legend-of-zelda-ocarina-of-time",
+        "goldeneye-007",
+        "super-smash-bros"
+      ],
+      "assets": {
+        "mainImage": "/assets/images/consoles/nintendo-64.png",
+        "heroImage": "/assets/images/consoles/nintendo-64-hero.png",
+        "hardwareImage": "/assets/images/consoles/nintendo-64-hardware.png"
+      },
+      "keywords": [
+        "nintendo 64",
+        "n64",
+        "nintendo",
+        "fifth generation",
+        "64-bit",
+        "analog stick",
+        "1996"
+      ]
+    },
+    {
+      "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+      "id": "console-game-boy-color",
+      "slug": "game-boy-color",
+      "name": "Nintendo Game Boy Color",
+      "manufacturer": "Nintendo",
+      "generation": "Fifth Generation",
+      "generationNumber": 5,
+      "originalReleaseYear": 1998,
+      "exactReleaseDate": "October 21, 1998",
+      "mediaFormat": "ROM Cartridge",
+      "significance": "Maintained the Game Boy's untouchable handheld dominance into the late 1990s with complete backward compatibility and vibrant 56-color palettes.",
+      "verifiedFactualData": {
+        "cpu": "Custom 8-bit Sharp Z80 workalike @ 4.19 / 8.38 MHz (dual speed)",
+        "gpuOrVideoChip": "Custom 56-color reflective LCD controller",
+        "ram": "32 KB main RAM, 16 KB VRAM"
+      },
+      "editorialContent": {
+        "overview": "Colorized evolution of the Game Boy line with backward compatibility, infrared communications, and double processor clock.",
+        "marketLegacy": "Maintained the Game Boy's untouchable handheld dominance into the late 1990s with complete backward compatibility and vibrant 56-color palettes.",
+        "controllerDesign": "Integrated D-pad, A, B, Select, Start buttons"
+      },
+      "keyGames": [
+        "pokemon-gold-silver",
+        "the-legend-of-zelda-oracle-of-seasons",
+        "super-mario-bros-deluxe"
+      ],
+      "assets": {
+        "mainImage": "/assets/images/consoles/game-boy-color.png",
+        "heroImage": "/assets/images/consoles/game-boy-color-hero.png",
+        "hardwareImage": "/assets/images/consoles/game-boy-color-hardware.png"
+      },
+      "keywords": [
+        "game boy color",
+        "gbc",
+        "nintendo",
+        "handheld",
+        "fifth generation",
+        "1998"
+      ]
+    },
+    {
+      "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+      "id": "console-neo-geo-pocket-color",
+      "slug": "neo-geo-pocket-color",
+      "name": "Neo Geo Pocket Color",
+      "manufacturer": "SNK",
+      "generation": "Fifth Generation",
+      "generationNumber": 5,
+      "originalReleaseYear": 1999,
+      "exactReleaseDate": "March 19, 1999",
+      "mediaFormat": "ROM Cartridge",
+      "significance": "Celebrated by fighting game enthusiasts for having the finest directional control interface ever placed on a dedicated handheld.",
+      "verifiedFactualData": {
+        "cpu": "Toshiba TLCS-900H 16-bit core @ 6.144 MHz + Z80 @ 3.072 MHz",
+        "gpuOrVideoChip": "Custom color LCD controller (146 colors on screen)",
+        "ram": "128 KB RAM, 4 KB VRAM"
+      },
+      "editorialContent": {
+        "overview": "SNK's beloved portable featuring an arcade-quality mechanical microswitched thumbstick and exceptional battery life.",
+        "marketLegacy": "Celebrated by fighting game enthusiasts for having the finest directional control interface ever placed on a dedicated handheld.",
+        "controllerDesign": "Clicky microswitched 8-way directional thumbstick and dual buttons"
+      },
+      "keyGames": [
+        "snk-vs-capcom-card-fighters-clash",
+        "match-of-the-millennium",
+        "metal-slug-1st-mission"
+      ],
+      "assets": {
+        "mainImage": "/assets/images/consoles/neo-geo-pocket-color.png",
+        "heroImage": "/assets/images/consoles/neo-geo-pocket-color-hero.png",
+        "hardwareImage": "/assets/images/consoles/neo-geo-pocket-color-hardware.png"
+      },
+      "keywords": [
+        "neo geo pocket color",
+        "snk",
+        "handheld",
+        "microswitch",
+        "fifth generation",
+        "1999"
+      ]
+    },
+    {
+      "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+      "id": "console-dreamcast",
+      "slug": "dreamcast",
+      "name": "Sega Dreamcast",
+      "manufacturer": "Sega",
+      "generation": "Sixth Generation",
+      "generationNumber": 6,
+      "originalReleaseYear": 1998,
+      "exactReleaseDate": "November 27, 1998",
+      "mediaFormat": "GD-ROM (1.2 GB proprietary optical disc)",
+      "significance": "The first home console shipped with a standard built-in modem for online gameplay and the platform that birthed console MMO culture.",
+      "verifiedFactualData": {
+        "cpu": "Hitachi SH-4 32-bit RISC @ 200 MHz",
+        "gpuOrVideoChip": "NEC PowerVR2 CLX2 @ 100 MHz",
+        "ram": "16 MB main RAM, 8 MB VRAM, 2 MB sound RAM"
+      },
+      "editorialContent": {
+        "overview": "Sega's forward-looking swan song, introducing built-in internet modems, arcade-perfect graphics, and VMU memory screens.",
+        "marketLegacy": "The first home console shipped with a standard built-in modem for online gameplay and the platform that birthed console MMO culture.",
+        "controllerDesign": "Four-port analog controller with dual expansion slots for VMU"
+      },
+      "keyGames": [
+        "shenmue",
+        "sonic-adventure",
+        "soulcalibur",
+        "jet-set-radio",
+        "phantasy-star-online"
+      ],
+      "assets": {
+        "mainImage": "/assets/images/consoles/dreamcast.png",
+        "heroImage": "/assets/images/consoles/dreamcast-hero.png",
+        "hardwareImage": "/assets/images/consoles/dreamcast-hardware.png"
+      },
+      "keywords": [
+        "dreamcast",
+        "sega",
+        "sixth generation",
+        "gd-rom",
+        "online modem",
+        "vmu",
+        "1998"
+      ]
+    },
+    {
+      "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+      "id": "console-playstation-2",
+      "slug": "playstation-2",
+      "name": "Sony PlayStation 2",
+      "manufacturer": "Sony",
+      "generation": "Sixth Generation",
+      "generationNumber": 6,
+      "originalReleaseYear": 2000,
+      "exactReleaseDate": "March 4, 2000",
+      "mediaFormat": "DVD-ROM / CD-ROM",
+      "significance": "Sold over 155 million units worldwide, popularized the DVD video format globally, and maintained market dominance across a historic 13-year lifespan.",
+      "verifiedFactualData": {
+        "cpu": "Emotion Engine 128-bit SIMD @ 294.912 MHz",
+        "gpuOrVideoChip": "Graphics Synthesizer @ 147.456 MHz",
+        "ram": "32 MB Direct RDRAM, 4 MB embedded eDRAM"
+      },
+      "editorialContent": {
+        "overview": "The Emotion Engine monolith and affordable DVD player that became the best-selling video game console in history.",
+        "marketLegacy": "Sold over 155 million units worldwide, popularized the DVD video format globally, and maintained market dominance across a historic 13-year lifespan.",
+        "controllerDesign": "DualShock 2 with pressure-sensitive analog buttons"
+      },
+      "keyGames": [
+        "grand-theft-auto-iii",
+        "grand-theft-auto-san-andreas",
+        "silent-hill-2",
+        "shadow-of-the-colossus",
+        "metal-gear-solid-3"
+      ],
+      "assets": {
+        "mainImage": "/assets/images/consoles/playstation-2.png",
+        "heroImage": "/assets/images/consoles/playstation-2-hero.png",
+        "hardwareImage": "/assets/images/consoles/playstation-2-hardware.png"
+      },
+      "keywords": [
+        "playstation 2",
+        "ps2",
+        "sony",
+        "sixth generation",
+        "emotion engine",
+        "dvd",
+        "2000"
+      ]
+    },
+    {
+      "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+      "id": "console-game-boy-advance",
+      "slug": "game-boy-advance",
+      "name": "Nintendo Game Boy Advance",
+      "manufacturer": "Nintendo",
+      "generation": "Sixth Generation",
+      "generationNumber": 6,
+      "originalReleaseYear": 2001,
+      "exactReleaseDate": "March 21, 2001",
+      "mediaFormat": "ROM Cartridge",
+      "significance": "Maintained the commercial vitality of elite 2D sprite artistry during the industry's wholesale transition to 3D polygons.",
+      "verifiedFactualData": {
+        "cpu": "32-bit ARM7TDMI @ 16.78 MHz + Z80 coprocessor @ 8.38 MHz",
+        "gpuOrVideoChip": "Custom 2D hardware graphics engine",
+        "ram": "32 KB internal RAM, 256 KB external RAM, 96 KB VRAM"
+      },
+      "editorialContent": {
+        "overview": "A 32-bit pocket Super Nintendo that extended the Golden Age of 2D pixel art well into the 21st century.",
+        "marketLegacy": "Maintained the commercial vitality of elite 2D sprite artistry during the industry's wholesale transition to 3D polygons.",
+        "controllerDesign": "Horizontal form-factor with D-pad, A, B, L, and R shoulder buttons"
+      },
+      "keyGames": [
+        "pokemon-ruby-sapphire",
+        "metroid-fusion",
+        "castlevania-aria-of-sorrow",
+        "advance-wars"
+      ],
+      "assets": {
+        "mainImage": "/assets/images/consoles/game-boy-advance.png",
+        "heroImage": "/assets/images/consoles/game-boy-advance-hero.png",
+        "hardwareImage": "/assets/images/consoles/game-boy-advance-hardware.png"
+      },
+      "keywords": [
+        "game boy advance",
+        "gba",
+        "nintendo",
+        "handheld",
+        "sixth generation",
+        "32-bit",
+        "2001"
+      ]
+    },
+    {
+      "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+      "id": "console-gamecube",
+      "slug": "gamecube",
+      "name": "Nintendo GameCube",
+      "manufacturer": "Nintendo",
+      "generation": "Sixth Generation",
+      "generationNumber": 6,
+      "originalReleaseYear": 2001,
+      "exactReleaseDate": "September 14, 2001",
+      "mediaFormat": "MiniDVD proprietary optical disc (1.5 GB)",
+      "significance": "Pioneered sub-millisecond 1T-SRAM latency architecture and birthed one of the most beloved controller ergonomics in esports history.",
+      "verifiedFactualData": {
+        "cpu": "IBM PowerPC 'Gekko' @ 486 MHz",
+        "gpuOrVideoChip": "ATI 'Flipper' @ 162 MHz",
+        "ram": "24 MB 1T-SRAM, 16 MB A-RAM, 3 MB embedded VRAM"
+      },
+      "editorialContent": {
+        "overview": "Shigeru Miyamoto's compact indigo cube, built exclusively for game responsiveness with zero boot latency.",
+        "marketLegacy": "Pioneered sub-millisecond 1T-SRAM latency architecture and birthed one of the most beloved controller ergonomics in esports history.",
+        "controllerDesign": "Ergonomic GameCube controller with analog shoulder triggers and octagonal gates"
+      },
+      "keyGames": [
+        "metroid-prime",
+        "super-smash-bros-melee",
+        "resident-evil-4",
+        "the-legend-of-zelda-the-wind-waker"
+      ],
+      "assets": {
+        "mainImage": "/assets/images/consoles/gamecube.png",
+        "heroImage": "/assets/images/consoles/gamecube-hero.png",
+        "hardwareImage": "/assets/images/consoles/gamecube-hardware.png"
+      },
+      "keywords": [
+        "gamecube",
+        "nintendo",
+        "sixth generation",
+        "indigo",
+        "gekko",
+        "flipper",
+        "melee",
+        "2001"
+      ]
+    },
+    {
+      "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+      "id": "console-panasonic-q",
+      "slug": "panasonic-q",
+      "name": "Panasonic Q",
+      "manufacturer": "Panasonic",
+      "generation": "Sixth Generation",
+      "generationNumber": 6,
+      "originalReleaseYear": 2001,
+      "exactReleaseDate": "December 13, 2001",
+      "mediaFormat": "Standard DVD-Video & MiniDVD GameCube Discs",
+      "significance": "A collector's holy grail that materialized Nintendo and Matsushita's optical licensing agreement into a luxury living-room entertainment unit.",
+      "verifiedFactualData": {
+        "cpu": "IBM PowerPC 'Gekko' @ 486 MHz",
+        "gpuOrVideoChip": "ATI 'Flipper' @ 162 MHz",
+        "ram": "24 MB 1T-SRAM, 16 MB A-RAM"
+      },
+      "editorialContent": {
+        "overview": "A rare stainless-steel multimedia hybrid created by Panasonic, playing both standard full-size DVD movies and GameCube discs.",
+        "marketLegacy": "A collector's holy grail that materialized Nintendo and Matsushita's optical licensing agreement into a luxury living-room entertainment unit.",
+        "controllerDesign": "Branded grey GameCube controller with Panasonic branding"
+      },
+      "keyGames": [
+        "super-smash-bros-melee",
+        "luigis-mansion"
+      ],
+      "assets": {
+        "mainImage": "/assets/images/consoles/panasonic-q.png",
+        "heroImage": "/assets/images/consoles/panasonic-q-hero.png",
+        "hardwareImage": "/assets/images/consoles/panasonic-q-hardware.png"
+      },
+      "keywords": [
+        "panasonic q",
+        "panasonic",
+        "gamecube hybrid",
+        "dvd",
+        "sixth generation",
+        "2001"
+      ]
+    },
+    {
+      "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+      "id": "console-xbox",
+      "slug": "xbox",
+      "name": "Microsoft Xbox",
+      "manufacturer": "Microsoft",
+      "generation": "Sixth Generation",
+      "generationNumber": 6,
+      "originalReleaseYear": 2001,
+      "exactReleaseDate": "November 15, 2001",
+      "mediaFormat": "DVD-ROM",
+      "significance": "Standardized internal hard drives and integrated broadband networking in consoles, forever transforming online console multiplayer through Xbox Live.",
+      "verifiedFactualData": {
+        "cpu": "Custom Intel Pentium III Coppermine-based @ 733 MHz",
+        "gpuOrVideoChip": "Custom NVIDIA NV2A @ 233 MHz",
+        "ram": "64 MB unified DDR SDRAM @ 200 MHz"
+      },
+      "editorialContent": {
+        "overview": "Microsoft's PC-derived powerhouse featuring a built-in hard drive, broadband ethernet port, and Xbox Live network.",
+        "marketLegacy": "Standardized internal hard drives and integrated broadband networking in consoles, forever transforming online console multiplayer through Xbox Live.",
+        "controllerDesign": "Controller 'Duke' (later streamlined Controller S)"
+      },
+      "keyGames": [
+        "halo-combat-evolved",
+        "halo-2",
+        "star-wars-knights-of-the-old-republic",
+        "fable"
+      ],
+      "assets": {
+        "mainImage": "/assets/images/consoles/xbox.png",
+        "heroImage": "/assets/images/consoles/xbox-hero.png",
+        "hardwareImage": "/assets/images/consoles/xbox-hardware.png"
+      },
+      "keywords": [
+        "xbox",
+        "microsoft",
+        "sixth generation",
+        "halo",
+        "xbox live",
+        "hard drive",
+        "2001"
+      ]
+    },
+    {
+      "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+      "id": "console-n-gage",
+      "slug": "n-gage",
+      "name": "Nokia N-Gage",
+      "manufacturer": "Nokia",
+      "generation": "Sixth Generation",
+      "generationNumber": 6,
+      "originalReleaseYear": 2003,
+      "exactReleaseDate": "October 7, 2003",
+      "mediaFormat": "MultiMediaCard (MMC)",
+      "significance": "Pioneered cellular mobile gaming networks via N-Gage Arena, despite widespread public mockery for its 'taco-style' phone call ergonomics.",
+      "verifiedFactualData": {
+        "cpu": "ARM920T @ 104 MHz",
+        "gpuOrVideoChip": "Integrated software rendering on portrait screen (176x208)",
+        "ram": "3.4 MB internal flash storage, 16 MB RAM"
+      },
+      "editorialContent": {
+        "overview": "Nokia's ambitious mobile-phone-meets-handheld-console hybrid, introducing wireless cellular multiplayer years ahead of its time.",
+        "marketLegacy": "Pioneered cellular mobile gaming networks via N-Gage Arena, despite widespread public mockery for its 'taco-style' phone call ergonomics.",
+        "controllerDesign": "Integrated telephone keypad and directional control pad"
+      },
+      "keyGames": [
+        "tony-hawk-pro-skater",
+        "pocket-kingdom",
+        "pathway-to-glory"
+      ],
+      "assets": {
+        "mainImage": "/assets/images/consoles/n-gage.png",
+        "heroImage": "/assets/images/consoles/n-gage-hero.png",
+        "hardwareImage": "/assets/images/consoles/n-gage-hardware.png"
+      },
+      "keywords": [
+        "n-gage",
+        "nokia",
+        "cellular",
+        "handheld",
+        "sixth generation",
+        "2003"
+      ]
+    },
+    {
+      "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+      "id": "console-nintendo-ds",
+      "slug": "nintendo-ds",
+      "name": "Nintendo DS",
+      "manufacturer": "Nintendo",
+      "generation": "Seventh Generation",
+      "generationNumber": 7,
+      "originalReleaseYear": 2004,
+      "exactReleaseDate": "November 21, 2004",
+      "mediaFormat": "DS Game Card (ROM)",
+      "significance": "Anticipated modern capacitive touchscreen mobile interfaces, selling over 154 million units and pioneering intuitive stylus-based interaction.",
+      "verifiedFactualData": {
+        "cpu": "ARM946E-S @ 67 MHz + ARM7TDMI @ 33 MHz",
+        "gpuOrVideoChip": "Custom 2D/3D dual-screen graphics processor",
+        "ram": "4 MB mobile RAM (later 16 MB in DSi)"
+      },
+      "editorialContent": {
+        "overview": "Dual-screen, stylus-driven touchscreen innovation that became the second highest-selling gaming system in human history.",
+        "marketLegacy": "Anticipated modern capacitive touchscreen mobile interfaces, selling over 154 million units and pioneering intuitive stylus-based interaction.",
+        "controllerDesign": "Dual screens (resistive lower touch screen with stylus), microphone"
+      },
+      "keyGames": [
+        "new-super-mario-bros",
+        "mario-kart-ds",
+        "brain-age",
+        "pokemon-diamond-pearl"
+      ],
+      "assets": {
+        "mainImage": "/assets/images/consoles/nintendo-ds.png",
+        "heroImage": "/assets/images/consoles/nintendo-ds-hero.png",
+        "hardwareImage": "/assets/images/consoles/nintendo-ds-hardware.png"
+      },
+      "keywords": [
+        "nintendo ds",
+        "ds",
+        "nintendo",
+        "touch screen",
+        "handheld",
+        "seventh generation",
+        "2004"
+      ]
+    },
+    {
+      "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+      "id": "console-psp",
+      "slug": "playstation-portable",
+      "name": "PlayStation Portable (PSP)",
+      "manufacturer": "Sony",
+      "generation": "Seventh Generation",
+      "generationNumber": 7,
+      "originalReleaseYear": 2004,
+      "exactReleaseDate": "December 12, 2004",
+      "mediaFormat": "Universal Media Disc (UMD 1.8GB optical disc)",
+      "significance": "The first portable console to mount a serious commercial challenge against Nintendo's handheld supremacy, selling over 80 million units worldwide.",
+      "verifiedFactualData": {
+        "cpu": "MIPS R4000-based 32-bit core @ 333 MHz",
+        "gpuOrVideoChip": "Sony custom graphics core @ 166 MHz",
+        "ram": "32 MB main RAM (64 MB in PSP-2000/3000), 4 MB eDRAM"
+      },
+      "editorialContent": {
+        "overview": "Sony's gorgeous wide-aspect handheld delivering console-fidelity 3D graphics and multimedia playback on a 4.3-inch TFT LCD.",
+        "marketLegacy": "The first portable console to mount a serious commercial challenge against Nintendo's handheld supremacy, selling over 80 million units worldwide.",
+        "controllerDesign": "D-pad, 4 action buttons, analog sliding nub, L/R triggers"
+      },
+      "keyGames": [
+        "monster-hunter-freedom-unite",
+        "god-of-war-chains-of-olympus",
+        "metal-gear-solid-peace-walker"
+      ],
+      "assets": {
+        "mainImage": "/assets/images/consoles/playstation-portable.png",
+        "heroImage": "/assets/images/consoles/playstation-portable-hero.png",
+        "hardwareImage": "/assets/images/consoles/playstation-portable-hardware.png"
+      },
+      "keywords": [
+        "psp",
+        "playstation portable",
+        "sony",
+        "umd",
+        "handheld",
+        "seventh generation",
+        "2004"
+      ]
+    },
+    {
+      "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+      "id": "console-xbox-360",
+      "slug": "xbox-360",
+      "name": "Microsoft Xbox 360",
+      "manufacturer": "Microsoft",
+      "generation": "Seventh Generation",
+      "generationNumber": 7,
+      "originalReleaseYear": 2005,
+      "exactReleaseDate": "November 22, 2005",
+      "mediaFormat": "Dual-layer DVD-ROM (optional external HD-DVD add-on)",
+      "significance": "Pioneered modern digital console distribution via Xbox Live Arcade (XBLA), unified matchmaking, and universal gamertag Gamerscore Achievements.",
+      "verifiedFactualData": {
+        "cpu": "Triple-core 3.2 GHz PowerPC Xenon",
+        "gpuOrVideoChip": "ATI Xenos @ 500 MHz (Unified Shader Architecture)",
+        "ram": "512 MB unified GDDR3 RAM @ 700 MHz, 10 MB eDRAM on GPU"
+      },
+      "editorialContent": {
+        "overview": "The system that established HD gaming, persistent online friends lists, digital indie distribution via XBLA, and Achievements.",
+        "marketLegacy": "Pioneered modern digital console distribution via Xbox Live Arcade (XBLA), unified matchmaking, and universal gamertag Gamerscore Achievements.",
+        "controllerDesign": "Xbox 360 wireless controller (guide button, offset thumbsticks)"
+      },
+      "keyGames": [
+        "halo-3",
+        "gears-of-war",
+        "bioshock",
+        "call-of-duty-4-modern-warfare",
+        "mass-effect"
+      ],
+      "assets": {
+        "mainImage": "/assets/images/consoles/xbox-360.png",
+        "heroImage": "/assets/images/consoles/xbox-360-hero.png",
+        "hardwareImage": "/assets/images/consoles/xbox-360-hardware.png"
+      },
+      "keywords": [
+        "xbox 360",
+        "microsoft",
+        "seventh generation",
+        "hd",
+        "xbla",
+        "achievements",
+        "2005"
+      ]
+    },
+    {
+      "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+      "id": "console-playstation-3",
+      "slug": "playstation-3",
+      "name": "Sony PlayStation 3",
+      "manufacturer": "Sony",
+      "generation": "Seventh Generation",
+      "generationNumber": 7,
+      "originalReleaseYear": 2006,
+      "exactReleaseDate": "November 11, 2006",
+      "mediaFormat": "Blu-ray Disc (25GB/50GB) & DVD/CD",
+      "significance": "Won the high-definition optical disc format war against HD-DVD and served as a technological powerhouse for narrative-driven cinematic adventures.",
+      "verifiedFactualData": {
+        "cpu": "Cell Broadband Engine (1 PPE + 7 SPEs) @ 3.2 GHz",
+        "gpuOrVideoChip": "NVIDIA RSX 'Reality Synthesizer' @ 500 MHz",
+        "ram": "256 MB XDR DRAM main + 256 MB GDDR3 VRAM"
+      },
+      "editorialContent": {
+        "overview": "Sony's high-tech Cell architecture monolith that established Blu-ray as the global physical high-definition video format standard.",
+        "marketLegacy": "Won the high-definition optical disc format war against HD-DVD and served as a technological powerhouse for narrative-driven cinematic adventures.",
+        "controllerDesign": "Sixaxis motion-sensing controller, later DualShock 3"
+      },
+      "keyGames": [
+        "the-last-of-us",
+        "uncharted-2",
+        "dark-souls",
+        "metal-gear-solid-4",
+        "red-dead-redemption"
+      ],
+      "assets": {
+        "mainImage": "/assets/images/consoles/playstation-3.png",
+        "heroImage": "/assets/images/consoles/playstation-3-hero.png",
+        "hardwareImage": "/assets/images/consoles/playstation-3-hardware.png"
+      },
+      "keywords": [
+        "playstation 3",
+        "ps3",
+        "sony",
+        "cell broadband engine",
+        "blu-ray",
+        "seventh generation",
+        "2006"
+      ]
+    },
+    {
+      "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+      "id": "console-wii",
+      "slug": "wii",
+      "name": "Nintendo Wii",
+      "manufacturer": "Nintendo",
+      "generation": "Seventh Generation",
+      "generationNumber": 7,
+      "originalReleaseYear": 2006,
+      "exactReleaseDate": "November 19, 2006",
+      "mediaFormat": "Wii Optical Disc (proprietary 4.7GB/8.54GB)",
+      "significance": "Democratized video gaming across all ages and demographics through motion controls, selling over 101 million units worldwide.",
+      "verifiedFactualData": {
+        "cpu": "IBM PowerPC 'Broadway' @ 729 MHz",
+        "gpuOrVideoChip": "ATI 'Hollywood' @ 243 MHz",
+        "ram": "88 MB total system memory (24 MB 1T-SRAM + 64 MB GDDR3)"
+      },
+      "editorialContent": {
+        "overview": "Satoru Iwata's Blue Ocean phenomenon that conquered living rooms globally through natural motion controls and accessible physical play.",
+        "marketLegacy": "Democratized video gaming across all ages and demographics through motion controls, selling over 101 million units worldwide.",
+        "controllerDesign": "Wii Remote with infrared pointing & 3D accelerometer, Nunchuk"
+      },
+      "keyGames": [
+        "wii-sports",
+        "super-mario-galaxy",
+        "the-legend-of-zelda-twilight-princess"
+      ],
+      "assets": {
+        "mainImage": "/assets/images/consoles/wii.png",
+        "heroImage": "/assets/images/consoles/wii-hero.png",
+        "hardwareImage": "/assets/images/consoles/wii-hardware.png"
+      },
+      "keywords": [
+        "wii",
+        "nintendo",
+        "seventh generation",
+        "motion control",
+        "wii sports",
+        "wiimote",
+        "2006"
+      ]
+    },
+    {
+      "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+      "id": "console-nintendo-3ds",
+      "slug": "nintendo-3ds",
+      "name": "Nintendo 3DS",
+      "manufacturer": "Nintendo",
+      "generation": "Eighth Generation",
+      "generationNumber": 8,
+      "originalReleaseYear": 2011,
+      "exactReleaseDate": "February 26, 2011",
+      "mediaFormat": "3DS Game Card",
+      "significance": "Pioneered consumer autostereoscopic 3D display technology without glasses and cultivated local community engagement via StreetPass.",
+      "verifiedFactualData": {
+        "cpu": "Dual-core ARM11 MPCore @ 268 MHz",
+        "gpuOrVideoChip": "DMP PICA200 @ 133 MHz",
+        "ram": "128 MB FCRAM, 6 MB VRAM"
+      },
+      "editorialContent": {
+        "overview": "Autostereoscopic glasses-free 3D handheld that revived traditional portable Nintendo gaming alongside StreetPass community features.",
+        "marketLegacy": "Pioneered consumer autostereoscopic 3D display technology without glasses and cultivated local community engagement via StreetPass.",
+        "controllerDesign": "Circle Pad analog slider, touchscreen, stereoscopic 3D depth slider"
+      },
+      "keyGames": [
+        "the-legend-of-zelda-a-link-between-worlds",
+        "super-mario-3d-land",
+        "fire-emblem-awakening"
+      ],
+      "assets": {
+        "mainImage": "/assets/images/consoles/nintendo-3ds.png",
+        "heroImage": "/assets/images/consoles/nintendo-3ds-hero.png",
+        "hardwareImage": "/assets/images/consoles/nintendo-3ds-hardware.png"
+      },
+      "keywords": [
+        "3ds",
+        "nintendo",
+        "handheld",
+        "eighth generation",
+        "stereoscopic 3d",
+        "streetpass",
+        "2011"
+      ]
+    },
+    {
+      "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+      "id": "console-playstation-vita",
+      "slug": "playstation-vita",
+      "name": "PlayStation Vita",
+      "manufacturer": "Sony",
+      "generation": "Eighth Generation",
+      "generationNumber": 8,
+      "originalReleaseYear": 2011,
+      "exactReleaseDate": "December 17, 2011",
+      "mediaFormat": "PlayStation Vita Game Card",
+      "significance": "The first dedicated gaming handheld with full dual analog sticks and an OLED display, revered as a legendary platform for independent developers and Japanese RPGs.",
+      "verifiedFactualData": {
+        "cpu": "Quad-core ARM Cortex-A9 MPCore @ up to 444 MHz",
+        "gpuOrVideoChip": "PowerVR SGX543MP4+ (quad-core)",
+        "ram": "512 MB main RAM, 128 MB VRAM"
+      },
+      "editorialContent": {
+        "overview": "A technical masterpiece ahead of its time featuring dual analog sticks, a gorgeous 5-inch OLED screen, and rear touch input.",
+        "marketLegacy": "The first dedicated gaming handheld with full dual analog sticks and an OLED display, revered as a legendary platform for independent developers and Japanese RPGs.",
+        "controllerDesign": "Dual analog thumbsticks, 5-inch OLED capacitive touchscreen, rear multi-touch pad"
+      },
+      "keyGames": [
+        "persona-4-golden",
+        "gravity-rush",
+        "killzone-mercenary"
+      ],
+      "assets": {
+        "mainImage": "/assets/images/consoles/playstation-vita.png",
+        "heroImage": "/assets/images/consoles/playstation-vita-hero.png",
+        "hardwareImage": "/assets/images/consoles/playstation-vita-hardware.png"
+      },
+      "keywords": [
+        "ps vita",
+        "playstation vita",
+        "sony",
+        "handheld",
+        "eighth generation",
+        "oled",
+        "2011"
+      ]
+    },
+    {
+      "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+      "id": "console-wii-u",
+      "slug": "wii-u",
+      "name": "Nintendo Wii U",
+      "manufacturer": "Nintendo",
+      "generation": "Eighth Generation",
+      "generationNumber": 8,
+      "originalReleaseYear": 2012,
+      "exactReleaseDate": "November 18, 2012",
+      "mediaFormat": "High-density Wii U Optical Disc (25GB)",
+      "significance": "Laid the design and engineering foundation for the hybrid architecture that would achieve astronomical success with the Nintendo Switch.",
+      "verifiedFactualData": {
+        "cpu": "Triple-core IBM PowerPC 'Espresso' @ 1.24 GHz",
+        "gpuOrVideoChip": "AMD Radeon-based 'Latte' @ 550 MHz",
+        "ram": "2 GB DDR3 RAM (1 GB dedicated to games, 1 GB to OS)"
+      },
+      "editorialContent": {
+        "overview": "Nintendo's experimental dual-screen home console, introducing off-TV streaming play and asymmetric game design.",
+        "marketLegacy": "Laid the design and engineering foundation for the hybrid architecture that would achieve astronomical success with the Nintendo Switch.",
+        "controllerDesign": "Wii U GamePad with 6.2-inch resistive touchscreen, dual analog sticks, motion sensors"
+      },
+      "keyGames": [
+        "super-mario-3d-world",
+        "mario-kart-8",
+        "splatoon",
+        "super-smash-bros-for-wii-u"
+      ],
+      "assets": {
+        "mainImage": "/assets/images/consoles/wii-u.png",
+        "heroImage": "/assets/images/consoles/wii-u-hero.png",
+        "hardwareImage": "/assets/images/consoles/wii-u-hardware.png"
+      },
+      "keywords": [
+        "wii u",
+        "nintendo",
+        "eighth generation",
+        "gamepad",
+        "asymmetric gaming",
+        "miiverse",
+        "2012"
+      ]
+    },
+    {
+      "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+      "id": "console-playstation-4",
+      "slug": "playstation-4",
+      "name": "Sony PlayStation 4",
+      "manufacturer": "Sony",
+      "generation": "Eighth Generation",
+      "generationNumber": 8,
+      "originalReleaseYear": 2013,
+      "exactReleaseDate": "November 15, 2013",
+      "mediaFormat": "Blu-ray Disc & Digital Download",
+      "significance": "Pioneered integrated social sharing via the hardware Share button and re-established Sony's dominant leadership in high-fidelity console gaming.",
+      "verifiedFactualData": {
+        "cpu": "Custom 8-core AMD 'Jaguar' @ 1.6 GHz",
+        "gpuOrVideoChip": "AMD GCN 1.84 TFLOPS (18 compute units @ 800 MHz)",
+        "ram": "8 GB unified GDDR5 RAM @ 176 GB/s"
+      },
+      "editorialContent": {
+        "overview": "Mark Cerny's unified x86 developer-friendly system, introducing instantaneous social sharing and selling over 117 million units.",
+        "marketLegacy": "Pioneered integrated social sharing via the hardware Share button and re-established Sony's dominant leadership in high-fidelity console gaming.",
+        "controllerDesign": "DualShock 4 with integrated capacitive touchpad, light bar, and Share button"
+      },
+      "keyGames": [
+        "bloodborne",
+        "the-witcher-3-wild-hunt",
+        "god-of-war",
+        "red-dead-redemption-2",
+        "spider-man"
+      ],
+      "assets": {
+        "mainImage": "/assets/images/consoles/playstation-4.png",
+        "heroImage": "/assets/images/consoles/playstation-4-hero.png",
+        "hardwareImage": "/assets/images/consoles/playstation-4-hardware.png"
+      },
+      "keywords": [
+        "playstation 4",
+        "ps4",
+        "sony",
+        "eighth generation",
+        "mark cerny",
+        "share button",
+        "gddr5",
+        "2013"
+      ]
+    },
+    {
+      "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+      "id": "console-xbox-one",
+      "slug": "xbox-one",
+      "name": "Microsoft Xbox One",
+      "manufacturer": "Microsoft",
+      "generation": "Eighth Generation",
+      "generationNumber": 8,
+      "originalReleaseYear": 2013,
+      "exactReleaseDate": "November 22, 2013",
+      "mediaFormat": "Blu-ray Disc & Digital Download",
+      "significance": "Transitioned the console business from traditional isolated generations toward backward-compatible multi-platform subscription services like Xbox Game Pass.",
+      "verifiedFactualData": {
+        "cpu": "Custom 8-core AMD 'Jaguar' @ 1.75 GHz",
+        "gpuOrVideoChip": "AMD GCN 1.31 TFLOPS (12 compute units @ 853 MHz)",
+        "ram": "8 GB DDR3 RAM + 32 MB embedded static RAM (ESRAM)"
+      },
+      "editorialContent": {
+        "overview": "Microsoft's initial living-room entertainment hub that later pivoted under Phil Spencer to champion Game Pass subscription play.",
+        "marketLegacy": "Transitioned the console business from traditional isolated generations toward backward-compatible multi-platform subscription services like Xbox Game Pass.",
+        "controllerDesign": "Xbox One controller with impulse haptic triggers and 40+ ergonomic refinements"
+      },
+      "keyGames": [
+        "forza-horizon-3",
+        "halo-5-guardians",
+        "gears-of-war-4"
+      ],
+      "assets": {
+        "mainImage": "/assets/images/consoles/xbox-one.png",
+        "heroImage": "/assets/images/consoles/xbox-one-hero.png",
+        "hardwareImage": "/assets/images/consoles/xbox-one-hardware.png"
+      },
+      "keywords": [
+        "xbox one",
+        "microsoft",
+        "eighth generation",
+        "game pass",
+        "kinect",
+        "2013"
+      ]
+    },
+    {
+      "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+      "id": "console-playstation-4-pro",
+      "slug": "playstation-4-pro",
+      "name": "Sony PlayStation 4 Pro",
+      "manufacturer": "Sony",
+      "generation": "Eighth Generation",
+      "generationNumber": 8,
+      "originalReleaseYear": 2016,
+      "exactReleaseDate": "November 10, 2016",
+      "mediaFormat": "Blu-ray Disc & 4K Digital Streaming",
+      "significance": "Pioneered the mid-generation hardware refresh paradigm in console gaming, allowing players to upgrade graphics performance without breaking backward compatibility.",
+      "verifiedFactualData": {
+        "cpu": "Custom 8-core AMD 'Jaguar' @ 2.1 GHz",
+        "gpuOrVideoChip": "AMD GCN Polaris 4.2 TFLOPS (36 compute units @ 911 MHz)",
+        "ram": "8 GB unified GDDR5 RAM + 1 GB DDR3 background RAM"
+      },
+      "editorialContent": {
+        "overview": "The industry's first mid-generation console hardware upgrade, introducing 4K checkerboard rendering and HDR gaming.",
+        "marketLegacy": "Pioneered the mid-generation hardware refresh paradigm in console gaming, allowing players to upgrade graphics performance without breaking backward compatibility.",
+        "controllerDesign": "DualShock 4 v2"
+      },
+      "keyGames": [
+        "horizon-zero-dawn",
+        "god-of-war",
+        "death-stranding"
+      ],
+      "assets": {
+        "mainImage": "/assets/images/consoles/playstation-4-pro.png",
+        "heroImage": "/assets/images/consoles/playstation-4-pro-hero.png",
+        "hardwareImage": "/assets/images/consoles/playstation-4-pro-hardware.png"
+      },
+      "keywords": [
+        "playstation 4 pro",
+        "ps4 pro",
+        "sony",
+        "mid-gen",
+        "eighth generation",
+        "4k",
+        "2016"
+      ]
+    },
+    {
+      "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+      "id": "console-xbox-one-x",
+      "slug": "xbox-one-x",
+      "name": "Microsoft Xbox One X",
+      "manufacturer": "Microsoft",
+      "generation": "Eighth Generation",
+      "generationNumber": 8,
+      "originalReleaseYear": 2017,
+      "exactReleaseDate": "November 7, 2017",
+      "mediaFormat": "Ultra HD Blu-ray & Digital",
+      "significance": "Delivered true native 4K gaming and enhanced legacy backward compatibility filtering, establishing Microsoft's engineering emphasis on raw computational power.",
+      "verifiedFactualData": {
+        "cpu": "Custom 8-core AMD CPU @ 2.3 GHz",
+        "gpuOrVideoChip": "Custom AMD GCN 6.0 TFLOPS (40 compute units @ 1172 MHz)",
+        "ram": "12 GB unified GDDR5 RAM @ 326 GB/s"
+      },
+      "editorialContent": {
+        "overview": "Microsoft's high-end mid-generation refresh, achieving native 4K rendering and the title of the most powerful console in the world in 2017.",
+        "marketLegacy": "Delivered true native 4K gaming and enhanced legacy backward compatibility filtering, establishing Microsoft's engineering emphasis on raw computational power.",
+        "controllerDesign": "Xbox Wireless Controller"
+      },
+      "keyGames": [
+        "forza-horizon-4",
+        "gears-5",
+        "red-dead-redemption-2"
+      ],
+      "assets": {
+        "mainImage": "/assets/images/consoles/xbox-one-x.png",
+        "heroImage": "/assets/images/consoles/xbox-one-x-hero.png",
+        "hardwareImage": "/assets/images/consoles/xbox-one-x-hardware.png"
+      },
+      "keywords": [
+        "xbox one x",
+        "microsoft",
+        "scorpio",
+        "eighth generation",
+        "native 4k",
+        "2017"
+      ]
+    },
+    {
+      "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+      "id": "console-nintendo-switch",
+      "slug": "nintendo-switch",
+      "name": "Nintendo Switch",
+      "manufacturer": "Nintendo",
+      "generation": "Eighth Generation",
+      "generationNumber": 8,
+      "originalReleaseYear": 2017,
+      "exactReleaseDate": "March 3, 2017",
+      "mediaFormat": "Nintendo Switch Game Card (ROM)",
+      "significance": "Unified home and handheld software development under a single architecture, selling over 140 million units to become one of the most successful platforms in history.",
+      "verifiedFactualData": {
+        "cpu": "NVIDIA Custom Tegra X1 (4x Cortex-A57 + 4x Cortex-A53) @ up to 1.02 GHz",
+        "gpuOrVideoChip": "NVIDIA Maxwell-based architecture (256 CUDA cores)",
+        "ram": "4 GB LPDDR4 unified RAM"
+      },
+      "editorialContent": {
+        "overview": "The revolutionary hybrid platform that seamlessly dissolved the barrier between home living-room console and portable play.",
+        "marketLegacy": "Unified home and handheld software development under a single architecture, selling over 140 million units to become one of the most successful platforms in history.",
+        "controllerDesign": "Detachable Joy-Con controllers with HD Rumble, IR camera, and motion gyroscopes"
+      },
+      "keyGames": [
+        "the-legend-of-zelda-breath-of-the-wild",
+        "super-mario-odyssey",
+        "super-smash-bros-ultimate",
+        "animal-crossing-new-horizons"
+      ],
+      "assets": {
+        "mainImage": "/assets/images/consoles/nintendo-switch.png",
+        "heroImage": "/assets/images/consoles/nintendo-switch-hero.png",
+        "hardwareImage": "/assets/images/consoles/nintendo-switch-hardware.png"
+      },
+      "keywords": [
+        "nintendo switch",
+        "switch",
+        "nintendo",
+        "hybrid console",
+        "joy-con",
+        "eighth generation",
+        "2017"
+      ]
+    },
+    {
+      "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+      "id": "console-nintendo-switch-lite",
+      "slug": "nintendo-switch-lite",
+      "name": "Nintendo Switch Lite",
+      "manufacturer": "Nintendo",
+      "generation": "Eighth Generation",
+      "generationNumber": 8,
+      "originalReleaseYear": 2019,
+      "exactReleaseDate": "September 20, 2019",
+      "mediaFormat": "Nintendo Switch Game Card (ROM)",
+      "significance": "Completed Nintendo's total historical consolidation of portable and home software libraries into a singular hardware ecosystem.",
+      "verifiedFactualData": {
+        "cpu": "NVIDIA Custom Tegra X1+ (efficient 16nm revision)",
+        "gpuOrVideoChip": "NVIDIA Maxwell-based architecture (256 CUDA cores)",
+        "ram": "4 GB LPDDR4 unified RAM"
+      },
+      "editorialContent": {
+        "overview": "A pure handheld-dedicated iteration of the Switch hardware, trading TV docking for enhanced portability, battery efficiency, and a traditional D-pad.",
+        "marketLegacy": "Completed Nintendo's total historical consolidation of portable and home software libraries into a singular hardware ecosystem.",
+        "controllerDesign": "Integrated non-detachable controls with classic directional +D-pad"
+      },
+      "keyGames": [
+        "pokemon-sword-shield",
+        "animal-crossing-new-horizons",
+        "the-legend-of-zelda-links-awakening"
+      ],
+      "assets": {
+        "mainImage": "/assets/images/consoles/nintendo-switch-lite.png",
+        "heroImage": "/assets/images/consoles/nintendo-switch-lite-hero.png",
+        "hardwareImage": "/assets/images/consoles/nintendo-switch-lite-hardware.png"
+      },
+      "keywords": [
+        "switch lite",
+        "nintendo",
+        "handheld",
+        "eighth generation",
+        "portable",
+        "2019"
+      ]
+    },
+    {
+      "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+      "id": "console-playstation-5",
+      "slug": "playstation-5",
+      "name": "Sony PlayStation 5",
+      "manufacturer": "Sony",
+      "generation": "Ninth Generation",
+      "generationNumber": 9,
+      "originalReleaseYear": 2020,
+      "exactReleaseDate": "November 12, 2020",
+      "mediaFormat": "Ultra HD Blu-ray (up to 100GB) & Digital",
+      "significance": "Eliminated traditional loading screens via custom I/O flash pipelines and redefined tactile player feedback through haptic actuators and adaptive triggers.",
+      "verifiedFactualData": {
+        "cpu": "Custom 8-core AMD Zen 2 @ variable up to 3.5 GHz",
+        "gpuOrVideoChip": "Custom AMD RDNA 2 (10.28 TFLOPS @ 2.23 GHz)",
+        "ram": "16 GB GDDR6 unified RAM @ 448 GB/s"
+      },
+      "editorialContent": {
+        "overview": "Sony's high-speed architecture defined by near-instantaneous PCIe 4.0 SSD decompression and DualSense haptic feedback.",
+        "marketLegacy": "Eliminated traditional loading screens via custom I/O flash pipelines and redefined tactile player feedback through haptic actuators and adaptive triggers.",
+        "controllerDesign": "DualSense wireless controller with adaptive triggers and micro-voice-coil haptics"
+      },
+      "keyGames": [
+        "demons-souls",
+        "returnal",
+        "spider-man-2",
+        "god-of-war-ragnarok"
+      ],
+      "assets": {
+        "mainImage": "/assets/images/consoles/playstation-5.png",
+        "heroImage": "/assets/images/consoles/playstation-5-hero.png",
+        "hardwareImage": "/assets/images/consoles/playstation-5-hardware.png"
+      },
+      "keywords": [
+        "playstation 5",
+        "ps5",
+        "sony",
+        "ninth generation",
+        "dualsense",
+        "nvme ssd",
+        "2020"
+      ]
+    },
+    {
+      "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+      "id": "console-xbox-series-x",
+      "slug": "xbox-series-x",
+      "name": "Microsoft Xbox Series X",
+      "manufacturer": "Microsoft",
+      "generation": "Ninth Generation",
+      "generationNumber": 9,
+      "originalReleaseYear": 2020,
+      "exactReleaseDate": "November 10, 2020",
+      "mediaFormat": "Ultra HD Blu-ray (up to 100GB) & Digital",
+      "significance": "Standardized seamless multi-game Quick Resume state switching and full legacy backward compatibility spanning four hardware generations.",
+      "verifiedFactualData": {
+        "cpu": "Custom 8-core AMD Zen 2 @ 3.8 GHz (3.66 GHz with SMT)",
+        "gpuOrVideoChip": "Custom AMD RDNA 2 (12.15 TFLOPS, 52 CUs @ 1.825 GHz)",
+        "ram": "16 GB GDDR6 (10 GB @ 560 GB/s, 6 GB @ 336 GB/s)"
+      },
+      "editorialContent": {
+        "overview": "The monolithic 12-teraflop powerhouse delivering Quick Resume state-swapping and four-generation backward compatibility.",
+        "marketLegacy": "Standardized seamless multi-game Quick Resume state switching and full legacy backward compatibility spanning four hardware generations.",
+        "controllerDesign": "Xbox Wireless Controller with hybrid D-pad and dedicated Share button"
+      },
+      "keyGames": [
+        "halo-infinite",
+        "forza-horizon-5",
+        "starfield"
+      ],
+      "assets": {
+        "mainImage": "/assets/images/consoles/xbox-series-x.png",
+        "heroImage": "/assets/images/consoles/xbox-series-x-hero.png",
+        "hardwareImage": "/assets/images/consoles/xbox-series-x-hardware.png"
+      },
+      "keywords": [
+        "xbox series x",
+        "xbox",
+        "microsoft",
+        "ninth generation",
+        "quick resume",
+        "velocity architecture",
+        "2020"
+      ]
+    },
+    {
+      "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+      "id": "console-xbox-series-s",
+      "slug": "xbox-series-s",
+      "name": "Microsoft Xbox Series S",
+      "manufacturer": "Microsoft",
+      "generation": "Ninth Generation",
+      "generationNumber": 9,
+      "originalReleaseYear": 2020,
+      "exactReleaseDate": "November 10, 2020",
+      "mediaFormat": "All-Digital (No Optical Drive)",
+      "significance": "Democratized ninth-generation high-speed SSD load times and next-gen CPU architectures at an entry-level $299 price point.",
+      "verifiedFactualData": {
+        "cpu": "Custom 8-core AMD Zen 2 @ 3.6 GHz (3.4 GHz with SMT)",
+        "gpuOrVideoChip": "Custom AMD RDNA 2 (4.0 TFLOPS, 20 CUs @ 1.565 GHz)",
+        "ram": "10 GB GDDR6 (8 GB @ 224 GB/s, 2 GB @ 56 GB/s)"
+      },
+      "editorialContent": {
+        "overview": "The smallest and most accessible next-gen console in Xbox history, delivering fast NVMe SSD loading and ray tracing in an all-digital form-factor.",
+        "marketLegacy": "Democratized ninth-generation high-speed SSD load times and next-gen CPU architectures at an entry-level $299 price point.",
+        "controllerDesign": "Xbox Wireless Controller"
+      },
+      "keyGames": [
+        "forza-horizon-5",
+        "hi-fi-rush",
+        "halo-infinite"
+      ],
+      "assets": {
+        "mainImage": "/assets/images/consoles/xbox-series-s.png",
+        "heroImage": "/assets/images/consoles/xbox-series-s-hero.png",
+        "hardwareImage": "/assets/images/consoles/xbox-series-s-hardware.png"
+      },
+      "keywords": [
+        "xbox series s",
+        "series s",
+        "microsoft",
+        "all-digital",
+        "ninth generation",
+        "2020"
+      ]
+    },
+    {
+      "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+      "id": "console-playstation-5-pro",
+      "slug": "playstation-5-pro",
+      "name": "Sony PlayStation 5 Pro",
+      "manufacturer": "Sony",
+      "generation": "Ninth Generation",
+      "generationNumber": 9,
+      "originalReleaseYear": 2024,
+      "exactReleaseDate": "November 7, 2024",
+      "mediaFormat": "All-Digital (Optional Detachable Ultra HD Blu-ray Drive)",
+      "significance": "Pioneered hardware-accelerated AI neural upscaling (PSSR) on home consoles to resolve the trade-off between fidelity and 60 FPS performance.",
+      "verifiedFactualData": {
+        "cpu": "Custom 8-core AMD Zen 2 @ up to 3.85 GHz",
+        "gpuOrVideoChip": "Enhanced AMD RDNA (16.7 TFLOPS, 60 CUs, 67% more compute units) + PSSR AI upscaling",
+        "ram": "16 GB GDDR6 @ 576 GB/s + 2 GB DDR5 OS RAM"
+      },
+      "editorialContent": {
+        "overview": "Sony's high-end enthusiast refresh introducing PlayStation Spectral Super Resolution (PSSR) machine learning upscaling and advanced ray tracing.",
+        "marketLegacy": "Pioneered hardware-accelerated AI neural upscaling (PSSR) on home consoles to resolve the trade-off between fidelity and 60 FPS performance.",
+        "controllerDesign": "DualSense wireless controller with adaptive triggers and haptics"
+      },
+      "keyGames": [
+        "final-fantasy-vii-rebirth",
+        "spider-man-2",
+        "alan-wake-2"
+      ],
+      "assets": {
+        "mainImage": "/assets/images/consoles/playstation-5-pro.png",
+        "heroImage": "/assets/images/consoles/playstation-5-pro-hero.png",
+        "hardwareImage": "/assets/images/consoles/playstation-5-pro-hardware.png"
+      },
+      "keywords": [
+        "playstation 5 pro",
+        "ps5 pro",
+        "sony",
+        "ninth generation",
+        "pssr",
+        "ray tracing",
+        "2024"
+      ]
+    }
+  ]
+}

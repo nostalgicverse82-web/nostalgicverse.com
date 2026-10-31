@@ -1,0 +1,83 @@
+{
+  "id": "game-nights-into-dreams",
+  "slug": "nights-into-dreams",
+  "title": "Nights into Dreams",
+  "japaneseTitle": "ナイツ インツゥ ドリームズ",
+  "url": "/games/nights-into-dreams/",
+  "originalReleaseYear": 1996,
+  "exactReleaseDate": "1996-07-05",
+  "developer": "Sonic Team",
+  "publisher": "Sega",
+  "director": "Takashi Iizuka",
+  "designer": "Yuji Naka, Naoto Ohshima",
+  "composer": "Tomoko Sasaki, Naofumi Hataya",
+  "originalLaunchPlatform": "Sega Saturn",
+  "platforms": [
+    "Sega Saturn",
+    "PlayStation 2",
+    "PlayStation 3",
+    "Xbox 360",
+    "Microsoft Windows"
+  ],
+  "genre": "platformer",
+  "subgenres": [
+    "Acrobatic Flight",
+    "Score Attack"
+  ],
+  "era": "1990s",
+  "shortDescription": "Sonic Team's ethereal acrobatic masterpiece, introducing true 360-degree analog control to simulate the feeling of joyful, weightless flight.",
+  "historicalSignificance": "A defining high-water mark for the Sega Saturn, bundled with the revolutionary 3D Control Pad that introduced modern analog thumbstick input to console gaming alongside Super Mario 64.",
+  "editorialContent": {
+    "overview": "Directed by Takashi Iizuka and produced by Yuji Naka, Nights into Dreams follows children Claris and Elliot into the dream realm of Nightopia, where they merge with the mischievous jester NiGHTS to overcome nightmares and defeat evil Wizeman.",
+    "gameplay": "A jubilant score-attack flight simulator where players loop through rings, perform acrobatic 'paraloops', collect Ideya energy, and chain fluid aerial links under strict countdown timers.",
+    "technicalInnovation": "Bundled with Sega's analog 3D Control Pad, pioneering progressive multi-directional analog flight physics and dynamic music that adapted to player emotional mood ('A-Life' artificial life system).",
+    "culturalImpact": "Celebrated as one of the most artistic and emotionally uplifting games of the 1990s, with a dedicated cult following and universal acclaim for Tomoko Sasaki's musical score.",
+    "preservationNotes": "Preserved on Saturn CD-ROM and remastered in HD for PS3, Xbox 360, and PC."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "July 5, 1996 (Japan) / August 20, 1996 (North America)",
+    "leadPlatform": "Sega Saturn",
+    "genre": "platformer",
+    "sales": "Flagship Saturn bestseller in Japan (over 400,000 units in launch period)",
+    "awards": [
+      "Japan Game Awards Grand Prize Special Award 1996"
+    ],
+    "technicalSpecs": {
+      "engine": "Sonic Team Proprietary Saturn Engine",
+      "resolution": "352 x 240 at 30fps with Gouraud shading",
+      "soundChip": "Yamaha SCSP 32-channel dynamic adaptive A-Life audio",
+      "mediaFormat": "CD-ROM bundled with 3D Control Pad"
+    },
+    "relationships": {
+      "primaryConsole": "sega-saturn",
+      "developerEntity": "Sonic Team",
+      "lineage": [
+        "Sonic the Hedgehog",
+        "Burning Rangers"
+      ]
+    }
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/e/e1/Nights_into_dreams_cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/e/e1/Nights_into_dreams_cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Nights_into_dreams_cover.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "nights into dreams",
+    "sonic team",
+    "yuji naka",
+    "naoto ohshima",
+    "sega saturn",
+    "analog stick",
+    "flight",
+    "nightopia",
+    "1996"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-valkyria-chronicles",
+  "slug": "valkyria-chronicles",
+  "title": "Valkyria Chronicles",
+  "originalReleaseYear": 2008,
+  "exactReleaseDate": "April 24, 2008",
+  "originalLaunchPlatform": "PlayStation 3",
+  "originalLaunchRegion": "Japan",
+  "developer": "Sega",
+  "publisher": "Sega",
+  "platforms": [
+    "PlayStation 3"
+  ],
+  "genre": "tactical-rpg",
+  "subgenres": [
+    "strategy"
+  ],
+  "era": "2000s",
+  "shortDescription": "Squad 7 defends the principality of Gallia in an alternate 1935 Europa using the BLiTZ real-time tactical system.",
+  "historicalSignificance": "Introduced the CANVAS watercolor engine and revolutionized tactical role-playing by merging strategy with third-person action.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Valkyria_Chronicles",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Squad 7 defends the principality of Gallia in an alternate 1935 Europa using the BLiTZ real-time tactical system.",
+    "culturalImpact": "Introduced the CANVAS watercolor engine and revolutionized tactical role-playing by merging strategy with third-person action."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 3"
+    ],
+    "genres": [
+      "tactical-rpg"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b3/Valkyria_Chronicles_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/b/b3/Valkyria_Chronicles_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Valkyria_Chronicles",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Valkyria Chronicles",
+    "Sega",
+    "Sega",
+    "PlayStation 3",
+    "tactical-rpg",
+    "2008",
+    "2000s",
+    "PlayStation 3",
+    "strategy"
+  ],
+  "url": "/games/valkyria-chronicles/",
+  "featured": false
+}

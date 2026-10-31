@@ -1,0 +1,81 @@
+{
+  "id": "game-marvel-s-spider-man",
+  "slug": "marvel-s-spider-man",
+  "title": "Marvel's Spider-Man",
+  "japaneseTitle": "Marvel's Spider-Man",
+  "url": "/games/marvel-s-spider-man/",
+  "originalReleaseYear": 2018,
+  "exactReleaseDate": "2018-09-07",
+  "developer": "Insomniac Games",
+  "publisher": "Sony Interactive Entertainment",
+  "director": "Bryan Intihar, Ryan Smith",
+  "designer": "Cameron Christian",
+  "composer": "John Paesano",
+  "originalLaunchPlatform": "PlayStation 4",
+  "platforms": [
+    "PlayStation 4",
+    "PlayStation 5",
+    "Microsoft Windows"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "Superhero",
+    "Open World"
+  ],
+  "era": "2010s",
+  "shortDescription": "Insomniac Games' definitive superhero open-world masterpiece, setting an industry benchmark for momentum-based web-swinging physics and acrobatic combat.",
+  "historicalSignificance": "Became the fastest-selling superhero game in history, selling over 33 million copies across its ecosystem and setting the standard for licensed comic-book interactive adaptations.",
+  "editorialContent": {
+    "overview": "Featuring an experienced 23-year-old Peter Parker balancing a faltering civilian career in laboratory research with the immense responsibility of protecting Manhattan from Mister Negative, the Sinister Six, and Doctor Octopus.",
+    "gameplay": "Revolutionized web traversal with physics-based anchor points, parkour wall runs, point launches, and fluid aerial web combat with high-tech gadgets.",
+    "technicalInnovation": "Realized a hyper-dense, bustling recreation of Manhattan with real-time crowd AI, photorealistic materials, and rapid city streaming.",
+    "culturalImpact": "Hailed alongside Batman: Arkham City as the pinnacle of interactive superhero entertainment, praised for its poignant emotional climax.",
+    "preservationNotes": "Preserved on PS4 physical media, updated via PS5 Remastered with 60 FPS ray tracing, and ported to PC."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "September 7, 2018",
+    "leadPlatform": "PlayStation 4",
+    "genre": "action-adventure",
+    "sales": "Over 33 million units sold (franchise milestone)",
+    "awards": [
+      "D.I.C.E. Award for Outstanding Achievement in Animation",
+      "Nominated GOTY The Game Awards 2018"
+    ],
+    "technicalSpecs": {
+      "engine": "Insomniac Proprietary Engine",
+      "resolution": "1080p (PS4) / Dynamic 4K (PS4 Pro)",
+      "soundChip": "Dolby Digital 5.1 with John Paesano orchestral score",
+      "mediaFormat": "Blu-ray Disc"
+    },
+    "relationships": {
+      "primaryConsole": "playstation-4",
+      "developerEntity": "Insomniac Games",
+      "lineage": [
+        "Marvel's Spider-Man: Miles Morales",
+        "Marvel's Spider-Man 2"
+      ]
+    }
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/e/e1/Spider-Man_PS4_cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/e/e1/Spider-Man_PS4_cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Spider-Man_PS4_cover.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "marvel's spider-man",
+    "peter parker",
+    "insomniac games",
+    "playstation 4",
+    "ps4",
+    "web swinging",
+    "manhattan",
+    "doc ock"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

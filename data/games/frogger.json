@@ -1,0 +1,84 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.json",
+  "id": "game-frogger",
+  "slug": "frogger",
+  "title": "Frogger",
+  "url": "/games/frogger/",
+  "originalReleaseYear": 1981,
+  "exactReleaseDate": "1981-06-05",
+  "developer": "Konami",
+  "publisher": "Sega / Gremlin (North America) / Konami (Japan)",
+  "designer": "Akira Hashimoto",
+  "composer": "Konami Sound Team",
+  "originalLaunchPlatform": "Arcade",
+  "platforms": [
+    "Arcade",
+    "Atari 2600",
+    "Atari 5200",
+    "Commodore 64",
+    "Apple II",
+    "Intellivision",
+    "ColecoVision",
+    "MSX",
+    "Sega Genesis",
+    "Super Nintendo (SNES)",
+    "Game Boy"
+  ],
+  "genre": "Action",
+  "subgenres": [
+    "Cross-Lane Action",
+    "Arcade"
+  ],
+  "era": "1980s",
+  "shortDescription": "Konami's quintessential river-crossing reflex test, distributed by Sega/Gremlin, that captivated arcade patrons with universal timing-based navigation.",
+  "historicalSignificance": "Established the lane-crossing obstacle genre, demonstrated the immense commercial appeal of non-violent puzzle-action, and showcased rich polyphonic musical arrangements.",
+  "editorialContent": {
+    "overview": "Developed by Konami and licensed internationally to Sega/Gremlin in 1981, Frogger established an indelible template for timing-based reflex gaming. Rather than casting players as militaristic pilots or high-tech combatants, Frogger presented an immediately legible premise: escorting an ordinary amphibian across an active multi-lane vehicular roadway and treacherous river back to its lily pad home. The game became one of the top-grossing arcade releases of the early 1980s, generating tens of thousands of cabinet placements and selling over 20 million cartridges across home computer and console ports.",
+    "gameplayMechanics": "The playfield is partitioned into two distinct hazard zones separated by a central median strip of safety. The lower half features five lanes of vehicular traffic (bulldozers, sedans, trucks, and racing roadsters) traversing horizontal vectors at varying velocity brackets. The upper half tests player rhythm against natural hazards: floating logs and groups of diving turtles across five river currents flowing in alternating directions. Players must time hops onto floating timber, dodge snapping alligators and predatory otters, catch bonus insects, and guide five consecutive frogs into the terminal home bays before the strict sixty-second timer expires.",
+    "technicalInnovation": "Frogger operated on proprietary Konami arcade architecture utilizing dual Zilog Z80 microprocessors clocked at 3.072 MHz, supported by a 224 × 256 vertical CRT display capable of rendering colorful character sprites with precise per-cell collision detection. The game's acoustic design was particularly sophisticated for 1981: dual General Instrument AY-3-8910 programmable sound generators produced layered polyphonic melodies, sampling traditional Japanese nursery rhymes such as 'Inu no Omawarisan' alongside anime theme motifs, creating a distinctive auditory atmosphere that cut through noisy arcade environments.",
+    "culturalImpact": "Frogger's accessible, violence-free gameplay made it a massive mainstream success, appealing across demographic divides and becoming a cultural touchstone throughout the 1980s. Parker Brothers' Atari 2600 cartridge conversion became one of the platform's bestselling third-party titles. In 1998, Frogger achieved enduring television immortality in Seinfeld's celebrated episode 'The Frogger' (Season 9, Episode 18), where George Costanza attempts to navigate a live arcade cabinet across traffic without losing power and erasing his legendary high score.",
+    "preservationNotes": "Preservationists catalog multiple regional PCB configurations and licensing splits (Sega-manufactured cabinets versus original Konami factory boards). Licensing agreements regarding the game's musical arrangements require meticulous historical verification when evaluating sound reproduction accuracy across modern software emulators."
+  },
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "Sega/Gremlin Inc. Frogger Owner's Manual and Schematics (1981)",
+      "Konami Historical Industry Archive (1981)",
+      "Electronic Games Magazine. 'Player's Guide to Arcade Games' (Vol. 1, 1982)",
+      "Kent, Steven L. The Ultimate History of Video Games (2001)"
+    ],
+    "romMediaFormat": "Arcade PCB (Dual Z80 CPU)",
+    "romSizeOriginal": "16 KB ROM (8x 2716 EPROMs)",
+    "displayResolutionOriginal": "224 × 256 (Vertical 3:4 CRT)",
+    "audioHardware": "Dual General Instrument AY-3-8910 Sound Generators",
+    "inputMethod": "4-way leaf-switch joystick",
+    "multiplayerCapability": "2 Players (Alternating)",
+    "arcadeCabinetType": "Upright / Cocktail / Cabaret"
+  },
+  "assets": {
+    "heroImage": "/assets/images/games/frogger-hero.webp",
+    "thumbnailImage": "/assets/images/games/frogger.webp",
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/c/cd/Frogger_game_arcade.png",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/c/cd/Frogger_game_arcade.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Frogger_game_arcade.png",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Arcade Flyer Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "frogger",
+    "konami",
+    "sega",
+    "gremlin",
+    "arcade",
+    "1981",
+    "1980s",
+    "z80",
+    "ay-3-8910",
+    "cross-lane",
+    "atari 2600",
+    "seinfeld"
+  ],
+  "featured": false
+}

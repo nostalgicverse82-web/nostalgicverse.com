@@ -1,0 +1,70 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-batman-arkham-city",
+  "slug": "batman-arkham-city",
+  "title": "Batman: Arkham City",
+  "originalReleaseYear": 2011,
+  "exactReleaseDate": "October 18, 2011",
+  "originalLaunchPlatform": "PlayStation 3",
+  "originalLaunchRegion": "North America",
+  "developer": "Rocksteady Studios",
+  "publisher": "Warner Bros. Interactive",
+  "platforms": [
+    "PlayStation 3",
+    "Xbox 360",
+    "Microsoft Windows"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "open-world"
+  ],
+  "era": "2010s",
+  "shortDescription": "The Dark Knight glides across a sprawling walled prison district containing Gotham's most villainous rogues.",
+  "historicalSignificance": "One of the highest-rated games in history, perfecting superhero open-world traversal and detective storytelling.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Batman:_Arkham_City",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "The Dark Knight glides across a sprawling walled prison district containing Gotham's most villainous rogues.",
+    "culturalImpact": "One of the highest-rated games in history, perfecting superhero open-world traversal and detective storytelling."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 3"
+    ],
+    "genres": [
+      "action-adventure"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/0/00/Batman_Arkham_City_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/0/00/Batman_Arkham_City_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Batman:_Arkham_City",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Batman: Arkham City",
+    "Rocksteady Studios",
+    "Warner Bros. Interactive",
+    "PlayStation 3",
+    "action-adventure",
+    "2011",
+    "2010s",
+    "PlayStation 3",
+    "Xbox 360",
+    "Microsoft Windows",
+    "open-world"
+  ],
+  "url": "/games/batman-arkham-city/",
+  "featured": false
+}

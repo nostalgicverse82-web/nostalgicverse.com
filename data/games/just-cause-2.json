@@ -1,0 +1,70 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-just-cause-2",
+  "slug": "just-cause-2",
+  "title": "Just Cause 2",
+  "originalReleaseYear": 2010,
+  "exactReleaseDate": "March 23, 2010",
+  "originalLaunchPlatform": "PlayStation 3",
+  "originalLaunchRegion": "North America",
+  "developer": "Avalanche Studios",
+  "publisher": "Eidos Interactive",
+  "platforms": [
+    "PlayStation 3",
+    "Xbox 360",
+    "Microsoft Windows"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "open-world"
+  ],
+  "era": "2010s",
+  "shortDescription": "Rico Rodriguez causes chaos across the massive island nation of Panau using a dual-hook grappling wire and parachute.",
+  "historicalSignificance": "Set an enduring benchmark for open-world vertical freedom, stunt physics, and explosive sandbox creativity.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Just_Cause_2",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Rico Rodriguez causes chaos across the massive island nation of Panau using a dual-hook grappling wire and parachute.",
+    "culturalImpact": "Set an enduring benchmark for open-world vertical freedom, stunt physics, and explosive sandbox creativity."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 3"
+    ],
+    "genres": [
+      "action-adventure"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/8/87/Just_Cause_2_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/8/87/Just_Cause_2_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Just_Cause_2",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Just Cause 2",
+    "Avalanche Studios",
+    "Eidos Interactive",
+    "PlayStation 3",
+    "action-adventure",
+    "2010",
+    "2010s",
+    "PlayStation 3",
+    "Xbox 360",
+    "Microsoft Windows",
+    "open-world"
+  ],
+  "url": "/games/just-cause-2/",
+  "featured": false
+}

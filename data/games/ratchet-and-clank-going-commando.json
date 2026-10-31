@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-ratchet-and-clank-going-commando",
+  "slug": "ratchet-and-clank-going-commando",
+  "title": "Ratchet & Clank: Going Commando",
+  "originalReleaseYear": 2003,
+  "exactReleaseDate": "November 11, 2003",
+  "originalLaunchPlatform": "PlayStation 2",
+  "originalLaunchRegion": "North America",
+  "developer": "Insomniac Games",
+  "publisher": "Sony Computer Entertainment",
+  "platforms": [
+    "PlayStation 2"
+  ],
+  "genre": "platformer",
+  "subgenres": [
+    "action-adventure"
+  ],
+  "era": "2000s",
+  "shortDescription": "Ratchet and Clank travel to the Bogon Galaxy featuring RPG progression, strafing combat, and arena battles.",
+  "historicalSignificance": "Refined the shooter-platformer hybrid into a gaming masterpiece, solidifying Insomniac's reputation.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Ratchet_&_Clank:_Going_Commando",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Ratchet and Clank travel to the Bogon Galaxy featuring RPG progression, strafing combat, and arena battles.",
+    "culturalImpact": "Refined the shooter-platformer hybrid into a gaming masterpiece, solidifying Insomniac's reputation."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 2"
+    ],
+    "genres": [
+      "platformer"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/d/dc/Ratchet_and_clank_going_commando.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/d/dc/Ratchet_and_clank_going_commando.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ratchet_&_Clank:_Going_Commando",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Ratchet & Clank: Going Commando",
+    "Insomniac Games",
+    "Sony Computer Entertainment",
+    "PlayStation 2",
+    "platformer",
+    "2003",
+    "2000s",
+    "PlayStation 2",
+    "action-adventure"
+  ],
+  "url": "/games/ratchet-and-clank-going-commando/",
+  "featured": false
+}

@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-twisted-metal-black",
+  "slug": "twisted-metal-black",
+  "title": "Twisted Metal: Black",
+  "originalReleaseYear": 2001,
+  "exactReleaseDate": "June 18, 2001",
+  "originalLaunchPlatform": "PlayStation 2",
+  "originalLaunchRegion": "North America",
+  "developer": "Incognito Entertainment",
+  "publisher": "Sony Computer Entertainment",
+  "platforms": [
+    "PlayStation 2"
+  ],
+  "genre": "action",
+  "subgenres": [
+    "vehicular-combat"
+  ],
+  "era": "2000s",
+  "shortDescription": "Macabre reboot of vehicular combat featuring psychological backstories for drivers like Sweet Tooth and Calypso.",
+  "historicalSignificance": "A gritty PS2 launch-era masterpiece delivering blistering 60fps destructive multiplayer arena chaos.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Twisted_Metal:_Black",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Macabre reboot of vehicular combat featuring psychological backstories for drivers like Sweet Tooth and Calypso.",
+    "culturalImpact": "A gritty PS2 launch-era masterpiece delivering blistering 60fps destructive multiplayer arena chaos."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 2"
+    ],
+    "genres": [
+      "action"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/d/da/Twisted_Metal_Black_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/d/da/Twisted_Metal_Black_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Twisted_Metal:_Black",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Twisted Metal: Black",
+    "Incognito Entertainment",
+    "Sony Computer Entertainment",
+    "PlayStation 2",
+    "action",
+    "2001",
+    "2000s",
+    "PlayStation 2",
+    "vehicular-combat"
+  ],
+  "url": "/games/twisted-metal-black/",
+  "featured": false
+}

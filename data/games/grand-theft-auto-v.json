@@ -1,0 +1,93 @@
+{
+  "id": "game-grand-theft-auto-v",
+  "slug": "grand-theft-auto-v",
+  "title": "Grand Theft Auto V",
+  "japaneseTitle": "グランド・セフト・オートV",
+  "url": "/games/grand-theft-auto-v/",
+  "originalReleaseYear": 2013,
+  "exactReleaseDate": "2013-09-17",
+  "developer": "Rockstar North",
+  "publisher": "Rockstar Games",
+  "director": "Dan Houser, Leslie Benzies",
+  "designer": "Leslie Benzies, Imran Sarwar",
+  "composer": "Tangerine Dream, Woody Jackson, The Alchemist, Oh No",
+  "originalLaunchPlatform": "Xbox 360 / PlayStation 3",
+  "platforms": [
+    "Xbox 360",
+    "PlayStation 3",
+    "PlayStation 4",
+    "Xbox One",
+    "Microsoft Windows",
+    "PlayStation 5",
+    "Xbox Series X/S"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "Open-World Crime Sandbox",
+    "Multi-Protagonist Heist"
+  ],
+  "era": "2010s",
+  "shortDescription": "Rockstar's record-shattering open-world phenomenon featuring the three-protagonist heist narrative of Michael, Franklin, and Trevor.",
+  "historicalSignificance": "The most profitable entertainment product in human history, generating over $1 billion in its first three days and selling over 190 million copies, pioneered seamless mid-mission character switching between three protagonists.",
+  "editorialContent": {
+    "overview": "Developed by Rockstar North and launched in September 2013, Grand Theft Auto V pushed the seventh generation consoles to their absolute graphical and computational limits. Set in contemporary Southern California (Los Santos and Blaine County), the game introduced a revolutionary tripartite narrative following retired bank robber Michael De Santa, ambitious repo street hustler Franklin Clinton, and psychotic desert maniac Trevor Philips.",
+    "gameplay": "Players switch instantaneously between the three protagonists with a cinematic camera zoom-out/zoom-in. The campaign structure centers on complex multi-phase Heists requiring planning (stealth vs. loud approach), crew recruitment, and synchronization during execution. Outside missions, Los Santos offers tennis, golf, stock market manipulation on BAWSAQ, deep-sea diving, and stunt flight.",
+    "technicalInnovation": "Rockstar created a dynamic procedural score by Tangerine Dream and Woody Jackson that responded to driving intensity and police wanted levels, paired with groundbreaking water physics and immense draw distances.",
+    "culturalImpact": "GTA V shattered every entertainment sales record in history ($800M on day one; $1B in 72 hours). Its multiplayer counterpart, GTA Online, became an unprecedented multi-billion-dollar live-service phenomenon spanning three console generations.",
+    "preservationNotes": "Preserved across three console generations (PS3/360, PS4/X1, PS5/Series X) and continuous modern PC updates on Rockstar Games Launcher and Steam."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "September 17, 2013",
+    "leadPlatform": "PlayStation 3",
+    "genre": "action-adventure",
+    "sales": "Over 190 million copies worldwide (second best-selling video game of all time)",
+    "awards": [
+      "Game of the Year 2013 (Golden Joystick Awards, GameTrailers)",
+      "BAFTA Game Award for Multiplayer"
+    ],
+    "technicalSpecs": {
+      "engine": "Rockstar Advanced Game Engine (RAGE) with custom lighting and Euphoria physics",
+      "resolution": "720p (PS3/360) up to 4K 60fps on modern platforms",
+      "soundChip": "Dolby Digital 5.1 with Tangerine Dream / Woody Jackson dynamic score",
+      "mediaFormat": "Blu-ray Disc / 2 DVD-ROM Discs"
+    },
+    "relationships": {
+      "primaryConsole": "playstation-3",
+      "developerEntity": "Rockstar Games",
+      "lineage": [
+        "Grand Theft Auto: San Andreas",
+        "Grand Theft Auto IV",
+        "Red Dead Redemption 2",
+        "Grand Theft Auto VI"
+      ]
+    }
+  },
+  "assets": {
+    "cover": "/assets/images/games/grand-theft-auto-v.webp",
+    "banner": "/assets/images/games/grand-theft-auto-v-banner.webp",
+    "screenshots": [
+      "/assets/images/games/grand-theft-auto-v-screen1.webp",
+      "/assets/images/games/grand-theft-auto-v-screen2.webp"
+    ],
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a5/Grand_Theft_Auto_V.png",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a5/Grand_Theft_Auto_V.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Grand_Theft_Auto_V.png",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "grand theft auto v",
+    "gta 5",
+    "trevor",
+    "michael",
+    "franklin",
+    "los santos",
+    "rockstar games",
+    "heist"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

@@ -1,0 +1,70 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-sleeping-dogs",
+  "slug": "sleeping-dogs",
+  "title": "Sleeping Dogs",
+  "originalReleaseYear": 2012,
+  "exactReleaseDate": "August 14, 2012",
+  "originalLaunchPlatform": "PlayStation 3",
+  "originalLaunchRegion": "North America",
+  "developer": "United Front Games",
+  "publisher": "Square Enix",
+  "platforms": [
+    "PlayStation 3",
+    "Xbox 360",
+    "Microsoft Windows"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "open-world"
+  ],
+  "era": "2010s",
+  "shortDescription": "Undercover cop Wei Shen infiltrates the Sun On Yee Triads in dense, neon-lit Hong Kong.",
+  "historicalSignificance": "Acclaimed for visceral environmental martial arts combat, gripping cinematic undercover drama, and vibrant night markets.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Sleeping_Dogs",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Undercover cop Wei Shen infiltrates the Sun On Yee Triads in dense, neon-lit Hong Kong.",
+    "culturalImpact": "Acclaimed for visceral environmental martial arts combat, gripping cinematic undercover drama, and vibrant night markets."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 3"
+    ],
+    "genres": [
+      "action-adventure"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/0/07/Sleeping_Dogs_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/0/07/Sleeping_Dogs_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Sleeping_Dogs",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Sleeping Dogs",
+    "United Front Games",
+    "Square Enix",
+    "PlayStation 3",
+    "action-adventure",
+    "2012",
+    "2012",
+    "PlayStation 3",
+    "Xbox 360",
+    "Microsoft Windows",
+    "open-world"
+  ],
+  "url": "/games/sleeping-dogs/",
+  "featured": false
+}

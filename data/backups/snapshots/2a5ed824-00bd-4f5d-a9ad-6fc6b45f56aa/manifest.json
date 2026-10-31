@@ -1,0 +1,14 @@
+{
+  "id": "2a5ed824-00bd-4f5d-a9ad-6fc6b45f56aa",
+  "label": "verification-test",
+  "timestamp": "2026-09-30T15:45:31.485Z",
+  "files": [
+    {
+      "path": "data/agent-test-file.txt",
+      "size": 30,
+      "mtime": "2026-09-30T15:45:31.485Z",
+      "existed": true
+    }
+  ],
+  "dbBackedUp": true
+}

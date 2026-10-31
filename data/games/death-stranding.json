@@ -1,0 +1,85 @@
+{
+  "id": "game-death-stranding",
+  "slug": "death-stranding",
+  "title": "Death Stranding",
+  "japaneseTitle": "デス・ストランディング",
+  "url": "/games/death-stranding/",
+  "originalReleaseYear": 2019,
+  "exactReleaseDate": "2019-11-08",
+  "developer": "Kojima Productions",
+  "publisher": "Sony Interactive Entertainment",
+  "director": "Hideo Kojima",
+  "designer": "Yoji Shinkawa",
+  "composer": "Ludvig Forssell",
+  "originalLaunchPlatform": "PlayStation 4",
+  "platforms": [
+    "PlayStation 4",
+    "PlayStation 5",
+    "Microsoft Windows",
+    "iOS",
+    "macOS"
+  ],
+  "genre": "action",
+  "subgenres": [
+    "Asynchronous Multiplayer",
+    "Sci-Fi Exploration"
+  ],
+  "era": "2010s",
+  "shortDescription": "Hideo Kojima's visionary genre-defying open-world odyssey following courier Sam Porter Bridges connecting isolated human settlements across a fractured America.",
+  "historicalSignificance": "The triumphant independent debut of Hideo Kojima following his Konami departure, pioneering an entirely novel 'Social Strand' asynchronous cooperative multiplayer system that oddly prophesied global pandemic isolation.",
+  "editorialContent": {
+    "overview": "In the aftermath of the cataclysmic 'Death Stranding' event that fused the realm of the living with the afterlife, spectral 'Beached Things' (BTs) and time-accelerating rain ('Timefall') roam the ruins of America. Porter Sam Bridges journeys from east to west to reconnect isolated colonies to the Chiral Network.",
+    "gameplay": "Turns terrain navigation and weight physics into the core gameplay challenge—players balance center of gravity, stamina, footwear wear, and cargo stacking across glaciers, crags, and rivers while utilizing ziplines, bridges, and ex-skeletons.",
+    "technicalInnovation": "Leveraged Guerrilla's Decima Engine to render vast photorealistic Icelandic-inspired landscapes, featuring full 3D scans and performance capture of Norman Reedus, Mads Mikkelsen, and Léa Seydoux.",
+    "culturalImpact": "Its non-violent cooperative infrastructure where players build roads and leave helpful ladders for invisible online peers established an uplifting new multiplayer philosophy.",
+    "preservationNotes": "Preserved on PS4 Blu-ray and expanded via Death Stranding Director's Cut on PS5 and PC."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "November 8, 2019",
+    "leadPlatform": "PlayStation 4",
+    "genre": "action",
+    "sales": "Over 16 million players connected worldwide",
+    "awards": [
+      "The Game Awards Best Game Direction 2019",
+      "Best Score/Music The Game Awards 2019",
+      "BAFTA Technical Achievement"
+    ],
+    "technicalSpecs": {
+      "engine": "Decima Engine",
+      "resolution": "1080p (PS4) / Checkerboard 4K (PS4 Pro) / Native 4K 60fps (PS5)",
+      "soundChip": "Dolby Digital 5.1 / 3D Audio",
+      "mediaFormat": "Blu-ray Disc"
+    },
+    "relationships": {
+      "primaryConsole": "playstation-4",
+      "developerEntity": "Kojima Productions",
+      "lineage": [
+        "Metal Gear Solid",
+        "Death Stranding 2"
+      ]
+    }
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/2/22/Death_Stranding.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/2/22/Death_Stranding.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Death_Stranding.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "death stranding",
+    "hideo kojima",
+    "sam bridges",
+    "norman reedus",
+    "bb",
+    "chiral network",
+    "decima engine",
+    "playstation 4",
+    "ps4"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

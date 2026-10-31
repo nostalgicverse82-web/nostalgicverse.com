@@ -1,0 +1,91 @@
+{
+  "id": "game-braid",
+  "slug": "braid",
+  "title": "Braid",
+  "japaneseTitle": "ブライド",
+  "url": "/games/braid/",
+  "originalReleaseYear": 2008,
+  "exactReleaseDate": "2008-08-06",
+  "developer": "Number None",
+  "publisher": "Microsoft Game Studios",
+  "director": "Jonathan Blow",
+  "designer": "Jonathan Blow, David Hellman",
+  "composer": "Jami Sieber, Shira Kammen, Cheryl Ann Fulton",
+  "originalLaunchPlatform": "Xbox 360 (XBLA)",
+  "platforms": [
+    "Xbox 360",
+    "Microsoft Windows",
+    "Mac OS",
+    "PlayStation 3",
+    "Linux",
+    "Nintendo Switch"
+  ],
+  "genre": "puzzle",
+  "subgenres": [
+    "Time-Manipulation Puzzle-Platformer",
+    "Indie Art Game"
+  ],
+  "era": "2000s",
+  "shortDescription": "Jonathan Blow's poetic time-manipulation puzzle game that spearheaded the modern indie game revolution on Xbox Live Arcade.",
+  "historicalSignificance": "The catalyst for the modern independent gaming explosion, proving that solo auteur creators could produce artistic, commercially triumphant masterpieces that challenged the philosophical conventions of video games.",
+  "editorialContent": {
+    "overview": "Conceived and programmed by Jonathan Blow with lush painterly art by webcomic artist David Hellman, Braid was released in August 2008 as the flagship title of Microsoft's inaugural 'Summer of Arcade' on Xbox Live Arcade. Following protagonist Tim on a seeming quest to rescue a captured princess, the game weaves lyrical prose about regret, obsession, and the dawn of the atomic age.",
+    "gameplay": "At first glance a traditional 2D platformer, Braid replaces death with an unlimited time-rewind mechanic. Each world explores a distinct physical law of temporality: rewind immunity for green glowing objects, time linked to spatial movement (walking right flows time forward; walking left reverses it), shadow doppelgängers born from rewind, and time dilation rings.",
+    "technicalInnovation": "Blow engineered custom continuous time-reversal buffers that recorded game state history with mathematical precision, enabling complex causal paradox puzzles that challenged linear logic.",
+    "culturalImpact": "Braid proved indie games could be profound works of art and massive commercial hits. Documented in the landmark film 'Indie Game: The Movie,' it opened the floodgates for Super Meat Boy, Limbo, Fez, and the modern independent gaming economy.",
+    "preservationNotes": "Preserved on Xbox Live Arcade, multiplatform Steam releases, and the 2024 Braid, Anniversary Edition with interactive developer audio commentary."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "August 6, 2008",
+    "leadPlatform": "Xbox 360",
+    "genre": "puzzle",
+    "sales": "Over 4 million copies across all platforms",
+    "awards": [
+      "Independent Games Festival Innovation in Game Design Award",
+      "GameSpot Best Puzzle Game 2008"
+    ],
+    "technicalSpecs": {
+      "engine": "Number None custom 2D time-reversal engine",
+      "resolution": "720p HD (60fps)",
+      "soundChip": "Licensed acoustic Celtic/folk compositions with real-time reverse audio pitch filters",
+      "mediaFormat": "Digital Download (Xbox Live Arcade)"
+    },
+    "relationships": {
+      "primaryConsole": "xbox-360",
+      "developerEntity": "Number None",
+      "lineage": [
+        "Super Mario Bros.",
+        "The Witness",
+        "Limbo",
+        "Fez"
+      ]
+    }
+  },
+  "assets": {
+    "cover": "/assets/images/games/braid.webp",
+    "banner": "/assets/images/games/braid-banner.webp",
+    "screenshots": [
+      "/assets/images/games/braid-screen1.webp",
+      "/assets/images/games/braid-screen2.webp"
+    ],
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/6/6a/Braidlogo.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/6/6a/Braidlogo.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Braidlogo.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "review-required",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "braid",
+    "jonathan blow",
+    "david hellman",
+    "time manipulation",
+    "indie game",
+    "xbla",
+    "puzzle platformer"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

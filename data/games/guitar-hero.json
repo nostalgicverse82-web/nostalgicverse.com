@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-guitar-hero",
+  "slug": "guitar-hero",
+  "title": "Guitar Hero",
+  "originalReleaseYear": 2005,
+  "exactReleaseDate": "November 8, 2005",
+  "originalLaunchPlatform": "PlayStation 2",
+  "originalLaunchRegion": "North America",
+  "developer": "Harmonix",
+  "publisher": "RedOctane",
+  "platforms": [
+    "PlayStation 2"
+  ],
+  "genre": "rhythm",
+  "subgenres": [
+    "music"
+  ],
+  "era": "2000s",
+  "shortDescription": "Harmonix's rhythm game sensation bundling a five-button Gibson SG guitar controller to play rock classics.",
+  "historicalSignificance": "Ignited a global plastic-instrument rhythm game cultural phenomenon on PlayStation 2.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Guitar_Hero",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Harmonix's rhythm game sensation bundling a five-button Gibson SG guitar controller to play rock classics.",
+    "culturalImpact": "Ignited a global plastic-instrument rhythm game cultural phenomenon on PlayStation 2."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 2"
+    ],
+    "genres": [
+      "rhythm"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/4/4e/Guitar_Hero_cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/4/4e/Guitar_Hero_cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Guitar_Hero",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Guitar Hero",
+    "Harmonix",
+    "RedOctane",
+    "PlayStation 2",
+    "rhythm",
+    "2005",
+    "2000s",
+    "PlayStation 2",
+    "music"
+  ],
+  "url": "/games/guitar-hero/",
+  "featured": false
+}

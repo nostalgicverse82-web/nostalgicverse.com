@@ -1,0 +1,81 @@
+{
+  "id": "game-the-great-giana-sisters",
+  "slug": "the-great-giana-sisters",
+  "title": "The Great Giana Sisters",
+  "japaneseTitle": "グレート・ギアナ・シスターズ",
+  "url": "/games/the-great-giana-sisters/",
+  "originalReleaseYear": 1987,
+  "exactReleaseDate": "1987-10-01",
+  "developer": "Time Warp Productions",
+  "publisher": "Rainbow Arts",
+  "director": "Armin Gessert",
+  "designer": "Manfred Trenz",
+  "composer": "Chris Hülsbeck",
+  "originalLaunchPlatform": "Commodore 64",
+  "platforms": [
+    "Commodore 64",
+    "Amiga",
+    "Atari ST"
+  ],
+  "genre": "platformer",
+  "subgenres": [
+    "2D Platformer",
+    "European Microcomputer Classic"
+  ],
+  "era": "1980s",
+  "shortDescription": "The legendary European platformer milestone on Commodore 64 and Amiga, celebrated for Chris Hülsbeck's immortal SID chip soundtrack.",
+  "historicalSignificance": "One of the most famous and culturally revered computer games in European gaming history, notorious for its controversial structural homage to Super Mario Bros. and celebrated as a benchmark showcase for Chris Hülsbeck's musical genius.",
+  "editorialContent": {
+    "overview": "Created in Germany by Armin Gessert, Manfred Trenz, and Chris Hülsbeck, Giana Sisters followed Giana on a dream quest through 33 surreal nightmare stages to recover a magic diamond.",
+    "gameplay": "Smooth multi-directional scrolling platforming where Giana collects power wheels to transform into a punk-rock heroine able to crush blocks and shoot fireballs.",
+    "technicalInnovation": "Showcased master-tier programming on the Commodore 64's VIC-II graphics chip, delivering silky 50 Hz scrolling that had long eluded computer developers.",
+    "culturalImpact": "Withdrawn from retail shelves shortly after release following legal pressure from Nintendo, the game achieved legendary underground folk status in Europe through disk trading, later legally returning in acclaimed modern revivals.",
+    "preservationNotes": "Original boxed Rainbow Arts floppy disk and cassette copies are among the most valuable collector items in computer history."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "October 1987",
+    "leadPlatform": "Commodore 64",
+    "genre": "platformer",
+    "sales": "Withdrawn from retail; millions circulated via disk culture",
+    "awards": [
+      "Inducted into European Video Game Hall of Fame"
+    ],
+    "technicalSpecs": {
+      "engine": "Custom 6502 Machine Code Platform Engine",
+      "resolution": "160 x 200 multicolor / 320 x 200 standard (Commodore 64)",
+      "soundChip": "MOS 6581 SID Chip (Sound Interface Device)",
+      "mediaFormat": "5.25-inch Floppy Disk / Cassette Tape"
+    },
+    "relationships": {
+      "primaryConsole": "commodore-64",
+      "developerEntity": "Time Warp Productions",
+      "lineage": [
+        "Giana Sisters: Twisted Dreams",
+        "Turrican"
+      ]
+    }
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/f/f6/The_Great_Giana_Sisters_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/f/f6/The_Great_Giana_Sisters_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:The_Great_Giana_Sisters_Cover.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "the great giana sisters",
+    "commodore 64",
+    "c64",
+    "chris huelsbeck",
+    "rainbow arts",
+    "manfred trenz",
+    "platformer",
+    "sid chip",
+    "1987"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

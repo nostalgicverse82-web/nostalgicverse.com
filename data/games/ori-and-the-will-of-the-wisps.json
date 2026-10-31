@@ -1,0 +1,70 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-ori-and-the-will-of-the-wisps",
+  "slug": "ori-and-the-will-of-the-wisps",
+  "title": "Ori and the Will of the Wisps",
+  "originalReleaseYear": 2020,
+  "exactReleaseDate": "March 11, 2020",
+  "originalLaunchPlatform": "Xbox One",
+  "originalLaunchRegion": "Worldwide",
+  "developer": "Moon Studios",
+  "publisher": "Xbox Game Studios",
+  "platforms": [
+    "Xbox One",
+    "Xbox Series",
+    "PC"
+  ],
+  "genre": "metroidvania",
+  "subgenres": [
+    "platformer"
+  ],
+  "era": "2020s",
+  "shortDescription": "Ori ventures beyond Nibel into the blighted land of Niwen, introducing active melee combat shards and spirit trials.",
+  "historicalSignificance": "Universally heralded as one of the finest Metroidvania platformers ever created with sublime movement fluidity.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Ori_and_the_Will_of_the_Wisps",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Ori ventures beyond Nibel into the blighted land of Niwen, introducing active melee combat shards and spirit trials.",
+    "culturalImpact": "Universally heralded as one of the finest Metroidvania platformers ever created with sublime movement fluidity."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "Xbox One"
+    ],
+    "genres": [
+      "metroidvania"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Ori_and_the_Will_of_the_Wisps_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Ori_and_the_Will_of_the_Wisps_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ori_and_the_Will_of_the_Wisps",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Ori and the Will of the Wisps",
+    "Moon Studios",
+    "Xbox Game Studios",
+    "Xbox One",
+    "metroidvania",
+    "2020",
+    "2020s",
+    "Xbox One",
+    "Xbox Series",
+    "PC",
+    "platformer"
+  ],
+  "url": "/games/ori-and-the-will-of-the-wisps/",
+  "featured": false
+}

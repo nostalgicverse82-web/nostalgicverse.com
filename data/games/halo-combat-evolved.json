@@ -1,0 +1,90 @@
+{
+  "id": "game-halo-combat-evolved",
+  "slug": "halo-combat-evolved",
+  "title": "Halo: Combat Evolved",
+  "japaneseTitle": "ヘイロー: コンバット エボルヴ",
+  "url": "/games/halo-combat-evolved/",
+  "originalReleaseYear": 2001,
+  "exactReleaseDate": "2001-11-15",
+  "developer": "Bungie",
+  "publisher": "Microsoft Game Studios",
+  "director": "Jason Jones",
+  "designer": "Jaime Griesemer, John Howard",
+  "composer": "Martin O'Donnell, Michael Salvatori",
+  "originalLaunchPlatform": "Xbox",
+  "platforms": [
+    "Xbox",
+    "Microsoft Windows",
+    "Mac OS"
+  ],
+  "genre": "first-person-shooter",
+  "subgenres": [
+    "Sci-Fi FPS",
+    "Vehicle Combat",
+    "Systemic Sandbox Shooter"
+  ],
+  "era": "2000s",
+  "shortDescription": "Bungie's landmark Xbox launch title that perfected twin-stick console shooting, recharging shields, and the 30 seconds of fun loop.",
+  "historicalSignificance": "The defining launch title that legitimized the original Microsoft Xbox, introducing the standard twin-stick controller mapping, regenerating energy shield mechanic, two-weapon limit, intelligent Covenant AI combat flanking, and LAN multiplayer party culture.",
+  "editorialContent": {
+    "overview": "Originally conceived by Bungie as a Mac strategy game and third-person action title before being acquired by Microsoft in 2000, Halo: Combat Evolved launched alongside the original Xbox on November 15, 2001. Placing players inside the armored Mjolnir suit of Master Chief Spartan-117 alongside AI companion Cortana on an ancient ringworld superstructure, Halo redefined the possibilities of console shooters.",
+    "gameplay": "Built on the legendary 'Golden Triangle' of combat—guns, grenades, and melee. Players manage a strict two-weapon limit and an automatically recharging energy shield, engaging diverse Covenant alien ranks (cowardly Grunts, shielded Jackals, agile Elites) across expansive outdoor valleys populated with drivable Warthogs, Scorpions, and Ghost hovercraft.",
+    "technicalInnovation": "Pioneered behavior-tree AI where squad leaders commanded underlings, enemies took cover when shields popped, and dynamic vehicle physics allowed passengers to fire weapons from open seating.",
+    "culturalImpact": "Halo transformed Microsoft into an undisputed titan of the video game industry. Martin O'Donnell's Gregorian chant theme became an instantly recognizable pop culture anthem, and Xbox LAN parties with 16 players over system link cables defined 2000s multiplayer socializing.",
+    "preservationNotes": "Preserved via original Xbox discs, Gearbox's PC port, and officially remastered in Halo: The Master Chief Collection."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "November 15, 2001",
+    "leadPlatform": "Xbox",
+    "genre": "first-person-shooter",
+    "sales": "Over 6 million copies on the original Xbox alone",
+    "awards": [
+      "Game of the Year 2001 (AIAS, IGN, Time Magazine)",
+      "Interactive Achievement Award for Console Game of the Year"
+    ],
+    "technicalSpecs": {
+      "engine": "Bungie Blam! Engine",
+      "resolution": "480p (640x480 progressive scan with component video)",
+      "soundChip": "Nvidia MCPX audio processing unit with real-time Dolby Digital 5.1 surround sound",
+      "mediaFormat": "DVD-ROM"
+    },
+    "relationships": {
+      "primaryConsole": "xbox",
+      "developerEntity": "Bungie",
+      "lineage": [
+        "Marathon",
+        "Halo 2",
+        "Halo 3",
+        "Destiny"
+      ]
+    }
+  },
+  "assets": {
+    "cover": "/assets/images/games/halo-combat-evolved.webp",
+    "banner": "/assets/images/games/halo-combat-evolved-banner.webp",
+    "screenshots": [
+      "/assets/images/games/halo-combat-evolved-screen1.webp",
+      "/assets/images/games/halo-combat-evolved-screen2.webp"
+    ],
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/8/80/Halo_-_Combat_Evolved_%28XBox_version_-_box_art%29.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/8/80/Halo_-_Combat_Evolved_%28XBox_version_-_box_art%29.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Halo_-_Combat_Evolved_(XBox_version_-_box_art).jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "halo combat evolved",
+    "master chief",
+    "bungie",
+    "xbox",
+    "cortana",
+    "warthog",
+    "fps",
+    "martin o'donnell"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": true
+}

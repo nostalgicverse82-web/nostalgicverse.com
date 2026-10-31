@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-wii-sports-resort",
+  "slug": "wii-sports-resort",
+  "title": "Wii Sports Resort",
+  "originalReleaseYear": 2009,
+  "exactReleaseDate": "June 25, 2009",
+  "originalLaunchPlatform": "Wii",
+  "originalLaunchRegion": "Japan",
+  "developer": "Nintendo EAD",
+  "publisher": "Nintendo",
+  "platforms": [
+    "Wii"
+  ],
+  "genre": "sports",
+  "subgenres": [
+    "motion-controlled"
+  ],
+  "era": "2000s",
+  "shortDescription": "Wuhu Island vacation resort bundling the Wii MotionPlus accessory across Swordplay, Archery, and Wakeboarding.",
+  "historicalSignificance": "Sold over 33 million copies, establishing Wuhu Island as one of Nintendo's most beloved environmental spaces.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Wii_Sports_Resort",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Wuhu Island vacation resort bundling the Wii MotionPlus accessory across Swordplay, Archery, and Wakeboarding.",
+    "culturalImpact": "Sold over 33 million copies, establishing Wuhu Island as one of Nintendo's most beloved environmental spaces."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "Wii"
+    ],
+    "genres": [
+      "sports"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Wii_Sports_Resort_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Wii_Sports_Resort_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Wii_Sports_Resort",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Wii Sports Resort",
+    "Nintendo EAD",
+    "Nintendo",
+    "Wii",
+    "sports",
+    "2009",
+    "2000s",
+    "Wii",
+    "motion-controlled"
+  ],
+  "url": "/games/wii-sports-resort/",
+  "featured": false
+}

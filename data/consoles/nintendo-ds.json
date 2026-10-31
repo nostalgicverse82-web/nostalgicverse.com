@@ -1,0 +1,43 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+  "id": "console-nintendo-ds",
+  "slug": "nintendo-ds",
+  "name": "Nintendo DS",
+  "manufacturer": "Nintendo",
+  "generation": "Seventh Generation",
+  "generationNumber": 7,
+  "originalReleaseYear": 2004,
+  "exactReleaseDate": "November 21, 2004",
+  "mediaFormat": "DS Game Card (ROM)",
+  "significance": "Anticipated modern capacitive touchscreen mobile interfaces, selling over 154 million units and pioneering intuitive stylus-based interaction.",
+  "verifiedFactualData": {
+    "cpu": "ARM946E-S @ 67 MHz + ARM7TDMI @ 33 MHz",
+    "gpuOrVideoChip": "Custom 2D/3D dual-screen graphics processor",
+    "ram": "4 MB mobile RAM (later 16 MB in DSi)"
+  },
+  "editorialContent": {
+    "overview": "Dual-screen, stylus-driven touchscreen innovation that became the second highest-selling gaming system in human history.",
+    "marketLegacy": "Anticipated modern capacitive touchscreen mobile interfaces, selling over 154 million units and pioneering intuitive stylus-based interaction.",
+    "controllerDesign": "Dual screens (resistive lower touch screen with stylus), microphone"
+  },
+  "keyGames": [
+    "new-super-mario-bros",
+    "mario-kart-ds",
+    "brain-age",
+    "pokemon-diamond-pearl"
+  ],
+  "assets": {
+    "mainImage": "/assets/images/consoles/nintendo-ds.png",
+    "heroImage": "/assets/images/consoles/nintendo-ds-hero.png",
+    "hardwareImage": "/assets/images/consoles/nintendo-ds-hardware.png"
+  },
+  "keywords": [
+    "nintendo ds",
+    "ds",
+    "nintendo",
+    "touch screen",
+    "handheld",
+    "seventh generation",
+    "2004"
+  ]
+}

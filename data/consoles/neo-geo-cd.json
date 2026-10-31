@@ -1,0 +1,41 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+  "id": "console-neo-geo-cd",
+  "slug": "neo-geo-cd",
+  "name": "Neo Geo CD",
+  "manufacturer": "SNK",
+  "generation": "Fourth Generation",
+  "generationNumber": 4,
+  "originalReleaseYear": 1994,
+  "exactReleaseDate": "September 9, 1994",
+  "mediaFormat": "Single-speed CD-ROM (later 2x in CDZ)",
+  "significance": "Made the arcade-masterpiece library of SNK accessible to consumers, despite being hampered by single-speed CD-ROM loading times.",
+  "verifiedFactualData": {
+    "cpu": "Motorola 68000 @ 12 MHz + Zilog Z80 @ 4 MHz",
+    "gpuOrVideoChip": "Custom graphics processor (identical to AES)",
+    "ram": "7 MB DRAM (56 Mbit)"
+  },
+  "editorialContent": {
+    "overview": "SNK's optical disc alternative to the prohibitively expensive AES cartridge system, slashing game prices to $50.",
+    "marketLegacy": "Made the arcade-masterpiece library of SNK accessible to consumers, despite being hampered by single-speed CD-ROM loading times.",
+    "controllerDesign": "Neo Geo CD control pad (thumb-switch microswitches)"
+  },
+  "keyGames": [
+    "the-king-of-fighters-94",
+    "samurai-shodown-ii",
+    "metal-slug"
+  ],
+  "assets": {
+    "mainImage": "/assets/images/consoles/neo-geo-cd.png",
+    "heroImage": "/assets/images/consoles/neo-geo-cd-hero.png",
+    "hardwareImage": "/assets/images/consoles/neo-geo-cd-hardware.png"
+  },
+  "keywords": [
+    "neo geo cd",
+    "snk",
+    "fourth generation",
+    "cd-rom",
+    "arcade ports",
+    "1994"
+  ]
+}

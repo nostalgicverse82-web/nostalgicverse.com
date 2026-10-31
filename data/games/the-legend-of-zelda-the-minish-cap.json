@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-the-legend-of-zelda-the-minish-cap",
+  "slug": "the-legend-of-zelda-the-minish-cap",
+  "title": "The Legend of Zelda: The Minish Cap",
+  "originalReleaseYear": 2004,
+  "exactReleaseDate": "November 4, 2004",
+  "originalLaunchPlatform": "Game Boy Advance",
+  "originalLaunchRegion": "Japan",
+  "developer": "Capcom / Flagship",
+  "publisher": "Nintendo",
+  "platforms": [
+    "Game Boy Advance"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "fantasy"
+  ],
+  "era": "2000s",
+  "shortDescription": "Link shrinks to the size of a thumb assisted by talking bird cap Ezlo to forge the Four Sword against Vaati.",
+  "historicalSignificance": "Capcom's pixel art masterpiece acclaimed for dense miniature exploration and Kinstone fusing puzzles.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_The_Minish_Cap",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Link shrinks to the size of a thumb assisted by talking bird cap Ezlo to forge the Four Sword against Vaati.",
+    "culturalImpact": "Capcom's pixel art masterpiece acclaimed for dense miniature exploration and Kinstone fusing puzzles."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "Game Boy Advance"
+    ],
+    "genres": [
+      "action-adventure"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/The_Legend_of_Zelda_The_Minish_Cap_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/The_Legend_of_Zelda_The_Minish_Cap_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_The_Minish_Cap",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "The Legend of Zelda: The Minish Cap",
+    "Capcom / Flagship",
+    "Nintendo",
+    "Game Boy Advance",
+    "action-adventure",
+    "2004",
+    "2000s",
+    "Game Boy Advance",
+    "fantasy"
+  ],
+  "url": "/games/the-legend-of-zelda-the-minish-cap/",
+  "featured": false
+}

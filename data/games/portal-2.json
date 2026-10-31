@@ -1,0 +1,93 @@
+{
+  "id": "game-portal-2",
+  "slug": "portal-2",
+  "title": "Portal 2",
+  "japaneseTitle": "ポータル2",
+  "url": "/games/portal-2/",
+  "originalReleaseYear": 2011,
+  "exactReleaseDate": "2011-04-19",
+  "developer": "Valve Corporation",
+  "publisher": "Valve Corporation",
+  "director": "Gabe Newell",
+  "designer": "Joshua Weier, Erik Wolpaw, Chet Faliszek",
+  "composer": "Mike Morasky",
+  "originalLaunchPlatform": "PC / Xbox 360 / PS3",
+  "platforms": [
+    "Microsoft Windows",
+    "Mac OS",
+    "Linux",
+    "Xbox 360",
+    "PlayStation 3",
+    "Nintendo Switch"
+  ],
+  "genre": "puzzle",
+  "subgenres": [
+    "First-Person Puzzle",
+    "Comedy Sci-Fi",
+    "Cooperative Puzzle"
+  ],
+  "era": "2010s",
+  "shortDescription": "Valve's comedic puzzle triumph featuring the Aperture Science Handheld Portal Device, GLaDOS, Wheatley, and Cave Johnson.",
+  "historicalSignificance": "Achieved near-universal critical perfection (95 Metacritic), elevating puzzle design through momentum physics and mobility gels, while delivering the sharpest, funniest voice-acted screenplay in video game history.",
+  "editorialContent": {
+    "overview": "Directed by Joshua Weier at Valve Corporation and written by Erik Wolpaw, Chet Faliszek, and Jay Pinkerton, Portal 2 arrived in April 2011. Expanding the minimalist mechanical test chambers of the 2007 original into a grand epic through the decaying subterranean depths of Aperture Science, players awaken as Chell alongside bumbling personality core Wheatley (voiced by Stephen Merchant) to re-encounter vengeful AI GLaDOS (Ellen McLain).",
+    "gameplay": "Players use the Aperture Science Handheld Portal Device to link two points in space, preserving momentum ('speedy thing goes in, speedy thing comes out'). Portal 2 introduced dynamic physical substances: blue Repulsion Gel (bouncing), orange Propulsion Gel (high-speed sprinting), white Conversion Gel (making any surface portalable), Thermal Redirection Lasers, and pneumatic Aerial Faith Plates. A standalone two-player co-op campaign stars robots Atlas and P-Body.",
+    "technicalInnovation": "Valve's Source Engine delivered sophisticated dynamic fluid paint splattering physics, seamless portal rendering without performance penalties, and Mike Morasky's procedural synth score that layered new musical tracks dynamically based on player trajectory and puzzle actions.",
+    "culturalImpact": "Portal 2 won countless Game of the Year honors, acclaimed for its brilliant integration of momentum physics and razor-sharp humor, featuring J.K. Simmons's iconic 'Combustible Lemons' monologue as Aperture founder Cave Johnson.",
+    "preservationNotes": "Preserved natively on PC via Steam with full Steam Workshop custom level support, backwards compatibility on Xbox, and 2022's Portal: Companion Collection on Nintendo Switch."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "April 19, 2011",
+    "leadPlatform": "Microsoft Windows",
+    "genre": "puzzle",
+    "sales": "Over 8.5 million copies worldwide",
+    "awards": [
+      "BAFTA Game of the Year 2011",
+      "Game of the Year 2011 (Spike VGAs nominee, GDC Excellence in Audio & Design)"
+    ],
+    "technicalSpecs": {
+      "engine": "Valve Source Engine with custom fluid paint dynamics",
+      "resolution": "Scalable from 720p to 4K+ 60fps",
+      "soundChip": "Dynamic adaptive MIDI/WAV procedural synth engine by Mike Morasky",
+      "mediaFormat": "DVD-ROM / Steam Digital Download"
+    },
+    "relationships": {
+      "primaryConsole": "pc",
+      "developerEntity": "Valve",
+      "lineage": [
+        "Narbacular Drop",
+        "Portal",
+        "The Witness",
+        "Superliminal"
+      ]
+    }
+  },
+  "assets": {
+    "cover": "/assets/images/games/portal-2.webp",
+    "banner": "/assets/images/games/portal-2-banner.webp",
+    "screenshots": [
+      "/assets/images/games/portal-2-screen1.webp",
+      "/assets/images/games/portal-2-screen2.webp"
+    ],
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/f/f9/Portal2cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/f/f9/Portal2cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Portal2cover.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "portal 2",
+    "glados",
+    "wheatley",
+    "cave johnson",
+    "aperture science",
+    "valve",
+    "stephen merchant",
+    "puzzle"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

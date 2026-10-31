@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-katamari-damacy",
+  "slug": "katamari-damacy",
+  "title": "Katamari Damacy",
+  "originalReleaseYear": 2004,
+  "exactReleaseDate": "March 18, 2004",
+  "originalLaunchPlatform": "PlayStation 2",
+  "originalLaunchRegion": "Japan",
+  "developer": "Namco",
+  "publisher": "Namco",
+  "platforms": [
+    "PlayStation 2"
+  ],
+  "genre": "puzzle",
+  "subgenres": [
+    "action"
+  ],
+  "era": "2000s",
+  "shortDescription": "Keita Takahashi's delightfully surreal roll-em-up where a tiny prince rolls everyday items into giant cosmic balls.",
+  "historicalSignificance": "Celebrated as an avant-garde artistic triumph demonstrating the joyous experimental spirit of PS2 gaming.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Katamari_Damacy",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Keita Takahashi's delightfully surreal roll-em-up where a tiny prince rolls everyday items into giant cosmic balls.",
+    "culturalImpact": "Celebrated as an avant-garde artistic triumph demonstrating the joyous experimental spirit of PS2 gaming."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 2"
+    ],
+    "genres": [
+      "puzzle"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/4/4b/KatamariDamacybox.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/4/4b/KatamariDamacybox.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Katamari_Damacy",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Katamari Damacy",
+    "Namco",
+    "Namco",
+    "PlayStation 2",
+    "puzzle",
+    "2004",
+    "2000s",
+    "PlayStation 2",
+    "action"
+  ],
+  "url": "/games/katamari-damacy/",
+  "featured": false
+}

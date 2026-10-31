@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-uncharted-3-drake-s-deception",
+  "slug": "uncharted-3-drake-s-deception",
+  "title": "Uncharted 3: Drake's Deception",
+  "originalReleaseYear": 2011,
+  "exactReleaseDate": "November 1, 2011",
+  "originalLaunchPlatform": "PlayStation 3",
+  "originalLaunchRegion": "North America",
+  "developer": "Naughty Dog",
+  "publisher": "Sony Computer Entertainment",
+  "platforms": [
+    "PlayStation 3"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "third-person-shooter"
+  ],
+  "era": "2010s",
+  "shortDescription": "Nathan Drake ventures into the Rub' al Khali desert searching for the Atlantis of the Sands.",
+  "historicalSignificance": "Celebrated for iconic set-pieces including the burning chateau, sinking cruise ship, and cargo plane crash.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Uncharted_3:_Drake's_Deception",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Nathan Drake ventures into the Rub' al Khali desert searching for the Atlantis of the Sands.",
+    "culturalImpact": "Celebrated for iconic set-pieces including the burning chateau, sinking cruise ship, and cargo plane crash."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 3"
+    ],
+    "genres": [
+      "action-adventure"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/5/53/Uncharted_3_box_art.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/5/53/Uncharted_3_box_art.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Uncharted_3:_Drake's_Deception",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Uncharted 3: Drake's Deception",
+    "Naughty Dog",
+    "Sony Computer Entertainment",
+    "PlayStation 3",
+    "action-adventure",
+    "2011",
+    "2010s",
+    "PlayStation 3",
+    "third-person-shooter"
+  ],
+  "url": "/games/uncharted-3-drake-s-deception/",
+  "featured": false
+}

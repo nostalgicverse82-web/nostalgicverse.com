@@ -1,0 +1,85 @@
+{
+  "id": "game-soulcalibur",
+  "slug": "soulcalibur",
+  "title": "Soulcalibur",
+  "japaneseTitle": "ソウルキャリバー",
+  "url": "/games/soulcalibur/",
+  "originalReleaseYear": 1999,
+  "exactReleaseDate": "1999-09-09",
+  "developer": "Project Soul (Namco)",
+  "publisher": "Namco",
+  "director": "Hiroaki Yotoriyama",
+  "designer": "Katsutoshi Sasaki",
+  "composer": "Junichi Nakatsuru, Yoshihito Yano",
+  "originalLaunchPlatform": "Sega Dreamcast / Arcade",
+  "platforms": [
+    "Sega Dreamcast",
+    "Arcade",
+    "Xbox 360",
+    "iOS"
+  ],
+  "genre": "fighting",
+  "subgenres": [
+    "3D Weapons Fighter",
+    "Arcade Fighter"
+  ],
+  "era": "1990s",
+  "shortDescription": "Namco's legendary Dreamcast launch title, widely hailed as the greatest home console port in video game history with its revolutionary 8-Way Run system.",
+  "historicalSignificance": "Holds a historic 98 Metacritic score (the highest rated fighting game of all time), astonishing the industry by surpassing its arcade counterpart in graphical fidelity and introducing true 8-Way Run 3D directional mobility.",
+  "editorialContent": {
+    "overview": "Centering on the mythological struggle between the cursed sword Soul Edge and the holy blade Soul Calibur in 1587 AD, warriors from across the globe clash in high-stakes martial arts duels.",
+    "gameplay": "Revolutionized 3D fighting games with the '8-Way Run' system, allowing combatants to step freely in any direction along the 3D plane rather than being constrained to rigid 2D axis sidestepping, accompanied by ring-outs and weapon parries.",
+    "technicalInnovation": "Famously upgraded the arcade original's graphics on the Sega Dreamcast, featuring photorealistic muscle textures, fluid 60 FPS motion-captured martial arts, and the sprawling single-player 'Mission Mode'.",
+    "culturalImpact": "Served as the definitive showpiece for the launch of the Sega Dreamcast on 9/9/99, proving that home consoles had finally surpassed arcade hardware.",
+    "preservationNotes": "Preserved on original Sega Dreamcast GD-ROMs and ported to modern digital platforms."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "September 9, 1999 (North America) / August 5, 1999 (Japan)",
+    "leadPlatform": "Sega Dreamcast",
+    "genre": "fighting",
+    "sales": "Over 1.3 million units sold on Dreamcast",
+    "awards": [
+      "98 Metacritic Score (Highest rated fighting game in history)",
+      "EGM Game of the Year 1999"
+    ],
+    "technicalSpecs": {
+      "engine": "Project Soul Custom Dreamcast Engine",
+      "resolution": "640 x 480 VGA at locked 60fps",
+      "soundChip": "Yamaha AICA 64-channel sound processor",
+      "mediaFormat": "GD-ROM"
+    },
+    "relationships": {
+      "primaryConsole": "dreamcast",
+      "developerEntity": "Namco",
+      "lineage": [
+        "Soul Edge",
+        "Tekken",
+        "Soulcalibur II"
+      ]
+    }
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/5/51/Soulcalibur_cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/5/51/Soulcalibur_cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Soulcalibur_cover.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "soulcalibur",
+    "namco",
+    "project soul",
+    "sega dreamcast",
+    "8-way run",
+    "mitsurugi",
+    "kilik",
+    "ivy",
+    "fighting",
+    "1999"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

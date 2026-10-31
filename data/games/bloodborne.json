@@ -1,0 +1,87 @@
+{
+  "id": "game-bloodborne",
+  "slug": "bloodborne",
+  "title": "Bloodborne",
+  "japaneseTitle": "ブラッドボーン",
+  "url": "/games/bloodborne/",
+  "originalReleaseYear": 2015,
+  "exactReleaseDate": "2015-03-24",
+  "developer": "FromSoftware",
+  "publisher": "Sony Computer Entertainment",
+  "director": "Hidetaka Miyazaki",
+  "designer": "Hidetaka Miyazaki, Kazuhiro Hamatani",
+  "composer": "Ryan Amon, Tsukasa Saitoh, Yuka Kitamura, Nobuyoshi Suzuki",
+  "originalLaunchPlatform": "PlayStation 4",
+  "platforms": [
+    "PlayStation 4"
+  ],
+  "genre": "soulslike",
+  "subgenres": [
+    "Gothic-Lovecraftian Action RPG",
+    "Aggressive Action RPG"
+  ],
+  "era": "2010s",
+  "shortDescription": "Hidetaka Miyazaki's gothic-Lovecraftian masterpiece featuring trick weapons, blood rallying, and cosmic horror in Yharnam.",
+  "historicalSignificance": "Reinvented FromSoftware's combat formula by replacing shields with aggressive offensive momentum (the Rally system and firearm parrying), executing a legendary genre twist from Victorian Gothic beast hunt into cosmic Lovecraftian nightmare.",
+  "editorialContent": {
+    "overview": "Directed by Hidetaka Miyazaki concurrently with Dark Souls II, Bloodborne arrived in March 2015 as a flagship exclusive for the PlayStation 4. Arriving in the ancient, gothic city of Yharnam seeking paleblood ministration, the protagonist awakens to the 'Night of the Hunt,' where citizens have succumbed to a horrific blood-borne scourge of the beast.",
+    "gameplay": "Combat rejects defensive turtling behind shields. Instead, the 'Rally' mechanic permits players to regain recently lost health by retaliating with swift counterattacks within a brief window. Players wield versatile 'Trick Weapons' (Saw Cleaver, Threaded Cane, Holy Moonlight Sword) that morph seamlessly between short and long forms mid-combo, backed by a left-hand firearm used to stagger attacking beasts for visceral attacks.",
+    "technicalInnovation": "FromSoftware engineered dense Victorian architecture with dripping wet cobblestone shaders, physics-enabled cloth simulation, and dynamic blood splattering that coated the Hunter's attire during combat.",
+    "culturalImpact": "Bloodborne is widely revered as Hidetaka Miyazaki's crowning artistic masterpiece. Its secret shift into cosmic Lovecraftian madness (The Great Ones, Insight, Oedon) and thunderous live orchestral choir soundtrack cemented it as an eternal fan favorite.",
+    "preservationNotes": "Preserved on PlayStation 4 Blu-ray discs, playable via backwards compatibility on PlayStation 5."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "March 24, 2015",
+    "leadPlatform": "PlayStation 4",
+    "genre": "soulslike",
+    "sales": "Over 7.5 million copies on PlayStation 4",
+    "awards": [
+      "Game of the Year 2015 (Golden Joystick Awards nominee, Edge Game of the Year)",
+      "BAFTA Game Award for Game Design nominee"
+    ],
+    "technicalSpecs": {
+      "engine": "FromSoftware custom PS4 64-bit engine with Havok physics",
+      "resolution": "1080p Full HD (PS4)",
+      "soundChip": "PS4 7.1 LPCM with live 65-piece orchestra and 32-voice choir recorded at Abbey Road Studios",
+      "mediaFormat": "Blu-ray Disc (50 GB)"
+    },
+    "relationships": {
+      "primaryConsole": "playstation-4",
+      "developerEntity": "FromSoftware",
+      "lineage": [
+        "Demon's Souls",
+        "Dark Souls",
+        "Sekiro: Shadows Die Twice",
+        "Elden Ring"
+      ]
+    }
+  },
+  "assets": {
+    "cover": "/assets/images/games/bloodborne.webp",
+    "banner": "/assets/images/games/bloodborne-banner.webp",
+    "screenshots": [
+      "/assets/images/games/bloodborne-screen1.webp",
+      "/assets/images/games/bloodborne-screen2.webp"
+    ],
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/6/68/Bloodborne_Cover_Wallpaper.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/6/68/Bloodborne_Cover_Wallpaper.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Bloodborne_Cover_Wallpaper.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "review-required",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "bloodborne",
+    "hidetaka miyazaki",
+    "yharnam",
+    "hunter",
+    "trick weapons",
+    "lovecraftian",
+    "fromsoftware",
+    "playstation 4"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-golden-sun",
+  "slug": "golden-sun",
+  "title": "Golden Sun",
+  "originalReleaseYear": 2001,
+  "exactReleaseDate": "August 1, 2001",
+  "originalLaunchPlatform": "Game Boy Advance",
+  "originalLaunchRegion": "Japan",
+  "developer": "Camelot Software Planning",
+  "publisher": "Nintendo",
+  "platforms": [
+    "Game Boy Advance"
+  ],
+  "genre": "rpg",
+  "subgenres": [
+    "turn-based-rpg"
+  ],
+  "era": "2000s",
+  "shortDescription": "Isaac and fellow adepts journey across Weyard to prevent Alchemy's elemental lighthouses from being ignited.",
+  "historicalSignificance": "A landmark technical showpiece for GBA delivering pseudo-3D summon animations and Psynergy puzzles.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Golden_Sun",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Isaac and fellow adepts journey across Weyard to prevent Alchemy's elemental lighthouses from being ignited.",
+    "culturalImpact": "A landmark technical showpiece for GBA delivering pseudo-3D summon animations and Psynergy puzzles."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "Game Boy Advance"
+    ],
+    "genres": [
+      "rpg"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Golden_Sun_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Golden_Sun_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Golden_Sun",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Golden Sun",
+    "Camelot Software Planning",
+    "Nintendo",
+    "Game Boy Advance",
+    "rpg",
+    "2001",
+    "2000s",
+    "Game Boy Advance",
+    "turn-based-rpg"
+  ],
+  "url": "/games/golden-sun/",
+  "featured": false
+}

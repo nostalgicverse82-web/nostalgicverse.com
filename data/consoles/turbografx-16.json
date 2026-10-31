@@ -1,0 +1,42 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+  "id": "console-turbografx-16",
+  "slug": "turbografx-16",
+  "name": "PC Engine / TurboGrafx-16",
+  "manufacturer": "NEC",
+  "generation": "Fourth Generation",
+  "generationNumber": 4,
+  "originalReleaseYear": 1987,
+  "exactReleaseDate": "October 30, 1987",
+  "mediaFormat": "HuCard (TurboChip) & CD-ROM²",
+  "significance": "Inaugurated CD-ROM optical gaming on home consoles via the CD-ROM² add-on, leading the 16-bit generational transition in Japan.",
+  "verifiedFactualData": {
+    "cpu": "Hudson HuC6280 (8-bit) @ 7.16 MHz",
+    "gpuOrVideoChip": "Hudson HuC6260 / HuC6270 16-bit video processors",
+    "ram": "8 KB work RAM, 64 KB video RAM"
+  },
+  "editorialContent": {
+    "overview": "The diminutive Japanese powerhouse that outsold the Famicom in Japan and pioneered console CD-ROM optical media in 1988.",
+    "marketLegacy": "Inaugurated CD-ROM optical gaming on home consoles via the CD-ROM² add-on, leading the 16-bit generational transition in Japan.",
+    "controllerDesign": "TurboPad with built-in turbo switches"
+  },
+  "keyGames": [
+    "bonk-adventure",
+    "r-type",
+    "ys-book-i-and-ii"
+  ],
+  "assets": {
+    "mainImage": "/assets/images/consoles/turbografx-16.png",
+    "heroImage": "/assets/images/consoles/turbografx-16-hero.png",
+    "hardwareImage": "/assets/images/consoles/turbografx-16-hardware.png"
+  },
+  "keywords": [
+    "turbografx-16",
+    "pc engine",
+    "nec",
+    "hudson",
+    "fourth generation",
+    "cd-rom",
+    "1987"
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "id": "game-metroid-prime",
+  "slug": "metroid-prime",
+  "title": "Metroid Prime",
+  "japaneseTitle": "メトロイドプライム",
+  "url": "/games/metroid-prime/",
+  "originalReleaseYear": 2002,
+  "exactReleaseDate": "2002-11-18",
+  "developer": "Retro Studios",
+  "publisher": "Nintendo",
+  "director": "Mark Pacini",
+  "designer": "Mark Pacini, Mike Wikan",
+  "composer": "Kenji Yamamoto, Kouichi Kyuma",
+  "originalLaunchPlatform": "Nintendo GameCube",
+  "platforms": [
+    "Nintendo GameCube",
+    "Wii",
+    "Nintendo Switch"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "First-Person Adventure",
+    "3D Metroidvania"
+  ],
+  "era": "2000s",
+  "shortDescription": "Retro Studios' sublime translation of 2D Metroid exploration and atmosphere into a breathtaking 3D first-person adventure.",
+  "historicalSignificance": "Masterfully translated the isolation, environmental storytelling, and lock-and-key exploration of 2D Super Metroid into a first-person perspective, achieving a 97 Metacritic score and establishing Retro Studios as an elite Western Nintendo partner.",
+  "editorialContent": {
+    "overview": "Developed by Austin, Texas-based Retro Studios under producer Shigeru Miyamoto and director Mark Pacini, Metroid Prime launched in November 2002 on the GameCube. Defying initial skepticism over abandoning 2D side-scrolling, Prime discarded mindless run-and-gun shooter conventions to deliver an authentic 'First-Person Adventure' across the hazardous, ancient planet Tallon IV.",
+    "gameplay": "Players view the alien world through Samus Aran's illuminated helmet HUD. Combat uses a lock-on targeting system paired with arm-cannon beam swapping (Power, Wave, Ice, Plasma). Exploration hinges on the Scan Visor, reading ancient Chozo inscriptions and Pirate logbooks, and switching into third-person Morph Ball mode to navigate tight crevices.",
+    "technicalInnovation": "Retro Studios engineered a custom GameCube engine locked at 60 frames per second that rendered breathtaking atmospheric effects: rainwater streaking across Samus's visor, condensation steaming from volcanic vents, and Samus's eyes reflecting in glass during muzzle flashes.",
+    "culturalImpact": "Metroid Prime proved 2D gameplay formulas could be reinvented in 3D without sacrificing their atmospheric soul. It remains one of the highest critically acclaimed video games of all time.",
+    "preservationNotes": "Preserved on GameCube mini-discs, the Wii Metroid Prime Trilogy collection, and officially remastered in 2023 for Nintendo Switch with modern dual-stick controls."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "November 18, 2002",
+    "leadPlatform": "Nintendo GameCube",
+    "genre": "action-adventure",
+    "sales": "2.84 million copies on Nintendo GameCube",
+    "awards": [
+      "Game of the Year 2002 (Game Developers Choice Awards, GameSpot, Electronic Gaming Monthly)",
+      "Metacritic score of 97"
+    ],
+    "technicalSpecs": {
+      "engine": "Retro Studios Rhapsody Engine (locked 60fps at 480p)",
+      "resolution": "480p progressive scan (60fps)",
+      "soundChip": "GameCube Macronix DSP with Kenji Yamamoto ambient techno-organic score",
+      "mediaFormat": "GameCube Optical Disc (1.46 GB)"
+    },
+    "relationships": {
+      "primaryConsole": "gamecube",
+      "developerEntity": "Retro Studios",
+      "lineage": [
+        "Super Metroid",
+        "Metroid Prime 2: Echoes",
+        "Metroid Prime 3: Corruption",
+        "Metroid Prime 4"
+      ]
+    }
+  },
+  "assets": {
+    "cover": "/assets/images/games/metroid-prime.webp",
+    "banner": "/assets/images/games/metroid-prime-banner.webp",
+    "screenshots": [
+      "/assets/images/games/metroid-prime-screen1.webp",
+      "/assets/images/games/metroid-prime-screen2.webp"
+    ],
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/b/ba/MetroidPrimebox.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/b/ba/MetroidPrimebox.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:MetroidPrimebox.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "metroid prime",
+    "samus aran",
+    "retro studios",
+    "tallon iv",
+    "gamecube",
+    "scan visor",
+    "metroidvania",
+    "kenji yamamoto"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

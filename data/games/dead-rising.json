@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-dead-rising",
+  "slug": "dead-rising",
+  "title": "Dead Rising",
+  "originalReleaseYear": 2006,
+  "exactReleaseDate": "August 8, 2006",
+  "originalLaunchPlatform": "Xbox 360",
+  "originalLaunchRegion": "North America",
+  "developer": "Capcom Production Studio 1",
+  "publisher": "Capcom",
+  "platforms": [
+    "Xbox 360"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "survival-horror"
+  ],
+  "era": "2000s",
+  "shortDescription": "Photojournalist Frank West survives 72 hours trapped in the Willamette Parkview Mall against thousands of on-screen zombies.",
+  "historicalSignificance": "Showcased seventh-generation processing power with hundreds of interactive retail weapons and chaotic crowds.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Dead_Rising",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Photojournalist Frank West survives 72 hours trapped in the Willamette Parkview Mall against thousands of on-screen zombies.",
+    "culturalImpact": "Showcased seventh-generation processing power with hundreds of interactive retail weapons and chaotic crowds."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "Xbox 360"
+    ],
+    "genres": [
+      "action-adventure"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Dead_Rising_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Dead_Rising_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Dead_Rising",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Dead Rising",
+    "Capcom Production Studio 1",
+    "Capcom",
+    "Xbox 360",
+    "action-adventure",
+    "2006",
+    "2000s",
+    "Xbox 360",
+    "survival-horror"
+  ],
+  "url": "/games/dead-rising/",
+  "featured": false
+}

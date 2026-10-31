@@ -1,0 +1,93 @@
+{
+  "id": "game-civilization",
+  "slug": "civilization",
+  "title": "Sid Meier's Civilization",
+  "url": "/games/civilization/",
+  "originalReleaseYear": 1991,
+  "exactReleaseDate": "1991-09-01",
+  "developer": "MicroProse",
+  "publisher": "MicroProse",
+  "designer": "Sid Meier & Bruce Shelley",
+  "originalLaunchPlatform": "PC / MS-DOS",
+  "platforms": [
+    "PC",
+    "Amiga",
+    "Atari ST",
+    "Macintosh",
+    "SNES",
+    "PlayStation"
+  ],
+  "genre": "turn-based-strategy",
+  "subgenres": [
+    "4X Grand Strategy",
+    "Historical Simulation"
+  ],
+  "era": "1990s",
+  "shortDescription": "Sid Meier and Bruce Shelley's monumental grand strategy epic that founded the 4X genre and introduced the famous technology tree.",
+  "historicalSignificance": "Created the '4X' grand strategy paradigm (eXplore, eXpand, eXploit, eXterminate), pioneered the branched technology tree, and coined the compulsive gaming phrase 'Just one more turn.'",
+  "editorialContent": {
+    "overview": "Designed by Sid Meier with crucial design balancing by Bruce Shelley at MicroProse in 1991, Sid Meier's Civilization was an audacious conceptual triumph: encapsulating six thousand years of human civilization from the dawn of agriculture in 4000 BC to modern space exploration within a single turn-based personal computer game.",
+    "gameplayMechanics": "Taking command of a historical empire (Rome, Egypt, America, Aztecs, etc.), players guide settlers to found cities, build terrain improvements, manage tax and science rates, conduct diplomacy with rival civilizations, and command military units across a grid map. Victory can be attained through military world conquest or by winning the technological space race to Alpha Centauri.",
+    "technicalInnovation": "Civilization's most enduring game design breakthrough was the Technology Tree (Tech Tree): an interconnected hierarchical dependency graph where discovering Pottery and Bronze Working unlocks Iron Working, Construction, and eventually Nuclear Fission and Space Flight, allowing players to chart their own developmental destiny.",
+    "culturalImpact": "Civilization sold millions of copies, won numerous game of the year awards, and gave rise to the universal gamer affliction known as the 'One More Turn' syndrome. Its core 4X design framework laid the groundwork for an entire empire of strategy games including Master of Orion, Age of Empires, and Total War.",
+    "preservationNotes": "Preserved on original MS-DOS floppy disk images. Emulation requires authentic DOSBox x86 CPU cycle throttle and Sound Blaster / Roland MT-32 audio card emulation."
+  },
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "Meier, Sid. 'Sid Meier's Memoir!: A Life in Computer Games', W. W. Norton & Company (2020)",
+      "Shelley, Bruce. 'Postmortem: Sid Meier's Civilization', Game Developer Magazine (2001)",
+      "MicroProse Software Inc. Civilization Official Player's Manual (1991)"
+    ],
+    "romMediaFormat": "5.25-inch / 3.5-inch Floppy Disk",
+    "romSizeOriginal": "3.5 MB (MS-DOS Release)",
+    "displayResolutionOriginal": "320 × 200 (VGA 256-color Mode 13h)",
+    "audioHardware": "AdLib FM Synthesis / Sound Blaster / Roland MT-32",
+    "inputMethod": "Mouse and QWERTY Keyboard",
+    "multiplayerCapability": "1 Player"
+  },
+  "relatedExhibits": {
+    "games": [
+      "simcity",
+      "starcraft",
+      "elite"
+    ],
+    "consoles": [
+      "super-nintendo-entertainment-system",
+      "playstation"
+    ],
+    "genres": [
+      "turn-based-strategy"
+    ],
+    "timeline": [
+      "ev-1991-sonic-the-hedgehog"
+    ]
+  },
+  "assets": {
+    "heroImage": "/assets/images/games/civilization-hero.webp",
+    "thumbnailImage": "/assets/images/games/civilization.webp",
+    "coverImage": "/assets/images/games/civilization-cover.webp",
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/e/ec/Civilizationboxart.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/e/ec/Civilizationboxart.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Civilizationboxart.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "civilization",
+    "sid meier",
+    "bruce shelley",
+    "microprose",
+    "4x strategy",
+    "tech tree",
+    "turn-based strategy",
+    "just one more turn",
+    "ms-dos",
+    "1991",
+    "1990s"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

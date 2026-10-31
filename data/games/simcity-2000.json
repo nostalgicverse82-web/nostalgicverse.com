@@ -1,0 +1,72 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-simcity-2000",
+  "slug": "simcity-2000",
+  "title": "SimCity 2000",
+  "originalReleaseYear": 1993,
+  "exactReleaseDate": "December 1, 1993",
+  "originalLaunchPlatform": "Macintosh",
+  "originalLaunchRegion": "North America",
+  "developer": "Maxis",
+  "publisher": "Maxis",
+  "platforms": [
+    "Macintosh",
+    "PC",
+    "Sega Saturn",
+    "PlayStation"
+  ],
+  "genre": "simulation",
+  "subgenres": [
+    "city-builder"
+  ],
+  "era": "1990s",
+  "shortDescription": "Will Wright's dimetric city simulation introducing underground water pipes, subway networks, arcologies, and newspaper feedback.",
+  "historicalSignificance": "Defined the urban planning and city-building genre for a generation, hailed as an all-time educational and interactive triumph.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/SimCity_2000",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Will Wright's dimetric city simulation introducing underground water pipes, subway networks, arcologies, and newspaper feedback.",
+    "culturalImpact": "Defined the urban planning and city-building genre for a generation, hailed as an all-time educational and interactive triumph."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "Macintosh"
+    ],
+    "genres": [
+      "simulation"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/SimCity_2000_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/SimCity_2000_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/SimCity_2000",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "SimCity 2000",
+    "Maxis",
+    "Maxis",
+    "Macintosh",
+    "simulation",
+    "1993",
+    "1990s",
+    "Macintosh",
+    "PC",
+    "Sega Saturn",
+    "PlayStation",
+    "city-builder"
+  ],
+  "url": "/games/simcity-2000/",
+  "featured": false
+}

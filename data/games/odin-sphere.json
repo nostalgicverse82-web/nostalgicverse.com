@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-odin-sphere",
+  "slug": "odin-sphere",
+  "title": "Odin Sphere",
+  "originalReleaseYear": 2007,
+  "exactReleaseDate": "May 17, 2007",
+  "originalLaunchPlatform": "PlayStation 2",
+  "originalLaunchRegion": "Japan",
+  "developer": "Vanillaware",
+  "publisher": "Atlus",
+  "platforms": [
+    "PlayStation 2"
+  ],
+  "genre": "action-rpg",
+  "subgenres": [
+    "side-scrolling"
+  ],
+  "era": "2000s",
+  "shortDescription": "George Kamitani's breathtaking hand-drawn Norse fantasy epic told through five interwoven protagonists.",
+  "historicalSignificance": "Established Vanillaware's signature 2D painterly aesthetic and dramatic multi-perspective storytelling.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Odin_Sphere",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "George Kamitani's breathtaking hand-drawn Norse fantasy epic told through five interwoven protagonists.",
+    "culturalImpact": "Established Vanillaware's signature 2D painterly aesthetic and dramatic multi-perspective storytelling."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 2"
+    ],
+    "genres": [
+      "action-rpg"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Odin_Sphere_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Odin_Sphere_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Odin_Sphere",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Odin Sphere",
+    "Vanillaware",
+    "Atlus",
+    "PlayStation 2",
+    "action-rpg",
+    "2007",
+    "2000s",
+    "PlayStation 2",
+    "side-scrolling"
+  ],
+  "url": "/games/odin-sphere/",
+  "featured": false
+}

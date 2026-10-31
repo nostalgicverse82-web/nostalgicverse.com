@@ -1,0 +1,70 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-timesplitters-future-perfect",
+  "slug": "timesplitters-future-perfect",
+  "title": "TimeSplitters: Future Perfect",
+  "originalReleaseYear": 2005,
+  "exactReleaseDate": "March 21, 2005",
+  "originalLaunchPlatform": "PlayStation 2",
+  "originalLaunchRegion": "North America",
+  "developer": "Free Radical Design",
+  "publisher": "Electronic Arts",
+  "platforms": [
+    "PlayStation 2",
+    "Xbox",
+    "GameCube"
+  ],
+  "genre": "first-person-shooter",
+  "subgenres": [
+    "arcade-shooter"
+  ],
+  "era": "2000s",
+  "shortDescription": "Cortez's comedic campaign featuring self-cooperative paradox puzzles and expansive online deathmatches.",
+  "historicalSignificance": "Celebrated for its hilarious script, responsive arcade gunplay, and deep custom scenario creator.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/TimeSplitters:_Future_Perfect",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Cortez's comedic campaign featuring self-cooperative paradox puzzles and expansive online deathmatches.",
+    "culturalImpact": "Celebrated for its hilarious script, responsive arcade gunplay, and deep custom scenario creator."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 2"
+    ],
+    "genres": [
+      "first-person-shooter"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/1/18/Timesplitters_future_perfect_box.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/1/18/Timesplitters_future_perfect_box.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/TimeSplitters:_Future_Perfect",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "TimeSplitters: Future Perfect",
+    "Free Radical Design",
+    "Electronic Arts",
+    "PlayStation 2",
+    "first-person-shooter",
+    "2005",
+    "2000s",
+    "PlayStation 2",
+    "Xbox",
+    "GameCube",
+    "arcade-shooter"
+  ],
+  "url": "/games/timesplitters-future-perfect/",
+  "featured": false
+}

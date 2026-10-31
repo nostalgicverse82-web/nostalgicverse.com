@@ -1,0 +1,86 @@
+{
+  "id": "game-adventure",
+  "slug": "adventure",
+  "title": "Adventure",
+  "url": "/games/adventure/",
+  "originalReleaseYear": 1979,
+  "exactReleaseDate": "1979-12-01",
+  "developer": "Atari, Inc.",
+  "publisher": "Atari, Inc.",
+  "designer": "Warren Robinett",
+  "originalLaunchPlatform": "Atari 2600",
+  "platforms": [
+    "Atari 2600"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "Action-Adventure",
+    "Top-Down Exploration"
+  ],
+  "era": "1970s",
+  "shortDescription": "Warren Robinett's legendary Atari 2600 milestone that translated text adventure exploration into real-time graphical action and contained video game history's first famous Easter egg.",
+  "historicalSignificance": "Invented the graphical action-adventure genre, introduced persistent interactive item inventories, and established the video game 'Easter egg' when Warren Robinett secretly coded his credit room to protest Atari's anonymous developer policy.",
+  "editorialContent": {
+    "overview": "Inspired by Will Crowther's text-based Colossal Cave Adventure, Atari programmer Warren Robinett set out in 1978 to accomplish what Atari management considered impossible: translating a multi-room exploration game into the severely hardware-constrained Atari Video Computer System (Atari 2600), which featured a microscopic 128 bytes of RAM.",
+    "gameplayMechanics": "Represented by a nimble square avatar, players traverse 30 interconnected rooms spanning white, black, and yellow castles, dark catacombs, and dense hedge mazes. Gameplay revolves around finding colored keys to unlock castles, wielding an arrow-like sword to slay three relentless dragons (Yorgle, Grundle, and Rhindle), avoiding a mischievous kleptomaniac bat that swaps items in real time, and recovering the sacred Enchanted Chalice.",
+    "technicalInnovation": "Operating within the Atari 2600's standard 4-kilobyte ROM cartridge boundary and utilizing the machine's 128 bytes of RAM, Robinett engineered an ingenious multi-room coordinate mapping system and stateful object memory. To bypass Atari president Ray Kassar's corporate policy forbidding employee credits on game packaging, Robinett secretly hid a microscopic 1-pixel gray dot; carrying it into a sealed wall revealed a secret chamber proclaiming: 'CREATED BY WARREN ROBINETT'.",
+    "culturalImpact": "Adventure sold over one million cartridges, cementing the action-adventure format that paved the way for Shigeru Miyamoto's The Legend of Zelda. Robinett's hidden room sparked the widespread industry tradition of secret developer Easter eggs.",
+    "preservationNotes": "Preserved on authentic Atari 4KB ROM cartridge bins. Preservation requires accurate Television Interface Adaptor (TIA) clock-cycle raster timing and faithful representation of CRT color registers."
+  },
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "Robinett, Warren. 'Adventure as a Video Game', In: The Video Game Theory Reader, Routledge (2003)",
+      "Baker, Kevin. 'The Easter Egg That Changed Video Games', Wired Magazine (2018)",
+      "Atari VCS 2600 Cartridge Model CX-2613 Instruction Manual (1980)"
+    ],
+    "romMediaFormat": "Atari 2600 ROM Cartridge",
+    "romSizeOriginal": "4 KB ROM",
+    "displayResolutionOriginal": "160 × 192 (NTSC TIA Raster Display)",
+    "audioHardware": "Atari TIA 2-channel sound generator",
+    "inputMethod": "Atari CX40 8-way joystick with single action button",
+    "multiplayerCapability": "1 Player"
+  },
+  "relatedExhibits": {
+    "games": [
+      "colossal-cave-adventure",
+      "the-legend-of-zelda",
+      "pitfall"
+    ],
+    "consoles": [
+      "atari-2600"
+    ],
+    "genres": [
+      "action-adventure"
+    ],
+    "timeline": [
+      "ev-1979-adventure-easter-egg"
+    ]
+  },
+  "assets": {
+    "heroImage": "/assets/images/games/adventure-hero.webp",
+    "thumbnailImage": "/assets/images/games/adventure.webp",
+    "coverImage": "/assets/images/games/adventure-cover.webp",
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/6/60/Adventure_Box_Front.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/6/60/Adventure_Box_Front.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Adventure_Box_Front.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "adventure",
+    "warren robinett",
+    "atari 2600",
+    "easter egg",
+    "action-adventure",
+    "dragons",
+    "chalice",
+    "first easter egg",
+    "1979",
+    "1970s"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

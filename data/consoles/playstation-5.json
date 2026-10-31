@@ -1,0 +1,43 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+  "id": "console-playstation-5",
+  "slug": "playstation-5",
+  "name": "Sony PlayStation 5",
+  "manufacturer": "Sony",
+  "generation": "Ninth Generation",
+  "generationNumber": 9,
+  "originalReleaseYear": 2020,
+  "exactReleaseDate": "November 12, 2020",
+  "mediaFormat": "Ultra HD Blu-ray (up to 100GB) & Digital",
+  "significance": "Eliminated traditional loading screens via custom I/O flash pipelines and redefined tactile player feedback through haptic actuators and adaptive triggers.",
+  "verifiedFactualData": {
+    "cpu": "Custom 8-core AMD Zen 2 @ variable up to 3.5 GHz",
+    "gpuOrVideoChip": "Custom AMD RDNA 2 (10.28 TFLOPS @ 2.23 GHz)",
+    "ram": "16 GB GDDR6 unified RAM @ 448 GB/s"
+  },
+  "editorialContent": {
+    "overview": "Sony's high-speed architecture defined by near-instantaneous PCIe 4.0 SSD decompression and DualSense haptic feedback.",
+    "marketLegacy": "Eliminated traditional loading screens via custom I/O flash pipelines and redefined tactile player feedback through haptic actuators and adaptive triggers.",
+    "controllerDesign": "DualSense wireless controller with adaptive triggers and micro-voice-coil haptics"
+  },
+  "keyGames": [
+    "demons-souls",
+    "returnal",
+    "spider-man-2",
+    "god-of-war-ragnarok"
+  ],
+  "assets": {
+    "mainImage": "/assets/images/consoles/playstation-5.png",
+    "heroImage": "/assets/images/consoles/playstation-5-hero.png",
+    "hardwareImage": "/assets/images/consoles/playstation-5-hardware.png"
+  },
+  "keywords": [
+    "playstation 5",
+    "ps5",
+    "sony",
+    "ninth generation",
+    "dualsense",
+    "nvme ssd",
+    "2020"
+  ]
+}

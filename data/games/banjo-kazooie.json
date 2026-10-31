@@ -1,0 +1,87 @@
+{
+  "id": "game-banjo-kazooie",
+  "slug": "banjo-kazooie",
+  "title": "Banjo-Kazooie",
+  "japaneseTitle": "バンジョーとカズーイの大冒険",
+  "url": "/games/banjo-kazooie/",
+  "originalReleaseYear": 1998,
+  "exactReleaseDate": "1998-06-29",
+  "developer": "Rare",
+  "publisher": "Nintendo",
+  "director": "Gregg Mayles",
+  "designer": "Gregg Mayles, Steve Mayles",
+  "composer": "Grant Kirkhope",
+  "originalLaunchPlatform": "Nintendo 64",
+  "platforms": [
+    "Nintendo 64",
+    "Xbox 360"
+  ],
+  "genre": "platformer",
+  "subgenres": [
+    "3D Platformer",
+    "Collectathon Platformer"
+  ],
+  "era": "1990s",
+  "shortDescription": "Rare's vibrant 3D platforming classic featuring charming animal duos, inventive transformation spells, and Kirkhope's dynamic music.",
+  "historicalSignificance": "Perfected the 3D collectathon subgenre on the Nintendo 64 with dense, character-filled sandbox worlds, modular transformation mechanics, and Grant Kirkhope's pioneering adaptive musical channel system.",
+  "editorialContent": {
+    "overview": "Created by Rare's elite development squad under director Gregg Mayles, Banjo-Kazooie launched in summer 1998 as the Nintendo 64's next great 3D adventure. Following mild-mannered honey bear Banjo and loud-mouthed red-crested Breegull Kazooie on a quest to rescue Banjo's sister Tooty from the vain witch Gruntilda, the game elevated character comedy and exploration to joyous heights.",
+    "gameplay": "Players explore nine expansive themed worlds branching from Gruntilda's sprawling mountain lair. The duo combines physical moves—flap flips, talon trots, beak busters, and egg firing—while shaman Mumbo Jumbo provides magical animal transformations (termite, pumpkin, walrus, bee) to access hidden Jiggies, Musical Notes, and Jinjos.",
+    "technicalInnovation": "Grant Kirkhope engineered an extraordinary dynamic MIDI audio engine that seamlessly faded instrument stems in real-time as the player transitioned between locations (e.g., underwater muffled brass, spooky metallophones, cheerful flutes).",
+    "culturalImpact": "Banjo-Kazooie defined Rare's whimsical creative golden age and became a beloved benchmark for 3D level design and character chemistry, ultimately leading to their historic inclusion in Super Smash Bros. Ultimate.",
+    "preservationNotes": "Preserved on 16 MB N64 cartridges, remastered in 60fps HD by 4J Studios for Xbox Live Arcade, and available on Nintendo Switch Online."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "June 29, 1998",
+    "leadPlatform": "Nintendo 64",
+    "genre": "platformer",
+    "sales": "Over 3.65 million copies worldwide",
+    "awards": [
+      "AIAS Interactive Achievement Award for Action Game of the Year 1999",
+      "AIAS Outstanding Achievement in Art/Graphics 1999"
+    ],
+    "technicalSpecs": {
+      "engine": "Rare proprietary 3D N64 engine with dynamic lighting",
+      "resolution": "320x240 progressive",
+      "soundChip": "Nintendo 64 RSP software wavetable with dynamic channel cross-fading",
+      "mediaFormat": "128-Megabit (16 Megabyte) Cartridge"
+    },
+    "relationships": {
+      "primaryConsole": "nintendo-64",
+      "developerEntity": "Rare",
+      "lineage": [
+        "Super Mario 64",
+        "Banjo-Tooie",
+        "Donkey Kong 64",
+        "Yooka-Laylee"
+      ]
+    }
+  },
+  "assets": {
+    "cover": "/assets/images/games/banjo-kazooie.webp",
+    "banner": "/assets/images/games/banjo-kazooie-banner.webp",
+    "screenshots": [
+      "/assets/images/games/banjo-kazooie-screen1.webp",
+      "/assets/images/games/banjo-kazooie-screen2.webp"
+    ],
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/1/12/Banjo_Kazooie_Cover.png",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/1/12/Banjo_Kazooie_Cover.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Banjo_Kazooie_Cover.png",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "banjo-kazooie",
+    "rare",
+    "nintendo 64",
+    "grant kirkhope",
+    "gruntilda",
+    "collectathon",
+    "platformer"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

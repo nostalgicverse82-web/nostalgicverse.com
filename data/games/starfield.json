@@ -1,0 +1,70 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-starfield",
+  "slug": "starfield",
+  "title": "Starfield",
+  "originalReleaseYear": 2023,
+  "exactReleaseDate": "September 6, 2023",
+  "originalLaunchPlatform": "Xbox Series X/S",
+  "originalLaunchRegion": "Worldwide",
+  "developer": "Bethesda Game Studios",
+  "publisher": "Bethesda Softworks",
+  "platforms": [
+    "Xbox Series",
+    "Microsoft Windows"
+  ],
+  "genre": "action-rpg",
+  "subgenres": [
+    "open-world",
+    "sci-fi"
+  ],
+  "era": "2020s",
+  "shortDescription": "Constellation space explorer charts over 1,000 star systems with custom modular starships and planetary outposts.",
+  "historicalSignificance": "Bethesda's first wholly new universe in 25 years, delivering an expansive NASA-punk space exploration sandbox.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Starfield",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Constellation space explorer charts over 1,000 star systems with custom modular starships and planetary outposts.",
+    "culturalImpact": "Bethesda's first wholly new universe in 25 years, delivering an expansive NASA-punk space exploration sandbox."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "Xbox Series X/S"
+    ],
+    "genres": [
+      "action-rpg"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Starfield_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Starfield_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Starfield",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Starfield",
+    "Bethesda Game Studios",
+    "Bethesda Softworks",
+    "Xbox Series X/S",
+    "action-rpg",
+    "2023",
+    "2020s",
+    "Xbox Series",
+    "Microsoft Windows",
+    "open-world",
+    "sci-fi"
+  ],
+  "url": "/games/starfield/",
+  "featured": false
+}

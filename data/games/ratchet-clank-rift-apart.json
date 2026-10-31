@@ -1,0 +1,80 @@
+{
+  "id": "game-ratchet-clank-rift-apart",
+  "slug": "ratchet-clank-rift-apart",
+  "title": "Ratchet & Clank: Rift Apart",
+  "japaneseTitle": "ラチェット&クランク パラレル・トラブル",
+  "url": "/games/ratchet-clank-rift-apart/",
+  "originalReleaseYear": 2021,
+  "exactReleaseDate": "2021-06-11",
+  "developer": "Insomniac Games",
+  "publisher": "Sony Interactive Entertainment",
+  "director": "Marcus Smith, Mike Daly",
+  "designer": "Mark Stuart",
+  "composer": "Mark Mothersbaugh, Wataru Hokoyama",
+  "originalLaunchPlatform": "PlayStation 5",
+  "platforms": [
+    "PlayStation 5",
+    "Microsoft Windows"
+  ],
+  "genre": "platformer",
+  "subgenres": [
+    "Action-Platformer",
+    "Third-Person Shooter"
+  ],
+  "era": "2020s",
+  "shortDescription": "Insomniac's dazzling interdimensional showpiece leveraging the PS5 NVMe SSD for seamless instantaneous world-hopping between alternate dimensions.",
+  "historicalSignificance": "The definitive early technical demonstration of ninth-generation solid-state storage capabilities, eliminating traditional loading screens to leap between fully rendered alien worlds in under a second.",
+  "editorialContent": {
+    "overview": "When evil Emperor Nefarious damages the Dimensionator, fabric tears open across space-time. Ratchet and Clank are separated into an alternate totalitarian dimension where they ally with rival resistance Lombax Rivet.",
+    "gameplay": "High-octane platform shooting featuring the 'Rift Tether' to yank players through space, wall-running, phantom dashing, and inventive weaponry like the Topiary Sprinkler, Shatterbomb, and Ricochet.",
+    "technicalInnovation": "Utilized the ultra-high-speed PS5 SSD (5.5 GB/s raw) to stream dense geometry, ray-traced reflections, and alternate dimensional maps without pause, setting a benchmark for Pixar-quality real-time rendering.",
+    "culturalImpact": "Rivet was welcomed as a breakout franchise co-star, praised for expanding representation in character action platformers.",
+    "preservationNotes": "Preserved on Ultra HD Blu-ray disc and ported to PC with full ray tracing and direct storage support."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "June 11, 2021",
+    "leadPlatform": "PlayStation 5",
+    "genre": "platformer",
+    "sales": "Over 4 million copies sold",
+    "awards": [
+      "D.I.C.E. Award for Outstanding Technical Achievement",
+      "The Game Awards Nominee GOTY 2021"
+    ],
+    "technicalSpecs": {
+      "engine": "Insomniac Proprietary Engine",
+      "resolution": "Dynamic 4K with Ray Tracing at 30/60/120Hz modes",
+      "soundChip": "3D Tempest Audio with DualSense haptics",
+      "mediaFormat": "Ultra HD Blu-ray Disc"
+    },
+    "relationships": {
+      "primaryConsole": "playstation-5",
+      "developerEntity": "Insomniac Games",
+      "lineage": [
+        "Ratchet & Clank (2002)",
+        "Marvel's Spider-Man 2"
+      ]
+    }
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/f/fe/Ratchet_%26_Clank_-_Rift_Apart_cover_art.png",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/f/fe/Ratchet_%26_Clank_-_Rift_Apart_cover_art.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Ratchet_%26_Clank_-_Rift_Apart_cover_art.png",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "ratchet and clank rift apart",
+    "insomniac games",
+    "rivet",
+    "playstation 5",
+    "ps5",
+    "nvme ssd",
+    "ray tracing",
+    "pixar"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

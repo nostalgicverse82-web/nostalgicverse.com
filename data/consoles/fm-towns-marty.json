@@ -1,0 +1,41 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+  "id": "console-fm-towns-marty",
+  "slug": "fm-towns-marty",
+  "name": "FM Towns Marty",
+  "manufacturer": "Fujitsu",
+  "generation": "Fifth Generation",
+  "generationNumber": 5,
+  "originalReleaseYear": 1993,
+  "exactReleaseDate": "February 20, 1993",
+  "mediaFormat": "CD-ROM & 3.5-inch Floppy Disk",
+  "significance": "Pioneered 32-bit x86 home gaming and backward compatibility with a rich computer software library of CD-ROM visual novels and arcade ports.",
+  "verifiedFactualData": {
+    "cpu": "AMD 386SX @ 16 MHz (32-bit)",
+    "gpuOrVideoChip": "Custom video controller (up to 32,768 colors)",
+    "ram": "2 MB RAM, 640 KB VRAM"
+  },
+  "editorialContent": {
+    "overview": "The world's first dedicated 32-bit home console, based on Fujitsu's popular Japanese FM Towns multimedia PC line.",
+    "marketLegacy": "Pioneered 32-bit x86 home gaming and backward compatibility with a rich computer software library of CD-ROM visual novels and arcade ports.",
+    "controllerDesign": "6-button digital controller"
+  },
+  "keyGames": [
+    "zak-mckracken",
+    "shadow-of-the-beast",
+    "splatterhouse"
+  ],
+  "assets": {
+    "mainImage": "/assets/images/consoles/fm-towns-marty.png",
+    "heroImage": "/assets/images/consoles/fm-towns-marty-hero.png",
+    "hardwareImage": "/assets/images/consoles/fm-towns-marty-hardware.png"
+  },
+  "keywords": [
+    "fm towns marty",
+    "fujitsu",
+    "32-bit",
+    "fifth generation",
+    "japan",
+    "1993"
+  ]
+}

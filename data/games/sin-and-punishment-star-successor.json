@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-sin-and-punishment-star-successor",
+  "slug": "sin-and-punishment-star-successor",
+  "title": "Sin & Punishment: Star Successor",
+  "originalReleaseYear": 2009,
+  "exactReleaseDate": "October 29, 2009",
+  "originalLaunchPlatform": "Wii",
+  "originalLaunchRegion": "Japan",
+  "developer": "Treasure",
+  "publisher": "Nintendo",
+  "platforms": [
+    "Wii"
+  ],
+  "genre": "rail-shooter",
+  "subgenres": [
+    "arcade-action"
+  ],
+  "era": "2000s",
+  "shortDescription": "Treasure's blistering on-rails shooter pairing evasive jetpack flight with Wii Remote laser pointer aiming.",
+  "historicalSignificance": "Regarded among arcade enthusiasts as one of the finest rail shooters ever developed, with dazzling bullet patterns.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Sin_&_Punishment:_Star_Successor",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Treasure's blistering on-rails shooter pairing evasive jetpack flight with Wii Remote laser pointer aiming.",
+    "culturalImpact": "Regarded among arcade enthusiasts as one of the finest rail shooters ever developed, with dazzling bullet patterns."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "Wii"
+    ],
+    "genres": [
+      "rail-shooter"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Sin_%26_Punishment_Star_Successor_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Sin_%26_Punishment_Star_Successor_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Sin_&_Punishment:_Star_Successor",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Sin & Punishment: Star Successor",
+    "Treasure",
+    "Nintendo",
+    "Wii",
+    "rail-shooter",
+    "2009",
+    "2000s",
+    "Wii",
+    "arcade-action"
+  ],
+  "url": "/games/sin-and-punishment-star-successor/",
+  "featured": false
+}

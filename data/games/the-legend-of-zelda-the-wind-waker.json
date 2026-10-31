@@ -1,0 +1,87 @@
+{
+  "id": "game-the-legend-of-zelda-the-wind-waker",
+  "slug": "the-legend-of-zelda-the-wind-waker",
+  "title": "The Legend of Zelda: The Wind Waker",
+  "japaneseTitle": "ゼルダの伝説 風のタクト",
+  "url": "/games/the-legend-of-zelda-the-wind-waker/",
+  "originalReleaseYear": 2002,
+  "exactReleaseDate": "2002-12-13",
+  "developer": "Nintendo EAD",
+  "publisher": "Nintendo",
+  "director": "Eiji Aonuma",
+  "designer": "Shigeru Miyamoto, Eiji Aonuma",
+  "composer": "Kenta Nagata, Hajime Wakai, Toru Minegishi, Koji Kondo",
+  "originalLaunchPlatform": "Nintendo GameCube",
+  "platforms": [
+    "Nintendo GameCube",
+    "Wii U"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "Cel-Shaded Adventure",
+    "Nautical Action-Adventure"
+  ],
+  "era": "2000s",
+  "shortDescription": "Eiji Aonuma's timeless cel-shaded ocean voyage that reimagined Hyrule as a vast flooded archipelago.",
+  "historicalSignificance": "Pioneered emotive cel-shaded cartoon rendering in 3D gaming ('Toon Link'), replacing dark gritty realism with vibrant maritime sailing and expressive facial animation that aged gracefully across decades.",
+  "editorialContent": {
+    "overview": "Directed by Eiji Aonuma under general producer Shigeru Miyamoto, The Wind Waker debuted in Japan in December 2002. Initially provoking intense fan controversy when revealed due to its bright cartoon cel-shaded visual aesthetic, the game quickly won over the world with its boundless sense of seafaring adventure across the flooded ruins of ancient Hyrule.",
+    "gameplay": "Setting sail aboard the talking red boat King of Red Lions, players conduct the wind with the magical Wind Waker baton to explore forty-nine ocean map sectors. Combat expands Ocarina of Time's lock-on system with responsive parry counterattacks, grappling hooks, and heavy iron boots inside brilliant dungeons like the Earth and Wind Temples.",
+    "technicalInnovation": "Nintendo EAD pushed procedural ocean wave simulation, volumetric puffy cartoon clouds, seamless island streaming without loading screens, and an expressive inverse-kinematics facial system where Link's eyes glanced toward hidden environmental clues.",
+    "culturalImpact": "The Wind Waker proved that distinct art direction outperforms hyper-realistic polygon chasing. Its maritime freedom directly inspired the nautical systems in Assassin's Creed IV: Black Flag and the open-air philosophy of Breath of the Wild.",
+    "preservationNotes": "Preserved on GameCube optical media and beautifully updated in 1080p for the Wii U in 2013 with improved Swift Sail mechanics."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "December 13, 2002",
+    "leadPlatform": "Nintendo GameCube",
+    "genre": "action-adventure",
+    "sales": "4.6 million copies on Nintendo GameCube",
+    "awards": [
+      "GameSpot Game of the Year 2003 nominee",
+      "Japan Media Arts Festival Excellence Award 2003"
+    ],
+    "technicalSpecs": {
+      "engine": "Nintendo EAD custom cel-shading and ocean fluid simulation engine",
+      "resolution": "480p progressive scan (60fps UI / 30fps game)",
+      "soundChip": "GameCube Macronix DSP with Celtic-inspired dynamic folk instrumentation",
+      "mediaFormat": "GameCube Optical Disc (1.46 GB)"
+    },
+    "relationships": {
+      "primaryConsole": "gamecube",
+      "developerEntity": "Nintendo",
+      "lineage": [
+        "The Legend of Zelda: Ocarina of Time",
+        "The Legend of Zelda: Phantom Hourglass",
+        "The Legend of Zelda: Breath of the Wild"
+      ]
+    }
+  },
+  "assets": {
+    "cover": "/assets/images/games/the-legend-of-zelda-the-wind-waker.webp",
+    "banner": "/assets/images/games/the-legend-of-zelda-the-wind-waker-banner.webp",
+    "screenshots": [
+      "/assets/images/games/the-legend-of-zelda-the-wind-waker-screen1.webp",
+      "/assets/images/games/the-legend-of-zelda-the-wind-waker-screen2.webp"
+    ],
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/7/79/The_Legend_of_Zelda_The_Wind_Waker.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/7/79/The_Legend_of_Zelda_The_Wind_Waker.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:The_Legend_of_Zelda_The_Wind_Waker.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "the wind waker",
+    "zelda",
+    "toon link",
+    "eiji aonuma",
+    "king of red lions",
+    "gamecube",
+    "cel-shading",
+    "great sea"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

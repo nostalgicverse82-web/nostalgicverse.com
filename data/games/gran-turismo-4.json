@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-gran-turismo-4",
+  "slug": "gran-turismo-4",
+  "title": "Gran Turismo 4",
+  "originalReleaseYear": 2004,
+  "exactReleaseDate": "December 28, 2004",
+  "originalLaunchPlatform": "PlayStation 2",
+  "originalLaunchRegion": "Japan",
+  "developer": "Polyphony Digital",
+  "publisher": "Sony Computer Entertainment",
+  "platforms": [
+    "PlayStation 2"
+  ],
+  "genre": "racing",
+  "subgenres": [
+    "sim-racing"
+  ],
+  "era": "2000s",
+  "shortDescription": "Monumental car encyclopedia featuring over 700 vehicles, 51 circuits, and 1080i high-def rendering.",
+  "historicalSignificance": "Pushed sixth-gen console hardware beyond expected limits with photographic realism and physics depth.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Gran_Turismo_4",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Monumental car encyclopedia featuring over 700 vehicles, 51 circuits, and 1080i high-def rendering.",
+    "culturalImpact": "Pushed sixth-gen console hardware beyond expected limits with photographic realism and physics depth."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 2"
+    ],
+    "genres": [
+      "racing"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Gran_Turismo_4_Coverart.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Gran_Turismo_4_Coverart.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Gran_Turismo_4",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Gran Turismo 4",
+    "Polyphony Digital",
+    "Sony Computer Entertainment",
+    "PlayStation 2",
+    "racing",
+    "2004",
+    "2000s",
+    "PlayStation 2",
+    "sim-racing"
+  ],
+  "url": "/games/gran-turismo-4/",
+  "featured": false
+}

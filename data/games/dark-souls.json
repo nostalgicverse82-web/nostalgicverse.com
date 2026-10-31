@@ -1,0 +1,93 @@
+{
+  "id": "game-dark-souls",
+  "slug": "dark-souls",
+  "title": "Dark Souls",
+  "japaneseTitle": "ダークソウル",
+  "url": "/games/dark-souls/",
+  "originalReleaseYear": 2011,
+  "exactReleaseDate": "2011-09-22",
+  "developer": "FromSoftware",
+  "publisher": "Namco Bandai Games / FromSoftware",
+  "director": "Hidetaka Miyazaki",
+  "designer": "Hidetaka Miyazaki",
+  "composer": "Motoi Sakuraba",
+  "originalLaunchPlatform": "PlayStation 3 / Xbox 360",
+  "platforms": [
+    "PlayStation 3",
+    "Xbox 360",
+    "Microsoft Windows",
+    "PlayStation 4",
+    "Xbox One",
+    "Nintendo Switch"
+  ],
+  "genre": "soulslike",
+  "subgenres": [
+    "Dark Fantasy Action RPG",
+    "Interconnected World Action RPG"
+  ],
+  "era": "2010s",
+  "shortDescription": "Hidetaka Miyazaki's towering masterpiece of interconnected world design, bonfire checkpoints, and overcoming despair in Lordran.",
+  "historicalSignificance": "The defining cornerstone of the modern gaming zeitgeist, establishing 'Prepare to Die' difficulty, bonfire check-pointing, cryptic environmental lore, and the most intricately interconnected 3D map topology in gaming history.",
+  "editorialContent": {
+    "overview": "Directed by Hidetaka Miyazaki following the cult success of Demon's Souls, Dark Souls was released in September 2011. Escaping the Undead Asylum as the Chosen Undead, players arrive at the ruins of Firelink Shrine in the mythical, decaying kingdom of Lordran. Charged with ringing the Bells of Awakening and linking the First Flame, players embark on an odyssey through a world drowning in curse and fading light.",
+    "gameplay": "Stamina-driven combat demands patience, observation, and respect: every enemy can be fatal. Players rest at bonfires to replenish Estus Flasks at the cost of resurrecting all standard enemies. Defeat leaves a bloodstain with all collected souls and humanity. The world of Lordran unfolds without fast-travel in its first half, revealing awe-inspiring shortcut elevator shafts and spiral staircases that seamlessly stitch mountain fortresses to subterranean swamps.",
+    "technicalInnovation": "Lordran's world architecture represents the pinnacle of vertical 3D spatial design: an interconnected physical sculpture where distant vistas (Blighttown, Ash Lake, Anor Londo) are physically reachable 3D locations rather than skybox illusions.",
+    "culturalImpact": "Dark Souls reshaped the entire philosophy of 2010s game design. It proved modern players craved mystery, challenge, and trust, spawning an entire genre ('Soulslike') and transforming 'the Dark Souls of...' into a ubiquitous pop-culture idiom.",
+    "preservationNotes": "Preserved via original PS3/360 discs, the PC 'Prepare to Die' edition with community fix DSfix, and 2018's 60fps Dark Souls: Remastered."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "September 22, 2011",
+    "leadPlatform": "PlayStation 3",
+    "genre": "soulslike",
+    "sales": "Over 5.5 million copies; over 35 million for the Dark Souls series",
+    "awards": [
+      "Ultimate Game of All Time (Golden Joystick Awards 2021)",
+      "Game of the Year 2011 (GameTrailers nominee)"
+    ],
+    "technicalSpecs": {
+      "engine": "FromSoftware custom dark fantasy engine with Havok physics",
+      "resolution": "720p HD (PS3/Xbox 360)",
+      "soundChip": "Dolby Digital 5.1 with Motoi Sakuraba gothic orchestral score",
+      "mediaFormat": "Blu-ray Disc / DVD-ROM"
+    },
+    "relationships": {
+      "primaryConsole": "playstation-3",
+      "developerEntity": "FromSoftware",
+      "lineage": [
+        "Demon's Souls",
+        "Dark Souls II",
+        "Dark Souls III",
+        "Bloodborne",
+        "Elden Ring"
+      ]
+    }
+  },
+  "assets": {
+    "cover": "/assets/images/games/dark-souls.webp",
+    "banner": "/assets/images/games/dark-souls-banner.webp",
+    "screenshots": [
+      "/assets/images/games/dark-souls-screen1.webp",
+      "/assets/images/games/dark-souls-screen2.webp"
+    ],
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/8/8d/Dark_Souls_Cover_Art.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/8/8d/Dark_Souls_Cover_Art.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Dark_Souls_Cover_Art.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "review-required",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "dark souls",
+    "hidetaka miyazaki",
+    "lordran",
+    "chosen undead",
+    "bonfire",
+    "praise the sun",
+    "anor londo",
+    "fromsoftware"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": true
+}

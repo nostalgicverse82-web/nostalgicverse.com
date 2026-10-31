@@ -1,0 +1,131 @@
+{
+  "news": [
+    {
+      "id": "news-1789984773714-431",
+      "title": "Anniversary: Mortal Kombat Sparks Senate Hearings on Video Game Violence",
+      "slug": "anniversary-mortal-kombat-sparks-senate-hearings-on-video-game-violence",
+      "publishedAt": "2026-09-21T09:59:33.714Z",
+      "summary": "A curated historical examination into early architectural breakthroughs, coin-operated amusement engineering, and seminal home console foundations.",
+      "keyPoints": [
+        "Breakthrough hardware constraints shaped early arcade game loops",
+        "Custom audio synthesis and DAC sound architectures created iconic auditory branding",
+        "Physical cartridge distribution models established retail video game economics"
+      ],
+      "era": "1990s",
+      "category": "CULTURE",
+      "status": "published",
+      "reviewDate": "2026-09-21T09:59:33.720Z",
+      "approvedBy": "chief-archivist",
+      "contentHash": "77f7acf8f83e1af557769adfb5822d613008601c697c4fbba914ddcfce1451e7"
+    },
+    {
+      "id": "news-1789116230943-984",
+      "title": "Anniversary: Sonic the Hedgehog Drives Sega Genesis Past Nintendo",
+      "slug": "anniversary-sonic-the-hedgehog-drives-sega-genesis-past-nintendo",
+      "publishedAt": "2026-09-11T08:43:50.943Z",
+      "summary": "A curated historical examination into early architectural breakthroughs, coin-operated amusement engineering, and seminal home console foundations.",
+      "keyPoints": [
+        "Breakthrough hardware constraints shaped early arcade game loops",
+        "Custom audio synthesis and DAC sound architectures created iconic auditory branding",
+        "Physical cartridge distribution models established retail video game economics"
+      ],
+      "era": "1990s",
+      "category": "GAME",
+      "status": "published",
+      "reviewDate": "2026-09-11T08:43:50.950Z",
+      "approvedBy": "chief-archivist",
+      "contentHash": "ebd4fcdf207c5d7fc09fa6526ae5ebf8d14b869b3006bee38f2ff865418fdbe4"
+    },
+    {
+      "id": "news-1789116180264-605",
+      "title": "Anniversary: Deus Ex Codifies the Modern Immersive Sim",
+      "slug": "anniversary-deus-ex-codifies-the-modern-immersive-sim",
+      "publishedAt": "2026-09-11T08:43:00.264Z",
+      "summary": "A curated historical examination into early architectural breakthroughs, coin-operated amusement engineering, and seminal home console foundations.",
+      "keyPoints": [
+        "Breakthrough hardware constraints shaped early arcade game loops",
+        "Custom audio synthesis and DAC sound architectures created iconic auditory branding",
+        "Physical cartridge distribution models established retail video game economics"
+      ],
+      "era": "2000s",
+      "category": "GAME",
+      "status": "published",
+      "reviewDate": "2026-09-11T08:43:00.274Z",
+      "approvedBy": "chief-archivist",
+      "contentHash": "6e0afcb07d3882b0182c723b0b68372ae9d69cf780631107ce6465393a7f36aa"
+    },
+    {
+      "id": "news-1789115743381-825",
+      "title": "Anniversary: The Legend of Zelda Introduces Battery-Backed Save RAM",
+      "slug": "anniversary-the-legend-of-zelda-introduces-battery-backed-save-ram",
+      "publishedAt": "2026-09-11T08:35:43.381Z",
+      "summary": "A curated historical examination into early architectural breakthroughs, coin-operated amusement engineering, and seminal home console foundations.",
+      "keyPoints": [
+        "Breakthrough hardware constraints shaped early arcade game loops",
+        "Custom audio synthesis and DAC sound architectures created iconic auditory branding",
+        "Physical cartridge distribution models established retail video game economics"
+      ],
+      "era": "1980s",
+      "category": "TECHNOLOGY",
+      "status": "published",
+      "reviewDate": "2026-09-11T08:35:43.390Z",
+      "approvedBy": "chief-archivist",
+      "contentHash": "f4b0b9e4d0dc9113e2ed71123cb6f1c42bb9fb6d640cba94d23b157007213bad"
+    },
+    {
+      "id": "news-1789114282316-174",
+      "title": "Anniversary: SimCity Introduces Systems-Thinking Simulation",
+      "slug": "anniversary-simcity-introduces-systems-thinking-simulation",
+      "publishedAt": "2026-09-11T08:11:22.316Z",
+      "summary": "A curated historical examination into early architectural breakthroughs, coin-operated amusement engineering, and seminal home console foundations.",
+      "keyPoints": [
+        "Breakthrough hardware constraints shaped early arcade game loops",
+        "Custom audio synthesis and DAC sound architectures created iconic auditory branding",
+        "Physical cartridge distribution models established retail video game economics"
+      ],
+      "era": "1980s",
+      "category": "GAME",
+      "status": "published",
+      "reviewDate": "2026-09-11T08:11:22.328Z",
+      "approvedBy": "chief-archivist",
+      "contentHash": "338e68bf3c36a6a746ada2504272cc273f58f7f2b53abf9ef1c4051eb3e65690"
+    },
+    {
+      "id": "news-1789114231612-62",
+      "title": "Anniversary: The North American Video Game Crash of 1983",
+      "slug": "anniversary-the-north-american-video-game-crash-of-1983",
+      "publishedAt": "2026-09-11T08:10:31.612Z",
+      "summary": "A curated historical examination into early architectural breakthroughs, coin-operated amusement engineering, and seminal home console foundations.",
+      "keyPoints": [
+        "Breakthrough hardware constraints shaped early arcade game loops",
+        "Custom audio synthesis and DAC sound architectures created iconic auditory branding",
+        "Physical cartridge distribution models established retail video game economics"
+      ],
+      "era": "1980s",
+      "category": "MILESTONE",
+      "status": "published",
+      "reviewDate": "2026-09-11T08:10:31.619Z",
+      "approvedBy": "chief-archivist",
+      "contentHash": "56d6472e396c37156c962c46b6b0b007c3b3386ff55be7b405654aa4c450c123"
+    },
+    {
+      "id": "news-1789114208071-374",
+      "title": "Anniversary: Space Invaders on Atari 2600 Becomes First Console 'Killer App'",
+      "slug": "anniversary-space-invaders-on-atari-2600-becomes-first-console-killer-app",
+      "publishedAt": "2026-09-11T08:10:08.071Z",
+      "summary": "A curated historical examination into early architectural breakthroughs, coin-operated amusement engineering, and seminal home console foundations.",
+      "keyPoints": [
+        "Breakthrough hardware constraints shaped early arcade game loops",
+        "Custom audio synthesis and DAC sound architectures created iconic auditory branding",
+        "Physical cartridge distribution models established retail video game economics"
+      ],
+      "era": "1980s",
+      "category": "INDUSTRY",
+      "status": "published",
+      "reviewDate": "2026-09-11T08:10:08.078Z",
+      "approvedBy": "chief-archivist",
+      "contentHash": "569d238a42e055dd6073aa1448f96e790ebdabd2a9935e6876069b7c59ba3823"
+    }
+  ],
+  "lastGenerated": "2026-09-21T10:05:39.325Z"
+}

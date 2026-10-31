@@ -1,0 +1,72 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-beyond-good-and-evil",
+  "slug": "beyond-good-and-evil",
+  "title": "Beyond Good & Evil",
+  "originalReleaseYear": 2003,
+  "exactReleaseDate": "November 11, 2003",
+  "originalLaunchPlatform": "PlayStation 2",
+  "originalLaunchRegion": "North America",
+  "developer": "Ubisoft Pictures",
+  "publisher": "Ubisoft",
+  "platforms": [
+    "PlayStation 2",
+    "Xbox",
+    "GameCube",
+    "Microsoft Windows"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "stealth"
+  ],
+  "era": "2000s",
+  "shortDescription": "Michel Ancel's poetic sci-fi adventure following photojournalist Jade uncovering an alien conspiracy on Hillys.",
+  "historicalSignificance": "A legendary critical darling celebrated for its journalism mechanics, ecological themes, and world-building.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Beyond_Good_&_Evil",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Michel Ancel's poetic sci-fi adventure following photojournalist Jade uncovering an alien conspiracy on Hillys.",
+    "culturalImpact": "A legendary critical darling celebrated for its journalism mechanics, ecological themes, and world-building."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 2"
+    ],
+    "genres": [
+      "action-adventure"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/0/01/Beyond_Good_%26_Evil_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/0/01/Beyond_Good_%26_Evil_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Beyond_Good_&_Evil",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Beyond Good & Evil",
+    "Ubisoft Pictures",
+    "Ubisoft",
+    "PlayStation 2",
+    "action-adventure",
+    "2003",
+    "2000s",
+    "PlayStation 2",
+    "Xbox",
+    "GameCube",
+    "Microsoft Windows",
+    "stealth"
+  ],
+  "url": "/games/beyond-good-and-evil/",
+  "featured": false
+}

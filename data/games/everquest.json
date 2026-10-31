@@ -1,0 +1,82 @@
+{
+  "id": "game-everquest",
+  "slug": "everquest",
+  "title": "EverQuest",
+  "japaneseTitle": "エバークエスト",
+  "url": "/games/everquest/",
+  "originalReleaseYear": 1999,
+  "exactReleaseDate": "1999-03-16",
+  "developer": "Sony Online Entertainment (989 Studios)",
+  "publisher": "Sony Online Entertainment",
+  "director": "Brad McQuaid",
+  "designer": "Steve Clover, Bill Trost",
+  "composer": "Jay Barbeau",
+  "originalLaunchPlatform": "Microsoft Windows / PC",
+  "platforms": [
+    "Microsoft Windows",
+    "macOS"
+  ],
+  "genre": "mmo",
+  "subgenres": [
+    "3D MMORPG",
+    "High Fantasy"
+  ],
+  "era": "1990s",
+  "shortDescription": "Sony Online Entertainment and Brad McQuaid's monumental 3D MMORPG that defined the modern online multiplayer role-playing genre.",
+  "historicalSignificance": "The foundational 3D MMORPG that popularized subscription-based online virtual worlds in the West, peaking at over 500,000 active concurrent players and creating the blueprint directly adopted by World of Warcraft.",
+  "editorialContent": {
+    "overview": "Set in the high-fantasy world of Norrath, EverQuest invited thousands of players to step inside a fully 3D persistent online universe, choose from 14 distinct fantasy races and classes, and forge lifelong guilds.",
+    "gameplay": "Strictly group-oriented cooperative raiding: tank-healer-DPS trinity combat, deadly corpse runs upon death, complex spell memorization, and epic multi-hour dragon raids in dungeons like Plane of Fear.",
+    "technicalInnovation": "Pioneered large-scale 3D client-server network architecture capable of synchronizing thousands of simultaneous players across continuous seamless zone servers over dial-up modems.",
+    "culturalImpact": "Became a worldwide cultural phenomenon dubbed 'EverCrack' due to its legendary social bonding, inspiring sociologists and economists to study virtual economies and guild governance.",
+    "preservationNotes": "Preserved on original CD-ROMs and actively running on persistent servers for over 25 consecutive years."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "March 16, 1999",
+    "leadPlatform": "PC",
+    "genre": "mmo",
+    "sales": "Over 500,000 active monthly subscribers (genre record in 2001)",
+    "awards": [
+      "GameSpy MMORPG of the Year 1999",
+      "Inducted into World Video Game Hall of Fame Nominee"
+    ],
+    "technicalSpecs": {
+      "engine": "SOE Custom 3D Client-Server MMORPG Engine",
+      "resolution": "Scalable Direct3D / 3dfx Glide 3D hardware rendering",
+      "soundChip": "DirectSound 3D MIDI and acoustic audio",
+      "mediaFormat": "CD-ROM / Internet Download"
+    },
+    "relationships": {
+      "primaryConsole": "pc",
+      "developerEntity": "Sony Online Entertainment",
+      "lineage": [
+        "Ultima Online",
+        "World of Warcraft",
+        "EverQuest II"
+      ]
+    }
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/5/57/EverQuest_Box.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/5/57/EverQuest_Box.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:EverQuest_Box.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "everquest",
+    "norrath",
+    "brad mcquaid",
+    "sony online entertainment",
+    "mmorpg",
+    "pc",
+    "guilds",
+    "corpse run",
+    "1999"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

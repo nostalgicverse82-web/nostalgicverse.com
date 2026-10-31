@@ -1,0 +1,41 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+  "id": "console-apple-pippin",
+  "slug": "apple-bandai-pippin",
+  "name": "Apple Bandai Pippin",
+  "manufacturer": "Apple / Bandai",
+  "generation": "Fifth Generation",
+  "generationNumber": 5,
+  "originalReleaseYear": 1996,
+  "exactReleaseDate": "March 28, 1996",
+  "mediaFormat": "Quad-speed 4x CD-ROM",
+  "significance": "A fascinating failure of the multimedia appliance era, representing Apple's sole entry into the dedicated home video game console market.",
+  "verifiedFactualData": {
+    "cpu": "PowerPC 603 @ 66 MHz",
+    "gpuOrVideoChip": "Custom 8/16-bit video chip",
+    "ram": "6 MB shared system/video memory"
+  },
+  "editorialContent": {
+    "overview": "Apple's open multimedia computer-console platform manufactured by Bandai, running a stripped-down version of classic Mac OS.",
+    "marketLegacy": "A fascinating failure of the multimedia appliance era, representing Apple's sole entry into the dedicated home video game console market.",
+    "controllerDesign": "AppleJack wireless controller with integrated trackball"
+  },
+  "keyGames": [
+    "super-marathon",
+    "gundam-tactics",
+    "racing-days"
+  ],
+  "assets": {
+    "mainImage": "/assets/images/consoles/apple-bandai-pippin.png",
+    "heroImage": "/assets/images/consoles/apple-bandai-pippin-hero.png",
+    "hardwareImage": "/assets/images/consoles/apple-bandai-pippin-hardware.png"
+  },
+  "keywords": [
+    "apple",
+    "pippin",
+    "bandai",
+    "macintosh",
+    "fifth generation",
+    "1996"
+  ]
+}

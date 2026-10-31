@@ -1,0 +1,282 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "NostalgicVerse Canonical Data Schemas",
+  "version": "2026.1.0",
+  "description": "Standardized JSON schemas for archival records across all NostalgicVerse collections, separating verified factual history from editorial commentary.",
+  "schemas": {
+    "game": {
+      "$id": "https://nostalgicverse.com/schemas/game.json",
+      "title": "Landmark Game Record",
+      "type": "object",
+      "required": [
+        "id",
+        "slug",
+        "title",
+        "originalReleaseYear",
+        "developer",
+        "publisher",
+        "originalLaunchPlatform",
+        "genre",
+        "era",
+        "historicalSignificance",
+        "verifiedFactualData"
+      ],
+      "properties": {
+        "id": { "type": "string", "pattern": "^game-[a-z0-9-]+$" },
+        "slug": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+        "title": { "type": "string" },
+        "japaneseTitle": { "type": "string" },
+        "url": { "type": "string", "pattern": "^/games/[a-z0-9-]+/$" },
+        "originalReleaseYear": { "type": "integer", "minimum": 1950, "maximum": 2030 },
+        "exactReleaseDate": { "type": "string", "format": "date" },
+        "developer": { "type": "string" },
+        "publisher": { "type": "string" },
+        "director": { "type": "string" },
+        "designer": { "type": "string" },
+        "composer": { "type": "string" },
+        "originalLaunchPlatform": { "type": "string" },
+        "platforms": { "type": "array", "items": { "type": "string" } },
+        "genre": { "type": "string" },
+        "subgenres": { "type": "array", "items": { "type": "string" } },
+        "era": { "type": "string" },
+        "shortDescription": { "type": "string", "maxLength": 300 },
+        "historicalSignificance": { "type": "string" },
+        "editorialContent": {
+          "type": "object",
+          "properties": {
+            "overview": { "type": "string" },
+            "gameplayMechanics": { "type": "string" },
+            "technicalInnovation": { "type": "string" },
+            "culturalImpact": { "type": "string" },
+            "preservationNotes": { "type": "string" }
+          }
+        },
+        "verifiedFactualData": {
+          "type": "object",
+          "description": "Factual, historical, and technical attributes verified against primary source documentation.",
+          "properties": {
+            "sourceReferences": { "type": "array", "items": { "type": "string" } },
+            "romMediaFormat": { "type": "string" },
+            "romSizeOriginal": { "type": "string" },
+            "displayResolutionOriginal": { "type": "string" },
+            "audioHardware": { "type": "string" },
+            "inputMethod": { "type": "string" },
+            "multiplayerCapability": { "type": "string" }
+          }
+        },
+        "assets": {
+          "type": "object",
+          "properties": {
+            "heroImage": { "type": "string" },
+            "thumbnailImage": { "type": "string" },
+            "boxArt": { "type": "string" },
+            "screenshots": { "type": "array", "items": { "type": "string" } }
+          }
+        },
+        "keywords": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "console": {
+      "$id": "https://nostalgicverse.com/schemas/console.json",
+      "title": "Hardware Generation Exhibit Record",
+      "type": "object",
+      "required": [
+        "id",
+        "slug",
+        "name",
+        "manufacturer",
+        "generation",
+        "originalReleaseYear",
+        "mediaFormat",
+        "verifiedFactualData"
+      ],
+      "properties": {
+        "id": { "type": "string", "pattern": "^console-[a-z0-9-]+$" },
+        "slug": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+        "name": { "type": "string" },
+        "manufacturer": { "type": "string" },
+        "generation": { "type": "string" },
+        "generationNumber": { "type": "integer" },
+        "originalReleaseYear": { "type": "integer" },
+        "exactReleaseDate": { "type": "string" },
+        "discontinuationYear": { "type": "integer" },
+        "unitsSoldWorldwide": { "type": "string" },
+        "mediaFormat": { "type": "string" },
+        "significance": { "type": "string" },
+        "verifiedFactualData": {
+          "type": "object",
+          "description": "Verified engineering and hardware architecture specifications.",
+          "properties": {
+            "cpu": { "type": "string" },
+            "cpuClock": { "type": "string" },
+            "gpuOrVideoChip": { "type": "string" },
+            "ram": { "type": "string" },
+            "videoRam": { "type": "string" },
+            "resolution": { "type": "string" },
+            "colorPalette": { "type": "string" },
+            "soundChip": { "type": "string" },
+            "audioChannels": { "type": "string" },
+            "controllerPorts": { "type": "integer" }
+          }
+        },
+        "editorialContent": {
+          "type": "object",
+          "properties": {
+            "marketLegacy": { "type": "string" },
+            "engineeringInnovations": { "type": "string" },
+            "notablePeripherals": { "type": "string" }
+          }
+        },
+        "keyGames": { "type": "array", "items": { "type": "string" } },
+        "assets": {
+          "type": "object",
+          "properties": {
+            "mainImage": { "type": "string" },
+            "heroImage": { "type": "string" },
+            "controllerImage": { "type": "string" }
+          }
+        },
+        "keywords": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "genre": {
+      "$id": "https://nostalgicverse.com/schemas/genre.json",
+      "title": "Genre Taxonomy Record",
+      "type": "object",
+      "required": [
+        "id",
+        "slug",
+        "name",
+        "family",
+        "type",
+        "era",
+        "definingMechanics",
+        "landmarkGames"
+      ],
+      "properties": {
+        "id": { "type": "string", "pattern": "^genre-[a-z0-9-]+$" },
+        "slug": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+        "name": { "type": "string" },
+        "family": { "type": "string" },
+        "type": { "type": "string" },
+        "era": { "type": "string" },
+        "shortDescription": { "type": "string" },
+        "historicalDescription": { "type": "string" },
+        "definingMechanics": { "type": "array", "items": { "type": "string" } },
+        "landmarkGames": { "type": "array", "items": { "type": "string" } },
+        "editorialContent": {
+          "type": "object",
+          "properties": {
+            "evolutionaryOrigin": { "type": "string" },
+            "goldenAge": { "type": "string" },
+            "modernLegacy": { "type": "string" }
+          }
+        },
+        "keywords": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "timelineEvent": {
+      "$id": "https://nostalgicverse.com/schemas/timeline-event.json",
+      "title": "Chronological Milestone Record",
+      "type": "object",
+      "required": [
+        "id",
+        "year",
+        "title",
+        "category",
+        "significanceLevel",
+        "summary"
+      ],
+      "properties": {
+        "id": { "type": "string", "pattern": "^ev-[0-9]{4}-[a-z0-9-]+$" },
+        "year": { "type": "integer" },
+        "exactDate": { "type": "string" },
+        "title": { "type": "string" },
+        "category": { "type": "string", "enum": ["Game Release", "Hardware Launch", "Industry Milestone", "Arcade Era", "Company Event"] },
+        "significanceLevel": { "type": "string", "enum": ["Monumental", "Major", "Notable"] },
+        "summary": { "type": "string" },
+        "relatedEntities": {
+          "type": "object",
+          "properties": {
+            "games": { "type": "array", "items": { "type": "string" } },
+            "consoles": { "type": "array", "items": { "type": "string" } },
+            "companies": { "type": "array", "items": { "type": "string" } }
+          }
+        },
+        "verifiedFactualData": {
+          "type": "object",
+          "properties": {
+            "primarySources": { "type": "array", "items": { "type": "string" } },
+            "location": { "type": "string" }
+          }
+        },
+        "keywords": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "guide": {
+      "$id": "https://nostalgicverse.com/schemas/guide.json",
+      "title": "Preservation & Engineering Guide",
+      "type": "object",
+      "required": [
+        "id",
+        "slug",
+        "title",
+        "difficulty",
+        "estimatedTime",
+        "topics",
+        "summary"
+      ],
+      "properties": {
+        "id": { "type": "string", "pattern": "^guide-[a-z0-9-]+$" },
+        "slug": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+        "title": { "type": "string" },
+        "difficulty": { "type": "string", "enum": ["Beginner", "Intermediate", "Advanced", "Expert"] },
+        "estimatedTime": { "type": "string" },
+        "lastReviewedDate": { "type": "string", "format": "date" },
+        "topics": { "type": "array", "items": { "type": "string" } },
+        "summary": { "type": "string" },
+        "requiredTools": { "type": "array", "items": { "type": "string" } },
+        "safetyCautions": { "type": "array", "items": { "type": "string" } },
+        "sections": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["heading", "content"],
+            "properties": {
+              "heading": { "type": "string" },
+              "content": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+    "story": {
+      "$id": "https://nostalgicverse.com/schemas/story.json",
+      "title": "Archival Retrospective Article",
+      "type": "object",
+      "required": [
+        "id",
+        "slug",
+        "title",
+        "category",
+        "publishDate",
+        "readTime",
+        "author",
+        "summary"
+      ],
+      "properties": {
+        "id": { "type": "string", "pattern": "^story-[a-z0-9-]+$" },
+        "slug": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+        "title": { "type": "string" },
+        "category": { "type": "string" },
+        "publishDate": { "type": "string", "format": "date" },
+        "readTime": { "type": "string" },
+        "author": { "type": "string" },
+        "summary": { "type": "string" },
+        "tags": { "type": "array", "items": { "type": "string" } },
+        "contentMarkdownOrHtml": { "type": "string" }
+      }
+    }
+  }
+}
+

@@ -1,0 +1,41 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+  "id": "console-xbox-one-x",
+  "slug": "xbox-one-x",
+  "name": "Microsoft Xbox One X",
+  "manufacturer": "Microsoft",
+  "generation": "Eighth Generation",
+  "generationNumber": 8,
+  "originalReleaseYear": 2017,
+  "exactReleaseDate": "November 7, 2017",
+  "mediaFormat": "Ultra HD Blu-ray & Digital",
+  "significance": "Delivered true native 4K gaming and enhanced legacy backward compatibility filtering, establishing Microsoft's engineering emphasis on raw computational power.",
+  "verifiedFactualData": {
+    "cpu": "Custom 8-core AMD CPU @ 2.3 GHz",
+    "gpuOrVideoChip": "Custom AMD GCN 6.0 TFLOPS (40 compute units @ 1172 MHz)",
+    "ram": "12 GB unified GDDR5 RAM @ 326 GB/s"
+  },
+  "editorialContent": {
+    "overview": "Microsoft's high-end mid-generation refresh, achieving native 4K rendering and the title of the most powerful console in the world in 2017.",
+    "marketLegacy": "Delivered true native 4K gaming and enhanced legacy backward compatibility filtering, establishing Microsoft's engineering emphasis on raw computational power.",
+    "controllerDesign": "Xbox Wireless Controller"
+  },
+  "keyGames": [
+    "forza-horizon-4",
+    "gears-5",
+    "red-dead-redemption-2"
+  ],
+  "assets": {
+    "mainImage": "/assets/images/consoles/xbox-one-x.png",
+    "heroImage": "/assets/images/consoles/xbox-one-x-hero.png",
+    "hardwareImage": "/assets/images/consoles/xbox-one-x-hardware.png"
+  },
+  "keywords": [
+    "xbox one x",
+    "microsoft",
+    "scorpio",
+    "eighth generation",
+    "native 4k",
+    "2017"
+  ]
+}

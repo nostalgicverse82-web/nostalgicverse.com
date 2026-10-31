@@ -1,0 +1,4025 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- Primary SEO Metadata -->
+  <title>Genres — NostalgicVerse</title>
+  <meta name="description" content="Explore the taxonomy of video game genres, defining mechanics, design traditions, and landmark historical software that shaped generations of interactive play.">
+  <meta name="keywords" content="video game genres, gaming taxonomy, RPG, platformer, survival horror, FPS, Metroidvania, fighting games, game design mechanics">
+  <meta name="author" content="NostalgicVerse Digital Museum">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://nostalgicverse.com/genres/">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <meta name="theme-color" content="#08080C">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://nostalgicverse.com/genres/">
+  <meta property="og:title" content="Genres — NostalgicVerse">
+  <meta property="og:description" content="The taxonomy of video game genres: explore defining mechanics, design traditions, and landmark titles across gaming history.">
+  <meta property="og:site_name" content="NostalgicVerse">
+  <meta property="og:image" content="https://nostalgicverse.com/assets/images/branding/logo/logo.png">
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://nostalgicverse.com/genres/">
+  <meta name="twitter:title" content="Genres — NostalgicVerse">
+  <meta name="twitter:description" content="The taxonomy of video game genres: explore defining mechanics, design traditions, and landmark titles across gaming history.">
+  <meta name="twitter:image" content="https://nostalgicverse.com/assets/images/branding/logo/logo.png">
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "CollectionPage",
+        "@id": "https://nostalgicverse.com/genres/#collectionpage",
+        "url": "https://nostalgicverse.com/genres/",
+        "name": "Genres — NostalgicVerse",
+        "description": "A curated digital taxonomy and museum exhibition exploring the game genres, mechanical traditions, and design philosophies that defined gaming history.",
+        "isPartOf": {
+          "@type": "WebSite",
+          "@id": "https://nostalgicverse.com/#website",
+          "url": "https://nostalgicverse.com/",
+          "name": "NostalgicVerse"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://nostalgicverse.com/genres/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://nostalgicverse.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Genres",
+            "item": "https://nostalgicverse.com/genres/"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    /* ==========================================================================
+       01. MASTER DESIGN TOKENS
+       ========================================================================== */
+    :root {
+      /* Backgrounds & Surfaces */
+      --nv-bg: #08080C;
+      --nv-bg-alt: #0C0C11;
+      --nv-surface: #111118;
+      --nv-surface-raised: #15151D;
+      --nv-surface-active: #1C1C26;
+      --nv-border: #1E1E2C;
+      --nv-border-strong: #2A2A38;
+      --nv-border-hover: rgba(0, 229, 255, 0.35);
+
+      /* Typography Colors */
+      --nv-text-primary: #F4F4F7;
+      --nv-text-secondary: #A7A7B5;
+      --nv-text-muted: #737381;
+
+      /* Museum Accents */
+      --nv-cyan: #00E5FF;
+      --nv-gold: #FFB300;
+      --nv-crimson: #FF2A6D;
+
+      /* Font Stacks */
+      --nv-font-sans: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      --nv-font-mono: ui-monospace, "SFMono-Regular", Menlo, Consolas, "Liberation Mono", monospace;
+
+      /* Layout Geometry */
+      --nv-container-max: 1400px;
+      --nv-header-height: 72px;
+      --nv-radius-sm: 4px;
+      --nv-radius-md: 8px;
+      --nv-radius-lg: 12px;
+
+      /* Shadows & Depth */
+      --nv-shadow-ambient: 0 20px 60px rgba(0, 0, 0, 0.45);
+      --nv-shadow-card: 0 10px 30px rgba(0, 0, 0, 0.35);
+
+      /* Transitions */
+      --nv-transition-fast: 160ms cubic-bezier(0.16, 1, 0.3, 1);
+      --nv-transition-normal: 260ms cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    /* ==========================================================================
+       02. RESET & BASE STYLES
+       ========================================================================== */
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      font-size: 16px;
+      line-height: 1.5;
+      background-color: var(--nv-bg);
+      color: var(--nv-text-primary);
+      font-family: var(--nv-font-sans);
+      scroll-behavior: smooth;
+      text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      background-color: var(--nv-bg);
+      color: var(--nv-text-primary);
+      overflow-x: hidden;
+      position: relative;
+    }
+
+    body.menu-open, body.modal-open {
+      overflow: hidden;
+    }
+
+    img, svg {
+      display: block;
+      max-width: 100%;
+      height: auto;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+      transition: color var(--nv-transition-fast);
+    }
+
+    button, input, select {
+      font-family: inherit;
+      font-size: inherit;
+      color: inherit;
+      border: none;
+      background: none;
+    }
+
+    button {
+      cursor: pointer;
+    }
+
+    :focus-visible {
+      outline: 2px solid var(--nv-cyan);
+      outline-offset: 3px;
+    }
+
+    .skip-link {
+      position: absolute;
+      top: -100px;
+      left: 16px;
+      z-index: 1000;
+      background: var(--nv-cyan);
+      color: #000;
+      font-weight: 700;
+      padding: 12px 20px;
+      border-radius: var(--nv-radius-sm);
+      font-family: var(--nv-font-mono);
+      font-size: 0.85rem;
+      transition: top var(--nv-transition-fast);
+    }
+
+    .skip-link:focus {
+      top: 16px;
+    }
+
+    .bg-grid-overlay {
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 0;
+      background-image:
+        linear-gradient(to right, rgba(255, 255, 255, 0.015) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(255, 255, 255, 0.015) 1px, transparent 1px);
+      background-size: 64px 64px;
+      mask-image: radial-gradient(ellipse at 50% 20%, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.15) 75%, transparent 100%);
+      -webkit-mask-image: radial-gradient(ellipse at 50% 20%, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.15) 75%, transparent 100%);
+    }
+
+    .container {
+      width: min(100% - 32px, var(--nv-container-max));
+      margin-inline: auto;
+      padding-inline: max(0px, env(safe-area-inset-left));
+      position: relative;
+      z-index: 1;
+    }
+
+    @media (min-width: 768px) {
+      .container {
+        width: min(100% - 64px, var(--nv-container-max));
+      }
+    }
+
+    /* ==========================================================================
+       03. MUSEUM TYPOGRAPHY & LABELS
+       ========================================================================== */
+    .catalog-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-family: var(--nv-font-mono);
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      color: var(--nv-text-muted);
+      margin-bottom: 12px;
+    }
+
+    .catalog-tag::before {
+      content: "";
+      display: inline-block;
+      width: 6px;
+      height: 6px;
+      background-color: var(--nv-border-strong);
+      border-radius: 1px;
+    }
+
+    .catalog-tag.tag-cyan {
+      color: var(--nv-cyan);
+    }
+    .catalog-tag.tag-cyan::before {
+      background-color: var(--nv-cyan);
+    }
+
+    .catalog-tag.tag-gold {
+      color: var(--nv-gold);
+    }
+    .catalog-tag.tag-gold::before {
+      background-color: var(--nv-gold);
+    }
+
+    .catalog-tag.tag-crimson {
+      color: var(--nv-crimson);
+    }
+    .catalog-tag.tag-crimson::before {
+      background-color: var(--nv-crimson);
+    }
+
+    .breadcrumbs {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-family: var(--nv-font-mono);
+      font-size: 0.75rem;
+      color: var(--nv-text-muted);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 24px;
+    }
+
+    .breadcrumbs a {
+      color: var(--nv-text-secondary);
+      transition: color var(--nv-transition-fast);
+    }
+
+    .breadcrumbs a:hover {
+      color: var(--nv-cyan);
+    }
+
+    .breadcrumbs .separator {
+      color: var(--nv-border-strong);
+    }
+
+    .breadcrumbs .current {
+      color: var(--nv-cyan);
+    }
+
+    .museum-divider {
+      border: 0;
+      height: 1px;
+      background-color: var(--nv-border);
+      margin: 80px 0;
+      position: relative;
+    }
+
+    .museum-divider::after {
+      content: "NOSTALGICVERSE TAXONOMY";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: var(--nv-bg);
+      padding: 0 16px;
+      font-family: var(--nv-font-mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.2em;
+      color: var(--nv-text-muted);
+    }
+
+    /* ==========================================================================
+       04. BUTTONS & CONTROLS
+       ========================================================================== */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 12px 24px;
+      font-family: var(--nv-font-sans);
+      font-size: 0.88rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      border-radius: var(--nv-radius-sm);
+      transition: all var(--nv-transition-fast);
+      min-height: 44px;
+      white-space: nowrap;
+    }
+
+    .btn-primary {
+      background-color: var(--nv-text-primary);
+      color: #08080C;
+      border: 1px solid var(--nv-text-primary);
+    }
+
+    .btn-primary:hover {
+      background-color: var(--nv-cyan);
+      border-color: var(--nv-cyan);
+      color: #08080C;
+      transform: translateY(-2px);
+    }
+
+    .btn-secondary {
+      background-color: rgba(255, 255, 255, 0.03);
+      color: var(--nv-text-primary);
+      border: 1px solid var(--nv-border-strong);
+    }
+
+    .btn-secondary:hover {
+      background-color: var(--nv-surface-raised);
+      border-color: var(--nv-cyan);
+      color: var(--nv-cyan);
+      transform: translateY(-2px);
+    }
+
+    .btn-inline {
+      padding: 0;
+      min-height: auto;
+      background: transparent;
+      color: var(--nv-cyan);
+      font-family: var(--nv-font-mono);
+      font-size: 0.78rem;
+      letter-spacing: 0.08em;
+      gap: 6px;
+    }
+
+    .btn-inline:hover {
+      color: var(--nv-text-primary);
+      text-decoration: underline;
+      text-underline-offset: 4px;
+    }
+
+    .fav-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background: rgba(17, 17, 24, 0.82);
+      border: 1px solid var(--nv-border);
+      color: var(--nv-text-muted);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      transition: all var(--nv-transition-fast);
+      padding: 0;
+      flex-shrink: 0;
+    }
+
+    .fav-btn:hover {
+      border-color: var(--nv-crimson);
+      color: var(--nv-crimson);
+      transform: scale(1.08);
+    }
+
+    .fav-btn.is-active {
+      background: rgba(255, 42, 109, 0.15);
+      border-color: var(--nv-crimson);
+      color: var(--nv-crimson);
+    }
+
+    .fav-btn svg {
+      width: 16px;
+      height: 16px;
+      stroke: currentColor;
+      fill: transparent;
+      transition: fill var(--nv-transition-fast), transform var(--nv-transition-fast);
+    }
+
+    .fav-btn.is-active svg {
+      fill: var(--nv-crimson);
+    }
+
+    /* ==========================================================================
+       05. SITE HEADER & NAVIGATION
+       ========================================================================== */
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background-color: rgba(8, 8, 12, 0.88);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--nv-border);
+      height: var(--nv-header-height);
+      display: flex;
+      align-items: center;
+    }
+
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+    }
+
+    .brand-group {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .brand-logo-wrap {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--nv-text-primary);
+    }
+
+    .brand-mark {
+      width: 32px;
+      height: 32px;
+      background: var(--nv-surface-raised);
+      border: 1px solid var(--nv-border-strong);
+      border-radius: var(--nv-radius-sm);
+      display: grid;
+      place-items: center;
+      font-family: var(--nv-font-mono);
+      font-weight: 800;
+      font-size: 0.85rem;
+      color: var(--nv-cyan);
+    }
+
+    .brand-text {
+      font-size: 1.1rem;
+      font-weight: 800;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .site-nav {
+      display: none;
+    }
+
+    @media (min-width: 1024px) {
+      .site-nav {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+      }
+
+      .nav-link {
+        font-family: var(--nv-font-sans);
+        font-size: 0.86rem;
+        font-weight: 500;
+        color: var(--nv-text-secondary);
+        letter-spacing: 0.02em;
+        position: relative;
+        padding-block: 6px;
+      }
+
+      .nav-link:hover, .nav-link.active {
+        color: var(--nv-text-primary);
+      }
+
+      .nav-link.active::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background-color: var(--nv-cyan);
+      }
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .header-action-btn {
+      width: 44px;
+      height: 44px;
+      display: grid;
+      place-items: center;
+      border-radius: var(--nv-radius-sm);
+      color: var(--nv-text-secondary);
+      border: 1px solid transparent;
+      position: relative;
+      transition: all var(--nv-transition-fast);
+    }
+
+    .header-action-btn:hover {
+      color: var(--nv-text-primary);
+      border-color: var(--nv-border);
+      background-color: var(--nv-surface);
+    }
+
+    .fav-badge {
+      position: absolute;
+      top: 6px;
+      right: 6px;
+      min-width: 16px;
+      height: 16px;
+      padding: 0 4px;
+      background-color: var(--nv-crimson);
+      color: #FFF;
+      font-family: var(--nv-font-mono);
+      font-size: 0.65rem;
+      font-weight: 700;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      transform: scale(0.6);
+      transition: all var(--nv-transition-fast);
+    }
+
+    .fav-badge.has-items {
+      opacity: 1;
+      transform: scale(1);
+    }
+
+    .menu-toggle {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 44px;
+      height: 44px;
+      border: 1px solid var(--nv-border);
+      border-radius: var(--nv-radius-sm);
+      color: var(--nv-text-primary);
+    }
+
+    @media (min-width: 1024px) {
+      .menu-toggle {
+        display: none;
+      }
+    }
+
+    /* Mobile Drawer */
+    .mobile-drawer-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(4, 4, 6, 0.75);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      z-index: 200;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity var(--nv-transition-normal);
+    }
+
+    .mobile-drawer {
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      width: min(85vw, 400px);
+      background-color: var(--nv-bg-alt);
+      border-left: 1px solid var(--nv-border);
+      z-index: 210;
+      padding: 32px 24px;
+      display: flex;
+      flex-direction: column;
+      transform: translateX(100%);
+      transition: transform var(--nv-transition-normal);
+      overflow-y: auto;
+    }
+
+    .mobile-drawer-overlay.is-open {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    .mobile-drawer.is-open {
+      transform: translateX(0);
+    }
+
+    .drawer-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 40px;
+    }
+
+    .drawer-nav {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      flex-grow: 1;
+    }
+
+    .drawer-nav-link {
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: var(--nv-text-secondary);
+      padding-block: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+    }
+
+    .drawer-nav-link:hover, .drawer-nav-link.active {
+      color: var(--nv-cyan);
+    }
+
+    .drawer-nav-link .nav-num {
+      font-family: var(--nv-font-mono);
+      font-size: 0.75rem;
+      color: var(--nv-text-muted);
+    }
+
+    .drawer-footer {
+      padding-top: 24px;
+      border-top: 1px solid var(--nv-border);
+      font-family: var(--nv-font-mono);
+      font-size: 0.75rem;
+      color: var(--nv-text-muted);
+    }
+
+    /* ==========================================================================
+       06. HERO SECTION
+       ========================================================================== */
+    .archive-hero {
+      padding-top: clamp(40px, 8vw, 72px);
+      padding-bottom: 40px;
+      position: relative;
+    }
+
+    .archive-hero-headline {
+      font-size: clamp(2.5rem, 6vw, 5rem);
+      font-weight: 900;
+      line-height: 1;
+      letter-spacing: -0.035em;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+
+    .archive-hero-lead {
+      font-size: clamp(1.05rem, 1.8vw, 1.25rem);
+      color: var(--nv-text-secondary);
+      max-width: 74ch;
+      line-height: 1.6;
+      margin-bottom: 36px;
+    }
+
+    .category-shortcuts {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .shortcut-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 16px;
+      background: var(--nv-surface);
+      border: 1px solid var(--nv-border);
+      border-radius: var(--nv-radius-sm);
+      font-family: var(--nv-font-mono);
+      font-size: 0.75rem;
+      letter-spacing: 0.08em;
+      color: var(--nv-text-secondary);
+      text-transform: uppercase;
+      transition: all var(--nv-transition-fast);
+    }
+
+    .shortcut-pill:hover {
+      border-color: var(--nv-cyan);
+      color: var(--nv-cyan);
+      background: var(--nv-surface-raised);
+      transform: translateY(-2px);
+    }
+
+    /* ==========================================================================
+       07. DYNAMIC TAXONOMY STATISTICS
+       ========================================================================== */
+    .archive-stats-strip {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 16px;
+      background-color: var(--nv-surface);
+      border: 1px solid var(--nv-border);
+      border-radius: var(--nv-radius-md);
+      padding: 24px;
+      margin-bottom: 56px;
+    }
+
+    @media (min-width: 768px) {
+      .archive-stats-strip {
+        grid-template-columns: repeat(4, 1fr);
+        padding: 28px 36px;
+      }
+    }
+
+    .stat-item {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .stat-label {
+      font-family: var(--nv-font-mono);
+      font-size: 0.72rem;
+      letter-spacing: 0.14em;
+      color: var(--nv-text-muted);
+      text-transform: uppercase;
+    }
+
+    .stat-value {
+      font-family: var(--nv-font-mono);
+      font-size: clamp(1.8rem, 3.5vw, 2.5rem);
+      font-weight: 800;
+      color: var(--nv-text-primary);
+      line-height: 1;
+    }
+
+    /* ==========================================================================
+       08. FEATURED EXHIBITION: GENRES THAT CHANGED GAMING
+       ========================================================================== */
+    .featured-genres-section {
+      margin-bottom: 64px;
+    }
+
+    .curated-header {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      margin-bottom: 24px;
+    }
+
+    .curated-title {
+      font-size: 1.4rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: -0.01em;
+    }
+
+    .curated-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+
+    @media (min-width: 768px) {
+      .curated-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (min-width: 1100px) {
+      .curated-grid {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    }
+
+    .curated-genre-card {
+      background: var(--nv-surface);
+      border: 1px solid var(--nv-border);
+      border-radius: var(--nv-radius-md);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: transform var(--nv-transition-fast), border-color var(--nv-transition-fast);
+      position: relative;
+    }
+
+    .curated-genre-card:hover {
+      transform: translateY(-3px);
+      border-color: var(--nv-border-hover);
+    }
+
+    .curated-card-media {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      background: radial-gradient(circle at 50% 50%, #151522 0%, #060609 80%);
+      overflow: hidden;
+      border-bottom: 1px solid var(--nv-border);
+    }
+
+    .curated-card-body {
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+      justify-content: space-between;
+    }
+
+    .curated-family-tag {
+      font-family: var(--nv-font-mono);
+      font-size: 0.68rem;
+      letter-spacing: 0.12em;
+      color: var(--nv-gold);
+      text-transform: uppercase;
+      margin-bottom: 6px;
+    }
+
+    .curated-genre-name {
+      font-size: 1.15rem;
+      font-weight: 800;
+      color: var(--nv-text-primary);
+      margin-bottom: 8px;
+    }
+
+    .curated-genre-desc {
+      font-size: 0.85rem;
+      color: var(--nv-text-secondary);
+      line-height: 1.5;
+      margin-bottom: 16px;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    /* ==========================================================================
+       09. GENRE FAMILY INDEX
+       ========================================================================== */
+    .families-section {
+      margin-bottom: 64px;
+    }
+
+    .families-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 16px;
+      margin-top: 24px;
+    }
+
+    @media (min-width: 768px) {
+      .families-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (min-width: 1100px) {
+      .families-grid {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    }
+
+    .family-card {
+      background: var(--nv-surface);
+      border: 1px solid var(--nv-border);
+      border-radius: var(--nv-radius-md);
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: transform var(--nv-transition-fast), border-color var(--nv-transition-fast);
+    }
+
+    .family-card:hover {
+      border-color: var(--nv-border-hover);
+      transform: translateY(-2px);
+    }
+
+    .family-card-title {
+      font-size: 1.15rem;
+      font-weight: 800;
+      color: var(--nv-text-primary);
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+
+    .family-card-desc {
+      font-size: 0.86rem;
+      color: var(--nv-text-secondary);
+      line-height: 1.55;
+      margin-bottom: 16px;
+    }
+
+    .family-filter-btn {
+      align-self: flex-start;
+      padding: 6px 12px;
+      background: rgba(0, 229, 255, 0.05);
+      border: 1px solid rgba(0, 229, 255, 0.2);
+      border-radius: var(--nv-radius-sm);
+      color: var(--nv-cyan);
+      font-family: var(--nv-font-mono);
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      transition: all var(--nv-transition-fast);
+    }
+
+    .family-filter-btn:hover {
+      background: var(--nv-cyan);
+      color: #08080C;
+    }
+
+    /* ==========================================================================
+       10. SEARCH & FILTER CONTROLS CONSOLE
+       ========================================================================== */
+    .archive-control-console {
+      background: var(--nv-surface);
+      border: 1px solid var(--nv-border-strong);
+      border-radius: var(--nv-radius-md);
+      padding: 24px;
+      margin-bottom: 32px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .search-row {
+      position: relative;
+      width: 100%;
+    }
+
+    .search-input-field {
+      width: 100%;
+      height: 52px;
+      background: var(--nv-bg);
+      border: 1px solid var(--nv-border-strong);
+      border-radius: var(--nv-radius-sm);
+      padding: 0 48px 0 48px;
+      color: var(--nv-text-primary);
+      font-size: 0.95rem;
+      transition: border-color var(--nv-transition-fast);
+    }
+
+    .search-input-field:focus {
+      border-color: var(--nv-cyan);
+      outline: none;
+    }
+
+    .search-input-field::placeholder {
+      color: var(--nv-text-muted);
+    }
+
+    .search-icon-adornment {
+      position: absolute;
+      left: 16px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--nv-text-muted);
+      pointer-events: none;
+    }
+
+    .search-clear-btn {
+      position: absolute;
+      right: 12px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 28px;
+      height: 28px;
+      display: none;
+      place-items: center;
+      color: var(--nv-text-muted);
+      border-radius: 50%;
+      background: var(--nv-surface-raised);
+    }
+
+    .search-clear-btn.is-visible {
+      display: grid;
+    }
+
+    .search-clear-btn:hover {
+      color: var(--nv-text-primary);
+    }
+
+    .filter-row {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 16px;
+    }
+
+    @media (min-width: 640px) {
+      .filter-row {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (min-width: 1024px) {
+      .filter-row {
+        grid-template-columns: 1.3fr 1.1fr 1.1fr 1.1fr auto;
+        align-items: center;
+      }
+    }
+
+    .filter-group {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .filter-label {
+      font-family: var(--nv-font-mono);
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--nv-text-muted);
+    }
+
+    .select-wrapper {
+      position: relative;
+    }
+
+    .filter-select {
+      width: 100%;
+      height: 44px;
+      background: var(--nv-bg);
+      border: 1px solid var(--nv-border);
+      border-radius: var(--nv-radius-sm);
+      padding: 0 36px 0 14px;
+      color: var(--nv-text-secondary);
+      font-size: 0.86rem;
+      appearance: none;
+      cursor: pointer;
+      transition: border-color var(--nv-transition-fast), color var(--nv-transition-fast);
+    }
+
+    .filter-select:hover {
+      border-color: var(--nv-border-strong);
+      color: var(--nv-text-primary);
+    }
+
+    .filter-select:focus {
+      border-color: var(--nv-cyan);
+      outline: none;
+    }
+
+    .select-arrow {
+      position: absolute;
+      right: 14px;
+      top: 50%;
+      transform: translateY(-50%);
+      pointer-events: none;
+      color: var(--nv-text-muted);
+    }
+
+    .reset-btn {
+      align-self: flex-end;
+      height: 44px;
+      padding: 0 16px;
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid var(--nv-border);
+      border-radius: var(--nv-radius-sm);
+      color: var(--nv-text-muted);
+      font-family: var(--nv-font-mono);
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      transition: all var(--nv-transition-fast);
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .reset-btn:hover {
+      border-color: var(--nv-crimson);
+      color: var(--nv-crimson);
+    }
+
+    .catalogue-meta-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 24px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--nv-border);
+      font-family: var(--nv-font-mono);
+      font-size: 0.78rem;
+      color: var(--nv-text-muted);
+    }
+
+    .results-count-text {
+      color: var(--nv-cyan);
+      font-weight: 600;
+    }
+
+    /* ==========================================================================
+       11. MAIN GENRE CATALOGUE GRID & CARD DESIGN
+       ========================================================================== */
+    .genres-archive-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 24px;
+    }
+
+    @media (min-width: 600px) {
+      .genres-archive-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (min-width: 960px) {
+      .genres-archive-grid {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    @media (min-width: 1280px) {
+      .genres-archive-grid {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    }
+
+    .museum-genre-card {
+      background-color: var(--nv-surface);
+      border: 1px solid var(--nv-border);
+      border-radius: var(--nv-radius-md);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      transition: transform var(--nv-transition-normal), border-color var(--nv-transition-normal), box-shadow var(--nv-transition-normal);
+    }
+
+    .museum-genre-card:hover {
+      transform: translateY(-4px);
+      border-color: var(--nv-border-hover);
+      box-shadow: var(--nv-shadow-card);
+    }
+
+    .museum-genre-card.highlight-pulse {
+      animation: pulseGenre 1.5s ease-out 2;
+    }
+
+    @keyframes pulseGenre {
+      0% { border-color: var(--nv-cyan); box-shadow: 0 0 20px rgba(0, 229, 255, 0.4); }
+      50% { border-color: var(--nv-gold); box-shadow: 0 0 25px rgba(255, 179, 0, 0.5); }
+      100% { border-color: var(--nv-border); box-shadow: none; }
+    }
+
+    .card-media {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      background: radial-gradient(circle at 50% 50%, #151522 0%, #060609 80%);
+      overflow: hidden;
+      border-bottom: 1px solid var(--nv-border);
+    }
+
+    .genre-card-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 400ms cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .museum-genre-card:hover .genre-card-img {
+      transform: scale(1.03);
+    }
+
+    /* Museum Fallback Plate (Follows Master System) */
+    .card-fallback-plate {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: radial-gradient(circle at 50% 50%, #13131F 0%, #060609 80%);
+      padding: 16px;
+      text-align: center;
+    }
+
+    .card-fallback-plate svg {
+      width: 44px;
+      height: 44px;
+      stroke: var(--nv-text-muted);
+      opacity: 0.65;
+      margin-bottom: 8px;
+      transition: stroke var(--nv-transition-normal);
+    }
+
+    .museum-genre-card:hover .card-fallback-plate svg {
+      stroke: var(--nv-cyan);
+    }
+
+    .plate-title {
+      font-family: var(--nv-font-mono);
+      font-size: 0.72rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--nv-text-muted);
+      margin-bottom: 4px;
+      line-height: 1.2;
+    }
+
+    .plate-tag {
+      font-family: var(--nv-font-mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.08em;
+      color: var(--nv-cyan);
+      text-transform: uppercase;
+    }
+
+    .card-fav-anchor {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      z-index: 10;
+    }
+
+    .card-body {
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+      justify-content: space-between;
+    }
+
+    .card-meta-line {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-family: var(--nv-font-mono);
+      font-size: 0.72rem;
+      color: var(--nv-text-muted);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 6px;
+    }
+
+    .genre-title {
+      font-size: 1.15rem;
+      font-weight: 800;
+      line-height: 1.25;
+      color: var(--nv-text-primary);
+      margin-bottom: 10px;
+    }
+
+    .genre-desc-text {
+      font-size: 0.85rem;
+      color: var(--nv-text-secondary);
+      line-height: 1.5;
+      margin-bottom: 14px;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .mechanics-pill-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 16px;
+    }
+
+    .mechanic-badge {
+      font-family: var(--nv-font-mono);
+      font-size: 0.65rem;
+      padding: 2px 6px;
+      border-radius: var(--nv-radius-sm);
+      background: var(--nv-surface-raised);
+      border: 1px solid var(--nv-border);
+      color: var(--nv-text-secondary);
+    }
+
+    .card-footer-action {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 12px;
+      border-top: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    /* Empty State */
+    .catalogue-empty-state {
+      display: none;
+      text-align: center;
+      padding: 80px 24px;
+      background: var(--nv-surface);
+      border: 1px dashed var(--nv-border-strong);
+      border-radius: var(--nv-radius-md);
+      margin-block: 20px;
+    }
+
+    .catalogue-empty-state.is-visible {
+      display: block;
+    }
+
+    .empty-icon {
+      margin-inline: auto;
+      margin-bottom: 16px;
+      color: var(--nv-text-muted);
+    }
+
+    .empty-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+      margin-bottom: 8px;
+      text-transform: uppercase;
+    }
+
+    .empty-desc {
+      font-size: 0.95rem;
+      color: var(--nv-text-secondary);
+      max-width: 48ch;
+      margin-inline: auto;
+      margin-bottom: 24px;
+    }
+
+    /* ==========================================================================
+       12. INSPECTION MODAL DIALOG
+       ========================================================================== */
+    .modal-backdrop {
+      position: fixed;
+      inset: 0;
+      background: rgba(4, 4, 6, 0.82);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      z-index: 300;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity var(--nv-transition-normal);
+      display: grid;
+      place-items: center;
+      padding: 20px;
+    }
+
+    .modal-backdrop.is-open {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    .modal-dialog-panel {
+      background: var(--nv-surface);
+      border: 1px solid var(--nv-border-strong);
+      border-radius: var(--nv-radius-lg);
+      width: min(100%, 720px);
+      max-height: 90vh;
+      overflow-y: auto;
+      padding: 32px;
+      box-shadow: var(--nv-shadow-ambient);
+      transform: translateY(20px);
+      transition: transform var(--nv-transition-normal);
+      position: relative;
+    }
+
+    .modal-backdrop.is-open .modal-dialog-panel {
+      transform: translateY(0);
+    }
+
+    .modal-close-btn {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background: var(--nv-surface-raised);
+      border: 1px solid var(--nv-border);
+      color: var(--nv-text-secondary);
+      display: grid;
+      place-items: center;
+      transition: all var(--nv-transition-fast);
+    }
+
+    .modal-close-btn:hover {
+      color: var(--nv-text-primary);
+      border-color: var(--nv-cyan);
+    }
+
+    .modal-meta-row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 12px;
+      font-family: var(--nv-font-mono);
+      font-size: 0.78rem;
+    }
+
+    .modal-title {
+      font-size: clamp(1.4rem, 2.5vw, 1.9rem);
+      font-weight: 800;
+      line-height: 1.25;
+      color: var(--nv-text-primary);
+      margin-bottom: 20px;
+    }
+
+    .modal-body-text {
+      font-size: 1rem;
+      color: var(--nv-text-secondary);
+      line-height: 1.7;
+      margin-bottom: 20px;
+    }
+
+    .modal-callout-box {
+      background: rgba(255, 255, 255, 0.015);
+      border-left: 3px solid var(--nv-gold);
+      padding: 14px 18px;
+      border-radius: 0 var(--nv-radius-sm) var(--nv-radius-sm) 0;
+      margin-bottom: 24px;
+    }
+
+    .modal-callout-label {
+      font-family: var(--nv-font-mono);
+      font-size: 0.68rem;
+      letter-spacing: 0.12em;
+      color: var(--nv-gold);
+      text-transform: uppercase;
+      margin-bottom: 6px;
+      display: block;
+    }
+
+    .modal-callout-text {
+      font-size: 0.9rem;
+      color: var(--nv-text-primary);
+      line-height: 1.6;
+    }
+
+    /* ==========================================================================
+       13. RANDOM DISCOVERY MODULE
+       ========================================================================== */
+    .archive-discovery-breaker {
+      margin-top: 80px;
+      background: linear-gradient(180deg, var(--nv-surface) 0%, var(--nv-bg-alt) 100%);
+      border: 1px solid var(--nv-border-strong);
+      border-radius: var(--nv-radius-lg);
+      padding: clamp(32px, 6vw, 64px);
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .breaker-content {
+      max-width: 640px;
+      margin-inline: auto;
+      position: relative;
+      z-index: 2;
+    }
+
+    .breaker-title {
+      font-size: clamp(1.8rem, 4vw, 2.8rem);
+      font-weight: 900;
+      line-height: 1.1;
+      text-transform: uppercase;
+      letter-spacing: -0.02em;
+      margin-bottom: 16px;
+    }
+
+    .breaker-title span {
+      color: var(--nv-cyan);
+    }
+
+    .breaker-lead {
+      font-size: 1.05rem;
+      color: var(--nv-text-secondary);
+      margin-bottom: 32px;
+      line-height: 1.6;
+    }
+
+    .random-spotlight-box {
+      display: none;
+      background: var(--nv-surface);
+      border: 1px solid var(--nv-border);
+      border-radius: var(--nv-radius-md);
+      padding: 24px;
+      margin-top: 28px;
+      text-align: left;
+    }
+
+    .random-spotlight-box.is-active {
+      display: block;
+    }
+
+    /* ==========================================================================
+       14. MUSEUM FOOTER
+       ========================================================================== */
+    .site-footer {
+      background-color: var(--nv-bg-alt);
+      border-top: 1px solid var(--nv-border);
+      padding-top: 80px;
+      padding-bottom: 40px;
+      margin-top: 96px;
+    }
+
+    .footer-top {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 48px;
+      margin-bottom: 64px;
+    }
+
+    @media (min-width: 768px) {
+      .footer-top {
+        grid-template-columns: 1.5fr repeat(3, 1fr);
+      }
+    }
+
+    .footer-brand-column {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .footer-logo {
+      font-size: 1.35rem;
+      font-weight: 800;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .footer-tagline {
+      font-size: 0.95rem;
+      color: var(--nv-text-secondary);
+      max-width: 32ch;
+      line-height: 1.5;
+    }
+
+    .footer-statement {
+      font-size: 0.82rem;
+      color: var(--nv-text-muted);
+      line-height: 1.6;
+      max-width: 38ch;
+      margin-top: 8px;
+    }
+
+    .footer-nav-title {
+      font-family: var(--nv-font-mono);
+      font-size: 0.75rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--nv-text-primary);
+      margin-bottom: 20px;
+    }
+
+    .footer-nav-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .footer-nav-link {
+      font-size: 0.9rem;
+      color: var(--nv-text-secondary);
+      transition: color var(--nv-transition-fast);
+    }
+
+    .footer-nav-link:hover {
+      color: var(--nv-cyan);
+    }
+
+    .footer-bottom {
+      padding-top: 32px;
+      border-top: 1px solid rgba(255, 255, 255, 0.05);
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      align-items: center;
+      justify-content: space-between;
+      font-family: var(--nv-font-mono);
+      font-size: 0.75rem;
+      color: var(--nv-text-muted);
+    }
+
+    @media (min-width: 768px) {
+      .footer-bottom {
+        flex-direction: row;
+      }
+    }
+
+    .footer-legal-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .footer-legal-links a:hover {
+      color: var(--nv-text-secondary);
+    }
+
+    /* ==========================================================================
+       15. REDUCED MOTION & ACCESSIBILITY
+       ========================================================================== */
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+      }
+    }
+  
+    /* Global Official Logo Styles */
+    .site-logo-img {
+      height: 36px;
+      width: auto;
+      max-width: 190px;
+      display: block;
+    }
+    .drawer-logo-img {
+      height: 32px;
+      max-width: 160px;
+    }
+    .footer-logo-img {
+      height: 40px;
+      max-width: 200px;
+      margin-bottom: 12px;
+    }
+    @media (max-width: 768px) {
+      .site-logo-img {
+        height: 30px;
+        max-width: 150px;
+      }
+    }
+
+    /* Global Archive Support Section */
+    .archive-support-section {
+      padding: 48px 0;
+      border-top: 1px solid var(--nv-border, #1E1E2C);
+      background: var(--nv-bg-alt, #0C0C11);
+      position: relative;
+      z-index: 1;
+    }
+    .support-panel {
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+      background: var(--nv-surface, #111118);
+      border: 1px solid var(--nv-border, #1E1E2C);
+      border-radius: var(--nv-radius-lg, 12px);
+      padding: clamp(24px, 4vw, 40px);
+      align-items: center;
+    }
+    @media (min-width: 768px) {
+      .support-panel {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .support-content {
+        max-width: 65%;
+      }
+    }
+    .archive-support-section .catalog-tag {
+      display: inline-block;
+      font-family: var(--nv-font-mono, monospace);
+      font-size: 0.72rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      padding: 4px 10px;
+      border-radius: var(--nv-radius-sm, 4px);
+    }
+    .archive-support-section .tag-gold,
+    .support-modal .tag-gold {
+      color: var(--nv-gold, #FFB300);
+      background: rgba(255, 179, 0, 0.1);
+      border: 1px solid rgba(255, 179, 0, 0.25);
+    }
+    .support-title {
+      font-size: clamp(1.4rem, 2.5vw, 1.85rem);
+      font-weight: 800;
+      color: var(--nv-text-primary, #F4F4F7);
+      margin: 10px 0 12px;
+      letter-spacing: -0.02em;
+    }
+    .support-desc {
+      font-size: 0.95rem;
+      color: var(--nv-text-secondary, #A7A7B5);
+      line-height: 1.65;
+      margin-bottom: 8px;
+    }
+    .support-subdesc {
+      font-size: 0.85rem;
+      color: var(--nv-text-muted, #737381);
+      line-height: 1.5;
+      margin-bottom: 20px;
+    }
+    .support-actions {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .archive-support-section .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 12px 24px;
+      border-radius: var(--nv-radius-sm, 4px);
+      font-size: 0.875rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all var(--nv-transition-fast, 160ms ease);
+      cursor: pointer;
+    }
+    .archive-support-section .btn-secondary {
+      background: var(--nv-surface-raised, #15151D);
+      color: var(--nv-text-primary, #F4F4F7);
+      border: 1px solid var(--nv-border-strong, #2A2A38);
+    }
+    .archive-support-section .btn-secondary:hover {
+      border-color: var(--nv-cyan, #00E5FF);
+      color: var(--nv-cyan, #00E5FF);
+    }
+    .support-qr-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      flex-shrink: 0;
+    }
+    .support-qr-quiet-zone {
+      background: #FFFFFF;
+      padding: 14px;
+      border-radius: var(--nv-radius-md, 8px);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .support-qr-image {
+      width: clamp(160px, 20vw, 200px);
+      height: auto;
+      aspect-ratio: 1440 / 1472;
+      display: block;
+      object-fit: contain;
+    }
+    .support-qr-caption {
+      font-size: 0.8rem;
+      font-family: var(--nv-font-mono, monospace);
+      color: var(--nv-text-muted, #737381);
+      margin-top: 10px;
+    }
+
+    /* Support Modal Backdrop & Dialog */
+    .support-modal-backdrop {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.75);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      z-index: 9998;
+    }
+    .support-modal {
+      position: fixed;
+      inset: 0;
+      z-index: 9999;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 16px;
+      overflow-y: auto;
+    }
+    .support-modal-dialog {
+      background: var(--nv-surface, #111118);
+      border: 1px solid var(--nv-border-strong, #2A2A38);
+      border-radius: var(--nv-radius-lg, 12px);
+      padding: clamp(20px, 3.5vw, 32px);
+      max-width: 440px;
+      width: 100%;
+      box-shadow: 0 24px 64px rgba(0, 0, 0, 0.8);
+      position: relative;
+    }
+    .support-modal-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 12px;
+    }
+    .support-modal .tag-gold {
+      display: inline-block;
+      font-family: var(--nv-font-mono, monospace);
+      font-size: 0.72rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      padding: 4px 10px;
+      border-radius: var(--nv-radius-sm, 4px);
+    }
+    .support-modal-close {
+      color: var(--nv-text-muted, #737381);
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 6px;
+      border-radius: var(--nv-radius-sm, 4px);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      transition: color var(--nv-transition-fast, 160ms ease);
+    }
+    .support-modal-close:hover {
+      color: var(--nv-text-primary, #F4F4F7);
+      background: var(--nv-surface-raised, #15151D);
+    }
+    .support-modal-title {
+      font-size: 1.4rem;
+      font-weight: 800;
+      color: var(--nv-text-primary, #F4F4F7);
+      letter-spacing: -0.01em;
+      margin-bottom: 4px;
+    }
+    .support-modal-subtitle {
+      font-size: 0.95rem;
+      color: var(--nv-cyan, #00E5FF);
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+    .support-modal-desc {
+      font-size: 0.875rem;
+      color: var(--nv-text-secondary, #A7A7B5);
+      line-height: 1.6;
+      margin-bottom: 16px;
+    }
+    .support-modal-qr-wrap {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      margin: 16px 0;
+    }
+    .support-modal-qr {
+      width: 160px;
+      height: auto;
+      aspect-ratio: 1440 / 1472;
+      display: block;
+      object-fit: contain;
+    }
+    .support-modal-qr-text {
+      font-size: 0.825rem;
+      font-weight: 600;
+      color: var(--nv-text-primary, #F4F4F7);
+      margin-top: 10px;
+    }
+    .support-modal-actions {
+      display: flex;
+      gap: 8px;
+      margin-top: 16px;
+    }
+    .support-modal-btn {
+      flex: 1;
+      text-align: center;
+      padding: 10px 14px;
+      font-size: 0.85rem;
+      border-radius: var(--nv-radius-sm, 4px);
+      font-family: var(--nv-font-sans, system-ui);
+      font-weight: 600;
+      cursor: pointer;
+      transition: all var(--nv-transition-fast, 160ms ease);
+    }
+    .support-modal .btn-primary {
+      background: var(--nv-cyan, #00E5FF);
+      color: #000;
+      border: 1px solid var(--nv-cyan, #00E5FF);
+    }
+    .support-modal .btn-primary:hover {
+      background: #33ebff;
+    }
+    .support-modal .btn-secondary {
+      background: var(--nv-surface-raised, #15151D);
+      color: var(--nv-text-primary, #F4F4F7);
+      border: 1px solid var(--nv-border-strong, #2A2A38);
+    }
+    .support-modal .btn-secondary:hover {
+      border-color: var(--nv-cyan, #00E5FF);
+      color: var(--nv-cyan, #00E5FF);
+    }
+    body.support-modal-open {
+      overflow: hidden;
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .support-modal-backdrop,
+      .support-modal-dialog {
+        transition: none !important;
+        animation: none !important;
+      }
+    }
+
+  </style>
+  <link rel="stylesheet" href="/assets/css/auth-ui.css">
+  <link rel="stylesheet" href="/assets/css/avatar-picker.css">
+  <link rel="stylesheet" href="/assets/css/content-interactions.css">
+</head>
+<body>
+
+  <!-- Accessible Skip Navigation -->
+  <a href="#main-content" class="skip-link">Skip to genres taxonomy</a>
+
+  <!-- Structural Grid Atmosphere -->
+  <div class="bg-grid-overlay" aria-hidden="true"></div>
+
+  <!-- ==========================================================================
+       GLOBAL FLAGSHIP HEADER
+       ========================================================================== -->
+  <header class="site-header" id="site-header">
+    <div class="container">
+      <div class="header-inner">
+        
+        <!-- Account & Brand Landmark -->
+        <div class="brand-group">
+          <div class="account-control-wrap" id="account-control-wrap">
+            <button class="account-toggle-btn" id="account-toggle-btn" aria-expanded="false" aria-controls="account-dropdown-menu" aria-label="Account Menu">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                <circle cx="12" cy="7" r="4"></circle>
+              </svg>
+            </button>
+            <div class="account-dropdown-menu" id="account-dropdown-menu" role="menu" hidden>
+              <!-- Populated by JS -->
+              <div class="account-dropdown-header">
+                <span class="account-dropdown-title">ACCOUNT</span>
+              </div>
+              <a href="/login/" class="account-dropdown-item" role="menuitem">Log In</a>
+              <a href="/signup/" class="account-dropdown-item" role="menuitem">Sign Up</a>
+            </div>
+          </div>
+          <a href="/" class="brand-logo-wrap" aria-label="NostalgicVerse Homepage">
+            <img src="/assets/images/branding/logo/logo.svg" alt="NostalgicVerse" class="site-logo-img" width="180" height="36" loading="eager">
+          </a>
+        </div>
+
+        <!-- Desktop Navigation -->
+        <nav class="site-nav" aria-label="Primary Exhibition Navigation">
+          <a href="/" class="nav-link">Home</a>
+          <a href="/games/" class="nav-link">Games</a>
+          <a href="/consoles/" class="nav-link">Consoles</a>
+          <a href="/timeline/" class="nav-link">Timeline</a>
+          <a href="/genres/" class="nav-link active" aria-current="page">Genres</a>
+          <a href="/guides/" class="nav-link">Guides</a>
+          <a href="/blog/" class="nav-link">Stories</a>
+          <a href="/download/" class="nav-link">Emulator</a>
+        </nav>
+
+        <!-- Utility Actions -->
+        <div class="header-actions">
+          <!-- Search Link -->
+          <a href="/search/" class="header-action-btn" aria-label="Search the Archive">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+          </a>
+
+          <!-- Favorites Link with Badge Counter -->
+          <a href="/favorites/" class="header-action-btn" aria-label="View Saved Archive Favorites">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path>
+            </svg>
+            <span class="fav-badge" id="header-fav-badge" aria-live="polite">0</span>
+          </a>
+
+          <!-- Mobile Menu Drawer Toggle -->
+          <button type="button" class="menu-toggle" id="menu-toggle-btn" aria-expanded="false" aria-controls="mobile-nav-drawer" aria-label="Open Archive Navigation">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <line x1="3" y1="12" x2="21" y2="12"></line>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- Accessible Mobile Navigation Drawer -->
+  <div class="mobile-drawer-overlay" id="drawer-backdrop" aria-hidden="true"></div>
+  
+  <aside class="mobile-drawer" id="mobile-nav-drawer" aria-label="Mobile Navigation" aria-hidden="true" tabindex="-1">
+    <div class="drawer-top">
+<div class="brand-group">
+        <a href="/" class="brand-logo-wrap" aria-label="NostalgicVerse Homepage">
+          <img src="/assets/images/branding/logo/logo.svg" alt="NostalgicVerse" class="site-logo-img drawer-logo-img" width="160" height="32" loading="lazy">
+        </a>
+      </div>
+      <button type="button" class="menu-toggle" id="drawer-close-btn" aria-label="Close Archive Navigation">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+
+    <nav class="drawer-nav">
+      <a href="/" class="drawer-nav-link"><span>Home</span> <span class="nav-num">/01</span></a>
+      <a href="/games/" class="drawer-nav-link"><span>Games</span> <span class="nav-num">/02</span></a>
+      <a href="/consoles/" class="drawer-nav-link"><span>Consoles</span> <span class="nav-num">/03</span></a>
+      <a href="/timeline/" class="drawer-nav-link"><span>Timeline</span> <span class="nav-num">/04</span></a>
+      <a href="/genres/" class="drawer-nav-link active"><span>Genres</span> <span class="nav-num">/05</span></a>
+      <a href="/guides/" class="drawer-nav-link"><span>Guides</span> <span class="nav-num">/06</span></a>
+      <a href="/blog/" class="drawer-nav-link"><span>Stories</span> <span class="nav-num">/07</span></a>
+      <a href="/download/" class="drawer-nav-link"><span>Emulator Project</span> <span class="nav-num">/08</span></a>
+      <a href="/favorites/" class="drawer-nav-link"><span>Favorites Archive</span> <span class="nav-num">/FAV</span></a>
+      <a href="/random/" class="drawer-nav-link"><span>Random Discovery</span> <span class="nav-num">/RND</span></a>
+    </nav>
+
+    <div class="drawer-footer">
+      <p>TAXONOMY REGISTRY // VER 2026.1</p>
+      <p style="margin-top: 6px;">The Language of Interactive Play.</p>
+    </div>
+  </aside>
+
+  <!-- ==========================================================================
+       MAIN CONTENT: GENRE ARCHIVE
+       ========================================================================== -->
+  <main id="main-content">
+    <div class="container">
+
+      <!-- Breadcrumbs Landmark -->
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <a href="/">Home</a>
+        <span class="separator">/</span>
+        <span class="current" aria-current="page">Genres</span>
+      </nav>
+
+      <!-- Archive Hero Section -->
+      <section class="archive-hero" aria-labelledby="genres-heading">
+        <span class="catalog-tag tag-cyan">Genre Exhibition · The Language of Play</span>
+        <h1 class="archive-hero-headline" id="genres-heading">The Genre Archive</h1>
+        <p class="archive-hero-lead">
+          Explore the game genres, mechanics, traditions, and design philosophies that shaped generations of interactive entertainment. From 8-bit jump arcs to immersive simulation sandboxes, navigate the foundational grammar of digital play.
+        </p>
+
+        <!-- Category Shortcuts -->
+        <div class="category-shortcuts" aria-label="Genre family shortcuts">
+          <a href="#family-Action" class="shortcut-pill">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+            <span>Action</span>
+          </a>
+          <a href="#family-Shooter" class="shortcut-pill">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><line x1="22" y1="12" x2="18" y2="12"></line><line x1="6" y1="12" x2="2" y2="12"></line><line x1="12" y1="6" x2="12" y2="2"></line><line x1="12" y1="22" x2="12" y2="18"></line></svg>
+            <span>Shooter</span>
+          </a>
+          <a href="#family-Adventure" class="shortcut-pill">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon></svg>
+            <span>Adventure</span>
+          </a>
+          <a href="#family-Role-Playing" class="shortcut-pill">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+            <span>Role-Playing</span>
+          </a>
+          <a href="#family-Strategy" class="shortcut-pill">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+            <span>Strategy</span>
+          </a>
+          <a href="#family-Simulation" class="shortcut-pill">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path></svg>
+            <span>Simulation</span>
+          </a>
+          <a href="#family-Racing" class="shortcut-pill">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="3"></circle></svg>
+            <span>Racing & Sports</span>
+          </a>
+          <a href="#family-Puzzle" class="shortcut-pill">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
+            <span>Puzzle & Logic</span>
+          </a>
+        </div>
+      </section>
+
+      <!-- Dynamic Taxonomy Statistics Strip -->
+      <section class="archive-stats-strip" aria-label="Genre Taxonomy Metrics">
+        <div class="stat-item">
+          <span class="stat-label">CATALOGUED GENRES</span>
+          <span class="stat-value" id="stat-genres-count">--</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-label">GENRE FAMILIES</span>
+          <span class="stat-value" id="stat-families-count">--</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-label">CORE ARCHITECTURES</span>
+          <span class="stat-value" id="stat-core-count">--</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-label">SPECIALIZED SUBGENRES</span>
+          <span class="stat-value" id="stat-subgenres-count">--</span>
+        </div>
+      </section>
+
+      <!-- Featured Exhibition: Genres That Changed Gaming -->
+      <section class="featured-genres-section" aria-labelledby="featured-heading">
+        <div class="curated-header">
+          <div>
+            <span class="catalog-tag tag-gold">Featured Design Exhibition</span>
+            <h2 class="curated-title" id="featured-heading">Genres That Changed Gaming</h2>
+          </div>
+        </div>
+
+        <div class="curated-grid" id="curated-genres-container">
+          <!-- Curated lead genre cards mounted dynamically -->
+        </div>
+      </section>
+
+      <!-- Genre Family Index -->
+      <section class="families-section" id="genre-families-overview" aria-labelledby="families-heading">
+        <div class="curated-header">
+          <div>
+            <span class="catalog-tag tag-cyan">Structural Taxonomy</span>
+            <h2 class="curated-title" id="families-heading">Genre Families of Interactive Play</h2>
+          </div>
+        </div>
+
+        <div class="families-grid">
+          
+          <div class="family-card" id="family-Action">
+            <div>
+              <h3 class="family-card-title">Action</h3>
+              <p class="family-card-desc">
+                Mechanical reflex, spatial precision execution, collision detection, and physical timing. Governs platformers, fighters, brawlers, and stealth infiltration.
+              </p>
+            </div>
+            <button type="button" class="family-filter-btn" data-family-filter="Action">Filter Action Family</button>
+          </div>
+
+          <div class="family-card" id="family-Shooter">
+            <div>
+              <h3 class="family-card-title">Shooter</h3>
+              <p class="family-card-desc">
+                Spatial projectile trajectories, viewport perspective, and fast-paced ranged engagements. Spans first-person masterworks, shmups, and battle royales.
+              </p>
+            </div>
+            <button type="button" class="family-filter-btn" data-family-filter="Shooter">Filter Shooter Family</button>
+          </div>
+
+          <div class="family-card" id="family-Adventure">
+            <div>
+              <h3 class="family-card-title">Adventure</h3>
+              <p class="family-card-desc">
+                Environmental puzzle solving, ability-gated progression, narrative stakes, and world discovery. From Metroidvanias to survival horror and interactive fiction.
+              </p>
+            </div>
+            <button type="button" class="family-filter-btn" data-family-filter="Adventure">Filter Adventure Family</button>
+          </div>
+
+          <div class="family-card" id="family-Role-Playing">
+            <div>
+              <h3 class="family-card-title">Role-Playing</h3>
+              <p class="family-card-desc">
+                Character attribute growth, moral choice architecture, strategic party building, and sprawling questlines derived from tabletop traditions.
+              </p>
+            </div>
+            <button type="button" class="family-filter-btn" data-family-filter="Role-Playing">Filter Role-Playing Family</button>
+          </div>
+
+          <div class="family-card" id="family-Strategy">
+            <div>
+              <h3 class="family-card-title">Strategy</h3>
+              <p class="family-card-desc">
+                Macroscopic resource management, positional tactics, base construction, and high-level analytical decisions in real-time or turn-based pacing.
+              </p>
+            </div>
+            <button type="button" class="family-filter-btn" data-family-filter="Strategy">Filter Strategy Family</button>
+          </div>
+
+          <div class="family-card" id="family-Simulation">
+            <div>
+              <h3 class="family-card-title">Simulation</h3>
+              <p class="family-card-desc">
+                Systems-thinking sandboxes, emergent social modeling, municipal planning, and physical consistency modeling real-world or speculative systems.
+              </p>
+            </div>
+            <button type="button" class="family-filter-btn" data-family-filter="Simulation">Filter Simulation Family</button>
+          </div>
+
+          <div class="family-card" id="family-Racing">
+            <div>
+              <h3 class="family-card-title">Racing & Sports</h3>
+              <p class="family-card-desc">
+                High-velocity racing line optimization, vehicle physics tuning, drafting dynamics, and digital recreation of real-world athletic competition.
+              </p>
+            </div>
+            <button type="button" class="family-filter-btn" data-family-filter="Racing & Sports">Filter Racing & Sports</button>
+          </div>
+
+          <div class="family-card" id="family-Puzzle">
+            <div>
+              <h3 class="family-card-title">Puzzle & Logic</h3>
+              <p class="family-card-desc">
+                Pattern recognition, spatial geometry manipulation, auditory beat synchronization, and unhurried intellectual problem solving.
+              </p>
+            </div>
+            <button type="button" class="family-filter-btn" data-family-filter="Puzzle & Logic">Filter Puzzle & Logic</button>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Search & Filter Controls Console -->
+      <section class="archive-control-console" id="genre-catalogue-browser" aria-label="Genre Search and Filter Controls">
+        
+        <!-- Live Instant Search -->
+        <div class="search-row">
+          <label for="genre-search-input" class="visually-hidden" style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0,0,0,0);">Search genre catalogue</label>
+          <svg class="search-icon-adornment" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          <input 
+            type="search" 
+            id="genre-search-input" 
+            class="search-input-field" 
+            placeholder="Search by genre name, family, defining mechanics, landmark games, or design keywords..."
+            autocomplete="off"
+            spellcheck="false"
+          >
+          <button type="button" class="search-clear-btn" id="search-clear-btn" aria-label="Clear search query">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+          </button>
+        </div>
+
+        <!-- Filters & Sorting Grid -->
+        <div class="filter-row">
+          
+          <!-- Filter: Family -->
+          <div class="filter-group">
+            <label for="filter-family-select" class="filter-label">GENRE FAMILY</label>
+            <div class="select-wrapper">
+              <select id="filter-family-select" class="filter-select" aria-label="Filter by genre family">
+                <option value="all">All Families</option>
+              </select>
+              <svg class="select-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </div>
+          </div>
+
+          <!-- Filter: Type -->
+          <div class="filter-group">
+            <label for="filter-type-select" class="filter-label">GENRE TYPE</label>
+            <div class="select-wrapper">
+              <select id="filter-type-select" class="filter-select" aria-label="Filter by core genre or subgenre">
+                <option value="all">All Types</option>
+                <option value="Core Genre">Core Genre</option>
+                <option value="Subgenre">Subgenre</option>
+              </select>
+              <svg class="select-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </div>
+          </div>
+
+          <!-- Filter: Focus -->
+          <div class="filter-group">
+            <label for="filter-focus-select" class="filter-label">CURATION</label>
+            <div class="select-wrapper">
+              <select id="filter-focus-select" class="filter-select" aria-label="Filter by curated scope">
+                <option value="all">All Genres</option>
+                <option value="featured">Genres That Changed Gaming Only</option>
+              </select>
+              <svg class="select-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </div>
+          </div>
+
+          <!-- Sorting -->
+          <div class="filter-group">
+            <label for="sort-genres-select" class="filter-label">ORDER</label>
+            <div class="select-wrapper">
+              <select id="sort-genres-select" class="filter-select" aria-label="Sort genre catalogue results">
+                <option value="name-asc">Name: A → Z</option>
+                <option value="name-desc">Name: Z → A</option>
+                <option value="family-asc">Family: A → Z</option>
+                <option value="featured">Featured First</option>
+              </select>
+              <svg class="select-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </div>
+          </div>
+
+          <!-- Reset Filter Button -->
+          <button type="button" id="reset-filters-btn" class="reset-btn" aria-label="Reset all search queries and genre filters">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="1 4 1 10 7 10"></polyline><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"></path></svg>
+            <span>Reset</span>
+          </button>
+
+        </div>
+
+      </section>
+
+      <!-- Results Meta Bar -->
+      <div class="catalogue-meta-bar">
+        <div>
+          <span>TAXONOMY REGISTRY: </span>
+          <span class="results-count-text" id="genre-result-counter">SHOWING ALL GENRES</span>
+        </div>
+        <div>
+          <span>MASTER ASSET DICTIONARY: COMPLIANT</span>
+        </div>
+      </div>
+
+      <!-- Main Genres Grid -->
+      <div class="genres-archive-grid" id="main-genres-grid" role="region" aria-live="polite" aria-label="Genre taxonomy exhibition catalogue results">
+        <!-- Cards injected dynamically via safe DOM APIs -->
+      </div>
+
+      <!-- Clean Museum Empty State -->
+      <div class="catalogue-empty-state" id="genre-empty-state">
+        <svg class="empty-icon" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+          <circle cx="12" cy="12" r="10"></circle>
+          <line x1="4" y1="4" x2="20" y2="20"></line>
+        </svg>
+        <h3 class="empty-title">No Matching Genres Found</h3>
+        <p class="empty-desc">
+          No genre entries in our taxonomy matched your active query. Try clearing keywords or selecting 'All Families'.
+        </p>
+        <button type="button" class="btn btn-secondary" id="empty-state-reset-btn">
+          <span>Reset All Filters</span>
+        </button>
+      </div>
+
+      <!-- Random Discovery Breaker -->
+      <section class="archive-discovery-breaker" aria-labelledby="discovery-breaker-title">
+        <div class="breaker-content">
+          <span class="catalog-tag tag-crimson">Uncurated Taxonomy Discovery</span>
+          <h2 class="breaker-title" id="discovery-breaker-title">
+            Explore Mechanics Unbound.<br>
+            <span>Let the taxonomy decide.</span>
+          </h2>
+          <p class="breaker-lead">
+            Select a randomized genre from our comprehensive classification matrix to inspect historical origins, core design constraints, and landmark games.
+          </p>
+          <button type="button" class="btn btn-primary" id="random-genre-btn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <polyline points="16 3 21 3 21 8"></polyline>
+              <line x1="4" y1="20" x2="21" y2="3"></line>
+              <polyline points="21 16 21 21 16 21"></polyline>
+              <line x1="15" y1="15" x2="21" y2="21"></line>
+              <line x1="4" y1="4" x2="9" y2="9"></line>
+            </svg>
+            <span id="random-btn-text">Discover Random Genre</span>
+          </button>
+
+          <!-- Spotlight Box for Random Discovery -->
+          <div class="random-spotlight-box" id="random-spotlight-box">
+            <div class="card-meta-line">
+              <span class="catalog-tag tag-gold" id="spotlight-family">--</span>
+              <span id="spotlight-type" style="font-family: var(--nv-font-mono); font-size: 0.72rem; color: var(--nv-cyan);">--</span>
+            </div>
+            <h3 class="genre-title" id="spotlight-title">--</h3>
+            <p class="genre-desc-text" id="spotlight-desc" style="-webkit-line-clamp: 3;">--</p>
+            <div style="display: flex; gap: 12px; margin-top: 16px;">
+              <button type="button" class="btn btn-secondary" id="spotlight-jump-btn">Jump to Catalogue Card →</button>
+              <button type="button" class="btn btn-primary" id="spotlight-inspect-btn">Inspect Genre Record</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  
+    <!-- Museum Community Interactions & Discussion -->
+    <div class="container" style="margin-top: 48px; margin-bottom: 48px;">
+      <div id="community-interactions" data-type="genre" data-id="retro-genres"></div>
+    </div>
+  </main>
+
+  <!-- ==========================================================================
+       INSPECTION MODAL DIALOG
+       ========================================================================== -->
+  <div class="modal-backdrop" id="inspection-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modal-genre-title">
+    <div class="modal-dialog-panel" tabindex="-1">
+      <button type="button" class="modal-close-btn" id="modal-close-btn" aria-label="Close genre inspection modal">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <div class="modal-meta-row">
+        <span class="catalog-tag tag-gold" id="modal-family">--</span>
+        <span class="catalog-tag tag-cyan" id="modal-type">--</span>
+        <span style="font-family: var(--nv-font-mono); font-size: 0.72rem; color: var(--nv-text-muted);" id="modal-era">--</span>
+      </div>
+
+      <h2 class="modal-title" id="modal-genre-title">--</h2>
+      
+      <p class="modal-body-text" id="modal-description">--</p>
+
+      <div class="modal-callout-box">
+        <span class="modal-callout-label">Historical Evolution & Significance</span>
+        <p class="modal-callout-text" id="modal-significance">--</p>
+      </div>
+
+      <div style="margin-bottom: 20px;">
+        <span class="modal-callout-label">Defining Design Mechanics</span>
+        <div class="mechanics-pill-list" id="modal-mechanics-list"></div>
+      </div>
+
+      <div>
+        <span class="modal-callout-label">Verified Landmark Specimens</span>
+        <div style="display: flex; flex-wrap: wrap; gap: 8px;" id="modal-landmarks-list"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       MUSEUM FOOTER
+       ========================================================================== -->
+  
+  <!-- ==========================================================================
+       GLOBAL ARCHIVE SUPPORT SECTION
+       ========================================================================== -->
+  <!-- ==========================================================================
+       GLOBAL ARCHIVE SUPPORT SECTION
+       ========================================================================== -->
+  <!-- ==========================================================================
+       GLOBAL ARCHIVE SUPPORT SECTION
+       ========================================================================== -->
+  <section class="archive-support-section" id="archive-support" aria-labelledby="support-heading">
+    <div class="container">
+      <div class="support-panel">
+        <div class="support-content">
+          <span class="catalog-tag tag-gold">Preservation Initiative</span>
+          <h2 class="support-title" id="support-heading">Support the Creator</h2>
+          <p class="support-desc">
+            Help me keep building NostalgicVerse and bringing more gaming history, hardware, stories and preservation resources to the archive.
+          </p>
+          <p class="support-subdesc">
+            NostalgicVerse is an independent project created to preserve the games, machines, stories and memories that made gaming history. Thank you for supporting NostalgicVerse.
+          </p>
+          <div class="support-actions">
+            <a href="/support/" class="btn btn-secondary">
+              <span>Support the Creator</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
+          </div>
+        </div>
+        <div class="support-qr-card">
+          <div class="support-qr-quiet-zone">
+            <img src="/assets/images/qr-code/qr-code.png" alt="QR code to support NostalgicVerse creator" class="support-qr-image" width="200" height="200" loading="lazy" decoding="async">
+          </div>
+          <p class="support-qr-caption">Scan to support NostalgicVerse</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      
+      <div class="footer-top">
+        
+        <div class="footer-brand-column">
+          <div class="brand-group" style="margin-bottom: 14px;">
+            <a href="/" class="brand-logo-wrap" aria-label="NostalgicVerse Homepage">
+              <img src="/assets/images/branding/logo/logo.svg" alt="NostalgicVerse" class="site-logo-img footer-logo-img" width="200" height="40" loading="lazy">
+            </a>
+          </div>
+          <p class="footer-tagline">
+            The Games That Made History.
+          </p>
+          <p class="footer-statement">
+            A permanent digital museum dedicated to preserving the hardware, software, engineering papers, and cultural memories that shaped modern interactive media.
+          </p>
+        </div>
+
+        <div class="footer-nav-column">
+          <h3 class="footer-nav-title">Exhibition Archive</h3>
+          <ul class="footer-nav-list">
+            <li><a href="/games/" class="footer-nav-link">All Games Index</a></li>
+            <li><a href="/consoles/" class="footer-nav-link">Console Museum</a></li>
+            <li><a href="/timeline/" class="footer-nav-link">Chronology Timeline</a></li>
+            <li><a href="/genres/" class="footer-nav-link" aria-current="page">Genre Taxonomy</a></li>
+            <li><a href="/timeline/" class="footer-nav-link">Historical Eras</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-nav-column">
+          <h3 class="footer-nav-title">Editorial & Software</h3>
+          <ul class="footer-nav-list">
+            <li><a href="/blog/" class="footer-nav-link">Archival Stories</a></li>
+            <li><a href="/guides/" class="footer-nav-link">Preservation Guides</a></li>
+            <li><a href="/download/" class="footer-nav-link">NostalgicVerse Emulator</a></li>
+            <li><a href="/random/" class="footer-nav-link">Random Discovery</a></li>
+            <li><a href="/favorites/" class="footer-nav-link">Saved Collection</a></li>
+            <li><a href="/about/" class="footer-nav-link">About NostalgicVerse</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-nav-column">
+          <h3 class="footer-nav-title">Legal & Support</h3>
+          <ul class="footer-nav-list">
+            <li><a href="/legal/privacy.html" class="footer-nav-link">Privacy Policy</a></li>
+            <li><a href="/legal/terms.html" class="footer-nav-link">Terms of Service</a></li>
+            <li><a href="/legal/cookies.html" class="footer-nav-link">Cookie Information</a></li>
+            <li><a href="/legal/disclaimer.html" class="footer-nav-link">Archival Disclaimer</a></li>
+            <li><a href="/support/" class="footer-nav-link">Support the Archive</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          <span>&copy; 2026 NOSTALGICVERSE. ALL HISTORICAL TRADEMARKS BELONG TO THEIR RESPECTIVE OWNERS.</span>
+        </div>
+        <div class="footer-legal-links">
+          <span>CATALOGUE NODE: GENRES / TAXONOMY</span>
+          <span>ASSET ARCHITECTURE: PERMANENT WEBP</span>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       VANILLA JAVASCRIPT: TAXONOMY ENGINE, FAVORITES, SEARCH & FILTER
+       ========================================================================== -->
+  <script>
+    (function () {
+      "use strict";
+
+      /* --------------------------------------------------------------------------
+         01. VERIFIED HISTORICAL GENRES DATASET (FOLLOWS PERMANENT ASSET NAMING)
+         -------------------------------------------------------------------------- */
+      const GENRES_DATA = [
+        /* === ACTION FAMILY === */
+        {
+          "id": "genre-platformer",
+          "slug": "platformer",
+          "name": "Platformer",
+          "family": "Action",
+          "type": "Core Genre",
+          "shortDescription": "Games centered on navigating complex obstacle environments through jumping, climbing, and momentum management.",
+          "historicalDescription": "Born in the early 1980s arcade boom with Donkey Kong and codified by Super Mario Bros., the platformer defined how players understood physical space, gravity, and timing in video games.",
+          "origins": "1980s arcade beginnings (Donkey Kong, Pitfall!)",
+          "definingMechanics": ["Jumping Physics", "Environmental Obstacles", "Momentum Traversal", "Precision Landing"],
+          "landmarkGames": ["donkey-kong", "super-mario-bros", "sonic-the-hedgehog", "super-mario-64"],
+          "landmarkConsoles": ["nintendo-entertainment-system", "sega-genesis", "nintendo-64"],
+          "era": "1980s–Present",
+          "image": "/assets/images/genres/platformer.webp",
+          "keywords": ["platformer", "jumping", "mario", "sonic", "action", "physics", "run and jump"],
+          "featured": true
+        },
+        {
+          "id": "genre-fighting",
+          "slug": "fighting",
+          "name": "Fighting",
+          "family": "Action",
+          "type": "Core Genre",
+          "shortDescription": "Close-quarters head-to-head combat systems governed by frame data, motion inputs, spacing, and reaction timing.",
+          "historicalDescription": "Inaugurated by Karate Champ and popularized into a worldwide phenomenon by Street Fighter II, fighting games created competitive esports, local arcade crowds, and intense execution tournaments.",
+          "origins": "Mid-1980s martial arts arcades to early 1990s competitive boom",
+          "definingMechanics": ["Frame Data & Startup", "Special Motion Inputs", "Combo Canceling", "Hitboxes & Spacing"],
+          "landmarkGames": ["street-fighter-ii-the-world-warrior", "mortal-kombat", "super-smash-bros-melee"],
+          "landmarkConsoles": ["super-nintendo-entertainment-system", "sega-genesis", "neo-geo-aes", "gamecube"],
+          "era": "1980s–Present",
+          "image": "/assets/images/genres/fighting.webp",
+          "keywords": ["fighting", "street fighter", "mortal kombat", "combos", "esports", "martial arts"],
+          "featured": true
+        },
+        {
+          "id": "genre-beat-em-up",
+          "slug": "beat-em-up",
+          "name": "Beat 'em Up",
+          "family": "Action",
+          "type": "Subgenre",
+          "shortDescription": "Side-scrolling multi-opponent melee combat games emphasizing cooperative brawling and crowd control.",
+          "historicalDescription": "Dominated 1980s and 1990s arcades with titles like Double Dragon and Streets of Rage, celebrated for satisfying melee impact and cooperative living-room multiplayer.",
+          "origins": "Late 1980s coin-op arcades (Double Dragon, Final Fight)",
+          "definingMechanics": ["Belt-Scroll Traversal", "Crowd Control Melee", "Cooperative Brawling", "Item & Weapon Pickups"],
+          "landmarkGames": ["contra"],
+          "landmarkConsoles": ["sega-genesis", "super-nintendo-entertainment-system"],
+          "era": "1980s–1990s (Revived 2020s)",
+          "image": "/assets/images/genres/beat-em-up.webp",
+          "keywords": ["beat em up", "brawler", "streets of rage", "arcade", "co-op", "melee"],
+          "featured": false
+        },
+        {
+          "id": "genre-stealth",
+          "slug": "stealth",
+          "name": "Stealth",
+          "family": "Action",
+          "type": "Subgenre",
+          "shortDescription": "Tactical infiltration games where evasion, concealment, and environmental awareness take priority over direct assault.",
+          "historicalDescription": "Pioneered by Castle Wolfenstein and popularized by Hideo Kojima's Metal Gear series and Thief, stealth inverted traditional action power fantasies in favor of tension, patrol memorization, and patience.",
+          "origins": "Late 1980s 8-bit computers to late 1990s 3D cinematic breakthroughs",
+          "definingMechanics": ["Line of Sight Cones", "Sound Propagation", "Concealment States", "Non-Lethal Infiltration"],
+          "landmarkGames": ["metal-gear-solid", "deus-ex"],
+          "landmarkConsoles": ["playstation", "pc"],
+          "era": "1980s–Present",
+          "image": "/assets/images/genres/stealth.webp",
+          "keywords": ["stealth", "metal gear solid", "tactical espionage", "infiltration", "shadows", "hideo kojima"],
+          "featured": false
+        },
+
+        /* === SHOOTER FAMILY === */
+        {
+          "id": "genre-first-person-shooter",
+          "slug": "first-person-shooter",
+          "name": "First-Person Shooter (FPS)",
+          "family": "Shooter",
+          "type": "Core Genre",
+          "shortDescription": "Gunplay and spatial combat simulated directly through the visual perspective of the player protagonist.",
+          "historicalDescription": "Catapulted by Wolfenstein 3D, Doom, and Quake, the first-person shooter drove 3D graphics accelerator hardware, networked deathmatches, and cinematic console adaptations like GoldenEye 007 and Halo.",
+          "origins": "Early 1990s PC shareware boom (id Software)",
+          "definingMechanics": ["First-Person Viewport", "Crosshair Aiming", "Weapon Wheel Management", "Positional Projectiles"],
+          "landmarkGames": ["doom", "half-life", "goldeneye-007", "halo-combat-evolved", "half-life-2", "call-of-duty-4-modern-warfare"],
+          "landmarkConsoles": ["pc", "nintendo-64", "xbox", "xbox-360"],
+          "era": "1990s–Present",
+          "image": "/assets/images/genres/first-person-shooter.webp",
+          "keywords": ["fps", "first person shooter", "doom", "halo", "half-life", "call of duty", "pc gaming"],
+          "featured": true
+        },
+        {
+          "id": "genre-third-person-shooter",
+          "slug": "third-person-shooter",
+          "name": "Third-Person Shooter",
+          "family": "Shooter",
+          "type": "Subgenre",
+          "shortDescription": "Ranged combat conducted with a camera situated behind or over the shoulder of the player character.",
+          "historicalDescription": "Evolved out of action-adventure roots and revolutionized by Resident Evil 4 and Gears of War, introducing snapping cover systems and over-the-shoulder perspective.",
+          "origins": "Late 1990s 3D action into mid-2000s over-the-shoulder cover mechanics",
+          "definingMechanics": ["Over-the-Shoulder Aiming", "Tactical Cover Snapping", "Spatial Situational Awareness", "Animation Feedback"],
+          "landmarkGames": ["resident-evil-4", "mass-effect", "red-dead-redemption"],
+          "landmarkConsoles": ["gamecube", "playstation-2", "xbox-360", "playstation-3"],
+          "era": "2000s–Present",
+          "image": "/assets/images/genres/third-person-shooter.webp",
+          "keywords": ["third person shooter", "cover shooter", "resident evil 4", "gears of war", "over the shoulder"],
+          "featured": false
+        },
+        {
+          "id": "genre-shoot-em-up",
+          "slug": "shoot-em-up",
+          "name": "Shoot 'em Up (Shmup)",
+          "family": "Shooter",
+          "type": "Subgenre",
+          "shortDescription": "High-reflex vehicular aerial shooting games against dense waves of enemy projectiles and bullet patterns.",
+          "historicalDescription": "Formed the foundational grammar of arcade gaming with Space Invaders and Galaga, eventually evolving into intricate bullet hell (danmaku) masterworks.",
+          "origins": "Late 1970s discrete arcade hardware (Space Invaders, Asteroids)",
+          "definingMechanics": ["Screen-Scrolling Traversal", "Bullet Patterns & Grazing", "Hitbox Precision", "Weapon Upgrade Pods"],
+          "landmarkGames": ["contra"],
+          "landmarkConsoles": ["turbografx-16", "sega-genesis", "super-nintendo-entertainment-system"],
+          "era": "1970s–Present",
+          "image": "/assets/images/genres/shoot-em-up.webp",
+          "keywords": ["shmup", "shoot em up", "bullet hell", "space invaders", "arcade", "danmaku"],
+          "featured": false
+        },
+        {
+          "id": "genre-battle-royale",
+          "slug": "battle-royale",
+          "name": "Battle Royale",
+          "family": "Shooter",
+          "type": "Subgenre",
+          "shortDescription": "Large-scale last-player-standing elimination tournaments set in an open shrinking environmental arena.",
+          "historicalDescription": "Originated from survival simulation PC mods before exploding into global mainstream culture through PUBG and Fortnite, establishing cross-play standardizations.",
+          "origins": "2010s PC survival modding community",
+          "definingMechanics": ["Shrinking Safe Zone Ring", "Scavenger Loot Economy", "Single Elimination Permadeath", "Large-Scale Player Lobbies"],
+          "landmarkGames": ["fortnite-battle-royale"],
+          "landmarkConsoles": ["pc", "playstation-4", "xbox-one", "nintendo-switch"],
+          "era": "2010s–Present",
+          "image": "/assets/images/genres/battle-royale.webp",
+          "keywords": ["battle royale", "fortnite", "pubg", "survival", "last man standing", "cross play"],
+          "featured": false
+        },
+
+        /* === ADVENTURE FAMILY === */
+        {
+          "id": "genre-action-adventure",
+          "slug": "action-adventure",
+          "name": "Action-Adventure",
+          "family": "Adventure",
+          "type": "Core Genre",
+          "shortDescription": "Hybrid experiences blending real-time mechanical dexterity with deep narrative world exploration and environmental puzzle solving.",
+          "historicalDescription": "Inaugurated on the Atari 2600 by Adventure and codified by The Legend of Zelda, the genre became the dominant architectural form of modern prestige video games.",
+          "origins": "Early 1980s top-down exploration (Adventure, The Legend of Zelda)",
+          "definingMechanics": ["Item-Gated Progression", "Environmental Puzzles", "Real-Time Combat", "Sprawling Overland Maps"],
+          "landmarkGames": ["the-legend-of-zelda", "the-legend-of-zelda-a-link-to-the-past", "the-legend-of-zelda-ocarina-of-time", "grand-theft-auto-iii", "the-last-of-us", "the-legend-of-zelda-breath-of-the-wild"],
+          "landmarkConsoles": ["nintendo-entertainment-system", "super-nintendo-entertainment-system", "nintendo-64", "playstation-2", "nintendo-switch"],
+          "era": "1980s–Present",
+          "image": "/assets/images/genres/action-adventure.webp",
+          "keywords": ["action adventure", "zelda", "exploration", "puzzles", "storytelling", "narrative"],
+          "featured": true
+        },
+        {
+          "id": "genre-metroidvania",
+          "slug": "metroidvania",
+          "name": "Metroidvania",
+          "family": "Adventure",
+          "type": "Subgenre",
+          "shortDescription": "Interconnected non-linear world labyrinth design gated by collectible mobility and traversal upgrades.",
+          "historicalDescription": "Coined from the design philosophies of Metroid and Castlevania: Symphony of the Night, the subgenre became celebrated for sequence-breaking, mystery, and spatial mastery.",
+          "origins": "Mid-1980s to mid-1990s 2D exploration (Super Metroid, Castlevania SOTN)",
+          "definingMechanics": ["Interconnected World Map", "Ability-Gated Backtracking", "Traversal Upgrades", "Spatial Mapping"],
+          "landmarkGames": ["metroid", "super-metroid", "castlevania-symphony-of-the-night", "metroid-prime"],
+          "landmarkConsoles": ["super-nintendo-entertainment-system", "playstation", "gamecube", "game-boy-advance"],
+          "era": "1980s–Present",
+          "image": "/assets/images/genres/metroidvania.webp",
+          "keywords": ["metroidvania", "metroid", "castlevania", "backtracking", "ability gated", "exploration"],
+          "featured": true
+        },
+        {
+          "id": "genre-survival-horror",
+          "slug": "survival-horror",
+          "name": "Survival Horror",
+          "family": "Adventure",
+          "type": "Subgenre",
+          "shortDescription": "Psychological vulnerability experiences where resource scarcity, claustrophobia, and avoidance supersede combat power fantasies.",
+          "historicalDescription": "Pioneered by Sweet Home and Alone in the Dark, then brought to massive prominence by Resident Evil and Silent Hill, turning panic and inventory conservation into art.",
+          "origins": "Late 1980s Japanese horror to mid-1990s 32-bit CD-ROM boom",
+          "definingMechanics": ["Resource Scarcity", "Restricted Save Systems", "Anxiety-Inducing Camera Framing", "Combat Evasion Incentive"],
+          "landmarkGames": ["resident-evil", "resident-evil-2", "silent-hill", "silent-hill-2", "resident-evil-4"],
+          "landmarkConsoles": ["playstation", "playstation-2", "gamecube"],
+          "era": "1990s–Present",
+          "image": "/assets/images/genres/survival-horror.webp",
+          "keywords": ["survival horror", "resident evil", "silent hill", "horror", "zombies", "inventory management"],
+          "featured": true
+        },
+        {
+          "id": "genre-point-and-click-adventure",
+          "slug": "point-and-click-adventure",
+          "name": "Point-and-Click Adventure",
+          "family": "Adventure",
+          "type": "Subgenre",
+          "shortDescription": "Narrative puzzle games navigating illustrated storybook environments via a mouse cursor and contextual dialogue verbs.",
+          "historicalDescription": "Flourished during the golden era of Lucasfilm Games and Sierra On-Line, elevating witty character writing, comedic script engines (SCUMM), and puzzle logic.",
+          "origins": "1980s PC text-parser transitions (King's Quest, Maniac Mansion)",
+          "definingMechanics": ["Verb & Cursor Interaction", "Inventory Combination Puzzles", "Branching Dialogue Trees", "Non-Violent Progression"],
+          "landmarkGames": ["the-secret-of-monkey-island"],
+          "landmarkConsoles": ["pc"],
+          "era": "1980s–1990s (Cult modern resurgence)",
+          "image": "/assets/images/genres/point-and-click-adventure.webp",
+          "keywords": ["point and click", "adventure", "lucasarts", "monkey island", "puzzles", "scumm"],
+          "featured": false
+        },
+        {
+          "id": "genre-visual-novel",
+          "slug": "visual-novel",
+          "name": "Visual Novel",
+          "family": "Adventure",
+          "type": "Subgenre",
+          "shortDescription": "Interactive narrative software combining static anime or digital artwork, voice acting, and multi-branching decision pathways.",
+          "historicalDescription": "Emerged on Japanese PC platforms like the PC-98 and FM Towns, growing into an influential international literary storytelling format.",
+          "origins": "1980s Japanese PC text adventures (Portopia Serial Murder Case)",
+          "definingMechanics": ["Branching Dialogue Choices", "Text-Forward Presentation", "Multiple Endings", "Character Route Flags"],
+          "landmarkGames": ["phoenix-wright-ace-attorney"],
+          "landmarkConsoles": ["pc", "playstation-portable", "nintendo-ds"],
+          "era": "1990s–Present",
+          "image": "/assets/images/genres/visual-novel.webp",
+          "keywords": ["visual novel", "narrative", "branching story", "text adventure", "japan"],
+          "featured": false
+        },
+
+        /* === ROLE-PLAYING FAMILY === */
+        {
+          "id": "genre-rpg",
+          "slug": "rpg",
+          "name": "Role-Playing Game (RPG)",
+          "family": "Role-Playing",
+          "type": "Core Genre",
+          "shortDescription": "Character progression experiences governed by statistical leveling, narrative questlines, and deep tactical party building.",
+          "historicalDescription": "Derived directly from tabletop Dungeons & Dragons, the digital RPG became one of gaming's most intellectually ambitious and structurally complex pillars.",
+          "origins": "1970s mainframe computers (PLATO) to 1980s home computers and consoles",
+          "definingMechanics": ["Experience Points & Leveling", "Attribute Statistical Growth", "Inventory & Equipment Systems", "Expansive Quest Architecture"],
+          "landmarkGames": ["final-fantasy", "dragon-quest", "chrono-trigger", "final-fantasy-vii", "the-elder-scrolls-v-skyrim", "the-witcher-3-wild-hunt"],
+          "landmarkConsoles": ["nintendo-entertainment-system", "super-nintendo-entertainment-system", "playstation", "pc"],
+          "era": "1970s–Present",
+          "image": "/assets/images/genres/rpg.webp",
+          "keywords": ["rpg", "role playing game", "final fantasy", "skyrim", "leveling", "stats", "experience points"],
+          "featured": true
+        },
+        {
+          "id": "genre-action-rpg",
+          "slug": "action-rpg",
+          "name": "Action RPG",
+          "family": "Role-Playing",
+          "type": "Subgenre",
+          "shortDescription": "Role-playing progression structures fused with real-time reflexive player combat rather than turn-based menus.",
+          "historicalDescription": "Pioneered in Japan by Ys and Secret of Mana, and in the West by Diablo, proving that stat building and visceral real-time kinetic action formed an intoxicating loop.",
+          "origins": "Mid-1980s Japanese action adventures to late-1990s isometric hack-and-slash",
+          "definingMechanics": ["Real-Time Attack Collision", "Active Dodge & Parry Windows", "Loot Rarity Tiering", "Immediate Skill Cooldowns"],
+          "landmarkGames": ["diablo-ii", "dark-souls", "bloodborne", "the-witcher-3-wild-hunt"],
+          "landmarkConsoles": ["pc", "playstation-3", "playstation-4"],
+          "era": "1980s–Present",
+          "image": "/assets/images/genres/action-rpg.webp",
+          "keywords": ["action rpg", "arpg", "diablo", "dark souls", "bloodborne", "loot", "real time combat"],
+          "featured": false
+        },
+        {
+          "id": "genre-tactical-rpg",
+          "slug": "tactical-rpg",
+          "name": "Tactical RPG (Strategy RPG)",
+          "family": "Role-Playing",
+          "type": "Subgenre",
+          "shortDescription": "Role-playing systems played out over turn-based grid battlefields resembling chess, emphasizing spatial positioning and unit synergy.",
+          "historicalDescription": "Elevated by Fire Emblem, Tactics Ogre, and Final Fantasy Tactics, turning squad composition, elevation terrain, and permadeath into deep tactical drama.",
+          "origins": "1990 Famicom launch of Fire Emblem: Shadow Dragon and the Blade of Light",
+          "definingMechanics": ["Isometric/Orthogonal Grid Movement", "Elevation & Facing Direction Bonuses", "Squad Class Synergies", "Permanent Unit Permadeath"],
+          "landmarkGames": ["final-fantasy-tactics"],
+          "landmarkConsoles": ["super-nintendo-entertainment-system", "playstation", "game-boy-advance", "nintendo-3ds"],
+          "era": "1990s–Present",
+          "image": "/assets/images/genres/tactical-rpg.webp",
+          "keywords": ["tactical rpg", "strategy rpg", "fire emblem", "final fantasy tactics", "grid combat", "turns"],
+          "featured": false
+        },
+        {
+          "id": "genre-mmorpg",
+          "slug": "mmorpg",
+          "name": "MMORPG",
+          "family": "Role-Playing",
+          "type": "Subgenre",
+          "shortDescription": "Persistent online virtual worlds hosting thousands of simultaneous players engaged in cooperative questing and player-driven economies.",
+          "historicalDescription": "Evolving from text MUDs and early graphical pioneers like Ultima Online and EverQuest, World of Warcraft mainstreamed online virtual societies into global cultural ubiquity.",
+          "origins": "Late 1990s early broadband PC networks (Ultima Online, EverQuest)",
+          "definingMechanics": ["Persistent Server Worlds", "Cooperative Guild Raiding", "Player-Driven Auction Economies", "Holy Trinity Roles (Tank, DPS, Healer)"],
+          "landmarkGames": ["world-of-warcraft"],
+          "landmarkConsoles": ["pc", "dreamcast"],
+          "era": "1990s–Present",
+          "image": "/assets/images/genres/mmorpg.webp",
+          "keywords": ["mmorpg", "world of warcraft", "online", "mmo", "guilds", "raids", "azeroth"],
+          "featured": false
+        },
+        {
+          "id": "genre-soulslike",
+          "slug": "soulslike",
+          "name": "Soulslike",
+          "family": "Role-Playing",
+          "type": "Subgenre",
+          "shortDescription": "Deliberate stamina-metered combat systems featuring corpse-run death recovery, diegetic checkpoints, and atmospheric lore.",
+          "historicalDescription": "Spawned by Hidetaka Miyazaki's Demon's Souls and Dark Souls, rejecting hand-holding in favor of profound level architecture, combat tension, and community discovery.",
+          "origins": "2009–2011 FromSoftware breakthroughs (Demon's Souls, Dark Souls)",
+          "definingMechanics": ["Stamina Conservation Management", "Bonfire Checkpoint Respawns", "Currency Loss on Death", "Cryptic Environmental Lore"],
+          "landmarkGames": ["dark-souls", "bloodborne"],
+          "landmarkConsoles": ["playstation-3", "playstation-4"],
+          "era": "2010s–Present",
+          "image": "/assets/images/genres/soulslike.webp",
+          "keywords": ["soulslike", "dark souls", "bloodborne", "fromsoftware", "hidetaka miyazaki", "stamina"],
+          "featured": true
+        },
+        {
+          "id": "genre-roguelike",
+          "slug": "roguelike",
+          "name": "Roguelike & Roguelite",
+          "family": "Role-Playing",
+          "type": "Subgenre",
+          "shortDescription": "Procedurally generated dungeon expeditions characterized by permadeath, emergent build synergies, and high replayability.",
+          "historicalDescription": "Originating from 1980's Rogue on UNIX mainframes, the philosophy was reborn in the indie revolution through Spelunky, The Binding of Isaac, and Hades.",
+          "origins": "1980 ASCII terminal game Rogue, revived 2010s indie renaissance",
+          "definingMechanics": ["Procedural Map Generation", "Permadeath Reset Penalty", "Meta-Progression Unlocks", "Emergent Item Synergies"],
+          "landmarkGames": ["hades"],
+          "landmarkConsoles": ["pc", "nintendo-switch"],
+          "era": "1980s / 2010s–Present",
+          "image": "/assets/images/genres/roguelike.webp",
+          "keywords": ["roguelike", "roguelite", "permadeath", "procedural generation", "hades", "indie"],
+          "featured": false
+        },
+
+        /* === STRATEGY FAMILY === */
+        {
+          "id": "genre-real-time-strategy",
+          "slug": "real-time-strategy",
+          "name": "Real-Time Strategy (RTS)",
+          "family": "Strategy",
+          "type": "Core Genre",
+          "shortDescription": "Continuous non-turn-based tactical simulations managing economic resource harvesting, base construction, and macroscopic army maneuvering.",
+          "historicalDescription": "Codified by Dune II and brought to worldwide competitive dominance by Command & Conquer and StarCraft, defining PC gaming and establishing modern esports in South Korea.",
+          "origins": "Early 1990s PC breakthroughs (Dune II, Warcraft, Command & Conquer)",
+          "definingMechanics": ["Base Building & Tech Trees", "Resource Harvesting Economy", "Fog of War Reconnaissance", "Actions-Per-Minute (APM) Execution"],
+          "landmarkGames": ["starcraft"],
+          "landmarkConsoles": ["pc"],
+          "era": "1990s–Present",
+          "image": "/assets/images/genres/real-time-strategy.webp",
+          "keywords": ["rts", "real time strategy", "starcraft", "blizzard", "base building", "esports"],
+          "featured": true
+        },
+        {
+          "id": "genre-turn-based-strategy",
+          "slug": "turn-based-strategy",
+          "name": "Turn-Based Strategy & 4X",
+          "family": "Strategy",
+          "type": "Core Genre",
+          "shortDescription": "Deliberate strategic management games allowing players unhurried analytical command over geopolitical, military, and empire-scale decisions.",
+          "historicalDescription": "Anchored by Sid Meier's Civilization, Heroes of Might and Magic, and X-COM, standardizing the 'eXplore, eXpand, eXploit, eXterminate' loop.",
+          "origins": "Early tabletop wargaming translated into 1980s personal computer software",
+          "definingMechanics": ["Turn-Based Pacing", "Macro-Scale Empire Management", "Diplomatic & Research Tech Trees", "Grid-Based Tactical Skirmishes"],
+          "landmarkGames": ["civilization"],
+          "landmarkConsoles": ["pc"],
+          "era": "1980s–Present",
+          "image": "/assets/images/genres/turn-based-strategy.webp",
+          "keywords": ["turn based strategy", "4x", "civilization", "sid meier", "strategy", "empire builder"],
+          "featured": false
+        },
+        {
+          "id": "genre-moba",
+          "slug": "moba",
+          "name": "Multiplayer Online Battle Arena (MOBA)",
+          "family": "Strategy",
+          "type": "Subgenre",
+          "shortDescription": "Team-versus-team tactical lane battles where each player controls a single hero unit aiming to demolish the opposing base core.",
+          "historicalDescription": "Spawned from the Warcraft III custom map Defense of the Ancients (DotA), evolving into League of Legends and Dota 2 to become stadium-filling global esports.",
+          "origins": "Early 2000s Warcraft III community modding scene (DotA)",
+          "definingMechanics": ["Three-Lane Map Architecture", "Minion Wave Creep Farming", "In-Match Hero Leveling & Items", "5v5 Teamfight Coordination"],
+          "landmarkGames": ["league-of-legends"],
+          "landmarkConsoles": ["pc"],
+          "era": "2000s–Present",
+          "image": "/assets/images/genres/moba.webp",
+          "keywords": ["moba", "league of legends", "dota", "esports", "multiplayer", "strategy"],
+          "featured": false
+        },
+
+        /* === SIMULATION FAMILY === */
+        {
+          "id": "genre-life-simulation",
+          "slug": "life-simulation",
+          "name": "Life & Management Simulation",
+          "family": "Simulation",
+          "type": "Core Genre",
+          "shortDescription": "Open-ended digital simulations centered on daily human behavior, psychological motivations, domestic design, or institutional stewardship.",
+          "historicalDescription": "Championed by Will Wright with The Sims and Animal Crossing, expanding video game literacy across non-traditional gaming demographics globally.",
+          "origins": "1980s systems simulations into early 2000s domestic sandboxes",
+          "definingMechanics": ["Autonomous NPC AI Routine", "Needs & Mood Satisfaction Meters", "Architectural Creative Decoration", "Open-Ended Non-Violent Goals"],
+          "landmarkGames": ["the-sims", "simcity", "animal-crossing-new-horizons"],
+          "landmarkConsoles": ["pc", "nintendo-switch", "playstation-2"],
+          "era": "1980s–Present",
+          "image": "/assets/images/genres/life-simulation.webp",
+          "keywords": ["life simulation", "the sims", "simcity", "animal crossing", "sandbox", "management"],
+          "featured": false
+        },
+        {
+          "id": "genre-city-building",
+          "slug": "city-building",
+          "name": "City Building & Construction",
+          "family": "Simulation",
+          "type": "Subgenre",
+          "shortDescription": "Macro-scale urban governance and infrastructure simulations modeling zoning, taxation, transit networks, and disaster mitigation.",
+          "historicalDescription": "Inaugurated by Will Wright's SimCity on Mac/Amiga in 1989, proving that municipal administration and infrastructure planning could be intoxicating entertainment.",
+          "origins": "1989 Maxis SimCity debut",
+          "definingMechanics": ["RCI Zoning System", "Utility Infrastructure Routing", "Budget Balancing", "Traffic Flow Management"],
+          "landmarkGames": ["simcity"],
+          "landmarkConsoles": ["pc", "super-nintendo-entertainment-system"],
+          "era": "1980s–Present",
+          "image": "/assets/images/genres/city-building.webp",
+          "keywords": ["city building", "simcity", "infrastructure", "simulation", "urban planning"],
+          "featured": false
+        },
+        {
+          "id": "genre-immersive-sim",
+          "slug": "immersive-sim",
+          "name": "Immersive Sim",
+          "family": "Simulation",
+          "type": "Subgenre",
+          "shortDescription": "First-person simulated worlds governed by rigorous physical and emergent system consistency, rewarding creative player agency.",
+          "historicalDescription": "Pioneered by Looking Glass Studios with Ultima Underworld, System Shock, and Thief, and codified by Deus Ex, celebrating unscripted emergent problem solving.",
+          "origins": "1990s Looking Glass Studios & Ion Storm",
+          "definingMechanics": ["Consistent Environmental Physics", "Emergent Reactive AI", "Multiple Non-Scripted Solutions", "Diegetic World Interaction"],
+          "landmarkGames": ["deus-ex", "bioshock"],
+          "landmarkConsoles": ["pc", "xbox-360"],
+          "era": "1990s–Present",
+          "image": "/assets/images/genres/immersive-sim.webp",
+          "keywords": ["immersive sim", "deus ex", "system shock", "bioshock", "emergent gameplay", "looking glass"],
+          "featured": false
+        },
+        {
+          "id": "genre-sandbox-survival",
+          "slug": "sandbox-survival",
+          "name": "Sandbox & Survival",
+          "family": "Simulation",
+          "type": "Subgenre",
+          "shortDescription": "Emergent wilderness survival games emphasizing material harvesting, freeform crafting, architecture, and hunger mitigation.",
+          "historicalDescription": "Catapulted by Minecraft into the bestselling gaming phenomenon in history, fostering global digital engineering literacy through procedural block sandboxes.",
+          "origins": "2010s PC indie alpha releases (Minecraft, DayZ)",
+          "definingMechanics": ["Voxel/Resource Harvesting", "Progressive Tool Crafting", "Environmental Survival Meters", "Limitless Creative Building"],
+          "landmarkGames": ["minecraft"],
+          "landmarkConsoles": ["pc", "xbox-360", "playstation-4", "nintendo-switch"],
+          "era": "2010s–Present",
+          "image": "/assets/images/genres/sandbox-survival.webp",
+          "keywords": ["sandbox", "survival", "minecraft", "crafting", "procedural", "building"],
+          "featured": false
+        },
+
+        /* === RACING & SPORTS FAMILY === */
+        {
+          "id": "genre-racing",
+          "slug": "racing",
+          "name": "Racing & Simulation",
+          "family": "Racing & Sports",
+          "type": "Core Genre",
+          "shortDescription": "High-velocity automotive competitions testing racing line mastery, braking discipline, drafting, and vehicle dynamics.",
+          "historicalDescription": "From early electromechanical arcade cabinets through Gran Turismo's realistic vehicle physics and Mario Kart's item combat, racing pushed console graphics to technical peaks.",
+          "origins": "1970s arcade hardware (Gran Trak 10, Pole Position)",
+          "definingMechanics": ["Braking Points & Apex Lines", "Vehicle Physics Tuning", "Drafting Slipstream Dynamics", "Lap Time Optimization"],
+          "landmarkGames": ["gran-turismo"],
+          "landmarkConsoles": ["playstation", "super-nintendo-entertainment-system", "nintendo-64"],
+          "era": "1970s–Present",
+          "image": "/assets/images/genres/racing.webp",
+          "keywords": ["racing", "gran turismo", "simulation", "cars", "speed", "driving"],
+          "featured": true
+        },
+        {
+          "id": "genre-arcade-racing",
+          "slug": "arcade-racing",
+          "name": "Arcade Racing",
+          "family": "Racing & Sports",
+          "type": "Subgenre",
+          "shortDescription": "Accessible racing experiences prioritizing thrilling drift physics, boost power-ups, and dramatic rubberband competition.",
+          "historicalDescription": "Inaugurated by Sega's Yu Suzuki with Out Run and perfected in couch multiplayer by Mario Kart, celebrating joy and accessibility over clinical automotive engineering.",
+          "origins": "Mid-1980s Sega arcade scaling cabinets (Out Run)",
+          "definingMechanics": ["Drift Boost Mechanics", "Combat Power-Up Items", "Rubberband Catch-Up Physics", "Exaggerated Speed Pacing"],
+          "landmarkGames": ["mario-kart-8"],
+          "landmarkConsoles": ["super-nintendo-entertainment-system", "nintendo-64", "wii", "nintendo-switch"],
+          "era": "1980s–Present",
+          "image": "/assets/images/genres/arcade-racing.webp",
+          "keywords": ["arcade racing", "mario kart", "out run", "drifting", "kart racer"],
+          "featured": false
+        },
+        {
+          "id": "genre-sports",
+          "slug": "sports",
+          "name": "Sports Simulation",
+          "family": "Racing & Sports",
+          "type": "Core Genre",
+          "shortDescription": "Digital recreation of real-world athletic competition, tactical playcalling, player statistics, and tournament championships.",
+          "historicalDescription": "One of video gaming's earliest commercial cornerstones (Pong), later evolving into perennial annual franchises like Madden NFL, FIFA, and NBA 2K.",
+          "origins": "1970s discrete logic games to early 1990s 16-bit licensed leagues",
+          "definingMechanics": ["Athletic Rule Enforcement", "Roster Management & Stats", "Tactical Playcalling Execution", "Real-World Broadcast Camera"],
+          "landmarkGames": ["wii-sports"],
+          "landmarkConsoles": ["wii", "sega-genesis", "playstation-2"],
+          "era": "1970s–Present",
+          "image": "/assets/images/genres/sports.webp",
+          "keywords": ["sports", "wii sports", "football", "basketball", "athletics", "fifa", "madden"],
+          "featured": false
+        },
+
+        /* === PUZZLE & LOGIC FAMILY === */
+        {
+          "id": "genre-puzzle",
+          "slug": "puzzle",
+          "name": "Puzzle & Logic",
+          "family": "Puzzle & Logic",
+          "type": "Core Genre",
+          "shortDescription": "Intellectual problem-solving challenges testing pattern recognition, spatial reasoning, spatial manipulation, or deductive logic.",
+          "historicalDescription": "Defined by pure mathematical abstraction in Tetris and expanded into environmental 3D physics by Portal, representing the most timeless design purity in video games.",
+          "origins": "1980s spatial tile management (Tetris, Sokoban)",
+          "definingMechanics": ["Pattern & Color Matching", "Spatial Tile Rotation", "Logic Sequence Deduction", "Physics Constraint Solving"],
+          "landmarkGames": ["tetris", "portal", "portal-2"],
+          "landmarkConsoles": ["game-boy", "pc", "playstation-3", "xbox-360"],
+          "era": "1980s–Present",
+          "image": "/assets/images/genres/puzzle.webp",
+          "keywords": ["puzzle", "tetris", "portal", "logic", "spatial", "brain", "problem solving"],
+          "featured": true
+        },
+        {
+          "id": "genre-rhythm",
+          "slug": "rhythm",
+          "name": "Rhythm & Music",
+          "family": "Puzzle & Logic",
+          "type": "Core Genre",
+          "shortDescription": "Musical timing games challenging players to match auditory tempos and note sequences with precise physical controller prompts.",
+          "historicalDescription": "Pioneered by PaRappa the Rapper and Dance Dance Revolution in arcades, then reaching explosive living-room popularity with Guitar Hero and Rock Band.",
+          "origins": "Late 1990s Japanese arcade and PlayStation innovations (PaRappa, DDR)",
+          "definingMechanics": ["Auditory Beat Synchronization", "Scrolling Note Highways", "Timed Button Inputs", "Proprietary Instrument Peripherals"],
+          "landmarkGames": ["parappa-the-rapper"],
+          "landmarkConsoles": ["playstation", "playstation-2", "xbox-360"],
+          "era": "1990s–Present",
+          "image": "/assets/images/genres/rhythm.webp",
+          "keywords": ["rhythm", "music", "guitar hero", "parappa", "timing", "beat"],
+          "featured": false
+        },
+        {
+          "id": "genre-party",
+          "slug": "party",
+          "name": "Party & Social",
+          "family": "Puzzle & Logic",
+          "type": "Subgenre",
+          "shortDescription": "Fast-paced local multiplayer competitive collections of bite-sized mini-games tailored for couch socialization.",
+          "historicalDescription": "Pioneered by Hudson Soft and Nintendo with Mario Party on N64, establishing accessible four-player living-room board games filled with chaotic mini-games.",
+          "origins": "Late 1990s Nintendo 64 4-player couch multiplayer",
+          "definingMechanics": ["Virtual Board Navigation", "Bite-Sized Mini-Game Challenges", "Comeback Rubberband Mechanics", "Local 4-Player Simultaneous Play"],
+          "landmarkGames": ["mario-party"],
+          "landmarkConsoles": ["nintendo-64", "gamecube", "wii", "nintendo-switch"],
+          "era": "1990s–Present",
+          "image": "/assets/images/genres/party.webp",
+          "keywords": ["party", "mario party", "mini games", "multiplayer", "social", "couch co-op"],
+          "featured": false
+        }
+      ];
+
+      /* --------------------------------------------------------------------------
+         02. STORAGE ARCHITECTURE & FAVORITES COMPATIBILITY
+         -------------------------------------------------------------------------- */
+      const FAV_STORAGE_KEY = "nostalgicverse_favs";
+
+      function getStoredFavorites() {
+        try {
+          const raw = localStorage.getItem(FAV_STORAGE_KEY);
+          if (!raw) return [];
+          const parsed = JSON.parse(raw);
+          return Array.isArray(parsed) ? parsed : [];
+        } catch (err) {
+          console.warn("NostalgicVerse: LocalStorage inaccessible.", err);
+          return [];
+        }
+      }
+
+      function saveFavorites(favsArray) {
+        try {
+          localStorage.setItem(FAV_STORAGE_KEY, JSON.stringify(favsArray));
+        } catch (err) {
+          console.warn("NostalgicVerse: Unable to write to LocalStorage.", err);
+        }
+      }
+
+      function isFavorite(id) {
+        return getStoredFavorites().some(function (item) {
+          return item.id === id;
+        });
+      }
+
+      function toggleFavoriteGenre(genreItem) {
+        let favs = getStoredFavorites();
+        const exists = favs.some(function (f) {
+          return f.id === genreItem.id;
+        });
+
+        if (exists) {
+          favs = favs.filter(function (f) {
+            return f.id !== genreItem.id;
+          });
+        } else {
+          favs.push({
+            type: "genre",
+            id: genreItem.id,
+            title: genreItem.name,
+            url: "/genres/#" + genreItem.id
+          });
+        }
+
+        saveFavorites(favs);
+        updateFavoriteButtons();
+        updateFavoritesHeaderBadge();
+      }
+
+      function updateFavoriteButtons() {
+        const buttons = document.querySelectorAll("[data-fav-id]");
+        buttons.forEach(function (btn) {
+          const id = btn.getAttribute("data-fav-id");
+          const title = btn.getAttribute("data-fav-title") || "Genre";
+          const active = isFavorite(id);
+
+          if (active) {
+            btn.classList.add("is-active");
+            btn.setAttribute("aria-label", "Remove " + title + " from favorites");
+            btn.setAttribute("title", "Remove " + title + " from favorites");
+          } else {
+            btn.classList.remove("is-active");
+            btn.setAttribute("aria-label", "Add " + title + " to favorites");
+            btn.setAttribute("title", "Add " + title + " to favorites");
+          }
+        });
+      }
+
+      function updateFavoritesHeaderBadge() {
+        const badge = document.getElementById("header-fav-badge");
+        if (!badge) return;
+
+        const count = getStoredFavorites().length;
+        badge.textContent = String(count);
+
+        if (count > 0) {
+          badge.classList.add("has-items");
+        } else {
+          badge.classList.remove("has-items");
+        }
+      }
+
+      window.addEventListener("storage", function (e) {
+        if (e.key === FAV_STORAGE_KEY) {
+          updateFavoriteButtons();
+          updateFavoritesHeaderBadge();
+        }
+      });
+
+      /* --------------------------------------------------------------------------
+         03. SAFE DOM FACTORY (GENRE CARDS & EXHIBITS)
+         -------------------------------------------------------------------------- */
+      function createGenreCardElement(genreItem, isCuratedLead) {
+        const card = document.createElement("article");
+        card.className = "museum-genre-card";
+        card.id = genreItem.id;
+        card.setAttribute("data-genre-id", genreItem.id);
+
+        // 16:9 Media Container
+        const media = document.createElement("div");
+        media.className = "card-media";
+
+        const img = document.createElement("img");
+        img.className = "genre-card-img";
+        img.src = genreItem.image;
+        img.alt = genreItem.name + " genre exhibition artwork";
+        img.width = 480;
+        img.height = 270;
+        img.loading = isCuratedLead ? "eager" : "lazy";
+        img.decoding = "async";
+
+        // Architectural Fallback Plate (Follows Master System)
+        const fallback = document.createElement("div");
+        fallback.className = "card-fallback-plate";
+        fallback.style.display = "none";
+        fallback.setAttribute("aria-hidden", "true");
+
+        const fallbackSvg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+        fallbackSvg.setAttribute("viewBox", "0 0 24 24");
+        fallbackSvg.setAttribute("fill", "none");
+        fallbackSvg.setAttribute("stroke-width", "1.5");
+        fallbackSvg.setAttribute("stroke-linecap", "round");
+        fallbackSvg.setAttribute("stroke-linejoin", "round");
+
+        const svgPath = document.createElementNS("http://www.w3.org/2000/svg", "path");
+        svgPath.setAttribute("d", "M4 6h16M4 12h16M4 18h7");
+        fallbackSvg.appendChild(svgPath);
+
+        const fallbackTitle = document.createElement("span");
+        fallbackTitle.className = "plate-title";
+        fallbackTitle.textContent = "GENRE EXHIBIT · " + genreItem.name.toUpperCase();
+
+        const fallbackTag = document.createElement("span");
+        fallbackTag.className = "plate-tag";
+        fallbackTag.textContent = genreItem.family.toUpperCase() + " · " + genreItem.type.toUpperCase();
+
+        fallback.appendChild(fallbackSvg);
+        fallback.appendChild(fallbackTitle);
+        fallback.appendChild(fallbackTag);
+
+        img.addEventListener("error", function () {
+          img.style.display = "none";
+          fallback.style.display = "flex";
+        });
+
+        // Favorite Button Control
+        const favBtnWrap = document.createElement("div");
+        favBtnWrap.className = "card-fav-anchor";
+
+        const favBtn = document.createElement("button");
+        favBtn.type = "button";
+        favBtn.className = "fav-btn";
+        favBtn.setAttribute("data-fav-id", genreItem.id);
+        favBtn.setAttribute("data-fav-title", genreItem.name);
+        favBtn.setAttribute("aria-label", "Add " + genreItem.name + " to favorites");
+
+        const favSvg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+        favSvg.setAttribute("viewBox", "0 0 24 24");
+        favSvg.setAttribute("stroke-width", "2");
+        favSvg.setAttribute("stroke-linecap", "round");
+        favSvg.setAttribute("stroke-linejoin", "round");
+
+        const favPath = document.createElementNS("http://www.w3.org/2000/svg", "path");
+        favPath.setAttribute("d", "M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z");
+        favSvg.appendChild(favPath);
+        favBtn.appendChild(favSvg);
+
+        favBtn.addEventListener("click", function (e) {
+          e.preventDefault();
+          e.stopPropagation();
+          toggleFavoriteGenre(genreItem);
+        });
+
+        favBtnWrap.appendChild(favBtn);
+
+        media.appendChild(img);
+        media.appendChild(fallback);
+        media.appendChild(favBtnWrap);
+
+        // Body Content
+        const body = document.createElement("div");
+        body.className = "card-body";
+
+        const topDiv = document.createElement("div");
+
+        // Metadata Header
+        const metaLine = document.createElement("div");
+        metaLine.className = "card-meta-line";
+
+        const famSpan = document.createElement("span");
+        famSpan.textContent = genreItem.family.toUpperCase();
+
+        const typeSpan = document.createElement("span");
+        typeSpan.style.color = "var(--nv-cyan)";
+        typeSpan.textContent = genreItem.type.toUpperCase();
+
+        metaLine.appendChild(famSpan);
+        metaLine.appendChild(typeSpan);
+
+        // Genre Title
+        const title = document.createElement("h3");
+        title.className = "genre-title";
+        title.textContent = genreItem.name;
+
+        // Short Description
+        const descText = document.createElement("p");
+        descText.className = "genre-desc-text";
+        descText.textContent = genreItem.shortDescription;
+
+        // Mechanics Badges
+        const mechList = document.createElement("div");
+        mechList.className = "mechanics-pill-list";
+        genreItem.definingMechanics.slice(0, 3).forEach(function (mech) {
+          const badge = document.createElement("span");
+          badge.className = "mechanic-badge";
+          badge.textContent = mech;
+          mechList.appendChild(badge);
+        });
+
+        topDiv.appendChild(metaLine);
+        topDiv.appendChild(title);
+        topDiv.appendChild(descText);
+        topDiv.appendChild(mechList);
+
+        // Footer Action Row
+        const footer = document.createElement("div");
+        footer.className = "card-footer-action";
+
+        const inspectBtn = document.createElement("button");
+        inspectBtn.type = "button";
+        inspectBtn.className = "btn btn-inline";
+        inspectBtn.textContent = "Inspect Record →";
+        inspectBtn.addEventListener("click", function () {
+          openInspectionModal(genreItem);
+        });
+
+        const link = document.createElement("a");
+        link.className = "btn btn-inline";
+        link.href = "/genres/" + genreItem.slug + "/";
+        link.textContent = "Explore Genre →";
+
+        footer.appendChild(inspectBtn);
+        footer.appendChild(link);
+
+        body.appendChild(topDiv);
+        body.appendChild(footer);
+
+        card.appendChild(media);
+        card.appendChild(body);
+
+        return card;
+      }
+
+      /* --------------------------------------------------------------------------
+         04. DYNAMIC TAXONOMY STATISTICS
+         -------------------------------------------------------------------------- */
+      function renderTaxonomyStatistics() {
+        const total = GENRES_DATA.length;
+        const familiesCount = new Set(GENRES_DATA.map(function (g) { return g.family; })).size;
+        const coreCount = GENRES_DATA.filter(function (g) { return g.type === "Core Genre"; }).length;
+        const subCount = GENRES_DATA.filter(function (g) { return g.type === "Subgenre"; }).length;
+
+        const totalEl = document.getElementById("stat-genres-count");
+        const famEl = document.getElementById("stat-families-count");
+        const coreEl = document.getElementById("stat-core-count");
+        const subEl = document.getElementById("stat-subgenres-count");
+
+        if (totalEl) totalEl.textContent = String(total);
+        if (famEl) famEl.textContent = String(familiesCount);
+        if (coreEl) coreEl.textContent = String(coreCount);
+        if (subEl) subEl.textContent = String(subCount);
+      }
+
+      /* --------------------------------------------------------------------------
+         05. FEATURED GENRES CORNERSTONES
+         -------------------------------------------------------------------------- */
+      function renderFeaturedCornerstones() {
+        const container = document.getElementById("curated-genres-container");
+        if (!container) return;
+        container.textContent = "";
+
+        const curatedList = GENRES_DATA.filter(function (g) { return g.featured; }).slice(0, 4);
+        const fragment = document.createDocumentFragment();
+
+        curatedList.forEach(function (genreItem) {
+          const card = document.createElement("article");
+          card.className = "curated-genre-card";
+
+          const media = document.createElement("div");
+          media.className = "curated-card-media";
+
+          const img = document.createElement("img");
+          img.className = "genre-card-img";
+          img.src = genreItem.image;
+          img.alt = genreItem.name + " genre exhibition artwork";
+          img.width = 480;
+          img.height = 270;
+          img.loading = "eager";
+          img.decoding = "async";
+
+          const fallback = document.createElement("div");
+          fallback.className = "card-fallback-plate";
+          fallback.style.display = "none";
+          fallback.setAttribute("aria-hidden", "true");
+
+          const fallbackTitle = document.createElement("span");
+          fallbackTitle.className = "plate-title";
+          fallbackTitle.textContent = "LANDMARK · " + genreItem.name.toUpperCase();
+          fallback.appendChild(fallbackTitle);
+
+          img.addEventListener("error", function () {
+            img.style.display = "none";
+            fallback.style.display = "flex";
+          });
+
+          media.appendChild(img);
+          media.appendChild(fallback);
+          card.appendChild(media);
+
+          const body = document.createElement("div");
+          body.className = "curated-card-body";
+
+          const topDiv = document.createElement("div");
+
+          const famTag = document.createElement("div");
+          famTag.className = "curated-family-tag";
+          famTag.textContent = genreItem.family.toUpperCase();
+
+          const titleH3 = document.createElement("h3");
+          titleH3.className = "curated-genre-name";
+          titleH3.textContent = genreItem.name;
+
+          const descP = document.createElement("p");
+          descP.className = "curated-genre-desc";
+          descP.textContent = genreItem.shortDescription;
+
+          topDiv.appendChild(famTag);
+          topDiv.appendChild(titleH3);
+          topDiv.appendChild(descP);
+          body.appendChild(topDiv);
+
+          const btn = document.createElement("button");
+          btn.type = "button";
+          btn.className = "btn btn-inline";
+          btn.textContent = "Inspect Taxonomy →";
+          btn.addEventListener("click", function () {
+            openInspectionModal(genreItem);
+          });
+
+          body.appendChild(btn);
+          card.appendChild(body);
+          fragment.appendChild(card);
+        });
+
+        container.appendChild(fragment);
+      }
+
+      /* --------------------------------------------------------------------------
+         06. DYNAMIC FILTER CONTROLS POPULATION
+         -------------------------------------------------------------------------- */
+      function populateFilterControls() {
+        const familySelect = document.getElementById("filter-family-select");
+
+        const families = Array.from(new Set(GENRES_DATA.map(function (g) { return g.family; }))).sort();
+        families.forEach(function (fam) {
+          const opt = document.createElement("option");
+          opt.value = fam;
+          opt.textContent = fam + " Family";
+          if (familySelect) familySelect.appendChild(opt);
+        });
+      }
+
+      /* --------------------------------------------------------------------------
+         07. SEARCH, FILTER & SORT ENGINE
+         -------------------------------------------------------------------------- */
+      const searchInput = document.getElementById("genre-search-input");
+      const searchClearBtn = document.getElementById("search-clear-btn");
+      const familySelect = document.getElementById("filter-family-select");
+      const typeSelect = document.getElementById("filter-type-select");
+      const focusSelect = document.getElementById("filter-focus-select");
+      const sortSelect = document.getElementById("sort-genres-select");
+      const resetBtn = document.getElementById("reset-filters-btn");
+      const emptyResetBtn = document.getElementById("empty-state-reset-btn");
+      const mainGrid = document.getElementById("main-genres-grid");
+      const emptyStateEl = document.getElementById("genre-empty-state");
+      const resultCounterEl = document.getElementById("genre-result-counter");
+
+      function filterAndSortGenres() {
+        const query = searchInput ? searchInput.value.trim().toLowerCase() : "";
+        const selectedFamily = familySelect ? familySelect.value : "all";
+        const selectedType = typeSelect ? typeSelect.value : "all";
+        const selectedFocus = focusSelect ? focusSelect.value : "all";
+        const currentSort = sortSelect ? sortSelect.value : "name-asc";
+
+        if (searchClearBtn) {
+          if (query.length > 0) {
+            searchClearBtn.classList.add("is-visible");
+          } else {
+            searchClearBtn.classList.remove("is-visible");
+          }
+        }
+
+        let filtered = GENRES_DATA.filter(function (g) {
+          if (selectedFamily !== "all" && g.family !== selectedFamily) return false;
+          if (selectedType !== "all" && g.type !== selectedType) return false;
+          if (selectedFocus === "featured" && !g.featured) return false;
+
+          if (query.length > 0) {
+            const inName = g.name.toLowerCase().indexOf(query) !== -1;
+            const inFam = g.family.toLowerCase().indexOf(query) !== -1;
+            const inDesc = g.shortDescription.toLowerCase().indexOf(query) !== -1 || g.historicalDescription.toLowerCase().indexOf(query) !== -1;
+            const inMech = g.definingMechanics.some(function (m) { return m.toLowerCase().indexOf(query) !== -1; });
+            const inGames = g.landmarkGames.some(function (game) { return game.toLowerCase().indexOf(query) !== -1; });
+            const inKw = g.keywords.some(function (k) { return k.toLowerCase().indexOf(query) !== -1; });
+
+            if (!inName && !inFam && !inDesc && !inMech && !inGames && !inKw) {
+              return false;
+            }
+          }
+          return true;
+        });
+
+        filtered.sort(function (a, b) {
+          if (currentSort === "name-desc") {
+            return b.name.localeCompare(a.name);
+          }
+          if (currentSort === "family-asc") {
+            return a.family.localeCompare(b.family) || a.name.localeCompare(b.name);
+          }
+          if (currentSort === "featured") {
+            if (a.featured && !b.featured) return -1;
+            if (!a.featured && b.featured) return 1;
+            return a.name.localeCompare(b.name);
+          }
+          return a.name.localeCompare(b.name);
+        });
+
+        if (mainGrid) {
+          mainGrid.textContent = "";
+
+          if (filtered.length === 0) {
+            if (emptyStateEl) emptyStateEl.classList.add("is-visible");
+            mainGrid.style.display = "none";
+          } else {
+            if (emptyStateEl) emptyStateEl.classList.remove("is-visible");
+            mainGrid.style.display = "grid";
+
+            const fragment = document.createDocumentFragment();
+            filtered.forEach(function (genreItem) {
+              fragment.appendChild(createGenreCardElement(genreItem, false));
+            });
+            mainGrid.appendChild(fragment);
+          }
+        }
+
+        if (resultCounterEl) {
+          resultCounterEl.textContent = "SHOWING " + filtered.length + " OF " + GENRES_DATA.length + " GENRE ARCHIVES";
+        }
+
+        updateFavoriteButtons();
+      }
+
+      function resetAllFilters() {
+        if (searchInput) searchInput.value = "";
+        if (familySelect) familySelect.value = "all";
+        if (typeSelect) typeSelect.value = "all";
+        if (focusSelect) focusSelect.value = "all";
+        if (sortSelect) sortSelect.value = "name-asc";
+        filterAndSortGenres();
+        if (searchInput) searchInput.focus();
+      }
+
+      /* --------------------------------------------------------------------------
+         08. GENRE FAMILY SHORTCUT FILTERS
+         -------------------------------------------------------------------------- */
+      function setupFamilyShortcuts() {
+        const buttons = document.querySelectorAll("[data-family-filter]");
+        buttons.forEach(function (btn) {
+          btn.addEventListener("click", function () {
+            const fam = btn.getAttribute("data-family-filter");
+            if (familySelect) {
+              familySelect.value = fam;
+              filterAndSortGenres();
+              const browserEl = document.getElementById("genre-catalogue-browser");
+              if (browserEl) {
+                browserEl.scrollIntoView({ behavior: "smooth" });
+              }
+            }
+          });
+        });
+      }
+
+      /* --------------------------------------------------------------------------
+         09. INSPECTION MODAL DIALOG
+         -------------------------------------------------------------------------- */
+      const modalBackdrop = document.getElementById("inspection-modal");
+      const modalCloseBtn = document.getElementById("modal-close-btn");
+      const modalFamily = document.getElementById("modal-family");
+      const modalType = document.getElementById("modal-type");
+      const modalEra = document.getElementById("modal-era");
+      const modalTitle = document.getElementById("modal-genre-title");
+      const modalDesc = document.getElementById("modal-description");
+      const modalSig = document.getElementById("modal-significance");
+      const modalMechanics = document.getElementById("modal-mechanics-list");
+      const modalLandmarks = document.getElementById("modal-landmarks-list");
+
+      function openInspectionModal(genreItem) {
+        if (!modalBackdrop) return;
+        document.body.classList.add("modal-open");
+        modalBackdrop.classList.add("is-open");
+        modalBackdrop.setAttribute("aria-hidden", "false");
+
+        if (modalFamily) modalFamily.textContent = genreItem.family.toUpperCase();
+        if (modalType) modalType.textContent = genreItem.type.toUpperCase();
+        if (modalEra) modalEra.textContent = "ERA: " + genreItem.era;
+        if (modalTitle) modalTitle.textContent = genreItem.name;
+        if (modalDesc) modalDesc.textContent = genreItem.shortDescription;
+        if (modalSig) modalSig.textContent = genreItem.historicalDescription;
+
+        if (modalMechanics) {
+          modalMechanics.textContent = "";
+          genreItem.definingMechanics.forEach(function (mech) {
+            const badge = document.createElement("span");
+            badge.className = "mechanic-badge";
+            badge.textContent = mech;
+            modalMechanics.appendChild(badge);
+          });
+        }
+
+        if (modalLandmarks) {
+          modalLandmarks.textContent = "";
+
+          // Games
+          genreItem.landmarkGames.forEach(function (gSlug) {
+            const link = document.createElement("a");
+            link.className = "btn btn-secondary";
+            link.href = "/games/" + gSlug + "/";
+            link.textContent = "Game Record: " + gSlug.replace(/-/g, " ") + " →";
+            modalLandmarks.appendChild(link);
+          });
+
+          // Consoles
+          genreItem.landmarkConsoles.forEach(function (cSlug) {
+            const link = document.createElement("a");
+            link.className = "btn btn-secondary";
+            link.href = "/consoles/" + cSlug + "/";
+            link.textContent = "Console Specimen: " + cSlug.replace(/-/g, " ") + " →";
+            modalLandmarks.appendChild(link);
+          });
+        }
+
+        const panel = modalBackdrop.querySelector(".modal-dialog-panel");
+        if (panel) panel.focus();
+      }
+
+      function closeInspectionModal() {
+        if (!modalBackdrop) return;
+        document.body.classList.remove("modal-open");
+        modalBackdrop.classList.remove("is-open");
+        modalBackdrop.setAttribute("aria-hidden", "true");
+      }
+
+      if (modalCloseBtn) modalCloseBtn.addEventListener("click", closeInspectionModal);
+      if (modalBackdrop) {
+        modalBackdrop.addEventListener("click", function (e) {
+          if (e.target === modalBackdrop) closeInspectionModal();
+        });
+      }
+
+      /* --------------------------------------------------------------------------
+         10. RANDOM DISCOVERY INTERACTION
+         -------------------------------------------------------------------------- */
+      const randomBtn = document.getElementById("random-genre-btn");
+      const randomBtnText = document.getElementById("random-btn-text");
+      const spotlightBox = document.getElementById("random-spotlight-box");
+      const spotFam = document.getElementById("spotlight-family");
+      const spotType = document.getElementById("spotlight-type");
+      const spotTitle = document.getElementById("spotlight-title");
+      const spotDesc = document.getElementById("spotlight-desc");
+      const spotJumpBtn = document.getElementById("spotlight-jump-btn");
+      const spotInspectBtn = document.getElementById("spotlight-inspect-btn");
+
+      let currentRandomGenre = null;
+
+      if (randomBtn) {
+        randomBtn.addEventListener("click", function () {
+          if (GENRES_DATA.length === 0) return;
+
+          if (randomBtnText) randomBtnText.textContent = "CONSULTING TAXONOMY MATRIX...";
+          randomBtn.disabled = true;
+
+          setTimeout(function () {
+            const randomIndex = Math.floor(Math.random() * GENRES_DATA.length);
+            currentRandomGenre = GENRES_DATA[randomIndex];
+
+            if (spotFam) spotFam.textContent = currentRandomGenre.family.toUpperCase();
+            if (spotType) spotType.textContent = currentRandomGenre.type.toUpperCase();
+            if (spotTitle) spotTitle.textContent = currentRandomGenre.name;
+            if (spotDesc) spotDesc.textContent = currentRandomGenre.shortDescription;
+
+            if (spotlightBox) {
+              spotlightBox.classList.add("is-active");
+              spotlightBox.scrollIntoView({ behavior: "smooth", block: "nearest" });
+            }
+
+            randomBtn.disabled = false;
+            if (randomBtnText) randomBtnText.textContent = "Discover Another Genre";
+          }, 300);
+        });
+      }
+
+      if (spotJumpBtn) {
+        spotJumpBtn.addEventListener("click", function () {
+          if (!currentRandomGenre) return;
+
+          if (familySelect && familySelect.value !== "all" && familySelect.value !== currentRandomGenre.family) {
+            familySelect.value = "all";
+          }
+          if (typeSelect && typeSelect.value !== "all" && typeSelect.value !== currentRandomGenre.type) {
+            typeSelect.value = "all";
+          }
+
+          filterAndSortGenres();
+
+          setTimeout(function () {
+            const card = document.getElementById(currentRandomGenre.id);
+            if (card) {
+              card.scrollIntoView({ behavior: "smooth", block: "center" });
+              card.classList.remove("highlight-pulse");
+              void card.offsetWidth;
+              card.classList.add("highlight-pulse");
+            }
+          }, 100);
+        });
+      }
+
+      if (spotInspectBtn) {
+        spotInspectBtn.addEventListener("click", function () {
+          if (currentRandomGenre) {
+            openInspectionModal(currentRandomGenre);
+          }
+        });
+      }
+
+      /* --------------------------------------------------------------------------
+         11. ACCESSIBLE MOBILE DRAWER
+         -------------------------------------------------------------------------- */
+      const menuBtn = document.getElementById("menu-toggle-btn");
+      const closeBtn = document.getElementById("drawer-close-btn");
+      const drawer = document.getElementById("mobile-nav-drawer");
+      const backdrop = document.getElementById("drawer-backdrop");
+
+      function openDrawer() {
+        if (!drawer || !backdrop) return;
+        document.body.classList.add("menu-open");
+        drawer.classList.add("is-open");
+        backdrop.classList.add("is-open");
+        menuBtn.setAttribute("aria-expanded", "true");
+        drawer.setAttribute("aria-hidden", "false");
+        drawer.focus();
+      }
+
+      function closeDrawer() {
+        if (!drawer || !backdrop) return;
+        document.body.classList.remove("menu-open");
+        drawer.classList.remove("is-open");
+        backdrop.classList.remove("is-open");
+        menuBtn.setAttribute("aria-expanded", "false");
+        drawer.setAttribute("aria-hidden", "true");
+        menuBtn.focus();
+      }
+
+      if (menuBtn) menuBtn.addEventListener("click", openDrawer);
+      if (closeBtn) closeBtn.addEventListener("click", closeDrawer);
+      if (backdrop) backdrop.addEventListener("click", closeDrawer);
+
+      document.addEventListener("keydown", function (e) {
+        if (e.key === "Escape") {
+          if (modalBackdrop && modalBackdrop.classList.contains("is-open")) {
+            closeInspectionModal();
+          } else if (drawer && drawer.classList.contains("is-open")) {
+            closeDrawer();
+          }
+        }
+      });
+
+      /* --------------------------------------------------------------------------
+         12. EVENT LISTENERS SETUP & BOOTSTRAP
+         -------------------------------------------------------------------------- */
+      if (searchInput) {
+        searchInput.addEventListener("input", filterAndSortGenres);
+      }
+
+      if (searchClearBtn) {
+        searchClearBtn.addEventListener("click", function () {
+          searchInput.value = "";
+          filterAndSortGenres();
+          searchInput.focus();
+        });
+      }
+
+      if (familySelect) familySelect.addEventListener("change", filterAndSortGenres);
+      if (typeSelect) typeSelect.addEventListener("change", filterAndSortGenres);
+      if (focusSelect) focusSelect.addEventListener("change", filterAndSortGenres);
+      if (sortSelect) sortSelect.addEventListener("change", filterAndSortGenres);
+      if (resetBtn) resetBtn.addEventListener("click", resetAllFilters);
+      if (emptyResetBtn) emptyResetBtn.addEventListener("click", resetAllFilters);
+
+      window.addEventListener("DOMContentLoaded", function () {
+        renderTaxonomyStatistics();
+        populateFilterControls();
+        renderFeaturedCornerstones();
+        setupFamilyShortcuts();
+        filterAndSortGenres();
+        updateFavoritesHeaderBadge();
+      });
+
+    })();
+  </script>
+
+  <!-- Support the Creator Global Modal -->
+  <div class="support-modal-backdrop" id="support-modal-backdrop" aria-hidden="true" style="display: none;"></div>
+  <div class="support-modal" id="support-modal" role="dialog" aria-modal="true" aria-labelledby="support-modal-title" aria-describedby="support-modal-desc" tabindex="-1" style="display: none;">
+    <div class="support-modal-dialog">
+      <div class="support-modal-header">
+        <span class="catalog-tag tag-gold">Preservation Initiative</span>
+        <button type="button" class="support-modal-close" id="support-modal-close-btn" aria-label="Close Support Dialog">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+      <h2 class="support-modal-title" id="support-modal-title">Support the Creator</h2>
+      <p class="support-modal-subtitle">Enjoying NostalgicVerse?</p>
+      <p class="support-modal-desc" id="support-modal-desc">
+        I'm building this project to preserve the games, machines, stories and memories that shaped gaming history. Your support helps me keep expanding it.
+      </p>
+      <div class="support-modal-qr-wrap">
+        <div class="support-qr-quiet-zone">
+          <img src="/assets/images/qr-code/qr-code.png" alt="QR code to support NostalgicVerse creator" class="support-modal-qr" width="180" height="180" loading="lazy" decoding="async">
+        </div>
+        <p class="support-modal-qr-text">Would you like to support NostalgicVerse?</p>
+      </div>
+      <div class="support-modal-actions">
+        <button type="button" class="btn btn-primary support-modal-btn" id="support-btn-yes">Yes</button>
+        <button type="button" class="btn btn-secondary support-modal-btn" id="support-btn-no">No</button>
+        <button type="button" class="btn btn-secondary support-modal-btn" id="support-btn-later">Later</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Support Modal & Active-Time Tracking Script -->
+  <script>
+    (function() {
+      'use strict';
+      const STORAGE_KEY = 'nostalgicverse_support_prompt_state';
+      const ACTIVE_TIME_KEY = 'nostalgicverse_active_time_ms';
+      const TARGET_ACTIVE_MS = 120000;
+      const INACTIVITY_TIMEOUT_MS = 30000;
+
+      function safeGet(k) {
+        try { return localStorage.getItem(k); } catch (e) { return null; }
+      }
+      function safeSet(k, v) {
+        try { localStorage.setItem(k, v); } catch (e) {}
+      }
+
+      const currentState = safeGet(STORAGE_KEY);
+      if (currentState === 'shown' || currentState === 'accepted' || currentState === 'declined' || currentState === 'later') {
+        return;
+      }
+
+      const modal = document.getElementById('support-modal');
+      const backdrop = document.getElementById('support-modal-backdrop');
+      const btnYes = document.getElementById('support-btn-yes');
+      const btnNo = document.getElementById('support-btn-no');
+      const btnLater = document.getElementById('support-btn-later');
+      const btnClose = document.getElementById('support-modal-close-btn');
+
+      if (!modal || !backdrop) return;
+
+      let lastActive = Date.now();
+      let accumulatedMs = parseInt(safeGet(ACTIVE_TIME_KEY) || '0', 10);
+      if (isNaN(accumulatedMs) || accumulatedMs < 0) accumulatedMs = 0;
+
+      let previousFocusedElement = null;
+      let isModalOpen = false;
+
+      function onActivity() {
+        lastActive = Date.now();
+      }
+      ['mousemove', 'keydown', 'touchstart', 'scroll', 'click'].forEach(function(evt) {
+        window.addEventListener(evt, onActivity, { passive: true });
+      });
+
+      window.addEventListener('storage', function(e) {
+        if (e.key === STORAGE_KEY) {
+          if (e.newValue === 'shown' || e.newValue === 'accepted' || e.newValue === 'declined' || e.newValue === 'later') {
+            closeModal(false);
+          }
+        }
+      });
+
+      function openModal() {
+        if (isModalOpen) return;
+        const state = safeGet(STORAGE_KEY);
+        if (state === 'shown' || state === 'accepted' || state === 'declined' || state === 'later') return;
+
+        safeSet(STORAGE_KEY, 'shown');
+        isModalOpen = true;
+        previousFocusedElement = document.activeElement;
+
+        backdrop.style.display = 'block';
+        modal.style.display = 'flex';
+        document.body.classList.add('support-modal-open');
+
+        if (btnYes) btnYes.focus();
+      }
+
+      function closeModal(recordState, stateValue) {
+        if (recordState && stateValue) {
+          safeSet(STORAGE_KEY, stateValue);
+        }
+        isModalOpen = false;
+        if (backdrop) backdrop.style.display = 'none';
+        if (modal) modal.style.display = 'none';
+        document.body.classList.remove('support-modal-open');
+
+        if (previousFocusedElement && typeof previousFocusedElement.focus === 'function') {
+          try { previousFocusedElement.focus(); } catch (e) {}
+        }
+      }
+
+      if (btnYes) {
+        btnYes.addEventListener('click', function() {
+          closeModal(true, 'accepted');
+          window.location.href = '/support/';
+        });
+      }
+      if (btnNo) {
+        btnNo.addEventListener('click', function() {
+          closeModal(true, 'declined');
+        });
+      }
+      if (btnLater) {
+        btnLater.addEventListener('click', function() {
+          closeModal(true, 'later');
+        });
+      }
+      if (btnClose) {
+        btnClose.addEventListener('click', function() {
+          closeModal(true, 'later');
+        });
+      }
+
+      document.addEventListener('keydown', function(e) {
+        if (!isModalOpen) return;
+        if (e.key === 'Escape') {
+          e.preventDefault();
+          closeModal(true, 'later');
+          return;
+        }
+        if (e.key === 'Tab') {
+          const focusables = modal.querySelectorAll('button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])');
+          if (!focusables.length) return;
+          const first = focusables[0];
+          const last = focusables[focusables.length - 1];
+          if (e.shiftKey && document.activeElement === first) {
+            e.preventDefault();
+            last.focus();
+          } else if (!e.shiftKey && document.activeElement === last) {
+            e.preventDefault();
+            first.focus();
+          }
+        }
+      });
+
+      const interval = setInterval(function() {
+        const state = safeGet(STORAGE_KEY);
+        if (state === 'shown' || state === 'accepted' || state === 'declined' || state === 'later') {
+          clearInterval(interval);
+          return;
+        }
+
+        const now = Date.now();
+        const idleTime = now - lastActive;
+        const isDocumentVisible = document.visibilityState === 'visible';
+
+        if (isDocumentVisible && idleTime < INACTIVITY_TIMEOUT_MS) {
+          accumulatedMs += 1000;
+          safeSet(ACTIVE_TIME_KEY, accumulatedMs.toString());
+          if (accumulatedMs >= TARGET_ACTIVE_MS) {
+            clearInterval(interval);
+            openModal();
+          }
+        }
+      }, 1000);
+    })();
+  </script>
+
+  <script src="/assets/js/auth-ui.js"></script>
+  <script src="/assets/js/avatar-picker.js"></script>
+
+  <script src="/assets/js/realtime-client.js"></script>
+  <script src="/assets/js/content-interactions.js"></script>
+</body>
+</html>

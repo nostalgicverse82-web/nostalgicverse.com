@@ -1,0 +1,77 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.json",
+  "id": "game-super-metroid",
+  "slug": "super-metroid",
+  "title": "Super Metroid",
+  "japaneseTitle": "スーパーメトロイド",
+  "url": "/games/super-metroid/",
+  "originalReleaseYear": 1994,
+  "exactReleaseDate": "1994-03-19",
+  "developer": "Nintendo R&D1 / Intelligent Systems",
+  "publisher": "Nintendo",
+  "director": "Yoshio Sakamoto",
+  "designer": "Katsuya Yamano, Hiroyuki Kimura",
+  "composer": "Kenji Yamamoto, Minako Hamano",
+  "originalLaunchPlatform": "Super Nintendo (SNES)",
+  "platforms": [
+    "Super Nintendo (SNES)",
+    "Super Famicom"
+  ],
+  "genre": "Action-Adventure",
+  "subgenres": [
+    "Metroidvania",
+    "Exploration Platformer",
+    "Sci-Fi Adventure"
+  ],
+  "era": "1990s",
+  "shortDescription": "Yoshio Sakamoto and Kenji Yamamoto's 24-megabit sci-fi tour de force that perfected non-linear atmospheric level design and established the Metroidvania genre.",
+  "historicalSignificance": "Established the gold standard for environmental storytelling without dialogue, masterminded subtle non-verbal tutorialization, and codified the inventory-gated interconnected world structure.",
+  "editorialContent": {
+    "overview": "Directed by Yoshio Sakamoto and co-developed by Nintendo R&D1 and Intelligent Systems, Super Metroid was released on the Super Famicom and Super Nintendo in the spring of 1994. Arriving on a massive 24-megabit cartridge—the largest Nintendo ROM produced up to that date—the game served as the direct narrative culmination of bounty hunter Samus Aran's conflict with the Space Pirates on the subterranean planet Zebes. Super Metroid stands today as an undisputed summit of interactive design, revered for its organic pacing, claustrophobic atmosphere, and profound spatial elegance.",
+    "gameplayMechanics": "The mechanical brilliance of Super Metroid lies in its intricate inventory-gated world topography. The caverns of Zebes—spanning the rain-slicked surface of Crateria, the overgrown fungal biome of Brinstar, the volcanic chambers of Norfair, the aquatic depths of Maridia, and the sunken corridors of the Wrecked Ship—are completely seamless and interconnected. Progression is earned not through arbitrary keys or invisible barriers, but through functional navigational upgrades: the Morph Ball allows passage through narrow crevices; Missiles and Super Missiles breach armored bulkheads; the Ice Beam freezes airborne foes into stationary platforms; the Speed Booster smashes reinforced stone through supersonic running; and the Gravity Suit normalizes underwater friction. Advanced physics exploits, including wall-jumping, bomb-jumping, and the high-speed 'shinespark', provide built-in pathways for emergent sequence breaking.",
+    "technicalInnovation": "Super Metroid exploited every facet of the Super Nintendo's custom 16-bit silicon. Engineered around a Ricoh 5A22 CPU clocked at 3.58 MHz, the development team pushed the hardware's Mode 7 and multi-layer tile architecture to create dynamic lightning storms, swirling volcanic heat shimmer, and semi-transparent water surfaces. Kenji Yamamoto and Minako Hamano's auditory composition is legendary: utilizing the 8-channel Sony SPC700 sound processor and 64 kilobytes of dedicated audio RAM, the score employed eerie reverberating synthesizers, synthetic heartbeat pulses, and biomechanical alien cries that transformed Zebes into an unnerving living organism.",
+    "culturalImpact": "Super Metroid, together with Konami's Castlevania: Symphony of the Night (1997), birthed the foundational 'Metroidvania' genre—a structural design framework that remains one of the most influential paradigms across both contemporary indie game development (Hollow Knight, Axiom Verge, Ori) and mainstream action-adventure titles. Furthermore, its dynamic opening laboratory sequence, climactic confrontation with Ridley, and wordless emotional climax involving the infant Metroid sacrifice are widely cited by game theorists as a masterclass in cinematic ludology achieved entirely through interactive systems rather than passive cutscenes.",
+    "preservationNotes": "The game was engineered with an integrated dual-language ROM containing both English and Japanese script accessible via the in-game options menu. Archival preservation requires strict emulation accuracy of the Super Nintendo's PPU transparency blending modes and SPC700 audio DSP echo buffer delays, without which key environmental effects in Maridia and Norfair lose their visual and auditory cohesion."
+  },
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "Nintendo Co., Ltd. Super Metroid Instruction Booklet (SNS-RI-USA, 1994)",
+      "Sakamoto, Yoshio. 'The Philosophy of Metroid' Game Developers Conference (2010)",
+      "Kohler, Chris. Power-Up: How Japanese Video Games Gave the World an Extra Life (2004)",
+      "Retro Gamer Magazine. 'The Making of Super Metroid' (Issue #65, 2009)"
+    ],
+    "romMediaFormat": "24-Megabit SNES Cartridge (Mask ROM + Battery-backed SRAM)",
+    "romSizeOriginal": "3,145,728 bytes (3 MB / 24 Mbit)",
+    "displayResolutionOriginal": "256 × 224 (NTSC Progressive Scan)",
+    "audioHardware": "Sony SPC700 8-channel 16-bit ADPCM Sound Processor",
+    "inputMethod": "SNES 8-button controller (D-Pad + A/B/X/Y + L/R Shoulder Aiming + Start/Select)",
+    "multiplayerCapability": "1 Player"
+  },
+  "assets": {
+    "heroImage": "/assets/images/games/super-metroid-hero.webp",
+    "thumbnailImage": "/assets/images/games/super-metroid.webp",
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/e/e4/Smetroidbox.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/e/e4/Smetroidbox.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Smetroidbox.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "review-required",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "super metroid",
+    "metroid",
+    "snes",
+    "super nintendo",
+    "nintendo r&d1",
+    "yoshio sakamoto",
+    "samus aran",
+    "metroidvania",
+    "1994",
+    "1990s",
+    "zebes",
+    "action-adventure"
+  ],
+  "featured": false
+}

@@ -1,0 +1,82 @@
+{
+  "id": "game-burnout-3-takedown",
+  "slug": "burnout-3-takedown",
+  "title": "Burnout 3: Takedown",
+  "japaneseTitle": "バーンアウト3 テイクダウン",
+  "url": "/games/burnout-3-takedown/",
+  "originalReleaseYear": 2004,
+  "exactReleaseDate": "2004-09-07",
+  "developer": "Criterion Games",
+  "publisher": "Electronic Arts",
+  "director": "Alex Ward",
+  "designer": "Paul Ross",
+  "composer": "Stephen Root / EA Trax Soundtrack",
+  "originalLaunchPlatform": "PlayStation 2 / Xbox",
+  "platforms": [
+    "PlayStation 2",
+    "Xbox"
+  ],
+  "genre": "racing",
+  "subgenres": [
+    "Arcade Racing",
+    "Vehicular Combat"
+  ],
+  "era": "2000s",
+  "shortDescription": "Criterion Games' adrenaline-fueled arcade racing masterpiece, turning high-speed crashes into an art form with the revolutionary 'Takedown' mechanic.",
+  "historicalSignificance": "Holds a staggering 94 Metacritic score, universally hailed as one of the greatest arcade racing games ever created by turning offensive vehicular destruction into a core speed mechanic.",
+  "editorialContent": {
+    "overview": "Directed by Alex Ward at British studio Criterion Games, Burnout 3 elevated arcade racing into visceral combat: instead of penalizing contact, players are rewarded with turbo boosts for aggressively slamming rivals into guardrails, oncoming semitrucks, and concrete pillars.",
+    "gameplay": "Pioneered the 'Takedown' mechanic, rewarding aggressive shunts with instant boost meter expansion, accompanied by the legendary 'Crash Mode' where players launch vehicles into crowded intersections to trigger multi-million dollar chain-reaction pileups with 'Aftertouch' steering.",
+    "technicalInnovation": "Pushed Criterion's RenderWare engine to the bleeding edge on PS2 and Xbox, rendering 60 FPS motion blur, sparks, and crumpling metal physics accompanied by licensed mid-2000s pop-punk anthems.",
+    "culturalImpact": "Completely redefined the arcade racing genre, influencing everything from Need for Speed to MotorStorm and Split/Second.",
+    "preservationNotes": "Preserved on original PS2 and Xbox DVD-ROM discs, playable via backwards compatibility."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "September 7, 2004",
+    "leadPlatform": "PlayStation 2",
+    "genre": "racing",
+    "sales": "Over 4 million copies sold worldwide",
+    "awards": [
+      "94 Metacritic Score (Universal Acclaim)",
+      "BAFTA Video Games Award for Racing 2005"
+    ],
+    "technicalSpecs": {
+      "engine": "RenderWare 3.7",
+      "resolution": "480i / 480p (Xbox) at locked 60fps",
+      "soundChip": "Dolby Digital 5.1 / Pro Logic II with EA Trax",
+      "mediaFormat": "DVD-ROM"
+    },
+    "relationships": {
+      "primaryConsole": "playstation-2",
+      "developerEntity": "Criterion Games",
+      "lineage": [
+        "Burnout Paradise",
+        "Need for Speed: Hot Pursuit"
+      ]
+    }
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/e/ed/Burnout_3_Takedown.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/e/ed/Burnout_3_Takedown.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Burnout_3_Takedown.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "burnout 3 takedown",
+    "criterion games",
+    "alex ward",
+    "takedowns",
+    "crash mode",
+    "renderware",
+    "playstation 2",
+    "ps2",
+    "xbox",
+    "2004"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

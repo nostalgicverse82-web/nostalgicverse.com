@@ -1,0 +1,88 @@
+{
+  "id": "game-deus-ex",
+  "slug": "deus-ex",
+  "title": "Deus Ex",
+  "japaneseTitle": "デウスエクス",
+  "url": "/games/deus-ex/",
+  "originalReleaseYear": 2000,
+  "exactReleaseDate": "2000-06-23",
+  "developer": "Ion Storm Austin",
+  "publisher": "Eidos Interactive",
+  "director": "Warren Spector",
+  "designer": "Warren Spector, Harvey Smith",
+  "composer": "Alexander Brandon, Dan Gardopee, Michiel van den Bos",
+  "originalLaunchPlatform": "Microsoft Windows",
+  "platforms": [
+    "Microsoft Windows",
+    "Mac OS",
+    "PlayStation 2"
+  ],
+  "genre": "immersive-sim",
+  "subgenres": [
+    "Cyberpunk RPG",
+    "First-Person Stealth-Action"
+  ],
+  "era": "2000s",
+  "shortDescription": "Warren Spector and Harvey Smith's crowning immersive sim milestone of player agency, cyberpunk conspiracy, and philosophical freedom.",
+  "historicalSignificance": "Universally recognized as the pinnacle of the immersive sim philosophy, offering unparalleled player freedom where every obstacle could be solved through combat, stealth, hacking, dialogue, or environmental traversal.",
+  "editorialContent": {
+    "overview": "Conceived by Warren Spector and directed alongside lead designer Harvey Smith at Ion Storm Austin, Deus Ex was released in June 2000. Set in a dystopian, conspiratorial 2052 ravaged by a synthetic plague known as the Gray Death, players step into the trench coat of JC Denton, a nanotechnologically augmented agent for the United Nations Anti-Terrorist Coalition (UNATCO).",
+    "gameplay": "Deus Ex synthesizes first-person shooting, RPG progression, and open-ended level design. Denton can be augmented with subdermal cloaking, ballistic armor, speed enhancement, or computer decryption. Levels like Liberty Island and Hong Kong offer half a dozen distinct entry points: ventilation shafts, underwater ducts, hacked security terminals, lockpicked back doors, or frontal assaults.",
+    "technicalInnovation": "Built on the Unreal Engine with custom Ion Storm conversation trees, object physics, and AI sensory cones, creating an unprecedented reactive simulation where NPCs remember player choices, alarms trigger reinforcements, and lethal vs. non-lethal solutions shape the world.",
+    "culturalImpact": "Frequently voted among the greatest video games ever made, Deus Ex anticipated early 21st-century geopolitical anxieties (surveillance capitalism, cyber warfare, global health crises) and established the gold standard of emergent choice in gaming narrative.",
+    "preservationNotes": "Preserved via original retail CD-ROMs, GOG/Steam digital releases, and essential modern community overhaul projects like Deus Ex: Revision and Community Update."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "June 23, 2000",
+    "leadPlatform": "Microsoft Windows",
+    "genre": "immersive-sim",
+    "sales": "Over 1 million units worldwide on PC and PS2",
+    "awards": [
+      "Game of the Year 2000 (BAFTA Interactive nominee)",
+      "Game Developers Choice Award for Game Design 2001"
+    ],
+    "technicalSpecs": {
+      "engine": "Unreal Engine 1 (customized Ion Storm branch)",
+      "resolution": "640x480 up to 1600x1200 32-bit color Direct3D / Glide",
+      "soundChip": "DirectSound 3D with tracker tracker-module MOD/IT soundtrack by Alexander Brandon",
+      "mediaFormat": "CD-ROM"
+    },
+    "relationships": {
+      "primaryConsole": "pc",
+      "developerEntity": "Ion Storm",
+      "lineage": [
+        "System Shock",
+        "Thief: The Dark Project",
+        "Deus Ex: Human Revolution",
+        "Cyberpunk 2077"
+      ]
+    }
+  },
+  "assets": {
+    "cover": "/assets/images/games/deus-ex.webp",
+    "banner": "/assets/images/games/deus-ex-banner.webp",
+    "screenshots": [
+      "/assets/images/games/deus-ex-screen1.webp",
+      "/assets/images/games/deus-ex-screen2.webp"
+    ],
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/b/ba/Deus_Ex_%28game_box_art%29.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/b/ba/Deus_Ex_%28game_box_art%29.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Deus_Ex_(game_box_art).jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "deus ex",
+    "jc denton",
+    "warren spector",
+    "harvey smith",
+    "ion storm",
+    "immersive sim",
+    "cyberpunk"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

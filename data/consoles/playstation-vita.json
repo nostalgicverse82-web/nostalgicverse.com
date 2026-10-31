@@ -1,0 +1,42 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+  "id": "console-playstation-vita",
+  "slug": "playstation-vita",
+  "name": "PlayStation Vita",
+  "manufacturer": "Sony",
+  "generation": "Eighth Generation",
+  "generationNumber": 8,
+  "originalReleaseYear": 2011,
+  "exactReleaseDate": "December 17, 2011",
+  "mediaFormat": "PlayStation Vita Game Card",
+  "significance": "The first dedicated gaming handheld with full dual analog sticks and an OLED display, revered as a legendary platform for independent developers and Japanese RPGs.",
+  "verifiedFactualData": {
+    "cpu": "Quad-core ARM Cortex-A9 MPCore @ up to 444 MHz",
+    "gpuOrVideoChip": "PowerVR SGX543MP4+ (quad-core)",
+    "ram": "512 MB main RAM, 128 MB VRAM"
+  },
+  "editorialContent": {
+    "overview": "A technical masterpiece ahead of its time featuring dual analog sticks, a gorgeous 5-inch OLED screen, and rear touch input.",
+    "marketLegacy": "The first dedicated gaming handheld with full dual analog sticks and an OLED display, revered as a legendary platform for independent developers and Japanese RPGs.",
+    "controllerDesign": "Dual analog thumbsticks, 5-inch OLED capacitive touchscreen, rear multi-touch pad"
+  },
+  "keyGames": [
+    "persona-4-golden",
+    "gravity-rush",
+    "killzone-mercenary"
+  ],
+  "assets": {
+    "mainImage": "/assets/images/consoles/playstation-vita.png",
+    "heroImage": "/assets/images/consoles/playstation-vita-hero.png",
+    "hardwareImage": "/assets/images/consoles/playstation-vita-hardware.png"
+  },
+  "keywords": [
+    "ps vita",
+    "playstation vita",
+    "sony",
+    "handheld",
+    "eighth generation",
+    "oled",
+    "2011"
+  ]
+}

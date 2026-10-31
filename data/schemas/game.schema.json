@@ -1,0 +1,104 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://nostalgicverse.com/schemas/game.schema.json",
+  "title": "NostalgicVerse Game Exhibit Schema",
+  "description": "Standardized schema for video game exhibits, separating verified historical facts from curatorial editorial analysis.",
+  "type": "object",
+  "required": [
+    "id",
+    "slug",
+    "title",
+    "originalReleaseYear",
+    "originalLaunchPlatform",
+    "developer",
+    "genre",
+    "era"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^game-[a-z0-9-]+$",
+      "description": "Unique stable identifier (e.g. game-pac-man)"
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "URL-safe slug for directory routing (/games/{slug}/index.html)"
+    },
+    "title": { "type": "string" },
+    "japaneseTitle": { "type": "string" },
+    "originalReleaseYear": { "type": "integer", "minimum": 1950, "maximum": 2035 },
+    "exactReleaseDate": { "type": "string", "description": "Optional verified ISO date YYYY-MM-DD or Month DD, YYYY" },
+    "originalLaunchPlatform": { "type": "string" },
+    "originalLaunchRegion": { "type": "string" },
+    "developer": { "type": "string" },
+    "publisher": { "type": "string" },
+    "director": { "type": "string" },
+    "designer": { "type": "string" },
+    "composer": { "type": "string" },
+    "platforms": { "type": "array", "items": { "type": "string" } },
+    "genre": { "type": "string" },
+    "subgenres": { "type": "array", "items": { "type": "string" } },
+    "era": { "type": "string" },
+    "shortDescription": { "type": "string" },
+    "historicalSignificance": { "type": "string" },
+    "verifiedFactualData": {
+      "type": "object",
+      "description": "Rigorous technical specifications and historical records verified from primary sources. All properties optional to prevent fabricated values.",
+      "properties": {
+        "sourceReferences": { "type": "array", "items": { "type": "string" } },
+        "romMediaFormat": { "type": "string" },
+        "romSizeOriginal": { "type": "string" },
+        "displayResolutionOriginal": { "type": "string" },
+        "audioHardware": { "type": "string" },
+        "inputMethod": { "type": "string" },
+        "multiplayerCapability": { "type": "string" },
+        "arcadeCabinetType": { "type": "string" }
+      }
+    },
+    "editorialContent": {
+      "type": "object",
+      "description": "Curatorial museum commentary and retrospective analysis. Optional sections.",
+      "properties": {
+        "overview": { "type": "string" },
+        "gameplayMechanics": { "type": "string" },
+        "technicalInnovation": { "type": "string" },
+        "culturalImpact": { "type": "string" },
+        "preservationNotes": { "type": "string" }
+      }
+    },
+    "relatedExhibits": {
+      "type": "object",
+      "properties": {
+        "games": { "type": "array", "items": { "type": "string" } },
+        "consoles": { "type": "array", "items": { "type": "string" } },
+        "genres": { "type": "array", "items": { "type": "string" } },
+        "timeline": { "type": "array", "items": { "type": "string" } },
+        "guides": { "type": "array", "items": { "type": "string" } },
+        "stories": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "assets": {
+      "type": "object",
+      "properties": {
+        "heroImage": { "type": "string" },
+        "coverImage": { "type": "string" },
+        "thumbnailImage": { "type": "string" },
+        "remoteImageUrl": { "type": "string" },
+        "remoteImage": {
+          "type": "object",
+          "properties": {
+            "url": { "type": "string" },
+            "sourceUrl": { "type": "string" },
+            "sourceDomain": { "type": "string" },
+            "license": { "type": "string" },
+            "status": { "type": "string" }
+          }
+        },
+        "gallery": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "keywords": { "type": "array", "items": { "type": "string" } }
+  }
+}
+

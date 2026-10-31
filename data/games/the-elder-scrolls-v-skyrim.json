@@ -1,0 +1,83 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.json",
+  "id": "game-the-elder-scrolls-v-skyrim",
+  "slug": "the-elder-scrolls-v-skyrim",
+  "title": "The Elder Scrolls V: Skyrim",
+  "url": "/games/the-elder-scrolls-v-skyrim/",
+  "originalReleaseYear": 2011,
+  "exactReleaseDate": "2011-11-11",
+  "developer": "Bethesda Game Studios",
+  "publisher": "Bethesda Softworks",
+  "director": "Todd Howard",
+  "designer": "Emil Pagliarulo, Todd Howard",
+  "composer": "Jeremy Soule",
+  "originalLaunchPlatform": "PC",
+  "platforms": [
+    "PC",
+    "Xbox 360",
+    "PlayStation 3",
+    "PlayStation 4",
+    "Xbox One",
+    "Nintendo Switch",
+    "PlayStation 5",
+    "Xbox Series X/S"
+  ],
+  "genre": "RPG",
+  "subgenres": [
+    "Open-World Action RPG",
+    "High Fantasy",
+    "Sandbox Adventure"
+  ],
+  "era": "2010s",
+  "shortDescription": "Todd Howard and Bethesda's peerless Nordic fantasy epic that perfected systemic open-world freedom, radiant quest generation, and community-driven modding.",
+  "historicalSignificance": "Set the definitive benchmark for 2010s open-world role-playing games, popularized fluid skill-based character progression over rigid class restrictions, and built the most vibrant, long-lasting user-modding ecosystem in video game history.",
+  "editorialContent": {
+    "overview": "Released globally on the palindromic date of November 11, 2011 (11/11/11), The Elder Scrolls V: Skyrim represented the culmination of Bethesda Game Studios' open-world design philosophy. Guided by director and executive producer Todd Howard, the project transported players to the harsh, snow-capped northern province of Skyrim amidst a bitter civil war and the apocalyptic prophesied return of ancient dragons led by the World-Eater, Alduin. Stepping into the role of the Dragonborn (Dovahkiin), players were granted absolute autonomy within a vast, living high-fantasy simulation. Skyrim became an unprecedented critical and commercial triumph, selling over 60 million copies across multiple hardware generations and establishing itself as one of the definitive cultural touchstones of modern interactive media.",
+    "gameplayMechanics": "Skyrim dismantled the rigid class systems that had historically constrained traditional tabletop and computer role-playing games. Rather than forcing players to select an irreversible character class (Warrior, Mage, Thief) at character creation, progression is entirely naturalistic and usage-based: swinging two-handed greatswords improves Two-Handed skill; picking locked dungeon chests improves Lockpicking; and casting restoration incantations strengthens Healing magic. Leveling up grants points to distribute into Health, Magicka, or Stamina, while unlocking perks along celestial constellation skill trees. Dragon Shouts (Thu'um)—words of ancient draconic power discovered etched onto subterranean Word Walls—grant devastating magical shouts (Unrelenting Force, Whirlwind Sprint) that operate on cooldown timers independent of mana bars.",
+    "technicalInnovation": "The technical engine powering Skyrim was Bethesda's proprietary 'Creation Engine', developed to replace the aging Gamebryo framework used in The Elder Scrolls IV: Oblivion and Fallout 3. The engine featured sophisticated terrain-streaming pipelines capable of rendering immense view distances, volumetric snow and water shaders, and dynamic foliage wind reactions. Its defining systemic breakthrough was 'Radiant AI' and 'Radiant Story': non-player characters adhere to complex daily circadian routines (working forges, gathering in taverns, sleeping in homes), while quest algorithms dynamically populate bounties, bandit hideouts, and NPC rivalries based on which locations the player has not yet explored and which factions they have befriended. Jeremy Soule's monumental musical score, anchored by the iconic Nordic male choral anthem 'Dragonborn', imbued the landscape with profound historical weight.",
+    "culturalImpact": "Skyrim exerted a massive, enduring influence on modern popular culture and game design. The title democratized the complex Western RPG for mainstream global audiences, directly inspiring subsequent landmark open-world titles such as CD Projekt Red's The Witcher 3: Wild Hunt and Nintendo's The Legend of Zelda: Breath of the Wild. Memes born from its systemic quirks—from the ubiquitous 'arrow in the knee' town guard dialogue to placing woven wicker baskets over merchants' heads to steal goods unobserved—permeated global internet culture. Furthermore, the release of the official Creation Kit software development kit sparked an unparalleled community modification renaissance, yielding tens of thousands of fan-created expansions, graphical overhauls, and total conversions that have kept the game actively played and preserved for decades.",
+    "preservationNotes": "Historical software preservation of Skyrim is unique due to its sprawling multi-generation release history: the original 2011 32-bit DirectX 9 release on PC, PS3, and Xbox 360 (which suffered from notorious PlayStation 3 save-file memory bloat); the 2016 64-bit 'Special Edition' (which migrated the engine to DirectX 11 with native 64-bit memory addressing); and the 2021 'Anniversary Edition'. Archival research focuses on documenting community bug-fix initiatives, particularly the 'Unofficial Skyrim Patch', which cataloged and corrected thousands of engine and scripting discrepancies left unresolved in official production binaries."
+  },
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "Bethesda Softworks. The Elder Scrolls V: Skyrim Official Game Manual (2011)",
+      "Howard, Todd. 'Skyrim: Behind the Wall' Official Bethesda Making-Of Documentary (2011)",
+      "Pagliarulo, Emil. 'Radiant Story and Systemic Quest Design in Skyrim' (GDC 2012)",
+      "Edge Magazine. 'The Making of The Elder Scrolls V: Skyrim' (Issue #236, 2012)"
+    ],
+    "romMediaFormat": "1x Dual-Layer DVD-ROM / Blu-ray Disc / Steam Digital Distribution",
+    "romSizeOriginal": "Approx. 6.0 GB original installation footprint (PC / Xbox 360)",
+    "displayResolutionOriginal": "720p / 1080p / Dynamic Multi-Resolution (DirectX 9.0c / DirectX 11)",
+    "audioHardware": "XAudio2 / DirectSound / 7.1 Multi-Channel Digital Surround Sound",
+    "inputMethod": "Standard PC Keyboard + Mouse / Dual Analog Gamepad Controller",
+    "multiplayerCapability": "1 Player"
+  },
+  "assets": {
+    "heroImage": "/assets/images/games/the-elder-scrolls-v-skyrim-hero.webp",
+    "thumbnailImage": "/assets/images/games/the-elder-scrolls-v-skyrim.webp",
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/1/15/The_Elder_Scrolls_V_Skyrim_cover.png",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/1/15/The_Elder_Scrolls_V_Skyrim_cover.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:The_Elder_Scrolls_V_Skyrim_cover.png",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "review-required",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "skyrim",
+    "the elder scrolls",
+    "elder scrolls v",
+    "bethesda",
+    "todd howard",
+    "dragonborn",
+    "dovahkiin",
+    "creation engine",
+    "rpg",
+    "open world",
+    "2011",
+    "2010s",
+    "jeremy soule"
+  ],
+  "featured": true
+}

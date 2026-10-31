@@ -1,0 +1,86 @@
+{
+  "id": "game-super-smash-bros",
+  "slug": "super-smash-bros",
+  "title": "Super Smash Bros.",
+  "japaneseTitle": "大乱闘スマッシュブラザーズ",
+  "url": "/games/super-smash-bros/",
+  "originalReleaseYear": 1999,
+  "exactReleaseDate": "1999-01-21",
+  "developer": "HAL Laboratory",
+  "publisher": "Nintendo",
+  "director": "Masahiro Sakurai",
+  "designer": "Masahiro Sakurai, Satoru Iwata",
+  "composer": "Hirokazu Ando",
+  "originalLaunchPlatform": "Nintendo 64",
+  "platforms": [
+    "Nintendo 64",
+    "iQue Player"
+  ],
+  "genre": "fighting",
+  "subgenres": [
+    "Platform Fighter",
+    "Party Fighter"
+  ],
+  "era": "1990s",
+  "shortDescription": "Masahiro Sakurai and Satoru Iwata's revolutionary 4-player party fighting game that brought Nintendo's greatest legends together.",
+  "historicalSignificance": "Invented the platform fighter genre by replacing traditional health bars with damage percentage knockback mechanics, inaugurating one of the most successful crossover video game franchises in history.",
+  "editorialContent": {
+    "overview": "Conceived by Masahiro Sakurai with prototype code programmed over a weekend by Satoru Iwata (initially titled 'Dragon King: The Fighting Game'), Super Smash Bros. launched in Japan in January 1999. By pitching Nintendo characters into a royal rumble across iconic floating arenas, Sakurai created a completely original fighting experience that united Mario, Link, Samus, Pikachu, and Donkey Kong.",
+    "gameplay": "Departing from complex joystick motions and dial-a-combos, attacks utilize simple directional inputs paired with attack and special buttons. Combatants accumulate damage percentage; higher percentages cause attacks to launch them farther until they are knocked off the screen into the blast zones.",
+    "technicalInnovation": "Engineered dynamic multi-character physics calculation handling four simultaneous combatants, dynamic zoom-out camera framing that adapted to fighter spacing, and physics-driven interactive items like Poké Balls and Hammer pickups.",
+    "culturalImpact": "Smash Bros. spawned an entirely new fighting game subculture, setting records for party gaming and evolving into a premier international competitive tournament phenomenon with Super Smash Bros. Melee and Ultimate.",
+    "preservationNotes": "Preserved on 16 MB N64 cartridges, official iQue releases, and virtual console emulations."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "January 21, 1999",
+    "leadPlatform": "Nintendo 64",
+    "genre": "fighting",
+    "sales": "5.55 million copies worldwide",
+    "awards": [
+      "Japan Game Awards Excellence Award 1999",
+      "EGM Multiplayer Game of the Year 1999"
+    ],
+    "technicalSpecs": {
+      "engine": "HAL Laboratory proprietary 3D N64 fighting engine",
+      "resolution": "320x240 progressive (solid 60fps/30fps dynamic)",
+      "soundChip": "Nintendo 64 RSP software wavetable audio",
+      "mediaFormat": "128-Megabit (16 Megabyte) Cartridge"
+    },
+    "relationships": {
+      "primaryConsole": "nintendo-64",
+      "developerEntity": "HAL Laboratory",
+      "lineage": [
+        "Super Smash Bros. Melee",
+        "Super Smash Bros. Brawl",
+        "Super Smash Bros. Ultimate"
+      ]
+    }
+  },
+  "assets": {
+    "cover": "/assets/images/games/super-smash-bros.webp",
+    "banner": "/assets/images/games/super-smash-bros-banner.webp",
+    "screenshots": [
+      "/assets/images/games/super-smash-bros-screen1.webp",
+      "/assets/images/games/super-smash-bros-screen2.webp"
+    ],
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/4/42/Supersmashbox.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/4/42/Supersmashbox.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Supersmashbox.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "super smash bros",
+    "sakurai",
+    "iwata",
+    "hal laboratory",
+    "nintendo 64",
+    "platform fighter",
+    "crossover"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-metal-gear-solid-4-guns-of-the-patriots",
+  "slug": "metal-gear-solid-4-guns-of-the-patriots",
+  "title": "Metal Gear Solid 4: Guns of the Patriots",
+  "originalReleaseYear": 2008,
+  "exactReleaseDate": "June 12, 2008",
+  "originalLaunchPlatform": "PlayStation 3",
+  "originalLaunchRegion": "Worldwide",
+  "developer": "Kojima Productions",
+  "publisher": "Konami",
+  "platforms": [
+    "PlayStation 3"
+  ],
+  "genre": "stealth",
+  "subgenres": [
+    "action-adventure"
+  ],
+  "era": "2000s",
+  "shortDescription": "Aging Solid Snake navigates war zones controlled by PMCs, using the OctoCamo suit to end the Patriots.",
+  "historicalSignificance": "A tour de force of cinematic ambition and technical spectacle that drove PS3 console sales worldwide.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Metal_Gear_Solid_4:_Guns_of_the_Patriots",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Aging Solid Snake navigates war zones controlled by PMCs, using the OctoCamo suit to end the Patriots.",
+    "culturalImpact": "A tour de force of cinematic ambition and technical spectacle that drove PS3 console sales worldwide."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 3"
+    ],
+    "genres": [
+      "stealth"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/1/1a/Mgs4_cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/1/1a/Mgs4_cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Metal_Gear_Solid_4:_Guns_of_the_Patriots",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Metal Gear Solid 4: Guns of the Patriots",
+    "Kojima Productions",
+    "Konami",
+    "PlayStation 3",
+    "stealth",
+    "2008",
+    "2000s",
+    "PlayStation 3",
+    "action-adventure"
+  ],
+  "url": "/games/metal-gear-solid-4-guns-of-the-patriots/",
+  "featured": false
+}

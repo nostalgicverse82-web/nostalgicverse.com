@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-guitar-hero-ii",
+  "slug": "guitar-hero-ii",
+  "title": "Guitar Hero II",
+  "originalReleaseYear": 2006,
+  "exactReleaseDate": "November 7, 2006",
+  "originalLaunchPlatform": "PlayStation 2",
+  "originalLaunchRegion": "North America",
+  "developer": "Harmonix",
+  "publisher": "RedOctane",
+  "platforms": [
+    "PlayStation 2"
+  ],
+  "genre": "rhythm",
+  "subgenres": [
+    "music"
+  ],
+  "era": "2000s",
+  "shortDescription": "Expanded sequel introducing three-finger chord variations, practice modes, and collaborative bass guitar coop.",
+  "historicalSignificance": "Consolidated rhythm games as mainstream entertainment juggernauts with legendary party multiplayer.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Guitar_Hero_II",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Expanded sequel introducing three-finger chord variations, practice modes, and collaborative bass guitar coop.",
+    "culturalImpact": "Consolidated rhythm games as mainstream entertainment juggernauts with legendary party multiplayer."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 2"
+    ],
+    "genres": [
+      "rhythm"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b2/Guitar_Hero_II_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/b/b2/Guitar_Hero_II_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Guitar_Hero_II",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Guitar Hero II",
+    "Harmonix",
+    "RedOctane",
+    "PlayStation 2",
+    "rhythm",
+    "2006",
+    "2000s",
+    "PlayStation 2",
+    "music"
+  ],
+  "url": "/games/guitar-hero-ii/",
+  "featured": false
+}

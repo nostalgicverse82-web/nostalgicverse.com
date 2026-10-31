@@ -1,0 +1,83 @@
+{
+  "id": "game-unreal",
+  "slug": "unreal",
+  "title": "Unreal",
+  "japaneseTitle": "アンリアル",
+  "url": "/games/unreal/",
+  "originalReleaseYear": 1998,
+  "exactReleaseDate": "1998-05-22",
+  "developer": "Epic MegaGames / Digital Extremes",
+  "publisher": "GT Interactive",
+  "director": "Cliff Bleszinski, James Schmalz",
+  "designer": "Cliff Bleszinski",
+  "composer": "Alexander Brandon, Michiel van den Bos",
+  "originalLaunchPlatform": "Microsoft Windows / PC",
+  "platforms": [
+    "Microsoft Windows",
+    "Macintosh"
+  ],
+  "genre": "first-person-shooter",
+  "subgenres": [
+    "Sci-Fi FPS",
+    "Engine Benchmark"
+  ],
+  "era": "1990s",
+  "shortDescription": "Epic MegaGames' revolutionary first-person shooter that launched the world-dominating Unreal Engine technology platform.",
+  "historicalSignificance": "A historic milestone in 3D computer graphics that introduced real-time volumetric colored lighting, 3D audio, and sprawling outdoor vistas, launching Epic Games' Unreal Engine which now powers thousands of games and films worldwide.",
+  "editorialContent": {
+    "overview": "Crash-landing on the untamed alien world of Na Pali after prison ship Vortex Rikers breaks apart, Prisoner 849 must fight through the hostile reptilian Skaarj invaders to liberate the peaceful native Nali.",
+    "gameplay": "Atmospheric, exploratory first-person shooting featuring the iconic Universal Translator datapad, ten upgradeable sci-fi weapons with dual firing modes (Flak Cannon, Eightball launcher), and cunning AI that sidestepped projectile attacks.",
+    "technicalInnovation": "Engineered by Tim Sweeney, the original Unreal Engine introduced dynamic colored lighting, software and 3dfx Glide hardware rasterization, procedural texture animations (water surfaces), and 16-bit tracker module audio.",
+    "culturalImpact": "Directly birthed the multiplayer phenomenon Unreal Tournament and gave rise to the Unreal Engine, the most successful third-party game engine in history.",
+    "preservationNotes": "Preserved on original CD-ROM optical media and maintained by the community via OldUnreal patches."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "May 22, 1998",
+    "leadPlatform": "PC",
+    "genre": "first-person-shooter",
+    "sales": "Over 1.5 million copies sold worldwide",
+    "awards": [
+      "Game of the Year Finalist 1998",
+      "Best Graphics Innovation"
+    ],
+    "technicalSpecs": {
+      "engine": "Unreal Engine 1",
+      "resolution": "Scalable 3D resolution with 3dfx Glide and Direct3D acceleration",
+      "soundChip": "Galaxy Sound System with MOD/IT tracker music",
+      "mediaFormat": "CD-ROM"
+    },
+    "relationships": {
+      "primaryConsole": "pc",
+      "developerEntity": "Epic Games",
+      "lineage": [
+        "Unreal Tournament",
+        "Gears of War",
+        "Fortnite"
+      ]
+    }
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/8/80/Unreal1cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/8/80/Unreal1cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Unreal1cover.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "unreal",
+    "tim sweeney",
+    "cliff bleszinski",
+    "epic games",
+    "unreal engine",
+    "na pali",
+    "skaarj",
+    "3dfx glide",
+    "fps",
+    "1998"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

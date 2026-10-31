@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-final-fantasy-x",
+  "slug": "final-fantasy-x",
+  "title": "Final Fantasy X",
+  "originalReleaseYear": 2001,
+  "exactReleaseDate": "July 19, 2001",
+  "originalLaunchPlatform": "PlayStation 2",
+  "originalLaunchRegion": "Japan",
+  "developer": "Square",
+  "publisher": "Square",
+  "platforms": [
+    "PlayStation 2"
+  ],
+  "genre": "rpg",
+  "subgenres": [
+    "turn-based-rpg"
+  ],
+  "era": "2000s",
+  "shortDescription": "First Final Fantasy on PS2, introducing fully 3D environments, voice acting, and the Sphere Grid system.",
+  "historicalSignificance": "Set new audiovisual standards for RPGs and drove early PlayStation 2 adoption globally.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Final_Fantasy_X",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "First Final Fantasy on PS2, introducing fully 3D environments, voice acting, and the Sphere Grid system.",
+    "culturalImpact": "Set new audiovisual standards for RPGs and drove early PlayStation 2 adoption globally."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 2"
+    ],
+    "genres": [
+      "rpg"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a9/Ffxboxart.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a9/Ffxboxart.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Final_Fantasy_X",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Final Fantasy X",
+    "Square",
+    "Square",
+    "PlayStation 2",
+    "rpg",
+    "2001",
+    "2000s",
+    "PlayStation 2",
+    "turn-based-rpg"
+  ],
+  "url": "/games/final-fantasy-x/",
+  "featured": false
+}

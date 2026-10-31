@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-tekken-5",
+  "slug": "tekken-5",
+  "title": "Tekken 5",
+  "originalReleaseYear": 2005,
+  "exactReleaseDate": "March 31, 2005",
+  "originalLaunchPlatform": "PlayStation 2",
+  "originalLaunchRegion": "Japan",
+  "developer": "Namco",
+  "publisher": "Namco",
+  "platforms": [
+    "PlayStation 2"
+  ],
+  "genre": "fighting",
+  "subgenres": [
+    "3d-fighter"
+  ],
+  "era": "2000s",
+  "shortDescription": "Definitive fighting installment restoring fast fluid combat, introducing Raven, Feng Wei, and Asuka Kazama.",
+  "historicalSignificance": "Widely considered the crowning peak of 3D fighting games on PlayStation 2 with pristine arcade balance.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Tekken_5",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Definitive fighting installment restoring fast fluid combat, introducing Raven, Feng Wei, and Asuka Kazama.",
+    "culturalImpact": "Widely considered the crowning peak of 3D fighting games on PlayStation 2 with pristine arcade balance."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 2"
+    ],
+    "genres": [
+      "fighting"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/0/07/Tekken_5_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/0/07/Tekken_5_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Tekken_5",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Tekken 5",
+    "Namco",
+    "Namco",
+    "PlayStation 2",
+    "fighting",
+    "2005",
+    "2000s",
+    "PlayStation 2",
+    "3d-fighter"
+  ],
+  "url": "/games/tekken-5/",
+  "featured": false
+}

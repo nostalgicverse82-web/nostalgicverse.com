@@ -1,0 +1,70 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-grand-theft-auto-vice-city",
+  "slug": "grand-theft-auto-vice-city",
+  "title": "Grand Theft Auto: Vice City",
+  "originalReleaseYear": 2002,
+  "exactReleaseDate": "October 29, 2002",
+  "originalLaunchPlatform": "PlayStation 2",
+  "originalLaunchRegion": "North America",
+  "developer": "Rockstar North",
+  "publisher": "Rockstar Games",
+  "platforms": [
+    "PlayStation 2",
+    "Microsoft Windows",
+    "Xbox"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "open-world"
+  ],
+  "era": "2000s",
+  "shortDescription": "Neon-soaked 1980s Miami crime epic starring Tommy Vercetti.",
+  "historicalSignificance": "Cemented the GTA open-world formula with iconic licensed 80s music and cinematic storytelling.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Grand_Theft_Auto:_Vice_City",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Neon-soaked 1980s Miami crime epic starring Tommy Vercetti.",
+    "culturalImpact": "Cemented the GTA open-world formula with iconic licensed 80s music and cinematic storytelling."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 2"
+    ],
+    "genres": [
+      "action-adventure"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/c/ce/Vice-city-cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/c/ce/Vice-city-cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Grand_Theft_Auto:_Vice_City",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Grand Theft Auto: Vice City",
+    "Rockstar North",
+    "Rockstar Games",
+    "PlayStation 2",
+    "action-adventure",
+    "2002",
+    "2000s",
+    "PlayStation 2",
+    "Microsoft Windows",
+    "Xbox",
+    "open-world"
+  ],
+  "url": "/games/grand-theft-auto-vice-city/",
+  "featured": false
+}

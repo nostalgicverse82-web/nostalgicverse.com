@@ -1,0 +1,68 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-uncharted-legacy-of-thieves-collection",
+  "slug": "uncharted-legacy-of-thieves-collection",
+  "title": "Uncharted: Legacy of Thieves Collection",
+  "originalReleaseYear": 2022,
+  "exactReleaseDate": "January 28, 2022",
+  "originalLaunchPlatform": "PlayStation 5",
+  "originalLaunchRegion": "Worldwide",
+  "developer": "Naughty Dog / Iron Galaxy",
+  "publisher": "Sony Interactive Entertainment",
+  "platforms": [
+    "PlayStation 5",
+    "PC"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "third-person-shooter"
+  ],
+  "era": "2020s",
+  "shortDescription": "Remastered collection bundling Uncharted 4: A Thief's End and The Lost Legacy with 4K 60fps fidelity.",
+  "historicalSignificance": "Showcased Naughty Dog's highest graphical achievements with DualSense trigger resistance for every weapon.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Uncharted:_Legacy_of_Thieves_Collection",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Remastered collection bundling Uncharted 4: A Thief's End and The Lost Legacy with 4K 60fps fidelity.",
+    "culturalImpact": "Showcased Naughty Dog's highest graphical achievements with DualSense trigger resistance for every weapon."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 5"
+    ],
+    "genres": [
+      "action-adventure"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Uncharted_Legacy_of_Thieves_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Uncharted_Legacy_of_Thieves_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Uncharted:_Legacy_of_Thieves_Collection",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Uncharted: Legacy of Thieves Collection",
+    "Naughty Dog / Iron Galaxy",
+    "Sony Interactive Entertainment",
+    "PlayStation 5",
+    "action-adventure",
+    "2022",
+    "2020s",
+    "PlayStation 5",
+    "PC",
+    "third-person-shooter"
+  ],
+  "url": "/games/uncharted-legacy-of-thieves-collection/",
+  "featured": false
+}

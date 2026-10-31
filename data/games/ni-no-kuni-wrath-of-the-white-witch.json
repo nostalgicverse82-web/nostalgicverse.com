@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-ni-no-kuni-wrath-of-the-white-witch",
+  "slug": "ni-no-kuni-wrath-of-the-white-witch",
+  "title": "Ni no Kuni: Wrath of the White Witch",
+  "originalReleaseYear": 2011,
+  "exactReleaseDate": "November 17, 2011",
+  "originalLaunchPlatform": "PlayStation 3",
+  "originalLaunchRegion": "Japan",
+  "developer": "Level-5",
+  "publisher": "Bandai Namco",
+  "platforms": [
+    "PlayStation 3"
+  ],
+  "genre": "rpg",
+  "subgenres": [
+    "creature-collector"
+  ],
+  "era": "2010s",
+  "shortDescription": "Oliver travels to an alternate fantasy world to save his mother, featuring animation by Studio Ghibli.",
+  "historicalSignificance": "A stunning convergence of Japanese animation royalty with Level-5's masterclass monster-taming JRPG systems.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Ni_no_Kuni:_Wrath_of_the_White_Witch",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Oliver travels to an alternate fantasy world to save his mother, featuring animation by Studio Ghibli.",
+    "culturalImpact": "A stunning convergence of Japanese animation royalty with Level-5's masterclass monster-taming JRPG systems."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 3"
+    ],
+    "genres": [
+      "rpg"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/8/87/Ni_no_Kuni_Wrath_of_the_White_Witch_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/8/87/Ni_no_Kuni_Wrath_of_the_White_Witch_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ni_no_Kuni:_Wrath_of_the_White_Witch",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Ni no Kuni: Wrath of the White Witch",
+    "Level-5",
+    "Bandai Namco",
+    "PlayStation 3",
+    "rpg",
+    "2011",
+    "2010s",
+    "PlayStation 3",
+    "creature-collector"
+  ],
+  "url": "/games/ni-no-kuni-wrath-of-the-white-witch/",
+  "featured": false
+}

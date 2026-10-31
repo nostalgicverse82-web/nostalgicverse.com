@@ -1,0 +1,322 @@
+{
+  "auditDate": "2026-09-27T10:20:45.584Z",
+  "totalUniqueGames": 528,
+  "status": "PASS",
+  "classification": {
+    "modernOr3D": 439,
+    "classicOr2D": 89,
+    "modernPercentage": "83.1%"
+  },
+  "eras": {
+    "Pioneer / Pre-Crash (1971-1983)": 29,
+    "8-Bit Generation (1983-1989)": 27,
+    "16-Bit Renaissance (1989-1995)": 33,
+    "32/64-Bit 3D Revolution (1995-2001)": 78,
+    "Sixth Generation (2001-2006)": 104,
+    "HD Era & Modern (2006-Present)": 257
+  },
+  "topPlatforms": [
+    {
+      "platform": "Microsoft Windows",
+      "count": 153
+    },
+    {
+      "platform": "PlayStation 3",
+      "count": 111
+    },
+    {
+      "platform": "PlayStation 2",
+      "count": 100
+    },
+    {
+      "platform": "PC",
+      "count": 80
+    },
+    {
+      "platform": "Xbox 360",
+      "count": 79
+    },
+    {
+      "platform": "PlayStation 4",
+      "count": 76
+    },
+    {
+      "platform": "PlayStation 5",
+      "count": 68
+    },
+    {
+      "platform": "Xbox One",
+      "count": 50
+    },
+    {
+      "platform": "Xbox",
+      "count": 44
+    },
+    {
+      "platform": "Nintendo Switch",
+      "count": 39
+    },
+    {
+      "platform": "Arcade",
+      "count": 35
+    },
+    {
+      "platform": "GameCube",
+      "count": 29
+    },
+    {
+      "platform": "PlayStation",
+      "count": 28
+    },
+    {
+      "platform": "Macintosh",
+      "count": 27
+    },
+    {
+      "platform": "NES",
+      "count": 26
+    },
+    {
+      "platform": "Game Boy Advance",
+      "count": 23
+    },
+    {
+      "platform": "Commodore 64",
+      "count": 21
+    },
+    {
+      "platform": "Xbox Series",
+      "count": 19
+    },
+    {
+      "platform": "Sega Saturn",
+      "count": 18
+    },
+    {
+      "platform": "Mac OS",
+      "count": 17
+    },
+    {
+      "platform": "Wii",
+      "count": 17
+    },
+    {
+      "platform": "Atari 2600",
+      "count": 16
+    },
+    {
+      "platform": "Apple II",
+      "count": 15
+    },
+    {
+      "platform": "Game Boy",
+      "count": 15
+    },
+    {
+      "platform": "Amiga",
+      "count": 15
+    }
+  ],
+  "genres": [
+    {
+      "genre": "action-adventure",
+      "count": 105
+    },
+    {
+      "genre": "platformer",
+      "count": 52
+    },
+    {
+      "genre": "action-rpg",
+      "count": 51
+    },
+    {
+      "genre": "rpg",
+      "count": 41
+    },
+    {
+      "genre": "first-person-shooter",
+      "count": 33
+    },
+    {
+      "genre": "racing",
+      "count": 24
+    },
+    {
+      "genre": "survival-horror",
+      "count": 19
+    },
+    {
+      "genre": "fighting",
+      "count": 14
+    },
+    {
+      "genre": "real-time-strategy",
+      "count": 13
+    },
+    {
+      "genre": "puzzle",
+      "count": 12
+    },
+    {
+      "genre": "action",
+      "count": 12
+    },
+    {
+      "genre": "sports",
+      "count": 11
+    },
+    {
+      "genre": "adventure",
+      "count": 10
+    },
+    {
+      "genre": "metroidvania",
+      "count": 10
+    },
+    {
+      "genre": "third-person-shooter",
+      "count": 10
+    },
+    {
+      "genre": "shooter",
+      "count": 9
+    },
+    {
+      "genre": "Shooter",
+      "count": 7
+    },
+    {
+      "genre": "shoot-em-up",
+      "count": 6
+    },
+    {
+      "genre": "Action-Adventure",
+      "count": 6
+    },
+    {
+      "genre": "stealth",
+      "count": 6
+    },
+    {
+      "genre": "point-and-click-adventure",
+      "count": 5
+    },
+    {
+      "genre": "roguelike",
+      "count": 5
+    },
+    {
+      "genre": "role-playing",
+      "count": 5
+    },
+    {
+      "genre": "beat-em-up",
+      "count": 5
+    },
+    {
+      "genre": "arcade-racing",
+      "count": 4
+    },
+    {
+      "genre": "turn-based-strategy",
+      "count": 4
+    },
+    {
+      "genre": "tactical-rpg",
+      "count": 4
+    },
+    {
+      "genre": "soulslike",
+      "count": 4
+    },
+    {
+      "genre": "life-simulation",
+      "count": 3
+    },
+    {
+      "genre": "Action",
+      "count": 3
+    },
+    {
+      "genre": "Platformer",
+      "count": 3
+    },
+    {
+      "genre": "simulation",
+      "count": 3
+    },
+    {
+      "genre": "RPG",
+      "count": 3
+    },
+    {
+      "genre": "immersive-sim",
+      "count": 3
+    },
+    {
+      "genre": "survival",
+      "count": 3
+    },
+    {
+      "genre": "Sports",
+      "count": 2
+    },
+    {
+      "genre": "Puzzle",
+      "count": 2
+    },
+    {
+      "genre": "Simulation",
+      "count": 2
+    },
+    {
+      "genre": "tactical-shooter",
+      "count": 2
+    },
+    {
+      "genre": "rhythm",
+      "count": 2
+    },
+    {
+      "genre": "strategy",
+      "count": 1
+    },
+    {
+      "genre": "city-building",
+      "count": 1
+    },
+    {
+      "genre": "Fighting",
+      "count": 1
+    },
+    {
+      "genre": "Survival Horror",
+      "count": 1
+    },
+    {
+      "genre": "mmo",
+      "count": 1
+    },
+    {
+      "genre": "turn-based-tactics",
+      "count": 1
+    },
+    {
+      "genre": "mmorpg",
+      "count": 1
+    },
+    {
+      "genre": "rail-shooter",
+      "count": 1
+    },
+    {
+      "genre": "run-and-gun",
+      "count": 1
+    },
+    {
+      "genre": "creative-sandbox",
+      "count": 1
+    }
+  ]
+}

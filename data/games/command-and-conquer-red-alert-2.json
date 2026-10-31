@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-command-and-conquer-red-alert-2",
+  "slug": "command-and-conquer-red-alert-2",
+  "title": "Command & Conquer: Red Alert 2",
+  "originalReleaseYear": 2000,
+  "exactReleaseDate": "October 23, 2000",
+  "originalLaunchPlatform": "PC",
+  "originalLaunchRegion": "North America",
+  "developer": "Westwood Pacific",
+  "publisher": "Electronic Arts",
+  "platforms": [
+    "PC"
+  ],
+  "genre": "real-time-strategy",
+  "subgenres": [
+    "sci-fi"
+  ],
+  "era": "2000s",
+  "shortDescription": "The Soviet invasion of the United States featuring mind-controlling Yuri, Tesla coils, and iconic camp FMV cinema.",
+  "historicalSignificance": "Universally celebrated as one of the most entertaining and fast-paced competitive RTS experiences of all time.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Command_&_Conquer:_Red_Alert_2",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "The Soviet invasion of the United States featuring mind-controlling Yuri, Tesla coils, and iconic camp FMV cinema.",
+    "culturalImpact": "Universally celebrated as one of the most entertaining and fast-paced competitive RTS experiences of all time."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PC"
+    ],
+    "genres": [
+      "real-time-strategy"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Red_Alert_2_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Red_Alert_2_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Command_&_Conquer:_Red_Alert_2",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Command & Conquer: Red Alert 2",
+    "Westwood Pacific",
+    "Electronic Arts",
+    "PC",
+    "real-time-strategy",
+    "2000",
+    "2000s",
+    "PC",
+    "sci-fi"
+  ],
+  "url": "/games/command-and-conquer-red-alert-2/",
+  "featured": false
+}

@@ -1,0 +1,68 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-fable",
+  "slug": "fable",
+  "title": "Fable",
+  "originalReleaseYear": 2004,
+  "exactReleaseDate": "September 14, 2004",
+  "originalLaunchPlatform": "Xbox",
+  "originalLaunchRegion": "North America",
+  "developer": "Big Blue Box / Lionhead",
+  "publisher": "Microsoft Game Studios",
+  "platforms": [
+    "Xbox",
+    "Microsoft Windows"
+  ],
+  "genre": "action-rpg",
+  "subgenres": [
+    "open-world"
+  ],
+  "era": "2000s",
+  "shortDescription": "Peter Molyneux's Albion epic where player actions dynamically transform your Hero into an angel or a horned demon.",
+  "historicalSignificance": "Pioneered visible physical character aging, moral reputation, and whimsical British fairy tale role-playing on Xbox.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Fable",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Peter Molyneux's Albion epic where player actions dynamically transform your Hero into an angel or a horned demon.",
+    "culturalImpact": "Pioneered visible physical character aging, moral reputation, and whimsical British fairy tale role-playing on Xbox."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "Xbox"
+    ],
+    "genres": [
+      "action-rpg"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Fable_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Fable_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Fable",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Fable",
+    "Big Blue Box / Lionhead",
+    "Microsoft Game Studios",
+    "Xbox",
+    "action-rpg",
+    "2004",
+    "2000s",
+    "Xbox",
+    "Microsoft Windows",
+    "open-world"
+  ],
+  "url": "/games/fable/",
+  "featured": false
+}

@@ -1,0 +1,41 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+  "id": "console-neo-geo-pocket-color",
+  "slug": "neo-geo-pocket-color",
+  "name": "Neo Geo Pocket Color",
+  "manufacturer": "SNK",
+  "generation": "Fifth Generation",
+  "generationNumber": 5,
+  "originalReleaseYear": 1999,
+  "exactReleaseDate": "March 19, 1999",
+  "mediaFormat": "ROM Cartridge",
+  "significance": "Celebrated by fighting game enthusiasts for having the finest directional control interface ever placed on a dedicated handheld.",
+  "verifiedFactualData": {
+    "cpu": "Toshiba TLCS-900H 16-bit core @ 6.144 MHz + Z80 @ 3.072 MHz",
+    "gpuOrVideoChip": "Custom color LCD controller (146 colors on screen)",
+    "ram": "128 KB RAM, 4 KB VRAM"
+  },
+  "editorialContent": {
+    "overview": "SNK's beloved portable featuring an arcade-quality mechanical microswitched thumbstick and exceptional battery life.",
+    "marketLegacy": "Celebrated by fighting game enthusiasts for having the finest directional control interface ever placed on a dedicated handheld.",
+    "controllerDesign": "Clicky microswitched 8-way directional thumbstick and dual buttons"
+  },
+  "keyGames": [
+    "snk-vs-capcom-card-fighters-clash",
+    "match-of-the-millennium",
+    "metal-slug-1st-mission"
+  ],
+  "assets": {
+    "mainImage": "/assets/images/consoles/neo-geo-pocket-color.png",
+    "heroImage": "/assets/images/consoles/neo-geo-pocket-color-hero.png",
+    "hardwareImage": "/assets/images/consoles/neo-geo-pocket-color-hardware.png"
+  },
+  "keywords": [
+    "neo geo pocket color",
+    "snk",
+    "handheld",
+    "microswitch",
+    "fifth generation",
+    "1999"
+  ]
+}

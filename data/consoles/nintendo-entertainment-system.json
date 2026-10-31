@@ -1,0 +1,44 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+  "id": "console-nes",
+  "slug": "nintendo-entertainment-system",
+  "name": "Nintendo Entertainment System (NES / Famicom)",
+  "manufacturer": "Nintendo",
+  "generation": "Third Generation",
+  "generationNumber": 3,
+  "originalReleaseYear": 1983,
+  "exactReleaseDate": "July 15, 1983",
+  "mediaFormat": "ROM Cartridge",
+  "significance": "Established strict software licensing and quality seals, popularized the cross D-pad, and established Nintendo as an entertainment titan.",
+  "verifiedFactualData": {
+    "cpu": "Ricoh 2A03 (MOS 6502 core) @ 1.79 MHz",
+    "gpuOrVideoChip": "Ricoh 2C02 Picture Processing Unit (PPU)",
+    "ram": "2 KB work RAM, 2 KB video RAM"
+  },
+  "editorialContent": {
+    "overview": "The 8-bit juggernaut that resurrected the home video game industry following the catastrophic crash of 1983.",
+    "marketLegacy": "Established strict software licensing and quality seals, popularized the cross D-pad, and established Nintendo as an entertainment titan.",
+    "controllerDesign": "NES-004 directional pad controller, NES Zapper light gun"
+  },
+  "keyGames": [
+    "super-mario-bros",
+    "the-legend-of-zelda",
+    "metroid",
+    "mega-man-2",
+    "castlevania"
+  ],
+  "assets": {
+    "mainImage": "/assets/images/consoles/nintendo-entertainment-system.png",
+    "heroImage": "/assets/images/consoles/nintendo-entertainment-system-hero.png",
+    "hardwareImage": "/assets/images/consoles/nintendo-entertainment-system-hardware.png"
+  },
+  "keywords": [
+    "nes",
+    "famicom",
+    "nintendo",
+    "third generation",
+    "8-bit",
+    "1983",
+    "d-pad"
+  ]
+}

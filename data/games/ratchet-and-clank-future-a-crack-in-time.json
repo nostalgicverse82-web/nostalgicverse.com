@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-ratchet-and-clank-future-a-crack-in-time",
+  "slug": "ratchet-and-clank-future-a-crack-in-time",
+  "title": "Ratchet & Clank Future: A Crack in Time",
+  "originalReleaseYear": 2009,
+  "exactReleaseDate": "October 27, 2009",
+  "originalLaunchPlatform": "PlayStation 3",
+  "originalLaunchRegion": "North America",
+  "developer": "Insomniac Games",
+  "publisher": "Sony Computer Entertainment",
+  "platforms": [
+    "PlayStation 3"
+  ],
+  "genre": "platformer",
+  "subgenres": [
+    "action-adventure"
+  ],
+  "era": "2000s",
+  "shortDescription": "Time-traveling epic introducing Clank's Great Clock temporal recording puzzles and freeform space exploration.",
+  "historicalSignificance": "Universally celebrated as one of the very finest entries in the Ratchet & Clank franchise.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Ratchet_&_Clank_Future:_A_Crack_in_Time",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Time-traveling epic introducing Clank's Great Clock temporal recording puzzles and freeform space exploration.",
+    "culturalImpact": "Universally celebrated as one of the very finest entries in the Ratchet & Clank franchise."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 3"
+    ],
+    "genres": [
+      "platformer"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/6/6f/Ratchet_%26_Clank_Future_A_Crack_in_Time_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/6/6f/Ratchet_%26_Clank_Future_A_Crack_in_Time_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ratchet_&_Clank_Future:_A_Crack_in_Time",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Ratchet & Clank Future: A Crack in Time",
+    "Insomniac Games",
+    "Sony Computer Entertainment",
+    "PlayStation 3",
+    "platformer",
+    "2009",
+    "2000s",
+    "PlayStation 3",
+    "action-adventure"
+  ],
+  "url": "/games/ratchet-and-clank-future-a-crack-in-time/",
+  "featured": false
+}

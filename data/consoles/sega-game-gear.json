@@ -1,0 +1,41 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+  "id": "console-sega-game-gear",
+  "slug": "sega-game-gear",
+  "name": "Sega Game Gear",
+  "manufacturer": "Sega",
+  "generation": "Fourth Generation",
+  "generationNumber": 4,
+  "originalReleaseYear": 1990,
+  "exactReleaseDate": "October 6, 1990",
+  "mediaFormat": "ROM Cartridge",
+  "significance": "The primary full-color backlit handheld competitor to Nintendo's Game Boy, selling over 10 million units worldwide.",
+  "verifiedFactualData": {
+    "cpu": "Zilog Z80 @ 3.58 MHz",
+    "gpuOrVideoChip": "Modified Master System VDP (4,096 color palette)",
+    "ram": "8 KB work RAM, 16 KB video RAM"
+  },
+  "editorialContent": {
+    "overview": "Sega's full-color backlit handheld based on Master System architecture, offering TV tuner capabilities.",
+    "marketLegacy": "The primary full-color backlit handheld competitor to Nintendo's Game Boy, selling over 10 million units worldwide.",
+    "controllerDesign": "Integrated landscape layout with D-pad and two action buttons"
+  },
+  "keyGames": [
+    "sonic-the-hedgehog",
+    "shinobi",
+    "columns"
+  ],
+  "assets": {
+    "mainImage": "/assets/images/consoles/sega-game-gear.png",
+    "heroImage": "/assets/images/consoles/sega-game-gear-hero.png",
+    "hardwareImage": "/assets/images/consoles/sega-game-gear-hardware.png"
+  },
+  "keywords": [
+    "game gear",
+    "sega",
+    "handheld",
+    "fourth generation",
+    "color",
+    "1990"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-grand-theft-auto-iv",
+  "slug": "grand-theft-auto-iv",
+  "title": "Grand Theft Auto IV",
+  "originalReleaseYear": 2008,
+  "exactReleaseDate": "April 29, 2008",
+  "originalLaunchPlatform": "PlayStation 3",
+  "originalLaunchRegion": "Worldwide",
+  "developer": "Rockstar North",
+  "publisher": "Rockstar Games",
+  "platforms": [
+    "PlayStation 3",
+    "Xbox 360",
+    "Microsoft Windows"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "open-world"
+  ],
+  "era": "2000s",
+  "shortDescription": "Eastern European immigrant Niko Bellic pursues the elusive American Dream in a grimy, living Liberty City.",
+  "historicalSignificance": "A critical and technical watershed in gaming, featuring revolutionary Euphoria physical simulation and mature immigrant tragedy.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Grand_Theft_Auto_IV",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Eastern European immigrant Niko Bellic pursues the elusive American Dream in a grimy, living Liberty City.",
+    "culturalImpact": "A critical and technical watershed in gaming, featuring revolutionary Euphoria physical simulation and mature immigrant tragedy."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 3"
+    ],
+    "genres": [
+      "action-adventure"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b7/Grand_Theft_Auto_IV_cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/b/b7/Grand_Theft_Auto_IV_cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_IV",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Grand Theft Auto IV",
+    "Rockstar North",
+    "Rockstar Games",
+    "PlayStation 3",
+    "action-adventure",
+    "2008",
+    "2000s",
+    "PlayStation 3",
+    "Xbox 360",
+    "Microsoft Windows",
+    "open-world"
+  ],
+  "url": "/games/grand-theft-auto-iv/",
+  "featured": false
+}

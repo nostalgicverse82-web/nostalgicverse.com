@@ -1,0 +1,93 @@
+{
+  "id": "game-out-run",
+  "slug": "out-run",
+  "title": "Out Run",
+  "url": "/games/out-run/",
+  "originalReleaseYear": 1986,
+  "exactReleaseDate": "1986-09-20",
+  "developer": "Sega AM2",
+  "publisher": "Sega",
+  "designer": "Yu Suzuki",
+  "originalLaunchPlatform": "Arcade",
+  "platforms": [
+    "Arcade",
+    "Sega Master System",
+    "Sega Genesis",
+    "Game Gear",
+    "PC Engine",
+    "Commodore 64"
+  ],
+  "genre": "arcade-racing",
+  "subgenres": [
+    "Super Scaler Driving",
+    "Arcade"
+  ],
+  "era": "1980s",
+  "shortDescription": "Yu Suzuki's legendary Super Scaler arcade driving experience featuring a Ferrari Testarossa, branching European highway routes, and selectable radio soundtracks.",
+  "historicalSignificance": "Pioneered the non-linear branching checkpoint course structure, popularized hydraulic force-feedback motion simulator arcade cabinets, and introduced in-game radio station selection.",
+  "editorialContent": {
+    "overview": "Conceived and directed by Sega legendary designer Yu Suzuki after an extensive automotive scouting tour across Europe, Out Run arrived in September 1986 not as a competitive track race, but as an exhilarating, stylish celebration of driving pleasure. Behind the wheel of a convertible Ferrari Testarossa Spider with a blonde companion beside him, the player sped down coastal roads beneath brilliant blue skies.",
+    "gameplayMechanics": "Steering with an analog force-feedback steering wheel and high/low gear shifter, players race against a relentless countdown clock across five consecutive stages. At the end of each stage, the road branches into two distinct forks: taking the left fork leads to scenic, easier tourist routes, while the right fork leads to punishing, treacherous terrain, offering 16 unique trans-European journeys culminating in five different celebratory endings.",
+    "technicalInnovation": "Driven by Sega's revolutionary 'Super Scaler' arcade hardware (dual 16-bit Motorola 68000 processors running at 12.5 MHz), Out Run achieved fluid, high-speed pseudo-3D sprite scaling, manipulating hundreds of roadside trees, road signs, and vehicles at a blistering 60 frames per second. The deluxe cabinet featured full hydraulic motion that pitched and banked in direct response to the player's steering.",
+    "culturalImpact": "Out Run was an enormous worldwide commercial smash that came to visually and musically define 1980s arcade culture. Hiroshi Kawaguchi's iconic tropical fusion radio tracks ('Magical Sound Shower', 'Passing Breeze', 'Splash Wave') became timeless anthems of the synthwave genre.",
+    "preservationNotes": "Preserved across Sega Out Run hardware ROM dumps. Accurate emulation requires true dual 68000 CPU synchronization and Yamaha YM2151 FM plus Sega PCM rhythm playback."
+  },
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "Suzuki, Yu. 'The Design and Philosophy of Out Run', Sega AM2 Retrospective (2001)",
+      "Kawaguchi, Hiroshi. 'Scoring Out Run: Latin Fusion on Yamaha FM', Red Bull Music Academy (2014)",
+      "Sega Enterprises, Ltd. Out Run Deluxe Motion Cabinet Service Manual (1986)"
+    ],
+    "romMediaFormat": "Arcade PCB (Dual Motorola 68000 + Custom Sega Video Scaler)",
+    "romSizeOriginal": "384 KB ROM",
+    "displayResolutionOriginal": "320 × 224 (Horizontal CRT)",
+    "audioHardware": "Yamaha YM2151 FM chip + Sega custom PCM digital drum sampler",
+    "inputMethod": "Analog force-feedback steering wheel, high/low gear shifter, gas & brake pedals",
+    "multiplayerCapability": "1 Player"
+  },
+  "relatedExhibits": {
+    "games": [
+      "pole-position",
+      "f-zero",
+      "super-mario-kart",
+      "gran-turismo"
+    ],
+    "consoles": [
+      "sega-master-system",
+      "sega-genesis"
+    ],
+    "genres": [
+      "arcade-racing"
+    ],
+    "timeline": [
+      "ev-1986-legend-of-zelda"
+    ]
+  },
+  "assets": {
+    "heroImage": "/assets/images/games/out-run-hero.webp",
+    "thumbnailImage": "/assets/images/games/out-run.webp",
+    "coverImage": "/assets/images/games/out-run-cover.webp",
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/0/04/Out_Run_Coverart.png",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/0/04/Out_Run_Coverart.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Out_Run_Coverart.png",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "out run",
+    "sega",
+    "yu suzuki",
+    "super scaler",
+    "ferrari testarossa",
+    "magical sound shower",
+    "arcade driving",
+    "motion simulator",
+    "1986",
+    "1980s"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

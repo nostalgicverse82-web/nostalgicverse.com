@@ -1,0 +1,87 @@
+{
+  "id": "game-dishonored",
+  "slug": "dishonored",
+  "title": "Dishonored",
+  "japaneseTitle": "ディスオナード",
+  "url": "/games/dishonored/",
+  "originalReleaseYear": 2012,
+  "exactReleaseDate": "2012-10-09",
+  "developer": "Arkane Studios",
+  "publisher": "Bethesda Softworks",
+  "director": "Raphaël Colantonio, Harvey Smith",
+  "designer": "Harvey Smith, Dinga Bakaba",
+  "composer": "Daniel Licht",
+  "originalLaunchPlatform": "PlayStation 3 / Xbox 360 / PC",
+  "platforms": [
+    "PlayStation 3",
+    "Xbox 360",
+    "Microsoft Windows",
+    "PlayStation 4",
+    "Xbox One"
+  ],
+  "genre": "stealth",
+  "subgenres": [
+    "Immersive Sim",
+    "Steampunk Action"
+  ],
+  "era": "2010s",
+  "shortDescription": "Arkane Studios' masterclass in immersive sim level design, set in the plague-ridden, whale-oil-powered steampunk city of Dunwall.",
+  "historicalSignificance": "Revitalized the immersive simulation genre, designed by Deus Ex co-creator Harvey Smith and Raphaël Colantonio with level design by Viktor Antonov, winning Best Action Game at the 2012 Spike VGAs and BAFTA Best Game 2013.",
+  "editorialContent": {
+    "overview": "Framed for the murder of the Empress, royal protector Corvo Attano is gifted supernatural abilities by the enigmatic Outsider to exact vengeance and rescue young heir Emily Kaldwin from the oppressive Lord Regent.",
+    "gameplay": "Unrivaled systemic freedom: players can complete the entire game without killing a single person, combining supernatural powers (Blink teleportation, Posession, Bend Time) with mechanical gadgets and multiple architectural infiltration routes.",
+    "technicalInnovation": "Introduced the dynamic 'Chaos' morality system where player lethality alters the world state, multiplying plague rats, weepers, and dark endings without binary good/bad meters.",
+    "culturalImpact": "Hailed alongside Thief and Deus Ex as a pinnacle of player agency, architectural verticality, and environmental storytelling.",
+    "preservationNotes": "Preserved on PS3/360 optical media and remastered in 60 FPS Definitive Edition on modern hardware."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "October 9, 2012",
+    "leadPlatform": "PC",
+    "genre": "stealth",
+    "sales": "Over 5 million copies sold across versions",
+    "awards": [
+      "BAFTA Games Award for Best Game 2013",
+      "Spike Video Game Award for Best Action Game 2012"
+    ],
+    "technicalSpecs": {
+      "engine": "Unreal Engine 3",
+      "resolution": "720p (PS3/360) / 1080p 60fps (Definitive Edition) / Scalable 4K on PC",
+      "soundChip": "Daniel Licht eerie violin and acoustic score",
+      "mediaFormat": "Blu-ray Disc / DVD-ROM"
+    },
+    "relationships": {
+      "primaryConsole": "pc",
+      "developerEntity": "Arkane Studios",
+      "lineage": [
+        "Thief: The Dark Project",
+        "Deus Ex",
+        "Dishonored 2",
+        "Prey"
+      ]
+    }
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Dishonored_box_art.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Dishonored_box_art.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Dishonored_box_art.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "dishonored",
+    "corvo attano",
+    "arkane studios",
+    "harvey smith",
+    "raphael colantonio",
+    "dunwall",
+    "immersive sim",
+    "stealth",
+    "blink",
+    "2012"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

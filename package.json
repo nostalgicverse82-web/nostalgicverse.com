@@ -1,0 +1,61 @@
+{
+  "name": "nostalgicverse",
+  "version": "2026.1.0",
+  "description": "Interactive Digital Museum & Video Game History Archive (1971–Present)",
+  "main": "server/index.cjs",
+  "type": "commonjs",
+  "private": true,
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node server/index.cjs",
+    "dev": "node server/index.cjs",
+    "preview": "node server.cjs",
+    "test": "node tools/validation/master-audit.cjs",
+    "test:all": "node tools/validation/master-audit.cjs && node tools/validation/test-backend-automation.cjs && node tools/validation/test-browser-qa.cjs && node tools/validation/test-server.cjs && node tools/validation/test-discovery-engine.cjs && node tools/validation/test-filter-matrix.cjs && node tools/validation/test-favorites-images.cjs && node tools/validation/test-image-fallback.cjs",
+    "test:server": "node tools/validation/test-server.cjs",
+    "test:backend": "node tools/validation/test-backend-automation.cjs",
+    "test:browser": "node tools/validation/test-browser-qa.cjs",
+    "test:discovery": "node tools/validation/test-discovery-engine.cjs",
+    "test:filter": "node tools/validation/test-filter-matrix.cjs",
+    "test:favorites": "node tools/validation/test-favorites-images.cjs",
+    "audit": "node tools/validation/audit-data-consistency.cjs",
+    "audit:links": "node tools/validation/audit-link-integrity.cjs",
+    "audit:consoles": "node tools/validation/audit-console-pages.cjs",
+    "audit:responsive": "node tools/validation/audit-responsive.cjs",
+    "audit:media": "node tools/validation/verify-remote-images.cjs",
+    "audit:branding": "node tools/validation/audit-global-branding.cjs",
+    "audit:content": "node tools/content/repair-content-derived-data.cjs",
+    "verify": "node tools/validation/verify-systems.cjs",
+    "build:search": "node tools/content/rebuild-search-index.cjs",
+    "build:sitemap": "node tools/content/rebuild-sitemap.cjs",
+    "build:requirements": "node tools/generation/build-asset-requirements.cjs",
+    "content:rebuild": "node tools/content/rebuild-content-derived-data.cjs",
+    "search:rebuild": "node tools/content/rebuild-search-index.cjs",
+    "sitemap:rebuild": "node tools/content/rebuild-sitemap.cjs",
+    "media:audit": "node tools/content/audit-game-media.cjs",
+    "media:migrate-games": "node tools/content/migrate-game-media.cjs",
+    "test:phase15": "node tools/validation/test-phase15-media.cjs"
+  },
+  "keywords": [
+    "gaming-history",
+    "video-game-museum",
+    "digital-preservation",
+    "zero-dependency",
+    "retro-gaming",
+    "interactive-archive"
+  ],
+  "author": "NostalgicVerse Curatorial & Engineering Team",
+  "license": "MIT",
+  "dependencies": {
+    "@google/genai": "^2.24.0",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^18.0.1",
+    "express": "^5.2.1",
+    "puppeteer": "^25.11.0",
+    "sqlite3": "^6.0.1",
+    "uuid": "^14.0.2",
+    "ws": "^8.21.3"
+  }
+}

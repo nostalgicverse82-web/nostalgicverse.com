@@ -1,0 +1,95 @@
+{
+  "id": "game-prince-of-persia",
+  "slug": "prince-of-persia",
+  "title": "Prince of Persia",
+  "url": "/games/prince-of-persia/",
+  "originalReleaseYear": 1989,
+  "exactReleaseDate": "1989-10-03",
+  "developer": "Broderbund",
+  "publisher": "Broderbund",
+  "designer": "Jordan Mechner",
+  "originalLaunchPlatform": "Apple II",
+  "platforms": [
+    "Apple II",
+    "MS-DOS",
+    "Amiga",
+    "Atari ST",
+    "NES",
+    "SNES",
+    "Sega Genesis",
+    "Macintosh"
+  ],
+  "genre": "platformer",
+  "subgenres": [
+    "Cinematic Platformer",
+    "Action-Adventure"
+  ],
+  "era": "1980s",
+  "shortDescription": "Jordan Mechner's cinematic platforming triumph that pioneered rotoscoped human character animation and acrobatic sword-fighting dungeon survival.",
+  "historicalSignificance": "Father of the cinematic platformer, introducing rotoscoped athletic animation to video games and directly inspiring Another World, Tomb Raider, and modern parkour action design.",
+  "editorialContent": {
+    "overview": "Created almost entirely by designer and programmer Jordan Mechner over four painstaking years on an Apple II computer, Prince of Persia was published by Broderbund in October 1989. Merging the swashbuckling Arabian Nights cinematic romance of classic Errol Flynn films with unforgiving dungeon puzzle platforming, Mechner set a new standard for physical realism in digital animation.",
+    "gameplayMechanics": "The player is given exactly 60 real-time minutes to escape the treacherous dungeons of the evil Grand Vizier Jaffar and rescue the captive Princess. Movement mimics realistic human weight and momentum: the protagonist must carefully feather running strides, leap across chasm gaps, grab ledges with his fingertips, disarm pressure plates, evade guillotine blades, and engage palace guards in tactical parry-and-thrust fencing.",
+    "technicalInnovation": "Mechner's crowning breakthrough was the implementation of rotoscoping: filming his teenage brother David running, jumping, and rolling in white clothes with a VHS camcorder, digitizing each film frame onto his Apple II via an optical digitizer, and hand-tracing the frames into fluid pixel sprites that moved with unprecedented anatomical accuracy.",
+    "culturalImpact": "Prince of Persia was ported to dozens of home computers and consoles, selling millions of copies worldwide and spawning a landmark global franchise that ultimately evolved into Prince of Persia: The Sands of Time and Ubisoft's Assassin's Creed.",
+    "preservationNotes": "Preserved on authentic Apple II 5.25-inch floppy disk images and Mechner's original 6502 assembly source code archives, which Mechner recovered from an old cardboard box in 2012 and released to the open-source community."
+  },
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "Mechner, Jordan. 'The Making of Prince of Persia: Journals 1985-1993', Stripe Press (2011)",
+      "Mechner, Jordan. 'Classic Game Postmortem: Prince of Persia', Game Developers Conference (2011)",
+      "Broderbund Software Inc. Prince of Persia User Manual (Apple II / MS-DOS, 1989)"
+    ],
+    "romMediaFormat": "5.25-inch / 3.5-inch Floppy Disk",
+    "romSizeOriginal": "140 KB (Apple II 5.25\" Floppy Disk)",
+    "displayResolutionOriginal": "280 × 192 (Apple II Hi-Res Color Mode)",
+    "audioHardware": "Apple II internal speaker / Custom chiptune synthesizer",
+    "inputMethod": "QWERTY Keyboard / 2-button Joystick",
+    "multiplayerCapability": "1 Player"
+  },
+  "relatedExhibits": {
+    "games": [
+      "tomb-raider",
+      "pitfall",
+      "the-secret-of-monkey-island"
+    ],
+    "consoles": [
+      "nintendo-entertainment-system",
+      "super-nintendo-entertainment-system",
+      "sega-genesis"
+    ],
+    "genres": [
+      "platformer"
+    ],
+    "timeline": [
+      "ev-1989-game-boy-launch"
+    ]
+  },
+  "assets": {
+    "heroImage": "/assets/images/games/prince-of-persia-hero.webp",
+    "thumbnailImage": "/assets/images/games/prince-of-persia.webp",
+    "coverImage": "/assets/images/games/prince-of-persia-cover.webp",
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/8/80/Prince_of_Persia_1989_cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/8/80/Prince_of_Persia_1989_cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Prince_of_Persia_1989_cover.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "review-required",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "prince of persia",
+    "jordan mechner",
+    "broderbund",
+    "rotoscoping",
+    "cinematic platformer",
+    "apple ii",
+    "jaffar",
+    "sword fighting",
+    "1989",
+    "1980s"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

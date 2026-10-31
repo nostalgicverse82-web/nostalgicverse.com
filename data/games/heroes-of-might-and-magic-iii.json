@@ -1,0 +1,68 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-heroes-of-might-and-magic-iii",
+  "slug": "heroes-of-might-and-magic-iii",
+  "title": "Heroes of Might and Magic III",
+  "originalReleaseYear": 1999,
+  "exactReleaseDate": "February 28, 1999",
+  "originalLaunchPlatform": "PC",
+  "originalLaunchRegion": "North America",
+  "developer": "New World Computing",
+  "publisher": "The 3DO Company",
+  "platforms": [
+    "PC",
+    "Macintosh"
+  ],
+  "genre": "turn-based-strategy",
+  "subgenres": [
+    "fantasy"
+  ],
+  "era": "1990s",
+  "shortDescription": "Queen Catherine Ironfist liberates Erathia, leading mythical armies across hexagonal tactical grids.",
+  "historicalSignificance": "Revered as the immortal gold standard of turn-based fantasy strategy, legendary for 'just one more turn' addiction.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Heroes_of_Might_and_Magic_III",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Queen Catherine Ironfist liberates Erathia, leading mythical armies across hexagonal tactical grids.",
+    "culturalImpact": "Revered as the immortal gold standard of turn-based fantasy strategy, legendary for 'just one more turn' addiction."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PC"
+    ],
+    "genres": [
+      "turn-based-strategy"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Heroes_of_Might_and_Magic_III_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Heroes_of_Might_and_Magic_III_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Heroes_of_Might_and_Magic_III",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Heroes of Might and Magic III",
+    "New World Computing",
+    "The 3DO Company",
+    "PC",
+    "turn-based-strategy",
+    "1999",
+    "1990s",
+    "PC",
+    "Macintosh",
+    "fantasy"
+  ],
+  "url": "/games/heroes-of-might-and-magic-iii/",
+  "featured": false
+}

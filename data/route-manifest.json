@@ -1,0 +1,227 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "name": "NostalgicVerse Route Manifest",
+  "version": "2026.1.0",
+  "canonicalDomain": "https://nostalgicverse.com",
+  "archiveRoutes": [
+    {
+      "path": "/games/",
+      "file": "/games/index.html",
+      "status": "APPROVED_COMPLETED",
+      "type": "archive",
+      "title": "Landmark Games Archive — NostalgicVerse",
+      "description": "Comprehensive historical catalog of defining interactive software."
+    },
+    {
+      "path": "/consoles/",
+      "file": "/consoles/index.html",
+      "status": "APPROVED_COMPLETED",
+      "type": "archive",
+      "title": "Hardware Generations Archive — NostalgicVerse",
+      "description": "Curated catalog of historic video game hardware and architectural specs."
+    },
+    {
+      "path": "/genres/",
+      "file": "/genres/index.html",
+      "status": "APPROVED_COMPLETED",
+      "type": "taxonomy",
+      "title": "Genre Taxonomy — NostalgicVerse",
+      "description": "Genealogy and mechanical evolution of video game genres."
+    },
+    {
+      "path": "/timeline/",
+      "file": "/timeline/index.html",
+      "status": "APPROVED_COMPLETED",
+      "type": "chronology",
+      "title": "Chronology of Video Game Milestones — NostalgicVerse",
+      "description": "Interactive milestone timeline from 1958 to modern interactive media."
+    },
+    {
+      "path": "/guides/",
+      "file": "/guides/index.html",
+      "status": "APPROVED_COMPLETED",
+      "type": "archive",
+      "title": "Preservation & Engineering Guides — NostalgicVerse",
+      "description": "Hardware maintenance, CRT optimization, recapping, and archival techniques."
+    },
+    {
+      "path": "/blog/",
+      "file": "/blog/index.html",
+      "status": "APPROVED_COMPLETED",
+      "type": "editorial",
+      "title": "Archival Stories & Retrospectives — NostalgicVerse",
+      "description": "In-depth investigative retrospectives and technological dissections."
+    }
+  ],
+  "utilityRoutes": [
+    {
+      "path": "/",
+      "file": "/index.html",
+      "status": "APPROVED_COMPLETED",
+      "type": "portal",
+      "title": "NostalgicVerse — The Games That Made History",
+      "description": "The definitive interactive digital museum and archive of historic video games."
+    },
+    {
+      "path": "/search/",
+      "file": "/search/index.html",
+      "status": "APPROVED_COMPLETED",
+      "type": "utility",
+      "title": "Master Archive Search — NostalgicVerse",
+      "description": "Universal cross-collection archive search engine."
+    },
+    {
+      "path": "/favorites/",
+      "file": "/favorites/index.html",
+      "status": "APPROVED_COMPLETED",
+      "type": "utility",
+      "title": "Curated Personal Archive — NostalgicVerse",
+      "description": "Locally preserved bookmarks and exhibits across all eras."
+    },
+    {
+      "path": "/random/",
+      "file": "/random/index.html",
+      "status": "APPROVED_COMPLETED",
+      "type": "utility",
+      "title": "Chronological Discovery Engine — NostalgicVerse",
+      "description": "Serendipitous archival exploration across eras and platforms."
+    },
+    {
+      "path": "/download/",
+      "file": "/download/index.html",
+      "status": "APPROVED_COMPLETED",
+      "type": "utility",
+      "title": "Open-Source Emulation & Preservation Tools — NostalgicVerse",
+      "description": "Preservation toolchain recommendations and open-source emulator resources."
+    }
+  ],
+  "institutionalRoutes": [
+    {
+      "path": "/about/",
+      "file": "/about/index.html",
+      "status": "APPROVED_COMPLETED",
+      "type": "institutional",
+      "title": "About the Archive — NostalgicVerse",
+      "description": "Museum mission, preservation charter, and editorial methodology."
+    },
+    {
+      "path": "/support/",
+      "file": "/support/index.html",
+      "status": "APPROVED_COMPLETED",
+      "type": "institutional",
+      "title": "Support & Inquiries — NostalgicVerse",
+      "description": "Community support, research donations, and exhibit inquiries."
+    }
+  ],
+  "legalRoutes": [
+    {
+      "path": "/legal/privacy.html",
+      "file": "/legal/privacy.html",
+      "status": "APPROVED_COMPLETED",
+      "type": "legal",
+      "title": "Privacy Policy — NostalgicVerse",
+      "description": "Privacy disclosure and local-first data policy."
+    },
+    {
+      "path": "/legal/terms.html",
+      "file": "/legal/terms.html",
+      "status": "APPROVED_COMPLETED",
+      "type": "legal",
+      "title": "Terms of Service — NostalgicVerse",
+      "description": "Terms of use and non-commercial educational charter."
+    },
+    {
+      "path": "/legal/cookies.html",
+      "file": "/legal/cookies.html",
+      "status": "APPROVED_COMPLETED",
+      "type": "legal",
+      "title": "Cookie Policy — NostalgicVerse",
+      "description": "Cookie and local storage utilization disclosures."
+    },
+    {
+      "path": "/legal/disclaimer.html",
+      "file": "/legal/disclaimer.html",
+      "status": "APPROVED_COMPLETED",
+      "type": "legal",
+      "title": "Preservation Disclaimer — NostalgicVerse",
+      "description": "Fair use preservation and archival copyright disclaimer."
+    }
+  ],
+  "detailPagePatterns": [
+    {
+      "collection": "games",
+      "routePattern": "/games/{slug}/",
+      "filePathPattern": "/games/{slug}/index.html",
+      "canonicalUrlPattern": "https://nostalgicverse.com/games/{slug}/",
+      "dataSource": "/data/games/{slug}.json",
+      "fallbackDataSource": "/data/games.json",
+      "exampleRoute": "/games/pac-man/index.html",
+      "rule": "Always use /games/{slug}/index.html, never /games/{slug}.html",
+      "status": "READY_FOR_BATCH_GENERATION"
+    },
+    {
+      "collection": "consoles",
+      "routePattern": "/consoles/{slug}/",
+      "filePathPattern": "/consoles/{slug}/index.html",
+      "canonicalUrlPattern": "https://nostalgicverse.com/consoles/{slug}/",
+      "dataSource": "/data/consoles/{slug}.json",
+      "fallbackDataSource": "/data/consoles.json",
+      "exampleRoute": "/consoles/nintendo-entertainment-system/index.html",
+      "rule": "Always use /consoles/{slug}/index.html, never /consoles/{slug}.html",
+      "status": "READY_FOR_BATCH_GENERATION"
+    },
+    {
+      "collection": "genres",
+      "routePattern": "/genres/{slug}/",
+      "filePathPattern": "/genres/{slug}/index.html",
+      "canonicalUrlPattern": "https://nostalgicverse.com/genres/{slug}/",
+      "dataSource": "/data/genres/{slug}.json",
+      "fallbackDataSource": "/data/genres.json",
+      "exampleRoute": "/genres/platformer/index.html",
+      "rule": "Always use /genres/{slug}/index.html, never /genres/{slug}.html",
+      "status": "READY_FOR_BATCH_GENERATION"
+    },
+    {
+      "collection": "timeline",
+      "routePattern": "/timeline/{event-id}/",
+      "filePathPattern": "/timeline/{event-id}/index.html",
+      "canonicalUrlPattern": "https://nostalgicverse.com/timeline/{event-id}/",
+      "dataSource": "/data/timeline/{event-id}.json",
+      "fallbackDataSource": "/data/timeline.json",
+      "exampleRoute": "/timeline/ev-1980-pac-man/index.html",
+      "rule": "Always use /timeline/{event-id}/index.html, never /timeline/{event-id}.html",
+      "status": "READY_FOR_BATCH_GENERATION"
+    },
+    {
+      "collection": "guides",
+      "routePattern": "/guides/{slug}/",
+      "filePathPattern": "/guides/{slug}/index.html",
+      "canonicalUrlPattern": "https://nostalgicverse.com/guides/{slug}/",
+      "dataSource": "/data/guides/{slug}.json",
+      "fallbackDataSource": "/data/guides.json",
+      "exampleRoute": "/guides/crt-rgb-scart-upscaling-mastery/index.html",
+      "rule": "Always use /guides/{slug}/index.html, never /guides/{slug}.html",
+      "status": "READY_FOR_BATCH_GENERATION"
+    },
+    {
+      "collection": "stories",
+      "routePattern": "/blog/{slug}/",
+      "filePathPattern": "/blog/{slug}/index.html",
+      "canonicalUrlPattern": "https://nostalgicverse.com/blog/{slug}/",
+      "dataSource": "/data/stories/{slug}.json",
+      "fallbackDataSource": "/data/stories.json",
+      "exampleRoute": "/blog/birth-of-the-first-person-shooter/index.html",
+      "rule": "Always use /blog/{slug}/index.html, never /blog/{slug}.html",
+      "status": "READY_FOR_BATCH_GENERATION"
+    }
+  ],
+  "futurePlannedRoutes": [
+    {
+      "collection": "eras",
+      "routePattern": "/eras/{slug}/",
+      "filePathPattern": "/eras/{slug}/index.html",
+      "canonicalUrlPattern": "https://nostalgicverse.com/eras/{slug}/",
+      "status": "PLANNED"
+    }
+  ]
+}

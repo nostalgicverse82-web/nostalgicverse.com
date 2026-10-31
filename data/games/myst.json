@@ -1,0 +1,98 @@
+{
+  "id": "game-myst",
+  "slug": "myst",
+  "title": "Myst",
+  "url": "/games/myst/",
+  "originalReleaseYear": 1993,
+  "exactReleaseDate": "1993-09-24",
+  "developer": "Cyan",
+  "publisher": "Brøderbund",
+  "designer": "Rand Miller & Robyn Miller",
+  "composer": "Robyn Miller",
+  "originalLaunchPlatform": "Macintosh",
+  "platforms": [
+    "Macintosh",
+    "PC",
+    "3DO",
+    "Sega Saturn",
+    "PlayStation",
+    "Atari Jaguar CD"
+  ],
+  "genre": "puzzle",
+  "subgenres": [
+    "First-Person Puzzle Adventure",
+    "Pre-Rendered Adventure"
+  ],
+  "era": "1990s",
+  "shortDescription": "Rand and Robyn Miller's surreal, atmospheric puzzle masterpiece that became the defining killer application for consumer CD-ROM computer drives.",
+  "historicalSignificance": "The quintessential killer app of the CD-ROM revolution, selling over six million copies and holding the crown of best-selling PC game of all time until eclipsed by The Sims in 2002.",
+  "editorialContent": {
+    "overview": "Conceived and created by brothers Rand and Robyn Miller in Spokane, Washington under their independent studio Cyan, Myst was released in September 1993 for the Macintosh and in 1994 for Windows PC. Dropping players onto a deserted, surreal island without backstory, inventory, or dialogue, it offered a contemplative, non-violent sensory puzzle experience that captivated mainstream adult audiences.",
+    "gameplayMechanics": "Playing as the silent 'Stranger' who discovers a mysterious linking book to the island of Myst, players navigate static pre-rendered panoramic scenes using a simple point-and-click hand cursor. Exploration requires keen environmental observation, deciphering journal entries, and manipulating mechanical and acoustic puzzles across four fantastical linked Ages (Channelwood, Stoneship, Mechanical, and Selenitic) to resolve the feud between brothers Sirrus and Achenar.",
+    "technicalInnovation": "Myst was built using Apple's HyperCard software and rendered using StrataVision 3D on a cluster of Macintosh Quadra computers over two years. By packing over 2,500 ray-traced 3D still images, QuickTime video clips of live actors, and rich ambient soundscapes onto a high-capacity 650MB optical CD-ROM, the Millers delivered photorealistic computer graphics previously unseen on consumer PCs.",
+    "culturalImpact": "Myst was an unprecedented cultural phenomenon that drove hardware sales of CD-ROM drives and sound cards across the globe. For nearly a decade, it stood as the highest-selling PC video game in history (exceeding six million units) and legitimized digital interactive storytelling for non-traditional gaming audiences.",
+    "preservationNotes": "Preserved on original Macintosh and Windows hybrid CD-ROMs, runnable today via the ScummVM Mohawk engine, and preserved in full real-time 3D via Cyan's modern realMyst reconstructions."
+  },
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "Miller, Rand & Miller, Robyn. 'Classic Game Postmortem: Myst', Game Developers Conference (2013)",
+      "Carroll, Jon. 'Guerrillas in the Myst', Wired Magazine (1994)",
+      "Brøderbund Software Inc. Myst User Guide and Technical Manual (1993)"
+    ],
+    "romMediaFormat": "CD-ROM (650 MB Optical Disc)",
+    "romSizeOriginal": "540 MB Data",
+    "displayResolutionOriginal": "544 × 352 (256-color Macintosh Display)",
+    "audioHardware": "16-bit 22kHz Digital Audio / QuickTime Sound",
+    "inputMethod": "Single-button Mouse",
+    "multiplayerCapability": "1 Player"
+  },
+  "relatedExhibits": {
+    "games": [
+      "the-secret-of-monkey-island",
+      "zork",
+      "portal"
+    ],
+    "consoles": [
+      "3do-interactive-multiplayer",
+      "sega-saturn",
+      "playstation"
+    ],
+    "genres": [
+      "puzzle",
+      "point-and-click-adventure"
+    ],
+    "timeline": [
+      "ev-1993-doom-shareware"
+    ]
+  },
+  "assets": {
+    "heroImage": "/assets/images/games/myst-hero.webp",
+    "thumbnailImage": "/assets/images/games/myst-webp",
+    "coverImage": "/assets/images/games/myst-cover.webp",
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/6/6a/MystCover.png",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/6/6a/MystCover.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:MystCover.png",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "myst",
+    "cyan",
+    "rand miller",
+    "robyn miller",
+    "cd-rom",
+    "puzzle",
+    "ages",
+    "d'ni",
+    "stranger",
+    "atrus",
+    "killer app",
+    "1993",
+    "1990s"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

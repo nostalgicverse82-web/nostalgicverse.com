@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-the-last-guardian",
+  "slug": "the-last-guardian",
+  "title": "The Last Guardian",
+  "originalReleaseYear": 2016,
+  "exactReleaseDate": "December 6, 2016",
+  "originalLaunchPlatform": "PlayStation 4",
+  "originalLaunchRegion": "North America",
+  "developer": "Japan Studio",
+  "publisher": "Sony Interactive Entertainment",
+  "platforms": [
+    "PlayStation 4"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "puzzle-platformer"
+  ],
+  "era": "2010s",
+  "shortDescription": "Fumito Ueda's emotional fable following an unnamed boy escaping ancient ruins alongside giant beast Trico.",
+  "historicalSignificance": "Acclaimed for unprecedented procedural animal AI behavioral simulation and poetic minimalist scale.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/The_Last_Guardian",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Fumito Ueda's emotional fable following an unnamed boy escaping ancient ruins alongside giant beast Trico.",
+    "culturalImpact": "Acclaimed for unprecedented procedural animal AI behavioral simulation and poetic minimalist scale."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 4"
+    ],
+    "genres": [
+      "action-adventure"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/b/ba/The_Last_Guardian_Cover_Art.png",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/b/ba/The_Last_Guardian_Cover_Art.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/The_Last_Guardian",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "The Last Guardian",
+    "Japan Studio",
+    "Sony Interactive Entertainment",
+    "PlayStation 4",
+    "action-adventure",
+    "2016",
+    "2010s",
+    "PlayStation 4",
+    "puzzle-platformer"
+  ],
+  "url": "/games/the-last-guardian/",
+  "featured": false
+}

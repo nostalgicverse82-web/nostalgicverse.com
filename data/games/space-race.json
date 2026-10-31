@@ -1,0 +1,79 @@
+{
+  "id": "game-space-race",
+  "slug": "space-race",
+  "title": "Space Race",
+  "japaneseTitle": "スペースレース",
+  "url": "/games/space-race/",
+  "originalReleaseYear": 1973,
+  "exactReleaseDate": "1973-07-16",
+  "developer": "Atari, Inc.",
+  "publisher": "Atari, Inc.",
+  "director": "Nolan Bushnell",
+  "designer": "Ted Dabney",
+  "composer": "Discrete Audio Synthesizer",
+  "originalLaunchPlatform": "Arcade",
+  "platforms": [
+    "Arcade"
+  ],
+  "genre": "racing",
+  "subgenres": [
+    "Arcade Racing",
+    "Discrete Logic"
+  ],
+  "era": "1970s",
+  "shortDescription": "Atari's second commercial video game release, historically recognized as the world's very first arcade racing video game.",
+  "historicalSignificance": "Created by Nolan Bushnell and Ted Dabney immediately following Pong, Space Race founded the racing game genre, introducing competitive two-player race mechanics and discrete obstacle avoidance.",
+  "editorialContent": {
+    "overview": "Debuting in July 1973, Space Race challenged two players to pilot rocket ships from the bottom of a vertical CRT display to the top while avoiding a storm of cross-screen asteroids and space debris.",
+    "gameplay": "Players utilize two-way joysticks to accelerate or brake vertically, navigating intersecting horizontal asteroid hazards. Reaching the top of the screen awards one point and respawns the rocket at the bottom, with matches governed by a 90-second round timer.",
+    "technicalInnovation": "Built using discrete transistor-transistor logic (TTL) integrated circuits before the adoption of microprocessors in arcade machines, featuring the earliest known electronic video game timer and score readout display.",
+    "culturalImpact": "Demonstrated that the fledgling coin-op video game market could support concepts beyond tennis and table games, inspiring Bally Midway's competitor Asteroid.",
+    "preservationNotes": "Fewer than 20 original fiberglass and woodgrain arcade cabinets are known to survive today, preserved in the Strong National Museum of Play."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "July 16, 1973",
+    "leadPlatform": "Arcade",
+    "genre": "racing",
+    "sales": "Approximately 1,500 arcade cabinets manufactured",
+    "awards": [
+      "Recognized by Guinness World Records as the First Video Game Racing Title"
+    ],
+    "technicalSpecs": {
+      "engine": "Discrete Transistor-Transistor Logic (TTL)",
+      "resolution": "Standard Definition Monochrome CRT with acrylic overlay",
+      "soundChip": "Custom discrete audio circuit producing white-noise beeps",
+      "mediaFormat": "Custom printed circuit board (PCB)"
+    },
+    "relationships": {
+      "primaryConsole": "arcade",
+      "developerEntity": "Atari",
+      "lineage": [
+        "Pong",
+        "Gran Trak 10",
+        "Asteroids"
+      ]
+    }
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Space_Race_flyer.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Space_Race_flyer.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Space_Race_flyer.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "space race",
+    "atari",
+    "nolan bushnell",
+    "ted dabney",
+    "first racing game",
+    "arcade",
+    "1973",
+    "ttl"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

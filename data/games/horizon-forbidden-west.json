@@ -1,0 +1,82 @@
+{
+  "id": "game-horizon-forbidden-west",
+  "slug": "horizon-forbidden-west",
+  "title": "Horizon Forbidden West",
+  "japaneseTitle": "ホライゾン フォービドゥン ウェスト",
+  "url": "/games/horizon-forbidden-west/",
+  "originalReleaseYear": 2022,
+  "exactReleaseDate": "2022-02-18",
+  "developer": "Guerrilla Games",
+  "publisher": "Sony Interactive Entertainment",
+  "director": "Mathijs de Jonge",
+  "designer": "Steven Lumpkin",
+  "composer": "Joris de Man, The Flight, Niels van der Leest, Oleksa Lozowchuk",
+  "originalLaunchPlatform": "PlayStation 5 / PlayStation 4",
+  "platforms": [
+    "PlayStation 5",
+    "PlayStation 4",
+    "Microsoft Windows"
+  ],
+  "genre": "action-rpg",
+  "subgenres": [
+    "Open World",
+    "Post-Apocalyptic Sci-Fi"
+  ],
+  "era": "2020s",
+  "shortDescription": "Aloy travels to the majestic yet lethal Pacific frontiers of a ruined San Francisco and Las Vegas to stop a dying biosphere and mysterious red blight.",
+  "historicalSignificance": "A visual showcase for the Decima Engine, setting new graphical benchmarks for dense underwater marine biomes, aerial sunwing flight, and facial performance capture.",
+  "editorialContent": {
+    "overview": "Six months after defeating HADES, Aloy ventures into the uncharted Forbidden West to uncover backup copies of GAIA and prevent global ecological collapse, discovering the ancient cybernetic threat of the Far Zenith cabal.",
+    "gameplay": "Vastly improves traversal with the Pullcaster grapple, Shieldwing energy glider, diving mask for freeform underwater reef exploration, and flying robotic mounts alongside Valor Surge combat abilities.",
+    "technicalInnovation": "Showcased state-of-the-art geometry streaming, volumetric cloud simulation, and photorealistic water physics, highlighted by the Burning Shores expansion's cloudscapes.",
+    "culturalImpact": "Cemented the Horizon franchise as a cornerstone of Sony's transmedia expansion, leading to television adaptations and VR spin-offs.",
+    "preservationNotes": "Preserved on physical PS5/PS4 discs, updated with complete editions on PC with ultrawide support."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "February 18, 2022",
+    "leadPlatform": "PlayStation 5",
+    "genre": "action-rpg",
+    "sales": "Over 8.4 million copies sold worldwide",
+    "awards": [
+      "Develop:Star Award for Best Visual Art",
+      "7 Nominations at The Game Awards 2022"
+    ],
+    "technicalSpecs": {
+      "engine": "Decima Engine",
+      "resolution": "Native 4K (Resolution Mode) / Dynamic 1800p at 60fps (Performance Mode)",
+      "soundChip": "3D Tempest Audio",
+      "mediaFormat": "Ultra HD Blu-ray Disc"
+    },
+    "relationships": {
+      "primaryConsole": "playstation-5",
+      "developerEntity": "Guerrilla Games",
+      "lineage": [
+        "Horizon Zero Dawn",
+        "Decima Engine"
+      ]
+    }
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/6/69/Horizon_Forbidden_West_cover_art.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/6/69/Horizon_Forbidden_West_cover_art.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Horizon_Forbidden_West_cover_art.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "horizon forbidden west",
+    "aloy",
+    "guerrilla games",
+    "decima engine",
+    "playstation 5",
+    "ps5",
+    "slitherfang",
+    "underwater",
+    "open world"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

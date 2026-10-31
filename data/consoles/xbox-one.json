@@ -1,0 +1,41 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+  "id": "console-xbox-one",
+  "slug": "xbox-one",
+  "name": "Microsoft Xbox One",
+  "manufacturer": "Microsoft",
+  "generation": "Eighth Generation",
+  "generationNumber": 8,
+  "originalReleaseYear": 2013,
+  "exactReleaseDate": "November 22, 2013",
+  "mediaFormat": "Blu-ray Disc & Digital Download",
+  "significance": "Transitioned the console business from traditional isolated generations toward backward-compatible multi-platform subscription services like Xbox Game Pass.",
+  "verifiedFactualData": {
+    "cpu": "Custom 8-core AMD 'Jaguar' @ 1.75 GHz",
+    "gpuOrVideoChip": "AMD GCN 1.31 TFLOPS (12 compute units @ 853 MHz)",
+    "ram": "8 GB DDR3 RAM + 32 MB embedded static RAM (ESRAM)"
+  },
+  "editorialContent": {
+    "overview": "Microsoft's initial living-room entertainment hub that later pivoted under Phil Spencer to champion Game Pass subscription play.",
+    "marketLegacy": "Transitioned the console business from traditional isolated generations toward backward-compatible multi-platform subscription services like Xbox Game Pass.",
+    "controllerDesign": "Xbox One controller with impulse haptic triggers and 40+ ergonomic refinements"
+  },
+  "keyGames": [
+    "forza-horizon-3",
+    "halo-5-guardians",
+    "gears-of-war-4"
+  ],
+  "assets": {
+    "mainImage": "/assets/images/consoles/xbox-one.png",
+    "heroImage": "/assets/images/consoles/xbox-one-hero.png",
+    "hardwareImage": "/assets/images/consoles/xbox-one-hardware.png"
+  },
+  "keywords": [
+    "xbox one",
+    "microsoft",
+    "eighth generation",
+    "game pass",
+    "kinect",
+    "2013"
+  ]
+}

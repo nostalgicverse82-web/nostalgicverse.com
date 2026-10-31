@@ -1,0 +1,41 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+  "id": "console-nintendo-switch-lite",
+  "slug": "nintendo-switch-lite",
+  "name": "Nintendo Switch Lite",
+  "manufacturer": "Nintendo",
+  "generation": "Eighth Generation",
+  "generationNumber": 8,
+  "originalReleaseYear": 2019,
+  "exactReleaseDate": "September 20, 2019",
+  "mediaFormat": "Nintendo Switch Game Card (ROM)",
+  "significance": "Completed Nintendo's total historical consolidation of portable and home software libraries into a singular hardware ecosystem.",
+  "verifiedFactualData": {
+    "cpu": "NVIDIA Custom Tegra X1+ (efficient 16nm revision)",
+    "gpuOrVideoChip": "NVIDIA Maxwell-based architecture (256 CUDA cores)",
+    "ram": "4 GB LPDDR4 unified RAM"
+  },
+  "editorialContent": {
+    "overview": "A pure handheld-dedicated iteration of the Switch hardware, trading TV docking for enhanced portability, battery efficiency, and a traditional D-pad.",
+    "marketLegacy": "Completed Nintendo's total historical consolidation of portable and home software libraries into a singular hardware ecosystem.",
+    "controllerDesign": "Integrated non-detachable controls with classic directional +D-pad"
+  },
+  "keyGames": [
+    "pokemon-sword-shield",
+    "animal-crossing-new-horizons",
+    "the-legend-of-zelda-links-awakening"
+  ],
+  "assets": {
+    "mainImage": "/assets/images/consoles/nintendo-switch-lite.png",
+    "heroImage": "/assets/images/consoles/nintendo-switch-lite-hero.png",
+    "hardwareImage": "/assets/images/consoles/nintendo-switch-lite-hardware.png"
+  },
+  "keywords": [
+    "switch lite",
+    "nintendo",
+    "handheld",
+    "eighth generation",
+    "portable",
+    "2019"
+  ]
+}

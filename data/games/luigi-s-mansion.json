@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-luigi-s-mansion",
+  "slug": "luigi-s-mansion",
+  "title": "Luigi's Mansion",
+  "originalReleaseYear": 2001,
+  "exactReleaseDate": "September 14, 2001",
+  "originalLaunchPlatform": "Nintendo GameCube",
+  "originalLaunchRegion": "Japan",
+  "developer": "Nintendo EAD",
+  "publisher": "Nintendo",
+  "platforms": [
+    "GameCube"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "ghost-hunting"
+  ],
+  "era": "2000s",
+  "shortDescription": "Luigi wins a haunted estate and rescues Mario wielding Professor E. Gadd's Poltergust 3000 vacuum.",
+  "historicalSignificance": "The iconic GameCube launch title that established Luigi's beloved cowardly hero persona and atmospheric lighting.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Luigi's_Mansion",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Luigi wins a haunted estate and rescues Mario wielding Professor E. Gadd's Poltergust 3000 vacuum.",
+    "culturalImpact": "The iconic GameCube launch title that established Luigi's beloved cowardly hero persona and atmospheric lighting."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "Nintendo GameCube"
+    ],
+    "genres": [
+      "action-adventure"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/1/14/Luigi%27s_Mansion_Box_Art.png",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/1/14/Luigi%27s_Mansion_Box_Art.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Luigi's_Mansion",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Luigi's Mansion",
+    "Nintendo EAD",
+    "Nintendo",
+    "Nintendo GameCube",
+    "action-adventure",
+    "2001",
+    "2000s",
+    "GameCube",
+    "ghost-hunting"
+  ],
+  "url": "/games/luigi-s-mansion/",
+  "featured": false
+}

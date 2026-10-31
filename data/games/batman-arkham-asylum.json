@@ -1,0 +1,70 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-batman-arkham-asylum",
+  "slug": "batman-arkham-asylum",
+  "title": "Batman: Arkham Asylum",
+  "originalReleaseYear": 2009,
+  "exactReleaseDate": "August 25, 2009",
+  "originalLaunchPlatform": "PlayStation 3",
+  "originalLaunchRegion": "North America",
+  "developer": "Rocksteady Studios",
+  "publisher": "Eidos Interactive",
+  "platforms": [
+    "PlayStation 3",
+    "Xbox 360",
+    "Microsoft Windows"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "metroidvania"
+  ],
+  "era": "2000s",
+  "shortDescription": "Batman is trapped inside Arkham Asylum when the Joker seizes control of the facility.",
+  "historicalSignificance": "Invented the genre-defining Freeflow combat and Predator stealth systems, breaking the superhero game curse.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Batman:_Arkham_Asylum",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Batman is trapped inside Arkham Asylum when the Joker seizes control of the facility.",
+    "culturalImpact": "Invented the genre-defining Freeflow combat and Predator stealth systems, breaking the superhero game curse."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 3"
+    ],
+    "genres": [
+      "action-adventure"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/8/87/Batman_Arkham_Asylum_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/8/87/Batman_Arkham_Asylum_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Batman:_Arkham_Asylum",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Batman: Arkham Asylum",
+    "Rocksteady Studios",
+    "Eidos Interactive",
+    "PlayStation 3",
+    "action-adventure",
+    "2009",
+    "2000s",
+    "PlayStation 3",
+    "Xbox 360",
+    "Microsoft Windows",
+    "metroidvania"
+  ],
+  "url": "/games/batman-arkham-asylum/",
+  "featured": false
+}

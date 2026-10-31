@@ -1,0 +1,44 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+  "id": "console-dreamcast",
+  "slug": "dreamcast",
+  "name": "Sega Dreamcast",
+  "manufacturer": "Sega",
+  "generation": "Sixth Generation",
+  "generationNumber": 6,
+  "originalReleaseYear": 1998,
+  "exactReleaseDate": "November 27, 1998",
+  "mediaFormat": "GD-ROM (1.2 GB proprietary optical disc)",
+  "significance": "The first home console shipped with a standard built-in modem for online gameplay and the platform that birthed console MMO culture.",
+  "verifiedFactualData": {
+    "cpu": "Hitachi SH-4 32-bit RISC @ 200 MHz",
+    "gpuOrVideoChip": "NEC PowerVR2 CLX2 @ 100 MHz",
+    "ram": "16 MB main RAM, 8 MB VRAM, 2 MB sound RAM"
+  },
+  "editorialContent": {
+    "overview": "Sega's forward-looking swan song, introducing built-in internet modems, arcade-perfect graphics, and VMU memory screens.",
+    "marketLegacy": "The first home console shipped with a standard built-in modem for online gameplay and the platform that birthed console MMO culture.",
+    "controllerDesign": "Four-port analog controller with dual expansion slots for VMU"
+  },
+  "keyGames": [
+    "shenmue",
+    "sonic-adventure",
+    "soulcalibur",
+    "jet-set-radio",
+    "phantasy-star-online"
+  ],
+  "assets": {
+    "mainImage": "/assets/images/consoles/dreamcast.png",
+    "heroImage": "/assets/images/consoles/dreamcast-hero.png",
+    "hardwareImage": "/assets/images/consoles/dreamcast-hardware.png"
+  },
+  "keywords": [
+    "dreamcast",
+    "sega",
+    "sixth generation",
+    "gd-rom",
+    "online modem",
+    "vmu",
+    "1998"
+  ]
+}

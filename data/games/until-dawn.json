@@ -1,0 +1,82 @@
+{
+  "id": "game-until-dawn",
+  "slug": "until-dawn",
+  "title": "Until Dawn",
+  "japaneseTitle": "アンティル・ドーン 惨劇の山荘",
+  "url": "/games/until-dawn/",
+  "originalReleaseYear": 2015,
+  "exactReleaseDate": "2015-08-25",
+  "developer": "Supermassive Games",
+  "publisher": "Sony Interactive Entertainment",
+  "director": "Will Byles",
+  "designer": "Tom Heaton",
+  "composer": "Jason Graves",
+  "originalLaunchPlatform": "PlayStation 4",
+  "platforms": [
+    "PlayStation 4",
+    "PlayStation 5",
+    "Microsoft Windows"
+  ],
+  "genre": "adventure",
+  "subgenres": [
+    "Survival Horror",
+    "Interactive Drama"
+  ],
+  "era": "2010s",
+  "shortDescription": "Supermassive Games' cinematic horror masterpiece tracking eight teenagers trapped on Blackwood Mountain with a ruthless 'Butterfly Effect' branching choice system.",
+  "historicalSignificance": "Redefined interactive slasher horror by giving every single playable character permanent mortality, pioneering modern cinematic streamable choice-based adventures.",
+  "editorialContent": {
+    "overview": "One year after the tragic disappearance of twin sisters, eight friends reunite at a secluded mountain lodge on Blackwood Mountain, only to be stalked by a masked psychopath and ancient cannibalistic Wendigos.",
+    "gameplay": "Focuses on cinematic camera angles, environmental clue gathering, high-stakes quick-time reactions, and the signature 'Don't Move' mechanic utilizing DualShock 4 motion gyroscopes.",
+    "technicalInnovation": "Powered by Guerrilla's Decima Engine (then known as the Killzone Shadow Fall engine), delivering terrifying photorealistic facial animation featuring actors Rami Malek and Hayden Panettiere.",
+    "culturalImpact": "Became a streaming phenomenon on YouTube and Twitch due to viewers reacting to shocking branching permutations and character deaths.",
+    "preservationNotes": "Preserved on PS4 physical disc and remade from the ground up in Unreal Engine 5 for PS5 and PC."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "August 25, 2015",
+    "leadPlatform": "PlayStation 4",
+    "genre": "adventure",
+    "sales": "Over 4 million copies sold",
+    "awards": [
+      "BAFTA Games Award for British Game 2016",
+      "TIGA Games Industry Award"
+    ],
+    "technicalSpecs": {
+      "engine": "Decima Engine (modified)",
+      "resolution": "1080p at 30fps (PS4)",
+      "soundChip": "5.1 Dolby Surround with Jason Graves orchestral horror score",
+      "mediaFormat": "Blu-ray Disc"
+    },
+    "relationships": {
+      "primaryConsole": "playstation-4",
+      "developerEntity": "Supermassive Games",
+      "lineage": [
+        "The Dark Pictures Anthology",
+        "The Quarry"
+      ]
+    }
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/1/17/Until_Dawn_cover_art.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/1/17/Until_Dawn_cover_art.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Until_Dawn_cover_art.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "until dawn",
+    "supermassive games",
+    "rami malek",
+    "wendigo",
+    "butterfly effect",
+    "horror",
+    "slasher",
+    "playstation 4",
+    "ps4"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

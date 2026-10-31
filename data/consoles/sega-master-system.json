@@ -1,0 +1,41 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+  "id": "console-sega-master-system",
+  "slug": "sega-master-system",
+  "name": "Sega Master System (Mark III)",
+  "manufacturer": "Sega",
+  "generation": "Third Generation",
+  "generationNumber": 3,
+  "originalReleaseYear": 1985,
+  "exactReleaseDate": "October 20, 1985",
+  "mediaFormat": "ROM Cartridge & Sega Card",
+  "significance": "Demonstrated superior color palette capabilities over the NES and inaugurated Sega's enduring international hardware presence.",
+  "verifiedFactualData": {
+    "cpu": "Zilog Z80 @ 3.58 MHz",
+    "gpuOrVideoChip": "Texas Instruments TMS9918A-derived VDP",
+    "ram": "8 KB work RAM, 16 KB video RAM"
+  },
+  "editorialContent": {
+    "overview": "Sega's technically superior 8-bit platform that achieved legendary status across Europe and Brazil.",
+    "marketLegacy": "Demonstrated superior color palette capabilities over the NES and inaugurated Sega's enduring international hardware presence.",
+    "controllerDesign": "Sega Control Pad with directional thumbpad and 2 buttons"
+  },
+  "keyGames": [
+    "phantasy-star",
+    "alex-kidd-in-miracle-world",
+    "wonder-boy-iii"
+  ],
+  "assets": {
+    "mainImage": "/assets/images/consoles/sega-master-system.png",
+    "heroImage": "/assets/images/consoles/sega-master-system-hero.png",
+    "hardwareImage": "/assets/images/consoles/sega-master-system-hardware.png"
+  },
+  "keywords": [
+    "sega master system",
+    "mark iii",
+    "sega",
+    "third generation",
+    "8-bit",
+    "1985"
+  ]
+}

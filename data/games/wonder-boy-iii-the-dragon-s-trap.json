@@ -1,0 +1,80 @@
+{
+  "id": "game-wonder-boy-iii-the-dragon-s-trap",
+  "slug": "wonder-boy-iii-the-dragon-s-trap",
+  "title": "Wonder Boy III: The Dragon's Trap",
+  "japaneseTitle": "モンスターワールドII ドラゴンの罠",
+  "url": "/games/wonder-boy-iii-the-dragon-s-trap/",
+  "originalReleaseYear": 1989,
+  "exactReleaseDate": "1989-12-09",
+  "developer": "Westone",
+  "publisher": "Sega",
+  "director": "Ryuichi Nishizawa",
+  "designer": "Ryuichi Nishizawa",
+  "composer": "Shinichi Sakamoto",
+  "originalLaunchPlatform": "Sega Master System",
+  "platforms": [
+    "Sega Master System",
+    "Sega Game Gear",
+    "TurboGrafx-16 (Dragon's Curse)"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "Metroidvania",
+    "Action Platformer"
+  ],
+  "era": "1980s",
+  "shortDescription": "Westone's peerless 8-bit non-linear adventure on Master System, pioneering animal transformations and interconnected world design.",
+  "historicalSignificance": "Universally recognized as the crowning artistic and technical achievement of the Sega Master System, establishing non-linear open-ended platforming (early Metroidvania design) on 8-bit hardware.",
+  "editorialContent": {
+    "overview": "Picking up immediately during the climactic boss battle of Wonder Boy in Monster Land, hero Hu-Man is struck by the dying Mecha Dragon's curse, transforming him into a half-human, half-lizard creature. He must journey across Monster Land to find the Salamander Cross.",
+    "gameplay": "Interconnected hub world exploration anchored by five shapeshifting animal forms: Lizard-Man (flame breath), Mouse-Man (climbing checkered walls), Piranha-Man (swimming), Lion-Man (overhead sword swipe), and Hawk-Man (free flight).",
+    "technicalInnovation": "Pushed the Master System's VDP graphics to render rich, colorful multi-scrolling biomes, featuring an ingenious password save system preserving currency, armor, and transformations.",
+    "culturalImpact": "Widely cited alongside Super Metroid and Castlevania: Symphony of the Night as a foundational text in exploratory 2D action adventure design.",
+    "preservationNotes": "Preserved on original Master System cartridges and lovingly remade by Lizardcube and Dotemu in 2017 with hand-drawn art and authentic retro code toggle."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "December 9, 1989",
+    "leadPlatform": "Sega Master System",
+    "genre": "action-adventure",
+    "sales": "Critical peak for Master System software in Europe and North America",
+    "awards": [
+      "Electronic Gaming Monthly Best Master System Game of the Year 1989"
+    ],
+    "technicalSpecs": {
+      "engine": "Westone Custom 8-bit Engine",
+      "resolution": "256 x 192 (Master System 16-color palette)",
+      "soundChip": "SN76489 PSG (Programmable Sound Generator)",
+      "mediaFormat": "2-Megabit ROM Cartridge"
+    },
+    "relationships": {
+      "primaryConsole": "sega-master-system",
+      "developerEntity": "Westone",
+      "lineage": [
+        "Wonder Boy",
+        "Monster Boy and the Cursed Kingdom"
+      ]
+    }
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/f/f3/Wonder_Boy_III_The_Dragon%27s_Trap_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/f/f3/Wonder_Boy_III_The_Dragon%27s_Trap_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Wonder_Boy_III_The_Dragon%27s_Trap_Cover.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "wonder boy iii",
+    "the dragon's trap",
+    "sega master system",
+    "westone",
+    "ryuichi nishizawa",
+    "metroidvania",
+    "lizardcube",
+    "1989"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

@@ -1,0 +1,41 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+  "id": "console-philips-cd-i",
+  "slug": "philips-cd-i",
+  "name": "Philips CD-i",
+  "manufacturer": "Philips",
+  "generation": "Fourth Generation",
+  "generationNumber": 4,
+  "originalReleaseYear": 1991,
+  "exactReleaseDate": "December 3, 1991",
+  "mediaFormat": "CD-i / CD-ROM / Video CD",
+  "significance": "Infamous for licensing iconic Nintendo franchises (Mario and Zelda) during the aborted SNES-CD alliance, resulting in legendary full-motion video cutscenes.",
+  "verifiedFactualData": {
+    "cpu": "Philips 68070 (Motorola 68000 core) @ 15.5 MHz",
+    "gpuOrVideoChip": "MCD 212 custom video processor",
+    "ram": "1 MB RAM"
+  },
+  "editorialContent": {
+    "overview": "Philips' interactive multimedia standard intended as an all-in-one educational, encyclopedia, and interactive movie player.",
+    "marketLegacy": "Infamous for licensing iconic Nintendo franchises (Mario and Zelda) during the aborted SNES-CD alliance, resulting in legendary full-motion video cutscenes.",
+    "controllerDesign": "Infrared wireless remote, Commander controller"
+  },
+  "keyGames": [
+    "hotel-mario",
+    "zelda-wands-of-gamelon",
+    "burn-cycle"
+  ],
+  "assets": {
+    "mainImage": "/assets/images/consoles/philips-cd-i.png",
+    "heroImage": "/assets/images/consoles/philips-cd-i-hero.png",
+    "hardwareImage": "/assets/images/consoles/philips-cd-i-hardware.png"
+  },
+  "keywords": [
+    "philips cd-i",
+    "cd-i",
+    "multimedia",
+    "fourth generation",
+    "1991",
+    "zelda"
+  ]
+}

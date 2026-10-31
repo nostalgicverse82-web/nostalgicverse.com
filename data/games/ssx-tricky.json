@@ -1,0 +1,70 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-ssx-tricky",
+  "slug": "ssx-tricky",
+  "title": "SSX Tricky",
+  "originalReleaseYear": 2001,
+  "exactReleaseDate": "November 5, 2001",
+  "originalLaunchPlatform": "PlayStation 2",
+  "originalLaunchRegion": "North America",
+  "developer": "EA Canada",
+  "publisher": "EA Sports BIG",
+  "platforms": [
+    "PlayStation 2",
+    "GameCube",
+    "Xbox"
+  ],
+  "genre": "sports",
+  "subgenres": [
+    "snowboarding"
+  ],
+  "era": "2000s",
+  "shortDescription": "Iconic snowboarding game introducing Uber Tricks, rival mechanics, and voice acting by Run-D.M.C.",
+  "historicalSignificance": "A timeless peak of sixth-generation arcade sports culture with unmatched personality and flow.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/SSX_Tricky",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Iconic snowboarding game introducing Uber Tricks, rival mechanics, and voice acting by Run-D.M.C.",
+    "culturalImpact": "A timeless peak of sixth-generation arcade sports culture with unmatched personality and flow."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 2"
+    ],
+    "genres": [
+      "sports"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b3/Ssx_tricky_box.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/b/b3/Ssx_tricky_box.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/SSX_Tricky",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "SSX Tricky",
+    "EA Canada",
+    "EA Sports BIG",
+    "PlayStation 2",
+    "sports",
+    "2001",
+    "2000s",
+    "PlayStation 2",
+    "GameCube",
+    "Xbox",
+    "snowboarding"
+  ],
+  "url": "/games/ssx-tricky/",
+  "featured": false
+}

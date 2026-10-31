@@ -1,0 +1,80 @@
+{
+  "id": "game-space-wars",
+  "slug": "space-wars",
+  "title": "Space Wars",
+  "japaneseTitle": "スペースウォーズ",
+  "url": "/games/space-wars/",
+  "originalReleaseYear": 1977,
+  "exactReleaseDate": "1977-10-01",
+  "developer": "Cinematronics",
+  "publisher": "Cinematronics",
+  "director": "Larry Rosenthal",
+  "designer": "Larry Rosenthal",
+  "composer": "Discrete Audio Synthesis",
+  "originalLaunchPlatform": "Arcade",
+  "platforms": [
+    "Arcade",
+    "Vectrex"
+  ],
+  "genre": "shooter",
+  "subgenres": [
+    "Vector Graphics",
+    "Space Combat"
+  ],
+  "era": "1970s",
+  "shortDescription": "Larry Rosenthal's seminal duel game that introduced commercial vector beam graphics and realistic Newtonian gravitational physics to arcade gaming.",
+  "historicalSignificance": "The first commercial arcade video game to utilize vector graphics technology, adapting MIT's 1962 Spacewar! with dedicated vector monitor hardware and establishing Cinematronics as an arcade powerhouse.",
+  "editorialContent": {
+    "overview": "Frustrated that discrete arcade hardware could not replicate the sharp vector beauty of PDP-1 Spacewar!, MIT graduate Larry Rosenthal built his own custom TTL vector hardware engine, founding Cinematronics to produce Space Wars in 1977.",
+    "gameplay": "Two players command needle and wedge triangular spaceships dueling around a central gravitational black hole, balancing fuel reserves, torpedo trajectories, Newtonian inertia, and hyper-space jumps.",
+    "technicalInnovation": "Pioneered the 'Vectorbeam' display monitor, firing electrons directly to draw razor-sharp line vectors instead of conventional raster pixel scanlines.",
+    "culturalImpact": "Ignited the Golden Age vector gaming craze, directly paving the way for Atari's Asteroids, Lunar Lander, Battlezone, and Tempest.",
+    "preservationNotes": "Vector CRT monitors are exceptionally rare and delicate; preserved in major computer museums and emulated via vector simulators."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "October 1977",
+    "leadPlatform": "Arcade",
+    "genre": "shooter",
+    "sales": "Over 10,000 cabinets manufactured (Top-earning game of 1978)",
+    "awards": [
+      "Top Earning Video Game of 1978 (RePlay Magazine)"
+    ],
+    "technicalSpecs": {
+      "engine": "Custom C-CPU 24-bit vector processing board",
+      "resolution": "Electrostatic vector beam monitor (infinite line resolution)",
+      "soundChip": "Discrete analog sound board",
+      "mediaFormat": "Vector ROM PCB"
+    },
+    "relationships": {
+      "primaryConsole": "arcade",
+      "developerEntity": "Cinematronics",
+      "lineage": [
+        "Spacewar! (1962)",
+        "Asteroids",
+        "Vectrex"
+      ]
+    }
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/e/e8/Space_Wars_flyer.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/e/e8/Space_Wars_flyer.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Space_Wars_flyer.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "space wars",
+    "cinematronics",
+    "larry rosenthal",
+    "vector graphics",
+    "spacewar",
+    "arcade",
+    "1977",
+    "gravitational physics"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

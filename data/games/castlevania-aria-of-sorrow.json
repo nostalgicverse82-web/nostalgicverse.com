@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-castlevania-aria-of-sorrow",
+  "slug": "castlevania-aria-of-sorrow",
+  "title": "Castlevania: Aria of Sorrow",
+  "originalReleaseYear": 2003,
+  "exactReleaseDate": "May 6, 2003",
+  "originalLaunchPlatform": "Game Boy Advance",
+  "originalLaunchRegion": "North America",
+  "developer": "Konami Computer Entertainment Tokyo",
+  "publisher": "Konami",
+  "platforms": [
+    "Game Boy Advance"
+  ],
+  "genre": "metroidvania",
+  "subgenres": [
+    "gothic-action"
+  ],
+  "era": "2000s",
+  "shortDescription": "Exchange student Soma Cruz absorbs the souls of defeated monsters in Dracula's castle in the year 2035.",
+  "historicalSignificance": "Created the beloved Tactical Soul system, widely heralded as the finest Metroidvania since Symphony of the Night.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Castlevania:_Aria_of_Sorrow",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Exchange student Soma Cruz absorbs the souls of defeated monsters in Dracula's castle in the year 2035.",
+    "culturalImpact": "Created the beloved Tactical Soul system, widely heralded as the finest Metroidvania since Symphony of the Night."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "Game Boy Advance"
+    ],
+    "genres": [
+      "metroidvania"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Castlevania_Aria_of_Sorrow_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Castlevania_Aria_of_Sorrow_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Castlevania:_Aria_of_Sorrow",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Castlevania: Aria of Sorrow",
+    "Konami Computer Entertainment Tokyo",
+    "Konami",
+    "Game Boy Advance",
+    "metroidvania",
+    "2003",
+    "2000s",
+    "Game Boy Advance",
+    "gothic-action"
+  ],
+  "url": "/games/castlevania-aria-of-sorrow/",
+  "featured": false
+}

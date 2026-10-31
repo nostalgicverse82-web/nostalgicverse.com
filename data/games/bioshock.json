@@ -1,0 +1,94 @@
+{
+  "id": "game-bioshock",
+  "slug": "bioshock",
+  "title": "BioShock",
+  "japaneseTitle": "バイオショック",
+  "url": "/games/bioshock/",
+  "originalReleaseYear": 2007,
+  "exactReleaseDate": "2007-08-21",
+  "developer": "2K Boston (Irrational Games)",
+  "publisher": "2K Games",
+  "director": "Ken Levine",
+  "designer": "Ken Levine, Paul Hellquist",
+  "composer": "Garry Schyman",
+  "originalLaunchPlatform": "Xbox 360 / PC",
+  "platforms": [
+    "Xbox 360",
+    "Microsoft Windows",
+    "PlayStation 3",
+    "iOS",
+    "Nintendo Switch"
+  ],
+  "genre": "immersive-sim",
+  "subgenres": [
+    "Atmospheric FPS",
+    "Art Deco Dystopia",
+    "Philosophical Sci-Fi"
+  ],
+  "era": "2000s",
+  "shortDescription": "Ken Levine's philosophical underwater masterwork confronting Ayn Rand's Objectivism, Big Daddies, and 'Would you kindly'.",
+  "historicalSignificance": "Elevated the video game medium into mainstream literary and philosophical discourse with its critique of Objectivism inside the underwater city of Rapture, delivering one of the most famous fourth-wall-shattering narrative climaxes in gaming history.",
+  "editorialContent": {
+    "overview": "Directed by Ken Levine at 2K Boston (Irrational Games) and released in August 2007, BioShock opened with a plane crash into the mid-Atlantic Ocean in 1960. Surviving passenger Jack swims to a mysterious lighthouse, stepping into a bathysphere that descends into Rapture—a breathtaking underwater metropolis founded by industrialist Andrew Ryan as a libertarian haven free from government, religion, and moral restraint, now collapsed into madness and genetic addiction.",
+    "gameplay": "Players wield conventional firearms in one hand while shooting genetically modifying 'Plasmids' (Electro Bolt, Incinerate, Telekinesis) from the other. Combat emphasizes environmental synergy: electrocuting Splicers standing in water puddles, igniting oil slicks, or hacking automated security turrets. Encounters revolve around hunting hulking Big Daddies to choose whether to 'Harvest' or 'Rescue' Little Sisters for ADAM.",
+    "technicalInnovation": "Pioneered stunning real-time fluid dynamics simulation, volumetric fog, and authentic period licensed phonograph music (Billie Holiday, Django Reinhardt) alongside Garry Schyman's eerie avant-garde violin score.",
+    "culturalImpact": "BioShock shattered sales expectations and critically dismantled the illusion of player choice with the legendary phrase 'Would you kindly,' proving that game mechanics themselves could deliver profound meta-narrative commentary.",
+    "preservationNotes": "Preserved on original Xbox 360 discs, PC DVD-ROMs, the 2016 BioShock: The Collection remasters, and modern portable releases."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "August 21, 2007",
+    "leadPlatform": "Xbox 360",
+    "genre": "immersive-sim",
+    "sales": "Over 4 million copies for the original release; over 25 million for the franchise",
+    "awards": [
+      "BAFTA Award for Best Game 2007",
+      "Spike Video Game Award for Game of the Year 2007",
+      "Metacritic score of 96"
+    ],
+    "technicalSpecs": {
+      "engine": "Unreal Engine 2.5 with Havok physics and custom fluid simulation",
+      "resolution": "720p HD (Xbox 360)",
+      "soundChip": "Dolby Digital 5.1 with Garry Schyman neoclassical orchestral score",
+      "mediaFormat": "DVD-ROM"
+    },
+    "relationships": {
+      "primaryConsole": "xbox-360",
+      "developerEntity": "Irrational Games",
+      "lineage": [
+        "System Shock 2",
+        "BioShock 2",
+        "BioShock Infinite",
+        "Prey",
+        "Judas"
+      ]
+    }
+  },
+  "assets": {
+    "cover": "/assets/images/games/bioshock.webp",
+    "banner": "/assets/images/games/bioshock-banner.webp",
+    "screenshots": [
+      "/assets/images/games/bioshock-screen1.webp",
+      "/assets/images/games/bioshock-screen2.webp"
+    ],
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/6/6d/BioShock_cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/6/6d/BioShock_cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:BioShock_cover.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "bioshock",
+    "rapture",
+    "ken levine",
+    "andrew ryan",
+    "big daddy",
+    "would you kindly",
+    "plasmids",
+    "immersive sim"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

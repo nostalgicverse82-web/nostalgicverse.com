@@ -1,0 +1,42 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+  "id": "console-playstation-5-pro",
+  "slug": "playstation-5-pro",
+  "name": "Sony PlayStation 5 Pro",
+  "manufacturer": "Sony",
+  "generation": "Ninth Generation",
+  "generationNumber": 9,
+  "originalReleaseYear": 2024,
+  "exactReleaseDate": "November 7, 2024",
+  "mediaFormat": "All-Digital (Optional Detachable Ultra HD Blu-ray Drive)",
+  "significance": "Pioneered hardware-accelerated AI neural upscaling (PSSR) on home consoles to resolve the trade-off between fidelity and 60 FPS performance.",
+  "verifiedFactualData": {
+    "cpu": "Custom 8-core AMD Zen 2 @ up to 3.85 GHz",
+    "gpuOrVideoChip": "Enhanced AMD RDNA (16.7 TFLOPS, 60 CUs, 67% more compute units) + PSSR AI upscaling",
+    "ram": "16 GB GDDR6 @ 576 GB/s + 2 GB DDR5 OS RAM"
+  },
+  "editorialContent": {
+    "overview": "Sony's high-end enthusiast refresh introducing PlayStation Spectral Super Resolution (PSSR) machine learning upscaling and advanced ray tracing.",
+    "marketLegacy": "Pioneered hardware-accelerated AI neural upscaling (PSSR) on home consoles to resolve the trade-off between fidelity and 60 FPS performance.",
+    "controllerDesign": "DualSense wireless controller with adaptive triggers and haptics"
+  },
+  "keyGames": [
+    "final-fantasy-vii-rebirth",
+    "spider-man-2",
+    "alan-wake-2"
+  ],
+  "assets": {
+    "mainImage": "/assets/images/consoles/playstation-5-pro.png",
+    "heroImage": "/assets/images/consoles/playstation-5-pro-hero.png",
+    "hardwareImage": "/assets/images/consoles/playstation-5-pro-hardware.png"
+  },
+  "keywords": [
+    "playstation 5 pro",
+    "ps5 pro",
+    "sony",
+    "ninth generation",
+    "pssr",
+    "ray tracing",
+    "2024"
+  ]
+}

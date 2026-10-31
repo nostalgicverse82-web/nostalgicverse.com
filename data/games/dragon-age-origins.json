@@ -1,0 +1,70 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-dragon-age-origins",
+  "slug": "dragon-age-origins",
+  "title": "Dragon Age: Origins",
+  "originalReleaseYear": 2009,
+  "exactReleaseDate": "November 3, 2009",
+  "originalLaunchPlatform": "PlayStation 3",
+  "originalLaunchRegion": "North America",
+  "developer": "BioWare",
+  "publisher": "Electronic Arts",
+  "platforms": [
+    "PlayStation 3",
+    "Xbox 360",
+    "Microsoft Windows"
+  ],
+  "genre": "rpg",
+  "subgenres": [
+    "party-rpg"
+  ],
+  "era": "2000s",
+  "shortDescription": "A Grey Warden unites the fractured kingdom of Ferelden against the demonic Darkspawn Blight.",
+  "historicalSignificance": "BioWare's spiritual successor to Baldur's Gate, acclaimed for mature dark fantasy world-building and tactical pause combat.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Dragon_Age:_Origins",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "A Grey Warden unites the fractured kingdom of Ferelden against the demonic Darkspawn Blight.",
+    "culturalImpact": "BioWare's spiritual successor to Baldur's Gate, acclaimed for mature dark fantasy world-building and tactical pause combat."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 3"
+    ],
+    "genres": [
+      "rpg"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/8/89/Dragon_Age_Origins_cover.png",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/8/89/Dragon_Age_Origins_cover.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Dragon_Age:_Origins",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Dragon Age: Origins",
+    "BioWare",
+    "Electronic Arts",
+    "PlayStation 3",
+    "rpg",
+    "2009",
+    "2000s",
+    "PlayStation 3",
+    "Xbox 360",
+    "Microsoft Windows",
+    "party-rpg"
+  ],
+  "url": "/games/dragon-age-origins/",
+  "featured": false
+}

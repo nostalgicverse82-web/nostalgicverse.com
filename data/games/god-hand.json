@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-god-hand",
+  "slug": "god-hand",
+  "title": "God Hand",
+  "originalReleaseYear": 2006,
+  "exactReleaseDate": "September 14, 2006",
+  "originalLaunchPlatform": "PlayStation 2",
+  "originalLaunchRegion": "Japan",
+  "developer": "Clover Studio",
+  "publisher": "Capcom",
+  "platforms": [
+    "PlayStation 2"
+  ],
+  "genre": "beat-em-up",
+  "subgenres": [
+    "3d-action"
+  ],
+  "era": "2000s",
+  "shortDescription": "Shinji Mikami's unapologetically hardcore brawler featuring fully customizable combo strings and duck-weave dodging.",
+  "historicalSignificance": "A legendary cult classic treasured for its deep technical brawling and absurd comic tone.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/God_Hand",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Shinji Mikami's unapologetically hardcore brawler featuring fully customizable combo strings and duck-weave dodging.",
+    "culturalImpact": "A legendary cult classic treasured for its deep technical brawling and absurd comic tone."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 2"
+    ],
+    "genres": [
+      "beat-em-up"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/4/4b/God_Hand_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/4/4b/God_Hand_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/God_Hand",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "God Hand",
+    "Clover Studio",
+    "Capcom",
+    "PlayStation 2",
+    "beat-em-up",
+    "2006",
+    "2000s",
+    "PlayStation 2",
+    "3d-action"
+  ],
+  "url": "/games/god-hand/",
+  "featured": false
+}

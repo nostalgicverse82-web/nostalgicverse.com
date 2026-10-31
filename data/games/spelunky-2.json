@@ -1,0 +1,68 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-spelunky-2",
+  "slug": "spelunky-2",
+  "title": "Spelunky 2",
+  "originalReleaseYear": 2020,
+  "exactReleaseDate": "September 15, 2020",
+  "originalLaunchPlatform": "PlayStation 4",
+  "originalLaunchRegion": "Worldwide",
+  "developer": "Mossmouth / BlitWorks",
+  "publisher": "Mossmouth",
+  "platforms": [
+    "PlayStation 4",
+    "Microsoft Windows"
+  ],
+  "genre": "roguelike",
+  "subgenres": [
+    "platformer"
+  ],
+  "era": "2020s",
+  "shortDescription": "Ana Spelunky explores procedural subterranean Moon ruins packed with rideable mounts, liquid physics, and secret exits.",
+  "historicalSignificance": "Regarded as a peerless pinnacle of procedural platforming design and systemic cause-and-effect genius.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Spelunky_2",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Ana Spelunky explores procedural subterranean Moon ruins packed with rideable mounts, liquid physics, and secret exits.",
+    "culturalImpact": "Regarded as a peerless pinnacle of procedural platforming design and systemic cause-and-effect genius."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 4"
+    ],
+    "genres": [
+      "roguelike"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Spelunky_2_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Spelunky_2_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Spelunky_2",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Spelunky 2",
+    "Mossmouth / BlitWorks",
+    "Mossmouth",
+    "PlayStation 4",
+    "roguelike",
+    "2020",
+    "2020s",
+    "PlayStation 4",
+    "Microsoft Windows",
+    "platformer"
+  ],
+  "url": "/games/spelunky-2/",
+  "featured": false
+}

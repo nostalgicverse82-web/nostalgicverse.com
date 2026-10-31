@@ -1,0 +1,88 @@
+{
+  "id": "game-ico",
+  "slug": "ico",
+  "title": "Ico",
+  "japaneseTitle": "ICO",
+  "url": "/games/ico/",
+  "originalReleaseYear": 2001,
+  "exactReleaseDate": "2001-09-24",
+  "developer": "Team Ico (Japan Studio)",
+  "publisher": "Sony Computer Entertainment",
+  "director": "Fumito Ueda",
+  "designer": "Fumito Ueda",
+  "composer": "Michiru Oshima, pentagon",
+  "originalLaunchPlatform": "PlayStation 2",
+  "platforms": [
+    "PlayStation 2",
+    "PlayStation 3"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "Puzzle-Platformer",
+    "Art Game",
+    "Design by Subtraction"
+  ],
+  "era": "2000s",
+  "shortDescription": "Fumito Ueda's poetic minimalist masterpiece that introduced 'design by subtraction' and emotional hand-holding gameplay.",
+  "historicalSignificance": "Introduced the revolutionary philosophy of 'design by subtraction' (removing all UI clutter, mini-maps, and dialogue expository excess), proving video games could evoke genuine empathy and love through mechanical touch (holding the R1 button to clasp Yorda's hand).",
+  "editorialContent": {
+    "overview": "Directed by animator and artist Fumito Ueda at Sony Computer Entertainment's Japan Studio, Ico debuted in autumn 2001. Trapped inside an immense, sun-bleached seaside castle because of horns protruding from his head, young boy Ico discovers Yorda, a glowing, captive princess speaking an untranslatable language. Together, they embark on a silent escape across monumental stone ramparts.",
+    "gameplay": "Gameplay is centered around companionship: holding down the R1 trigger causes Ico to reach out and hold Yorda's hand, leading her across gaps, pulling her onto ledges, and pulling her back from shadowy phantoms that emerge from puddles to drag her into darkness.",
+    "technicalInnovation": "Pioneered keyframing physics, bloom lighting (key-light overexposure simulating blinding sunlight on bleached masonry), and an absence of music during exploration, relying entirely on wind acoustics, echoing footsteps, and bird calls.",
+    "culturalImpact": "Ico is widely cited by iconic game creators (including Hidetaka Miyazaki, Eiji Aonuma, and Neil Druckmann) as the work that convinced them games were a high art form. It gave birth to Shadow of the Colossus and The Last Guardian.",
+    "preservationNotes": "Preserved via original PS2 DVD media with famous Giorgio de Chirico-inspired cover art in Europe/Japan, and the Bluepoint Games PS3 HD remaster."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "September 24, 2001",
+    "leadPlatform": "PlayStation 2",
+    "genre": "action-adventure",
+    "sales": "Approximately 700,000 units worldwide",
+    "awards": [
+      "Game Developers Choice Awards for Excellence in Game Design, Visual Arts, and Innovation (3 awards)",
+      "AIAS Interactive Achievement Award"
+    ],
+    "technicalSpecs": {
+      "engine": "Team Ico custom PS2 bloom lighting and inverse kinematics engine",
+      "resolution": "240p / 480i progressive options",
+      "soundChip": "PS2 SPU2 ambient acoustic modeling with Michiru Oshima composition",
+      "mediaFormat": "CD-ROM / DVD-ROM"
+    },
+    "relationships": {
+      "primaryConsole": "playstation-2",
+      "developerEntity": "Sony Interactive Entertainment",
+      "lineage": [
+        "Another World",
+        "Shadow of the Colossus",
+        "The Last Guardian",
+        "Dark Souls"
+      ]
+    }
+  },
+  "assets": {
+    "cover": "/assets/images/games/ico.webp",
+    "banner": "/assets/images/games/ico-banner.webp",
+    "screenshots": [
+      "/assets/images/games/ico-screen1.webp",
+      "/assets/images/games/ico-screen2.webp"
+    ],
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/4/40/Ico_cover_-_EU%2BJP.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/4/40/Ico_cover_-_EU%2BJP.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Ico_cover_-_EU%2BJP.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "review-required",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "ico",
+    "fumito ueda",
+    "team ico",
+    "yorda",
+    "playstation 2",
+    "design by subtraction",
+    "art game"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

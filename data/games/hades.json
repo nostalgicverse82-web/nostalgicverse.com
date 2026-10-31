@@ -1,0 +1,93 @@
+{
+  "id": "game-hades",
+  "slug": "hades",
+  "title": "Hades",
+  "japaneseTitle": "ハデス",
+  "url": "/games/hades/",
+  "originalReleaseYear": 2020,
+  "exactReleaseDate": "2020-09-17",
+  "developer": "Supergiant Games",
+  "publisher": "Supergiant Games",
+  "director": "Greg Kasavin, Amir Rao",
+  "designer": "Greg Kasavin, Amir Rao",
+  "composer": "Darren Korb",
+  "originalLaunchPlatform": "Nintendo Switch / PC",
+  "platforms": [
+    "Nintendo Switch",
+    "Microsoft Windows",
+    "macOS",
+    "PlayStation 4",
+    "PlayStation 5",
+    "Xbox One",
+    "Xbox Series X/S",
+    "iOS"
+  ],
+  "genre": "action-rpg",
+  "subgenres": [
+    "Roguelike",
+    "Isometric Hack and Slash"
+  ],
+  "era": "2020s",
+  "shortDescription": "Supergiant Games' mythological rogue-like masterpiece, following Zagreus's rebellious escape from the Greek Underworld.",
+  "historicalSignificance": "The first video game in history to win a prestigious Hugo Award for literary excellence, masterfully solving the roguelike genre's narrative tension by progressing deep story arcs with every death and winning over 50 Game of the Year awards.",
+  "editorialContent": {
+    "overview": "Zagreus, Prince of the Underworld and son of Hades, defies his father to fight his way out of Tartarus, Asphodel, and Elysium toward Mount Olympus, aided by boons bestowed by his Olympian relatives.",
+    "gameplay": "Lightning-fast isometric combat across six infernal arms (sword, spear, shield, bow, fists, gun), dynamically modified by random divine Olympian boons that synergize into devastating builds.",
+    "technicalInnovation": "Seamlessly weaves procedural roguelike replayability with an enormous reactive narrative featuring over 300,000 spoken words and thousands of unique dialogue permutations reacting to player performance.",
+    "culturalImpact": "Won Game of the Year at BAFTA, D.I.C.E., and GDC, establishing Supergiant as a premier independent studio and setting the gold standard for roguelite storytelling.",
+    "preservationNotes": "Preserved on physical Switch and PS4/PS5 discs, including a printed character compendium booklet."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "September 17, 2020",
+    "leadPlatform": "Nintendo Switch",
+    "genre": "action-rpg",
+    "sales": "Over 1 million copies sold in launch week (multi-million franchise)",
+    "awards": [
+      "First Video Game to Win a Hugo Award",
+      "BAFTA Best Game 2021",
+      "D.I.C.E. Game of the Year 2021",
+      "GDC Game of the Year"
+    ],
+    "technicalSpecs": {
+      "engine": "Supergiant Custom 2D/3D Engine",
+      "resolution": "1080p 60fps (Switch/PS4) / 4K 60fps (PS5/Xbox Series)",
+      "soundChip": "Darren Korb Mediterranean heavy rock soundtrack",
+      "mediaFormat": "ROM Cartridge / Blu-ray Disc"
+    },
+    "relationships": {
+      "primaryConsole": "nintendo-switch",
+      "developerEntity": "Supergiant Games",
+      "lineage": [
+        "Bastion",
+        "Transistor",
+        "Hades II"
+      ]
+    }
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/c/cc/Hades_cover_art.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/c/cc/Hades_cover_art.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Hades_cover_art.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "hades",
+    "zagreus",
+    "supergiant games",
+    "greg kasavin",
+    "darren korb",
+    "roguelike",
+    "olympus",
+    "hugo award",
+    "nintendo switch",
+    "ps4",
+    "ps5",
+    "2020"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

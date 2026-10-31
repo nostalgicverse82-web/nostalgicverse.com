@@ -1,0 +1,91 @@
+{
+  "id": "game-the-witcher-3-wild-hunt",
+  "slug": "the-witcher-3-wild-hunt",
+  "title": "The Witcher 3: Wild Hunt",
+  "japaneseTitle": "ウィッチャー3 ワイルドハント",
+  "url": "/games/the-witcher-3-wild-hunt/",
+  "originalReleaseYear": 2015,
+  "exactReleaseDate": "2015-05-19",
+  "developer": "CD Projekt Red",
+  "publisher": "CD Projekt",
+  "director": "Konrad Tomaszkiewicz",
+  "designer": "Mateusz Tomaszkiewicz, Marcin Blacha",
+  "composer": "Marcin Przybyłowicz, Mikołaj Stroiński, Percival",
+  "originalLaunchPlatform": "PC / PS4 / Xbox One",
+  "platforms": [
+    "Microsoft Windows",
+    "PlayStation 4",
+    "Xbox One",
+    "Nintendo Switch",
+    "PlayStation 5",
+    "Xbox Series X/S"
+  ],
+  "genre": "action-rpg",
+  "subgenres": [
+    "Dark Fantasy Open World RPG",
+    "Narrative WRPG"
+  ],
+  "era": "2010s",
+  "shortDescription": "CD Projekt Red's open-world fantasy tour de force chronicling Geralt of Rivia, the Bloody Baron, and the Wild Hunt.",
+  "historicalSignificance": "Redefined the standards of open-world role-playing quest design, eliminating repetitive 'fetch quests' in favor of morally ambiguous, richly written character dramas even for minor side investigations across Velen, Novigrad, and Skellige.",
+  "editorialContent": {
+    "overview": "Developed over three and a half years by Warsaw-based CD Projekt Red and released in May 2015, The Witcher 3: Wild Hunt brought the saga of professional monster slayer Geralt of Rivia to an unforgettable climax. Pursuing his adoptive daughter Ciri across war-torn Velen, the bustling free city of Novigrad, and the wind-swept Viking archipelago of Skellige, Geralt races to protect her from the spectral otherworldly Wild Hunt.",
+    "gameplay": "Players wield twin swords (steel for humans, silver for monsters), alchemical potions, oils, bombs, and five signs of Witcher magic (Aard, Igni, Yrden, Quen, Axii). Investigation mechanics utilize Witcher Senses to track scents and footprints, leading into deep bestiary preparation and the wildly addictive in-universe card game Gwent.",
+    "technicalInnovation": "REDengine 3 produced breathtaking natural environments featuring dynamic foliage wind simulation, realistic storm weather fronts that swept across horizons, and emotional cinematic character dialogue with intricate Slavic folk instrumentation by Percival.",
+    "culturalImpact": "The Witcher 3 won over 250 Game of the Year awards, establishing CD Projekt Red as an industry heavyweight and transforming Andrzej Sapkowski's fantasy saga into a global multi-media franchise, including a smash-hit Netflix television series.",
+    "preservationNotes": "Preserved on PC and consoles, elevated in 2022 with a free next-generation update featuring ray-tracing, integrated community mods, and cross-progression."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "May 19, 2015",
+    "leadPlatform": "Microsoft Windows",
+    "genre": "action-rpg",
+    "sales": "Over 50 million copies sold worldwide",
+    "awards": [
+      "Game of the Year 2015 (The Game Awards, GDC Awards, Golden Joystick Awards)",
+      "Over 250 GOTY Awards"
+    ],
+    "technicalSpecs": {
+      "engine": "CD Projekt REDengine 3 with SpeedTree and Umbra 3 visibility streaming",
+      "resolution": "1080p (PS4/Xbox One), up to 4K 60fps / Ray Tracing on modern hardware",
+      "soundChip": "Dolby Digital 5.1 / Dolby Atmos with Slavic folk ensemble Percival soundtrack",
+      "mediaFormat": "Blu-ray Disc / GOG / Steam Digital Download"
+    },
+    "relationships": {
+      "primaryConsole": "pc",
+      "developerEntity": "CD Projekt Red",
+      "lineage": [
+        "The Witcher",
+        "The Witcher 2: Assassins of Kings",
+        "Cyberpunk 2077"
+      ]
+    }
+  },
+  "assets": {
+    "cover": "/assets/images/games/the-witcher-3-wild-hunt.webp",
+    "banner": "/assets/images/games/the-witcher-3-wild-hunt-banner.webp",
+    "screenshots": [
+      "/assets/images/games/the-witcher-3-wild-hunt-screen1.webp",
+      "/assets/images/games/the-witcher-3-wild-hunt-screen2.webp"
+    ],
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/0/0c/Witcher_3_cover_art.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/0/0c/Witcher_3_cover_art.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Witcher_3_cover_art.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "the witcher 3",
+    "geralt of rivia",
+    "cd projekt red",
+    "wild hunt",
+    "ciri",
+    "gwent",
+    "bloody baron",
+    "open world rpg"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": true
+}

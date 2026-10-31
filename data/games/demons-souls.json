@@ -1,0 +1,88 @@
+{
+  "id": "game-demons-souls",
+  "slug": "demons-souls",
+  "title": "Demon's Souls",
+  "japaneseTitle": "デモンズソウル",
+  "url": "/games/demons-souls/",
+  "originalReleaseYear": 2009,
+  "exactReleaseDate": "2009-02-05",
+  "developer": "FromSoftware",
+  "publisher": "Sony Computer Entertainment / Atlus",
+  "director": "Hidetaka Miyazaki",
+  "designer": "Hidetaka Miyazaki",
+  "composer": "Shunsuke Kida",
+  "originalLaunchPlatform": "PlayStation 3",
+  "platforms": [
+    "PlayStation 3",
+    "PlayStation 5"
+  ],
+  "genre": "soulslike",
+  "subgenres": [
+    "Dark Fantasy Action RPG",
+    "Soulslike Progenitor"
+  ],
+  "era": "2000s",
+  "shortDescription": "Hidetaka Miyazaki's dark fantasy breakthrough that gave birth to the Soulslike genre with unforgiving combat and asynchronous multiplayer.",
+  "historicalSignificance": "The genesis of the 'Soulslike' genre, defying industry trends toward hand-holding and casualization by restoring punishing difficulty, risk-versus-reward soul recovery, and revolutionary asynchronous multiplayer (bloodstains, floor messages, phantom invasions).",
+  "editorialContent": {
+    "overview": "When FromSoftware's dark fantasy project was considered a failing disaster inside the studio, a young designer named Hidetaka Miyazaki volunteered to take over direction, reasoning that if it was already deemed a failure, no one would stop him from doing whatever he wanted. Released in Japan in February 2009 to modest expectations, Demon's Souls became a word-of-mouth international sensation, plunging players into the fog-shrouded, demon-infested kingdom of Boletaria.",
+    "gameplay": "Punishing real-time third-person combat where every swing of a sword consumes stamina. Defeat forfeits accumulated souls; dying sends players to the Nexus in half-health Soul Form, giving them a single life to recover their bloodstain or lose their currency forever. World Tendency shifts between White and Black based on player success and failure, altering enemy toughness and secret passages.",
+    "technicalInnovation": "Invented modern asynchronous multiplayer: players leave cryptic warnings and guidance on the ground, view the ghosts of other adventurers traversing their world, touch bloodstains to see how others met their gruesome demise, and invade another player's game as a hostile Black Phantom.",
+    "culturalImpact": "Demon's Souls sparked a global design revolution, transforming FromSoftware from a respected niche Japanese studio into one of the most revered developers in the world, and inaugurating the historic lineage of Dark Souls, Bloodborne, and Elden Ring.",
+    "preservationNotes": "Preserved on original PS3 Blu-ray discs, and rebuilt from the ground up as a showcase PlayStation 5 launch title by Bluepoint Games in 2020."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "February 5, 2009",
+    "leadPlatform": "PlayStation 3",
+    "genre": "soulslike",
+    "sales": "Over 1.7 million copies on PS3; massive word-of-mouth import success",
+    "awards": [
+      "GameSpot Game of the Year 2009",
+      "Game Developers Choice Award for Best Innovation"
+    ],
+    "technicalSpecs": {
+      "engine": "FromSoftware custom PS3 dark fantasy engine with Havok ragdoll physics",
+      "resolution": "720p HD (PS3)",
+      "soundChip": "PS3 7.1 LPCM with Shunsuke Kida dark orchestral brass and choir",
+      "mediaFormat": "Blu-ray Disc"
+    },
+    "relationships": {
+      "primaryConsole": "playstation-3",
+      "developerEntity": "FromSoftware",
+      "lineage": [
+        "King's Field",
+        "Dark Souls",
+        "Bloodborne",
+        "Elden Ring"
+      ]
+    }
+  },
+  "assets": {
+    "cover": "/assets/images/games/demons-souls.webp",
+    "banner": "/assets/images/games/demons-souls-banner.webp",
+    "screenshots": [
+      "/assets/images/games/demons-souls-screen1.webp",
+      "/assets/images/games/demons-souls-screen2.webp"
+    ],
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/9/91/Demon%27s_Souls_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/9/91/Demon%27s_Souls_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Demon%27s_Souls_Cover.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "review-required",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "demon's souls",
+    "hidetaka miyazaki",
+    "fromsoftware",
+    "boletaria",
+    "soulslike",
+    "bloodstain",
+    "playstation 3",
+    "nexus"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

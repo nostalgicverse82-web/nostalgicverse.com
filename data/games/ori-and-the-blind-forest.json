@@ -1,0 +1,68 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-ori-and-the-blind-forest",
+  "slug": "ori-and-the-blind-forest",
+  "title": "Ori and the Blind Forest",
+  "originalReleaseYear": 2015,
+  "exactReleaseDate": "March 11, 2015",
+  "originalLaunchPlatform": "Xbox One",
+  "originalLaunchRegion": "Worldwide",
+  "developer": "Moon Studios",
+  "publisher": "Microsoft Studios",
+  "platforms": [
+    "Xbox One",
+    "Microsoft Windows"
+  ],
+  "genre": "metroidvania",
+  "subgenres": [
+    "platformer"
+  ],
+  "era": "2010s",
+  "shortDescription": "A guardian spirit restores the dying forest of Nibel using the kinetic Bash maneuver in a painted fantasy world.",
+  "historicalSignificance": "Acclaimed for breath-taking hand-painted visuals, orchestral soundtrack, and emotionally resonant platforming.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Ori_and_the_Blind_Forest",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "A guardian spirit restores the dying forest of Nibel using the kinetic Bash maneuver in a painted fantasy world.",
+    "culturalImpact": "Acclaimed for breath-taking hand-painted visuals, orchestral soundtrack, and emotionally resonant platforming."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "Xbox One"
+    ],
+    "genres": [
+      "metroidvania"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Ori_and_the_Blind_Forest_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Ori_and_the_Blind_Forest_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ori_and_the_Blind_Forest",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Ori and the Blind Forest",
+    "Moon Studios",
+    "Microsoft Studios",
+    "Xbox One",
+    "metroidvania",
+    "2015",
+    "2010s",
+    "Xbox One",
+    "Microsoft Windows",
+    "platformer"
+  ],
+  "url": "/games/ori-and-the-blind-forest/",
+  "featured": false
+}

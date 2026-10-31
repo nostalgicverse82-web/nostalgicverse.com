@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://nostalgicverse.com/schemas/guide.schema.json",
+  "title": "NostalgicVerse Preservation Guide Schema",
+  "description": "Standardized schema for technical preservation and maintenance guides.",
+  "type": "object",
+  "required": [
+    "id",
+    "slug",
+    "title",
+    "difficulty",
+    "estimatedTime",
+    "topics",
+    "summary"
+  ],
+  "properties": {
+    "id": { "type": "string", "pattern": "^guide-[a-z0-9-]+$" },
+    "slug": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "title": { "type": "string" },
+    "difficulty": {
+      "type": "string",
+      "enum": ["Beginner", "Intermediate", "Advanced", "Expert"]
+    },
+    "estimatedTime": { "type": "string" },
+    "lastReviewedDate": { "type": "string" },
+    "topics": { "type": "array", "items": { "type": "string" } },
+    "summary": { "type": "string" },
+    "verifiedFactualData": {
+      "type": "object",
+      "properties": {
+        "requiredTools": { "type": "array", "items": { "type": "string" } },
+        "safetyCautions": { "type": "array", "items": { "type": "string" } },
+        "applicableHardware": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "editorialContent": {
+      "type": "object",
+      "properties": {
+        "introduction": { "type": "string" },
+        "technicalProcedure": { "type": "string" },
+        "troubleshooting": { "type": "string" },
+        "bestPractices": { "type": "string" }
+      }
+    },
+    "relatedExhibits": {
+      "type": "object",
+      "properties": {
+        "consoles": { "type": "array", "items": { "type": "string" } },
+        "guides": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "assets": {
+      "type": "object",
+      "properties": {
+        "mainImage": { "type": "string" },
+        "heroImage": { "type": "string" },
+        "diagrams": { "type": "array", "items": { "type": "string" } }
+      }
+    }
+  }
+}
+

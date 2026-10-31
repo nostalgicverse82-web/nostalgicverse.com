@@ -1,0 +1,87 @@
+{
+  "id": "game-inside",
+  "slug": "inside",
+  "title": "Inside",
+  "japaneseTitle": "インサイド",
+  "url": "/games/inside/",
+  "originalReleaseYear": 2016,
+  "exactReleaseDate": "2016-06-29",
+  "developer": "Playdead",
+  "publisher": "Playdead",
+  "director": "Arnt Jensen",
+  "designer": "Arnt Jensen, Jeppe Carlsen",
+  "composer": "Martin Stig Andersen, Søren Huusfeldt",
+  "originalLaunchPlatform": "Xbox One / PC",
+  "platforms": [
+    "Xbox One",
+    "Microsoft Windows",
+    "PlayStation 4",
+    "Nintendo Switch",
+    "iOS",
+    "macOS"
+  ],
+  "genre": "platformer",
+  "subgenres": [
+    "Puzzle Platformer",
+    "Dystopian Thriller"
+  ],
+  "era": "2010s",
+  "shortDescription": "Playdead's haunting minimalist puzzle-platformer masterpiece following an unnamed boy through a dystopian totalitarian surveillance facility.",
+  "historicalSignificance": "Holds a 93 Metacritic score, universally hailed alongside Limbo as the pinnacle of wordless cinematic puzzle-platforming, celebrated for its dark atmosphere, eerie body-horror climax, and Martin Stig Andersen's human skull-synthesized audio.",
+  "editorialContent": {
+    "overview": "Beginning without explanation in a dark forest hunted by masked guards and hounds, an unnamed boy navigates an ominous industrial facility conducting horrifying mind-control and biogenetic experiments.",
+    "gameplay": "Flawlessly paced environmental 2.5D physics puzzles involving mind-control helmets to command zombie-like thralls, underwater submersibles, gravity-altering water cubes, and silent stealth evasion.",
+    "technicalInnovation": "Pioneered proprietary temporal anti-aliasing (TAA) and subtle monochromatic volumetric lighting in Unity, paired with sound design processed through an actual human skull.",
+    "culturalImpact": "Won four BAFTA Games Awards and universal critical acclaim, sparking endless intellectual interpretations of its shocking, unforgettable climax.",
+    "preservationNotes": "Preserved on physical retail discs (bundled with Limbo) and ported across all modern digital platforms."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "June 29, 2016",
+    "leadPlatform": "Xbox One",
+    "genre": "platformer",
+    "sales": "Over 5 million copies sold worldwide",
+    "awards": [
+      "4 BAFTA Games Awards 2017 (Artistic Achievement, Game Design, Narrative, Original Property)"
+    ],
+    "technicalSpecs": {
+      "engine": "Unity (heavily customized with custom TAA)",
+      "resolution": "1080p 60fps (PS4/Xbox One) / 4K on modern hardware",
+      "soundChip": "Acoustic audio routed through a human skull by Martin Stig Andersen",
+      "mediaFormat": "Blu-ray Disc / Digital"
+    },
+    "relationships": {
+      "primaryConsole": "xbox-one",
+      "developerEntity": "Playdead",
+      "lineage": [
+        "Limbo",
+        "Somerville"
+      ]
+    }
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/e/ec/Inside_poster.png",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/e/ec/Inside_poster.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Inside_poster.png",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "inside",
+    "playdead",
+    "arnt jensen",
+    "puzzle platformer",
+    "limbo",
+    "dystopian",
+    "mind control",
+    "the huddle",
+    "playstation 4",
+    "ps4",
+    "xbox one",
+    "2016"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

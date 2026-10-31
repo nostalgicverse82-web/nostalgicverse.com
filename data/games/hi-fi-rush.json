@@ -1,0 +1,83 @@
+{
+  "id": "game-hi-fi-rush",
+  "slug": "hi-fi-rush",
+  "title": "Hi-Fi Rush",
+  "japaneseTitle": "ハイファイ ラッシュ",
+  "url": "/games/hi-fi-rush/",
+  "originalReleaseYear": 2023,
+  "exactReleaseDate": "2023-01-25",
+  "developer": "Tango Gameworks",
+  "publisher": "Bethesda Softworks",
+  "director": "John Johanas",
+  "designer": "Masaaki Yamada",
+  "composer": "Shuichi Kobori, REO",
+  "originalLaunchPlatform": "Xbox Series X/S / PC",
+  "platforms": [
+    "Xbox Series X/S",
+    "Microsoft Windows",
+    "PlayStation 5"
+  ],
+  "genre": "action",
+  "subgenres": [
+    "Rhythm Action",
+    "Hack and Slash"
+  ],
+  "era": "2020s",
+  "shortDescription": "Tango Gameworks' jubilant rhythm-action triumph, synchronizing fluid character-action combat to the pulsing beat of an infectious rock soundtrack.",
+  "historicalSignificance": "Surprise shadow-dropped to ecstatic acclaim in January 2023, celebrated for seamlessly fusing Devil May Cry character combat with rhythm game timing inside a Saturday-morning cartoon cel-shaded visual aesthetic, winning Best Audio Design at The Game Awards.",
+  "editorialContent": {
+    "overview": "When a cybernetic surgery accident fuses an MP3 music player directly into the heart of aspiring rockstar Chai, he finds the entire world pulsating to his internal rhythm, teaming up with robotic cat 808 to take down the corrupt Armstrong megacorporation.",
+    "gameplay": "Brilliant rhythm-combat synchronization: every light attack, heavy smash, parry, and jump snaps naturally to the musical tempo, with on-beat button presses dealing maximum damage, calling assist allies, and executing theatrical 'Beat Hits'.",
+    "technicalInnovation": "The entire 3D world—machinery, steam vents, enemy attacks, environmental hazards, and UI—is fully synchronized to the soundtrack tempo, accompanied by seamless transitions between 2D hand-drawn anime cutscenes and 60 FPS gameplay.",
+    "culturalImpact": "Demonstrated the power of unexpected word-of-mouth game releases without traditional marketing campaigns, celebrated for pure infectious optimism.",
+    "preservationNotes": "Preserved on Xbox Series X and PS5 physical media via Limited Run Games."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "January 25, 2023",
+    "leadPlatform": "Xbox Series X/S",
+    "genre": "action",
+    "sales": "Over 3 million players worldwide",
+    "awards": [
+      "The Game Awards Best Audio Design 2023",
+      "BAFTA Games Award for Animation 2024"
+    ],
+    "technicalSpecs": {
+      "engine": "Unreal Engine 4",
+      "resolution": "Native 4K at locked 60fps (Xbox Series X / PS5)",
+      "soundChip": "Fully synchronized dynamic licensed soundtrack (Nine Inch Nails, The Black Keys)",
+      "mediaFormat": "Digital / Blu-ray Disc"
+    },
+    "relationships": {
+      "primaryConsole": "xbox-series-x",
+      "developerEntity": "Tango Gameworks",
+      "lineage": [
+        "The Evil Within",
+        "Devil May Cry"
+      ]
+    }
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/c/c7/Hi-Fi_Rush_cover_art.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/c/c7/Hi-Fi_Rush_cover_art.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Hi-Fi_Rush_cover_art.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "hi-fi rush",
+    "chai",
+    "tango gameworks",
+    "john johanas",
+    "rhythm action",
+    "bethesda",
+    "xbox series x",
+    "ps5",
+    "playstation 5",
+    "2023"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

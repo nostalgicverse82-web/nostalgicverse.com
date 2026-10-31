@@ -1,0 +1,47 @@
+{
+  "auditDate": "2026-09-27T10:20:45.589Z",
+  "subsystems": {
+    "comments": {
+      "createCommentPass": {
+        "id": "b10dcdb5-9475-4e3b-8ec8-e070a5b88e6e",
+        "parentId": null,
+        "body": "Comprehensive museum exhibit comment.",
+        "createdAt": "2026-09-27 10:20:45",
+        "isOwn": true,
+        "author": {
+          "id": "user-a-1790504445602",
+          "username": "chattest_a_1790504445602"
+        }
+      },
+      "fetchCommentsPass": true,
+      "pass": true
+    },
+    "reviews": {
+      "validReviewCreated": true,
+      "outOfBoundsRatingRejected": true,
+      "pass": true
+    },
+    "reactions": {
+      "postLikeOk": true,
+      "postDislikeOk": true,
+      "mutexEnforced": true,
+      "pass": true
+    },
+    "chat": {
+      "conversationCreation": "aa0e0dab-9778-4d92-883a-fb9574e02964",
+      "messageIdempotency": true,
+      "pass": true
+    },
+    "business": {
+      "minorUnitPrecisionPass": true,
+      "featureFlagsLoaded": true,
+      "pass": true
+    },
+    "jobsAndAutomation": {
+      "jobEnqueued": true,
+      "jobTransitionCompleted": true,
+      "pass": true
+    }
+  },
+  "status": "PASS"
+}

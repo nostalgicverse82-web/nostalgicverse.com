@@ -1,0 +1,70 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-hotline-miami",
+  "slug": "hotline-miami",
+  "title": "Hotline Miami",
+  "originalReleaseYear": 2012,
+  "exactReleaseDate": "October 23, 2012",
+  "originalLaunchPlatform": "PlayStation 3",
+  "originalLaunchRegion": "North America",
+  "developer": "Dennaton Games",
+  "publisher": "Devolver Digital",
+  "platforms": [
+    "PlayStation 3",
+    "PS Vita",
+    "Microsoft Windows"
+  ],
+  "genre": "action",
+  "subgenres": [
+    "top-down-shooter"
+  ],
+  "era": "2010s",
+  "shortDescription": "Hyper-violent neon top-down murder simulator driven by cryptic answering machine messages in 1989 Miami.",
+  "historicalSignificance": "A defining landmark of the 2010s indie revolution, propelled by an unforgettable synthwave soundtrack.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Hotline_Miami",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Hyper-violent neon top-down murder simulator driven by cryptic answering machine messages in 1989 Miami.",
+    "culturalImpact": "A defining landmark of the 2010s indie revolution, propelled by an unforgettable synthwave soundtrack."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 3"
+    ],
+    "genres": [
+      "action"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/0/05/Hotline_Miami_Cover.png",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/0/05/Hotline_Miami_Cover.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Hotline_Miami",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Hotline Miami",
+    "Dennaton Games",
+    "Devolver Digital",
+    "PlayStation 3",
+    "action",
+    "2012",
+    "2012",
+    "PlayStation 3",
+    "PS Vita",
+    "Microsoft Windows",
+    "top-down-shooter"
+  ],
+  "url": "/games/hotline-miami/",
+  "featured": false
+}

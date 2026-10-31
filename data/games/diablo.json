@@ -1,0 +1,88 @@
+{
+  "id": "game-diablo",
+  "slug": "diablo",
+  "title": "Diablo",
+  "japaneseTitle": "ディアブロ",
+  "url": "/games/diablo/",
+  "originalReleaseYear": 1996,
+  "exactReleaseDate": "1996-12-31",
+  "developer": "Blizzard North",
+  "publisher": "Blizzard Entertainment",
+  "director": "David Brevik",
+  "designer": "David Brevik, Erich Schaefer, Max Schaefer",
+  "composer": "Matt Uelmen",
+  "originalLaunchPlatform": "Microsoft Windows",
+  "platforms": [
+    "Microsoft Windows",
+    "Mac OS",
+    "PlayStation"
+  ],
+  "genre": "action-rpg",
+  "subgenres": [
+    "Isometric Hack-and-Slash",
+    "Dungeon Crawler"
+  ],
+  "era": "1990s",
+  "shortDescription": "Blizzard North's dark fantasy action RPG that revitalized the genre with procedural dungeons, addictive loot drops, and Battle.net.",
+  "historicalSignificance": "Transformed slow turn-based Roguelikes into an adrenaline-fueled real-time action RPG loop of clicking, loot drops, and dungeon crawling, supported by Blizzard's free Battle.net online matchmaker.",
+  "editorialContent": {
+    "overview": "Developed by Blizzard North (originally Condor Inc.) and released on the eve of 1997, Diablo resurrected the Western role-playing game from commercial slumber. Conceived by David Brevik as a stop-motion claymation turn-based roguelike, Blizzard convinced the team to pivot to real-time action, producing one of the most addictive feedback loops in computing history under the cursed cathedral of Tristram.",
+    "gameplay": "Choosing between Warrior, Rogue, and Sorcerer, players descend through sixteen procedurally generated dungeon tiers leading to Hell itself. Gameplay is built upon mouse-driven tactical positioning, potion management, spell casting, and an irresistible random loot generator offering prefix/suffix magical equipment.",
+    "technicalInnovation": "Pioneered real-time SVGA isometric sprite rendering combined with server-synchronized multiplayer on Battle.net, enabling players across the globe to team up for cooperative dungeon clearing at zero subscription cost.",
+    "culturalImpact": "Matt Uelmen's iconic 12-string acoustic Tristram guitar theme became immortal, and Diablo's color-coded loot tier hierarchy (White, Blue, Gold) became the foundational economy for the modern gaming industry, from World of Warcraft to Destiny and Borderlands.",
+    "preservationNotes": "Preserved through community source reimplementations (DevilutionX), GOG digital releases, and original retail CD-ROM archives."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "December 31, 1996",
+    "leadPlatform": "Microsoft Windows",
+    "genre": "action-rpg",
+    "sales": "Over 2.5 million units by 2001",
+    "awards": [
+      "Computer Gaming World Game of the Year 1996",
+      "Origins Award Best Roleplaying Computer Game 1996"
+    ],
+    "technicalSpecs": {
+      "engine": "Blizzard North SVGA isometric 2D sprite engine",
+      "resolution": "640x480 256 colors",
+      "soundChip": "DirectSound / Miles Sound System wavetable audio",
+      "mediaFormat": "CD-ROM"
+    },
+    "relationships": {
+      "primaryConsole": "pc",
+      "developerEntity": "Blizzard Entertainment",
+      "lineage": [
+        "Rogue",
+        "Diablo II",
+        "Torchlight",
+        "Path of Exile"
+      ]
+    }
+  },
+  "assets": {
+    "cover": "/assets/images/games/diablo.webp",
+    "banner": "/assets/images/games/diablo-banner.webp",
+    "screenshots": [
+      "/assets/images/games/diablo-screen1.webp",
+      "/assets/images/games/diablo-screen2.webp"
+    ],
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/3/3a/Diablo_Coverart.png",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/3/3a/Diablo_Coverart.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Diablo_Coverart.png",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "diablo",
+    "blizzard north",
+    "david brevik",
+    "tristram",
+    "battle.net",
+    "action rpg",
+    "matt uelmen"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

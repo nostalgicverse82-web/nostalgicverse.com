@@ -1,0 +1,70 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-dark-souls-ii",
+  "slug": "dark-souls-ii",
+  "title": "Dark Souls II",
+  "originalReleaseYear": 2014,
+  "exactReleaseDate": "March 11, 2014",
+  "originalLaunchPlatform": "PlayStation 3",
+  "originalLaunchRegion": "North America",
+  "developer": "FromSoftware",
+  "publisher": "Bandai Namco",
+  "platforms": [
+    "PlayStation 3",
+    "Xbox 360",
+    "Microsoft Windows"
+  ],
+  "genre": "action-rpg",
+  "subgenres": [
+    "soulslike"
+  ],
+  "era": "2010s",
+  "shortDescription": "The cursed Undead journeys through ruined Drangleic seeking King Vendrick and crowns to stave off Hollowing.",
+  "historicalSignificance": "Expanded build variety and power-stancing dual weaponry, delivering a massive and rewarding dark fantasy challenge.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Dark_Souls_II",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "The cursed Undead journeys through ruined Drangleic seeking King Vendrick and crowns to stave off Hollowing.",
+    "culturalImpact": "Expanded build variety and power-stancing dual weaponry, delivering a massive and rewarding dark fantasy challenge."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 3"
+    ],
+    "genres": [
+      "action-rpg"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/e/ed/Dark_Souls_II_cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/e/ed/Dark_Souls_II_cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Dark_Souls_II",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Dark Souls II",
+    "FromSoftware",
+    "Bandai Namco",
+    "PlayStation 3",
+    "action-rpg",
+    "2014",
+    "2010s",
+    "PlayStation 3",
+    "Xbox 360",
+    "Microsoft Windows",
+    "soulslike"
+  ],
+  "url": "/games/dark-souls-ii/",
+  "featured": false
+}

@@ -1,0 +1,94 @@
+{
+  "id": "game-joust",
+  "slug": "joust",
+  "title": "Joust",
+  "url": "/games/joust/",
+  "originalReleaseYear": 1982,
+  "exactReleaseDate": "1982-07-16",
+  "developer": "Williams Electronics",
+  "publisher": "Williams Electronics",
+  "designer": "John Newcomer",
+  "originalLaunchPlatform": "Arcade",
+  "platforms": [
+    "Arcade",
+    "Atari 2600",
+    "Atari 5200",
+    "Atari 7800",
+    "NES",
+    "Apple II"
+  ],
+  "genre": "platformer",
+  "subgenres": [
+    "Arena Platformer",
+    "Cooperative Combat"
+  ],
+  "era": "1980s",
+  "shortDescription": "Williams Electronics' frantic arena combat masterpiece featuring flying ostriches, flap-physics momentum, and pioneering cooperative/competitive two-player multiplayer.",
+  "historicalSignificance": "Pioneered inertial flapping flight physics, introduced two-player simultaneous cooperative/competitive arena combat, and directly influenced Shigeru Miyamoto's design of Mario Bros. and Balloon Fight.",
+  "editorialContent": {
+    "overview": "Conceived by John Newcomer with programming by Bill Pfutzenreuter at Williams Electronics in Chicago, Joust deliberately broke away from the era's ubiquitous space shooters. By mounting heroic knights atop flying ostriches and storks battling over boiling lava pits, Newcomer created an enduring arcade staple with exceptional depth of play.",
+    "gameplayMechanics": "Combat is governed by vertical positioning: during a mid-air collision, the rider whose lance is even one pixel higher wins the joust, reducing the opponent to an egg that must be collected before hatching into a higher-tier enemy. Flapping the action button grants lift while joystick input directs flight inertia. Waves feature Bounders, Hunters, and Shadow Lords, plus an invincible pterodactyl that hunts lingering players.",
+    "technicalInnovation": "Joust ran on Williams' custom 6809 microprocessor hardware paired with a custom color blitter chip capable of moving large, fluidly animated bird sprites with realistic aerodynamic deceleration and inertia against gravity.",
+    "culturalImpact": "Joust was a major arcade smash and proved that two-player simultaneous cooperative gameplay—where allies could either aid each other or betray each other for bounty—was intensely compelling. Shigeru Miyamoto cited Joust as a key inspiration for Balloon Fight and Mario Bros.",
+    "preservationNotes": "Preserving Joust requires authentic 60Hz CRT display refresh and precise reproduction of the tactile Williams leaf-switch buttons that enabled rapid button-mashing flapping."
+  },
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "Newcomer, John. 'Classic Game Postmortem: Joust', Game Developers Conference (2014)",
+      "Sheff, David. 'Game Over: How Nintendo Zapped an American Industry', Random House (1993)",
+      "Williams Electronics Solid State Arcade Video Service Manual: Joust (1982)"
+    ],
+    "romMediaFormat": "Arcade PCB (Motorola 6809 CPU + Williams Blitter)",
+    "romSizeOriginal": "32 KB ROM",
+    "displayResolutionOriginal": "292 × 240 (Horizontal CRT)",
+    "audioHardware": "Williams custom 6802/6808 sound board",
+    "inputMethod": "2-way horizontal joystick + Flap button",
+    "multiplayerCapability": "2 Players (Simultaneous Co-op / Competitive)"
+  },
+  "relatedExhibits": {
+    "games": [
+      "defender",
+      "donkey-kong",
+      "super-mario-bros"
+    ],
+    "consoles": [
+      "atari-2600",
+      "atari-7800",
+      "nintendo-entertainment-system"
+    ],
+    "genres": [
+      "platformer"
+    ],
+    "timeline": [
+      "ev-1982-c64-launch"
+    ]
+  },
+  "assets": {
+    "heroImage": "/assets/images/games/joust-hero.webp",
+    "thumbnailImage": "/assets/images/games/joust.webp",
+    "coverImage": "/assets/images/games/joust-cover.webp",
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/8/88/Joust_Flyer.png",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/8/88/Joust_Flyer.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Joust_Flyer.png",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "joust",
+    "williams",
+    "john newcomer",
+    "ostrich",
+    "stork",
+    "flap",
+    "arena combat",
+    "arcade",
+    "co-op",
+    "1982",
+    "1980s"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

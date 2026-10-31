@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <!-- Strict No-Index for Owner Control Center -->
+  <title>Owner Command Center — NostalgicVerse</title>
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <meta name="theme-color" content="#08080C">
+
+  <!-- Command Center Stylesheet -->
+  <link rel="stylesheet" href="/assets/css/owner-ui.css">
+</head>
+<body class="owner-app-body">
+
+  <!-- Top App Bar -->
+  <header class="owner-header">
+    <div style="display:flex; align-items:center; gap:16px;">
+      <button class="mobile-nav-toggle" id="mobile-toggle" aria-label="Toggle navigation">☰</button>
+      <a href="/owner/" class="owner-brand">
+        <img src="/assets/images/branding/logo/logo.png" alt="NostalgicVerse Logo" onerror="this.style.display='none'">
+        <span class="owner-brand-title">NostalgicVerse</span>
+        <span class="owner-badge">Owner Center</span>
+      </a>
+    </div>
+
+    <div class="owner-header-actions">
+      <a href="/" style="text-decoration:none; padding:6px 12px; font-size:0.8rem; display:inline-flex; align-items:center; gap:6px; margin-right:8px; border-radius:4px; border:1px solid var(--oc-border); color:var(--oc-text-secondary); background:var(--oc-surface);" title="Return to Public Website">← Back to Website</a>
+
+      <div id="ws-status" class="ws-status-pill offline" title="Realtime WebSocket Status">
+        <span>Connecting...</span>
+      </div>
+
+      <button class="cmd-k-btn" id="open-cmd-palette">
+        <span>Command Palette</span>
+        <kbd>Ctrl K</kbd>
+      </button>
+
+      <div class="owner-user-pill" id="owner-profile-btn" title="Owner Account">
+        <img src="/assets/images/profile-icons/icon-01.png" alt="Owner Avatar" class="owner-user-avatar" id="header-avatar" onerror="this.src='/favicon.ico'">
+        <span style="font-weight:600; font-size:0.88rem;" id="header-username">owner</span>
+        <button id="owner-logout-btn" style="background:transparent; border:none; color:var(--oc-crimson); font-size:0.75rem; font-weight:700; cursor:pointer; margin-left:6px;">LOGOUT</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- App Layout -->
+  <div class="owner-layout">
+    
+    <!-- Sidebar Grouped Navigation -->
+    <aside class="owner-sidebar" id="sidebar">
+      
+      <div class="nav-group-title">Overview & Intelligence</div>
+      <div class="nav-item active" data-tab="overview">
+        <span class="nav-item-icon">📊</span>
+        <span>Overview</span>
+      </div>
+      <div class="nav-item" data-tab="analytics">
+        <span class="nav-item-icon">📈</span>
+        <span>Analytics</span>
+      </div>
+
+      <div class="nav-group-title">Community & Operations</div>
+      <div class="nav-item" data-tab="users">
+        <span class="nav-item-icon">👥</span>
+        <span>User Directory</span>
+      </div>
+      <div class="nav-item" data-tab="submissions">
+        <span class="nav-item-icon">📥</span>
+        <span>Submissions</span>
+      </div>
+      <div class="nav-item" data-tab="support">
+        <span class="nav-item-icon">🎫</span>
+        <span>Support Helpdesk</span>
+      </div>
+      <div class="nav-item" data-tab="moderation">
+        <span class="nav-item-icon">🛡️</span>
+        <span>Moderation</span>
+      </div>
+
+      <div class="nav-group-title">Content Management</div>
+      <div class="nav-item" data-tab="games">
+        <span class="nav-item-icon">🎮</span>
+        <span>Games CMS</span>
+      </div>
+      <div class="nav-item" data-tab="consoles">
+        <span class="nav-item-icon">🕹️</span>
+        <span>Consoles CMS</span>
+      </div>
+      <div class="nav-item" data-tab="editorial">
+        <span class="nav-item-icon">📰</span>
+        <span>Editorial & Lore</span>
+      </div>
+      <div class="nav-item" data-tab="timeline-genres">
+        <span class="nav-item-icon">⏳</span>
+        <span>Timeline & Genres</span>
+      </div>
+      <div class="nav-item" data-tab="releases-compat">
+        <span class="nav-item-icon">🚀</span>
+        <span>Releases & Compat</span>
+      </div>
+
+      <div class="nav-group-title">Digital Assets & Search</div>
+      <div class="nav-item" data-tab="media">
+        <span class="nav-item-icon">🖼️</span>
+        <span>Media Manager</span>
+      </div>
+      <div class="nav-item" data-tab="search-seo">
+        <span class="nav-item-icon">🔍</span>
+        <span>Search & SEO</span>
+      </div>
+      <div class="nav-item" data-tab="content-health">
+        <span class="nav-item-icon">🩺</span>
+        <span>Content Health</span>
+      </div>
+
+      <div class="nav-group-title">Automation & Infrastructure</div>
+      <div class="nav-item" data-tab="ai-chat">
+        <span class="nav-item-icon">💬</span>
+        <span>AI Chat</span>
+      </div>
+      <div class="nav-item" data-tab="jobs">
+        <span class="nav-item-icon">⚙️</span>
+        <span>Jobs Center</span>
+      </div>
+      <div class="nav-item" data-tab="ai">
+        <span class="nav-item-icon">🤖</span>
+        <span>AI Control Center</span>
+      </div>
+      <div class="nav-item" data-tab="backups">
+        <span class="nav-item-icon">💾</span>
+        <span>Backups & DR</span>
+      </div>
+      <div class="nav-item" data-tab="security">
+        <span class="nav-item-icon">🔒</span>
+        <span>Security & Sessions</span>
+      </div>
+
+      <div class="nav-group-title">Platform Administration</div>
+      <div class="nav-item" data-tab="business">
+        <span class="nav-item-icon">💼</span>
+        <span>Business & Ads</span>
+      </div>
+      <div class="nav-item" data-tab="audit">
+        <span class="nav-item-icon">📜</span>
+        <span>Audit Trail</span>
+      </div>
+      <div class="nav-item" data-tab="notifications">
+        <span class="nav-item-icon">🔔</span>
+        <span>Notifications</span>
+      </div>
+      <div class="nav-item" data-tab="settings">
+        <span class="nav-item-icon">🔧</span>
+        <span>Settings & Maint.</span>
+      </div>
+
+    </aside>
+
+    <!-- Main Dynamic Stage -->
+    <main class="owner-main" id="owner-stage" tabindex="-1">
+      <div style="text-align:center; padding: 60px 20px;">
+        <p style="color:var(--oc-text-muted);">Initializing NostalgicVerse Command Center...</p>
+      </div>
+    </main>
+
+  </div>
+
+  <!-- Command Palette Modal -->
+  <div class="cmd-modal-backdrop" id="cmd-modal">
+    <div class="cmd-modal">
+      <div class="cmd-input-wrap">
+        <span style="font-size:1.2rem; color:var(--oc-cyan);">⚡</span>
+        <input type="text" class="cmd-input" id="cmd-input" placeholder="Type a command or jump to subsystem... (Esc to close)" autocomplete="off">
+      </div>
+      <div class="cmd-results" id="cmd-results">
+        <!-- Injected dynamically -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Core Scripts -->
+  <script src="/assets/js/realtime-client.js"></script>
+  <script src="/assets/js/owner-ui.js"></script>
+
+</body>
+</html>

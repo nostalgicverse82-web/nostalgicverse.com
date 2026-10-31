@@ -1,0 +1,83 @@
+{
+  "id": "game-sega-rally-championship",
+  "slug": "sega-rally-championship",
+  "title": "Sega Rally Championship",
+  "japaneseTitle": "セガラリーチャンピオンシップ",
+  "url": "/games/sega-rally-championship/",
+  "originalReleaseYear": 1995,
+  "exactReleaseDate": "1995-02-01",
+  "developer": "Sega AM3",
+  "publisher": "Sega",
+  "director": "Kenji Sasaki",
+  "designer": "Tetsuya Mizuguchi",
+  "composer": "Takenobu Mitsuyoshi, Naofumi Hataya",
+  "originalLaunchPlatform": "Arcade (Sega Model 2)",
+  "platforms": [
+    "Arcade",
+    "Sega Saturn",
+    "Microsoft Windows",
+    "Game Boy Advance"
+  ],
+  "genre": "racing",
+  "subgenres": [
+    "Rally Racing",
+    "Arcade Simulator"
+  ],
+  "era": "1990s",
+  "shortDescription": "Sega AM3 and Tetsuya Mizuguchi's legendary arcade rally racer, pioneering surface-friction tire physics across tarmac, gravel, and mud.",
+  "historicalSignificance": "The seminal masterpiece that established the modern rally racing video game genre, acclaimed for its legendary Toyota Celica GT-Four vs. Lancia Delta HF Integrale rivalry and flawless surface friction handling.",
+  "editorialContent": {
+    "overview": "Conceived by producer Tetsuya Mizuguchi and director Kenji Sasaki, Sega Rally Championship debuted on Model 2 arcade boards before receiving one of the most technically celebrated arcade-to-home conversions on the Sega Saturn.",
+    "gameplay": "Pioneered distinct tire-friction physics according to road surface—cars behave radically differently when sliding from tarmac onto loose gravel or slick mud, guided by a co-driver calling out 'Easy right, maybe!'",
+    "technicalInnovation": "The Sega Saturn conversion famously achieved a silky locked 30 FPS with peerless analog steering wheel support, pushed as a demonstration of the system's dual processors.",
+    "culturalImpact": "Directly inspired the entire subgenre of rally racing simulations, including the Colin McRae Rally and Dirt franchises.",
+    "preservationNotes": "Preserved on Sega Model 2 arcade hardware and Sega Saturn CD-ROMs."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "February 1995 (Arcade) / December 1995 (Saturn)",
+    "leadPlatform": "Arcade",
+    "genre": "racing",
+    "sales": "Over 1.2 million copies on Sega Saturn; massive coin-op hit",
+    "awards": [
+      "Crowned Greatest Racing Game of All Time (Retro Gamer Magazine)"
+    ],
+    "technicalSpecs": {
+      "engine": "Sega Model 2A CRX hardware / Custom Saturn Engine",
+      "resolution": "496 x 384 at 60fps (Arcade) / 352 x 240 at 30fps (Saturn)",
+      "soundChip": "Sega MultiPCM / Yamaha SCSP",
+      "mediaFormat": "Arcade PCB / CD-ROM"
+    },
+    "relationships": {
+      "primaryConsole": "sega-saturn",
+      "developerEntity": "Sega",
+      "lineage": [
+        "Daytona USA",
+        "Sega Rally 2",
+        "Colin McRae Rally"
+      ]
+    }
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b5/Sega_Rally_Championship_Flyer.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/b/b5/Sega_Rally_Championship_Flyer.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Sega_Rally_Championship_Flyer.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "sega rally championship",
+    "sega am3",
+    "tetsuya mizuguchi",
+    "toyota celica",
+    "lancia delta",
+    "sega saturn",
+    "rally",
+    "arcade",
+    "1995"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

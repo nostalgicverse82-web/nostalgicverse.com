@@ -1,0 +1,42 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+  "id": "console-magnavox-odyssey",
+  "slug": "magnavox-odyssey",
+  "name": "Magnavox Odyssey",
+  "manufacturer": "Magnavox",
+  "generation": "First Generation",
+  "generationNumber": 1,
+  "originalReleaseYear": 1972,
+  "exactReleaseDate": "September 1972",
+  "mediaFormat": "Printed Circuit Jumper Cards",
+  "significance": "Established the commercial home video game industry, introducing television-connected interactive electronic gaming to consumer households.",
+  "verifiedFactualData": {
+    "cpu": "Discrete Transistor-Diode Logic",
+    "gpuOrVideoChip": "Analog Video Signal Generator",
+    "ram": "None"
+  },
+  "editorialContent": {
+    "overview": "Ralph Baer's pioneering 'Brown Box' commercialized as the world's very first home video game console.",
+    "marketLegacy": "Established the commercial home video game industry, introducing television-connected interactive electronic gaming to consumer households.",
+    "controllerDesign": "Dual hardwired dial controllers with reset button"
+  },
+  "keyGames": [
+    "table-tennis",
+    "roulette",
+    "submarines"
+  ],
+  "assets": {
+    "mainImage": "/assets/images/consoles/magnavox-odyssey.png",
+    "heroImage": "/assets/images/consoles/magnavox-odyssey-hero.png",
+    "hardwareImage": "/assets/images/consoles/magnavox-odyssey-hardware.png"
+  },
+  "keywords": [
+    "magnavox",
+    "odyssey",
+    "ralph baer",
+    "first generation",
+    "1972",
+    "analog",
+    "brown box"
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-metroid-dread",
+  "slug": "metroid-dread",
+  "title": "Metroid Dread",
+  "originalReleaseYear": 2021,
+  "exactReleaseDate": "October 8, 2021",
+  "originalLaunchPlatform": "Nintendo Switch",
+  "originalLaunchRegion": "Worldwide",
+  "developer": "MercurySteam / Nintendo EPD",
+  "publisher": "Nintendo",
+  "platforms": [
+    "Nintendo Switch"
+  ],
+  "genre": "metroidvania",
+  "subgenres": [
+    "action-adventure"
+  ],
+  "era": "2020s",
+  "shortDescription": "Samus Aran navigates planet ZDR while stalked through DNA zones by indestructible E.M.M.I. research robots.",
+  "historicalSignificance": "Concluded the 35-year mainline 2D Metroid saga with blistering speed, agility, and mechanical precision.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Metroid_Dread",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Samus Aran navigates planet ZDR while stalked through DNA zones by indestructible E.M.M.I. research robots.",
+    "culturalImpact": "Concluded the 35-year mainline 2D Metroid saga with blistering speed, agility, and mechanical precision."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "Nintendo Switch"
+    ],
+    "genres": [
+      "metroidvania"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Metroid_Dread_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Metroid_Dread_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Metroid_Dread",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Metroid Dread",
+    "MercurySteam / Nintendo EPD",
+    "Nintendo",
+    "Nintendo Switch",
+    "metroidvania",
+    "2021",
+    "2020s",
+    "Nintendo Switch",
+    "action-adventure"
+  ],
+  "url": "/games/metroid-dread/",
+  "featured": false
+}

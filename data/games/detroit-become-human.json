@@ -1,0 +1,82 @@
+{
+  "id": "game-detroit-become-human",
+  "slug": "detroit-become-human",
+  "title": "Detroit: Become Human",
+  "japaneseTitle": "デトロイト ビカム ヒューマン",
+  "url": "/games/detroit-become-human/",
+  "originalReleaseYear": 2018,
+  "exactReleaseDate": "2018-05-25",
+  "developer": "Quantic Dream",
+  "publisher": "Sony Interactive Entertainment",
+  "director": "David Cage",
+  "designer": "Gregory Diaconu",
+  "composer": "Philip Sheppard, Nima Fakhrara, John Paesano",
+  "originalLaunchPlatform": "PlayStation 4",
+  "platforms": [
+    "PlayStation 4",
+    "Microsoft Windows"
+  ],
+  "genre": "adventure",
+  "subgenres": [
+    "Interactive Drama",
+    "Sci-Fi Thriller"
+  ],
+  "era": "2010s",
+  "shortDescription": "Quantic Dream's ambitious branching interactive narrative exploring artificial intelligence sentience and civil rights across near-future Detroit.",
+  "historicalSignificance": "The most technologically elaborate interactive narrative drama in video game history, featuring a transparent post-chapter flowchart revealing thousands of branching moral choices and selling over 10 million copies.",
+  "editorialContent": {
+    "overview": "Set in the year 2038 where humanoid androids handle all societal labor, the narrative weaves together three distinct synthetic protagonists: Connor (a police investigator hunting rogue 'deviants'), Kara (a domestic caretaker who flees with a young child), and Markus (an activist leading an android liberation movement).",
+    "gameplay": "Combines scene investigation, dialogue negotiation, moral crisis decision-trees, and time-sensitive contextual action prompts with permanent character death consequences.",
+    "technicalInnovation": "Constructed an enormous script exceeding 4,000 pages of branching logic, tracked transparently through visual end-of-chapter flowcharts, and recorded via hundreds of motion-captured actors.",
+    "culturalImpact": "Demonstrated that interactive branching storytelling can achieve blockbuster mainstream success without traditional combat systems.",
+    "preservationNotes": "Preserved on PS4 disc media and ported to PC with 4K resolution support."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "May 25, 2018",
+    "leadPlatform": "PlayStation 4",
+    "genre": "adventure",
+    "sales": "Over 10 million copies sold worldwide",
+    "awards": [
+      "Game Critics Awards Best Action/Adventure Nominee",
+      "Over 20 international nominations"
+    ],
+    "technicalSpecs": {
+      "engine": "Quantic Dream Proprietary 64-bit Engine",
+      "resolution": "1080p (PS4) / Checkerboard 2160p (PS4 Pro)",
+      "soundChip": "Three independent composers creating bespoke character scores",
+      "mediaFormat": "Blu-ray Disc"
+    },
+    "relationships": {
+      "primaryConsole": "playstation-4",
+      "developerEntity": "Quantic Dream",
+      "lineage": [
+        "Heavy Rain",
+        "Beyond: Two Souls"
+      ]
+    }
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/b/ba/Detroit_Become_Human_cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/b/ba/Detroit_Become_Human_cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Detroit_Become_Human_cover.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "detroit become human",
+    "quantic dream",
+    "david cage",
+    "connor",
+    "markus",
+    "kara",
+    "android",
+    "interactive drama",
+    "playstation 4",
+    "ps4"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

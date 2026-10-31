@@ -1,0 +1,79 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.json",
+  "id": "game-half-life",
+  "slug": "half-life",
+  "title": "Half-Life",
+  "url": "/games/half-life/",
+  "originalReleaseYear": 1998,
+  "exactReleaseDate": "1998-11-19",
+  "developer": "Valve",
+  "publisher": "Sierra On-Line",
+  "director": "Gabe Newell, Mike Harrington",
+  "designer": "Marc Laidlaw, Ken Birdwell, John Cook",
+  "composer": "Kelly Bailey",
+  "originalLaunchPlatform": "PC",
+  "platforms": [
+    "PC",
+    "Macintosh",
+    "Linux",
+    "PlayStation 2"
+  ],
+  "genre": "Shooter",
+  "subgenres": [
+    "First-Person Shooter (FPS)",
+    "Sci-Fi Horror",
+    "Immersive Sim"
+  ],
+  "era": "1990s",
+  "shortDescription": "Valve's groundbreaking debut that eliminated traditional cutscenes in favor of uninterrupted first-person environmental storytelling and advanced enemy squad AI.",
+  "historicalSignificance": "Revolutionized the first-person shooter into a coherent narrative art form, demonstrated uninterrupted subjective perspective without cinematics, and fostered the modding ecosystem that spawned Counter-Strike.",
+  "editorialContent": {
+    "overview": "Founded in Kirkland, Washington in 1996 by former Microsoft engineers Gabe Newell and Mike Harrington, Valve Software debuted in November 1998 with Half-Life. Rejecting the prevailing industry norm of treating first-person shooters as disconnected mazes punctuated by passive pre-rendered FMV cutscenes, Valve cast the player as Dr. Gordon Freeman, a theoretical physicist caught in an apocalyptic dimensional tear at the sprawling, subterranean Black Mesa Research Facility in New Mexico. Half-Life swept over fifty Game of the Year awards, sold over nine million copies on personal computers, and permanently re-engineered the narrative and architectural expectations of 3D gaming.",
+    "gameplayMechanics": "The mechanical foundation of Half-Life is defined by absolute subjective continuity: the player never leaves Gordon Freeman's eyes, never watches a third-person cinematic, and never has control wrested away during story moments. The campaign functions as a single, unbroken chronological traversal through laboratory sectors, missile silos, radioactive disposal canals, surface canyons, and the alien border-world Xen. Combat is elevated by unprecedented enemy artificial intelligence: the Hazardous Environment Combat Unit (HECU) soldiers communicate verbally in real time, lay down suppressing fire, execute tactical flanking maneuvers, and flush players from cover using fragmentation grenades. Puzzles rely on intuitive physical logic—aligning high-voltage electrical circuits, manipulating water levels, and dodging industrial conveyor belts.",
+    "technicalInnovation": "Half-Life was built on 'GoldSrc' (GoldSource), an extensively rewritten proprietary game engine evolved from id Software's Quake and Quake II codebases. Valve replaced approximately 70% of the original Quake engine code, implementing 16-bit color rendering, 3D spatialized DirectSound audio, skeletal character animation systems (enabling complex multi-jointed locomotion without excessive polygonal overhead), and sophisticated scripted sequence triggers. Marc Laidlaw's environmental script allowed scientific colleagues and security guards to converse with Freeman, react dynamically to monster incursions, and unlock security doors while maintaining full player mobility. Kelly Bailey's industrial techno-ambient soundtrack dynamically punctuated high-stress firefights.",
+    "culturalImpact": "Half-Life's greatest technological legacy may reside in its democratized modding ecosystem. Valve shipped the game with complete software development kits, including the Worldcraft level editor and raw C++ source code headers. This open-source philosophy catalyzed an explosion of seminal community modifications that matured into standalone commercial titans: Minh Le and Jess Cliffe created Counter-Strike (1999), Robin Walker adapted Team Fortress Classic, and other teams authored Day of Defeat and Natural Selection. Counter-Strike in particular became the cornerstone of modern global tactical esports, while the need to distribute community Half-Life updates directly drove Valve to develop Steam in 2003.",
+    "preservationNotes": "Historical preservation requires distinguishing the original 1998 GoldSrc retail CD-ROM release (running natively on Windows 95/98 via Glide/Direct3D/software rendering with original WON network matchmaking) from the later Steam digital conversions and 2004's Half-Life: Source port. Archival documentation records original unpatched weapon balances, authentic EAX environmental audio reverb, and legacy WON netcode protocols."
+  },
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "Sierra On-Line / Valve Software. Half-Life User Manual (1998)",
+      "Keighley, Geoff. 'The Final Hours of Half-Life' GameSpot Feature (1998)",
+      "Laidlaw, Marc. 'The Black Mesa Incident: Narrative Architecture in First-Person Games' (GDC 2000)",
+      "Retro Gamer Magazine. 'The Making of Half-Life' (Issue #133, 2014)"
+    ],
+    "romMediaFormat": "1x CD-ROM Optical Disc (PC CD-ROM Jewel Case Format)",
+    "romSizeOriginal": "Approx. 500 MB installation footprint",
+    "displayResolutionOriginal": "640 × 480 / 800 × 600 / 1024 × 768 (Direct3D, OpenGL, 3dfx Glide)",
+    "audioHardware": "Software Audio Mixer / Creative Labs Sound Blaster / Aureal A3D / EAX",
+    "inputMethod": "Standard PC Keyboard + Mouse (WASD + Mouselook)",
+    "multiplayerCapability": "Up to 32 Players (TCP/IP / IPX LAN / WON Online Matchmaking)"
+  },
+  "assets": {
+    "heroImage": "/assets/images/games/half-life-hero.webp",
+    "thumbnailImage": "/assets/images/games/half-life.webp",
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/f/fa/Half-Life_Cover_Art.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/f/fa/Half-Life_Cover_Art.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Half-Life_Cover_Art.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "half-life",
+    "valve",
+    "gordon freeman",
+    "black mesa",
+    "gabe newell",
+    "marc laidlaw",
+    "goldsrc",
+    "fps",
+    "shooter",
+    "1998",
+    "1990s",
+    "counter-strike",
+    "pc"
+  ],
+  "featured": true
+}

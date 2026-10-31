@@ -1,0 +1,87 @@
+{
+  "id": "game-yars-revenge",
+  "slug": "yars-revenge",
+  "title": "Yars' Revenge",
+  "url": "/games/yars-revenge/",
+  "originalReleaseYear": 1982,
+  "exactReleaseDate": "1982-05-01",
+  "developer": "Atari, Inc.",
+  "publisher": "Atari, Inc.",
+  "designer": "Howard Scott Warshaw",
+  "originalLaunchPlatform": "Atari 2600",
+  "platforms": [
+    "Atari 2600",
+    "Game Boy Color"
+  ],
+  "genre": "shoot-em-up",
+  "subgenres": [
+    "Space Combat",
+    "Action"
+  ],
+  "era": "1980s",
+  "shortDescription": "Howard Scott Warshaw's visually hypnotic Atari 2600 space combat classic, which became the best-selling original first-party title in the console's history.",
+  "historicalSignificance": "Atari's top-selling original cartridge not ported from an arcade game, introducing the neutral 'Zorlon Cannon' superweapon and rich transmedia lore through an included DC comic book.",
+  "editorialContent": {
+    "overview": "Initially commissioned by Atari to create an adaptation of Cinematronics' arcade vector hit Star Castle, programmer Howard Scott Warshaw realized that the severe hardware limitations of the Atari 2600 would make an arcade-faithful port disappointing. Instead, Warshaw completely reimagined the game into an asymmetrical battle between mutated insectoid warriors (the Yar) and the militaristic Qotile empire, naming the game as a backward tribute to Atari CEO Ray Kassar.",
+    "gameplayMechanics": "Players fly an insectoid Yar, gnawing through the glittering energy shield surrounding the Qotile. Once a path is breached or enough shield material consumed, the player activates the devastating Zorlon Cannon on the left side of the screen. Lining up the cannon fire while dodging the deadly Swirl projectile creates exceptional arcade tension. A shimmering 'Neutral Zone' down the screen's center provides temporary immunity from guided missiles.",
+    "technicalInnovation": "Warshaw engineered a stunning visual trick to create the Neutral Zone: he directly displayed the CPU's program counter and memory code as a shimmering multi-colored static noise barrier, repurposing machine memory itself as an organic graphic asset.",
+    "culturalImpact": "Selling over one million cartridges, Yars' Revenge proved that games engineered specifically for home console strengths could vastly outperform compromised arcade conversions.",
+    "preservationNotes": "Preserved on authentic 4KB Atari 2600 cartridge ROMs, requiring accurate TIA cycle rendering to maintain the visual shimmering of the Neutral Zone."
+  },
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "Warshaw, Howard Scott. 'Once Upon Atari: The Inside Story', GDC Postmortem (2015)",
+      "Montfort, Nick & Bogost, Ian. 'Racing the Beam: The Atari Video Computer System', MIT Press (2009)",
+      "Atari VCS Cartridge Manual & Pack-in Comic Book: Yars' Revenge (1982)"
+    ],
+    "romMediaFormat": "Atari 2600 ROM Cartridge",
+    "romSizeOriginal": "4 KB ROM",
+    "displayResolutionOriginal": "160 × 192 (NTSC TIA Display)",
+    "audioHardware": "Atari TIA 2-channel sound generator",
+    "inputMethod": "Atari CX40 Joystick",
+    "multiplayerCapability": "1-2 Players (Alternating)"
+  },
+  "relatedExhibits": {
+    "games": [
+      "adventure",
+      "space-invaders",
+      "asteroids"
+    ],
+    "consoles": [
+      "atari-2600"
+    ],
+    "genres": [
+      "shoot-em-up"
+    ],
+    "timeline": [
+      "ev-1982-c64-launch"
+    ]
+  },
+  "assets": {
+    "heroImage": "/assets/images/games/yars-revenge-hero.webp",
+    "thumbnailImage": "/assets/images/games/yars-revenge.webp",
+    "coverImage": "/assets/images/games/yars-revenge-cover.webp",
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a8/Yars_Revenge_cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a8/Yars_Revenge_cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Yars_Revenge_cover.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "yars revenge",
+    "atari",
+    "howard scott warshaw",
+    "ray kassar",
+    "zorlon cannon",
+    "atari 2600",
+    "shoot-em-up",
+    "neutral zone",
+    "1982",
+    "1980s"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

@@ -1,0 +1,85 @@
+{
+  "id": "game-xenoblade-chronicles",
+  "slug": "xenoblade-chronicles",
+  "title": "Xenoblade Chronicles",
+  "japaneseTitle": "ゼノブレイド",
+  "url": "/games/xenoblade-chronicles/",
+  "originalReleaseYear": 2010,
+  "exactReleaseDate": "2010-06-10",
+  "developer": "Monolith Soft",
+  "publisher": "Nintendo",
+  "director": "Tetsuya Takahashi, Koh Kojima",
+  "designer": "Tetsuya Takahashi",
+  "composer": "Yoko Shimomura, ACE+, Manami Kiyota, Yasunori Mitsuda",
+  "originalLaunchPlatform": "Wii",
+  "platforms": [
+    "Wii",
+    "New Nintendo 3DS",
+    "Nintendo Switch"
+  ],
+  "genre": "role-playing",
+  "subgenres": [
+    "JRPG",
+    "Open World RPG"
+  ],
+  "era": "2010s",
+  "shortDescription": "Monolith Soft's monumental open-world JRPG on the Nintendo Wii, set entirely upon the bodies of two colossal frozen titan gods.",
+  "historicalSignificance": "Redefined the scope of modern JRPGs by extracting unprecedented panoramic draw distances and seamless open-world exploration from the modest Nintendo Wii hardware, launching Nintendo's premier modern RPG franchise.",
+  "editorialContent": {
+    "overview": "Set in an endless sea where civilization resides upon the frozen titan bodies of the Bionis and the Mechonis, young colonist Shulk awakens the prophetic powers of the energy blade Monado to defend his people from mechanical Mechon invaders.",
+    "gameplay": "Dynamic real-time MMO-style action combat featuring positional auto-attacks, chain attacks, party affinity, and the brilliant 'Vision' mechanic allowing Shulk to see lethal enemy boss attacks seconds in advance to warn allies or alter destiny.",
+    "technicalInnovation": "Achieved staggering technical scale on the 2006 Wii hardware: massive multi-mile draw distances, real-time day/night cycles with shifting monster populations, and seamless transitions between vast environments.",
+    "culturalImpact": "Spurred the historic fan-led 'Operation Rainfall' campaign to bring the game to North America, cementing Shulk as an iconic Nintendo protagonist and leading to three acclaimed sequels.",
+    "preservationNotes": "Preserved on dual-layer Wii optical disc, New 3DS cartridges, and completely remastered in Xenoblade Chronicles: Definitive Edition on Nintendo Switch."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "June 10, 2010 (Japan) / August 19, 2011 (Europe) / April 6, 2012 (North America)",
+    "leadPlatform": "Wii",
+    "genre": "role-playing",
+    "sales": "Over 2.5 million copies sold across Wii and Definitive Edition",
+    "awards": [
+      "Japan Game Awards Award for Excellence 2011",
+      "92 Metacritic Score"
+    ],
+    "technicalSpecs": {
+      "engine": "Monolith Soft Custom Open World Engine",
+      "resolution": "480p (Wii) / 720p HD (Nintendo Switch Definitive Edition)",
+      "soundChip": "Yoko Shimomura & Yasunori Mitsuda live orchestral acoustic score",
+      "mediaFormat": "Wii Dual-Layer Optical Disc"
+    },
+    "relationships": {
+      "primaryConsole": "wii",
+      "developerEntity": "Monolith Soft",
+      "lineage": [
+        "Xenogears",
+        "Xenosaga",
+        "Xenoblade Chronicles 2",
+        "Xenoblade Chronicles 3"
+      ]
+    }
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/0/07/Xenoblade_box_art.png",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/0/07/Xenoblade_box_art.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Xenoblade_box_art.png",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "xenoblade chronicles",
+    "shulk",
+    "monolith soft",
+    "tetsuya takahashi",
+    "monado",
+    "bionis",
+    "wii",
+    "nintendo switch",
+    "jrpg",
+    "2010"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

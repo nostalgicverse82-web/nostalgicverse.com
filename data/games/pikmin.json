@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-pikmin",
+  "slug": "pikmin",
+  "title": "Pikmin",
+  "originalReleaseYear": 2001,
+  "exactReleaseDate": "October 26, 2001",
+  "originalLaunchPlatform": "Nintendo GameCube",
+  "originalLaunchRegion": "Japan",
+  "developer": "Nintendo EAD",
+  "publisher": "Nintendo",
+  "platforms": [
+    "GameCube"
+  ],
+  "genre": "real-time-strategy",
+  "subgenres": [
+    "puzzle"
+  ],
+  "era": "2000s",
+  "shortDescription": "Stranded astronaut Captain Olimar commands plant-animal hybrid Pikmin to recover spaceship parts in 30 days.",
+  "historicalSignificance": "Shigeru Miyamoto's brilliant real-time strategy puzzle hybrid exploring micro-ecology and time management.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Pikmin",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Stranded astronaut Captain Olimar commands plant-animal hybrid Pikmin to recover spaceship parts in 30 days.",
+    "culturalImpact": "Shigeru Miyamoto's brilliant real-time strategy puzzle hybrid exploring micro-ecology and time management."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "Nintendo GameCube"
+    ],
+    "genres": [
+      "real-time-strategy"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/8/87/Pikmin_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/8/87/Pikmin_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Pikmin",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Pikmin",
+    "Nintendo EAD",
+    "Nintendo",
+    "Nintendo GameCube",
+    "real-time-strategy",
+    "2001",
+    "2000s",
+    "GameCube",
+    "puzzle"
+  ],
+  "url": "/games/pikmin/",
+  "featured": false
+}

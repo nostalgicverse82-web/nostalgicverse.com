@@ -1,0 +1,68 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-punch-out-wii",
+  "slug": "punch-out-wii",
+  "title": "Punch-Out!! (Wii)",
+  "originalReleaseYear": 2009,
+  "exactReleaseDate": "May 18, 2009",
+  "originalLaunchPlatform": "Wii",
+  "originalLaunchRegion": "North America",
+  "developer": "Next Level Games",
+  "publisher": "Nintendo",
+  "platforms": [
+    "Wii"
+  ],
+  "genre": "sports",
+  "subgenres": [
+    "boxing",
+    "puzzle"
+  ],
+  "era": "2000s",
+  "shortDescription": "Little Mac and Doc Louis take on colorful World Video Boxing Association fighters with cel-shaded animation.",
+  "historicalSignificance": "A masterclass arcade revival blending puzzle-pattern recognition with satisfying kinetic boxing mechanics.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Punch-Out!!_(Wii)",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Little Mac and Doc Louis take on colorful World Video Boxing Association fighters with cel-shaded animation.",
+    "culturalImpact": "A masterclass arcade revival blending puzzle-pattern recognition with satisfying kinetic boxing mechanics."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "Wii"
+    ],
+    "genres": [
+      "sports"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Punch-Out%21%21_Wii_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Punch-Out%21%21_Wii_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Punch-Out!!_(Wii)",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Punch-Out!! (Wii)",
+    "Next Level Games",
+    "Nintendo",
+    "Wii",
+    "sports",
+    "2009",
+    "2000s",
+    "Wii",
+    "boxing",
+    "puzzle"
+  ],
+  "url": "/games/punch-out-wii/",
+  "featured": false
+}

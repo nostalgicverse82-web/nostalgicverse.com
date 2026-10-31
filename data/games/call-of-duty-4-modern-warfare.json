@@ -1,0 +1,93 @@
+{
+  "id": "game-call-of-duty-4-modern-warfare",
+  "slug": "call-of-duty-4-modern-warfare",
+  "title": "Call of Duty 4: Modern Warfare",
+  "japaneseTitle": "コール オブ デューティ 4 モダン・ウォーフェア",
+  "url": "/games/call-of-duty-4-modern-warfare/",
+  "originalReleaseYear": 2007,
+  "exactReleaseDate": "2007-11-05",
+  "developer": "Infinity Ward",
+  "publisher": "Activision",
+  "director": "Jason West",
+  "designer": "Vince Zampella, Mackey McCandlish",
+  "composer": "Harry Gregson-Williams, Stephen Barton",
+  "originalLaunchPlatform": "Xbox 360 / PS3 / PC",
+  "platforms": [
+    "Xbox 360",
+    "PlayStation 3",
+    "Microsoft Windows",
+    "Wii",
+    "Mac OS"
+  ],
+  "genre": "first-person-shooter",
+  "subgenres": [
+    "Military FPS",
+    "Tactical Modern Shooter",
+    "Multiplayer Progression"
+  ],
+  "era": "2000s",
+  "shortDescription": "Infinity Ward's military shooter milestone that created the modern multiplayer progression loop, killstreaks, and 'All Ghillied Up'.",
+  "historicalSignificance": "Transformed the entire first-person shooter genre by abandoning World War II for contemporary conflict, inventing the modern multiplayer progression meta (Create-a-Class, XP ranks, Killstreaks, Perks), and delivering legendary cinematic missions like 'All Ghillied Up'.",
+  "editorialContent": {
+    "overview": "Developed by Infinity Ward under Vince Zampella and Jason West and launched in November 2007, Call of Duty 4: Modern Warfare was a seismic industry inflection point. Breaking away from stale World War II battlegrounds, it thrust players into contemporary asymmetric combat across the Middle East and Russia, starring SAS Sergeant 'Soap' MacTavish and US Marine Sergeant Paul Jackson under the iconic Captain John Price.",
+    "gameplay": "The single-player campaign delivered breathless cinematic set pieces—from the opening cargo ship storm raid to the grim detonation of a tactical nuclear warhead and the peerless stealth flashback through irradiated Pripyat in 'All Ghillied Up.' Multiplayer fundamentally reinvented competitive gaming with persistent XP progression, weapon attachments, customizable Perks (Stopping Power, Sleight of Hand), and game-changing Killstreaks (UAV, Airstrike, Attack Helicopter).",
+    "technicalInnovation": "Ran at a butter-smooth 60 frames per second on home consoles with bullet penetration material physics (allowing rounds to pierce drywall and wood), dynamic night-vision optics, and Hollywood sound design.",
+    "culturalImpact": "Modern Warfare turned Call of Duty into the biggest annual entertainment franchise on Earth. Its progression loops and 60fps gunplay became the universal template that every multiplayer shooter attempted to replicate for over a decade.",
+    "preservationNotes": "Preserved on original Xbox 360/PS3 discs, PC Steam editions, and the acclaimed 2016 remaster Call of Duty: Modern Warfare Remastered."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "November 5, 2007",
+    "leadPlatform": "Xbox 360",
+    "genre": "first-person-shooter",
+    "sales": "Over 17 million copies worldwide",
+    "awards": [
+      "Game of the Year 2007 (Spike Video Game Awards nominee, AIAS Overall Game of the Year 2008)",
+      "BAFTA Game Award for Gameplay"
+    ],
+    "technicalSpecs": {
+      "engine": "IW 3.0 Engine (custom 60fps console engine with bullet penetration)",
+      "resolution": "600p upscaled to 720p (solid 60fps locked)",
+      "soundChip": "Dolby Digital 5.1 with Harry Gregson-Williams military orchestration",
+      "mediaFormat": "DVD-ROM / Blu-ray Disc"
+    },
+    "relationships": {
+      "primaryConsole": "xbox-360",
+      "developerEntity": "Infinity Ward",
+      "lineage": [
+        "Call of Duty 2",
+        "Modern Warfare 2",
+        "Battlefield: Bad Company",
+        "Titanfall",
+        "Apex Legends"
+      ]
+    }
+  },
+  "assets": {
+    "cover": "/assets/images/games/call-of-duty-4-modern-warfare.webp",
+    "banner": "/assets/images/games/call-of-duty-4-modern-warfare-banner.webp",
+    "screenshots": [
+      "/assets/images/games/call-of-duty-4-modern-warfare-screen1.webp",
+      "/assets/images/games/call-of-duty-4-modern-warfare-screen2.webp"
+    ],
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/5/5f/Call_of_Duty_4_Modern_Warfare.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/5/5f/Call_of_Duty_4_Modern_Warfare.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Call_of_Duty_4_Modern_Warfare.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "review-required",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "call of duty 4",
+    "modern warfare",
+    "infinity ward",
+    "captain price",
+    "all ghillied up",
+    "killstreaks",
+    "soap mactavish",
+    "fps"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

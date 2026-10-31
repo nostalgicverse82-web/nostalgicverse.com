@@ -1,0 +1,85 @@
+{
+  "id": "game-titanfall-2",
+  "slug": "titanfall-2",
+  "title": "Titanfall 2",
+  "japaneseTitle": "タイタンフォール2",
+  "url": "/games/titanfall-2/",
+  "originalReleaseYear": 2016,
+  "exactReleaseDate": "2016-10-28",
+  "developer": "Respawn Entertainment",
+  "publisher": "Electronic Arts",
+  "director": "Steve Fukuda",
+  "designer": "Mohammad Alavi",
+  "composer": "Stephen Barton",
+  "originalLaunchPlatform": "PlayStation 4 / Xbox One / PC",
+  "platforms": [
+    "PlayStation 4",
+    "Xbox One",
+    "Microsoft Windows"
+  ],
+  "genre": "first-person-shooter",
+  "subgenres": [
+    "Sci-Fi FPS",
+    "Mech Combat"
+  ],
+  "era": "2010s",
+  "shortDescription": "Respawn's peerless first-person shooter campaign, celebrated for its wall-running parkour fluidity and the bond between Pilot Jack Cooper and Titan BT-7274.",
+  "historicalSignificance": "Universally revered as one of the greatest single-player FPS campaigns in video game history, featuring the legendary time-shifting level 'Effect and Cause' and introducing movement mechanics that inspired modern shooters and Apex Legends.",
+  "editorialContent": {
+    "overview": "Militia rifleman Jack Cooper is thrust into pilot duty on the alien planet Typhon alongside BT-7274, a sentient 24-foot Vanguard-class Titan, to stop the IMC from deploying the catastrophic Fold Weapon.",
+    "gameplay": "Unrivaled momentum-based movement: seamless wall-running, double-jumping, slide-hopping, and grapple-swinging linked directly to blistering firearm gunplay, contrasting with heavy mech titan loadouts.",
+    "technicalInnovation": "Pushed a heavily modified Valve Source Engine to deliver blistering 60 FPS across all console versions with dynamic level set-pieces, including automated factory assembly lines and the instantaneous real-time time-travel device in 'Effect and Cause'.",
+    "culturalImpact": "Achieved legendary status among FPS aficionados for its emotional warmth and relentless mechanical creativity, directly serving as the gameplay foundation for Apex Legends.",
+    "preservationNotes": "Preserved on PS4/Xbox One Blu-ray and PC digital platforms."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "October 28, 2016",
+    "leadPlatform": "PlayStation 4",
+    "genre": "first-person-shooter",
+    "sales": "Over 10 million players across lifetime",
+    "awards": [
+      "Game Critics Awards Best Action Game E3 2016",
+      "The Game Awards Nominee GOTY 2016"
+    ],
+    "technicalSpecs": {
+      "engine": "Modified Valve Source Engine",
+      "resolution": "Dynamic 1080p at locked 60fps (PS4 / Xbox One)",
+      "soundChip": "Stephen Barton orchestral sci-fi score",
+      "mediaFormat": "Blu-ray Disc"
+    },
+    "relationships": {
+      "primaryConsole": "playstation-4",
+      "developerEntity": "Respawn Entertainment",
+      "lineage": [
+        "Call of Duty 4: Modern Warfare",
+        "Titanfall",
+        "Apex Legends"
+      ]
+    }
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/4/4b/Titanfall_2_box_art.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/4/4b/Titanfall_2_box_art.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Titanfall_2_box_art.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "titanfall 2",
+    "bt-7274",
+    "jack cooper",
+    "respawn entertainment",
+    "parkour",
+    "wall run",
+    "effect and cause",
+    "fps",
+    "playstation 4",
+    "ps4",
+    "2016"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

@@ -1,0 +1,68 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-sly-2-band-of-thieves",
+  "slug": "sly-2-band-of-thieves",
+  "title": "Sly 2: Band of Thieves",
+  "originalReleaseYear": 2004,
+  "exactReleaseDate": "September 14, 2004",
+  "originalLaunchPlatform": "PlayStation 2",
+  "originalLaunchRegion": "North America",
+  "developer": "Sucker Punch Productions",
+  "publisher": "Sony Computer Entertainment",
+  "platforms": [
+    "PlayStation 2"
+  ],
+  "genre": "platformer",
+  "subgenres": [
+    "stealth",
+    "action-adventure"
+  ],
+  "era": "2000s",
+  "shortDescription": "Heist sequel featuring three playable characters in open hub worlds carrying out elaborate theft operations.",
+  "historicalSignificance": "Widely considered the pinnacle of the Sly series for its rich level design and charismatic squad dynamic.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Sly_2:_Band_of_Thieves",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Heist sequel featuring three playable characters in open hub worlds carrying out elaborate theft operations.",
+    "culturalImpact": "Widely considered the pinnacle of the Sly series for its rich level design and charismatic squad dynamic."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 2"
+    ],
+    "genres": [
+      "platformer"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/2/23/Sly2BandofThieves.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/2/23/Sly2BandofThieves.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Sly_2:_Band_of_Thieves",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Sly 2: Band of Thieves",
+    "Sucker Punch Productions",
+    "Sony Computer Entertainment",
+    "PlayStation 2",
+    "platformer",
+    "2004",
+    "2000s",
+    "PlayStation 2",
+    "stealth",
+    "action-adventure"
+  ],
+  "url": "/games/sly-2-band-of-thieves/",
+  "featured": false
+}

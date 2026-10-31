@@ -1,0 +1,80 @@
+{
+  "id": "game-computer-space",
+  "slug": "computer-space",
+  "title": "Computer Space",
+  "url": "/games/computer-space/",
+  "originalReleaseYear": 1971,
+  "exactReleaseDate": "1971-11-01",
+  "developer": "Syzygy Engineering",
+  "publisher": "Nutting Associates",
+  "designer": "Nolan Bushnell & Ted Dabney",
+  "originalLaunchPlatform": "Arcade",
+  "platforms": [
+    "Arcade"
+  ],
+  "genre": "shoot-em-up",
+  "subgenres": [
+    "Space Combat",
+    "Arcade"
+  ],
+  "era": "1970s",
+  "shortDescription": "Nolan Bushnell and Ted Dabney's groundbreaking coin-operated arcade machine, recognized as the world's first commercially sold video game.",
+  "historicalSignificance": "Established the commercial coin-op amusement industry, proving that interactive electronic cathode-ray entertainment was economically viable outside academic mainframe laboratories.",
+  "editorialContent": {
+    "overview": "Conceived by Nolan Bushnell and Ted Dabney under their Syzygy Engineering partnership and manufactured by Nutting Associates in late 1971, Computer Space was the direct commercial realization of Steve Russell's 1962 MIT mainframe experiment Spacewar!. Encased in an eye-catching, curvaceous fiberglass cabinet designed by Bushnell himself, the machine stood as a futuristic beacon in bowling alleys, bars, and college student unions.",
+    "gameplayMechanics": "Players pilot a rocket ship utilizing rotational thrusters and Newtonian momentum physics, maneuvering across a wrap-around coordinate space while dodging fire from two flying saucers. The objective is to score more hits against the enemy saucers than damage sustained before the 100-second round timer expires. Scoring higher triggers a hypnotic 'hyperspace' bonus round with inverted screen colors.",
+    "technicalInnovation": "Constructed before microprocessors were commercially viable, Computer Space operates entirely without a central CPU, RAM, or software code. Dabney and Bushnell engineered a bespoke state-machine architecture composed of roughly 70 discrete 7400-series transistor-transistor logic (TTL) integrated circuit chips wired directly to synchronize with an off-the-shelf 13-inch General Electric black-and-white television monitor.",
+    "culturalImpact": "While its steep inertia learning curve limited mass commercial earnings to approximately 1,500 units sold, the technical breakthroughs and capital earned from Computer Space empowered Bushnell and Dabney to incorporate Atari, Inc. in June 1972, directly sparking the video game industry.",
+    "preservationNotes": "Preservation requires custom TTL logic board simulation or FPGA reproduction, as the machine lacks standard ROM firmware binaries. Distinct colored metallic flake fiberglass cabinets (yellow, blue, red, green) are prized museum artifacts."
+  },
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "Bushnell, Nolan. 'The Birth of the Video Game Industry', Computer History Museum Oral History (2007)",
+      "Kent, Steven L. 'The Ultimate History of Video Games', Three Rivers Press (2001)",
+      "Nutting Associates Technical Manual & Schematics for Computer Space (1971)"
+    ],
+    "romMediaFormat": "Discrete TTL Logic Circuitry (No Software ROM)",
+    "romSizeOriginal": "0 KB (Hardware State Machine)",
+    "displayResolutionOriginal": "15.75 kHz Standard Monochrome CRT",
+    "audioHardware": "Discrete diode/transistor noise generator and tone circuit",
+    "inputMethod": "Four directional pushbuttons (Rotate Left/Right, Thrust, Fire)",
+    "multiplayerCapability": "1 Player (2-Player alternate cabinet variant)"
+  },
+  "relatedExhibits": {
+    "games": [
+      "pong",
+      "space-invaders",
+      "asteroids"
+    ],
+    "consoles": [
+      "magnavox-odyssey",
+      "home-pong",
+      "atari-2600"
+    ],
+    "genres": [
+      "shoot-em-up"
+    ],
+    "timeline": [
+      "ev-1971-computer-space"
+    ]
+  },
+  "assets": {
+    "heroImage": "/assets/images/games/computer-space-hero.webp",
+    "thumbnailImage": "/assets/images/games/computer-space.webp",
+    "coverImage": "/assets/images/games/computer-space-cover.webp",
+    "localAssetPath": "/assets/images/games/computerspace.png"
+  },
+  "keywords": [
+    "computer space",
+    "syzygy",
+    "nutting associates",
+    "nolan bushnell",
+    "ted dabney",
+    "arcade",
+    "first commercial video game",
+    "1971",
+    "1970s"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

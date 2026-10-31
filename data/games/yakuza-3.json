@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-yakuza-3",
+  "slug": "yakuza-3",
+  "title": "Yakuza 3",
+  "originalReleaseYear": 2009,
+  "exactReleaseDate": "February 26, 2009",
+  "originalLaunchPlatform": "PlayStation 3",
+  "originalLaunchRegion": "Japan",
+  "developer": "Ryu Ga Gotoku Studio",
+  "publisher": "Sega",
+  "platforms": [
+    "PlayStation 3"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "beat-em-up"
+  ],
+  "era": "2000s",
+  "shortDescription": "Kazuma Kiryu leaves Kamurocho to run the Morning Glory Orphanage in Okinawa before being drawn into clan warfare.",
+  "historicalSignificance": "Debuted the franchise in high definition with seamless street brawling and heartfelt domestic drama.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Yakuza_3",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Kazuma Kiryu leaves Kamurocho to run the Morning Glory Orphanage in Okinawa before being drawn into clan warfare.",
+    "culturalImpact": "Debuted the franchise in high definition with seamless street brawling and heartfelt domestic drama."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 3"
+    ],
+    "genres": [
+      "action-adventure"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Yakuza_3_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Yakuza_3_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Yakuza_3",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Yakuza 3",
+    "Ryu Ga Gotoku Studio",
+    "Sega",
+    "PlayStation 3",
+    "action-adventure",
+    "2009",
+    "2000s",
+    "PlayStation 3",
+    "beat-em-up"
+  ],
+  "url": "/games/yakuza-3/",
+  "featured": false
+}

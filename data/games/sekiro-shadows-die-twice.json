@@ -1,0 +1,85 @@
+{
+  "id": "game-sekiro-shadows-die-twice",
+  "slug": "sekiro-shadows-die-twice",
+  "title": "Sekiro: Shadows Die Twice",
+  "japaneseTitle": "隻狼：SHADOWS DIE TWICE",
+  "url": "/games/sekiro-shadows-die-twice/",
+  "originalReleaseYear": 2019,
+  "exactReleaseDate": "2019-03-22",
+  "developer": "FromSoftware",
+  "publisher": "Activision",
+  "director": "Hidetaka Miyazaki",
+  "designer": "Masaru Yamamura",
+  "composer": "Yuka Kitamura",
+  "originalLaunchPlatform": "PlayStation 4 / Xbox One / PC",
+  "platforms": [
+    "PlayStation 4",
+    "Xbox One",
+    "Microsoft Windows"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "Stealth Action",
+    "Soulslike"
+  ],
+  "era": "2010s",
+  "shortDescription": "FromSoftware's razor-sharp Sengoku-era masterpiece centering on rhythm deflection swordplay, vertical grapple mobility, and relentless shinobi discipline.",
+  "historicalSignificance": "Won Game of the Year at The Game Awards 2019, abandoning traditional RPG leveling to introduce the revolutionary 'Posture' deflection combat meter, setting an uncompromising new benchmark for melee game design.",
+  "editorialContent": {
+    "overview": "Set in a reimagined late 1500s Sengoku Japan, players inhabit the 'One-Armed Wolf', a disgraced shinobi bound to protect the young Divine Heir Kuro from the desperate warlords of the Ashina clan seeking immortality.",
+    "gameplay": "Revolutionized action combat by replacing stamina meters with the Posture bar: victorious encounters require aggressive rhythmic sword deflections, perilous attack counters (Mikiri counter, jump kicks), and modular Shinobi Prosthetic tools (flame vent, loaded axe, firecrackers).",
+    "technicalInnovation": "Introduced fluid vertical 3D movement via the grappling hook and wall-hugging stealth alongside blistering 60 FPS combat animations.",
+    "culturalImpact": "Demonstrated FromSoftware's unmatched versatility outside the dark fantasy Souls framework, celebrated for the legendary final boss fight against Isshin, the Sword Saint.",
+    "preservationNotes": "Preserved on physical PS4 disc and playable at a locked 60 FPS on PlayStation 5."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "March 22, 2019",
+    "leadPlatform": "PlayStation 4",
+    "genre": "action-adventure",
+    "sales": "Over 10 million copies sold worldwide",
+    "awards": [
+      "The Game Awards Game of the Year 2019",
+      "Best Action Game The Game Awards 2019"
+    ],
+    "technicalSpecs": {
+      "engine": "Proprietary FromSoftware Engine",
+      "resolution": "1080p (PS4) / 1800p (PS4 Pro) / Locked 60fps on PS5",
+      "soundChip": "Dolby Digital 5.1 with traditional Japanese taiko and flute score",
+      "mediaFormat": "Blu-ray Disc"
+    },
+    "relationships": {
+      "primaryConsole": "playstation-4",
+      "developerEntity": "FromSoftware",
+      "lineage": [
+        "Dark Souls",
+        "Bloodborne",
+        "Elden Ring"
+      ]
+    }
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/6/6e/Sekiro_art.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/6/6e/Sekiro_art.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Sekiro_art.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "sekiro shadows die twice",
+    "fromsoftware",
+    "hidetaka miyazaki",
+    "wolf",
+    "kuro",
+    "posture",
+    "deflection",
+    "isshin",
+    "playstation 4",
+    "ps4",
+    "goty 2019"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

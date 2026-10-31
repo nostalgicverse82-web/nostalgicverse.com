@@ -1,0 +1,42 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+  "id": "console-wii",
+  "slug": "wii",
+  "name": "Nintendo Wii",
+  "manufacturer": "Nintendo",
+  "generation": "Seventh Generation",
+  "generationNumber": 7,
+  "originalReleaseYear": 2006,
+  "exactReleaseDate": "November 19, 2006",
+  "mediaFormat": "Wii Optical Disc (proprietary 4.7GB/8.54GB)",
+  "significance": "Democratized video gaming across all ages and demographics through motion controls, selling over 101 million units worldwide.",
+  "verifiedFactualData": {
+    "cpu": "IBM PowerPC 'Broadway' @ 729 MHz",
+    "gpuOrVideoChip": "ATI 'Hollywood' @ 243 MHz",
+    "ram": "88 MB total system memory (24 MB 1T-SRAM + 64 MB GDDR3)"
+  },
+  "editorialContent": {
+    "overview": "Satoru Iwata's Blue Ocean phenomenon that conquered living rooms globally through natural motion controls and accessible physical play.",
+    "marketLegacy": "Democratized video gaming across all ages and demographics through motion controls, selling over 101 million units worldwide.",
+    "controllerDesign": "Wii Remote with infrared pointing & 3D accelerometer, Nunchuk"
+  },
+  "keyGames": [
+    "wii-sports",
+    "super-mario-galaxy",
+    "the-legend-of-zelda-twilight-princess"
+  ],
+  "assets": {
+    "mainImage": "/assets/images/consoles/wii.png",
+    "heroImage": "/assets/images/consoles/wii-hero.png",
+    "hardwareImage": "/assets/images/consoles/wii-hardware.png"
+  },
+  "keywords": [
+    "wii",
+    "nintendo",
+    "seventh generation",
+    "motion control",
+    "wii sports",
+    "wiimote",
+    "2006"
+  ]
+}

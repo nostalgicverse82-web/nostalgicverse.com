@@ -1,0 +1,80 @@
+{
+  "id": "game-the-curse-of-monkey-island",
+  "slug": "the-curse-of-monkey-island",
+  "title": "The Curse of Monkey Island",
+  "japaneseTitle": "カース・オブ・モンキー・アイランド",
+  "url": "/games/the-curse-of-monkey-island/",
+  "originalReleaseYear": 1997,
+  "exactReleaseDate": "1997-10-31",
+  "developer": "LucasArts",
+  "publisher": "LucasArts",
+  "director": "Jonathan Ackley, Larry Ahern",
+  "designer": "Jonathan Ackley, Larry Ahern",
+  "composer": "Michael Land",
+  "originalLaunchPlatform": "Microsoft Windows / PC",
+  "platforms": [
+    "Microsoft Windows",
+    "macOS"
+  ],
+  "genre": "adventure",
+  "subgenres": [
+    "Point-and-Click Adventure",
+    "Animated Comedy"
+  ],
+  "era": "1990s",
+  "shortDescription": "LucasArts' gorgeous hand-drawn cartoon adventure, marking Guybrush Threepwood's full voice-acted pirate debut.",
+  "historicalSignificance": "The pinnacle of the classic LucasArts SCUMM graphic adventure era, celebrated for its cel-animated hand-painted Disney-quality art style, brilliant rhyming pirate sea-shanties, and Dominic Armato's career-defining voice performance.",
+  "editorialContent": {
+    "overview": "When mighty pirate Guybrush Threepwood unwittingly gives his beloved Elaine Marley a cursed diamond ring that turns her into a solid gold statue, he must sail across Plunder Island and Blood Island to lift the curse and defeat the demon pirate LeChuck.",
+    "gameplay": "Refined point-and-click verb coin interface, featuring witty inventory puzzles, the hilarious rhyming insult swordplay mechanics on the high seas, and dual difficulty settings ('Normal' and 'Mega-Monkey').",
+    "technicalInnovation": "The twelfth and final game built on the legendary SCUMM engine, featuring hand-painted SVGA 640x480 resolution animated backgrounds and Michael Land's live-instrument iMUSE interactive music system.",
+    "culturalImpact": "Considered by adventure game purists as one of the finest comedy games ever written, introducing the definitive vocal cast for Guybrush, Elaine, and LeChuck.",
+    "preservationNotes": "Preserved on two original CD-ROM discs and remastered for modern operating systems via ScummVM."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "October 31, 1997",
+    "leadPlatform": "PC",
+    "genre": "adventure",
+    "sales": "Over 500,000 units sold in North America and Europe",
+    "awards": [
+      "Computer Gaming World Adventure Game of the Year 1997"
+    ],
+    "technicalSpecs": {
+      "engine": "SCUMM (Script Creation Utility for Maniac Mansion) v8",
+      "resolution": "640 x 480 SVGA (16-bit color hand-drawn animation)",
+      "soundChip": "iMUSE dynamic interactive MIDI/PCM music engine",
+      "mediaFormat": "2x CD-ROMs"
+    },
+    "relationships": {
+      "primaryConsole": "pc",
+      "developerEntity": "LucasArts",
+      "lineage": [
+        "The Secret of Monkey Island",
+        "Monkey Island 2: LeChuck's Revenge"
+      ]
+    }
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/e/e0/Curse_of_Monkey_Island_box.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/e/e0/Curse_of_Monkey_Island_box.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Curse_of_Monkey_Island_box.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "the curse of monkey island",
+    "guybrush threepwood",
+    "lechuck",
+    "lucasarts",
+    "scumm",
+    "point and click",
+    "michael land",
+    "dominic armato",
+    "1997"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

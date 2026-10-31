@@ -1,0 +1,88 @@
+{
+  "id": "game-silent-hill-2",
+  "slug": "silent-hill-2",
+  "title": "Silent Hill 2",
+  "japaneseTitle": "サイレントヒル2",
+  "url": "/games/silent-hill-2/",
+  "originalReleaseYear": 2001,
+  "exactReleaseDate": "2001-09-24",
+  "developer": "Team Silent (Konami Computer Entertainment Tokyo)",
+  "publisher": "Konami",
+  "director": "Masashi Tsuboyama",
+  "designer": "Hiroyuki Owaku, Masahiro Ito",
+  "composer": "Akira Yamaoka",
+  "originalLaunchPlatform": "PlayStation 2",
+  "platforms": [
+    "PlayStation 2",
+    "Xbox",
+    "Microsoft Windows"
+  ],
+  "genre": "survival-horror",
+  "subgenres": [
+    "Psychological Horror",
+    "Narrative Horror"
+  ],
+  "era": "2000s",
+  "shortDescription": "Team Silent's psychological horror magnum opus examining grief, guilt, sexual repression, and the terrifying Pyramid Head.",
+  "historicalSignificance": "Widely regarded as the greatest psychological horror game ever created, utilizing deep Freudian symbolism, taboo themes of grief, terminal illness, and moral corruption, and introducing the immortal horror icon Pyramid Head.",
+  "editorialContent": {
+    "overview": "Directed by Masashi Tsuboyama and written by Hiroyuki Owaku at Konami's Team Silent, Silent Hill 2 debuted on the PlayStation 2 in September 2001. Moving away from the occult demonology of the first game, it presented an intensely intimate psychological drama: protagonist James Sunderland journeys to the fog-shrouded lakeside resort after receiving a letter signed by his deceased wife, Mary, who died three years earlier.",
+    "gameplay": "Players explore decaying apartment complexes, labyrinthine historical societies, and the mist-shrouded Lakeview Hotel. Confronting grotesque, sexually suggestive manifestations of James's subconscious—such as the twitching Mannequins, Bubble Head Nurses, and the imposing Pyramid Head wielding the Great Knife—players must solve intricate symbolic environmental puzzles while managing limited ammunition and medical supplies.",
+    "technicalInnovation": "Leveraged the PlayStation 2's Emotion Engine to generate dynamic volumetric per-pixel lighting, claustrophobic radio static noise filters, and detailed facial animations that captured subtle emotional torment.",
+    "culturalImpact": "Silent Hill 2 elevated gaming into high literature, proving interactive entertainment could handle complex grief, trauma, and moral culpability with unsparing emotional honesty. Akira Yamaoka's trip-hop and melancholic rock soundtrack ('Theme of Laura') remains iconic.",
+    "preservationNotes": "Preserved on original PS2 DVD media, the Xbox 'Restless Dreams' release, community PC Enhanced Edition restorations, and the 2024 Bloober Team remake."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "September 24, 2001",
+    "leadPlatform": "PlayStation 2",
+    "genre": "survival-horror",
+    "sales": "Over 1.5 million copies worldwide",
+    "awards": [
+      "IGN Best Horror Game 2001",
+      "GameSpot Best Story on PS2 nominee"
+    ],
+    "technicalSpecs": {
+      "engine": "Team Silent PS2 3D rendering engine with real-time shadow casting",
+      "resolution": "480i / 480p (on select revisions)",
+      "soundChip": "PS2 SPU2 with Dolby Pro Logic II surround sound and Akira Yamaoka soundtrack",
+      "mediaFormat": "DVD-ROM"
+    },
+    "relationships": {
+      "primaryConsole": "playstation-2",
+      "developerEntity": "Konami",
+      "lineage": [
+        "Silent Hill",
+        "Silent Hill 3",
+        "Silent Hill 4: The Room",
+        "Signalis"
+      ]
+    }
+  },
+  "assets": {
+    "cover": "/assets/images/games/silent-hill-2.webp",
+    "banner": "/assets/images/games/silent-hill-2-banner.webp",
+    "screenshots": [
+      "/assets/images/games/silent-hill-2-screen1.webp",
+      "/assets/images/games/silent-hill-2-screen2.webp"
+    ],
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/9/95/Silent_Hill_2.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/9/95/Silent_Hill_2.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Silent_Hill_2.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "silent hill 2",
+    "james sunderland",
+    "pyramid head",
+    "team silent",
+    "akira yamaoka",
+    "psychological horror",
+    "konami"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

@@ -1,0 +1,92 @@
+{
+  "id": "game-rogue",
+  "slug": "rogue",
+  "title": "Rogue: Exploring The Dungeons of Doom",
+  "url": "/games/rogue/",
+  "originalReleaseYear": 1980,
+  "exactReleaseDate": "1980-01-01",
+  "developer": "Michael Toy & Glenn Wichman",
+  "publisher": "Public Domain / A.I. Design",
+  "designer": "Michael Toy, Glenn Wichman, Ken Arnold",
+  "originalLaunchPlatform": "Unix",
+  "platforms": [
+    "Unix",
+    "BSD",
+    "IBM PC",
+    "Macintosh",
+    "Amiga",
+    "Atari ST"
+  ],
+  "genre": "roguelike",
+  "subgenres": [
+    "Dungeon Crawler",
+    "Procedural RPG"
+  ],
+  "era": "1980s",
+  "shortDescription": "The foundational dungeon-crawling milestone that established procedural level generation, permadeath, and turn-based tile navigation, founding the roguelike genre.",
+  "historicalSignificance": "Father of the roguelike genre. Introduced random procedural layout generation, permanent character death (permadeath), unidentified magic items, and emergent tactical survival.",
+  "editorialContent": {
+    "overview": "Developed in 1980 on Unix systems at the University of California, Santa Cruz by students Michael Toy and Glenn Wichman, and later refined at UC Berkeley with Ken Arnold, Rogue was created to offer an infinitely replayable adventure game where even the authors could not predict dungeon layouts. By harnessing the curses terminal screen-control library, the creators transformed static text commands into real-time graphical dungeon exploration.",
+    "gameplayMechanics": "Represented by an '@' symbol, the player descends through 26 procedurally generated dungeon levels to retrieve the mystical Amulet of Yendor and return to the surface. Combat and movement are strictly turn-based: monsters move only when the player acts. Potions and scrolls have randomized descriptions that change every playthrough, requiring risky trial-and-error identification.",
+    "technicalInnovation": "Rogue made brilliant use of Ken Arnold's curses library to draw 2D ASCII maps on dumb video terminals, using '+' for doors, '#' for corridors, and capital letters (A through Z) for 26 unique monsters. Its procedural level generator combined rectangular room placement with randomized interconnecting maze corridors, guaranteeing fresh spatial challenges on every run.",
+    "culturalImpact": "Rogue became an obsession across university computing labs in the early 1980s. Its foundational design pillars directly begat Hack, NetHack, Moria, Angband, Diablo, Spelunky, Faster Than Light, and the modern multi-billion dollar roguelike and roguelite industry.",
+    "preservationNotes": "Preserved through standard BSD Unix source packages and modern C ports (rogue5.4). Preservation requires faithful 80×24 monospaced terminal rendering and accurate random seed generation."
+  },
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "Toy, Michael & Wichman, Glenn. 'A Brief History of Rogue', GDC Classic Postmortem (2016)",
+      "Craddock, David L. 'Dungeon Hacks: How NetHack, Angband, and Other Roguelikes Changed Video Games', Press Start Press (2015)",
+      "Rogue 5.3 Source Code Documentation, Regents of the University of California (1982)"
+    ],
+    "romMediaFormat": "Unix Tape / 5.25-inch Floppy Disk",
+    "romSizeOriginal": "48 KB Binary",
+    "displayResolutionOriginal": "80 × 24 ASCII Character Terminal",
+    "audioHardware": "None / System Bell",
+    "inputMethod": "QWERTY Keyboard (vi direction keys: h, j, k, l, y, u, b, n)",
+    "multiplayerCapability": "1 Player"
+  },
+  "relatedExhibits": {
+    "games": [
+      "colossal-cave-adventure",
+      "diablo",
+      "minecraft"
+    ],
+    "consoles": [],
+    "genres": [
+      "roguelike",
+      "rpg"
+    ],
+    "timeline": [
+      "ev-1980-pac-man-japan"
+    ]
+  },
+  "assets": {
+    "heroImage": "/assets/images/games/rogue-hero.webp",
+    "thumbnailImage": "/assets/images/games/rogue.webp",
+    "coverImage": "/assets/images/games/rogue-cover.webp",
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/7/74/Rogue_cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/7/74/Rogue_cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Rogue_cover.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "rogue",
+    "roguelike",
+    "michael toy",
+    "glenn wichman",
+    "ken arnold",
+    "permadeath",
+    "procedural generation",
+    "amulet of yendor",
+    "ascii",
+    "unix",
+    "1980",
+    "1980s"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

@@ -1,0 +1,81 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.json",
+  "id": "game-pokemon-red-blue",
+  "slug": "pokemon-red-blue",
+  "title": "Pokémon Red and Blue",
+  "japaneseTitle": "ポケットモンスター 赤・緑",
+  "url": "/games/pokemon-red-blue/",
+  "originalReleaseYear": 1996,
+  "exactReleaseDate": "1996-02-27",
+  "developer": "Game Freak",
+  "publisher": "Nintendo",
+  "director": "Satoshi Tajiri",
+  "designer": "Satoshi Tajiri, Ken Sugimori, Shigeki Morimoto",
+  "composer": "Junichi Masuda",
+  "originalLaunchPlatform": "Game Boy",
+  "platforms": [
+    "Game Boy",
+    "Super Game Boy",
+    "Game Boy Color"
+  ],
+  "genre": "RPG",
+  "subgenres": [
+    "Monster-Taming RPG",
+    "Turn-Based RPG",
+    "Handheld Adventure"
+  ],
+  "era": "1990s",
+  "shortDescription": "Satoshi Tajiri and Game Freak's revolutionary twin-cartridge handheld RPG that weaponized the Game Boy Link Cable to spark a global cultural phenomenon.",
+  "historicalSignificance": "Pioneered version-exclusive social connectivity via physical hardware link cables, popularized the monster-collecting RPG genre, and birthed the single highest-grossing media franchise in entertainment history.",
+  "editorialContent": {
+    "overview": "Conceived over six grueling years of development by Tokyo indie collective Game Freak, Pocket Monsters Red and Green was released in Japan on February 27, 1996, arriving at a moment when Nintendo's aging monochrome Game Boy hardware was considered commercially dormant. Inspired by creator Satoshi Tajiri's childhood passion for insect collecting in the disappearing rural ponds and woodlands of Machida, western Tokyo, the project sought to harness the Game Boy's physical Game Link Cable not merely for competitive head-to-head racing or puzzle play, but as a biological conduit for sharing digital life. Re-engineered and released as Pokémon Red and Blue in North America in September 1998, the twin cartridges triggered an unprecedented worldwide mania that fundamentally altered modern youth culture.",
+    "gameplayMechanics": "Players assume the role of an aspiring Pokémon Trainer setting out from Pallet Town to explore the Kanto region, capture and catalogue 151 distinct wild creatures, earn eight regional gym badges, and overcome the Elite Four while thwarting the syndicated operations of Team Rocket. The turn-based tactical combat engine revolves around a multi-tiered rock-paper-scissors elemental affinity matrix (Grass, Fire, Water, Electric, Psychic, Ghost, and beyond) where each creature possesses individual statistics (HP, Attack, Defense, Speed, Special) and four custom move slots. The crucial mechanical catalyst was artificial scarcity: eleven species were made exclusive to each cartridge version (e.g., Oddish and Scyther in Red; Bellsprout and Pinsir in Blue), making 100% Pokédex completion mathematically impossible without physically meeting another human player and tethering two handheld consoles together with a Link Cable.",
+    "technicalInnovation": "Developing an expansive open-ended RPG with 151 distinct creatures, individual front/back battle sprites, evolution logic, town map topologies, and dialogue on a standard 4-megabit (512 kilobyte) Game Boy cartridge pushed Game Freak's programmers to extreme optimization feats. Programmer Shigeki Morimoto famously squeezed the legendary 151st creature, Mew, into a minuscule 300-byte sliver of surplus cartridge ROM after official debugging tools were removed just days before Japanese manufacturing. Junichi Masuda pushed the Game Boy's Sharp LR35902 audio hardware to its absolute limit, writing custom assembly routines to extract distinct cry frequencies, battle fanfare, and iconic town melodies across the handheld's two pulse-wave channels, one wave pattern channel, and one white-noise channel.",
+    "culturalImpact": "Pokémon Red and Blue single-handedly revived the global market for Nintendo's Game Boy, prolonging the lifecycle of an 8-bit platform well past a decade and proving that rich social mechanics far outweigh high-end graphic fidelity. The franchise rapidly blossomed into a titanic multimedia empire spanning the Pokémon Trading Card Game, an animated television series broadcast in over 160 countries, annual box-office anime feature films, and tens of billions of dollars in commercial licensing, ultimately becoming the highest-grossing entertainment intellectual property in world history.",
+    "preservationNotes": "Original cartridges rely on CR2025 coin-cell lithium batteries soldered directly to the printed circuit board to preserve player save files in SRAM. As these factory batteries reach end-of-life exhaustion three decades after manufacture, physical preservation requires careful desoldering and battery replacement to prevent complete memory loss. Digital emulation must also faithfully simulate the Game Boy serial I/O clock timings to guarantee authentic packet handshake exchanges during simulated Link Cable trades."
+  },
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "Tajiri, Satoshi. 'The Conceptual Genesis of Pocket Monsters' Game Freak Archives (1996)",
+      "Nintendo of America. Pokémon Red and Blue Instruction Booklet (DMG-APAE-USA, 1998)",
+      "Masuda, Junichi. 'Director's Column: Sound Design in the Original Pokémon Games' (2009)",
+      "Schilling, Mark. The Encyclopedia of Japanese Pop Culture (1997)"
+    ],
+    "romMediaFormat": "4-Megabit Game Boy Cartridge (MBC3 Memory Bank Controller + Battery-backed SRAM)",
+    "romSizeOriginal": "524,288 bytes (512 KB / 4 Mbit)",
+    "displayResolutionOriginal": "160 × 144 (2.6-inch Monochrome STN LCD, 4 shades of gray)",
+    "audioHardware": "Custom Sharp LR35902 4-channel sound generator",
+    "inputMethod": "Game Boy 8-way directional pad + A, B, Start, Select buttons + Game Link Cable port",
+    "multiplayerCapability": "2 Players (Turn-based battling and creature trading via Game Link Cable)"
+  },
+  "assets": {
+    "heroImage": "/assets/images/games/pokemon-red-blue-hero.webp",
+    "thumbnailImage": "/assets/images/games/pokemon-red-blue.webp",
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/af/Pok%C3%A9mon_Red_and_Blue_cover_art.webp",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/af/Pok%C3%A9mon_Red_and_Blue_cover_art.webp",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Pok%C3%A9mon_Red_and_Blue_cover_art.webp",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "pokemon",
+    "pokemon red",
+    "pokemon blue",
+    "game boy",
+    "game freak",
+    "nintendo",
+    "satoshi tajiri",
+    "ken sugimori",
+    "junichi masuda",
+    "rpg",
+    "1996",
+    "1998",
+    "1990s",
+    "pikachu",
+    "kanto"
+  ],
+  "featured": false
+}

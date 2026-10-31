@@ -1,0 +1,80 @@
+{
+  "id": "game-astro-s-playroom",
+  "slug": "astro-s-playroom",
+  "title": "Astro's Playroom",
+  "japaneseTitle": "アストロズ プレイルーム",
+  "url": "/games/astro-s-playroom/",
+  "originalReleaseYear": 2020,
+  "exactReleaseDate": "2020-11-12",
+  "developer": "Team ASOBI",
+  "publisher": "Sony Interactive Entertainment",
+  "director": "Nicolas Doucet",
+  "designer": "Takumi Yoshida",
+  "composer": "Kenny Young",
+  "originalLaunchPlatform": "PlayStation 5",
+  "platforms": [
+    "PlayStation 5"
+  ],
+  "genre": "platformer",
+  "subgenres": [
+    "Tech Showcase",
+    "3D Platformer"
+  ],
+  "era": "2020s",
+  "shortDescription": "The delightful pre-installed PlayStation 5 showcase taking players inside the architecture of the console while introducing DualSense haptic technology.",
+  "historicalSignificance": "Universally acclaimed as the greatest console pack-in demonstration since Wii Sports, turning hardware architecture into interactive worlds and establishing the sensory benchmark for ninth-generation controllers.",
+  "editorialContent": {
+    "overview": "Built directly into every PlayStation 5 console's SSD at launch, Astro's Playroom takes players on an exploratory tour inside the PS5 hardware: Cooling Springs, GPU Jungle, Memory Meadow, and SSD Speedway.",
+    "gameplay": "Each biome showcases distinct DualSense hardware capabilities—feeling the pitter-patter of raindrops via haptic motors, drawing a bowstring against tensioned adaptive triggers, and rolling in a gyro-steered ball.",
+    "technicalInnovation": "Showcased instant SSD load times, silky 60 FPS performance, and physical object interactions with zero loading screens.",
+    "culturalImpact": "Filled with hundreds of hidden artifacts celebrating PlayStation hardware history from the 1994 original to the PocketStation and PS VR.",
+    "preservationNotes": "Pre-installed on every PS5 system worldwide as a permanent free digital accession."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "November 12, 2020",
+    "leadPlatform": "PlayStation 5",
+    "genre": "platformer",
+    "sales": "Bundled on all 65+ million PlayStation 5 consoles",
+    "awards": [
+      "BAFTA Games Award for Audio Achievement Nominee",
+      "D.I.C.E. Family Game of the Year Nominee"
+    ],
+    "technicalSpecs": {
+      "engine": "Team ASOBI Proprietary Engine",
+      "resolution": "Dynamic 4K at locked 60fps",
+      "soundChip": "3D Tempest Audio and DualSense haptic audio",
+      "mediaFormat": "Pre-installed internal SSD storage"
+    },
+    "relationships": {
+      "primaryConsole": "playstation-5",
+      "developerEntity": "Team ASOBI",
+      "lineage": [
+        "Astro Bot",
+        "PlayStation VR"
+      ]
+    }
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/c/c5/Astro%27s_Playroom_cover_art.png",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/c/c5/Astro%27s_Playroom_cover_art.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Astro%27s_Playroom_cover_art.png",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "astro's playroom",
+    "team asobi",
+    "ps5",
+    "playstation 5",
+    "dualsense",
+    "haptics",
+    "adaptive triggers",
+    "pack in",
+    "platformer"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

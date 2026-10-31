@@ -1,0 +1,68 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-viewtiful-joe",
+  "slug": "viewtiful-joe",
+  "title": "Viewtiful Joe",
+  "originalReleaseYear": 2003,
+  "exactReleaseDate": "June 26, 2003",
+  "originalLaunchPlatform": "PlayStation 2",
+  "originalLaunchRegion": "Japan",
+  "developer": "Clover Studio",
+  "publisher": "Capcom",
+  "platforms": [
+    "PlayStation 2",
+    "GameCube"
+  ],
+  "genre": "beat-em-up",
+  "subgenres": [
+    "2d-action"
+  ],
+  "era": "2000s",
+  "shortDescription": "Hideki Kamiya's tokusatsu-inspired beat-em-up featuring VFX Powers (Slow, Mach Speed, and Zoom In).",
+  "historicalSignificance": "Showcased bold comic-book visual styling and time-manipulation brawling mechanics at Capcom.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Viewtiful_Joe",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Hideki Kamiya's tokusatsu-inspired beat-em-up featuring VFX Powers (Slow, Mach Speed, and Zoom In).",
+    "culturalImpact": "Showcased bold comic-book visual styling and time-manipulation brawling mechanics at Capcom."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 2"
+    ],
+    "genres": [
+      "beat-em-up"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/0/05/Viewtiful_Joe_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/0/05/Viewtiful_Joe_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Viewtiful_Joe",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Viewtiful Joe",
+    "Clover Studio",
+    "Capcom",
+    "PlayStation 2",
+    "beat-em-up",
+    "2003",
+    "2000s",
+    "PlayStation 2",
+    "GameCube",
+    "2d-action"
+  ],
+  "url": "/games/viewtiful-joe/",
+  "featured": false
+}

@@ -1,0 +1,81 @@
+{
+  "id": "game-the-last-of-us-part-ii",
+  "slug": "the-last-of-us-part-ii",
+  "title": "The Last of Us Part II",
+  "japaneseTitle": "ラスト・オブ・アス パート2",
+  "url": "/games/the-last-of-us-part-ii/",
+  "originalReleaseYear": 2020,
+  "exactReleaseDate": "2020-06-19",
+  "developer": "Naughty Dog",
+  "publisher": "Sony Interactive Entertainment",
+  "director": "Neil Druckmann, Kurt Margenau, Anthony Newman",
+  "designer": "Emilia Schatz, Ricky Cambier",
+  "composer": "Gustavo Santaolalla, Mac Quayle",
+  "originalLaunchPlatform": "PlayStation 4",
+  "platforms": [
+    "PlayStation 4",
+    "PlayStation 5"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "Survival Horror",
+    "Cinematic Narrative"
+  ],
+  "era": "2020s",
+  "shortDescription": "Naughty Dog's harrowing narrative exploration of grief, vengeance, and cyclical violence set in the ruins of post-pandemic Seattle.",
+  "historicalSignificance": "A towering high-water mark for video game storytelling and technical execution, winning over 320 Game of the Year awards and pushing the PlayStation 4 hardware to unprecedented photographic and mechanical limits.",
+  "editorialContent": {
+    "overview": "Set five years after the perilous cross-country journey of the original game, The Last of Us Part II follows Ellie and Abby across a devastated Pacific Northwest, challenging players to confront the dehumanizing cycle of retributive violence through alternating dual perspectives.",
+    "gameplay": "Expands on survival stealth with fluid prone crawling, analog dodge timing, vertical jumping, rope physics, weapon crafting, and hyper-realistic canine scent tracking.",
+    "technicalInnovation": "Pushed motion matching character locomotion, retinal micro-reflections, physical blood fluid dispersion, and state-of-the-art accessibility suites with over 60 granular options.",
+    "culturalImpact": "Sparked intense philosophical discussions regarding perspective, empathy, and artistic narrative risk in AAA blockbusters, cementing video games as a mature literary narrative medium.",
+    "preservationNotes": "Preserved on dual-layer Blu-ray discs for PS4 and native 4K Remastered release on PS5 with full DualSense haptics."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "June 19, 2020",
+    "leadPlatform": "PlayStation 4",
+    "genre": "action-adventure",
+    "sales": "Over 10 million copies sold worldwide",
+    "awards": [
+      "The Game Awards Game of the Year 2020",
+      "Over 320 Game of the Year Awards Worldwide"
+    ],
+    "technicalSpecs": {
+      "engine": "Proprietary Naughty Dog Engine",
+      "resolution": "1080p (PS4) / 1440p (PS4 Pro) / 4K (PS5 Remastered)",
+      "soundChip": "Dolby Digital / 3D Audio Tempest",
+      "mediaFormat": "Dual-layer Blu-ray Disc"
+    },
+    "relationships": {
+      "primaryConsole": "playstation-4",
+      "developerEntity": "Naughty Dog",
+      "lineage": [
+        "The Last of Us",
+        "Uncharted 4"
+      ]
+    }
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/4/4f/TLOU_P2_Box_Art_2.png",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/4/4f/TLOU_P2_Box_Art_2.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:TLOU_P2_Box_Art_2.png",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "the last of us part ii",
+    "naughty dog",
+    "ellie",
+    "abby",
+    "playstation 4",
+    "ps4",
+    "goty 2020",
+    "gustavo santaolalla",
+    "survival horror"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-pokemon-legends-arceus",
+  "slug": "pokemon-legends-arceus",
+  "title": "Pokemon Legends: Arceus",
+  "originalReleaseYear": 2022,
+  "exactReleaseDate": "January 28, 2022",
+  "originalLaunchPlatform": "Nintendo Switch",
+  "originalLaunchRegion": "Worldwide",
+  "developer": "Game Freak",
+  "publisher": "The Pokemon Company",
+  "platforms": [
+    "Nintendo Switch"
+  ],
+  "genre": "action-rpg",
+  "subgenres": [
+    "creature-collector"
+  ],
+  "era": "2020s",
+  "shortDescription": "Explore the ancient Hisui region in an open action RPG capturing wild Pokemon with seamless real-time ball throwing.",
+  "historicalSignificance": "Boldly reinvented Pokemon's core formula with thrilling wild stealth catching and action boss encounters.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Pokemon_Legends:_Arceus",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Explore the ancient Hisui region in an open action RPG capturing wild Pokemon with seamless real-time ball throwing.",
+    "culturalImpact": "Boldly reinvented Pokemon's core formula with thrilling wild stealth catching and action boss encounters."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "Nintendo Switch"
+    ],
+    "genres": [
+      "action-rpg"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Pokemon_Legends_Arceus_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Pokemon_Legends_Arceus_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Pokemon_Legends:_Arceus",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Pokemon Legends: Arceus",
+    "Game Freak",
+    "The Pokemon Company",
+    "Nintendo Switch",
+    "action-rpg",
+    "2022",
+    "2020s",
+    "Nintendo Switch",
+    "creature-collector"
+  ],
+  "url": "/games/pokemon-legends-arceus/",
+  "featured": false
+}

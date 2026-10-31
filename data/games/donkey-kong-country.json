@@ -1,0 +1,93 @@
+{
+  "id": "game-donkey-kong-country",
+  "slug": "donkey-kong-country",
+  "title": "Donkey Kong Country",
+  "japaneseTitle": "スーパードンキーコング",
+  "url": "/games/donkey-kong-country/",
+  "originalReleaseYear": 1994,
+  "exactReleaseDate": "1994-11-21",
+  "developer": "Rare",
+  "publisher": "Nintendo",
+  "director": "Tim Stamper & Chris Stamper",
+  "designer": "Gregg Mayles",
+  "composer": "David Wise & Eveline Fischer",
+  "originalLaunchPlatform": "Super Nintendo",
+  "platforms": [
+    "Super Nintendo",
+    "Super Famicom",
+    "Game Boy Color",
+    "Game Boy Advance"
+  ],
+  "genre": "platformer",
+  "subgenres": [
+    "Side-Scrolling Platformer",
+    "Pre-Rendered 3D"
+  ],
+  "era": "1990s",
+  "shortDescription": "Rare's sensational technological showcase that revived Donkey Kong using pre-rendered Silicon Graphics 3D models and David Wise's atmospheric ambient soundtrack.",
+  "historicalSignificance": "Proved that 16-bit cartridge consoles could compete visually with the emerging 32-bit CD generation, selling over nine million copies and introducing Diddy Kong alongside David Wise's legendary 'Aquatic Ambience'.",
+  "editorialContent": {
+    "overview": "Developed in Twycross, England by Rare under founders Tim and Chris Stamper with lead designer Gregg Mayles, Donkey Kong Country was released in November 1994 as Nintendo's ultimate answer to the 32-bit CD-ROM hype. Reimagining Shigeru Miyamoto's classic 1981 arcade ape as a modern heroic protagonist, Rare delivered a visual and musical revolution on the Super Nintendo.",
+    "gameplayMechanics": "Players control the agile duo of Donkey Kong and his quick-footed nephew Diddy Kong, swapping between them on the fly. Gameplay features high-speed momentum cart rides through abandoned mine shafts, explosive barrel-cannon blast sequences, and riding animal companions (Rambi the Rhino, Enguarde the Swordfish, Expresso the Ostrich, Squawks the Parrot).",
+    "technicalInnovation": "Rare's groundbreaking breakthrough was Advanced Computer Modeling (ACM): modeling characters and environments as fully articulated 3D wireframe geometries on high-end Silicon Graphics (SGI) workstations, pre-rendering them with ray-traced lighting and shadows, and compressing the resulting 3D imagery into high-density 16-bit SNES sprite tables.",
+    "culturalImpact": "Donkey Kong Country was a commercial juggernaut, selling over nine million copies and becoming the second highest-selling game on the Super Nintendo. David Wise's ethereal, ambient synthesizer soundtrack (headlined by the haunting 'Aquatic Ambience') remains one of the most celebrated musical accomplishments in gaming history.",
+    "preservationNotes": "Preserved on authentic 4MB (32 Megabit) SNES cartridge ROM dumps. Accurate Sony SPC700 audio filter coefficients and reverb buffers are essential to experiencing David Wise's ambient compositions."
+  },
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "Mayles, Gregg. 'The Making of Donkey Kong Country', Rare Developer Retrospective (2014)",
+      "Wise, David. 'Composing Aquatic Ambience on the SNES SPC700', Red Bull Music Academy (2014)",
+      "Nintendo of America SNS-8X-USA Instruction Booklet: Donkey Kong Country (1994)"
+    ],
+    "romMediaFormat": "Super Nintendo ROM Cartridge (SHVC-1A0N PCB)",
+    "romSizeOriginal": "4 MB ROM (32 Megabits)",
+    "displayResolutionOriginal": "256 × 224 (NTSC 16-Bit RGB)",
+    "audioHardware": "Sony SPC700 8-channel ADPCM sound processor",
+    "inputMethod": "SNES Controller",
+    "multiplayerCapability": "2 Players (Tag-Team Co-op / Contest)"
+  },
+  "relatedExhibits": {
+    "games": [
+      "donkey-kong",
+      "super-mario-world",
+      "sonic-the-hedgehog-2"
+    ],
+    "consoles": [
+      "super-nintendo-entertainment-system"
+    ],
+    "genres": [
+      "platformer"
+    ],
+    "timeline": [
+      "ev-1994-playstation-launch-japan"
+    ]
+  },
+  "assets": {
+    "heroImage": "/assets/images/games/donkey-kong-country-hero.webp",
+    "thumbnailImage": "/assets/images/games/donkey-kong-country.webp",
+    "coverImage": "/assets/images/games/donkey-kong-country-cover.webp",
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/1/1a/Donkey_Kong_Country_SNES_cover.png",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/1/1a/Donkey_Kong_Country_SNES_cover.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Donkey_Kong_Country_SNES_cover.png",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "donkey kong country",
+    "rare",
+    "diddy kong",
+    "david wise",
+    "aquatic ambience",
+    "silicon graphics",
+    "sgi",
+    "pre-rendered",
+    "snes",
+    "1994",
+    "1990s"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

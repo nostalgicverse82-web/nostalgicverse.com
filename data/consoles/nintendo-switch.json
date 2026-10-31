@@ -1,0 +1,43 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+  "id": "console-nintendo-switch",
+  "slug": "nintendo-switch",
+  "name": "Nintendo Switch",
+  "manufacturer": "Nintendo",
+  "generation": "Eighth Generation",
+  "generationNumber": 8,
+  "originalReleaseYear": 2017,
+  "exactReleaseDate": "March 3, 2017",
+  "mediaFormat": "Nintendo Switch Game Card (ROM)",
+  "significance": "Unified home and handheld software development under a single architecture, selling over 140 million units to become one of the most successful platforms in history.",
+  "verifiedFactualData": {
+    "cpu": "NVIDIA Custom Tegra X1 (4x Cortex-A57 + 4x Cortex-A53) @ up to 1.02 GHz",
+    "gpuOrVideoChip": "NVIDIA Maxwell-based architecture (256 CUDA cores)",
+    "ram": "4 GB LPDDR4 unified RAM"
+  },
+  "editorialContent": {
+    "overview": "The revolutionary hybrid platform that seamlessly dissolved the barrier between home living-room console and portable play.",
+    "marketLegacy": "Unified home and handheld software development under a single architecture, selling over 140 million units to become one of the most successful platforms in history.",
+    "controllerDesign": "Detachable Joy-Con controllers with HD Rumble, IR camera, and motion gyroscopes"
+  },
+  "keyGames": [
+    "the-legend-of-zelda-breath-of-the-wild",
+    "super-mario-odyssey",
+    "super-smash-bros-ultimate",
+    "animal-crossing-new-horizons"
+  ],
+  "assets": {
+    "mainImage": "/assets/images/consoles/nintendo-switch.png",
+    "heroImage": "/assets/images/consoles/nintendo-switch-hero.png",
+    "hardwareImage": "/assets/images/consoles/nintendo-switch-hardware.png"
+  },
+  "keywords": [
+    "nintendo switch",
+    "switch",
+    "nintendo",
+    "hybrid console",
+    "joy-con",
+    "eighth generation",
+    "2017"
+  ]
+}

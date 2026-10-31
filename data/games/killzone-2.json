@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-killzone-2",
+  "slug": "killzone-2",
+  "title": "Killzone 2",
+  "originalReleaseYear": 2009,
+  "exactReleaseDate": "February 27, 2009",
+  "originalLaunchPlatform": "PlayStation 3",
+  "originalLaunchRegion": "North America",
+  "developer": "Guerrilla Games",
+  "publisher": "Sony Computer Entertainment",
+  "platforms": [
+    "PlayStation 3"
+  ],
+  "genre": "first-person-shooter",
+  "subgenres": [
+    "sci-fi"
+  ],
+  "era": "2000s",
+  "shortDescription": "ISA Sergeant Tomas Sevchenko invades the Helghan homeworld in a gritty industrial planetary assault.",
+  "historicalSignificance": "Set unprecedented standards for deferred rendering, dynamic lighting, and visceral weighty gunplay on PS3.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Killzone_2",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "ISA Sergeant Tomas Sevchenko invades the Helghan homeworld in a gritty industrial planetary assault.",
+    "culturalImpact": "Set unprecedented standards for deferred rendering, dynamic lighting, and visceral weighty gunplay on PS3."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 3"
+    ],
+    "genres": [
+      "first-person-shooter"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/1/1e/Killzone_2_box_art.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/1/1e/Killzone_2_box_art.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Killzone_2",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Killzone 2",
+    "Guerrilla Games",
+    "Sony Computer Entertainment",
+    "PlayStation 3",
+    "first-person-shooter",
+    "2009",
+    "2000s",
+    "PlayStation 3",
+    "sci-fi"
+  ],
+  "url": "/games/killzone-2/",
+  "featured": false
+}

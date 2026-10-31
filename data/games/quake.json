@@ -1,0 +1,90 @@
+{
+  "id": "game-quake",
+  "slug": "quake",
+  "title": "Quake",
+  "japaneseTitle": "クエイク",
+  "url": "/games/quake/",
+  "originalReleaseYear": 1996,
+  "exactReleaseDate": "1996-06-22",
+  "developer": "id Software",
+  "publisher": "GT Interactive",
+  "director": "John Romero, John Carmack",
+  "designer": "John Romero, Sandy Petersen, American McGee, Tim Willits",
+  "composer": "Nine Inch Nails (Trent Reznor)",
+  "originalLaunchPlatform": "MS-DOS",
+  "platforms": [
+    "MS-DOS",
+    "Sega Saturn",
+    "Nintendo 64",
+    "Mac OS",
+    "Linux"
+  ],
+  "genre": "first-person-shooter",
+  "subgenres": [
+    "Arena FPS",
+    "Gothic Dark Fantasy FPS"
+  ],
+  "era": "1990s",
+  "shortDescription": "id Software's true 3D technological milestone that birthed modern internet multiplayer, QuakeWorld, and esports.",
+  "historicalSignificance": "Delivered the first true real-time 3D polygonal engine with lightmaps and client-server network architecture (QuakeWorld), establishing the technical foundation of competitive internet multiplayer, esports tournaments, machinima, and clan culture.",
+  "editorialContent": {
+    "overview": "Released by id Software in June 1996, Quake dismantled the 2.5D raycasting architecture of Doom, plunging the industry into genuine fully polygonal 3D worlds. Designed by a legendary team including John Carmack, John Romero, and American McGee, paired with an industrial dark ambient score by Trent Reznor and Nine Inch Nails, Quake blended Lovecraftian eldritch horror with brutal military sci-fi.",
+    "gameplay": "Quake cemented mouselook control as the standard for first-person shooters. Players wield rocket launchers, grenade launchers, and lightning guns while mastering physics quirks like rocket jumping, strafe jumping, and bunny hopping across labyrinthine gothic fortresses.",
+    "technicalInnovation": "John Carmack created binary space partitioning (BSP) trees with precomputed Potentially Visible Sets (PVS) and real-time surface caching with static lightmaps, enabling complex architectural polygon counts on 1996 Pentium processors. QuakeWorld subsequently revolutionized network play with client-side prediction.",
+    "culturalImpact": "Quake birthed competitive online gaming leagues (Cyberathlete Professional League), team deathmatch clans, map modding communities that spawned Team Fortress and Counter-Strike, and the art of machinima cinema.",
+    "preservationNotes": "The Quake engine source code was released under the GPL in 1999, spawning modern engines (DarkPlaces, vkQuake) and preserving id's revolutionary software engineering for academia."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "June 22, 1996",
+    "leadPlatform": "MS-DOS",
+    "genre": "first-person-shooter",
+    "sales": "Over 1.8 million copies on PC alone",
+    "awards": [
+      "Computer Gaming World Action Game of the Year 1996",
+      "Origins Award Best Fantasy/Sci-Fi Computer Game"
+    ],
+    "technicalSpecs": {
+      "engine": "id Tech 2 (Quake engine with BSP & Lightmaps)",
+      "resolution": "320x200 software up to 1280x1024 GLQuake (OpenGL)",
+      "soundChip": "Trent Reznor Red Book Audio CD & Sound Blaster 16 AWE32",
+      "mediaFormat": "CD-ROM"
+    },
+    "relationships": {
+      "primaryConsole": "pc",
+      "developerEntity": "id Software",
+      "lineage": [
+        "Doom",
+        "Quake II",
+        "Half-Life",
+        "Team Fortress"
+      ]
+    }
+  },
+  "assets": {
+    "cover": "/assets/images/games/quake.webp",
+    "banner": "/assets/images/games/quake-banner.webp",
+    "screenshots": [
+      "/assets/images/games/quake-screen1.webp",
+      "/assets/images/games/quake-screen2.webp"
+    ],
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/4/4c/Quake1cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/4/4c/Quake1cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Quake1cover.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "review-required",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "quake",
+    "id software",
+    "john carmack",
+    "john romero",
+    "trent reznor",
+    "fps",
+    "quakeworld"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

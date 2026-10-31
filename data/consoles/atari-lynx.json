@@ -1,0 +1,41 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+  "id": "console-atari-lynx",
+  "slug": "atari-lynx",
+  "name": "Atari Lynx",
+  "manufacturer": "Atari",
+  "generation": "Fourth Generation",
+  "generationNumber": 4,
+  "originalReleaseYear": 1989,
+  "exactReleaseDate": "September 1, 1989",
+  "mediaFormat": "ROM Cartridge",
+  "significance": "Pioneered hardware sprite zooming, scaling, and distortion in a handheld console, engineered by Epyx legends RJ Mical and Dave Needle.",
+  "verifiedFactualData": {
+    "cpu": "MOS 65SC02 @ up to 4 MHz",
+    "gpuOrVideoChip": "Suzy (16-bit custom graphics processor @ 16 MHz)",
+    "ram": "64 KB DRAM"
+  },
+  "editorialContent": {
+    "overview": "The world's first handheld electronic game console with a color LCD screen, featuring hardware sprite scaling and ambidextrous ergonomics.",
+    "marketLegacy": "Pioneered hardware sprite zooming, scaling, and distortion in a handheld console, engineered by Epyx legends RJ Mical and Dave Needle.",
+    "controllerDesign": "Reversible ambidextrous directional pad and dual fire button pairs"
+  },
+  "keyGames": [
+    "blue-lightning",
+    "california-games",
+    "chip-challenge"
+  ],
+  "assets": {
+    "mainImage": "/assets/images/consoles/atari-lynx.png",
+    "heroImage": "/assets/images/consoles/atari-lynx-hero.png",
+    "hardwareImage": "/assets/images/consoles/atari-lynx-hardware.png"
+  },
+  "keywords": [
+    "atari lynx",
+    "color lcd",
+    "handheld",
+    "fourth generation",
+    "1989",
+    "epyx"
+  ]
+}

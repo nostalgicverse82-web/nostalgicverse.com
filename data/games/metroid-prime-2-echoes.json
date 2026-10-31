@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-metroid-prime-2-echoes",
+  "slug": "metroid-prime-2-echoes",
+  "title": "Metroid Prime 2: Echoes",
+  "originalReleaseYear": 2004,
+  "exactReleaseDate": "November 15, 2004",
+  "originalLaunchPlatform": "Nintendo GameCube",
+  "originalLaunchRegion": "North America",
+  "developer": "Retro Studios",
+  "publisher": "Nintendo",
+  "platforms": [
+    "GameCube"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "first-person"
+  ],
+  "era": "2000s",
+  "shortDescription": "Samus traverses the dimensional dual worlds of Light and Dark Aether against the parasitic Ing and Dark Samus.",
+  "historicalSignificance": "Expanded technical scanning lore and environmental ammunition management with deep puzzle architecture.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Metroid_Prime_2:_Echoes",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Samus traverses the dimensional dual worlds of Light and Dark Aether against the parasitic Ing and Dark Samus.",
+    "culturalImpact": "Expanded technical scanning lore and environmental ammunition management with deep puzzle architecture."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "Nintendo GameCube"
+    ],
+    "genres": [
+      "action-adventure"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Metroid_Prime_2_Echoes_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Metroid_Prime_2_Echoes_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Metroid_Prime_2:_Echoes",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Metroid Prime 2: Echoes",
+    "Retro Studios",
+    "Nintendo",
+    "Nintendo GameCube",
+    "action-adventure",
+    "2004",
+    "2000s",
+    "GameCube",
+    "first-person"
+  ],
+  "url": "/games/metroid-prime-2-echoes/",
+  "featured": false
+}

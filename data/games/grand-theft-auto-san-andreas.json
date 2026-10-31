@@ -1,0 +1,89 @@
+{
+  "id": "game-grand-theft-auto-san-andreas",
+  "slug": "grand-theft-auto-san-andreas",
+  "title": "Grand Theft Auto: San Andreas",
+  "japaneseTitle": "グランド・セフト・オート・サンアンドレアス",
+  "url": "/games/grand-theft-auto-san-andreas/",
+  "originalReleaseYear": 2004,
+  "exactReleaseDate": "2004-10-26",
+  "developer": "Rockstar North",
+  "publisher": "Rockstar Games",
+  "director": "Dan Houser, Leslie Benzies",
+  "designer": "Leslie Benzies",
+  "composer": "Michael Hunter",
+  "originalLaunchPlatform": "PlayStation 2",
+  "platforms": [
+    "PlayStation 2",
+    "Xbox",
+    "Microsoft Windows"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "Open-World Crime Simulator",
+    "Urban Sandbox"
+  ],
+  "era": "2000s",
+  "shortDescription": "Rockstar North's colossal PlayStation 2 magnum opus spanning three cities, RPG character growth, and 1990s West Coast culture.",
+  "historicalSignificance": "Pushed the PlayStation 2 hardware beyond its theoretical limits to deliver a sprawling open state with three distinct metropolitan cities (Los Santos, San Fierro, Las Venturas), RPG body customization, and the best-selling game in PlayStation 2 history.",
+  "editorialContent": {
+    "overview": "Developed by Rockstar North in Edinburgh and released in October 2004, Grand Theft Auto: San Andreas was a gargantuan cultural statement. Set in 1992 across a fictional recreation of California and Nevada, the game follows Carl 'CJ' Johnson returning home to Los Santos following his mother's murder, only to find the Grove Street Families fractured and the police department corrupt.",
+    "gameplay": "Players explore an enormous seamless map containing three complete metropolises, rural country towns, and Mount Chiliad. Gameplay introduced deep RPG mechanics: CJ can eat at Cluckin' Bell, lift weights to gain muscle, build stamina through bicycling, customize cars with hydraulics, learn distinct martial arts fighting styles, and fight neighborhood turf wars.",
+    "technicalInnovation": "Rockstar North engineered custom level-of-detail streaming and memory caching algorithms that eliminated loading screens between cities, while integrating eleven distinct licensed radio stations spanning hip-hop, funk, country, and classic rock.",
+    "culturalImpact": "With 27.5 million copies sold, San Andreas became the best-selling game of the entire sixth console generation. Its vibrant depiction of 1990s West Coast hip-hop culture, unforgettable voice cast (including Young Maylay and Samuel L. Jackson), and timeless cheat codes remain legendary.",
+    "preservationNotes": "Preserved via original PS2 and original Xbox discs, along with the legendary PC community modding ecosystems (Multi Theft Auto, SA-MP)."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "October 26, 2004",
+    "leadPlatform": "PlayStation 2",
+    "genre": "action-adventure",
+    "sales": "27.5 million copies worldwide (best-selling PS2 game of all time)",
+    "awards": [
+      "Game of the Year 2004 (Spike Video Game Awards)",
+      "BAFTA Children's / Interactive Award nominee"
+    ],
+    "technicalSpecs": {
+      "engine": "RenderWare 3D with Rockstar North open-world streaming extensions",
+      "resolution": "480i / 480p on select editions",
+      "soundChip": "PS2 SPU2 with Dolby Pro Logic II surround sound",
+      "mediaFormat": "DVD-ROM"
+    },
+    "relationships": {
+      "primaryConsole": "playstation-2",
+      "developerEntity": "Rockstar Games",
+      "lineage": [
+        "Grand Theft Auto III",
+        "Grand Theft Auto: Vice City",
+        "Grand Theft Auto IV",
+        "Grand Theft Auto V"
+      ]
+    }
+  },
+  "assets": {
+    "cover": "/assets/images/games/grand-theft-auto-san-andreas.webp",
+    "banner": "/assets/images/games/grand-theft-auto-san-andreas-banner.webp",
+    "screenshots": [
+      "/assets/images/games/grand-theft-auto-san-andreas-screen1.webp",
+      "/assets/images/games/grand-theft-auto-san-andreas-screen2.webp"
+    ],
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/c/c4/GTASABOX.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/c/c4/GTASABOX.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:GTASABOX.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "san andreas",
+    "gta",
+    "cj",
+    "grove street",
+    "rockstar games",
+    "open world",
+    "los santos",
+    "dan houser"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

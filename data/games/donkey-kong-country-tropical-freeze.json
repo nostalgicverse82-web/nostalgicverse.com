@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-donkey-kong-country-tropical-freeze",
+  "slug": "donkey-kong-country-tropical-freeze",
+  "title": "Donkey Kong Country: Tropical Freeze",
+  "originalReleaseYear": 2014,
+  "exactReleaseDate": "February 13, 2014",
+  "originalLaunchPlatform": "Wii U",
+  "originalLaunchRegion": "Japan",
+  "developer": "Retro Studios",
+  "publisher": "Nintendo",
+  "platforms": [
+    "Wii U"
+  ],
+  "genre": "platformer",
+  "subgenres": [
+    "2d-platformer"
+  ],
+  "era": "2010s",
+  "shortDescription": "The Kong family reclaims their frozen archipelago from the Snowmads accompanied by David Wise's score.",
+  "historicalSignificance": "Universally heralded as one of the greatest 2D platformers ever made with sublime environmental rhythms.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Donkey_Kong_Country:_Tropical_Freeze",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "The Kong family reclaims their frozen archipelago from the Snowmads accompanied by David Wise's score.",
+    "culturalImpact": "Universally heralded as one of the greatest 2D platformers ever made with sublime environmental rhythms."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "Wii U"
+    ],
+    "genres": [
+      "platformer"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Donkey_Kong_Country_Tropical_Freeze_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Donkey_Kong_Country_Tropical_Freeze_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Donkey_Kong_Country:_Tropical_Freeze",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Donkey Kong Country: Tropical Freeze",
+    "Retro Studios",
+    "Nintendo",
+    "Wii U",
+    "platformer",
+    "2014",
+    "2014",
+    "Wii U",
+    "2d-platformer"
+  ],
+  "url": "/games/donkey-kong-country-tropical-freeze/",
+  "featured": false
+}

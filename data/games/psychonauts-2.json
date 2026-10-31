@@ -1,0 +1,72 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-psychonauts-2",
+  "slug": "psychonauts-2",
+  "title": "Psychonauts 2",
+  "originalReleaseYear": 2021,
+  "exactReleaseDate": "August 25, 2021",
+  "originalLaunchPlatform": "Xbox Series X/S",
+  "originalLaunchRegion": "Worldwide",
+  "developer": "Double Fine Productions",
+  "publisher": "Xbox Game Studios",
+  "platforms": [
+    "Xbox Series",
+    "Xbox One",
+    "PlayStation 4",
+    "PC"
+  ],
+  "genre": "platformer",
+  "subgenres": [
+    "3d-platformer"
+  ],
+  "era": "2020s",
+  "shortDescription": "Raz explores the minds of the Psychic Six at Motherlobe headquarters uncovering deep emotional traumas and healing.",
+  "historicalSignificance": "A triumphant sequel nominated for Game of the Year, revered for empathetic mental health storytelling and dazzling visual imagination.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Psychonauts_2",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Raz explores the minds of the Psychic Six at Motherlobe headquarters uncovering deep emotional traumas and healing.",
+    "culturalImpact": "A triumphant sequel nominated for Game of the Year, revered for empathetic mental health storytelling and dazzling visual imagination."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "Xbox Series X/S"
+    ],
+    "genres": [
+      "platformer"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Psychonauts_2_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Psychonauts_2_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Psychonauts_2",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Psychonauts 2",
+    "Double Fine Productions",
+    "Xbox Game Studios",
+    "Xbox Series X/S",
+    "platformer",
+    "2021",
+    "2020s",
+    "Xbox Series",
+    "Xbox One",
+    "PlayStation 4",
+    "PC",
+    "3d-platformer"
+  ],
+  "url": "/games/psychonauts-2/",
+  "featured": false
+}

@@ -1,0 +1,82 @@
+{
+  "id": "game-final-fantasy-xvi",
+  "slug": "final-fantasy-xvi",
+  "title": "Final Fantasy XVI",
+  "japaneseTitle": "ファイナルファンタジーXVI",
+  "url": "/games/final-fantasy-xvi/",
+  "originalReleaseYear": 2023,
+  "exactReleaseDate": "2023-06-22",
+  "developer": "Square Enix Creative Business Unit III",
+  "publisher": "Square Enix",
+  "director": "Hiroshi Takai, Kazutoyo Maehiro",
+  "designer": "Ryota Suzuki",
+  "composer": "Masayoshi Soken",
+  "originalLaunchPlatform": "PlayStation 5",
+  "platforms": [
+    "PlayStation 5",
+    "Microsoft Windows"
+  ],
+  "genre": "action-rpg",
+  "subgenres": [
+    "Character Action",
+    "Dark Fantasy"
+  ],
+  "era": "2020s",
+  "shortDescription": "Creative Business Unit III's mature dark fantasy epic centering on Clive Rosfield, featuring Ryota Suzuki character combat and titanic Eikon kaiju clashes.",
+  "historicalSignificance": "The first mainline Final Fantasy developed from the ground up exclusively for ninth-generation console hardware, radically evolving the franchise into full real-time character action and winning Best Score at The Game Awards 2023.",
+  "editorialContent": {
+    "overview": "Set in the blighted fantasy realm of Valisthea, where nations war over the magical blessing of giant Mothercrystals, Clive Rosfield of Rosaria embarks on a dark quest of vengeance against the mysterious dark Eikon Ifrit.",
+    "gameplay": "Directed by combat veteran Ryota Suzuki (Devil May Cry 5), players execute blistering sword combos while instantly cycling between elemental Eikonic abilities (Phoenix, Garuda, Titan, Bahamut, Odin) alongside colossal playable Eikon vs. Eikon cinematic boss battles.",
+    "technicalInnovation": "Features the acclaimed 'Active Time Lore' system, allowing players to pause any cutscene or dialogue to instantly read concise factual dossiers about featured characters, politics, and historical events.",
+    "culturalImpact": "Hailed for its mature political storytelling, devastating emotional stakes, and Masayoshi Soken's phenomenal 8-disc choral-orchestral score.",
+    "preservationNotes": "Preserved on Ultra HD Blu-ray disc and ported to PC with unlocked frame rates."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "June 22, 2023",
+    "leadPlatform": "PlayStation 5",
+    "genre": "action-rpg",
+    "sales": "Over 3 million copies sold in launch week",
+    "awards": [
+      "The Game Awards Best Score and Music 2023",
+      "Japan Game Awards Award for Excellence"
+    ],
+    "technicalSpecs": {
+      "engine": "Proprietary Square Enix CBU3 Engine",
+      "resolution": "Dynamic 4K (Graphics Mode) / 1440p 60fps (Performance Mode)",
+      "soundChip": "Masayoshi Soken dynamic choral orchestral audio in 3D Audio",
+      "mediaFormat": "Ultra HD Blu-ray Disc"
+    },
+    "relationships": {
+      "primaryConsole": "playstation-5",
+      "developerEntity": "Square Enix",
+      "lineage": [
+        "Final Fantasy XIV",
+        "Final Fantasy VII Rebirth"
+      ]
+    }
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/0/02/Final_Fantasy_XVI_cover_art.png",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/0/02/Final_Fantasy_XVI_cover_art.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Final_Fantasy_XVI_cover_art.png",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "final fantasy xvi",
+    "clive rosfield",
+    "naoki yoshida",
+    "masayoshi soken",
+    "eikons",
+    "ifrit",
+    "bahamut",
+    "square enix",
+    "playstation 5",
+    "ps5"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

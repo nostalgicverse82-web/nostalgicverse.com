@@ -1,0 +1,91 @@
+{
+  "id": "game-zork",
+  "slug": "zork",
+  "title": "Zork: The Great Underground Empire",
+  "url": "/games/zork/",
+  "originalReleaseYear": 1977,
+  "exactReleaseDate": "1977-06-14",
+  "developer": "Infocom / MIT Dynamic Modelling Group",
+  "publisher": "Infocom / Personal Software",
+  "designer": "Tim Anderson, Marc Blank, Bruce Daniels, Dave Lebling",
+  "originalLaunchPlatform": "DEC PDP-10",
+  "platforms": [
+    "DEC PDP-10",
+    "Apple II",
+    "Commodore 64",
+    "Atari 8-bit",
+    "IBM PC / MS-DOS"
+  ],
+  "genre": "point-and-click-adventure",
+  "subgenres": [
+    "Interactive Fiction",
+    "Text Adventure"
+  ],
+  "era": "1970s",
+  "shortDescription": "Infocom's literary masterpiece of interactive fiction, setting the gold standard for natural language parsing, witty world-building, and underground fantasy exploration.",
+  "historicalSignificance": "Pioneered the Z-Machine virtual machine architecture enabling write-once run-anywhere deployment across 1980s personal computers, and made the 'grue' one of gaming's most feared legendary creatures.",
+  "editorialContent": {
+    "overview": "Written between 1977 and 1979 by MIT researchers Tim Anderson, Marc Blank, Bruce Daniels, and Dave Lebling on a laboratory PDP-10 mainframe using the MDL programming language, Zork was conceived as an ambitious expansion upon Colossal Cave Adventure. When the team founded Infocom in 1979, they partitioned the massive mainframe database into a celebrated commercial trilogy for home microcomputers, spearheaded by Zork I: The Great Underground Empire.",
+    "gameplayMechanics": "Standing before a white house with a boarded front door, players explore the subterranean ruins of the fallen Great Underground Empire, seeking twenty ancient treasures to place in the house's trophy case. Gameplay relies on typing descriptive commands into an advanced parser capable of understanding full English sentences, compound prepositional phrases ('PUT THE GOLD COIN IN THE TROPHY CASE'), and adjectives.",
+    "technicalInnovation": "To conquer the fragmented 1980s personal computer market, Marc Blank and Joel Berez engineered the Z-Machine: a compact bytecode virtual machine. The game engine was compiled into portable Z-code data files, requiring only a tiny platform-specific interpreter (ZIP) to run identically on an Apple II, Commodore 64, Atari 8-bit, or IBM PC, revolutionizing cross-platform software engineering.",
+    "culturalImpact": "Zork sold over two million copies across the 1980s, establishing Infocom as the undisputed literary titan of early computer gaming. Its brilliant deadpan humor, evocative prose, and terrifying warnings ('It is pitch black. You are likely to be eaten by a grue.') cemented its legacy in video game history.",
+    "preservationNotes": "Preserved through Infocom's canonical Z-code story files (.z1, .z3, .z5), readable by modern Frotz virtual machine engines across all computational architectures."
+  },
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "Lebling, Dave & Blank, Marc. 'Zork: A Computerized Fantasy Simulation Game', IEEE Computer (1979)",
+      "Barksdale, Karl & Turner, E. S. 'The History of Infocom', Digital Antiquarian (2012)",
+      "Infocom Z-Machine Technical Specification Revision 1.1 (1989)"
+    ],
+    "romMediaFormat": "5.25-inch Floppy Disk (Z-Machine Bytecode)",
+    "romSizeOriginal": "84 KB (Z-Code Story File)",
+    "displayResolutionOriginal": "40 / 80-column ASCII Text Mode",
+    "audioHardware": "None (Pure Text)",
+    "inputMethod": "Full QWERTY Keyboard",
+    "multiplayerCapability": "1 Player"
+  },
+  "relatedExhibits": {
+    "games": [
+      "colossal-cave-adventure",
+      "the-secret-of-monkey-island",
+      "myst"
+    ],
+    "consoles": [
+      "apple-bandai-pippin"
+    ],
+    "genres": [
+      "point-and-click-adventure"
+    ],
+    "timeline": [
+      "ev-1977-zork-mit"
+    ]
+  },
+  "assets": {
+    "heroImage": "/assets/images/games/zork-hero.webp",
+    "thumbnailImage": "/assets/images/games/zork.webp",
+    "coverImage": "/assets/images/games/zork-cover.webp",
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/ac/Zork_I_box_art.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/ac/Zork_I_box_art.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Zork_I_box_art.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "zork",
+    "infocom",
+    "mit",
+    "marc blank",
+    "dave lebling",
+    "grue",
+    "interactive fiction",
+    "text adventure",
+    "z-machine",
+    "1977",
+    "1970s"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

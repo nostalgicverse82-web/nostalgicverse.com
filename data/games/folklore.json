@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-folklore",
+  "slug": "folklore",
+  "title": "Folklore",
+  "originalReleaseYear": 2007,
+  "exactReleaseDate": "June 21, 2007",
+  "originalLaunchPlatform": "PlayStation 3",
+  "originalLaunchRegion": "Japan",
+  "developer": "Game Republic",
+  "publisher": "Sony Computer Entertainment",
+  "platforms": [
+    "PlayStation 3"
+  ],
+  "genre": "action-rpg",
+  "subgenres": [
+    "celtic-fantasy"
+  ],
+  "era": "2000s",
+  "shortDescription": "Ellen and Keats travel to the mystical village of Doolin, entering the Netherworld to capture and summon Celtic Folks.",
+  "historicalSignificance": "Pioneered creative Sixaxis motion sensor mechanics to reel in and capture mythical spirit creatures.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Folklore",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Ellen and Keats travel to the mystical village of Doolin, entering the Netherworld to capture and summon Celtic Folks.",
+    "culturalImpact": "Pioneered creative Sixaxis motion sensor mechanics to reel in and capture mythical spirit creatures."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 3"
+    ],
+    "genres": [
+      "action-rpg"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Folklore_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Folklore_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Folklore",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Folklore",
+    "Game Republic",
+    "Sony Computer Entertainment",
+    "PlayStation 3",
+    "action-rpg",
+    "2007",
+    "2000s",
+    "PlayStation 3",
+    "celtic-fantasy"
+  ],
+  "url": "/games/folklore/",
+  "featured": false
+}

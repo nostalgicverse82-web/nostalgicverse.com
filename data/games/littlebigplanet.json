@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-littlebigplanet",
+  "slug": "littlebigplanet",
+  "title": "LittleBigPlanet",
+  "originalReleaseYear": 2008,
+  "exactReleaseDate": "October 27, 2008",
+  "originalLaunchPlatform": "PlayStation 3",
+  "originalLaunchRegion": "North America",
+  "developer": "Media Molecule",
+  "publisher": "Sony Computer Entertainment",
+  "platforms": [
+    "PlayStation 3"
+  ],
+  "genre": "platformer",
+  "subgenres": [
+    "creative-sandbox"
+  ],
+  "era": "2000s",
+  "shortDescription": "Charming physical platformer starring Sackboy powered by a revolutionary Play, Create, Share philosophy.",
+  "historicalSignificance": "Pioneered accessible user-generated content on consoles, fostering millions of community levels.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/LittleBigPlanet",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Charming physical platformer starring Sackboy powered by a revolutionary Play, Create, Share philosophy.",
+    "culturalImpact": "Pioneered accessible user-generated content on consoles, fostering millions of community levels."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 3"
+    ],
+    "genres": [
+      "platformer"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/d/dc/LittleBigPlanet_box.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/d/dc/LittleBigPlanet_box.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/LittleBigPlanet",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "LittleBigPlanet",
+    "Media Molecule",
+    "Sony Computer Entertainment",
+    "PlayStation 3",
+    "platformer",
+    "2008",
+    "2000s",
+    "PlayStation 3",
+    "creative-sandbox"
+  ],
+  "url": "/games/littlebigplanet/",
+  "featured": false
+}

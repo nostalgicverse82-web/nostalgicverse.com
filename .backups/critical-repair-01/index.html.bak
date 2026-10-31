@@ -1,0 +1,4668 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <!-- Primary Metadata -->
+  <title>NostalgicVerse — The Games That Made History</title>
+  <meta name="description" content="NostalgicVerse is a digital archive, museum, and preservation platform dedicated to the history, hardware, milestones, and culture of video games from the 1980s through the modern era.">
+  <meta name="keywords" content="video game archive, gaming history, retro consoles, classic games, digital museum, PlayStation, Nintendo, Sega, gaming retrospectives, emulator">
+  <meta name="author" content="NostalgicVerse Archive">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://nostalgicverse.com/">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <meta name="theme-color" content="#08080C">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://nostalgicverse.com/">
+  <meta property="og:title" content="NostalgicVerse — The Games That Made History">
+  <meta property="og:description" content="A digital archive, museum, and preservation platform dedicated to the history, hardware, and stories that defined generations of play.">
+  <meta property="og:site_name" content="NostalgicVerse">
+  <meta property="og:image" content="https://nostalgicverse.com/assets/images/branding/logo/logo.png">
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://nostalgicverse.com/">
+  <meta name="twitter:title" content="NostalgicVerse — The Games That Made History">
+  <meta name="twitter:description" content="A digital archive, museum, and preservation platform dedicated to the history, hardware, and stories that defined generations of play.">
+  <meta name="twitter:image" content="https://nostalgicverse.com/assets/images/branding/logo/logo.png">
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://nostalgicverse.com/#website",
+        "url": "https://nostalgicverse.com/",
+        "name": "NostalgicVerse",
+        "description": "The Games That Made History. A digital museum, historical archive, and preservation initiative for video games.",
+        "inLanguage": "en",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://nostalgicverse.com/search/?q={search_term_string}"
+          },
+          "query-input": "required name=search_term_string"
+        }
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://nostalgicverse.com/#organization",
+        "name": "NostalgicVerse",
+        "url": "https://nostalgicverse.com/",
+        "logo": "https://nostalgicverse.com/assets/images/branding/logo/logo.png"
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    /* ==========================================================================
+       01. DESIGN TOKENS & SYSTEM VARIABLES
+       ========================================================================== */
+    :root {
+      /* Colors */
+      --nv-bg: #08080C;
+      --nv-bg-alt: #0C0C11;
+      --nv-surface: #111118;
+      --nv-surface-raised: #15151D;
+      --nv-surface-active: #1C1C26;
+      --nv-border: #1E1E2C;
+      --nv-border-strong: #2A2A38;
+      --nv-border-hover: rgba(0, 229, 255, 0.35);
+
+      /* Typography Colors */
+      --nv-text-primary: #F4F4F7;
+      --nv-text-secondary: #A7A7B5;
+      --nv-text-muted: #737381;
+
+      /* Museum Accent Indicators */
+      --nv-cyan: #00E5FF;
+      --nv-gold: #FFB300;
+      --nv-crimson: #FF2A6D;
+
+      /* Typography Stacks */
+      --nv-font-sans: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      --nv-font-mono: ui-monospace, "SFMono-Regular", Menlo, Consolas, "Liberation Mono", monospace;
+
+      /* Layout & Spacing */
+      --nv-container-max: 1400px;
+      --nv-header-height: 72px;
+      --nv-radius-sm: 4px;
+      --nv-radius-md: 8px;
+      --nv-radius-lg: 12px;
+
+      /* Shadows */
+      --nv-shadow-ambient: 0 20px 60px rgba(0, 0, 0, 0.45);
+      --nv-shadow-card: 0 10px 30px rgba(0, 0, 0, 0.35);
+
+      /* Transitions */
+      --nv-transition-fast: 160ms cubic-bezier(0.16, 1, 0.3, 1);
+      --nv-transition-normal: 260ms cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    /* ==========================================================================
+       02. RESET & BASE STYLES
+       ========================================================================== */
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      font-size: 16px;
+      line-height: 1.5;
+      background-color: var(--nv-bg);
+      color: var(--nv-text-primary);
+      font-family: var(--nv-font-sans);
+      scroll-behavior: smooth;
+      text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      background-color: var(--nv-bg);
+      color: var(--nv-text-primary);
+      overflow-x: hidden;
+      position: relative;
+    }
+
+    body.menu-open {
+      overflow: hidden;
+    }
+
+    img, svg {
+      display: block;
+      max-width: 100%;
+      height: auto;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+      transition: color var(--nv-transition-fast);
+    }
+
+    button, input {
+      font-family: inherit;
+      font-size: inherit;
+      color: inherit;
+      border: none;
+      background: none;
+    }
+
+    button {
+      cursor: pointer;
+    }
+
+    /* Keyboard Accessibility Focus */
+    :focus-visible {
+      outline: 2px solid var(--nv-cyan);
+      outline-offset: 3px;
+    }
+
+    .skip-link {
+      position: absolute;
+      top: -100px;
+      left: 16px;
+      z-index: 1000;
+      background: var(--nv-cyan);
+      color: #000;
+      font-weight: 700;
+      padding: 12px 20px;
+      border-radius: var(--nv-radius-sm);
+      font-family: var(--nv-font-mono);
+      font-size: 0.85rem;
+      transition: top var(--nv-transition-fast);
+    }
+
+    .skip-link:focus {
+      top: 16px;
+    }
+
+    /* Subtle Architectural Grid Texture */
+    .bg-grid-overlay {
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 0;
+      background-image: 
+        linear-gradient(to right, rgba(255, 255, 255, 0.015) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(255, 255, 255, 0.015) 1px, transparent 1px);
+      background-size: 64px 64px;
+      mask-image: radial-gradient(ellipse at 50% 30%, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 80%, transparent 100%);
+      -webkit-mask-image: radial-gradient(ellipse at 50% 30%, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 80%, transparent 100%);
+    }
+
+    /* Layout Containers */
+    .container {
+      width: min(100% - 32px, var(--nv-container-max));
+      margin-inline: auto;
+      padding-inline: max(0px, env(safe-area-inset-left));
+      position: relative;
+      z-index: 1;
+    }
+
+    @media (min-width: 768px) {
+      .container {
+        width: min(100% - 64px, var(--nv-container-max));
+      }
+    }
+
+    /* ==========================================================================
+       03. MUSEUM TYPOGRAPHY & CATALOG LABELS
+       ========================================================================== */
+    .catalog-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-family: var(--nv-font-mono);
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      color: var(--nv-text-muted);
+      margin-bottom: 12px;
+    }
+
+    .catalog-tag::before {
+      content: "";
+      display: inline-block;
+      width: 6px;
+      height: 6px;
+      background-color: var(--nv-border-strong);
+      border-radius: 1px;
+    }
+
+    .catalog-tag.tag-cyan {
+      color: var(--nv-cyan);
+    }
+    .catalog-tag.tag-cyan::before {
+      background-color: var(--nv-cyan);
+    }
+
+    .catalog-tag.tag-gold {
+      color: var(--nv-gold);
+    }
+    .catalog-tag.tag-gold::before {
+      background-color: var(--nv-gold);
+    }
+
+    .catalog-tag.tag-crimson {
+      color: var(--nv-crimson);
+    }
+    .catalog-tag.tag-crimson::before {
+      background-color: var(--nv-crimson);
+    }
+
+    .section-header {
+      margin-bottom: 48px;
+    }
+
+    .section-title {
+      font-size: clamp(2rem, 4.5vw, 3.5rem);
+      font-weight: 800;
+      letter-spacing: -0.025em;
+      line-height: 1.1;
+      color: var(--nv-text-primary);
+      text-transform: uppercase;
+    }
+
+    .section-subtitle {
+      font-size: 1.1rem;
+      color: var(--nv-text-secondary);
+      margin-top: 10px;
+      max-width: 65ch;
+    }
+
+    /* Separators */
+    .museum-divider {
+      border: 0;
+      height: 1px;
+      background-color: var(--nv-border);
+      margin: 96px 0;
+      position: relative;
+    }
+
+    .museum-divider::after {
+      content: "NOSTALGICVERSE ARCHIVE";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: var(--nv-bg);
+      padding: 0 16px;
+      font-family: var(--nv-font-mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.2em;
+      color: var(--nv-text-muted);
+    }
+
+    /* ==========================================================================
+       04. BUTTONS & CONTROLS
+       ========================================================================== */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      padding: 14px 28px;
+      font-family: var(--nv-font-sans);
+      font-size: 0.92rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      border-radius: var(--nv-radius-sm);
+      transition: background-color var(--nv-transition-fast), border-color var(--nv-transition-fast), transform var(--nv-transition-fast), color var(--nv-transition-fast);
+      min-height: 48px;
+    }
+
+    .btn-primary {
+      background-color: var(--nv-text-primary);
+      color: #08080C;
+      border: 1px solid var(--nv-text-primary);
+    }
+
+    .btn-primary:hover {
+      background-color: var(--nv-cyan);
+      border-color: var(--nv-cyan);
+      color: #08080C;
+      transform: translateY(-2px);
+    }
+
+    .btn-secondary {
+      background-color: rgba(255, 255, 255, 0.03);
+      color: var(--nv-text-primary);
+      border: 1px solid var(--nv-border-strong);
+    }
+
+    .btn-secondary:hover {
+      background-color: var(--nv-surface-raised);
+      border-color: var(--nv-cyan);
+      color: var(--nv-cyan);
+      transform: translateY(-2px);
+    }
+
+    .btn-inline {
+      padding: 0;
+      min-height: auto;
+      background: transparent;
+      color: var(--nv-cyan);
+      font-family: var(--nv-font-mono);
+      font-size: 0.82rem;
+      letter-spacing: 0.08em;
+      gap: 6px;
+    }
+
+    .btn-inline:hover {
+      color: var(--nv-text-primary);
+      text-decoration: underline;
+      text-underline-offset: 4px;
+    }
+
+    .fav-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: rgba(17, 17, 24, 0.75);
+      border: 1px solid var(--nv-border);
+      color: var(--nv-text-muted);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      transition: all var(--nv-transition-fast);
+      padding: 0;
+    }
+
+    .fav-btn:hover {
+      border-color: var(--nv-crimson);
+      color: var(--nv-crimson);
+      transform: scale(1.08);
+    }
+
+    .fav-btn.is-active {
+      background: rgba(255, 42, 109, 0.15);
+      border-color: var(--nv-crimson);
+      color: var(--nv-crimson);
+    }
+
+    .fav-btn svg {
+      width: 18px;
+      height: 18px;
+      stroke: currentColor;
+      fill: transparent;
+      transition: fill var(--nv-transition-fast), transform var(--nv-transition-fast);
+    }
+
+    .fav-btn.is-active svg {
+      fill: var(--nv-crimson);
+    }
+
+    /* ==========================================================================
+       05. HEADER & NAVIGATION
+       ========================================================================== */
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background-color: rgba(8, 8, 12, 0.88);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--nv-border);
+      transition: background-color var(--nv-transition-normal), border-color var(--nv-transition-normal);
+      height: var(--nv-header-height);
+      display: flex;
+      align-items: center;
+    }
+
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+    }
+
+    .brand-group {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .brand-logo-wrap {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--nv-text-primary);
+    }
+
+    .brand-mark {
+      width: 32px;
+      height: 32px;
+      background: var(--nv-surface-raised);
+      border: 1px solid var(--nv-border-strong);
+      border-radius: var(--nv-radius-sm);
+      display: grid;
+      place-items: center;
+      font-family: var(--nv-font-mono);
+      font-weight: 800;
+      font-size: 0.85rem;
+      color: var(--nv-cyan);
+    }
+
+    .brand-text {
+      font-size: 1.1rem;
+      font-weight: 800;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .site-nav {
+      display: none;
+    }
+
+    @media (min-width: 1024px) {
+      .site-nav {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+      }
+
+      .nav-link {
+        font-family: var(--nv-font-sans);
+        font-size: 0.86rem;
+        font-weight: 500;
+        color: var(--nv-text-secondary);
+        letter-spacing: 0.02em;
+        position: relative;
+        padding-block: 6px;
+      }
+
+      .nav-link:hover, .nav-link.active {
+        color: var(--nv-text-primary);
+      }
+
+      .nav-link.active::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background-color: var(--nv-cyan);
+      }
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .header-action-btn {
+      width: 44px;
+      height: 44px;
+      display: grid;
+      place-items: center;
+      border-radius: var(--nv-radius-sm);
+      color: var(--nv-text-secondary);
+      border: 1px solid transparent;
+      position: relative;
+      transition: all var(--nv-transition-fast);
+    }
+
+    .header-action-btn:hover {
+      color: var(--nv-text-primary);
+      border-color: var(--nv-border);
+      background-color: var(--nv-surface);
+    }
+
+    .fav-badge {
+      position: absolute;
+      top: 6px;
+      right: 6px;
+      min-width: 16px;
+      height: 16px;
+      padding: 0 4px;
+      background-color: var(--nv-crimson);
+      color: #FFF;
+      font-family: var(--nv-font-mono);
+      font-size: 0.65rem;
+      font-weight: 700;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      transform: scale(0.6);
+      transition: all var(--nv-transition-fast);
+    }
+
+    .fav-badge.has-items {
+      opacity: 1;
+      transform: scale(1);
+    }
+
+    .menu-toggle {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 44px;
+      height: 44px;
+      border: 1px solid var(--nv-border);
+      border-radius: var(--nv-radius-sm);
+      color: var(--nv-text-primary);
+    }
+
+    @media (min-width: 1024px) {
+      .menu-toggle {
+        display: none;
+      }
+    }
+
+    /* Mobile Drawer */
+    .mobile-drawer-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(4, 4, 6, 0.7);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      z-index: 200;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity var(--nv-transition-normal);
+    }
+
+    .mobile-drawer {
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      width: min(85vw, 400px);
+      background-color: var(--nv-bg-alt);
+      border-left: 1px solid var(--nv-border);
+      z-index: 210;
+      padding: 32px 24px;
+      display: flex;
+      flex-direction: column;
+      transform: translateX(100%);
+      transition: transform var(--nv-transition-normal);
+      overflow-y: auto;
+    }
+
+    .mobile-drawer-overlay.is-open {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    .mobile-drawer.is-open {
+      transform: translateX(0);
+    }
+
+    .drawer-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 40px;
+    }
+
+    .drawer-nav {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      flex-grow: 1;
+    }
+
+    .drawer-nav-link {
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: var(--nv-text-secondary);
+      padding-block: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+    }
+
+    .drawer-nav-link:hover {
+      color: var(--nv-cyan);
+    }
+
+    .drawer-nav-link .nav-num {
+      font-family: var(--nv-font-mono);
+      font-size: 0.75rem;
+      color: var(--nv-text-muted);
+    }
+
+    .drawer-footer {
+      padding-top: 24px;
+      border-top: 1px solid var(--nv-border);
+      font-family: var(--nv-font-mono);
+      font-size: 0.75rem;
+      color: var(--nv-text-muted);
+    }
+
+    /* ==========================================================================
+       06. HERO SECTION
+       ========================================================================== */
+    .hero-section {
+      position: relative;
+      padding-top: clamp(60px, 12vw, 120px);
+      padding-bottom: clamp(60px, 10vw, 110px);
+      background: radial-gradient(circle at 80% 20%, rgba(0, 229, 255, 0.04) 0%, transparent 60%);
+      overflow: hidden;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 48px;
+      align-items: center;
+    }
+
+    @media (min-width: 1024px) {
+      .hero-grid {
+        grid-template-columns: 1.2fr 0.8fr;
+        gap: 64px;
+      }
+    }
+
+    .hero-headline {
+      font-size: clamp(2.8rem, 8vw, 6.5rem);
+      font-weight: 900;
+      line-height: 0.95;
+      letter-spacing: -0.04em;
+      text-transform: uppercase;
+      margin-bottom: 24px;
+      color: var(--nv-text-primary);
+    }
+
+    .hero-headline span {
+      display: block;
+    }
+
+    .hero-lead {
+      font-size: clamp(1.05rem, 1.8vw, 1.35rem);
+      line-height: 1.55;
+      color: var(--nv-text-secondary);
+      max-width: 54ch;
+      margin-bottom: 40px;
+    }
+
+    .hero-cta-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      margin-bottom: 48px;
+    }
+
+    .hero-metadata-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 32px;
+      padding-top: 24px;
+      border-top: 1px solid var(--nv-border);
+      font-family: var(--nv-font-mono);
+      font-size: 0.78rem;
+      color: var(--nv-text-muted);
+    }
+
+    .hero-metadata-item strong {
+      color: var(--nv-text-secondary);
+      font-weight: 600;
+    }
+
+    /* Hero Spotlight Display Case */
+    .hero-artifact-card {
+      position: relative;
+      background-color: var(--nv-surface);
+      border: 1px solid var(--nv-border-strong);
+      border-radius: var(--nv-radius-md);
+      padding: 24px;
+      box-shadow: var(--nv-shadow-ambient);
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .artifact-visual {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 16 / 10;
+      background: #040407;
+      border: 1px solid var(--nv-border);
+      border-radius: var(--nv-radius-sm);
+      overflow: hidden;
+      display: grid;
+      place-items: center;
+    }
+
+    .artifact-visual svg {
+      width: 60%;
+      height: 60%;
+      stroke: var(--nv-border-strong);
+      fill: none;
+      transition: stroke var(--nv-transition-normal);
+    }
+
+    .hero-artifact-card:hover .artifact-visual svg {
+      stroke: var(--nv-cyan);
+    }
+
+    .artifact-details {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .artifact-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--nv-text-primary);
+    }
+
+    .artifact-desc {
+      font-size: 0.9rem;
+      color: var(--nv-text-secondary);
+      line-height: 1.5;
+    }
+
+    /* ==========================================================================
+       07. TODAY'S MEMORY EXHIBIT
+       ========================================================================== */
+    .memory-section {
+      padding-block: 60px;
+    }
+
+    .memory-card {
+      background: linear-gradient(180deg, var(--nv-surface-raised) 0%, var(--nv-surface) 100%);
+      border: 1px solid var(--nv-border-strong);
+      border-radius: var(--nv-radius-md);
+      padding: clamp(24px, 5vw, 48px);
+      position: relative;
+      box-shadow: var(--nv-shadow-card);
+      overflow: hidden;
+    }
+
+    .memory-card::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 4px;
+      height: 100%;
+      background-color: var(--nv-gold);
+    }
+
+    .memory-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 32px;
+      align-items: center;
+    }
+
+    @media (min-width: 900px) {
+      .memory-grid {
+        grid-template-columns: auto 1fr auto;
+        gap: 48px;
+      }
+    }
+
+    .memory-date-block {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+      font-family: var(--nv-font-mono);
+    }
+
+    .memory-day {
+      font-size: clamp(2.5rem, 5vw, 4rem);
+      font-weight: 800;
+      color: var(--nv-gold);
+      line-height: 1;
+    }
+
+    .memory-month {
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      color: var(--nv-text-muted);
+    }
+
+    .memory-content {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .memory-headline {
+      font-size: clamp(1.4rem, 2.5vw, 1.85rem);
+      font-weight: 700;
+      line-height: 1.25;
+      color: var(--nv-text-primary);
+    }
+
+    .memory-body {
+      font-size: 1rem;
+      color: var(--nv-text-secondary);
+      line-height: 1.6;
+      max-width: 65ch;
+    }
+
+    /* ==========================================================================
+       08. FEATURED GAMES (CURATED EDITORIAL GRID)
+       ========================================================================== */
+    .featured-games-section {
+      padding-block: 60px;
+    }
+
+    .curated-games-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 24px;
+    }
+
+    @media (min-width: 640px) {
+      .curated-games-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (min-width: 1024px) {
+      .curated-games-grid {
+        grid-template-columns: 1.4fr 1fr 1fr;
+        grid-template-rows: repeat(2, minmax(240px, auto));
+      }
+
+      .game-card.card-featured-lead {
+        grid-row: span 2;
+      }
+    }
+
+    .game-card {
+      background-color: var(--nv-surface);
+      border: 1px solid var(--nv-border);
+      border-radius: var(--nv-radius-md);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      transition: transform var(--nv-transition-normal), border-color var(--nv-transition-normal);
+    }
+
+    .game-card:hover {
+      transform: translateY(-4px);
+      border-color: var(--nv-border-hover);
+    }
+
+    .game-card-media {
+      position: relative;
+      width: 100%;
+      background-color: #050508;
+      overflow: hidden;
+      aspect-ratio: 16 / 10;
+    }
+
+    .game-card.card-featured-lead .game-card-media {
+      aspect-ratio: 16 / 11;
+    }
+
+    @media (min-width: 1024px) {
+      .game-card.card-featured-lead .game-card-media {
+        aspect-ratio: 16 / 12;
+      }
+    }
+
+    .game-artwork {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 400ms cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .game-card:hover .game-artwork {
+      transform: scale(1.03);
+    }
+
+    /* Fallback Archival Artwork Plate */
+    .artwork-fallback-plate {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #09090E 0%, #13131D 100%);
+      padding: 24px;
+      text-align: center;
+      border-bottom: 1px solid var(--nv-border);
+    }
+
+    .artwork-fallback-plate svg {
+      width: 48px;
+      height: 48px;
+      stroke: var(--nv-text-muted);
+      margin-bottom: 12px;
+      opacity: 0.6;
+    }
+
+    .artwork-fallback-plate span {
+      font-family: var(--nv-font-mono);
+      font-size: 0.72rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--nv-text-muted);
+    }
+
+    .game-card-fav-action {
+      position: absolute;
+      top: 12px;
+      right: 12px;
+      z-index: 10;
+    }
+
+    .game-card-body {
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+      justify-content: space-between;
+    }
+
+    .game-card-meta {
+      font-family: var(--nv-font-mono);
+      font-size: 0.75rem;
+      letter-spacing: 0.08em;
+      color: var(--nv-text-muted);
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+
+    .game-card-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--nv-text-primary);
+      margin-bottom: 8px;
+      line-height: 1.2;
+    }
+
+    .game-card.card-featured-lead .game-card-title {
+      font-size: clamp(1.4rem, 2vw, 1.8rem);
+    }
+
+    .game-card-desc {
+      font-size: 0.9rem;
+      color: var(--nv-text-secondary);
+      line-height: 1.55;
+      margin-bottom: 16px;
+    }
+
+    .game-card-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 16px;
+      border-top: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    /* ==========================================================================
+       09. HARDWARE EXHIBITION (THE MACHINES)
+       ========================================================================== */
+    .consoles-section {
+      padding-block: 60px;
+    }
+
+    .consoles-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 24px;
+    }
+
+    @media (min-width: 640px) {
+      .consoles-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (min-width: 1024px) {
+      .consoles-grid {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    }
+
+    .console-card {
+      background-color: var(--nv-surface);
+      border: 1px solid var(--nv-border);
+      border-radius: var(--nv-radius-md);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      transition: transform var(--nv-transition-normal), border-color var(--nv-transition-normal);
+      position: relative;
+    }
+
+    .console-card:hover {
+      transform: translateY(-4px);
+      border-color: var(--nv-border-hover);
+    }
+
+    .console-pedestal {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 1;
+      background: radial-gradient(circle at 50% 70%, #151522 0%, #060609 80%);
+      display: grid;
+      place-items: center;
+      padding: 24px;
+      border-bottom: 1px solid var(--nv-border);
+    }
+
+    .console-diagram {
+      width: 75%;
+      height: 75%;
+      stroke: var(--nv-text-secondary);
+      fill: none;
+      transition: stroke var(--nv-transition-normal);
+    }
+
+    .console-card:hover .console-diagram {
+      stroke: var(--nv-cyan);
+    }
+
+    .console-details {
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+      justify-content: space-between;
+    }
+
+    .console-mfg {
+      font-family: var(--nv-font-mono);
+      font-size: 0.72rem;
+      letter-spacing: 0.12em;
+      color: var(--nv-cyan);
+      text-transform: uppercase;
+      margin-bottom: 6px;
+    }
+
+    .console-name {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--nv-text-primary);
+      margin-bottom: 6px;
+    }
+
+    .console-spec {
+      font-family: var(--nv-font-mono);
+      font-size: 0.78rem;
+      color: var(--nv-text-muted);
+      margin-bottom: 20px;
+    }
+
+    /* ==========================================================================
+       10. TIMELINE (A HISTORY OF PLAY)
+       ========================================================================== */
+    .timeline-section {
+      padding-block: 60px;
+    }
+
+    .timeline-container {
+      position: relative;
+      margin-top: 40px;
+    }
+
+    /* Vertical on Mobile, Horizontal on Desktop */
+    .timeline-track {
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+      position: relative;
+    }
+
+    .timeline-track::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 19px;
+      width: 2px;
+      background-color: var(--nv-border);
+    }
+
+    @media (min-width: 1024px) {
+      .timeline-track {
+        flex-direction: row;
+        gap: 24px;
+      }
+
+      .timeline-track::before {
+        top: 24px;
+        left: 0;
+        right: 0;
+        bottom: auto;
+        width: 100%;
+        height: 2px;
+      }
+    }
+
+    .timeline-era-card {
+      position: relative;
+      padding-left: 56px;
+      flex: 1;
+    }
+
+    @media (min-width: 1024px) {
+      .timeline-era-card {
+        padding-left: 0;
+        padding-top: 56px;
+      }
+    }
+
+    .timeline-node {
+      position: absolute;
+      top: 4px;
+      left: 10px;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background-color: var(--nv-bg);
+      border: 2px solid var(--nv-border-strong);
+      display: grid;
+      place-items: center;
+      transition: all var(--nv-transition-fast);
+    }
+
+    .timeline-node::after {
+      content: "";
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background-color: var(--nv-text-muted);
+      transition: background-color var(--nv-transition-fast);
+    }
+
+    @media (min-width: 1024px) {
+      .timeline-node {
+        top: 15px;
+        left: 0;
+      }
+    }
+
+    .timeline-era-card:hover .timeline-node {
+      border-color: var(--nv-cyan);
+    }
+
+    .timeline-era-card:hover .timeline-node::after {
+      background-color: var(--nv-cyan);
+    }
+
+    .era-box {
+      background-color: var(--nv-surface);
+      border: 1px solid var(--nv-border);
+      border-radius: var(--nv-radius-md);
+      padding: 24px;
+      transition: transform var(--nv-transition-fast), border-color var(--nv-transition-fast);
+    }
+
+    .era-box:hover {
+      border-color: var(--nv-border-hover);
+      transform: translateY(-2px);
+    }
+
+    .era-year {
+      font-family: var(--nv-font-mono);
+      font-size: 1.25rem;
+      font-weight: 800;
+      color: var(--nv-cyan);
+      margin-bottom: 4px;
+    }
+
+    .era-title {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--nv-text-primary);
+      margin-bottom: 10px;
+    }
+
+    .era-desc {
+      font-size: 0.88rem;
+      color: var(--nv-text-secondary);
+      line-height: 1.5;
+      margin-bottom: 16px;
+    }
+
+    /* ==========================================================================
+       11. RANDOM DISCOVERY BREAKOUT SECTION
+       ========================================================================== */
+    .random-section {
+      padding-block: 80px;
+      background: linear-gradient(180deg, transparent 0%, #06060A 50%, transparent 100%);
+      border-top: 1px solid var(--nv-border);
+      border-bottom: 1px solid var(--nv-border);
+      text-align: center;
+      position: relative;
+    }
+
+    .random-content {
+      max-width: 720px;
+      margin-inline: auto;
+    }
+
+    .random-headline {
+      font-size: clamp(2rem, 5vw, 3.8rem);
+      font-weight: 900;
+      line-height: 1.05;
+      text-transform: uppercase;
+      letter-spacing: -0.03em;
+      margin-bottom: 16px;
+    }
+
+    .random-headline span {
+      color: var(--nv-cyan);
+    }
+
+    .random-lead {
+      font-size: 1.15rem;
+      color: var(--nv-text-secondary);
+      margin-bottom: 36px;
+    }
+
+    /* ==========================================================================
+       12. EDITORIAL STORIES
+       ========================================================================== */
+    .stories-section {
+      padding-block: 60px;
+    }
+
+    .stories-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 32px;
+    }
+
+    @media (min-width: 900px) {
+      .stories-grid {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    .story-card {
+      background-color: var(--nv-surface);
+      border: 1px solid var(--nv-border);
+      border-radius: var(--nv-radius-md);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      transition: transform var(--nv-transition-normal), border-color var(--nv-transition-normal);
+    }
+
+    .story-card:hover {
+      transform: translateY(-4px);
+      border-color: var(--nv-border-hover);
+    }
+
+    .story-media {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      background-color: #08080E;
+      overflow: hidden;
+    }
+
+    .story-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform var(--nv-transition-normal);
+    }
+
+    .story-card:hover .story-img {
+      transform: scale(1.03);
+    }
+
+    .story-body {
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+    }
+
+    .story-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+      line-height: 1.3;
+      margin-bottom: 10px;
+      color: var(--nv-text-primary);
+    }
+
+    .story-excerpt {
+      font-size: 0.9rem;
+      color: var(--nv-text-secondary);
+      line-height: 1.6;
+      margin-bottom: 20px;
+      flex-grow: 1;
+    }
+
+    /* ==========================================================================
+       13. GENRE DIRECTORY (TYPOGRAPHIC INDEX)
+       ========================================================================== */
+    .genres-section {
+      padding-block: 60px;
+    }
+
+    .genre-list {
+      display: flex;
+      flex-direction: column;
+      border-top: 1px solid var(--nv-border);
+    }
+
+    .genre-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-block: 22px;
+      border-bottom: 1px solid var(--nv-border);
+      transition: padding-left var(--nv-transition-fast), background-color var(--nv-transition-fast);
+    }
+
+    .genre-row:hover {
+      padding-left: 12px;
+      background-color: rgba(255, 255, 255, 0.015);
+    }
+
+    .genre-info {
+      display: flex;
+      align-items: baseline;
+      gap: 20px;
+    }
+
+    .genre-index {
+      font-family: var(--nv-font-mono);
+      font-size: 0.8rem;
+      color: var(--nv-text-muted);
+    }
+
+    .genre-name {
+      font-size: clamp(1.2rem, 3vw, 1.75rem);
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: -0.01em;
+      color: var(--nv-text-primary);
+      transition: color var(--nv-transition-fast);
+    }
+
+    .genre-row:hover .genre-name {
+      color: var(--nv-cyan);
+    }
+
+    .genre-action {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-family: var(--nv-font-mono);
+      font-size: 0.8rem;
+      color: var(--nv-text-muted);
+      transition: color var(--nv-transition-fast), transform var(--nv-transition-fast);
+    }
+
+    .genre-row:hover .genre-action {
+      color: var(--nv-cyan);
+      transform: translateX(4px);
+    }
+
+    /* ==========================================================================
+       14. ARCHIVE SEARCH CTA
+       ========================================================================== */
+    .search-cta-section {
+      padding-block: 80px;
+    }
+
+    .search-cta-card {
+      background: radial-gradient(circle at 50% 0%, var(--nv-surface-raised) 0%, var(--nv-surface) 100%);
+      border: 1px solid var(--nv-border-strong);
+      border-radius: var(--nv-radius-lg);
+      padding: clamp(32px, 6vw, 64px);
+      text-align: center;
+      max-width: 900px;
+      margin-inline: auto;
+    }
+
+    .search-form {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      max-width: 600px;
+      margin: 32px auto 20px;
+    }
+
+    @media (min-width: 640px) {
+      .search-form {
+        flex-direction: row;
+      }
+    }
+
+    .search-input {
+      flex: 1;
+      height: 52px;
+      background-color: var(--nv-bg);
+      border: 1px solid var(--nv-border-strong);
+      border-radius: var(--nv-radius-sm);
+      padding: 0 18px;
+      color: var(--nv-text-primary);
+      font-size: 0.95rem;
+      transition: border-color var(--nv-transition-fast);
+    }
+
+    .search-input:focus {
+      border-color: var(--nv-cyan);
+      outline: none;
+    }
+
+    .search-input::placeholder {
+      color: var(--nv-text-muted);
+    }
+
+    .search-quick-tags {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 8px;
+      font-family: var(--nv-font-mono);
+      font-size: 0.75rem;
+      color: var(--nv-text-muted);
+    }
+
+    .quick-tag {
+      padding: 4px 10px;
+      background: var(--nv-surface-raised);
+      border: 1px solid var(--nv-border);
+      border-radius: var(--nv-radius-sm);
+      color: var(--nv-text-secondary);
+      transition: all var(--nv-transition-fast);
+    }
+
+    .quick-tag:hover {
+      border-color: var(--nv-cyan);
+      color: var(--nv-cyan);
+    }
+
+    /* ==========================================================================
+       15. NOSTALGICVERSE LABS: EMULATOR SECTION (PRODUCT SHOWCASE)
+       ========================================================================== */
+    .emulator-section {
+      padding-block: 80px;
+      background: linear-gradient(180deg, var(--nv-bg) 0%, var(--nv-surface) 50%, var(--nv-bg-alt) 100%);
+      border-top: 1px solid var(--nv-border-strong);
+      position: relative;
+    }
+
+    .emulator-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 48px;
+      align-items: center;
+    }
+
+    @media (min-width: 1024px) {
+      .emulator-grid {
+        grid-template-columns: 1.15fr 0.85fr;
+        gap: 64px;
+      }
+    }
+
+    .emulator-headline {
+      font-size: clamp(2.2rem, 4.5vw, 3.8rem);
+      font-weight: 900;
+      line-height: 1.05;
+      text-transform: uppercase;
+      letter-spacing: -0.025em;
+      margin-bottom: 20px;
+    }
+
+    .emulator-headline span {
+      color: var(--nv-cyan);
+    }
+
+    .emulator-lead {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      color: var(--nv-text-secondary);
+      max-width: 58ch;
+      margin-bottom: 36px;
+    }
+
+    .emulator-specs-strip {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 28px;
+      padding-top: 24px;
+      border-top: 1px solid var(--nv-border);
+      font-family: var(--nv-font-mono);
+      font-size: 0.76rem;
+      color: var(--nv-text-muted);
+      margin-top: 36px;
+    }
+
+    .emulator-spec-item strong {
+      color: var(--nv-text-secondary);
+      font-weight: 600;
+    }
+
+    /* Architectural Emulator Visual Placeholder */
+    .emulator-preview-window {
+      background-color: var(--nv-surface-raised);
+      border: 1px solid var(--nv-border-strong);
+      border-radius: var(--nv-radius-md);
+      overflow: hidden;
+      box-shadow: var(--nv-shadow-ambient);
+      position: relative;
+    }
+
+    .emulator-window-header {
+      background-color: #0c0c14;
+      border-bottom: 1px solid var(--nv-border);
+      padding: 12px 18px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-family: var(--nv-font-mono);
+      font-size: 0.72rem;
+      color: var(--nv-text-muted);
+    }
+
+    .emulator-window-dots {
+      display: flex;
+      gap: 6px;
+    }
+
+    .window-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--nv-border-strong);
+    }
+
+    .emulator-window-screen {
+      position: relative;
+      aspect-ratio: 4 / 3;
+      background: radial-gradient(circle at 50% 50%, #06060c 0%, #020204 100%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 32px;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    .emulator-crt-lines {
+      position: absolute;
+      inset: 0;
+      background: repeating-linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.25) 0px,
+        rgba(0, 0, 0, 0.25) 1px,
+        transparent 2px,
+        transparent 4px
+      );
+      pointer-events: none;
+      opacity: 0.5;
+    }
+
+    .emulator-placeholder-brand {
+      font-family: var(--nv-font-mono);
+      font-size: 1.1rem;
+      font-weight: 800;
+      color: var(--nv-text-primary);
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+      z-index: 1;
+    }
+
+    .emulator-placeholder-tag {
+      font-family: var(--nv-font-mono);
+      font-size: 0.75rem;
+      color: var(--nv-cyan);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      z-index: 1;
+    }
+
+    /* ==========================================================================
+       16. MUSEUM FOOTER
+       ========================================================================== */
+    .site-footer {
+      background-color: var(--nv-bg-alt);
+      border-top: 1px solid var(--nv-border);
+      padding-top: 80px;
+      padding-bottom: 40px;
+      margin-top: auto;
+    }
+
+    .footer-top {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 48px;
+      margin-bottom: 64px;
+    }
+
+    @media (min-width: 768px) {
+      .footer-top {
+        grid-template-columns: 1.5fr repeat(3, 1fr);
+      }
+    }
+
+    .footer-brand-column {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .footer-logo {
+      font-size: 1.35rem;
+      font-weight: 800;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .footer-tagline {
+      font-size: 0.95rem;
+      color: var(--nv-text-secondary);
+      max-width: 32ch;
+      line-height: 1.5;
+    }
+
+    .footer-statement {
+      font-size: 0.82rem;
+      color: var(--nv-text-muted);
+      line-height: 1.6;
+      max-width: 38ch;
+      margin-top: 8px;
+    }
+
+    .footer-nav-title {
+      font-family: var(--nv-font-mono);
+      font-size: 0.75rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--nv-text-primary);
+      margin-bottom: 20px;
+    }
+
+    .footer-nav-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .footer-nav-link {
+      font-size: 0.9rem;
+      color: var(--nv-text-secondary);
+      transition: color var(--nv-transition-fast);
+    }
+
+    .footer-nav-link:hover {
+      color: var(--nv-cyan);
+    }
+
+    .footer-bottom {
+      padding-top: 32px;
+      border-top: 1px solid rgba(255, 255, 255, 0.05);
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      align-items: center;
+      justify-content: space-between;
+      font-family: var(--nv-font-mono);
+      font-size: 0.75rem;
+      color: var(--nv-text-muted);
+    }
+
+    @media (min-width: 768px) {
+      .footer-bottom {
+        flex-direction: row;
+      }
+    }
+
+    .footer-legal-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .footer-legal-links a:hover {
+      color: var(--nv-text-secondary);
+    }
+
+    /* ==========================================================================
+       17. SCROLL REVEALS & REDUCED MOTION
+       ========================================================================== */
+    .reveal-on-scroll {
+      opacity: 0;
+      transform: translateY(16px);
+      transition: opacity 600ms cubic-bezier(0.16, 1, 0.3, 1), transform 600ms cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .reveal-on-scroll.is-revealed {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+      }
+
+      .reveal-on-scroll {
+        opacity: 1 !important;
+        transform: none !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Accessible Skip Navigation -->
+  <a href="#main-content" class="skip-link">Skip to main exhibition</a>
+
+  <!-- Structural Grid Atmosphere -->
+  <div class="bg-grid-overlay" aria-hidden="true"></div>
+
+  <!-- ==========================================================================
+       FLAGSHIP GLOBAL NAVIGATION
+       ========================================================================== -->
+  <header class="site-header" id="site-header">
+    <div class="container">
+      <div class="header-inner">
+        
+        <!-- Brand Landmark -->
+        <div class="brand-group">
+          <a href="/" class="brand-logo-wrap" aria-label="NostalgicVerse Homepage">
+            <span class="brand-mark" aria-hidden="true">NV</span>
+            <span class="brand-text">NostalgicVerse</span>
+          </a>
+        </div>
+
+        <!-- Primary Desktop Navigation -->
+        <nav class="site-nav" aria-label="Primary Exhibition Navigation">
+          <a href="/" class="nav-link active" aria-current="page">Home</a>
+          <a href="/games/" class="nav-link">Games</a>
+          <a href="/consoles/" class="nav-link">Consoles</a>
+          <a href="/timeline/" class="nav-link">Timeline</a>
+          <a href="/genres/" class="nav-link">Genres</a>
+          <a href="/guides/" class="nav-link">Guides</a>
+          <a href="/blog/" class="nav-link">Stories</a>
+          <a href="/download/" class="nav-link">Emulator</a>
+        </nav>
+
+        <!-- Header Utility Actions -->
+        <div class="header-actions">
+          <!-- Search Link -->
+          <a href="/search/" class="header-action-btn" aria-label="Search the Archive">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+          </a>
+
+          <!-- Favorites Link with Badge Counter -->
+          <a href="/favorites/" class="header-action-btn" aria-label="View Saved Archive Favorites">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path>
+            </svg>
+            <span class="fav-badge" id="header-fav-badge" aria-live="polite">0</span>
+          </a>
+
+          <!-- Mobile Menu Drawer Toggle -->
+          <button type="button" class="menu-toggle" id="menu-toggle-btn" aria-expanded="false" aria-controls="mobile-nav-drawer" aria-label="Open Archive Navigation">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <line x1="3" y1="12" x2="21" y2="12"></line>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Overlay & Panel -->
+  <div class="mobile-drawer-overlay" id="drawer-backdrop" aria-hidden="true"></div>
+  
+  <aside class="mobile-drawer" id="mobile-nav-drawer" aria-label="Mobile Navigation" aria-hidden="true" tabindex="-1">
+    <div class="drawer-top">
+      <div class="brand-group">
+        <span class="brand-mark" aria-hidden="true">NV</span>
+        <span class="brand-text">NostalgicVerse</span>
+      </div>
+      <button type="button" class="menu-toggle" id="drawer-close-btn" aria-label="Close Archive Navigation">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+
+    <nav class="drawer-nav">
+      <a href="/" class="drawer-nav-link"><span>Home</span> <span class="nav-num">/01</span></a>
+      <a href="/games/" class="drawer-nav-link"><span>Games</span> <span class="nav-num">/02</span></a>
+      <a href="/consoles/" class="drawer-nav-link"><span>Consoles</span> <span class="nav-num">/03</span></a>
+      <a href="/timeline/" class="drawer-nav-link"><span>Timeline</span> <span class="nav-num">/04</span></a>
+      <a href="/genres/" class="drawer-nav-link"><span>Genres</span> <span class="nav-num">/05</span></a>
+      <a href="/guides/" class="drawer-nav-link"><span>Guides</span> <span class="nav-num">/06</span></a>
+      <a href="/blog/" class="drawer-nav-link"><span>Stories</span> <span class="nav-num">/07</span></a>
+      <a href="/download/" class="drawer-nav-link"><span>Emulator Project</span> <span class="nav-num">/08</span></a>
+      <a href="/favorites/" class="drawer-nav-link"><span>Favorites Archive</span> <span class="nav-num">/FAV</span></a>
+      <a href="/random/" class="drawer-nav-link"><span>Random Discovery</span> <span class="nav-num">/RND</span></a>
+    </nav>
+
+    <div class="drawer-footer">
+      <p>ARCHIVE DATABASE // VER 2026.1</p>
+      <p style="margin-top: 6px;">Preserving the games that made history.</p>
+    </div>
+  </aside>
+
+  <!-- ==========================================================================
+       MAIN MUSEUM CONTENT
+       ========================================================================== -->
+  <main id="main-content">
+
+    <!-- 01. HERO SECTION -->
+    <section class="hero-section" aria-labelledby="hero-title">
+      <div class="container">
+        <div class="hero-grid">
+          
+          <div class="hero-text-block reveal-on-scroll">
+            <span class="catalog-tag tag-cyan">Digital Archive · 1980s → Present</span>
+            
+            <h1 class="hero-headline" id="hero-title">
+              <span>The Games</span>
+              <span>That Made</span>
+              <span>History.</span>
+            </h1>
+
+            <p class="hero-lead">
+              Explore the games, consoles and stories that shaped generations of players. A museum archive dedicated to the preservation of interactive digital culture.
+            </p>
+
+            <div class="hero-cta-group">
+              <a href="/games/" class="btn btn-primary">
+                <span>Explore The Archive</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+
+              <a href="/random/" class="btn btn-secondary">
+                <span>Discover Something Random</span>
+              </a>
+            </div>
+
+            <div class="hero-metadata-bar">
+              <div class="hero-metadata-item">
+                <span>CATALOG STATUS:</span> <strong>PERMANENT EXHIBIT</strong>
+              </div>
+              <div class="hero-metadata-item">
+                <span>ACCESS:</span> <strong>OPEN PUBLIC DOMAIN</strong>
+              </div>
+              <div class="hero-metadata-item">
+                <span>CURATION:</span> <strong>HISTORICAL RECORD</strong>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hero Display Case -->
+          <div class="hero-visual-block reveal-on-scroll" aria-hidden="true">
+            <div class="hero-artifact-card">
+              <div class="artifact-visual">
+                <!-- Visual Architectural Vector of Historical Hardware -->
+                <svg viewBox="0 0 200 120" stroke-width="1.5">
+                  <rect x="25" y="20" width="150" height="80" rx="6" />
+                  <line x1="35" y1="35" x2="165" y2="35" />
+                  <circle cx="50" cy="65" r="14" />
+                  <rect x="130" y="55" width="28" height="12" rx="3" />
+                  <circle cx="115" cy="75" r="5" />
+                  <circle cx="100" cy="75" r="5" />
+                  <line x1="45" y1="65" x2="55" y2="65" />
+                  <line x1="50" y1="60" x2="50" y2="70" />
+                </svg>
+              </div>
+              <div class="artifact-details">
+                <span class="catalog-tag tag-gold">Exhibit Artifact #NV-01989</span>
+                <h2 class="artifact-title">The Portable Revolution</h2>
+                <p class="artifact-desc">
+                  Monochrome dot-matrix LCD technology proved that design purity and battery endurance surpassed raw computing power, establishing hand-held culture globally.
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 02. TODAY'S MEMORY (HISTORICAL EXHIBIT MOMENT) -->
+    <section class="memory-section" aria-labelledby="memory-title">
+      <div class="container">
+        <div class="memory-card reveal-on-scroll">
+          <div class="memory-grid">
+            
+            <div class="memory-date-block">
+              <span class="memory-day">SEP 09</span>
+              <span class="memory-month">1995 · Landmark</span>
+            </div>
+
+            <div class="memory-content">
+              <span class="catalog-tag tag-gold">Archival Moment · Today in History</span>
+              <h2 class="memory-headline" id="memory-title">
+                The North American Debut of the Sony PlayStation
+              </h2>
+              <p class="memory-body">
+                On September 9, 1995, Sony released the PlayStation in North America at an iconic $299 price point. Backed by dedicated 3D geometry rendering and high-capacity CD-ROM architecture, the machine permanently transformed gaming from a toy aisle commodity into a dominant mainstream medium.
+              </p>
+            </div>
+
+            <div class="memory-action">
+              <a href="/games/playstation/" class="btn btn-secondary">
+                <span>Explore This Memory</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="museum-divider" aria-hidden="true">
+
+    <!-- 03. FEATURED GAMES -->
+    <section class="featured-games-section" id="featured-games" aria-labelledby="featured-games-heading">
+      <div class="container">
+        
+        <div class="section-header reveal-on-scroll">
+          <span class="catalog-tag tag-cyan">Curated Collection</span>
+          <h2 class="section-title" id="featured-games-heading">Featured Games</h2>
+          <p class="section-subtitle">Games worth remembering. Milestone achievements in design, engineering, and storytelling that permanently altered video game history.</p>
+        </div>
+
+        <div class="curated-games-grid">
+
+          <!-- Lead Game: Metal Gear Solid (1998) -->
+          <article class="game-card card-featured-lead reveal-on-scroll">
+            <div class="game-card-media">
+              <img 
+                src="/assets/images/games/playstation/metal-gear-solid.webp" 
+                alt="Metal Gear Solid tactical espionage title artwork" 
+                class="game-artwork"
+                width="640" 
+                height="480"
+                loading="lazy"
+                decoding="async"
+                onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+              >
+              <!-- Graceful Fallback Plate -->
+              <div class="artwork-fallback-plate" style="display: none;" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M6 11h12M6 11a4 4 0 0 1-4-4V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v2a4 4 0 0 1-4 4M6 11v6a5 5 0 0 0 10 0v-6"></path>
+                </svg>
+                <span>Artifact: Metal Gear Solid</span>
+              </div>
+
+              <div class="game-card-fav-action">
+                <button 
+                  type="button" 
+                  class="fav-btn" 
+                  data-fav-id="ps1-metal-gear-solid" 
+                  data-fav-title="Metal Gear Solid" 
+                  data-fav-url="/games/playstation/metal-gear-solid.html" 
+                  aria-label="Add Metal Gear Solid to favorites"
+                >
+                  <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+
+            <div class="game-card-body">
+              <div>
+                <div class="game-card-meta">PLAYSTATION · 1998 · STEALTH / CINEMATIC</div>
+                <h3 class="game-card-title">Metal Gear Solid</h3>
+                <p class="game-card-desc">
+                  Pioneered cinematic video game storytelling with real-time rendered cutscenes, sophisticated voice acting, and fourth-wall-breaking gameplay mechanics that defined tactical espionage.
+                </p>
+              </div>
+              <div class="game-card-footer">
+                <a href="/games/playstation/metal-gear-solid.html" class="btn btn-inline">
+                  <span>Examine Record</span> →
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Game 02: Final Fantasy VII (1997) -->
+          <article class="game-card reveal-on-scroll">
+            <div class="game-card-media">
+              <img 
+                src="/assets/images/games/playstation/final-fantasy-vii.webp" 
+                alt="Final Fantasy VII atmospheric artwork" 
+                class="game-artwork"
+                width="480" 
+                height="300"
+                loading="lazy"
+                decoding="async"
+                onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+              >
+              <div class="artwork-fallback-plate" style="display: none;" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                </svg>
+                <span>Artifact: Final Fantasy VII</span>
+              </div>
+
+              <div class="game-card-fav-action">
+                <button 
+                  type="button" 
+                  class="fav-btn" 
+                  data-fav-id="ps1-final-fantasy-vii" 
+                  data-fav-title="Final Fantasy VII" 
+                  data-fav-url="/games/playstation/final-fantasy-vii.html" 
+                  aria-label="Add Final Fantasy VII to favorites"
+                >
+                  <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+
+            <div class="game-card-body">
+              <div>
+                <div class="game-card-meta">PLAYSTATION · 1997 · JRPG</div>
+                <h3 class="game-card-title">Final Fantasy VII</h3>
+                <p class="game-card-desc">
+                  The multi-disc epic that brought the Japanese role-playing genre to massive worldwide prominence via pre-rendered industrial backgrounds and unforgettable narrative stakes.
+                </p>
+              </div>
+              <div class="game-card-footer">
+                <a href="/games/playstation/final-fantasy-vii.html" class="btn btn-inline">
+                  <span>Examine Record</span> →
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Game 03: Super Metroid (1994) -->
+          <article class="game-card reveal-on-scroll">
+            <div class="game-card-media">
+              <img 
+                src="/assets/images/games/snes/super-metroid.webp" 
+                alt="Super Metroid alien cavern artwork" 
+                class="game-artwork"
+                width="480" 
+                height="300"
+                loading="lazy"
+                decoding="async"
+                onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+              >
+              <div class="artwork-fallback-plate" style="display: none;" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
+                </svg>
+                <span>Artifact: Super Metroid</span>
+              </div>
+
+              <div class="game-card-fav-action">
+                <button 
+                  type="button" 
+                  class="fav-btn" 
+                  data-fav-id="snes-super-metroid" 
+                  data-fav-title="Super Metroid" 
+                  data-fav-url="/games/snes/super-metroid.html" 
+                  aria-label="Add Super Metroid to favorites"
+                >
+                  <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+
+            <div class="game-card-body">
+              <div>
+                <div class="game-card-meta">SNES · 1994 · ACTION EXPLORATION</div>
+                <h3 class="game-card-title">Super Metroid</h3>
+                <p class="game-card-desc">
+                  The quintessential masterclass in environmental isolation, nonlinear exploration, and atmospheric audio design on a 24-megabit silicon cartridge.
+                </p>
+              </div>
+              <div class="game-card-footer">
+                <a href="/games/snes/super-metroid.html" class="btn btn-inline">
+                  <span>Examine Record</span> →
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Game 04: The Legend of Zelda: Ocarina of Time (1998) -->
+          <article class="game-card reveal-on-scroll">
+            <div class="game-card-media">
+              <img 
+                src="/assets/images/games/nintendo-64/legend-of-zelda-ocarina-of-time.webp" 
+                alt="Ocarina of Time Hyrule expanse artwork" 
+                class="game-artwork"
+                width="480" 
+                height="300"
+                loading="lazy"
+                decoding="async"
+                onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+              >
+              <div class="artwork-fallback-plate" style="display: none;" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <polygon points="12 2 2 22 22 22 12 2"></polygon>
+                </svg>
+                <span>Artifact: Ocarina of Time</span>
+              </div>
+
+              <div class="game-card-fav-action">
+                <button 
+                  type="button" 
+                  class="fav-btn" 
+                  data-fav-id="n64-zelda-ocarina-of-time" 
+                  data-fav-title="The Legend of Zelda: Ocarina of Time" 
+                  data-fav-url="/games/nintendo-64/legend-of-zelda-ocarina-of-time.html" 
+                  aria-label="Add Ocarina of Time to favorites"
+                >
+                  <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+
+            <div class="game-card-body">
+              <div>
+                <div class="game-card-meta">NINTENDO 64 · 1998 · ADVENTURE</div>
+                <h3 class="game-card-title">Ocarina of Time</h3>
+                <p class="game-card-desc">
+                  Invented the grammatical foundation of spatial 3D navigation with Z-targeting lock-on, contextual action controls, and an expansive simulated day-night world.
+                </p>
+              </div>
+              <div class="game-card-footer">
+                <a href="/games/nintendo-64/legend-of-zelda-ocarina-of-time.html" class="btn btn-inline">
+                  <span>Examine Record</span> →
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Game 05: Resident Evil 2 (1998) -->
+          <article class="game-card reveal-on-scroll">
+            <div class="game-card-media">
+              <img 
+                src="/assets/images/games/playstation/resident-evil-2.webp" 
+                alt="Resident Evil 2 Raccoon Police Department artwork" 
+                class="game-artwork"
+                width="480" 
+                height="300"
+                loading="lazy"
+                decoding="async"
+                onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+              >
+              <div class="artwork-fallback-plate" style="display: none;" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path>
+                  <line x1="12" y1="9" x2="12" y2="13"></line>
+                  <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                </svg>
+                <span>Artifact: Resident Evil 2</span>
+              </div>
+
+              <div class="game-card-fav-action">
+                <button 
+                  type="button" 
+                  class="fav-btn" 
+                  data-fav-id="ps1-resident-evil-2" 
+                  data-fav-title="Resident Evil 2" 
+                  data-fav-url="/games/playstation/resident-evil-2.html" 
+                  aria-label="Add Resident Evil 2 to favorites"
+                >
+                  <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+
+            <div class="game-card-body">
+              <div>
+                <div class="game-card-meta">PLAYSTATION · 1998 · SURVIVAL HORROR</div>
+                <h3 class="game-card-title">Resident Evil 2</h3>
+                <p class="game-card-desc">
+                  Expanded the survival horror grammar through twin-scenario storytelling ('Zapping System'), meticulous resource rationing, and visceral pre-rendered urban decay.
+                </p>
+              </div>
+              <div class="game-card-footer">
+                <a href="/games/playstation/resident-evil-2.html" class="btn btn-inline">
+                  <span>Examine Record</span> →
+                </a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <hr class="museum-divider" aria-hidden="true">
+
+    <!-- 04. CONSOLE MUSEUM (THE MACHINES) -->
+    <section class="consoles-section" id="consoles" aria-labelledby="consoles-heading">
+      <div class="container">
+        
+        <div class="section-header reveal-on-scroll">
+          <span class="catalog-tag tag-cyan">Hardware Pedestal</span>
+          <h2 class="section-title" id="consoles-heading">The Machines</h2>
+          <p class="section-subtitle">The hardware that changed everything. Silicon architectures, bespoke custom chipsets, and industrial designs that defined eras of living-room play.</p>
+        </div>
+
+        <div class="consoles-grid">
+
+          <!-- Console 01: Sony PlayStation -->
+          <article class="console-card reveal-on-scroll">
+            <div class="console-pedestal">
+              <!-- Museum Specimen Outline -->
+              <svg class="console-diagram" viewBox="0 0 160 120" stroke-width="1.5">
+                <rect x="20" y="25" width="120" height="70" rx="4" />
+                <circle cx="80" cy="60" r="24" />
+                <circle cx="80" cy="60" r="8" />
+                <circle cx="36" cy="74" r="5" />
+                <circle cx="36" cy="46" r="5" />
+                <rect x="115" y="44" width="10" height="32" rx="2" />
+              </svg>
+            </div>
+            <div class="console-details">
+              <div>
+                <span class="console-mfg">SONY COMPUTER ENTERTAINMENT</span>
+                <h3 class="console-name">PlayStation</h3>
+                <div class="console-spec">1994 · 5th Gen · 32-Bit RISC</div>
+              </div>
+              <a href="/consoles/sony/playstation-1.html" class="btn btn-inline">
+                <span>View Hardware Exhibit</span> →
+              </a>
+            </div>
+          </article>
+
+          <!-- Console 02: Super Nintendo -->
+          <article class="console-card reveal-on-scroll">
+            <div class="console-pedestal">
+              <svg class="console-diagram" viewBox="0 0 160 120" stroke-width="1.5">
+                <rect x="25" y="25" width="110" height="70" rx="6" />
+                <rect x="40" y="32" width="80" height="24" rx="2" />
+                <rect x="50" y="66" width="30" height="18" rx="2" />
+                <circle cx="110" cy="75" r="4" />
+                <circle cx="122" cy="75" r="4" />
+              </svg>
+            </div>
+            <div class="console-details">
+              <div>
+                <span class="console-mfg">NINTENDO</span>
+                <h3 class="console-name">Super Nintendo</h3>
+                <div class="console-spec">1990 · 4th Gen · Mode 7 / 16-Bit</div>
+              </div>
+              <a href="/consoles/nintendo/snes.html" class="btn btn-inline">
+                <span>View Hardware Exhibit</span> →
+              </a>
+            </div>
+          </article>
+
+          <!-- Console 03: Nintendo 64 -->
+          <article class="console-card reveal-on-scroll">
+            <div class="console-pedestal">
+              <svg class="console-diagram" viewBox="0 0 160 120" stroke-width="1.5">
+                <path d="M25 45 C25 35, 135 35, 135 45 L130 85 C130 90, 30 90, 30 85 Z" />
+                <circle cx="45" cy="70" r="5" />
+                <circle cx="68" cy="70" r="5" />
+                <circle cx="92" cy="70" r="5" />
+                <circle cx="115" cy="70" r="5" />
+                <rect x="55" y="38" width="50" height="14" rx="2" />
+              </svg>
+            </div>
+            <div class="console-details">
+              <div>
+                <span class="console-mfg">NINTENDO</span>
+                <h3 class="console-name">Nintendo 64</h3>
+                <div class="console-spec">1996 · 5th Gen · 64-Bit Reality Coprocessor</div>
+              </div>
+              <a href="/consoles/nintendo/nintendo-64.html" class="btn btn-inline">
+                <span>View Hardware Exhibit</span> →
+              </a>
+            </div>
+          </article>
+
+          <!-- Console 04: Sega Dreamcast -->
+          <article class="console-card reveal-on-scroll">
+            <div class="console-pedestal">
+              <svg class="console-diagram" viewBox="0 0 160 120" stroke-width="1.5">
+                <rect x="25" y="30" width="110" height="65" rx="10" />
+                <path d="M50 55 C50 45, 110 45, 110 55 L110 75 C110 85, 50 85, 50 75 Z" />
+                <circle cx="38" cy="75" r="4" />
+                <rect x="58" y="85" width="44" height="6" rx="1" />
+              </svg>
+            </div>
+            <div class="console-details">
+              <div>
+                <span class="console-mfg">SEGA ENTERPRISES</span>
+                <h3 class="console-name">Dreamcast</h3>
+                <div class="console-spec">1998 · 6th Gen · 128-Bit PowerVR</div>
+              </div>
+              <a href="/consoles/sega/dreamcast.html" class="btn btn-inline">
+                <span>View Hardware Exhibit</span> →
+              </a>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <hr class="museum-divider" aria-hidden="true">
+
+    <!-- 05. HISTORICAL TIMELINE -->
+    <section class="timeline-section" id="timeline" aria-labelledby="timeline-heading">
+      <div class="container">
+        
+        <div class="section-header reveal-on-scroll">
+          <span class="catalog-tag tag-gold">Chronological Archive</span>
+          <h2 class="section-title" id="timeline-heading">A History of Play</h2>
+          <p class="section-subtitle">Decades of technological and cultural transformation. From 8-bit cartridges resurrected from the crash to sprawling cinematic virtual worlds.</p>
+        </div>
+
+        <div class="timeline-container">
+          <div class="timeline-track">
+            
+            <!-- Era 01 -->
+            <div class="timeline-era-card reveal-on-scroll">
+              <div class="timeline-node" aria-hidden="true"></div>
+              <div class="era-box">
+                <div class="era-year">1980s</div>
+                <h3 class="era-title">8-Bit Foundations</h3>
+                <p class="era-desc">
+                  The resurrection of home video gaming post-1983. The Famicom/NES established strict quality licensing, genre grammars, and iconic mascot mythology.
+                </p>
+                <a href="/eras/8-bit-era.html" class="btn btn-inline">Explore Era Records →</a>
+              </div>
+            </div>
+
+            <!-- Era 02 -->
+            <div class="timeline-era-card reveal-on-scroll">
+              <div class="timeline-node" aria-hidden="true"></div>
+              <div class="era-box">
+                <div class="era-year">1990s</div>
+                <h3 class="era-title">The 3D Revolution</h3>
+                <p class="era-desc">
+                  The fierce 16-bit console rivalry yielded to optical disc media and polygonal rendering accelerators, bringing mature cinematic ambition into living rooms.
+                </p>
+                <a href="/eras/32-64-bit-era.html" class="btn btn-inline">Explore Era Records →</a>
+              </div>
+            </div>
+
+            <!-- Era 03 -->
+            <div class="timeline-era-card reveal-on-scroll">
+              <div class="timeline-node" aria-hidden="true"></div>
+              <div class="era-box">
+                <div class="era-year">2000s</div>
+                <h3 class="era-title">The Golden Generations</h3>
+                <p class="era-desc">
+                  DVD integration made the PlayStation 2 ubiquitous. Vast open-world architecture emerged, broadband console networking matured, and HD emerged.
+                </p>
+                <a href="/eras/sixth-generation.html" class="btn btn-inline">Explore Era Records →</a>
+              </div>
+            </div>
+
+            <!-- Era 04 -->
+            <div class="timeline-era-card reveal-on-scroll">
+              <div class="timeline-node" aria-hidden="true"></div>
+              <div class="era-box">
+                <div class="era-year">2010s+</div>
+                <h3 class="era-title">The Modern Era</h3>
+                <p class="era-desc">
+                  Photorealistic pipelines, high-framerate displays, independent studio auteur masterpieces, and the critical awakening of preservation efforts.
+                </p>
+                <a href="/eras/seventh-generation.html" class="btn btn-inline">Explore Era Records →</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 06. RANDOM DISCOVERY -->
+    <section class="random-section" aria-labelledby="random-heading">
+      <div class="container">
+        <div class="random-content reveal-on-scroll">
+          <span class="catalog-tag tag-crimson">Uncurated Exploration</span>
+          <h2 class="random-headline" id="random-heading">
+            Don't know where to start?<br>
+            <span>Let nostalgia decide.</span>
+          </h2>
+          <p class="random-lead">
+            Discover a random game, forgotten console, or historical retrospective from anywhere in the archive.
+          </p>
+          <a href="/random/" class="btn btn-primary">
+            <span>Discover Something Random</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <polyline points="16 3 21 3 21 8"></polyline>
+              <line x1="4" y1="20" x2="21" y2="3"></line>
+              <polyline points="21 16 21 21 16 21"></polyline>
+              <line x1="15" y1="15" x2="21" y2="21"></line>
+              <line x1="4" y1="4" x2="9" y2="9"></line>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 07. EDITORIAL STORIES -->
+    <section class="stories-section" id="stories" aria-labelledby="stories-heading">
+      <div class="container">
+        
+        <div class="section-header reveal-on-scroll">
+          <span class="catalog-tag tag-cyan">Archival Essays & Analyses</span>
+          <h2 class="section-title" id="stories-heading">Stories From The Archive</h2>
+          <p class="section-subtitle">Retrospectives, engineering post-mortems, and the cultural context behind the software that shaped our world.</p>
+        </div>
+
+        <div class="stories-grid">
+
+          <!-- Story 01 -->
+          <article class="story-card reveal-on-scroll">
+            <div class="story-media">
+              <div class="artwork-fallback-plate">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                  <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+                </svg>
+                <span>Essay · Hardware Strategy</span>
+              </div>
+            </div>
+            <div class="story-body">
+              <div class="game-card-meta">RETROSPECTIVE · 8 MIN READ</div>
+              <h3 class="story-title">The $299 Declaration: How E3 1995 Redefined an Industry</h3>
+              <p class="story-excerpt">
+                Steve Race walked to the podium, uttered one single number, and walked off. The inside history of Sony’s decisive pricing counter-strike against the Sega Saturn.
+              </p>
+              <a href="/blog/" class="btn btn-inline">Read Essay →</a>
+            </div>
+          </article>
+
+          <!-- Story 02 -->
+          <article class="story-card reveal-on-scroll">
+            <div class="story-media">
+              <div class="artwork-fallback-plate">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                  <line x1="8" y1="21" x2="16" y2="21"></line>
+                  <line x1="12" y1="17" x2="12" y2="21"></line>
+                </svg>
+                <span>Analysis · Rendering Engineering</span>
+              </div>
+            </div>
+            <div class="story-body">
+              <div class="game-card-meta">ENGINEERING · 11 MIN READ</div>
+              <h3 class="story-title">Silicon Constraints: The Fog of Silent Hill as an Engineering Miracle</h3>
+              <p class="story-excerpt">
+                When hardware limitations capped visual draw distances, Team Silent turned computational weakness into psychological masterpiece through volumetric atmospheric fog.
+              </p>
+              <a href="/blog/" class="btn btn-inline">Read Essay →</a>
+            </div>
+          </article>
+
+          <!-- Story 03 -->
+          <article class="story-card reveal-on-scroll">
+            <div class="story-media">
+              <div class="artwork-fallback-plate">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <circle cx="12" cy="12" r="3"></circle>
+                </svg>
+                <span>Deep Dive · Media Formats</span>
+              </div>
+            </div>
+            <div class="story-body">
+              <div class="game-card-meta">HISTORICAL ESSAY · 14 MIN READ</div>
+              <h3 class="story-title">Mask ROM vs. Yellow Book: The Format War That Decided the Fifth Generation</h3>
+              <p class="story-excerpt">
+                Why Square abandoned Nintendo's high-speed silicon cartridges for Sony’s 650-megabyte optical discs, forever relocating the epicenter of role-playing game development.
+              </p>
+              <a href="/blog/" class="btn btn-inline">Read Essay →</a>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <hr class="museum-divider" aria-hidden="true">
+
+    <!-- 08. EXPLORE BY GENRE -->
+    <section class="genres-section" id="genres" aria-labelledby="genres-heading">
+      <div class="container">
+        
+        <div class="section-header reveal-on-scroll">
+          <span class="catalog-tag tag-cyan">Taxonomy Index</span>
+          <h2 class="section-title" id="genres-heading">Explore By Genre</h2>
+          <p class="section-subtitle">Navigate historical records by their fundamental interactive mechanisms and design conventions.</p>
+        </div>
+
+        <div class="genre-list">
+          
+          <a href="/genres/rpg.html" class="genre-row reveal-on-scroll">
+            <div class="genre-info">
+              <span class="genre-index">/01</span>
+              <span class="genre-name">Role-Playing Games</span>
+            </div>
+            <div class="genre-action">
+              <span>View Catalog</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </div>
+          </a>
+
+          <a href="/genres/action.html" class="genre-row reveal-on-scroll">
+            <div class="genre-info">
+              <span class="genre-index">/02</span>
+              <span class="genre-name">Action & Adventure</span>
+            </div>
+            <div class="genre-action">
+              <span>View Catalog</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </div>
+          </a>
+
+          <a href="/genres/horror.html" class="genre-row reveal-on-scroll">
+            <div class="genre-info">
+              <span class="genre-index">/03</span>
+              <span class="genre-name">Survival Horror</span>
+            </div>
+            <div class="genre-action">
+              <span>View Catalog</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </div>
+          </a>
+
+          <a href="/genres/platformer.html" class="genre-row reveal-on-scroll">
+            <div class="genre-info">
+              <span class="genre-index">/04</span>
+              <span class="genre-name">Platformers</span>
+            </div>
+            <div class="genre-action">
+              <span>View Catalog</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </div>
+          </a>
+
+          <a href="/genres/fighting.html" class="genre-row reveal-on-scroll">
+            <div class="genre-info">
+              <span class="genre-index">/05</span>
+              <span class="genre-name">Fighting</span>
+            </div>
+            <div class="genre-action">
+              <span>View Catalog</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </div>
+          </a>
+
+          <a href="/genres/racing.html" class="genre-row reveal-on-scroll">
+            <div class="genre-info">
+              <span class="genre-index">/06</span>
+              <span class="genre-name">Racing & Simulation</span>
+            </div>
+            <div class="genre-action">
+              <span>View Catalog</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </div>
+          </a>
+
+          <a href="/genres/strategy.html" class="genre-row reveal-on-scroll">
+            <div class="genre-info">
+              <span class="genre-index">/07</span>
+              <span class="genre-name">Strategy & Tactics</span>
+            </div>
+            <div class="genre-action">
+              <span>View Catalog</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </div>
+          </a>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 09. SEARCH ARCHIVE CTA -->
+    <section class="search-cta-section" aria-labelledby="search-cta-heading">
+      <div class="container">
+        <div class="search-cta-card reveal-on-scroll">
+          <span class="catalog-tag tag-cyan">Catalog Query System</span>
+          <h2 class="section-title" id="search-cta-heading">Search The Archive</h2>
+          <p class="section-subtitle" style="margin-inline: auto;">
+            Find a specific title, hardware platform, historical era, development studio, or retrospective essay.
+          </p>
+
+          <form action="/search/" method="get" class="search-form" role="search" id="archive-search-form">
+            <input 
+              type="search" 
+              name="q" 
+              class="search-input" 
+              placeholder="Search games, consoles, eras, stories..." 
+              aria-label="Search NostalgicVerse catalog" 
+              required
+            >
+            <button type="submit" class="btn btn-primary">
+              <span>Search Archive</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </form>
+
+          <div class="search-quick-tags">
+            <span>SUGGESTIONS:</span>
+            <a href="/search/?q=PlayStation" class="quick-tag">PlayStation</a>
+            <a href="/search/?q=Final+Fantasy" class="quick-tag">Final Fantasy</a>
+            <a href="/search/?q=16-Bit" class="quick-tag">16-Bit</a>
+            <a href="/search/?q=Survival+Horror" class="quick-tag">Survival Horror</a>
+            <a href="/search/?q=Nintendo+64" class="quick-tag">Nintendo 64</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 10. NOSTALGICVERSE LABS: EMULATOR SECTION -->
+    <section class="emulator-section" id="emulator" aria-labelledby="emulator-heading">
+      <div class="container">
+        <div class="emulator-grid">
+          
+          <div class="emulator-content-block reveal-on-scroll">
+            <span class="catalog-tag tag-cyan">NostalgicVerse Labs · First-Party Software</span>
+            
+            <h2 class="emulator-headline" id="emulator-heading">
+              Meet the<br>
+              <span>NostalgicVerse Emulator.</span>
+            </h2>
+
+            <p class="emulator-lead">
+              A purpose-built emulator experience designed to bring classic gaming hardware closer to the modern era. Engineered for cycle-accurate preservation, precise audio reproduction, and authentic display simulation.
+            </p>
+
+            <div class="hero-cta-group">
+              <a href="/download/" class="btn btn-primary">
+                <span>Download Emulator</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                  <polyline points="7 10 12 15 17 10"></polyline>
+                  <line x1="12" y1="15" x2="12" y2="3"></line>
+                </svg>
+              </a>
+
+              <a href="/download/" class="btn btn-secondary">
+                <span>Learn More</span>
+              </a>
+            </div>
+
+            <div class="emulator-specs-strip">
+              <div class="emulator-spec-item">
+                <span>PLATFORM:</span> <strong>MULTI-PLATFORM DEVELOPMENT</strong>
+              </div>
+              <div class="emulator-spec-item">
+                <span>STATUS:</span> <strong>IN ACTIVE DEVELOPMENT</strong>
+              </div>
+              <div class="emulator-spec-item">
+                <span>FOCUS:</span> <strong>HARDWARE PRESERVATION</strong>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product Architectural Visual Placeholder -->
+          <div class="emulator-visual-block reveal-on-scroll" aria-hidden="true">
+            <div class="emulator-preview-window">
+              <div class="emulator-window-header">
+                <div class="emulator-window-dots">
+                  <span class="window-dot"></span>
+                  <span class="window-dot"></span>
+                  <span class="window-dot"></span>
+                </div>
+                <span>NV-EMU // CORE BUILD v0.1-DEV</span>
+              </div>
+              <div class="emulator-window-screen">
+                <div class="emulator-crt-lines"></div>
+                <span class="catalog-tag tag-gold" style="margin-bottom: 8px;">EMULATOR DEVELOPMENT BUILD</span>
+                <div class="emulator-placeholder-brand">NOSTALGICVERSE</div>
+                <div class="emulator-placeholder-tag">IN ACTIVE DEVELOPMENT</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==========================================================================
+       MUSEUM FOOTER
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      
+      <div class="footer-top">
+        
+        <div class="footer-brand-column">
+          <div class="brand-group">
+            <span class="brand-mark" aria-hidden="true">NV</span>
+            <span class="footer-logo">NostalgicVerse</span>
+          </div>
+          <p class="footer-tagline">
+            The Games That Made History.
+          </p>
+          <p class="footer-statement">
+            A digital museum and permanent cultural archive preserving the games, machines, technical documentation, and memories that shaped generations of players.
+          </p>
+        </div>
+
+        <div class="footer-nav-column">
+          <h3 class="footer-nav-title">Exhibition Archive</h3>
+          <ul class="footer-nav-list">
+            <li><a href="/games/" class="footer-nav-link">All Games Index</a></li>
+            <li><a href="/consoles/" class="footer-nav-link">Console Museum</a></li>
+            <li><a href="/timeline/" class="footer-nav-link">Chronology Timeline</a></li>
+            <li><a href="/genres/" class="footer-nav-link">Genre Taxonomy</a></li>
+            <li><a href="/eras/" class="footer-nav-link">Historical Eras</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-nav-column">
+          <h3 class="footer-nav-title">Editorial & Software</h3>
+          <ul class="footer-nav-list">
+            <li><a href="/blog/" class="footer-nav-link">Archival Stories</a></li>
+            <li><a href="/guides/" class="footer-nav-link">Preservation Guides</a></li>
+            <li><a href="/download/" class="footer-nav-link">NostalgicVerse Emulator</a></li>
+            <li><a href="/random/" class="footer-nav-link">Random Discovery</a></li>
+            <li><a href="/favorites/" class="footer-nav-link">Saved Collection</a></li>
+            <li><a href="/about/" class="footer-nav-link">About NostalgicVerse</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-nav-column">
+          <h3 class="footer-nav-title">Legal & Support</h3>
+          <ul class="footer-nav-list">
+            <li><a href="/legal/privacy.html" class="footer-nav-link">Privacy Policy</a></li>
+            <li><a href="/legal/terms.html" class="footer-nav-link">Terms of Service</a></li>
+            <li><a href="/legal/cookies.html" class="footer-nav-link">Cookie Information</a></li>
+            <li><a href="/legal/disclaimer.html" class="footer-nav-link">Archival Disclaimer</a></li>
+            <li><a href="/support/" class="footer-nav-link">Support the Archive</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          <span>&copy; 2026 NOSTALGICVERSE. ALL HISTORICAL TRADEMARKS BELONG TO THEIR RESPECTIVE OWNERS.</span>
+        </div>
+        <div class="footer-legal-links">
+          <span>CATALOG NODE: ONLINE</span>
+          <span>LATENCY: ZERO DEPENDENCY</span>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       VANILLA JAVASCRIPT: ARCHITECTURE, FAVORITES, ACCESSIBILITY, INTERACTIONS
+       ========================================================================== -->
+  <script>
+    (function () {
+      'use strict';
+
+      /* --------------------------------------------------------------------------
+         01. CONSTANTS & LOCAL STORAGE ARCHITECTURE
+         -------------------------------------------------------------------------- */
+      const FAV_STORAGE_KEY = 'nostalgicverse_favs';
+
+      /* --------------------------------------------------------------------------
+         02. SAFE LOCAL STORAGE ACCESS (DEFENSIVE ERROR RESILIENCE)
+         -------------------------------------------------------------------------- */
+      function getStoredFavorites() {
+        try {
+          const raw = localStorage.getItem(FAV_STORAGE_KEY);
+          if (!raw) return [];
+          const parsed = JSON.parse(raw);
+          return Array.isArray(parsed) ? parsed : [];
+        } catch (err) {
+          console.warn('NostalgicVerse: Safe fallback - LocalStorage inaccessible.', err);
+          return [];
+        }
+      }
+
+      function saveFavorites(favsArray) {
+        try {
+          localStorage.setItem(FAV_STORAGE_KEY, JSON.stringify(favsArray));
+        } catch (err) {
+          console.warn('NostalgicVerse: Unable to write to LocalStorage.', err);
+        }
+      }
+
+      function isFavorite(id) {
+        const favs = getStoredFavorites();
+        return favs.some(item => item.id === id);
+      }
+
+      function toggleFavoriteItem(item) {
+        let favs = getStoredFavorites();
+        const exists = favs.some(f => f.id === item.id);
+
+        if (exists) {
+          favs = favs.filter(f => f.id !== item.id);
+        } else {
+          favs.push({
+            id: item.id,
+            title: item.title,
+            url: item.url
+          });
+        }
+
+        saveFavorites(favs);
+        updateAllFavoriteButtons();
+        updateFavoritesHeaderBadge();
+      }
+
+      /* --------------------------------------------------------------------------
+         03. SYNCHRONIZE FAVORITE BUTTON STATES & BADGE COUNT
+         -------------------------------------------------------------------------- */
+      function updateAllFavoriteButtons() {
+        const favButtons = document.querySelectorAll('[data-fav-id]');
+        favButtons.forEach(btn => {
+          const id = btn.getAttribute('data-fav-id');
+          const title = btn.getAttribute('data-fav-title') || 'Game';
+          const active = isFavorite(id);
+
+          if (active) {
+            btn.classList.add('is-active');
+            btn.setAttribute('aria-label', `Remove ${title} from favorites`);
+            btn.setAttribute('title', `Remove ${title} from favorites`);
+          } else {
+            btn.classList.remove('is-active');
+            btn.setAttribute('aria-label', `Add ${title} to favorites`);
+            btn.setAttribute('title', `Add ${title} to favorites`);
+          }
+        });
+      }
+
+      function updateFavoritesHeaderBadge() {
+        const badge = document.getElementById('header-fav-badge');
+        if (!badge) return;
+
+        const favs = getStoredFavorites();
+        const count = favs.length;
+        badge.textContent = count;
+
+        if (count > 0) {
+          badge.classList.add('has-items');
+        } else {
+          badge.classList.remove('has-items');
+        }
+      }
+
+      // Cross-tab synchronization
+      window.addEventListener('storage', function (event) {
+        if (event.key === FAV_STORAGE_KEY) {
+          updateAllFavoriteButtons();
+          updateFavoritesHeaderBadge();
+        }
+      });
+
+      /* --------------------------------------------------------------------------
+         04. ACCESSIBLE MOBILE DRAWER NAVIGATION
+         -------------------------------------------------------------------------- */
+      const menuBtn = document.getElementById('menu-toggle-btn');
+      const closeBtn = document.getElementById('drawer-close-btn');
+      const drawer = document.getElementById('mobile-nav-drawer');
+      const backdrop = document.getElementById('drawer-backdrop');
+
+      function openMobileMenu() {
+        if (!drawer || !backdrop) return;
+        document.body.classList.add('menu-open');
+        drawer.classList.add('is-open');
+        backdrop.classList.add('is-open');
+        menuBtn.setAttribute('aria-expanded', 'true');
+        drawer.setAttribute('aria-hidden', 'false');
+        drawer.focus();
+      }
+
+      function closeMobileMenu() {
+        if (!drawer || !backdrop) return;
+        document.body.classList.remove('menu-open');
+        drawer.classList.remove('is-open');
+        backdrop.classList.remove('is-open');
+        menuBtn.setAttribute('aria-expanded', 'false');
+        drawer.setAttribute('aria-hidden', 'true');
+        menuBtn.focus();
+      }
+
+      if (menuBtn) {
+        menuBtn.addEventListener('click', openMobileMenu);
+      }
+
+      if (closeBtn) {
+        closeBtn.addEventListener('click', closeMobileMenu);
+      }
+
+      if (backdrop) {
+        backdrop.addEventListener('click', closeMobileMenu);
+      }
+
+      // Keyboard Trap & Escape handling for Drawer
+      document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape' && drawer && drawer.classList.contains('is-open')) {
+          closeMobileMenu();
+        }
+      });
+
+      /* --------------------------------------------------------------------------
+         05. SCROLL REVEAL (INTERSECTION OBSERVER WITH SAFE DEGRADATION)
+         -------------------------------------------------------------------------- */
+      if ('IntersectionObserver' in window) {
+        const revealObserver = new IntersectionObserver((entries, observer) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('is-revealed');
+              observer.unobserve(entry.target);
+            }
+          });
+        }, {
+          threshold: 0.08,
+          rootMargin: '0px 0px -40px 0px'
+        });
+
+        document.querySelectorAll('.reveal-on-scroll').forEach(el => {
+          revealObserver.observe(el);
+        });
+      } else {
+        // Fallback for non-supporting browsers: display immediately
+        document.querySelectorAll('.reveal-on-scroll').forEach(el => {
+          el.classList.add('is-revealed');
+        });
+      }
+
+      /* --------------------------------------------------------------------------
+         06. SEARCH FORM SUBMISSION SANITIZATION
+         -------------------------------------------------------------------------- */
+      const searchForm = document.getElementById('archive-search-form');
+      if (searchForm) {
+        searchForm.addEventListener('submit', function (e) {
+          const input = searchForm.querySelector('input[name="q"]');
+          if (input && !input.value.trim()) {
+            e.preventDefault();
+            input.focus();
+          }
+        });
+      }
+
+      /* --------------------------------------------------------------------------
+         07. INITIALIZE FAVORITES BUTTON BINDINGS
+         -------------------------------------------------------------------------- */
+      document.addEventListener('click', function (e) {
+        const favBtn = e.target.closest('[data-fav-id]');
+        if (favBtn) {
+          e.preventDefault();
+          const item = {
+            id: favBtn.getAttribute('data-fav-id'),
+            title: favBtn.getAttribute('data-fav-title'),
+            url: favBtn.getAttribute('data-fav-url')
+          };
+          toggleFavoriteItem(item);
+        }
+      });
+
+      /* --------------------------------------------------------------------------
+         08. BOOTSTRAP ON LOAD
+         -------------------------------------------------------------------------- */
+      window.addEventListener('DOMContentLoaded', function () {
+        updateAllFavoriteButtons();
+        updateFavoritesHeaderBadge();
+      });
+
+    })();
+  </script>
+</body>
+</html>
+```
+
+---
+
+### File 2: `/download/index.html` (New Complete Page)
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <!-- Primary Metadata -->
+  <title>NostalgicVerse Emulator — Download</title>
+  <meta name="description" content="Download and explore the official NostalgicVerse Emulator project, including release information, supported platforms, system requirements, and development status.">
+  <meta name="keywords" content="NostalgicVerse emulator, retro game emulator, hardware preservation, classic video game emulation, open source emulator">
+  <meta name="author" content="NostalgicVerse Labs">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://nostalgicverse.com/download/">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <meta name="theme-color" content="#08080C">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://nostalgicverse.com/download/">
+  <meta property="og:title" content="NostalgicVerse Emulator — Download">
+  <meta property="og:description" content="Explore the official NostalgicVerse Emulator project: release architecture, supported platforms, and development roadmap.">
+  <meta property="og:site_name" content="NostalgicVerse">
+  <meta property="og:image" content="https://nostalgicverse.com/assets/images/branding/logo/logo.png">
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://nostalgicverse.com/download/">
+  <meta name="twitter:title" content="NostalgicVerse Emulator — Download">
+  <meta name="twitter:description" content="Explore the official NostalgicVerse Emulator project: release architecture, supported platforms, and development roadmap.">
+  <meta name="twitter:image" content="https://nostalgicverse.com/assets/images/branding/logo/logo.png">
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://nostalgicverse.com/download/#webpage",
+        "url": "https://nostalgicverse.com/download/",
+        "name": "NostalgicVerse Emulator — Download",
+        "description": "Download and explore the official NostalgicVerse Emulator project, including development status, target platforms, and preservation goals.",
+        "isPartOf": {
+          "@type": "WebSite",
+          "@id": "https://nostalgicverse.com/#website",
+          "url": "https://nostalgicverse.com/",
+          "name": "NostalgicVerse"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://nostalgicverse.com/download/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://nostalgicverse.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Download",
+            "item": "https://nostalgicverse.com/download/"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    /* ==========================================================================
+       01. DESIGN TOKENS & SYSTEM VARIABLES
+       ========================================================================== */
+    :root {
+      /* Colors */
+      --nv-bg: #08080C;
+      --nv-bg-alt: #0C0C11;
+      --nv-surface: #111118;
+      --nv-surface-raised: #15151D;
+      --nv-surface-active: #1C1C26;
+      --nv-border: #1E1E2C;
+      --nv-border-strong: #2A2A38;
+      --nv-border-hover: rgba(0, 229, 255, 0.35);
+
+      /* Typography Colors */
+      --nv-text-primary: #F4F4F7;
+      --nv-text-secondary: #A7A7B5;
+      --nv-text-muted: #737381;
+
+      /* Museum Accent Indicators */
+      --nv-cyan: #00E5FF;
+      --nv-gold: #FFB300;
+      --nv-crimson: #FF2A6D;
+
+      /* Typography Stacks */
+      --nv-font-sans: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      --nv-font-mono: ui-monospace, "SFMono-Regular", Menlo, Consolas, "Liberation Mono", monospace;
+
+      /* Layout & Spacing */
+      --nv-container-max: 1400px;
+      --nv-header-height: 72px;
+      --nv-radius-sm: 4px;
+      --nv-radius-md: 8px;
+      --nv-radius-lg: 12px;
+
+      /* Shadows */
+      --nv-shadow-ambient: 0 20px 60px rgba(0, 0, 0, 0.45);
+      --nv-shadow-card: 0 10px 30px rgba(0, 0, 0, 0.35);
+
+      /* Transitions */
+      --nv-transition-fast: 160ms cubic-bezier(0.16, 1, 0.3, 1);
+      --nv-transition-normal: 260ms cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    /* ==========================================================================
+       02. RESET & BASE STYLES
+       ========================================================================== */
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      font-size: 16px;
+      line-height: 1.5;
+      background-color: var(--nv-bg);
+      color: var(--nv-text-primary);
+      font-family: var(--nv-font-sans);
+      scroll-behavior: smooth;
+      text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      background-color: var(--nv-bg);
+      color: var(--nv-text-primary);
+      overflow-x: hidden;
+      position: relative;
+    }
+
+    body.menu-open {
+      overflow: hidden;
+    }
+
+    img, svg {
+      display: block;
+      max-width: 100%;
+      height: auto;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+      transition: color var(--nv-transition-fast);
+    }
+
+    button, input {
+      font-family: inherit;
+      font-size: inherit;
+      color: inherit;
+      border: none;
+      background: none;
+    }
+
+    button {
+      cursor: pointer;
+    }
+
+    /* Keyboard Accessibility Focus */
+    :focus-visible {
+      outline: 2px solid var(--nv-cyan);
+      outline-offset: 3px;
+    }
+
+    .skip-link {
+      position: absolute;
+      top: -100px;
+      left: 16px;
+      z-index: 1000;
+      background: var(--nv-cyan);
+      color: #000;
+      font-weight: 700;
+      padding: 12px 20px;
+      border-radius: var(--nv-radius-sm);
+      font-family: var(--nv-font-mono);
+      font-size: 0.85rem;
+      transition: top var(--nv-transition-fast);
+    }
+
+    .skip-link:focus {
+      top: 16px;
+    }
+
+    /* Architectural Grid Overlay */
+    .bg-grid-overlay {
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 0;
+      background-image: 
+        linear-gradient(to right, rgba(255, 255, 255, 0.015) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(255, 255, 255, 0.015) 1px, transparent 1px);
+      background-size: 64px 64px;
+      mask-image: radial-gradient(ellipse at 50% 30%, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 80%, transparent 100%);
+      -webkit-mask-image: radial-gradient(ellipse at 50% 30%, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 80%, transparent 100%);
+    }
+
+    .container {
+      width: min(100% - 32px, var(--nv-container-max));
+      margin-inline: auto;
+      padding-inline: max(0px, env(safe-area-inset-left));
+      position: relative;
+      z-index: 1;
+    }
+
+    @media (min-width: 768px) {
+      .container {
+        width: min(100% - 64px, var(--nv-container-max));
+      }
+    }
+
+    /* Breadcrumbs */
+    .breadcrumbs {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-family: var(--nv-font-mono);
+      font-size: 0.75rem;
+      color: var(--nv-text-muted);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 24px;
+    }
+
+    .breadcrumbs a {
+      color: var(--nv-text-secondary);
+      transition: color var(--nv-transition-fast);
+    }
+
+    .breadcrumbs a:hover {
+      color: var(--nv-cyan);
+    }
+
+    .breadcrumbs .separator {
+      color: var(--nv-border-strong);
+    }
+
+    .breadcrumbs .current {
+      color: var(--nv-cyan);
+    }
+
+    /* Museum Typography & Catalog Labels */
+    .catalog-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-family: var(--nv-font-mono);
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      color: var(--nv-text-muted);
+      margin-bottom: 12px;
+    }
+
+    .catalog-tag::before {
+      content: "";
+      display: inline-block;
+      width: 6px;
+      height: 6px;
+      background-color: var(--nv-border-strong);
+      border-radius: 1px;
+    }
+
+    .catalog-tag.tag-cyan {
+      color: var(--nv-cyan);
+    }
+    .catalog-tag.tag-cyan::before {
+      background-color: var(--nv-cyan);
+    }
+
+    .catalog-tag.tag-gold {
+      color: var(--nv-gold);
+    }
+    .catalog-tag.tag-gold::before {
+      background-color: var(--nv-gold);
+    }
+
+    .catalog-tag.tag-crimson {
+      color: var(--nv-crimson);
+    }
+    .catalog-tag.tag-crimson::before {
+      background-color: var(--nv-crimson);
+    }
+
+    .section-header {
+      margin-bottom: 40px;
+    }
+
+    .section-title {
+      font-size: clamp(1.8rem, 4vw, 2.8rem);
+      font-weight: 800;
+      letter-spacing: -0.025em;
+      line-height: 1.15;
+      color: var(--nv-text-primary);
+      text-transform: uppercase;
+    }
+
+    .section-subtitle {
+      font-size: 1.05rem;
+      color: var(--nv-text-secondary);
+      margin-top: 10px;
+      max-width: 65ch;
+    }
+
+    .museum-divider {
+      border: 0;
+      height: 1px;
+      background-color: var(--nv-border);
+      margin: 80px 0;
+      position: relative;
+    }
+
+    .museum-divider::after {
+      content: "NOSTALGICVERSE LABS";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: var(--nv-bg);
+      padding: 0 16px;
+      font-family: var(--nv-font-mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.2em;
+      color: var(--nv-text-muted);
+    }
+
+    /* Buttons */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      padding: 14px 28px;
+      font-family: var(--nv-font-sans);
+      font-size: 0.92rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      border-radius: var(--nv-radius-sm);
+      transition: all var(--nv-transition-fast);
+      min-height: 48px;
+    }
+
+    .btn-primary {
+      background-color: var(--nv-text-primary);
+      color: #08080C;
+      border: 1px solid var(--nv-text-primary);
+    }
+
+    .btn-primary:hover:not(:disabled) {
+      background-color: var(--nv-cyan);
+      border-color: var(--nv-cyan);
+      color: #08080C;
+      transform: translateY(-2px);
+    }
+
+    .btn-primary:disabled {
+      background-color: var(--nv-surface-raised);
+      border-color: var(--nv-border-strong);
+      color: var(--nv-text-muted);
+      cursor: not-allowed;
+    }
+
+    .btn-secondary {
+      background-color: rgba(255, 255, 255, 0.03);
+      color: var(--nv-text-primary);
+      border: 1px solid var(--nv-border-strong);
+    }
+
+    .btn-secondary:hover {
+      background-color: var(--nv-surface-raised);
+      border-color: var(--nv-cyan);
+      color: var(--nv-cyan);
+      transform: translateY(-2px);
+    }
+
+    /* ==========================================================================
+       05. HEADER & NAVIGATION
+       ========================================================================== */
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background-color: rgba(8, 8, 12, 0.88);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--nv-border);
+      height: var(--nv-header-height);
+      display: flex;
+      align-items: center;
+    }
+
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+    }
+
+    .brand-group {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .brand-logo-wrap {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--nv-text-primary);
+    }
+
+    .brand-mark {
+      width: 32px;
+      height: 32px;
+      background: var(--nv-surface-raised);
+      border: 1px solid var(--nv-border-strong);
+      border-radius: var(--nv-radius-sm);
+      display: grid;
+      place-items: center;
+      font-family: var(--nv-font-mono);
+      font-weight: 800;
+      font-size: 0.85rem;
+      color: var(--nv-cyan);
+    }
+
+    .brand-text {
+      font-size: 1.1rem;
+      font-weight: 800;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .site-nav {
+      display: none;
+    }
+
+    @media (min-width: 1024px) {
+      .site-nav {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+      }
+
+      .nav-link {
+        font-family: var(--nv-font-sans);
+        font-size: 0.86rem;
+        font-weight: 500;
+        color: var(--nv-text-secondary);
+        letter-spacing: 0.02em;
+        position: relative;
+        padding-block: 6px;
+      }
+
+      .nav-link:hover, .nav-link.active {
+        color: var(--nv-text-primary);
+      }
+
+      .nav-link.active::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background-color: var(--nv-cyan);
+      }
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .header-action-btn {
+      width: 44px;
+      height: 44px;
+      display: grid;
+      place-items: center;
+      border-radius: var(--nv-radius-sm);
+      color: var(--nv-text-secondary);
+      border: 1px solid transparent;
+      position: relative;
+      transition: all var(--nv-transition-fast);
+    }
+
+    .header-action-btn:hover {
+      color: var(--nv-text-primary);
+      border-color: var(--nv-border);
+      background-color: var(--nv-surface);
+    }
+
+    .fav-badge {
+      position: absolute;
+      top: 6px;
+      right: 6px;
+      min-width: 16px;
+      height: 16px;
+      padding: 0 4px;
+      background-color: var(--nv-crimson);
+      color: #FFF;
+      font-family: var(--nv-font-mono);
+      font-size: 0.65rem;
+      font-weight: 700;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      transform: scale(0.6);
+      transition: all var(--nv-transition-fast);
+    }
+
+    .fav-badge.has-items {
+      opacity: 1;
+      transform: scale(1);
+    }
+
+    .menu-toggle {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 44px;
+      height: 44px;
+      border: 1px solid var(--nv-border);
+      border-radius: var(--nv-radius-sm);
+      color: var(--nv-text-primary);
+    }
+
+    @media (min-width: 1024px) {
+      .menu-toggle {
+        display: none;
+      }
+    }
+
+    /* Mobile Drawer */
+    .mobile-drawer-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(4, 4, 6, 0.7);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      z-index: 200;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity var(--nv-transition-normal);
+    }
+
+    .mobile-drawer {
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      width: min(85vw, 400px);
+      background-color: var(--nv-bg-alt);
+      border-left: 1px solid var(--nv-border);
+      z-index: 210;
+      padding: 32px 24px;
+      display: flex;
+      flex-direction: column;
+      transform: translateX(100%);
+      transition: transform var(--nv-transition-normal);
+      overflow-y: auto;
+    }
+
+    .mobile-drawer-overlay.is-open {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    .mobile-drawer.is-open {
+      transform: translateX(0);
+    }
+
+    .drawer-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 40px;
+    }
+
+    .drawer-nav {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      flex-grow: 1;
+    }
+
+    .drawer-nav-link {
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: var(--nv-text-secondary);
+      padding-block: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+    }
+
+    .drawer-nav-link:hover, .drawer-nav-link.active {
+      color: var(--nv-cyan);
+    }
+
+    .drawer-nav-link .nav-num {
+      font-family: var(--nv-font-mono);
+      font-size: 0.75rem;
+      color: var(--nv-text-muted);
+    }
+
+    .drawer-footer {
+      padding-top: 24px;
+      border-top: 1px solid var(--nv-border);
+      font-family: var(--nv-font-mono);
+      font-size: 0.75rem;
+      color: var(--nv-text-muted);
+    }
+
+    /* ==========================================================================
+       06. DOWNLOAD PAGE HERO
+       ========================================================================== */
+    .download-hero {
+      padding-top: clamp(40px, 8vw, 72px);
+      padding-bottom: 40px;
+    }
+
+    .download-hero-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 48px;
+      align-items: center;
+    }
+
+    @media (min-width: 1024px) {
+      .download-hero-grid {
+        grid-template-columns: 1.2fr 0.8fr;
+        gap: 64px;
+      }
+    }
+
+    .download-headline {
+      font-size: clamp(2.4rem, 6vw, 4.8rem);
+      font-weight: 900;
+      line-height: 1;
+      letter-spacing: -0.035em;
+      text-transform: uppercase;
+      margin-bottom: 16px;
+    }
+
+    .download-headline span {
+      color: var(--nv-cyan);
+      display: block;
+    }
+
+    .download-tagline {
+      font-family: var(--nv-font-mono);
+      font-size: 0.85rem;
+      color: var(--nv-gold);
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+
+    .download-lead {
+      font-size: clamp(1.05rem, 1.8vw, 1.25rem);
+      line-height: 1.6;
+      color: var(--nv-text-secondary);
+      max-width: 60ch;
+      margin-bottom: 36px;
+    }
+
+    .download-cta-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      margin-bottom: 32px;
+    }
+
+    .build-status-callout {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: var(--nv-surface);
+      border: 1px solid var(--nv-border-strong);
+      padding: 10px 16px;
+      border-radius: var(--nv-radius-sm);
+      font-family: var(--nv-font-mono);
+      font-size: 0.78rem;
+      color: var(--nv-text-muted);
+    }
+
+    .status-indicator-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--nv-gold);
+      box-shadow: 0 0 8px var(--nv-gold);
+    }
+
+    /* Product Blueprint Visual */
+    .product-blueprint-card {
+      background: var(--nv-surface);
+      border: 1px solid var(--nv-border-strong);
+      border-radius: var(--nv-radius-md);
+      overflow: hidden;
+      box-shadow: var(--nv-shadow-ambient);
+    }
+
+    .blueprint-header {
+      background-color: #0c0c14;
+      border-bottom: 1px solid var(--nv-border);
+      padding: 12px 18px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-family: var(--nv-font-mono);
+      font-size: 0.72rem;
+      color: var(--nv-text-muted);
+    }
+
+    .blueprint-body {
+      aspect-ratio: 4 / 3;
+      background: radial-gradient(circle at 50% 50%, #080812 0%, #030306 100%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 32px;
+      text-align: center;
+      position: relative;
+    }
+
+    .blueprint-grid-lines {
+      position: absolute;
+      inset: 0;
+      background-image: 
+        linear-gradient(to right, rgba(0, 229, 255, 0.05) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(0, 229, 255, 0.05) 1px, transparent 1px);
+      background-size: 32px 32px;
+      pointer-events: none;
+    }
+
+    .blueprint-brand-title {
+      font-family: var(--nv-font-mono);
+      font-size: 1.25rem;
+      font-weight: 800;
+      letter-spacing: 0.15em;
+      color: var(--nv-text-primary);
+      text-transform: uppercase;
+      margin-bottom: 8px;
+      z-index: 1;
+    }
+
+    .blueprint-brand-desc {
+      font-family: var(--nv-font-mono);
+      font-size: 0.75rem;
+      color: var(--nv-cyan);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      z-index: 1;
+    }
+
+    /* ==========================================================================
+       07. RELEASE ARCHITECTURE & SPECIFICATIONS
+       ========================================================================== */
+    .release-matrix-section {
+      padding-block: 40px;
+    }
+
+    .release-card {
+      background: var(--nv-surface);
+      border: 1px solid var(--nv-border);
+      border-radius: var(--nv-radius-md);
+      padding: 32px;
+      margin-bottom: 48px;
+    }
+
+    .spec-table-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      margin-top: 24px;
+    }
+
+    @media (min-width: 768px) {
+      .spec-table-grid {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    }
+
+    .spec-item {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .spec-item-label {
+      font-family: var(--nv-font-mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.12em;
+      color: var(--nv-text-muted);
+      text-transform: uppercase;
+    }
+
+    .spec-item-value {
+      font-family: var(--nv-font-mono);
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--nv-text-primary);
+    }
+
+    /* ==========================================================================
+       08. PLATFORM SUPPORT ROADMAP
+       ========================================================================== */
+    .platform-roadmap-section {
+      padding-block: 40px;
+    }
+
+    .platform-cards-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 24px;
+    }
+
+    @media (min-width: 640px) {
+      .platform-cards-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (min-width: 1024px) {
+      .platform-cards-grid {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    }
+
+    .platform-card {
+      background-color: var(--nv-surface);
+      border: 1px solid var(--nv-border);
+      border-radius: var(--nv-radius-md);
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: transform var(--nv-transition-fast), border-color var(--nv-transition-fast);
+    }
+
+    .platform-card:hover {
+      border-color: var(--nv-border-hover);
+      transform: translateY(-2px);
+    }
+
+    .platform-card-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 16px;
+    }
+
+    .platform-name {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--nv-text-primary);
+      margin-bottom: 8px;
+    }
+
+    .platform-status-badge {
+      font-family: var(--nv-font-mono);
+      font-size: 0.68rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      padding: 4px 8px;
+      border-radius: var(--nv-radius-sm);
+      background: var(--nv-surface-raised);
+      border: 1px solid var(--nv-border-strong);
+    }
+
+    .status-in-progress {
+      color: var(--nv-cyan);
+      border-color: rgba(0, 229, 255, 0.3);
+    }
+
+    .status-planned {
+      color: var(--nv-text-muted);
+    }
+
+    .platform-desc {
+      font-size: 0.88rem;
+      color: var(--nv-text-secondary);
+      line-height: 1.5;
+      margin-bottom: 20px;
+    }
+
+    /* ==========================================================================
+       09. ENGINEERING PILLARS
+       ========================================================================== */
+    .pillars-section {
+      padding-block: 40px;
+    }
+
+    .pillars-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 24px;
+    }
+
+    @media (min-width: 768px) {
+      .pillars-grid {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    .pillar-card {
+      background: var(--nv-surface);
+      border: 1px solid var(--nv-border);
+      border-radius: var(--nv-radius-md);
+      padding: 28px;
+    }
+
+    .pillar-title {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--nv-text-primary);
+      margin-bottom: 12px;
+    }
+
+    .pillar-desc {
+      font-size: 0.9rem;
+      color: var(--nv-text-secondary);
+      line-height: 1.6;
+    }
+
+    /* ==========================================================================
+       10. LEGAL & PRESERVATION STANCE
+       ========================================================================== */
+    .legal-stance-section {
+      padding-block: 40px;
+    }
+
+    .legal-card {
+      background: rgba(255, 179, 0, 0.02);
+      border: 1px solid rgba(255, 179, 0, 0.2);
+      border-left: 4px solid var(--nv-gold);
+      border-radius: var(--nv-radius-md);
+      padding: 28px;
+    }
+
+    .legal-title {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--nv-gold);
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    .legal-text {
+      font-size: 0.92rem;
+      color: var(--nv-text-secondary);
+      line-height: 1.6;
+    }
+
+    /* ==========================================================================
+       11. FOOTER
+       ========================================================================== */
+    .site-footer {
+      background-color: var(--nv-bg-alt);
+      border-top: 1px solid var(--nv-border);
+      padding-top: 80px;
+      padding-bottom: 40px;
+      margin-top: auto;
+    }
+
+    .footer-top {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 48px;
+      margin-bottom: 64px;
+    }
+
+    @media (min-width: 768px) {
+      .footer-top {
+        grid-template-columns: 1.5fr repeat(3, 1fr);
+      }
+    }
+
+    .footer-brand-column {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .footer-logo {
+      font-size: 1.35rem;
+      font-weight: 800;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .footer-tagline {
+      font-size: 0.95rem;
+      color: var(--nv-text-secondary);
+      max-width: 32ch;
+      line-height: 1.5;
+    }
+
+    .footer-statement {
+      font-size: 0.82rem;
+      color: var(--nv-text-muted);
+      line-height: 1.6;
+      max-width: 38ch;
+      margin-top: 8px;
+    }
+
+    .footer-nav-title {
+      font-family: var(--nv-font-mono);
+      font-size: 0.75rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--nv-text-primary);
+      margin-bottom: 20px;
+    }
+
+    .footer-nav-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .footer-nav-link {
+      font-size: 0.9rem;
+      color: var(--nv-text-secondary);
+      transition: color var(--nv-transition-fast);
+    }
+
+    .footer-nav-link:hover {
+      color: var(--nv-cyan);
+    }
+
+    .footer-bottom {
+      padding-top: 32px;
+      border-top: 1px solid rgba(255, 255, 255, 0.05);
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      align-items: center;
+      justify-content: space-between;
+      font-family: var(--nv-font-mono);
+      font-size: 0.75rem;
+      color: var(--nv-text-muted);
+    }
+
+    @media (min-width: 768px) {
+      .footer-bottom {
+        flex-direction: row;
+      }
+    }
+
+    .footer-legal-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .footer-legal-links a:hover {
+      color: var(--nv-text-secondary);
+    }
+  </style>
+</head>
+<body>
+  <!-- Accessible Skip Navigation -->
+  <a href="#main-content" class="skip-link">Skip to main download content</a>
+
+  <!-- Structural Grid Atmosphere -->
+  <div class="bg-grid-overlay" aria-hidden="true"></div>
+
+  <!-- ==========================================================================
+       FLAGSHIP GLOBAL NAVIGATION
+       ========================================================================== -->
+  <header class="site-header" id="site-header">
+    <div class="container">
+      <div class="header-inner">
+        
+        <!-- Brand Landmark -->
+        <div class="brand-group">
+          <a href="/" class="brand-logo-wrap" aria-label="NostalgicVerse Homepage">
+            <span class="brand-mark" aria-hidden="true">NV</span>
+            <span class="brand-text">NostalgicVerse</span>
+          </a>
+        </div>
+
+        <!-- Primary Desktop Navigation -->
+        <nav class="site-nav" aria-label="Primary Exhibition Navigation">
+          <a href="/" class="nav-link">Home</a>
+          <a href="/games/" class="nav-link">Games</a>
+          <a href="/consoles/" class="nav-link">Consoles</a>
+          <a href="/timeline/" class="nav-link">Timeline</a>
+          <a href="/genres/" class="nav-link">Genres</a>
+          <a href="/guides/" class="nav-link">Guides</a>
+          <a href="/blog/" class="nav-link">Stories</a>
+          <a href="/download/" class="nav-link active" aria-current="page">Emulator</a>
+        </nav>
+
+        <!-- Header Utility Actions -->
+        <div class="header-actions">
+          <!-- Search Link -->
+          <a href="/search/" class="header-action-btn" aria-label="Search the Archive">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+          </a>
+
+          <!-- Favorites Link with Badge Counter -->
+          <a href="/favorites/" class="header-action-btn" aria-label="View Saved Archive Favorites">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path>
+            </svg>
+            <span class="fav-badge" id="header-fav-badge" aria-live="polite">0</span>
+          </a>
+
+          <!-- Mobile Menu Drawer Toggle -->
+          <button type="button" class="menu-toggle" id="menu-toggle-btn" aria-expanded="false" aria-controls="mobile-nav-drawer" aria-label="Open Archive Navigation">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <line x1="3" y1="12" x2="21" y2="12"></line>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Overlay & Panel -->
+  <div class="mobile-drawer-overlay" id="drawer-backdrop" aria-hidden="true"></div>
+  
+  <aside class="mobile-drawer" id="mobile-nav-drawer" aria-label="Mobile Navigation" aria-hidden="true" tabindex="-1">
+    <div class="drawer-top">
+      <div class="brand-group">
+        <span class="brand-mark" aria-hidden="true">NV</span>
+        <span class="brand-text">NostalgicVerse</span>
+      </div>
+      <button type="button" class="menu-toggle" id="drawer-close-btn" aria-label="Close Archive Navigation">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+
+    <nav class="drawer-nav">
+      <a href="/" class="drawer-nav-link"><span>Home</span> <span class="nav-num">/01</span></a>
+      <a href="/games/" class="drawer-nav-link"><span>Games</span> <span class="nav-num">/02</span></a>
+      <a href="/consoles/" class="drawer-nav-link"><span>Consoles</span> <span class="nav-num">/03</span></a>
+      <a href="/timeline/" class="drawer-nav-link"><span>Timeline</span> <span class="nav-num">/04</span></a>
+      <a href="/genres/" class="drawer-nav-link"><span>Genres</span> <span class="nav-num">/05</span></a>
+      <a href="/guides/" class="drawer-nav-link"><span>Guides</span> <span class="nav-num">/06</span></a>
+      <a href="/blog/" class="drawer-nav-link"><span>Stories</span> <span class="nav-num">/07</span></a>
+      <a href="/download/" class="drawer-nav-link active"><span>Emulator Project</span> <span class="nav-num">/08</span></a>
+      <a href="/favorites/" class="drawer-nav-link"><span>Favorites Archive</span> <span class="nav-num">/FAV</span></a>
+      <a href="/random/" class="drawer-nav-link"><span>Random Discovery</span> <span class="nav-num">/RND</span></a>
+    </nav>
+
+    <div class="drawer-footer">
+      <p>ARCHIVE DATABASE // VER 2026.1</p>
+      <p style="margin-top: 6px;">Preserving the games that made history.</p>
+    </div>
+  </aside>
+
+  <!-- ==========================================================================
+       MAIN CONTENT: DOWNLOAD CENTER
+       ========================================================================== -->
+  <main id="main-content">
+    <div class="container">
+
+      <!-- Breadcrumbs Landmark -->
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <a href="/">Home</a>
+        <span class="separator">/</span>
+        <span class="current" aria-current="page">Download</span>
+      </nav>
+
+      <!-- 01. HERO SECTION -->
+      <section class="download-hero" aria-labelledby="download-hero-title">
+        <div class="download-hero-grid">
+          
+          <div class="download-hero-content">
+            <span class="catalog-tag tag-cyan">NostalgicVerse Labs · Official Software Project</span>
+            <div class="download-tagline">Built for preservation. Designed for play.</div>
+            
+            <h1 class="download-headline" id="download-hero-title">
+              NostalgicVerse<br>
+              <span>Emulator</span>
+            </h1>
+
+            <p class="download-lead">
+              A modern emulator project built as part of the NostalgicVerse ecosystem. Designed from the ground up for cycle-accurate hardware preservation, phosphor CRT simulation, and authentic input response.
+            </p>
+
+            <div class="download-cta-group">
+              <button type="button" class="btn btn-primary" disabled aria-disabled="true">
+                <span>Coming Soon</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                  <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                </svg>
+              </button>
+
+              <a href="#roadmap" class="btn btn-secondary">
+                <span>View Development Status</span>
+              </a>
+            </div>
+
+            <div class="build-status-callout">
+              <span class="status-indicator-dot" aria-hidden="true"></span>
+              <span>CURRENT STATUS: ACTIVE CORE ARCHITECTURE // BUILD PREPARATION</span>
+            </div>
+          </div>
+
+          <!-- Product Architecture Visual Preview -->
+          <div class="download-hero-visual" aria-hidden="true">
+            <div class="product-blueprint-card">
+              <div class="blueprint-header">
+                <span>SPEC // CORE-ARCH-2026</span>
+                <span>STATUS: IN DEV</span>
+              </div>
+              <div class="blueprint-body">
+                <div class="blueprint-grid-lines"></div>
+                <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="var(--nv-cyan)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="margin-bottom: 16px; opacity: 0.8;">
+                  <rect x="2" y="6" width="20" height="12" rx="2"></rect>
+                  <circle cx="8" cy="12" r="2"></circle>
+                  <path d="M15 12h2"></path>
+                  <path d="M16 11v2"></path>
+                </svg>
+                <div class="blueprint-brand-title">NOSTALGICVERSE EMULATOR</div>
+                <div class="blueprint-brand-desc">Hardware Core Preservation Layer</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <hr class="museum-divider" aria-hidden="true">
+
+      <!-- 02. RELEASE STATUS & ARCHITECTURE -->
+      <section class="release-matrix-section" id="release-info" aria-labelledby="release-info-title">
+        <div class="section-header">
+          <span class="catalog-tag tag-gold">Build Architecture</span>
+          <h2 class="section-title" id="release-info-title">Initial Release Profile</h2>
+          <p class="section-subtitle">
+            Verified engineering targets for the debut public preview build of NostalgicVerse Emulator.
+          </p>
+        </div>
+
+        <div class="release-card">
+          <div class="spec-table-grid">
+            <div class="spec-item">
+              <span class="spec-item-label">TARGET BUILD</span>
+              <span class="spec-item-value">v0.1-ALPHA</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-item-label">CURRENT PHASE</span>
+              <span class="spec-item-value">IN DEVELOPMENT</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-item-label">LICENSE</span>
+              <span class="spec-item-value">OPEN PRESERVATION</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-item-label">TELEMETRY</span>
+              <span class="spec-item-value">ZERO TRACKING</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 03. PLATFORM SUPPORT ROADMAP -->
+      <section class="platform-roadmap-section" id="roadmap" aria-labelledby="platform-roadmap-title">
+        <div class="section-header">
+          <span class="catalog-tag tag-cyan">Host System Targets</span>
+          <h2 class="section-title" id="platform-roadmap-title">Platform Roadmap</h2>
+          <p class="section-subtitle">
+            Supported host operating systems currently prioritized in the active development pipeline.
+          </p>
+        </div>
+
+        <div class="platform-cards-grid">
+          
+          <!-- Windows -->
+          <div class="platform-card">
+            <div>
+              <div class="platform-card-header">
+                <span class="catalog-tag tag-cyan">PRIMARY TIER</span>
+                <span class="platform-status-badge status-in-progress">IN PROGRESS</span>
+              </div>
+              <h3 class="platform-name">Windows</h3>
+              <p class="platform-desc">
+                64-bit Windows 10/11 native backend with Direct3D 12 and Vulkan rendering pipelines.
+              </p>
+            </div>
+            <div class="spec-item-label">STATUS: CORE DEV</div>
+          </div>
+
+          <!-- Linux -->
+          <div class="platform-card">
+            <div>
+              <div class="platform-card-header">
+                <span class="catalog-tag tag-cyan">PRIMARY TIER</span>
+                <span class="platform-status-badge status-in-progress">IN PROGRESS</span>
+              </div>
+              <h3 class="platform-name">Linux</h3>
+              <p class="platform-desc">
+                Native x86_64 binaries with Wayland & X11 support, tailored for desktop and Steam Deck environments.
+              </p>
+            </div>
+            <div class="spec-item-label">STATUS: CORE DEV</div>
+          </div>
+
+          <!-- macOS -->
+          <div class="platform-card">
+            <div>
+              <div class="platform-card-header">
+                <span class="catalog-tag">SECONDARY TIER</span>
+                <span class="platform-status-badge status-planned">PLANNED</span>
+              </div>
+              <h3 class="platform-name">macOS</h3>
+              <p class="platform-desc">
+                Apple Silicon (ARM64) optimized build leveraging Metal rendering API for macOS Monterey and later.
+              </p>
+            </div>
+            <div class="spec-item-label">STATUS: ARCHITECTURE PHASE</div>
+          </div>
+
+          <!-- Android -->
+          <div class="platform-card">
+            <div>
+              <div class="platform-card-header">
+                <span class="catalog-tag">PORTABLE TIER</span>
+                <span class="platform-status-badge status-planned">PLANNED</span>
+              </div>
+              <h3 class="platform-name">Android</h3>
+              <p class="platform-desc">
+                Touchscreen and handheld controller support targeting modern 64-bit ARM devices via Vulkan.
+              </p>
+            </div>
+            <div class="spec-item-label">STATUS: EVALUATION PHASE</div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- 04. ENGINEERING PILLARS -->
+      <section class="pillars-section" aria-labelledby="pillars-title">
+        <div class="section-header">
+          <span class="catalog-tag tag-cyan">Engineering Principles</span>
+          <h2 class="section-title" id="pillars-title">Preservation-First Design</h2>
+          <p class="section-subtitle">
+            Core architectural commitments that guide the development of NostalgicVerse Emulator.
+          </p>
+        </div>
+
+        <div class="pillars-grid">
+          
+          <div class="pillar-card">
+            <h3 class="pillar-title">Cycle-Accurate Timing</h3>
+            <p class="pillar-desc">
+              Focusing on precise instruction timing, interrupt handling, and bus synchronization rather than speed hacks, ensuring historical software executes as intended on original silicon.
+            </p>
+          </div>
+
+          <div class="pillar-card">
+            <h3 class="pillar-title">Authentic CRT Pipeline</h3>
+            <p class="pillar-desc">
+              Multi-pass shader reproduction of shadow masks, aperture grilles, phosphor decay, and beam convergence to preserve the visual look intended by artists for cathode-ray displays.
+            </p>
+          </div>
+
+          <div class="pillar-card">
+            <h3 class="pillar-title">Zero Telemetry & Offline</h3>
+            <p class="pillar-desc">
+              Completely free of data collection, phone-home telemetry, or forced user accounts. An independent software project built to operate perpetually offline.
+            </p>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- 05. LEGAL & PRESERVATION STANCE -->
+      <section class="legal-stance-section" aria-labelledby="legal-stance-title">
+        <div class="legal-card">
+          <h2 class="legal-title" id="legal-stance-title">Preservation & Copyright Policy</h2>
+          <p class="legal-text">
+            NostalgicVerse Emulator is independent research and preservation software created to emulate historical computing hardware. NostalgicVerse does not distribute, host, or link to unauthorized copyrighted ROM files, game disc images, or proprietary system BIOS dumps. Users are responsible for providing their own legitimately sourced media and system software backups.
+          </p>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- ==========================================================================
+       MUSEUM FOOTER
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      
+      <div class="footer-top">
+        
+        <div class="footer-brand-column">
+          <div class="brand-group">
+            <span class="brand-mark" aria-hidden="true">NV</span>
+            <span class="footer-logo">NostalgicVerse</span>
+          </div>
+          <p class="footer-tagline">
+            The Games That Made History.
+          </p>
+          <p class="footer-statement">
+            A digital museum and permanent cultural archive preserving the games, machines, technical documentation, and memories that shaped generations of players.
+          </p>
+        </div>
+
+        <div class="footer-nav-column">
+          <h3 class="footer-nav-title">Exhibition Archive</h3>
+          <ul class="footer-nav-list">
+            <li><a href="/games/" class="footer-nav-link">All Games Index</a></li>
+            <li><a href="/consoles/" class="footer-nav-link">Console Museum</a></li>
+            <li><a href="/timeline/" class="footer-nav-link">Chronology Timeline</a></li>
+            <li><a href="/genres/" class="footer-nav-link">Genre Taxonomy</a></li>
+            <li><a href="/eras/" class="footer-nav-link">Historical Eras</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-nav-column">
+          <h3 class="footer-nav-title">Editorial & Software</h3>
+          <ul class="footer-nav-list">
+            <li><a href="/blog/" class="footer-nav-link">Archival Stories</a></li>
+            <li><a href="/guides/" class="footer-nav-link">Preservation Guides</a></li>
+            <li><a href="/download/" class="footer-nav-link" aria-current="page">NostalgicVerse Emulator</a></li>
+            <li><a href="/random/" class="footer-nav-link">Random Discovery</a></li>
+            <li><a href="/favorites/" class="footer-nav-link">Saved Collection</a></li>
+            <li><a href="/about/" class="footer-nav-link">About NostalgicVerse</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-nav-column">
+          <h3 class="footer-nav-title">Legal & Support</h3>
+          <ul class="footer-nav-list">
+            <li><a href="/legal/privacy.html" class="footer-nav-link">Privacy Policy</a></li>
+            <li><a href="/legal/terms.html" class="footer-nav-link">Terms of Service</a></li>
+            <li><a href="/legal/cookies.html" class="footer-nav-link">Cookie Information</a></li>
+            <li><a href="/legal/disclaimer.html" class="footer-nav-link">Archival Disclaimer</a></li>
+            <li><a href="/support/" class="footer-nav-link">Support the Archive</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          <span>&copy; 2026 NOSTALGICVERSE. ALL HISTORICAL TRADEMARKS BELONG TO THEIR RESPECTIVE OWNERS.</span>
+        </div>
+        <div class="footer-legal-links">
+          <span>SOFTWARE NODE: EMULATOR // DEV PHASE</span>
+          <span>LATENCY: ZERO DEPENDENCY</span>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       VANILLA JAVASCRIPT: ACCESSIBILITY & DRAWER
+       ========================================================================== -->
+  <script>
+    (function () {
+      'use strict';
+
+      const FAV_STORAGE_KEY = 'nostalgicverse_favs';
+
+      function updateFavoritesHeaderBadge() {
+        const badge = document.getElementById('header-fav-badge');
+        if (!badge) return;
+
+        try {
+          const raw = localStorage.getItem(FAV_STORAGE_KEY);
+          const favs = raw ? JSON.parse(raw) : [];
+          const count = Array.isArray(favs) ? favs.length : 0;
+          badge.textContent = count;
+
+          if (count > 0) {
+            badge.classList.add('has-items');
+          } else {
+            badge.classList.remove('has-items');
+          }
+        } catch (err) {
+          console.warn('NostalgicVerse: LocalStorage inaccessible.', err);
+        }
+      }
+
+      window.addEventListener('storage', function (event) {
+        if (event.key === FAV_STORAGE_KEY) {
+          updateFavoritesHeaderBadge();
+        }
+      });
+
+      /* Accessible Mobile Drawer */
+      const menuBtn = document.getElementById('menu-toggle-btn');
+      const closeBtn = document.getElementById('drawer-close-btn');
+      const drawer = document.getElementById('mobile-nav-drawer');
+      const backdrop = document.getElementById('drawer-backdrop');
+
+      function openMobileMenu() {
+        if (!drawer || !backdrop) return;
+        document.body.classList.add('menu-open');
+        drawer.classList.add('is-open');
+        backdrop.classList.add('is-open');
+        menuBtn.setAttribute('aria-expanded', 'true');
+        drawer.setAttribute('aria-hidden', 'false');
+        drawer.focus();
+      }
+
+      function closeMobileMenu() {
+        if (!drawer || !backdrop) return;
+        document.body.classList.remove('menu-open');
+        drawer.classList.remove('is-open');
+        backdrop.classList.remove('is-open');
+        menuBtn.setAttribute('aria-expanded', 'false');
+        drawer.setAttribute('aria-hidden', 'true');
+        menuBtn.focus();
+      }
+
+      if (menuBtn) menuBtn.addEventListener('click', openMobileMenu);
+      if (closeBtn) closeBtn.addEventListener('click', closeMobileMenu);
+      if (backdrop) backdrop.addEventListener('click', closeMobileMenu);
+
+      document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape' && drawer && drawer.classList.contains('is-open')) {
+          closeMobileMenu();
+        }
+      });
+
+      window.addEventListener('DOMContentLoaded', function () {
+        updateFavoritesHeaderBadge();
+      });
+
+    })();
+  </script>
+</body>
+</html>

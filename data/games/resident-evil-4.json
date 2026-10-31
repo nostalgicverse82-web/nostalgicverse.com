@@ -1,0 +1,92 @@
+{
+  "id": "game-resident-evil-4",
+  "slug": "resident-evil-4",
+  "title": "Resident Evil 4",
+  "japaneseTitle": "バイオハザード4",
+  "url": "/games/resident-evil-4/",
+  "originalReleaseYear": 2005,
+  "exactReleaseDate": "2005-01-11",
+  "developer": "Capcom Production Studio 4",
+  "publisher": "Capcom",
+  "director": "Shinji Mikami",
+  "designer": "Hiroshi Shibata, Shinji Mikami",
+  "composer": "Shusaku Uchiyama, Misao Senbongi",
+  "originalLaunchPlatform": "Nintendo GameCube",
+  "platforms": [
+    "Nintendo GameCube",
+    "PlayStation 2",
+    "Wii",
+    "Xbox 360",
+    "PlayStation 3",
+    "Microsoft Windows"
+  ],
+  "genre": "survival-horror",
+  "subgenres": [
+    "Action Horror",
+    "Over-the-Shoulder Third-Person Shooter"
+  ],
+  "era": "2000s",
+  "shortDescription": "Shinji Mikami's revolutionary masterpiece that invented the modern over-the-shoulder camera and revitalized action games.",
+  "historicalSignificance": "Single-handedly invented the modern over-the-shoulder third-person camera perspective that became the universal standard for modern action games, including Gears of War, Dead Space, The Last of Us, and Uncharted.",
+  "editorialContent": {
+    "overview": "Directed by franchise creator Shinji Mikami after scrapping multiple prototypes, Resident Evil 4 was released on the Nintendo GameCube in January 2005 as part of the 'Capcom Five.' Sending special agent Leon S. Kennedy to a rural European village to rescue the President's kidnapped daughter, the game discarded fixed camera angles and clumsy tank controls in favor of an electrifying over-the-shoulder combat revolution.",
+    "gameplay": "Players aim with a precise laser sight to target specific body parts: shooting a Ganado cultist's knee triggers a devastating roundhouse kick melee takedown. The inventory utilizes a spatial grid 'Attache Case' puzzle system, while the enigmatic Merchant offers weapon upgrades and tune-ups throughout the grueling campaign.",
+    "technicalInnovation": "Introduced dynamic adaptive difficulty algorithms that monitored player health, accuracy, and ammo reserves in real time, subtly scaling enemy aggression, spawn counts, and loot drop rates to keep tension perpetually razor-sharp.",
+    "culturalImpact": "Resident Evil 4 is universally recognized as one of the most influential video games ever created. It transformed third-person action gaming overnight, earning a 96 Metacritic rating and countless Game of the Year crowns.",
+    "preservationNotes": "Preserved on GameCube optical discs, the PS2 port, the definitive Wii edition with motion pointer aiming, and the acclaimed 2023 remake."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "January 11, 2005",
+    "leadPlatform": "Nintendo GameCube",
+    "genre": "survival-horror",
+    "sales": "Over 12 million copies across all original editions and remasters",
+    "awards": [
+      "Game of the Year 2005 (Spike Video Game Awards, GameSpot, Nintendo Power)",
+      "Metacritic score of 96"
+    ],
+    "technicalSpecs": {
+      "engine": "Capcom custom GameCube 3D engine with dynamic camera projection",
+      "resolution": "480p progressive scan widescreen (letterboxed)",
+      "soundChip": "GameCube Macronix DSP with dynamic industrial dread soundscape",
+      "mediaFormat": "2 GameCube Optical Discs"
+    },
+    "relationships": {
+      "primaryConsole": "gamecube",
+      "developerEntity": "Capcom",
+      "lineage": [
+        "Resident Evil 2",
+        "Devil May Cry",
+        "Gears of War",
+        "Dead Space"
+      ]
+    }
+  },
+  "assets": {
+    "cover": "/assets/images/games/resident-evil-4.webp",
+    "banner": "/assets/images/games/resident-evil-4-banner.webp",
+    "screenshots": [
+      "/assets/images/games/resident-evil-4-screen1.webp",
+      "/assets/images/games/resident-evil-4-screen2.webp"
+    ],
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/d/d9/Resi4-gc-cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/d/d9/Resi4-gc-cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Resi4-gc-cover.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "resident evil 4",
+    "re4",
+    "leon kennedy",
+    "shinji mikami",
+    "capcom",
+    "gamecube",
+    "over the shoulder",
+    "attache case"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": true
+}

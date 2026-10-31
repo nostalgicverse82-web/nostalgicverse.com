@@ -1,0 +1,90 @@
+{
+  "id": "game-colossal-cave-adventure",
+  "slug": "colossal-cave-adventure",
+  "title": "Colossal Cave Adventure",
+  "url": "/games/colossal-cave-adventure/",
+  "originalReleaseYear": 1976,
+  "exactReleaseDate": "1976-05-01",
+  "developer": "Will Crowther & Don Woods",
+  "publisher": "Public Domain / ARPANET",
+  "designer": "Will Crowther, expanded by Don Woods",
+  "originalLaunchPlatform": "DEC PDP-10",
+  "platforms": [
+    "DEC PDP-10",
+    "PDP-11",
+    "MS-DOS",
+    "Apple II",
+    "Commodore 64"
+  ],
+  "genre": "point-and-click-adventure",
+  "subgenres": [
+    "Interactive Fiction",
+    "Text Adventure"
+  ],
+  "era": "1970s",
+  "shortDescription": "Will Crowther and Don Woods' pioneering text-based interactive fiction that gave birth to the adventure game genre and computer role-playing design.",
+  "historicalSignificance": "Introduced natural language command parsing, spatial maze navigation, item inventories, and emergent world exploration, immortalizing phrases like 'XYZZY' and 'You are in a maze of twisty little passages, all alike.'",
+  "editorialContent": {
+    "overview": "Created in 1976 by Will Crowther, an avid caver and ARPANET programmer at Bolt, Beranek and Newman (BBN), Colossal Cave Adventure modeled the real-world Bedquilt section of Kentucky's Mammoth Cave System as a textual maze for his daughters. Stanford student Don Woods discovered the FORTRAN source code on ARPANET in 1977, dramatically expanding it with Tolkien-inspired high fantasy elements, magical treasures, dwarves, and puzzles.",
+    "gameplayMechanics": "Played entirely through a command-line teleprinter or CRT terminal, players navigate rooms by entering two-word natural language verbs and nouns (such as 'GO NORTH', 'TAKE LAMP', 'UNLOCK GRATE', 'KILL DWARF'). The game models darkness requiring a battery-powered brass lantern, spatial inventory capacity, item combination puzzles, and elusive teleportation commands.",
+    "technicalInnovation": "Written in FORTRAN IV for Digital Equipment Corporation's PDP-10 mainframe running the TOPS-10 operating system, Adventure pioneered procedural string tables, stateful location data arrays, and weighted parser token matching. The complete program operated within a tiny 36-bit mainframe word space, demonstrating complex database-driven world simulation.",
+    "culturalImpact": "Adventure spread virally across ARPANET, consuming thousands of hours of computer scientists' research time. It inspired the founding of Infocom (Zork), Warren Robinett's graphical Adventure for the Atari 2600, Ken and Roberta Williams' Sierra On-Line (Mystery House, King's Quest), and established the interactive storytelling grammar that underpins modern RPGs.",
+    "preservationNotes": "Preserved across Crowther's original 1976 FORTRAN source archives, Don Woods' 350-point canonical 1977 expansion, and later C ports (open-adventure). Terminal timing and 80-column monospaced text rendering must be maintained."
+  },
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "Jerz, Dennis G. 'Somewhere Nearby is Colossal Cave: Examining Will Crowther's Original Adventure', Digital Humanities Quarterly (2007)",
+      "Montfort, Nick. 'Twisty Little Passages: An Approach to Interactive Fiction', MIT Press (2003)",
+      "Crowther, Will & Woods, Don. Original FORTRAN IV Source Code (1977)"
+    ],
+    "romMediaFormat": "9-Track Magnetic Tape / Mainframe Disk Storage",
+    "romSizeOriginal": "120 KB (FORTRAN Source & Text Tables)",
+    "displayResolutionOriginal": "80-column ASCII Terminal / Teletype Model 33",
+    "audioHardware": "None (Pure Text)",
+    "inputMethod": "QWERTY Keyboard (Standard Teleprinter)",
+    "multiplayerCapability": "1 Player"
+  },
+  "relatedExhibits": {
+    "games": [
+      "zork",
+      "adventure",
+      "the-secret-of-monkey-island"
+    ],
+    "consoles": [
+      "atari-2600"
+    ],
+    "genres": [
+      "point-and-click-adventure"
+    ],
+    "timeline": [
+      "ev-1976-adventure-mainframe"
+    ]
+  },
+  "assets": {
+    "heroImage": "/assets/images/games/colossal-cave-adventure-hero.webp",
+    "thumbnailImage": "/assets/images/games/colossal-cave-adventure.webp",
+    "coverImage": "/assets/images/games/colossal-cave-adventure-cover.webp",
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/25/ADVENT_--_Crowther_Woods.png",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/ADVENT_--_Crowther_Woods.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:ADVENT_--_Crowther_Woods.png",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Public Domain / Historic Source Artifact",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "colossal cave adventure",
+    "will crowther",
+    "don woods",
+    "arpanet",
+    "pdp-10",
+    "interactive fiction",
+    "text adventure",
+    "xyzzy",
+    "1976",
+    "1970s"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

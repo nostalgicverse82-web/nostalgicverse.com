@@ -1,0 +1,72 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-cuphead",
+  "slug": "cuphead",
+  "title": "Cuphead",
+  "originalReleaseYear": 2020,
+  "exactReleaseDate": "July 28, 2020",
+  "originalLaunchPlatform": "PlayStation 4",
+  "originalLaunchRegion": "Worldwide",
+  "developer": "Studio MDHR",
+  "publisher": "Studio MDHR",
+  "platforms": [
+    "PlayStation 4",
+    "Xbox One",
+    "Switch",
+    "PC"
+  ],
+  "genre": "run-and-gun",
+  "subgenres": [
+    "boss-rush"
+  ],
+  "era": "2020s",
+  "shortDescription": "Cuphead and Mugman battle debtors to the Devil in authentic hand-drawn 1930s rubber hose animation with jazz big band.",
+  "historicalSignificance": "An astonishing audiovisual triumph of traditional pen-and-paper cel animation and hardcore run-and-gun combat.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Cuphead",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Cuphead and Mugman battle debtors to the Devil in authentic hand-drawn 1930s rubber hose animation with jazz big band.",
+    "culturalImpact": "An astonishing audiovisual triumph of traditional pen-and-paper cel animation and hardcore run-and-gun combat."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 4"
+    ],
+    "genres": [
+      "run-and-gun"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/e/eb/Cuphead_%28artwork%29.png",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/e/eb/Cuphead_%28artwork%29.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Cuphead",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Cuphead",
+    "Studio MDHR",
+    "Studio MDHR",
+    "PlayStation 4",
+    "run-and-gun",
+    "2020",
+    "2020s",
+    "PlayStation 4",
+    "Xbox One",
+    "Switch",
+    "PC",
+    "boss-rush"
+  ],
+  "url": "/games/cuphead/",
+  "featured": false
+}

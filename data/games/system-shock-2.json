@@ -1,0 +1,88 @@
+{
+  "id": "game-system-shock-2",
+  "slug": "system-shock-2",
+  "title": "System Shock 2",
+  "japaneseTitle": "システム・ショック 2",
+  "url": "/games/system-shock-2/",
+  "originalReleaseYear": 1999,
+  "exactReleaseDate": "1999-08-11",
+  "developer": "Irrational Games / Looking Glass Studios",
+  "publisher": "Electronic Arts",
+  "director": "Ken Levine",
+  "designer": "Ken Levine, Dorian Hart, Robert Fermier",
+  "composer": "Eric Brosius, Ramin Djawadi, Josh Randall",
+  "originalLaunchPlatform": "Microsoft Windows",
+  "platforms": [
+    "Microsoft Windows",
+    "Mac OS",
+    "Linux"
+  ],
+  "genre": "immersive-sim",
+  "subgenres": [
+    "Sci-Fi Survival Horror",
+    "Action RPG Immersive Sim"
+  ],
+  "era": "1990s",
+  "shortDescription": "Ken Levine's chilling sci-fi horror immersive sim featuring the terrifying rogue artificial intelligence SHODAN.",
+  "historicalSignificance": "Seamlessly fused survival horror resource anxiety with deep role-playing character progression and environmental audio logs, establishing SHODAN as one of the most terrifying antagonists in fiction and laying the direct blueprint for BioShock.",
+  "editorialContent": {
+    "overview": "Co-developed by Ken Levine's newly formed Irrational Games and Looking Glass Studios in 1999, System Shock 2 cast players aboard the infected faster-than-light starship Von Braun in the year 2114. Awaking from cryo-sleep with military cyberware implants, players confront a grotesque parasitic biological collective known as The Many, orchestrated from the shadows by the resurrected artificial intelligence SHODAN.",
+    "gameplay": "Combining first-person shooting, psionic powers, hacking, and research trees, players must survive with degraded weaponry, scarce nanites, and unforgiving cybernetic modules. Exploration requires listening to environmental audio logs left behind by dead crew members while evading cybernetically modified crew corpses and security cameras.",
+    "technicalInnovation": "Utilized Looking Glass's Dark Engine with advanced dynamic object physics, environmental hacking interfaces, and an anxiety-inducing directional audio landscape composed by Eric Brosius.",
+    "culturalImpact": "System Shock 2 is celebrated as one of the finest games ever made. Its narrative plot twist ('Would you kindly' predecessor) and audio log storytelling became the standard narrative technique for twentieth and twenty-first century first-person adventures.",
+    "preservationNotes": "Preserved through community patches (Shock2 OS), Nightdive Studios digital restorations, and ongoing remastered source reconstructions."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "August 11, 1999",
+    "leadPlatform": "Microsoft Windows",
+    "genre": "immersive-sim",
+    "sales": "Approximately 400,000 units on PC",
+    "awards": [
+      "PC Gamer Game of the Year 1999 nominee",
+      "IGN Action-Adventure Game of the Year 1999"
+    ],
+    "technicalSpecs": {
+      "engine": "Looking Glass Studios Dark Engine",
+      "resolution": "640x480 up to 1024x768 16-bit color",
+      "soundChip": "DirectSound 3D / A3D audio with hardware spatial positioning",
+      "mediaFormat": "CD-ROM"
+    },
+    "relationships": {
+      "primaryConsole": "pc",
+      "developerEntity": "Irrational Games",
+      "lineage": [
+        "System Shock",
+        "Deus Ex",
+        "BioShock",
+        "Prey"
+      ]
+    }
+  },
+  "assets": {
+    "cover": "/assets/images/games/system-shock-2.webp",
+    "banner": "/assets/images/games/system-shock-2-banner.webp",
+    "screenshots": [
+      "/assets/images/games/system-shock-2-screen1.webp",
+      "/assets/images/games/system-shock-2-screen2.webp"
+    ],
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/9/91/Systemshock2box.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/9/91/Systemshock2box.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Systemshock2box.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "system shock 2",
+    "shodan",
+    "ken levine",
+    "irrational games",
+    "looking glass",
+    "immersive sim",
+    "cyberpunk"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

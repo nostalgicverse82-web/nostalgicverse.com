@@ -1,0 +1,68 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-playstation-all-stars-battle-royale",
+  "slug": "playstation-all-stars-battle-royale",
+  "title": "PlayStation All-Stars Battle Royale",
+  "originalReleaseYear": 2012,
+  "exactReleaseDate": "November 20, 2012",
+  "originalLaunchPlatform": "PlayStation 3",
+  "originalLaunchRegion": "North America",
+  "developer": "SuperBot Entertainment",
+  "publisher": "Sony Computer Entertainment",
+  "platforms": [
+    "PlayStation 3",
+    "PS Vita"
+  ],
+  "genre": "fighting",
+  "subgenres": [
+    "platform-fighter"
+  ],
+  "era": "2010s",
+  "shortDescription": "Cross-generational brawl uniting Kratos, Nathan Drake, Sackboy, Sly Cooper, PaRappa, and Heihachi.",
+  "historicalSignificance": "Celebrated for inventive stage mashups where different PlayStation universes dynamically collided mid-fight.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/PlayStation_All-Stars_Battle_Royale",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Cross-generational brawl uniting Kratos, Nathan Drake, Sackboy, Sly Cooper, PaRappa, and Heihachi.",
+    "culturalImpact": "Celebrated for inventive stage mashups where different PlayStation universes dynamically collided mid-fight."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 3"
+    ],
+    "genres": [
+      "fighting"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/PlayStation_All-Stars_Battle_Royale_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/PlayStation_All-Stars_Battle_Royale_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/PlayStation_All-Stars_Battle_Royale",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "PlayStation All-Stars Battle Royale",
+    "SuperBot Entertainment",
+    "Sony Computer Entertainment",
+    "PlayStation 3",
+    "fighting",
+    "2012",
+    "2012",
+    "PlayStation 3",
+    "PS Vita",
+    "platform-fighter"
+  ],
+  "url": "/games/playstation-all-stars-battle-royale/",
+  "featured": false
+}

@@ -1,0 +1,43 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+  "id": "console-nintendo-64",
+  "slug": "nintendo-64",
+  "name": "Nintendo 64",
+  "manufacturer": "Nintendo",
+  "generation": "Fifth Generation",
+  "generationNumber": 5,
+  "originalReleaseYear": 1996,
+  "exactReleaseDate": "June 23, 1996",
+  "mediaFormat": "Silicon ROM Cartridge (up to 64MB)",
+  "significance": "Standardized the analog thumbstick, four integrated controller ports for local multiplayer, and established the grammar of spatial 3D game design.",
+  "verifiedFactualData": {
+    "cpu": "NEC VR4300 (MIPS 64-bit) @ 93.75 MHz + SGI RCP @ 62.5 MHz",
+    "gpuOrVideoChip": "Silicon Graphics Reality Coprocessor (RDP/RSP)",
+    "ram": "4 MB unified RDRAM (expandable to 8 MB with Expansion Pak)"
+  },
+  "editorialContent": {
+    "overview": "Silicon Graphics coprocessor powerhouse that established 360-degree analog control and foundational 3D spatial navigation.",
+    "marketLegacy": "Standardized the analog thumbstick, four integrated controller ports for local multiplayer, and established the grammar of spatial 3D game design.",
+    "controllerDesign": "Trident three-prong controller with analog thumbstick, trigger Z-button"
+  },
+  "keyGames": [
+    "super-mario-64",
+    "the-legend-of-zelda-ocarina-of-time",
+    "goldeneye-007",
+    "super-smash-bros"
+  ],
+  "assets": {
+    "mainImage": "/assets/images/consoles/nintendo-64.png",
+    "heroImage": "/assets/images/consoles/nintendo-64-hero.png",
+    "hardwareImage": "/assets/images/consoles/nintendo-64-hardware.png"
+  },
+  "keywords": [
+    "nintendo 64",
+    "n64",
+    "nintendo",
+    "fifth generation",
+    "64-bit",
+    "analog stick",
+    "1996"
+  ]
+}

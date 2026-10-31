@@ -1,0 +1,386 @@
+/* ==========================================================================
+   NOSTALGICVERSE UNIVERSAL CONTENT INTERACTION SYSTEM
+   Styles for Reactions, Comments, Reviews, Saves, and Sharing
+   ========================================================================== */
+
+.nv-interaction-wrapper {
+  margin-top: 48px;
+  margin-bottom: 48px;
+  font-family: var(--nv-font-sans);
+  color: var(--nv-text-primary);
+}
+
+/* ==========================================================================
+   01. INTERACTION BAR
+   ========================================================================== */
+.nv-interaction-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 20px;
+  background-color: var(--nv-surface);
+  border: 1px solid var(--nv-border-strong);
+  border-radius: var(--nv-radius-md);
+  box-shadow: var(--nv-shadow-card);
+}
+
+.nv-bar-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  background: var(--nv-bg-alt);
+  border: 1px solid var(--nv-border);
+  color: var(--nv-text-secondary);
+  border-radius: var(--nv-radius-sm);
+  font-family: var(--nv-font-sans);
+  font-size: 0.88rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all var(--nv-transition-fast);
+  white-space: nowrap;
+}
+
+.nv-bar-btn:hover {
+  background: var(--nv-surface-raised);
+  border-color: var(--nv-cyan);
+  color: var(--nv-text-primary);
+  transform: translateY(-1px);
+}
+
+.nv-bar-btn.active {
+  background: rgba(0, 229, 255, 0.12);
+  border-color: var(--nv-cyan);
+  color: var(--nv-cyan);
+}
+
+.nv-bar-btn.dislike-btn.active {
+  background: rgba(255, 42, 109, 0.12);
+  border-color: var(--nv-crimson);
+  color: var(--nv-crimson);
+}
+
+.nv-bar-btn.save-btn.active {
+  background: rgba(255, 179, 0, 0.12);
+  border-color: var(--nv-gold);
+  color: var(--nv-gold);
+}
+
+.nv-bar-btn svg {
+  width: 18px;
+  height: 18px;
+  stroke: currentColor;
+  fill: none;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.nv-bar-count {
+  font-family: var(--nv-font-mono);
+  font-size: 0.8rem;
+  opacity: 0.85;
+}
+
+/* ==========================================================================
+   02. TABS & EXPANDABLE PANELS
+   ========================================================================== */
+.nv-interaction-panels {
+  margin-top: 24px;
+}
+
+.nv-panel-tabs {
+  display: flex;
+  gap: 8px;
+  border-bottom: 1px solid var(--nv-border);
+  padding-bottom: 8px;
+  margin-bottom: 24px;
+}
+
+.nv-panel-tab {
+  padding: 8px 18px;
+  background: none;
+  border: none;
+  border-radius: var(--nv-radius-sm);
+  color: var(--nv-text-muted);
+  font-family: var(--nv-font-sans);
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all var(--nv-transition-fast);
+}
+
+.nv-panel-tab:hover {
+  color: var(--nv-text-primary);
+}
+
+.nv-panel-tab.active {
+  color: var(--nv-cyan);
+  background: rgba(0, 229, 255, 0.08);
+}
+
+.nv-panel-content {
+  display: none;
+}
+
+.nv-panel-content.active {
+  display: block;
+  animation: fadeIn 0.2s ease;
+}
+
+/* ==========================================================================
+   03. COMMENTS SECTION
+   ========================================================================== */
+.nv-comment-form {
+  background: var(--nv-surface);
+  border: 1px solid var(--nv-border);
+  border-radius: var(--nv-radius-md);
+  padding: 20px;
+  margin-bottom: 32px;
+}
+
+.nv-textarea {
+  width: 100%;
+  padding: 12px 16px;
+  background: var(--nv-bg-alt);
+  border: 1px solid var(--nv-border);
+  border-radius: var(--nv-radius-sm);
+  color: var(--nv-text-primary);
+  font-family: inherit;
+  font-size: 0.95rem;
+  resize: vertical;
+  min-height: 90px;
+  outline: none;
+  transition: border-color var(--nv-transition-fast);
+}
+
+.nv-textarea:focus {
+  border-color: var(--nv-cyan);
+}
+
+.nv-form-footer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 12px;
+}
+
+.nv-comments-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.nv-comment-card {
+  background: var(--nv-surface);
+  border: 1px solid var(--nv-border);
+  border-radius: var(--nv-radius-md);
+  padding: 18px 20px;
+  position: relative;
+}
+
+.nv-comment-card.is-reply {
+  margin-left: 36px;
+  border-left: 2px solid var(--nv-border-strong);
+  background: var(--nv-bg-alt);
+}
+
+.nv-comment-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.nv-author-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nv-author-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid var(--nv-border);
+}
+
+.nv-author-name {
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--nv-text-primary);
+}
+
+.nv-author-username {
+  font-size: 0.8rem;
+  color: var(--nv-text-muted);
+}
+
+.nv-comment-time {
+  font-family: var(--nv-font-mono);
+  font-size: 0.75rem;
+  color: var(--nv-text-muted);
+}
+
+.nv-comment-body {
+  font-size: 0.94rem;
+  line-height: 1.55;
+  color: var(--nv-text-secondary);
+  word-break: break-word;
+}
+
+.nv-comment-actions {
+  display: flex;
+  gap: 14px;
+  margin-top: 12px;
+  padding-top: 8px;
+  border-top: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+.nv-action-btn {
+  background: none;
+  border: none;
+  color: var(--nv-text-muted);
+  font-size: 0.8rem;
+  cursor: pointer;
+  padding: 0;
+  transition: color var(--nv-transition-fast);
+}
+
+.nv-action-btn:hover {
+  color: var(--nv-cyan);
+}
+
+.nv-action-btn.danger:hover {
+  color: var(--nv-crimson);
+}
+
+/* ==========================================================================
+   04. REVIEWS SECTION
+   ========================================================================== */
+.nv-reviews-summary {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  background: var(--nv-surface);
+  border: 1px solid var(--nv-border);
+  border-radius: var(--nv-radius-md);
+  padding: 24px;
+  margin-bottom: 28px;
+}
+
+.nv-score-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  background: var(--nv-bg-alt);
+  border: 1px solid var(--nv-gold);
+  border-radius: var(--nv-radius-sm);
+  color: var(--nv-gold);
+}
+
+.nv-score-num {
+  font-family: var(--nv-font-mono);
+  font-size: 1.8rem;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.nv-score-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  opacity: 0.8;
+}
+
+.nv-review-card {
+  background: var(--nv-surface);
+  border: 1px solid var(--nv-border);
+  border-radius: var(--nv-radius-md);
+  padding: 20px;
+  margin-bottom: 16px;
+}
+
+.nv-review-rating-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: rgba(255, 179, 0, 0.15);
+  border: 1px solid var(--nv-gold);
+  color: var(--nv-gold);
+  font-family: var(--nv-font-mono);
+  font-size: 0.85rem;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: var(--nv-radius-sm);
+  margin-bottom: 8px;
+}
+
+.nv-review-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--nv-text-primary);
+  margin-bottom: 8px;
+}
+
+.nv-pros-cons {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+@media (min-width: 600px) {
+  .nv-pros-cons {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.nv-pro-box {
+  color: #4ade80;
+  font-size: 0.88rem;
+}
+
+.nv-con-box {
+  color: #f87171;
+  font-size: 0.88rem;
+}
+
+/* ==========================================================================
+   05. SHARE TOAST & MODAL
+   ========================================================================== */
+.nv-toast {
+  position: fixed;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--nv-surface-raised);
+  border: 1px solid var(--nv-cyan);
+  color: var(--nv-cyan);
+  padding: 10px 20px;
+  border-radius: var(--nv-radius-sm);
+  font-family: var(--nv-font-mono);
+  font-size: 0.85rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
+  z-index: 10000;
+  animation: fadeIn 0.2s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+

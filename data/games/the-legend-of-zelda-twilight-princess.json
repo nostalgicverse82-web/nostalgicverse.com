@@ -1,0 +1,68 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-the-legend-of-zelda-twilight-princess",
+  "slug": "the-legend-of-zelda-twilight-princess",
+  "title": "The Legend of Zelda: Twilight Princess",
+  "originalReleaseYear": 2006,
+  "exactReleaseDate": "November 19, 2006",
+  "originalLaunchPlatform": "Wii",
+  "originalLaunchRegion": "North America",
+  "developer": "Nintendo EAD",
+  "publisher": "Nintendo",
+  "platforms": [
+    "Wii",
+    "GameCube"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "fantasy"
+  ],
+  "era": "2000s",
+  "shortDescription": "Link transforms into a divine wolf paired with Midna to dispel the Twilight invading the kingdom of Hyrule.",
+  "historicalSignificance": "A dark and epic return to Ocarina style grand fantasy that served as the launch centerpiece for Nintendo Wii.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Twilight_Princess",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Link transforms into a divine wolf paired with Midna to dispel the Twilight invading the kingdom of Hyrule.",
+    "culturalImpact": "A dark and epic return to Ocarina style grand fantasy that served as the launch centerpiece for Nintendo Wii."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "Wii"
+    ],
+    "genres": [
+      "action-adventure"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/b/ba/The_Legend_of_Zelda_Twilight_Princess_Game_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/b/ba/The_Legend_of_Zelda_Twilight_Princess_Game_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Twilight_Princess",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "The Legend of Zelda: Twilight Princess",
+    "Nintendo EAD",
+    "Nintendo",
+    "Wii",
+    "action-adventure",
+    "2006",
+    "2000s",
+    "Wii",
+    "GameCube",
+    "fantasy"
+  ],
+  "url": "/games/the-legend-of-zelda-twilight-princess/",
+  "featured": false
+}

@@ -1,0 +1,42 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+  "id": "console-atari-2600",
+  "slug": "atari-2600",
+  "name": "Atari 2600 (VCS)",
+  "manufacturer": "Atari",
+  "generation": "Second Generation",
+  "generationNumber": 2,
+  "originalReleaseYear": 1977,
+  "exactReleaseDate": "September 11, 1977",
+  "mediaFormat": "ROM Cartridge",
+  "significance": "Turned video games into a multi-billion dollar cultural phenomenon and popularized swappable ROM game cartridges before market saturation led to the 1983 crash.",
+  "verifiedFactualData": {
+    "cpu": "MOS Technology 6507 @ 1.19 MHz",
+    "gpuOrVideoChip": "Television Interface Adapter (TIA)",
+    "ram": "128 bytes RAM (in RIOT chip)"
+  },
+  "editorialContent": {
+    "overview": "The machine that popularized microprocessor-based hardware and swappable ROM cartridges in millions of living rooms.",
+    "marketLegacy": "Turned video games into a multi-billion dollar cultural phenomenon and popularized swappable ROM game cartridges before market saturation led to the 1983 crash.",
+    "controllerDesign": "CX40 single-button digital joystick, paddle controllers"
+  },
+  "keyGames": [
+    "pac-man",
+    "space-invaders",
+    "pitfall",
+    "adventure"
+  ],
+  "assets": {
+    "mainImage": "/assets/images/consoles/atari-2600.png",
+    "heroImage": "/assets/images/consoles/atari-2600-hero.png",
+    "hardwareImage": "/assets/images/consoles/atari-2600-hardware.png"
+  },
+  "keywords": [
+    "atari 2600",
+    "vcs",
+    "second generation",
+    "1977",
+    "joystick",
+    "cartridge"
+  ]
+}

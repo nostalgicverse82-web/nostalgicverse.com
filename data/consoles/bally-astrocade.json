@@ -1,0 +1,41 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+  "id": "console-bally-astrocade",
+  "slug": "bally-astrocade",
+  "name": "Bally Astrocade",
+  "manufacturer": "Bally",
+  "generation": "Second Generation",
+  "generationNumber": 2,
+  "originalReleaseYear": 1977,
+  "exactReleaseDate": "October 1977",
+  "mediaFormat": "ROM Cartridge (Videocassette format)",
+  "significance": "Possessed the most advanced color bitmapped graphics of any early second-generation machine, introducing true arcade-quality visuals to early home systems.",
+  "verifiedFactualData": {
+    "cpu": "Zilog Z80 @ 1.789 MHz",
+    "gpuOrVideoChip": "Custom Bally 3-chip video processor",
+    "ram": "4 KB RAM"
+  },
+  "editorialContent": {
+    "overview": "A sophisticated hybrid console/computer system boasting authentic arcade graphics and built-in BASIC programming capabilities.",
+    "marketLegacy": "Possessed the most advanced color bitmapped graphics of any early second-generation machine, introducing true arcade-quality visuals to early home systems.",
+    "controllerDesign": "Pistol-grip controllers with 8-way joystick and rotating top paddle dial"
+  },
+  "keyGames": [
+    "gunfight",
+    "space-invaders",
+    "incredible-wizard"
+  ],
+  "assets": {
+    "mainImage": "/assets/images/consoles/bally-astrocade.png",
+    "heroImage": "/assets/images/consoles/bally-astrocade-hero.png",
+    "hardwareImage": "/assets/images/consoles/bally-astrocade-hardware.png"
+  },
+  "keywords": [
+    "bally",
+    "astrocade",
+    "midway",
+    "z80",
+    "second generation",
+    "1977"
+  ]
+}

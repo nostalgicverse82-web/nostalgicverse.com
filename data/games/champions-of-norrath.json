@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-champions-of-norrath",
+  "slug": "champions-of-norrath",
+  "title": "Champions of Norrath",
+  "originalReleaseYear": 2004,
+  "exactReleaseDate": "February 10, 2004",
+  "originalLaunchPlatform": "PlayStation 2",
+  "originalLaunchRegion": "North America",
+  "developer": "Snowblind Studios",
+  "publisher": "Sony Computer Entertainment",
+  "platforms": [
+    "PlayStation 2"
+  ],
+  "genre": "action-rpg",
+  "subgenres": [
+    "hack-and-slash"
+  ],
+  "era": "2000s",
+  "shortDescription": "EverQuest action RPG built on the Dark Alliance engine supporting 4-player online or multitap coop.",
+  "historicalSignificance": "Considered the definitive isometric hack-and-slash dungeon crawler on PlayStation 2.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Champions_of_Norrath",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "EverQuest action RPG built on the Dark Alliance engine supporting 4-player online or multitap coop.",
+    "culturalImpact": "Considered the definitive isometric hack-and-slash dungeon crawler on PlayStation 2."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 2"
+    ],
+    "genres": [
+      "action-rpg"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/5/52/Champions_of_Norrath_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/5/52/Champions_of_Norrath_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Champions_of_Norrath",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Champions of Norrath",
+    "Snowblind Studios",
+    "Sony Computer Entertainment",
+    "PlayStation 2",
+    "action-rpg",
+    "2004",
+    "2000s",
+    "PlayStation 2",
+    "hack-and-slash"
+  ],
+  "url": "/games/champions-of-norrath/",
+  "featured": false
+}

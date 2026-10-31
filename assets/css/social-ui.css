@@ -1,0 +1,131 @@
+/* Social UI Common Styles */
+
+.social-tabs {
+    display: flex;
+    gap: 8px;
+    border-bottom: 1px solid var(--nv-border);
+    margin-bottom: 20px;
+    overflow-x: auto;
+}
+
+.social-tab {
+    background: transparent;
+    border: none;
+    color: var(--nv-text-muted);
+    padding: 12px 16px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    transition: all 0.2s;
+    white-space: nowrap;
+}
+
+.social-tab:hover {
+    color: var(--nv-text-main);
+}
+
+.social-tab.active {
+    color: var(--nv-cyan);
+    border-bottom: 2px solid var(--nv-cyan);
+}
+
+.social-list-item {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    background: var(--nv-bg-alt);
+    border: 1px solid var(--nv-border);
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+.social-list-item.unread {
+    border-left: 4px solid var(--nv-cyan);
+    background: #111;
+}
+
+.social-avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 16px;
+    border: 1px solid var(--nv-border);
+}
+
+.social-info {
+    flex: 1;
+}
+
+.social-info h4 {
+    margin: 0 0 4px 0;
+    font-size: 1.1rem;
+}
+
+.social-info p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: var(--nv-text-muted);
+}
+
+.social-actions {
+    display: flex;
+    gap: 8px;
+}
+
+.social-btn {
+    background: var(--nv-bg-main);
+    border: 1px solid var(--nv-border);
+    color: var(--nv-text-main);
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.social-btn:hover {
+    background: var(--nv-border);
+}
+
+.social-btn.primary {
+    background: var(--nv-cyan);
+    color: #000;
+    border-color: var(--nv-cyan);
+}
+
+.social-btn.primary:hover {
+    background: #fff;
+    border-color: #fff;
+}
+
+.social-btn.danger {
+    color: var(--nv-red);
+    border-color: var(--nv-red);
+}
+
+.social-btn.danger:hover {
+    background: var(--nv-red);
+    color: #fff;
+}
+
+.form-block {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 600px;
+}
+
+.form-block input, .form-block textarea, .form-block select {
+    padding: 12px;
+    background: var(--nv-bg-alt);
+    border: 1px solid var(--nv-border);
+    color: #fff;
+    border-radius: 4px;
+    font-family: inherit;
+}
+
+.form-block textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+

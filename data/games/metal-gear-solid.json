@@ -1,0 +1,77 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.json",
+  "id": "game-metal-gear-solid",
+  "slug": "metal-gear-solid",
+  "title": "Metal Gear Solid",
+  "japaneseTitle": "メタルギアソリッド",
+  "url": "/games/metal-gear-solid/",
+  "originalReleaseYear": 1998,
+  "exactReleaseDate": "1998-09-03",
+  "developer": "Konami Computer Entertainment Japan",
+  "publisher": "Konami",
+  "director": "Hideo Kojima",
+  "designer": "Hideo Kojima",
+  "composer": "TAPPY, Kazuki Muraoka, Hiroyuki Togo",
+  "originalLaunchPlatform": "PlayStation",
+  "platforms": [
+    "PlayStation",
+    "PC"
+  ],
+  "genre": "Action-Adventure",
+  "subgenres": [
+    "Tactical Espionage Action",
+    "Stealth-Action",
+    "Cinematic Thriller"
+  ],
+  "era": "1990s",
+  "shortDescription": "Hideo Kojima's cinematic espionage breakthrough combining real-time 3D direction, stealth mechanics, mature anti-nuclear geopolitics, and fourth-wall trickery.",
+  "historicalSignificance": "Pioneered modern cinematic game direction by rendering cutscenes entirely in-engine, codified the 3D stealth genre via guard awareness heuristics and the Soliton Radar, and introduced iconic meta-ludic fourth-wall interventions.",
+  "editorialContent": {
+    "overview": "Premiering on the Sony PlayStation in September 1998, Metal Gear Solid represented director Hideo Kojima's decisive realization of 'Tactical Espionage Action' in full three-dimensional space. Moving the series from its 8-bit MSX2 origins into the freezing, high-tech nuclear disposal facility of Shadow Moses Island in Alaska's Fox Archipelago, the game followed retired operative Solid Snake on a solo covert infiltration mission against rogue FOXHOUND genetically-enhanced terrorists. Metal Gear Solid was an immediate global triumph, selling over six million units and proving that video games could rival Hollywood cinema in narrative complexity, directorial composition, and thematic ambition.",
+    "gameplayMechanics": "The gameplay loop prioritizes avoidance and spatial awareness over open ballistic combat. Central to the tactical interface is the Soliton Radar, which projects guard patrol pathways and their cone-of-vision lines of sight onto a top-down tactical grid. Enemy AI operates across three reactive states: Normal, Alert (reinforcements dispatched upon sighting Snake), and Evasion (guards sweep hiding spots before returning to default patrols). The environment is physically interactive: walking through deep snow leaves temporary footprints that patrol guards track; running on metal grates generates auditory vibrations that alert nearby sentries; and thermal goggles reveal infrared security tripwires. Supplementing field action is the Codec communication radio, enabling real-time philosophical debates, tactical mission guidance, and weapon breakdowns across discrete frequency channels.",
+    "technicalInnovation": "Rather than relying on pre-rendered full-motion video cutscenes, Kojima insisted that every cinematic sequence in Metal Gear Solid be rendered entirely in real-time utilizing the PlayStation's in-engine 3D polygon assets. This enabled seamless transitions from third-person cinematic camera pans down into interactive gameplay without jarring graphical shifts. To maintain atmospheric immersion, the audio engineering pushed Sony's SPU with full, professional voice acting recorded for thousands of dialogue lines in both English (directed by Kris Zimmerman) and Japanese. The game became legendary for its meta-ludic fourth-wall disruptions: Meryl Silverburgh's Codec frequency was printed directly onto the physical retail jewel case packaging; and psychic boss Psycho Mantis read player memory card save files (referencing Castlevania and Suikoden), vibrated the DualShock controller with 'telekinesis', and required players to physically plug their controller into Player Port 2 to bypass mind-reading attacks.",
+    "culturalImpact": "Metal Gear Solid established the vocabulary of the modern cinematic video game. Its mature exploration of nuclear proliferation, genetic determinism, biological weapons treaties, and military-industrial geopolitical ethics elevated narrative expectations across the medium. It transformed Hideo Kojima into one of gaming's first globally recognized auteur directors and cemented Yoji Shinkawa's brush-pen mecha illustrations as iconic visual art. The title launched a celebrated multi-generational franchise and established stealth-action as an essential staple of contemporary interactive media.",
+    "preservationNotes": "Preserving the original 1998 PlayStation experience requires accounting for the multi-disc physical format (2x CD-ROMs with a mid-game disc swap sequence) and the original low-polygon dithered aesthetic. Archival institutions document regional differences, including the expanded Japanese 'Integral' re-release (which added VR missions and alternate camera views) and the 2004 Silicon Knights/Konami GameCube remake, The Twin Snakes, which ported the game into the Metal Gear Solid 2 engine."
+  },
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "Konami Computer Entertainment Japan. Metal Gear Solid Instruction Manual (SLUS-00594, 1998)",
+      "Kojima, Hideo. The Creative Gene: How Books, Movies, and Music Inspire the Creator of Death Stranding and Metal Gear Solid (2021)",
+      "Kent, Steven L. The Ultimate History of Video Games, Volume 2 (2021)",
+      "Retro Gamer Magazine. 'The Making of Metal Gear Solid' (Issue #145, 2015)"
+    ],
+    "romMediaFormat": "2x CD-ROM Optical Discs (PlayStation CD-ROM Format)",
+    "romSizeOriginal": "Approx. 1.2 GB across 2 discs",
+    "displayResolutionOriginal": "320 × 240 (NTSC Progressive Scan / 30 FPS)",
+    "audioHardware": "Sony 24-channel SPU (16-bit 44.1 kHz ADPCM audio)",
+    "inputMethod": "PlayStation Controller / DualShock (Analog + Dual-Motor Force Feedback)",
+    "multiplayerCapability": "1 Player"
+  },
+  "assets": {
+    "heroImage": "/assets/images/games/metal-gear-solid-hero.webp",
+    "thumbnailImage": "/assets/images/games/metal-gear-solid.webp",
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/3/33/Metal_Gear_Solid_cover_art.png",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/3/33/Metal_Gear_Solid_cover_art.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Metal_Gear_Solid_cover_art.png",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "metal gear solid",
+    "mgs",
+    "hideo kojima",
+    "solid snake",
+    "shadow moses",
+    "stealth",
+    "tactical espionage",
+    "playstation",
+    "konami",
+    "1998",
+    "1990s",
+    "yoji shinkawa"
+  ],
+  "featured": true
+}

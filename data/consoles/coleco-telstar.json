@@ -1,0 +1,41 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+  "id": "console-coleco-telstar",
+  "slug": "coleco-telstar",
+  "name": "Coleco Telstar",
+  "manufacturer": "Coleco",
+  "generation": "First Generation",
+  "generationNumber": 1,
+  "originalReleaseYear": 1976,
+  "exactReleaseDate": "June 1976",
+  "mediaFormat": "Dedicated Embedded Silicon",
+  "significance": "Pioneered low-cost consumer gaming hardware through third-party off-the-shelf LSI silicon, selling over one million units.",
+  "verifiedFactualData": {
+    "cpu": "General Instrument AY-3-8500 'Ball & Paddle' chip",
+    "gpuOrVideoChip": "Integrated on chip",
+    "ram": "None"
+  },
+  "editorialContent": {
+    "overview": "The first mass-market console utilizing General Instrument's single-chip architecture, spawning an affordable multi-game line.",
+    "marketLegacy": "Pioneered low-cost consumer gaming hardware through third-party off-the-shelf LSI silicon, selling over one million units.",
+    "controllerDesign": "Integrated paddle dials"
+  },
+  "keyGames": [
+    "pong-variants",
+    "hockey",
+    "handball"
+  ],
+  "assets": {
+    "mainImage": "/assets/images/consoles/coleco-telstar.png",
+    "heroImage": "/assets/images/consoles/coleco-telstar-hero.png",
+    "hardwareImage": "/assets/images/consoles/coleco-telstar-hardware.png"
+  },
+  "keywords": [
+    "coleco",
+    "telstar",
+    "ay-3-8500",
+    "first generation",
+    "1976",
+    "paddle"
+  ]
+}

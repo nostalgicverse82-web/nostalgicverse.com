@@ -1,0 +1,70 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-bioshock-2",
+  "slug": "bioshock-2",
+  "title": "BioShock 2",
+  "originalReleaseYear": 2010,
+  "exactReleaseDate": "February 9, 2010",
+  "originalLaunchPlatform": "PlayStation 3",
+  "originalLaunchRegion": "North America",
+  "developer": "2K Marin",
+  "publisher": "2K Games",
+  "platforms": [
+    "PlayStation 3",
+    "Xbox 360",
+    "Microsoft Windows"
+  ],
+  "genre": "first-person-shooter",
+  "subgenres": [
+    "immersive-sim"
+  ],
+  "era": "2010s",
+  "shortDescription": "Subject Delta, an armored Big Daddy prototype, navigates crumbling Rapture to rescue Eleanor Lamb from Sofia Lamb.",
+  "historicalSignificance": "Refined dual-wield plasmid combat and delivered the critically revered Minerva's Den expansion.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/BioShock_2",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Subject Delta, an armored Big Daddy prototype, navigates crumbling Rapture to rescue Eleanor Lamb from Sofia Lamb.",
+    "culturalImpact": "Refined dual-wield plasmid combat and delivered the critically revered Minerva's Den expansion."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 3"
+    ],
+    "genres": [
+      "first-person-shooter"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/4/4e/BioShock_2_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/4/4e/BioShock_2_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/BioShock_2",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "BioShock 2",
+    "2K Marin",
+    "2K Games",
+    "PlayStation 3",
+    "first-person-shooter",
+    "2010",
+    "2010s",
+    "PlayStation 3",
+    "Xbox 360",
+    "Microsoft Windows",
+    "immersive-sim"
+  ],
+  "url": "/games/bioshock-2/",
+  "featured": false
+}

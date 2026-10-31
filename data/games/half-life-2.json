@@ -1,0 +1,93 @@
+{
+  "id": "game-half-life-2",
+  "slug": "half-life-2",
+  "title": "Half-Life 2",
+  "japaneseTitle": "ハーフライフ2",
+  "url": "/games/half-life-2/",
+  "originalReleaseYear": 2004,
+  "exactReleaseDate": "2004-11-16",
+  "developer": "Valve Corporation",
+  "publisher": "Valve Corporation",
+  "director": "Gabe Newell",
+  "designer": "Marc Laidlaw, Viktor Antonov",
+  "composer": "Kelly Bailey",
+  "originalLaunchPlatform": "Microsoft Windows",
+  "platforms": [
+    "Microsoft Windows",
+    "Xbox",
+    "Xbox 360",
+    "PlayStation 3",
+    "Mac OS",
+    "Linux"
+  ],
+  "genre": "first-person-shooter",
+  "subgenres": [
+    "Physics-Based FPS",
+    "Cinematic Dystopian Sci-Fi"
+  ],
+  "era": "2000s",
+  "shortDescription": "Valve's landmark masterpiece that revolutionized physics manipulation, facial animation, and digital PC distribution via Steam.",
+  "historicalSignificance": "A monumental technical and design milestone that integrated Havok rigid-body physics into gameplay via the Zero-Point Energy Field Manipulator (Gravity Gun), introduced lifelike facial muscle animation, and served as the launch vehicle for the Steam platform.",
+  "editorialContent": {
+    "overview": "Developed across six arduous years at Valve Corporation under Gabe Newell, Half-Life 2 was released in November 2004 to ecstatic critical acclaim. Picking up decades after Black Mesa, silent theoretical physicist Gordon Freeman arrives by train in City 17, an Eastern European metropolis crushed under the totalitarian boot of the interdimensional alien Combine empire.",
+    "gameplay": "Seamlessly integrates narrative, traversal, and gunplay without cutscenes. The crowning mechanical innovation is the Gravity Gun, allowing players to manipulate the physical environment: turning circular sawblades into projectiles in the haunted town of Ravenholm, constructing makeshift barricades, or playing catch with Alyx Vance's robotic pet Dog.",
+    "technicalInnovation": "Valve's proprietary Source Engine debuted with groundbreaking real-time physics integration, detailed lip-syncing based on human facial muscles (FACS), and radiant radiosity lightmaps created by art director Viktor Antonov.",
+    "culturalImpact": "Half-Life 2 won 39 Game of the Year awards and earned universal acclaim as one of the finest games ever crafted. Crucially, its mandatory client installation catalyzed Steam into becoming the dominant global digital distribution storefront for PC gaming.",
+    "preservationNotes": "Preserved natively on modern PCs through continuous updates to the Source Engine on Steam, VR community adaptations, and the fan-made 4K project Black Mesa."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "November 16, 2004",
+    "leadPlatform": "Microsoft Windows",
+    "genre": "first-person-shooter",
+    "sales": "Over 12 million copies sold in retail and on Steam",
+    "awards": [
+      "39 Game of the Year Awards",
+      "BAFTA Award for Best Game 2004",
+      "Game of the Decade (Spike Video Game Awards 2012)"
+    ],
+    "technicalSpecs": {
+      "engine": "Valve Source Engine with Havok physics integration",
+      "resolution": "Scalable from 640x480 to 4K+ widescreen",
+      "soundChip": "DirectSound 3D / Miles Sound System with Kelly Bailey industrial electronic soundtrack",
+      "mediaFormat": "DVD-ROM / Steam Digital Download"
+    },
+    "relationships": {
+      "primaryConsole": "pc",
+      "developerEntity": "Valve",
+      "lineage": [
+        "Half-Life",
+        "Portal",
+        "Left 4 Dead",
+        "Half-Life: Alyx"
+      ]
+    }
+  },
+  "assets": {
+    "cover": "/assets/images/games/half-life-2.webp",
+    "banner": "/assets/images/games/half-life-2-banner.webp",
+    "screenshots": [
+      "/assets/images/games/half-life-2-screen1.webp",
+      "/assets/images/games/half-life-2-screen2.webp"
+    ],
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/2/25/Half-Life_2_cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/2/25/Half-Life_2_cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Half-Life_2_cover.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "review-required",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "half-life 2",
+    "gordon freeman",
+    "valve",
+    "gravity gun",
+    "source engine",
+    "city 17",
+    "alyx vance",
+    "steam"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

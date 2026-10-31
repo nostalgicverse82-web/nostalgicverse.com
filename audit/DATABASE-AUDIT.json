@@ -1,0 +1,6276 @@
+{
+  "timestamp": "2026-09-27T10:08:51.521Z",
+  "overallStatus": "PASS",
+  "integrityCheck": "ok",
+  "foreignKeyViolations": [],
+  "tableCount": 96,
+  "tables": {
+    "ad_slots": {
+      "rowCount": 3,
+      "columnCount": 9,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "slot_name",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "provider",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "status",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "start_date",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "end_date",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "config",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "device_visibility",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "ads": {
+      "rowCount": 1,
+      "columnCount": 17,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "title",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "slot_id",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "creative_type",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "creative_url",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "headline",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "body_text",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "cta_text",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "destination_url",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "disclosure_text",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "status",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "impressions_count",
+          "type": "INTEGER",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "clicks_count",
+          "type": "INTEGER",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "start_date",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "end_date",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "updated_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "ai_audit": {
+      "rowCount": 47,
+      "columnCount": 8,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "actor_id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "action",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "entity_type",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "entity_id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "job_id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "details",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": true,
+          "pk": false
+        }
+      ]
+    },
+    "ai_jobs": {
+      "rowCount": 15,
+      "columnCount": 20,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "job_type",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "entity_type",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "entity_id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "status",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "priority",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "idempotency_key",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "provider",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "model",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "prompt_version",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "payload",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "result",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "error",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "attempts",
+          "type": "INTEGER",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "max_attempts",
+          "type": "INTEGER",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "created_by",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "started_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "completed_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "updated_at",
+          "type": "DATETIME",
+          "notnull": true,
+          "pk": false
+        }
+      ]
+    },
+    "ai_outputs": {
+      "rowCount": 14,
+      "columnCount": 14,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "job_id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "entity_type",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "entity_id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "model",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "provider",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "prompt_version",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "draft_content",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "output_hash",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "status",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "reviewed_by",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "reviewed_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "review_notes",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": true,
+          "pk": false
+        }
+      ]
+    },
+    "ai_queue": {
+      "rowCount": 0,
+      "columnCount": 14,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "entity_type",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "entity_id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "status",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "model",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "prompt",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "draft_content",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "validation_status",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "validation_errors",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "error_message",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "reviewed_by",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "reviewed_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "updated_at",
+          "type": "DATETIME",
+          "notnull": true,
+          "pk": false
+        }
+      ]
+    },
+    "ai_usage": {
+      "rowCount": 38,
+      "columnCount": 12,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "job_id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "provider",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "model",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "operation",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "input_tokens_est",
+          "type": "INTEGER",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "output_tokens_est",
+          "type": "INTEGER",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "cost_estimate",
+          "type": "REAL",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "duration_ms",
+          "type": "INTEGER",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "success",
+          "type": "INTEGER",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "error_code",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": true,
+          "pk": false
+        }
+      ]
+    },
+    "analytics_daily_aggregates": {
+      "rowCount": 4,
+      "columnCount": 4,
+      "columns": [
+        {
+          "name": "day",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": true
+        },
+        {
+          "name": "metric",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": true
+        },
+        {
+          "name": "dimension",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "count",
+          "type": "INTEGER",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "analytics_events": {
+      "rowCount": 12,
+      "columnCount": 14,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "event_name",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "session_id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "user_id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "path",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "entity_type",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "entity_id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "query",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "results_count",
+          "type": "INTEGER",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "position",
+          "type": "INTEGER",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "referrer",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "device_class",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "duration_ms",
+          "type": "INTEGER",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "audit_logs": {
+      "rowCount": 68,
+      "columnCount": 8,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "actor_id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "action",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "entity_type",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "entity_id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "result",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "metadata",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "blocks": {
+      "rowCount": 0,
+      "columnCount": 3,
+      "columns": [
+        {
+          "name": "blocker_id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "blocked_id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "business_audit_log": {
+      "rowCount": 177,
+      "columnCount": 7,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "actor_id",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "action",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "entity_type",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "entity_id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "changes",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "business_events": {
+      "rowCount": 92,
+      "columnCount": 10,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "event_name",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "user_id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "session_id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "entity_type",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "entity_id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "amount_minor_units",
+          "type": "INTEGER",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "currency",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "metadata",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "campaigns": {
+      "rowCount": 0,
+      "columnCount": 11,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "name",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "type",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "status",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "start_date",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "end_date",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "budget_minor_units",
+          "type": "INTEGER",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "currency",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "notes",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "updated_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "collection_items": {
+      "rowCount": 0,
+      "columnCount": 3,
+      "columns": [
+        {
+          "name": "collection_id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "game_id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "added_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "collections": {
+      "rowCount": 0,
+      "columnCount": 7,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "user_id",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "name",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "description",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "is_public",
+          "type": "INTEGER",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "updated_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "comments": {
+      "rowCount": 0,
+      "columnCount": 10,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "user_id",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "target_type",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "target_id",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "parent_id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "body",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "status",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "updated_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "deleted_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "compatibility_records": {
+      "rowCount": 0,
+      "columnCount": 11,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "game_id",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "system",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "status",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "tested_version",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "tested_date",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "notes",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "source",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "updated_by",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "updated_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "consoles": {
+      "rowCount": 65,
+      "columnCount": 25,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "slug",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "name",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "description",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "manufacturer",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "release_year",
+          "type": "INTEGER",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "generation",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "featured",
+          "type": "INTEGER",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "local_image",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "updated_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "region",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "history",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "hardware_summary",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "cpu",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "gpu",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "memory",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "storage_media_type",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "controllers",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "notable_features",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "published_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "archived_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "created_by",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "updated_by",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "status",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "content_claims": {
+      "rowCount": 1,
+      "columnCount": 9,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "entity_type",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "entity_id",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "claim_type",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "claim_value",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "source_url",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "source_ref",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "verification_status",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": true,
+          "pk": false
+        }
+      ]
+    },
+    "content_conflicts": {
+      "rowCount": 0,
+      "columnCount": 13,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "entity_type",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "entity_id",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "field_name",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "source_a_url",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "source_a_value",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "source_b_url",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "source_b_value",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "status",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "resolved_by",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "resolution_choice",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "resolved_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": true,
+          "pk": false
+        }
+      ]
+    },
+    "content_health_issues": {
+      "rowCount": 540,
+      "columnCount": 13,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "entity_type",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "entity_id",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "entity_title",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "issue_code",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "severity",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "message",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "status",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "ignored_by",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "ignored_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "ignore_reason",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "last_detected_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "content_relationships": {
+      "rowCount": 0,
+      "columnCount": 7,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "source_type",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "source_id",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "target_type",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "target_id",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "relation_type",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "content_sources": {
+      "rowCount": 0,
+      "columnCount": 11,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "entity_type",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "entity_id",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "source_url",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "source_domain",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "source_type",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "title",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "verification_status",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "notes",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "retrieved_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "content_versions": {
+      "rowCount": 3,
+      "columnCount": 6,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "entity_type",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "entity_id",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "content",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "created_by",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "conversation_members": {
+      "rowCount": 4,
+      "columnCount": 7,
+      "columns": [
+        {
+          "name": "conversation_id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "user_id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "joined_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "muted",
+          "type": "INTEGER",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "last_read_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "left_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "muted_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "conversations": {
+      "rowCount": 2,
+      "columnCount": 5,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "type",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "updated_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "created_by",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "coupons": {
+      "rowCount": 0,
+      "columnCount": 10,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "code",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "discount_type",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "discount_value",
+          "type": "INTEGER",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "currency",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "max_redemptions",
+          "type": "INTEGER",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "times_redeemed",
+          "type": "INTEGER",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "is_active",
+          "type": "INTEGER",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "expires_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "discovery_feedback": {
+      "rowCount": 4,
+      "columnCount": 6,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "item_id",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "item_type",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "event_type",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "session_id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "donations": {
+      "rowCount": 0,
+      "columnCount": 12,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "user_id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "donor_name",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "donor_email",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "message",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "is_anonymous",
+          "type": "INTEGER",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "amount_minor_units",
+          "type": "INTEGER",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "currency",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "status",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "payment_id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "updated_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "email_verification": {
+      "rowCount": 0,
+      "columnCount": 4,
+      "columns": [
+        {
+          "name": "token",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "user_id",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "expires_at",
+          "type": "DATETIME",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "emulator_compatibility": {
+      "rowCount": 0,
+      "columnCount": 9,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "game_id",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "emulator_core",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "status",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "notes",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "tested_by",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "tested_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "updated_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "emulator_devices": {
+      "rowCount": 0,
+      "columnCount": 9,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "user_id",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "platform",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "os_version",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "app_version",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "emulator_version",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "last_seen",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "status",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "emulator_heartbeats": {
+      "rowCount": 0,
+      "columnCount": 4,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "session_id",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "payload",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "emulator_sessions": {
+      "rowCount": 0,
+      "columnCount": 10,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "user_id",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "device_id",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "game_id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "platform",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "emulator",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "started_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "ended_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "last_heartbeat",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "status",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "entitlements": {
+      "rowCount": 2,
+      "columnCount": 11,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "user_id",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "entitlement_key",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "status",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "source_type",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "source_id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "expires_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "granted_by",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "reason",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "updated_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "favorites": {
+      "rowCount": 1,
+      "columnCount": 4,
+      "columns": [
+        {
+          "name": "user_id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "entity_type",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": true
+        },
+        {
+          "name": "entity_id",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": true
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "friend_requests": {
+      "rowCount": 2,
+      "columnCount": 6,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "sender_id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "receiver_id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "status",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "responded_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "friends": {
+      "rowCount": 4,
+      "columnCount": 3,
+      "columns": [
+        {
+          "name": "user_id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "friend_id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "game_candidates": {
+      "rowCount": 1,
+      "columnCount": 17,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "title",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "slug",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "platform",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "developer",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "publisher",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "release_year",
+          "type": "INTEGER",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "genre",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "short_description",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "source_url",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "identity_match",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "matched_game_id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "image_candidate_url",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "ai_enrichment",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "status",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "updated_at",
+          "type": "DATETIME",
+          "notnull": true,
+          "pk": false
+        }
+      ]
+    },
+    "game_images": {
+      "rowCount": 528,
+      "columnCount": 21,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "game_id",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "image_url",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "image_type",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "source_url",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "source_domain",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "verification_status",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "mime_type",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "width",
+          "type": "INTEGER",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "height",
+          "type": "INTEGER",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "aspect_ratio",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "license_status",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "attribution",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "last_checked_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "last_http_status",
+          "type": "INTEGER",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "failure_reason",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "fallback_available",
+          "type": "INTEGER",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "local_path",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "local_status",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "media_type",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "games": {
+      "rowCount": 528,
+      "columnCount": 38,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "slug",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "title",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "description",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "short_description",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "release_year",
+          "type": "INTEGER",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "release_date",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "original_platform",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "platforms",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "developer",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "publisher",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "genre",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "subgenre",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "region",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "historical_significance",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "featured",
+          "type": "INTEGER",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "status",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "local_image",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "remote_image",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "meta_title",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "meta_description",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "keywords",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "updated_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "alternate_titles",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "series",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "franchise",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "engine",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "modes",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "multiplayer",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "age_rating",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "generation",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "manufacturer",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "consoles",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "published_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "archived_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "created_by",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "updated_by",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "genres": {
+      "rowCount": 32,
+      "columnCount": 11,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "slug",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "name",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "description",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "updated_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "published_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "archived_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "created_by",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "updated_by",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "status",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "guides": {
+      "rowCount": 14,
+      "columnCount": 12,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "slug",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "title",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "excerpt",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "content",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "status",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "updated_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "published_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "archived_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "created_by",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "updated_by",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "ideas": {
+      "rowCount": 0,
+      "columnCount": 11,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "slug",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "title",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "description",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "thumbnail",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "creator_id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "status",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "updated_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "published_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "archived_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "image_sources": {
+      "rowCount": 0,
+      "columnCount": 3,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "domain",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "is_allowed",
+          "type": "INTEGER",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "jobs": {
+      "rowCount": 13,
+      "columnCount": 13,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "job_type",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "status",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "payload",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "result",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "error",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "attempts",
+          "type": "INTEGER",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "max_attempts",
+          "type": "INTEGER",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "started_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "completed_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "created_by",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "updated_at",
+          "type": "DATETIME",
+          "notnull": true,
+          "pk": false
+        }
+      ]
+    },
+    "media_candidates": {
+      "rowCount": 0,
+      "columnCount": 12,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "game_id",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "candidate_order",
+          "type": "INTEGER",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "image_url",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "source_url",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "source_domain",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "license_status",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "attribution",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "verification_status",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "last_checked_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "is_selected",
+          "type": "INTEGER",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "media_metadata": {
+      "rowCount": 0,
+      "columnCount": 18,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "content_id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "content_type",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "type",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "storage_path",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "source_url",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "source_domain",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "mime_type",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "width",
+          "type": "INTEGER",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "height",
+          "type": "INTEGER",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "file_size",
+          "type": "INTEGER",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "license_status",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "attribution",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "verification_status",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "hash",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "aspect_ratio",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "updated_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "message_reactions": {
+      "rowCount": 0,
+      "columnCount": 4,
+      "columns": [
+        {
+          "name": "message_id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "user_id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "emoji",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": true
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "message_reads": {
+      "rowCount": 0,
+      "columnCount": 3,
+      "columns": [
+        {
+          "name": "message_id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "user_id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "read_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "messages": {
+      "rowCount": 30,
+      "columnCount": 9,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "conversation_id",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "sender_id",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "body",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "edited_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "deleted_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "message_type",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "client_message_id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "migrations": {
+      "rowCount": 1,
+      "columnCount": 3,
+      "columns": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "filename",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "applied_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "news_articles": {
+      "rowCount": 6,
+      "columnCount": 19,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "title",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "summary",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "body",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "hero_image",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "tags",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "status",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "published_date",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "updated_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "slug",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "factual_status",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "primary_source",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "source_domain",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "sources",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "related_games",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "related_consoles",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "editorial_notes",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "change_history",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "news_candidates": {
+      "rowCount": 0,
+      "columnCount": 15,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "title",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "slug",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "source_url",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "source_hash",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "source_domain",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "published_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "related_games",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "related_consoles",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "factual_status",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "duplicate_of",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "ai_draft",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "status",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "updated_at",
+          "type": "DATETIME",
+          "notnull": true,
+          "pk": false
+        }
+      ]
+    },
+    "notifications": {
+      "rowCount": 2,
+      "columnCount": 7,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "user_id",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "type",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "reference_id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "message",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "is_read",
+          "type": "INTEGER",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "partner_links": {
+      "rowCount": 0,
+      "columnCount": 10,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "partner_name",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "slug",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "destination_url",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "category",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "disclosure_text",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "is_active",
+          "type": "INTEGER",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "clicks_count",
+          "type": "INTEGER",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "updated_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "password_reset_tokens": {
+      "rowCount": 0,
+      "columnCount": 4,
+      "columns": [
+        {
+          "name": "token",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "user_id",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "expires_at",
+          "type": "DATETIME",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "payment_events": {
+      "rowCount": 0,
+      "columnCount": 8,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "provider",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "provider_event_id",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "event_type",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "payload",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "status",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "error_message",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "payments": {
+      "rowCount": 8,
+      "columnCount": 15,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "user_id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "idempotency_key",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "type",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "related_id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "amount_minor_units",
+          "type": "INTEGER",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "currency",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "status",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "provider",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "provider_payment_id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "provider_order_id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "error_message",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "metadata",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "updated_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "plans": {
+      "rowCount": 6,
+      "columnCount": 13,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "slug",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "name",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "description",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "price_minor_units",
+          "type": "INTEGER",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "currency",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "billing_interval",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "is_active",
+          "type": "INTEGER",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "display_order",
+          "type": "INTEGER",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "entitlement_keys",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "features",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "updated_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "rate_limits": {
+      "rowCount": 0,
+      "columnCount": 3,
+      "columns": [
+        {
+          "name": "key",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "points",
+          "type": "INTEGER",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "reset_at",
+          "type": "DATETIME",
+          "notnull": true,
+          "pk": false
+        }
+      ]
+    },
+    "reactions": {
+      "rowCount": 33,
+      "columnCount": 6,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "user_id",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "target_type",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "target_id",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "reaction_type",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "release_watch_records": {
+      "rowCount": 0,
+      "columnCount": 14,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "entity_type",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "entity_id",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "platform",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "region",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "source_url",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "current_release_date",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "detected_release_date",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "change_type",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "status",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "last_checked_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "last_verified_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "updated_at",
+          "type": "DATETIME",
+          "notnull": true,
+          "pk": false
+        }
+      ]
+    },
+    "releases": {
+      "rowCount": 0,
+      "columnCount": 21,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "title",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "game_id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "announcement_date",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "release_date",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "region",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "platform",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "edition",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "status",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "source",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "notes",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "updated_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "slug",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "published_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "archived_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "created_by",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "updated_by",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "date_precision",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "last_verified_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "change_history",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "reports": {
+      "rowCount": 0,
+      "columnCount": 9,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "reporter_id",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "target_type",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "target_id",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "reason",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "status",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "moderator_notes",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "updated_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "reviews": {
+      "rowCount": 0,
+      "columnCount": 13,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "user_id",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "target_type",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "target_id",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "rating",
+          "type": "INTEGER",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "title",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "body",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "pros",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "cons",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "is_spoiler",
+          "type": "INTEGER",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "status",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "updated_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "saves": {
+      "rowCount": 0,
+      "columnCount": 5,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "user_id",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "target_type",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "target_id",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "schema_migrations": {
+      "rowCount": 16,
+      "columnCount": 3,
+      "columns": [
+        {
+          "name": "version",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "name",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "applied_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "search_index_fts": {
+      "rowCount": 751,
+      "columnCount": 18,
+      "columns": [
+        {
+          "name": "entity_id",
+          "type": "",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "entity_type",
+          "type": "",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "slug",
+          "type": "",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "title",
+          "type": "",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "alternate_titles",
+          "type": "",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "platform",
+          "type": "",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "developer",
+          "type": "",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "publisher",
+          "type": "",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "genre",
+          "type": "",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "release_year",
+          "type": "",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "era",
+          "type": "",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "summary",
+          "type": "",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "body_text",
+          "type": "",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "tags",
+          "type": "",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "url",
+          "type": "",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "image_url",
+          "type": "",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "status",
+          "type": "",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "updated_at",
+          "type": "",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "search_index_fts_config": {
+      "rowCount": 1,
+      "columnCount": 2,
+      "columns": [
+        {
+          "name": "k",
+          "type": "",
+          "notnull": true,
+          "pk": true
+        },
+        {
+          "name": "v",
+          "type": "",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "search_index_fts_content": {
+      "rowCount": 751,
+      "columnCount": 19,
+      "columns": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "c0",
+          "type": "",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "c1",
+          "type": "",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "c2",
+          "type": "",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "c3",
+          "type": "",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "c4",
+          "type": "",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "c5",
+          "type": "",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "c6",
+          "type": "",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "c7",
+          "type": "",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "c8",
+          "type": "",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "c9",
+          "type": "",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "c10",
+          "type": "",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "c11",
+          "type": "",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "c12",
+          "type": "",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "c13",
+          "type": "",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "c14",
+          "type": "",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "c15",
+          "type": "",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "c16",
+          "type": "",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "c17",
+          "type": "",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "search_index_fts_data": {
+      "rowCount": 93,
+      "columnCount": 2,
+      "columns": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "block",
+          "type": "BLOB",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "search_index_fts_docsize": {
+      "rowCount": 751,
+      "columnCount": 2,
+      "columns": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "sz",
+          "type": "BLOB",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "search_index_fts_idx": {
+      "rowCount": 91,
+      "columnCount": 3,
+      "columns": [
+        {
+          "name": "segid",
+          "type": "",
+          "notnull": true,
+          "pk": true
+        },
+        {
+          "name": "term",
+          "type": "",
+          "notnull": true,
+          "pk": true
+        },
+        {
+          "name": "pgno",
+          "type": "",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "search_queries": {
+      "rowCount": 33,
+      "columnCount": 6,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "query",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "normalized_query",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "hit_count",
+          "type": "INTEGER",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "last_result_count",
+          "type": "INTEGER",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "last_searched_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "seo_health_audits": {
+      "rowCount": 8,
+      "columnCount": 7,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "started_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "completed_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "pages_audited",
+          "type": "INTEGER",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "issues_found",
+          "type": "INTEGER",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "details_json",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "status",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "sessions": {
+      "rowCount": 71,
+      "columnCount": 9,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "user_id",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "session_token_hash",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "ip_address",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "user_agent",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "expires_at",
+          "type": "DATETIME",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "last_seen_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "revoked_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "site_settings": {
+      "rowCount": 12,
+      "columnCount": 3,
+      "columns": [
+        {
+          "name": "key",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "value",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "updated_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "slug_history": {
+      "rowCount": 0,
+      "columnCount": 7,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "entity_type",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "entity_id",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "old_slug",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "new_slug",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "changed_by",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "changed_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "source_candidates": {
+      "rowCount": 0,
+      "columnCount": 12,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "url",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "normalized_url",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "domain",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "title",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "content_type",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "trust_level",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "related_entity_type",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "related_entity_id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "status",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "discovered_at",
+          "type": "DATETIME",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "updated_at",
+          "type": "DATETIME",
+          "notnull": true,
+          "pk": false
+        }
+      ]
+    },
+    "source_checks": {
+      "rowCount": 0,
+      "columnCount": 8,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "url",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "domain",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "http_status",
+          "type": "INTEGER",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "duration_ms",
+          "type": "INTEGER",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "is_healthy",
+          "type": "INTEGER",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "error_message",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "checked_at",
+          "type": "DATETIME",
+          "notnull": true,
+          "pk": false
+        }
+      ]
+    },
+    "source_snapshots": {
+      "rowCount": 0,
+      "columnCount": 10,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "candidate_id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "url",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "source_hash",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "title",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "author",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "published_date",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "extracted_text",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "metadata_json",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "retrieved_at",
+          "type": "DATETIME",
+          "notnull": true,
+          "pk": false
+        }
+      ]
+    },
+    "sponsor_inquiries": {
+      "rowCount": 0,
+      "columnCount": 9,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "name",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "company",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "email",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "website",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "campaign",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "message",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "status",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "sponsors": {
+      "rowCount": 1,
+      "columnCount": 16,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "name",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "company",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "logo_url",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "website_url",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "description",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "disclosure_text",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "tier",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "placement",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "status",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "start_date",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "end_date",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "impressions_count",
+          "type": "INTEGER",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "clicks_count",
+          "type": "INTEGER",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "updated_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "sqlite_sequence": {
+      "rowCount": 1,
+      "columnCount": 2,
+      "columns": [
+        {
+          "name": "name",
+          "type": "",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "seq",
+          "type": "",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "stories": {
+      "rowCount": 14,
+      "columnCount": 13,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "slug",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "title",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "excerpt",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "content",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "published_date",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "status",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "updated_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "published_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "archived_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "created_by",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "updated_by",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "submissions": {
+      "rowCount": 0,
+      "columnCount": 12,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "user_id",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "submission_type",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "title",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "description",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "status",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "review_notes",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "reviewed_by",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "reviewed_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "updated_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "payload",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "subscriptions": {
+      "rowCount": 2,
+      "columnCount": 12,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "user_id",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "plan_id",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "status",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "current_period_start",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "current_period_end",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "cancel_at_period_end",
+          "type": "INTEGER",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "cancelled_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "provider",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "provider_subscription_id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "updated_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "support_tickets": {
+      "rowCount": 0,
+      "columnCount": 13,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "user_id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "subject",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "category",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "message",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "status",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "priority",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "assigned_to",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "related_content_type",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "related_content_id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "closed_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "updated_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "ticket_attachments": {
+      "rowCount": 0,
+      "columnCount": 8,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "ticket_id",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "message_id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "file_name",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "storage_path",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "mime_type",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "file_size",
+          "type": "INTEGER",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "ticket_messages": {
+      "rowCount": 0,
+      "columnCount": 8,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "ticket_id",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "sender_user_id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "message",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "is_internal_note",
+          "type": "INTEGER",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "edited_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "deleted_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "timeline_events": {
+      "rowCount": 91,
+      "columnCount": 13,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "year",
+          "type": "INTEGER",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "title",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "description",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "category",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "updated_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "status",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "slug",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "published_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "archived_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "created_by",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "updated_by",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "user_blocks": {
+      "rowCount": 0,
+      "columnCount": 4,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "blocker_id",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "blocked_id",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "user_profiles": {
+      "rowCount": 0,
+      "columnCount": 6,
+      "columns": [
+        {
+          "name": "user_id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "display_name",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "avatar",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "bio",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "privacy_setting",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "notification_settings",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    },
+    "users": {
+      "rowCount": 6,
+      "columnCount": 17,
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": true
+        },
+        {
+          "name": "email",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "username",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "password_hash",
+          "type": "TEXT",
+          "notnull": true,
+          "pk": false
+        },
+        {
+          "name": "role",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "email_verified",
+          "type": "INTEGER",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "created_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "updated_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "is_disabled",
+          "type": "INTEGER",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "username_normalized",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "email_normalized",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "status",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "force_password_change",
+          "type": "INTEGER",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "last_login_at",
+          "type": "DATETIME",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "avatar_id",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "display_name",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        },
+        {
+          "name": "bio",
+          "type": "TEXT",
+          "notnull": false,
+          "pk": false
+        }
+      ]
+    }
+  },
+  "orphans": {
+    "game_images": 0,
+    "comments": 0,
+    "favorites": 0,
+    "subscriptions": 0
+  },
+  "cleanedFixtures": [],
+  "slowQueryRisks": [],
+  "indexesCount": 125
+}

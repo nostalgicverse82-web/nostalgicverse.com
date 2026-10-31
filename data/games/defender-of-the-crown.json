@@ -1,0 +1,85 @@
+{
+  "id": "game-defender-of-the-crown",
+  "slug": "defender-of-the-crown",
+  "title": "Defender of the Crown",
+  "japaneseTitle": "ディフェンダー・オブ・ザ・クラウン",
+  "url": "/games/defender-of-the-crown/",
+  "originalReleaseYear": 1986,
+  "exactReleaseDate": "1986-11-01",
+  "developer": "Cinemaware",
+  "publisher": "Cinemaware",
+  "director": "Kellyn Beck",
+  "designer": "Jim Sachs",
+  "composer": "Jim Sachs",
+  "originalLaunchPlatform": "Commodore Amiga",
+  "platforms": [
+    "Commodore Amiga",
+    "Atari ST",
+    "Commodore 64",
+    "DOS",
+    "NES",
+    "Apple IIGS",
+    "Macintosh"
+  ],
+  "genre": "strategy",
+  "subgenres": [
+    "Interactive Movie",
+    "Turn-Based Strategy"
+  ],
+  "era": "1980s",
+  "shortDescription": "Cinemaware's breathtaking interactive cinematic strategy game that showcased the revolutionary audiovisual power of the 16-bit Commodore Amiga.",
+  "historicalSignificance": "Widely regarded as the Amiga's first genuine killer app, Jim Sachs's stunning 32-color pixel illustrations and digital orchestral score stunned the computer industry and proved 16-bit multimedia computers were the future of interactive art.",
+  "editorialContent": {
+    "overview": "Set in medieval England in 1149 AD following the assassination of the King, players assume the role of a Saxon lord (such as Wilfred of Ivanhoe) fighting Norman invaders and rival lords to reunite the kingdom.",
+    "gameplay": "Blends turn-based territorial conquest with real-time action minigames: tactical jousting tournaments to win land and honor, castle sieges using catapult boulder physics, and tense indoor swordplay duels.",
+    "technicalInnovation": "Leveraged the Amiga 1000's custom OCS chipset (Denise and Paula) to display 32 simultaneous colors from a 4,096-color palette and 4-channel 8-bit PCM audio, rendering IBM PC and Apple II visuals obsolete overnight.",
+    "culturalImpact": "Demonstrated that home computer games could deliver Hollywood cinematic production values, founding Cinemaware's legendary interactive movie era.",
+    "preservationNotes": "Preserved on original 3.5-inch Amiga floppy disks and ported to numerous contemporary home computer platforms."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "November 1986",
+    "leadPlatform": "Commodore Amiga",
+    "genre": "strategy",
+    "sales": "Over 1 million copies sold across all computer platforms",
+    "awards": [
+      "Best Graphic Achievement (Compute!'s Amiga Magazine 1987)"
+    ],
+    "technicalSpecs": {
+      "engine": "Custom Cinemaware Amiga Engine",
+      "resolution": "320 x 200 (32 simultaneous colors via OCS palette)",
+      "soundChip": "Paula 4-channel 8-bit stereo digital PCM audio",
+      "mediaFormat": "3.5-inch Floppy Disk"
+    },
+    "relationships": {
+      "primaryConsole": "amiga",
+      "developerEntity": "Cinemaware",
+      "lineage": [
+        "It Came from the Desert",
+        "Wings"
+      ]
+    }
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/5/5e/Defender_of_the_crown_cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/5/5e/Defender_of_the_crown_cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Defender_of_the_crown_cover.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "defender of the crown",
+    "cinemaware",
+    "amiga",
+    "jim sachs",
+    "kellyn beck",
+    "16-bit",
+    "strategy",
+    "interactive movie",
+    "1986"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

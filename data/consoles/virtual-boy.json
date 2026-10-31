@@ -1,0 +1,42 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+  "id": "console-virtual-boy",
+  "slug": "virtual-boy",
+  "name": "Nintendo Virtual Boy",
+  "manufacturer": "Nintendo",
+  "generation": "Fifth Generation",
+  "generationNumber": 5,
+  "originalReleaseYear": 1995,
+  "exactReleaseDate": "July 21, 1995",
+  "mediaFormat": "ROM Cartridge",
+  "significance": "Nintendo's shortest-lived hardware venture, remembered as an eccentric precursor to modern virtual reality that explored true parallax stereoscopic 3D.",
+  "verifiedFactualData": {
+    "cpu": "NEC V810 32-bit RISC @ 20 MHz",
+    "gpuOrVideoChip": "Dual oscillating mirror red LED display scanners (384x224)",
+    "ram": "128 KB main RAM, 128 KB VRAM"
+  },
+  "editorialContent": {
+    "overview": "Gunpei Yokoi's tabletop red-monochrome stereoscopic 3D headset that projected virtual depth using oscillating mirror lines.",
+    "marketLegacy": "Nintendo's shortest-lived hardware venture, remembered as an eccentric precursor to modern virtual reality that explored true parallax stereoscopic 3D.",
+    "controllerDesign": "Dual D-pad symmetrical M-shaped controller"
+  },
+  "keyGames": [
+    "wario-land-vb",
+    "teleroboxer",
+    "mario-clash"
+  ],
+  "assets": {
+    "mainImage": "/assets/images/consoles/virtual-boy.png",
+    "heroImage": "/assets/images/consoles/virtual-boy-hero.png",
+    "hardwareImage": "/assets/images/consoles/virtual-boy-hardware.png"
+  },
+  "keywords": [
+    "virtual boy",
+    "nintendo",
+    "gunpei yokoi",
+    "stereoscopic 3d",
+    "red led",
+    "fifth generation",
+    "1995"
+  ]
+}

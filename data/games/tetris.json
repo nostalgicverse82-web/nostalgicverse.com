@@ -1,0 +1,78 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.json",
+  "id": "game-tetris",
+  "slug": "tetris",
+  "title": "Tetris",
+  "japaneseTitle": "テトリス",
+  "url": "/games/tetris/",
+  "originalReleaseYear": 1984,
+  "exactReleaseDate": "1984-06-06",
+  "developer": "Alexey Pajitnov",
+  "publisher": "Academy of Sciences of the Soviet Union",
+  "director": "Alexey Pajitnov",
+  "designer": "Alexey Pajitnov",
+  "composer": "Hirokazu Tanaka",
+  "originalLaunchPlatform": "Electronika 60",
+  "platforms": [
+    "Electronika 60",
+    "IBM PC",
+    "Game Boy",
+    "NES",
+    "Arcade",
+    "Amiga"
+  ],
+  "genre": "Puzzle",
+  "subgenres": [
+    "Tile-Matching",
+    "Falling Block"
+  ],
+  "era": "1980s",
+  "shortDescription": "Alexey Pajitnov's timeless spatial geometry puzzle conceived at the Soviet Academy of Sciences in Moscow.",
+  "historicalSignificance": "Demonstrated the universal psychological appeal of pure puzzle geometry, fueled the global adoption of the Nintendo Game Boy, and became one of the most widely played video games in human history.",
+  "editorialContent": {
+    "overview": "Conceived on June 6, 1984, by Soviet computer researcher Alexey Pajitnov at the Dorodnitsyn Computing Centre of the Academy of Sciences in Moscow, Tetris derived its name from a fusion of the Greek numerical prefix 'tetra-' (four) and Pajitnov's favorite sport, tennis. Developed during Cold War isolation, its irresistible mathematical premise broke through ideological barriers, initiating a high-stakes international licensing battle that culminated in its legendary pack-in partnership with Nintendo's Game Boy.",
+    "gameplayMechanics": "Seven geometric tetrominoes—each composed of four connected square blocks (the I, J, L, O, S, T, and Z shapes)—descend into a ten-by-twenty grid matrix. The player rotates and translates each piece to form solid horizontal lines without gaps. Completed rows vanish, collapsing the above matrix downwards. As lines are cleared, the gravitational fall speed accelerates, testing spatial perception, cognitive planning, and instinctive risk management.",
+    "technicalInnovation": "Pajitnov originally programmed Tetris in Pascal on a Soviet Electronika 60 terminal lacking graphical capabilities; the blocks were rendered textually using ASCII square brackets '[]'. A 16-year-old student, Vadim Gerasimov, ported the game to IBM PC/MS-DOS in Turbo Pascal, adding color, scoring, and sound. Henk Rogers and Nintendo later engineered the Game Boy conversion, utilizing the Game Link Cable to pioneer head-to-head competitive handheld multiplayer.",
+    "culturalImpact": "Tetris proved that video games could captivate diverse adult demographics beyond traditional arcade hobbyists. Its pack-in status with the Game Boy drove over 35 million sales of the handheld, turning video games into ubiquitous portable lifestyle accessories. The game gave rise to the clinical term 'The Tetris Effect', describing the cognitive phenomenon wherein prolonged play causes players to mentally organize real-world objects into geometric patterns.",
+    "preservationNotes": "Preserved across dozens of licensed and unlicensed historical platforms. Historical preservation prioritizes the original 1984 Electronika 60 terminal codebase, the 1986 MS-DOS conversion, and the definitive 1989 Nintendo Game Boy release with Hirokazu Tanaka's arrangement of the Russian folk song 'Korobeiniki'."
+  },
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "Ackerman, Dan. 'The Tetris Effect: The Game that Hypnotized the World', PublicAffairs (2016)",
+      "Pajitnov, Alexey. Oral History, Smithsonian National Museum of American History (2014)",
+      "Gerasimov, Vadim. 'Tetris Story: The Real Story of Tetris', vadim.oversigma.com (1999)"
+    ],
+    "romMediaFormat": "Electronika 60 Text Display / 32 KB Game Boy Cartridge (DMG-TRA)",
+    "romSizeOriginal": "32 KB ROM (Game Boy version)",
+    "displayResolutionOriginal": "160 × 144 (Game Boy LCD) / 80 × 25 text mode (Electronika 60)",
+    "audioHardware": "Custom 4-channel stereo PSG (Game Boy Sharp LR35902)",
+    "inputMethod": "8-way D-Pad + A/B rotation buttons",
+    "multiplayerCapability": "2 Players (Simultaneous via Game Link Cable)"
+  },
+  "assets": {
+    "heroImage": "/assets/images/games/tetris-hero.webp",
+    "thumbnailImage": "/assets/images/games/tetris.webp",
+    "coverImage": "/assets/images/games/tetris-cover.webp",
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Tetris_on_Game_Boy.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Tetris_on_Game_Boy.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tetris_on_Game_Boy.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "CC BY-SA 2.0 / Museum Exhibit Photograph",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "tetris",
+    "alexey pajitnov",
+    "puzzle",
+    "game boy",
+    "electronika 60",
+    "1984",
+    "1980s",
+    "nintendo",
+    "korobeiniki",
+    "tetromino"
+  ],
+  "featured": true
+}

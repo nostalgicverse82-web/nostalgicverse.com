@@ -1,0 +1,88 @@
+{
+  "id": "game-okami",
+  "slug": "okami",
+  "title": "Ōkami",
+  "japaneseTitle": "大神 (Okami)",
+  "url": "/games/okami/",
+  "originalReleaseYear": 2006,
+  "exactReleaseDate": "2006-04-20",
+  "developer": "Clover Studio",
+  "publisher": "Capcom",
+  "director": "Hideki Kamiya",
+  "designer": "Hideki Kamiya",
+  "composer": "Masami Ueda, Hiroshi Yamaguchi",
+  "originalLaunchPlatform": "PlayStation 2",
+  "platforms": [
+    "PlayStation 2",
+    "Wii",
+    "PlayStation 3",
+    "PlayStation 4",
+    "Nintendo Switch",
+    "Xbox One",
+    "PC"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "Mythological Action-Adventure",
+    "Zelda-like"
+  ],
+  "era": "2000s",
+  "shortDescription": "Hideki Kamiya and Clover Studio's sumi-e watercolor masterpiece, casting players as sun goddess Amaterasu in the form of a white wolf.",
+  "historicalSignificance": "A monumental high-art achievement in video games, praised for its breathtaking traditional Japanese woodblock print aesthetic and the innovative 'Celestial Brush' mechanic allowing players to paint directly onto the screen.",
+  "editorialContent": {
+    "overview": "Taking inspiration from classic Shinto mythology, players inhabit Amaterasu, the Japanese sun goddess reincarnated as a majestic white wolf accompanied by the pint-sized artist Issun, journeying across Nippon to purge the land of the eight-headed demon Orochi.",
+    "gameplay": "Open-ended exploration in the vein of The Legend of Zelda, revolving around the 'Celestial Brush': pausing the action turns the screen into rice paper, allowing players to paint calligraphy strokes to cut barriers, summon cherry blossoms, redirect water, and draw bombs.",
+    "technicalInnovation": "Pushed the PlayStation 2 to its graphic limits with custom cel-shading algorithms that rendered live ink-bleed effects, rice paper textures, and blooming flora in real-time.",
+    "culturalImpact": "Won widespread critical acclaim and Game of the Year awards, hailed as the finest non-Nintendo Zelda-style adventure game ever created and a pinnacle of interactive fine art.",
+    "preservationNotes": "Preserved on PS2 DVD-ROM, ported to Wii with motion controls, and remastered in 4K HD across all modern consoles."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "April 20, 2006 (Japan) / September 19, 2006 (North America)",
+    "leadPlatform": "PlayStation 2",
+    "genre": "action-adventure",
+    "sales": "Over 4 million copies sold across original and HD remasters",
+    "awards": [
+      "IGN Overall Game of the Year 2006",
+      "BAFTA Artistic Achievement Nominee"
+    ],
+    "technicalSpecs": {
+      "engine": "Clover Studio Custom Sumi-e Engine",
+      "resolution": "480i / 480p (PS2) / Native 4K (Modern HD Remaster)",
+      "soundChip": "5-disc traditional Japanese folk orchestral score by MONACA",
+      "mediaFormat": "DVD-ROM"
+    },
+    "relationships": {
+      "primaryConsole": "playstation-2",
+      "developerEntity": "Clover Studio",
+      "lineage": [
+        "Viewtiful Joe",
+        "Bayonetta",
+        "The Legend of Zelda"
+      ]
+    }
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/e/ed/Okami_cover.png",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/e/ed/Okami_cover.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Okami_cover.png",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "okami",
+    "amaterasu",
+    "hideki kamiya",
+    "clover studio",
+    "capcom",
+    "celestial brush",
+    "sumi-e",
+    "playstation 2",
+    "ps2",
+    "2006"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

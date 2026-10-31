@@ -1,0 +1,45 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+  "id": "console-playstation-4",
+  "slug": "playstation-4",
+  "name": "Sony PlayStation 4",
+  "manufacturer": "Sony",
+  "generation": "Eighth Generation",
+  "generationNumber": 8,
+  "originalReleaseYear": 2013,
+  "exactReleaseDate": "November 15, 2013",
+  "mediaFormat": "Blu-ray Disc & Digital Download",
+  "significance": "Pioneered integrated social sharing via the hardware Share button and re-established Sony's dominant leadership in high-fidelity console gaming.",
+  "verifiedFactualData": {
+    "cpu": "Custom 8-core AMD 'Jaguar' @ 1.6 GHz",
+    "gpuOrVideoChip": "AMD GCN 1.84 TFLOPS (18 compute units @ 800 MHz)",
+    "ram": "8 GB unified GDDR5 RAM @ 176 GB/s"
+  },
+  "editorialContent": {
+    "overview": "Mark Cerny's unified x86 developer-friendly system, introducing instantaneous social sharing and selling over 117 million units.",
+    "marketLegacy": "Pioneered integrated social sharing via the hardware Share button and re-established Sony's dominant leadership in high-fidelity console gaming.",
+    "controllerDesign": "DualShock 4 with integrated capacitive touchpad, light bar, and Share button"
+  },
+  "keyGames": [
+    "bloodborne",
+    "the-witcher-3-wild-hunt",
+    "god-of-war",
+    "red-dead-redemption-2",
+    "spider-man"
+  ],
+  "assets": {
+    "mainImage": "/assets/images/consoles/playstation-4.png",
+    "heroImage": "/assets/images/consoles/playstation-4-hero.png",
+    "hardwareImage": "/assets/images/consoles/playstation-4-hardware.png"
+  },
+  "keywords": [
+    "playstation 4",
+    "ps4",
+    "sony",
+    "eighth generation",
+    "mark cerny",
+    "share button",
+    "gddr5",
+    "2013"
+  ]
+}

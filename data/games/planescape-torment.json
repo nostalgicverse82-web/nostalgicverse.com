@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-planescape-torment",
+  "slug": "planescape-torment",
+  "title": "Planescape: Torment",
+  "originalReleaseYear": 1999,
+  "exactReleaseDate": "December 12, 1999",
+  "originalLaunchPlatform": "PC",
+  "originalLaunchRegion": "North America",
+  "developer": "Black Isle Studios",
+  "publisher": "Interplay Entertainment",
+  "platforms": [
+    "PC"
+  ],
+  "genre": "rpg",
+  "subgenres": [
+    "isometric-rpg"
+  ],
+  "era": "1990s",
+  "shortDescription": "The immortal Nameless One awakes in the Mortuary of Sigil seeking the nature of what can change the nature of a man.",
+  "historicalSignificance": "Universally revered as one of the greatest literary achievements in video game history, prioritizing dialogue and philosophy over combat.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Planescape:_Torment",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "The immortal Nameless One awakes in the Mortuary of Sigil seeking the nature of what can change the nature of a man.",
+    "culturalImpact": "Universally revered as one of the greatest literary achievements in video game history, prioritizing dialogue and philosophy over combat."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PC"
+    ],
+    "genres": [
+      "rpg"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Planescape_Torment_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Planescape_Torment_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Planescape:_Torment",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Planescape: Torment",
+    "Black Isle Studios",
+    "Interplay Entertainment",
+    "PC",
+    "rpg",
+    "1999",
+    "1990s",
+    "PC",
+    "isometric-rpg"
+  ],
+  "url": "/games/planescape-torment/",
+  "featured": false
+}

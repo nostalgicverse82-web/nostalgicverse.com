@@ -1,0 +1,44 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+  "id": "console-playstation-3",
+  "slug": "playstation-3",
+  "name": "Sony PlayStation 3",
+  "manufacturer": "Sony",
+  "generation": "Seventh Generation",
+  "generationNumber": 7,
+  "originalReleaseYear": 2006,
+  "exactReleaseDate": "November 11, 2006",
+  "mediaFormat": "Blu-ray Disc (25GB/50GB) & DVD/CD",
+  "significance": "Won the high-definition optical disc format war against HD-DVD and served as a technological powerhouse for narrative-driven cinematic adventures.",
+  "verifiedFactualData": {
+    "cpu": "Cell Broadband Engine (1 PPE + 7 SPEs) @ 3.2 GHz",
+    "gpuOrVideoChip": "NVIDIA RSX 'Reality Synthesizer' @ 500 MHz",
+    "ram": "256 MB XDR DRAM main + 256 MB GDDR3 VRAM"
+  },
+  "editorialContent": {
+    "overview": "Sony's high-tech Cell architecture monolith that established Blu-ray as the global physical high-definition video format standard.",
+    "marketLegacy": "Won the high-definition optical disc format war against HD-DVD and served as a technological powerhouse for narrative-driven cinematic adventures.",
+    "controllerDesign": "Sixaxis motion-sensing controller, later DualShock 3"
+  },
+  "keyGames": [
+    "the-last-of-us",
+    "uncharted-2",
+    "dark-souls",
+    "metal-gear-solid-4",
+    "red-dead-redemption"
+  ],
+  "assets": {
+    "mainImage": "/assets/images/consoles/playstation-3.png",
+    "heroImage": "/assets/images/consoles/playstation-3-hero.png",
+    "hardwareImage": "/assets/images/consoles/playstation-3-hardware.png"
+  },
+  "keywords": [
+    "playstation 3",
+    "ps3",
+    "sony",
+    "cell broadband engine",
+    "blu-ray",
+    "seventh generation",
+    "2006"
+  ]
+}

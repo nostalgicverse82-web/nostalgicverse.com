@@ -1,0 +1,78 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.json",
+  "id": "game-the-legend-of-zelda",
+  "slug": "the-legend-of-zelda",
+  "title": "The Legend of Zelda",
+  "japaneseTitle": "ゼルダの伝説",
+  "url": "/games/the-legend-of-zelda/",
+  "originalReleaseYear": 1986,
+  "exactReleaseDate": "1986-02-21",
+  "developer": "Nintendo R&D4",
+  "publisher": "Nintendo",
+  "director": "Shigeru Miyamoto",
+  "designer": "Takashi Tezuka",
+  "composer": "Koji Kondo",
+  "originalLaunchPlatform": "Famicom Disk System",
+  "platforms": [
+    "Famicom Disk System",
+    "NES",
+    "Game Boy Advance",
+    "GameCube"
+  ],
+  "genre": "Action-Adventure",
+  "subgenres": [
+    "Top-Down Adventure",
+    "Dungeon Crawler"
+  ],
+  "era": "1980s",
+  "shortDescription": "Shigeru Miyamoto's sprawling fantasy adventure across the kingdom of Hyrule, pioneering non-linear exploration and battery-backed game saves.",
+  "historicalSignificance": "Pioneered open-world exploration, environmental puzzle mechanics, and introduced internal battery-backed SRAM saving to home console cartridges.",
+  "editorialContent": {
+    "overview": "Directed simultaneously alongside Super Mario Bros. by Shigeru Miyamoto and Takashi Tezuka, The Legend of Zelda launched in February 1986 as the premier title for Nintendo's Famicom Disk System peripheral in Japan. Drawing directly on Miyamoto's childhood memories of exploring the forests, caves, and hillside streams of Sonobe outside Kyoto, the game discarded linear arcade progression in favor of player autonomy, self-directed exploration, and discovery.",
+    "gameplayMechanics": "Players guide Link through an expansive 128-screen overworld grid presented from a top-down perspective, seeking eight fragments of the Triforce of Wisdom concealed within subterranean underworld labyrinths. Armed with an initial sword, players must experiment with tools—bombs, boomerangs, candles, bows, and stepping rafts—to unlock secret pathways through destructible trees, false walls, and environmental puzzles without explicit hand-holding.",
+    "technicalInnovation": "While originally released on rewritable 128 KB magnetic quick disks in Japan, the Western 1987 NES release incorporated a groundbreaking engineering innovation: a custom SNROM memory management mapper board featuring 8 kilobytes of static RAM (SRAM) sustained by an internal lithium coin-cell battery (CR2032). This allowed console players for the first time in history to preserve multiple adventure saves directly on a home cartridge without cumbersome alphanumeric passwords.",
+    "culturalImpact": "Packaged in an iconic golden cartridge, The Legend of Zelda became the first standalone NES game to exceed one million sales in North America, establishing the action-adventure and action-RPG genres as primary pillars of home gaming. Its emphasis on world exploration established the blueprint followed decades later by open-world game design.",
+    "preservationNotes": "Preserved across original Japanese FDS disk images and Western gold cartridge revisions. Preservation focuses on FDS wavetable sound generation channel differences compared to NES APU syntheses, battery-backed SRAM maintenance, and the Second Quest layout."
+  },
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "Miyamoto, Shigeru. 'The Philosophy of Zelda', Nintendo Dream Magazine (2006)",
+      "Tezuka, Takashi & Kondo, Koji. 'Iwata Asks: The Legend of Zelda', Nintendo (2011)",
+      "Nintendo of America Inc. The Legend of Zelda Instruction Booklet and Overworld Map (1987)"
+    ],
+    "romMediaFormat": "FDS Quick Disk (Japan) / NES Gold Cartridge SNROM-01 with battery-backed SRAM (US/EU)",
+    "romSizeOriginal": "128 KB PRG ROM + 8 KB Battery-backed SRAM",
+    "displayResolutionOriginal": "256 × 240 (NTSC Composite Video)",
+    "audioHardware": "Ricoh 2A03 5-channel APU (plus extra FDS wavetable synthesis channel in Japanese release)",
+    "inputMethod": "NES Controller (8-way D-Pad, A/B buttons, Start/Select)",
+    "multiplayerCapability": "Single Player"
+  },
+  "assets": {
+    "heroImage": "/assets/images/games/the-legend-of-zelda-hero.webp",
+    "thumbnailImage": "/assets/images/games/the-legend-of-zelda.webp",
+    "coverImage": "/assets/images/games/the-legend-of-zelda-cover.webp",
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/4/41/Legend_of_zelda_cover_%28with_cartridge%29_gold.png",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/4/41/Legend_of_zelda_cover_%28with_cartridge%29_gold.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Legend_of_zelda_cover_(with_cartridge)_gold.png",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "the legend of zelda",
+    "zelda",
+    "link",
+    "hyrule",
+    "nintendo",
+    "shigeru miyamoto",
+    "takashi tezuka",
+    "nes",
+    "famicom disk system",
+    "action-adventure",
+    "1986",
+    "1980s"
+  ],
+  "featured": true
+}

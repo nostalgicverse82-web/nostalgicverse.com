@@ -1,0 +1,89 @@
+{
+  "id": "game-tony-hawk-s-pro-skater-2",
+  "slug": "tony-hawk-s-pro-skater-2",
+  "title": "Tony Hawk's Pro Skater 2",
+  "japaneseTitle": "トニー・ホーク プロスケーター 2",
+  "url": "/games/tony-hawk-s-pro-skater-2/",
+  "originalReleaseYear": 2000,
+  "exactReleaseDate": "2000-09-20",
+  "developer": "Neversoft",
+  "publisher": "Activision",
+  "director": "Joel Jewett",
+  "designer": "Chris Ward, Mick West",
+  "composer": "Various Artists (Bad Religion, Rage Against the Machine, Papa Roach)",
+  "originalLaunchPlatform": "PlayStation",
+  "platforms": [
+    "PlayStation",
+    "Nintendo 64",
+    "Sega Dreamcast",
+    "Microsoft Windows",
+    "Game Boy Advance"
+  ],
+  "genre": "sports",
+  "subgenres": [
+    "Extreme Sports",
+    "Arcade Skating"
+  ],
+  "era": "2000s",
+  "shortDescription": "Neversoft's perfection of the arcade extreme sports formula that introduced the manual and one of gaming's greatest punk-rock soundtracks.",
+  "historicalSignificance": "Introduced the 'manual' trick mechanic which allowed players to string street tricks and halfpipe airs into endless unbroken multi-million-point combos, achieving a near-unanimous 98 Metacritic rating and cementing extreme sports in popular culture.",
+  "editorialContent": {
+    "overview": "Developed by Neversoft under Joel Jewett and published by Activision under their Activision O2 extreme sports brand in September 2000, Tony Hawk's Pro Skater 2 stands as one of the highest critically rated video games of all time. Building on the runaway success of the 1999 original, THPS2 captured the turn-of-the-millennium cultural explosion of the X Games, pop-punk, and alternative skateboarding lifestyle.",
+    "gameplay": "Each park presents a tight 2-minute timer to accomplish high scores, find the hidden VHS tape, collect the letters S-K-A-T-E, and complete environmental goals. The revolutionary inclusion of the manual (tapping up-down upon landing) let skilled players link vert ramps, grinds, and flatland flip tricks into dizzying score multipliers.",
+    "technicalInnovation": "Neversoft refined the Havok-inspired arcade skating physics to silky precision, added an intuitive 3D Skate Park Editor, and engineered real-time audio playback that integrated iconic licensed tracks from Rage Against the Machine, Bad Religion, and Anthrax.",
+    "culturalImpact": "THPS2 transformed skateboarding into a mainstream global youth obsession. Generations of players discovered alternative rock, hip-hop, and urban skate apparel through the game, elevating Tony Hawk and pro street skaters to worldwide celebrity.",
+    "preservationNotes": "Preserved across original PS1, Dreamcast, and PC CD-ROMs, and faithfully remade in 2020 by Vicarious Visions as Tony Hawk's Pro Skater 1 + 2."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "September 20, 2000",
+    "leadPlatform": "PlayStation",
+    "genre": "sports",
+    "sales": "Over 5.3 million copies worldwide",
+    "awards": [
+      "Metacritic score of 98 (second-highest of all time)",
+      "GameSpot Game of the Year 2000"
+    ],
+    "technicalSpecs": {
+      "engine": "Neversoft proprietary 3D engine with dynamic trick chain physics",
+      "resolution": "320x240 (PS1) / 640x480 (Dreamcast/PC)",
+      "soundChip": "PlayStation SPU streaming compressed licensed audio tracks",
+      "mediaFormat": "CD-ROM"
+    },
+    "relationships": {
+      "primaryConsole": "playstation",
+      "developerEntity": "Neversoft",
+      "lineage": [
+        "Tony Hawk's Pro Skater",
+        "Tony Hawk's Pro Skater 3",
+        "Skate"
+      ]
+    }
+  },
+  "assets": {
+    "cover": "/assets/images/games/tony-hawk-s-pro-skater-2.webp",
+    "banner": "/assets/images/games/tony-hawk-s-pro-skater-2-banner.webp",
+    "screenshots": [
+      "/assets/images/games/tony-hawk-s-pro-skater-2-screen1.webp",
+      "/assets/images/games/tony-hawk-s-pro-skater-2-screen2.webp"
+    ],
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/4/41/Tony_Hawk%27s_Pro_Skater_2_cover.png",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/4/41/Tony_Hawk%27s_Pro_Skater_2_cover.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Tony_Hawk%27s_Pro_Skater_2_cover.png",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "review-required",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "tony hawk",
+    "thps2",
+    "neversoft",
+    "activision",
+    "skateboarding",
+    "manual",
+    "rage against the machine"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

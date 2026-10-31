@@ -1,0 +1,92 @@
+{
+  "id": "game-simcity",
+  "slug": "simcity",
+  "title": "SimCity",
+  "url": "/games/simcity/",
+  "originalReleaseYear": 1989,
+  "exactReleaseDate": "1989-02-02",
+  "developer": "Maxis",
+  "publisher": "Maxis / Brøderbund",
+  "designer": "Will Wright",
+  "originalLaunchPlatform": "Macintosh / Amiga",
+  "platforms": [
+    "Macintosh",
+    "Amiga",
+    "IBM PC / MS-DOS",
+    "Commodore 64",
+    "Atari ST",
+    "SNES"
+  ],
+  "genre": "city-building",
+  "subgenres": [
+    "Urban Simulation",
+    "Systemic Sandbox"
+  ],
+  "era": "1980s",
+  "shortDescription": "Will Wright's revolutionary urban planning simulation that founded the software toy genre and proved gaming could simulate complex real-world social systems.",
+  "historicalSignificance": "Created the city-building and systemic simulation genres, rejecting traditional win/lose conditions in favor of an open-ended 'software toy' philosophy that paved the way for The Sims.",
+  "editorialContent": {
+    "overview": "Created by Will Wright and co-founded with entrepreneur Jeff Braun under their startup Maxis in early 1989, SimCity transformed interactive entertainment. Inspired while designing map-editing tools for his 1984 helicopter combat game Raid on Bungeling Bay, Wright realized that dynamically laying out road networks and industrial zones was far more engaging than destroying them.",
+    "gameplayMechanics": "Assuming the role of Mayor and city planner, players zone land into Residential, Commercial, and Industrial sectors, establish coal or nuclear power plants, string power grids, lay road and rail infrastructure, manage municipal tax rates, and fund police and fire departments. Complex emergent algorithms simulate traffic congestion, land value, pollution, crime rates, and unexpected urban disasters (fires, earthquakes, monster rampages).",
+    "technicalInnovation": "Wright drew heavily from Jay Forrester's system dynamics principles and urban modeling theories, creating a cellular automaton matrix where adjacent zones influence each other dynamically across hundreds of simultaneous simulated city blocks in real time.",
+    "culturalImpact": "SimCity was an unprecedented critical and commercial triumph that captured the imagination of adults, educators, and urban planners worldwide. It shattered the dogma that video games required violent conflict or game-over screens, directly establishing the Maxis empire that culminated in the best-selling franchise The Sims.",
+    "preservationNotes": "Preserved across original Macintosh, Amiga, and MS-DOS floppy disk releases, as well as the legendary 1991 Super Nintendo conversion co-developed with Shigeru Miyamoto featuring Dr. Wright."
+  },
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "Wright, Will. 'Classic Game Postmortem: SimCity', Game Developers Conference (2011)",
+      "Baker, Chris. 'The Long, Strange History of SimCity', Wired Magazine (2012)",
+      "Maxis Software Inc. SimCity User Manual (Macintosh / Amiga Edition, 1989)"
+    ],
+    "romMediaFormat": "3.5-inch Floppy Disk",
+    "romSizeOriginal": "800 KB (Macintosh 3.5\" Disk)",
+    "displayResolutionOriginal": "512 × 342 (Monochrome Macintosh) / 320 × 200 (Amiga Color)",
+    "audioHardware": "Macintosh Internal Audio / Commodore Amiga Paula 4-channel sound",
+    "inputMethod": "Mouse and QWERTY Keyboard",
+    "multiplayerCapability": "1 Player"
+  },
+  "relatedExhibits": {
+    "games": [
+      "the-sims",
+      "civilization",
+      "elite"
+    ],
+    "consoles": [
+      "super-nintendo-entertainment-system"
+    ],
+    "genres": [
+      "city-building"
+    ],
+    "timeline": [
+      "ev-1989-game-boy-launch"
+    ]
+  },
+  "assets": {
+    "heroImage": "/assets/images/games/simcity-hero.webp",
+    "thumbnailImage": "/assets/images/games/simcity.webp",
+    "coverImage": "/assets/images/games/simcity-cover.webp",
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/7/7b/SimCity_Classic_cover_art.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/7/7b/SimCity_Classic_cover_art.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:SimCity_Classic_cover_art.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "simcity",
+    "will wright",
+    "maxis",
+    "urban simulation",
+    "city building",
+    "system dynamics",
+    "software toy",
+    "macintosh",
+    "amiga",
+    "1989",
+    "1980s"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

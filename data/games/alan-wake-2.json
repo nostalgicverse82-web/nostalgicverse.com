@@ -1,0 +1,85 @@
+{
+  "id": "game-alan-wake-2",
+  "slug": "alan-wake-2",
+  "title": "Alan Wake 2",
+  "japaneseTitle": "アラン ウェイク 2",
+  "url": "/games/alan-wake-2/",
+  "originalReleaseYear": 2023,
+  "exactReleaseDate": "2023-10-27",
+  "developer": "Remedy Entertainment",
+  "publisher": "Epic Games Publishing",
+  "director": "Sam Lake, Kyle Rowley",
+  "designer": "Kyle Rowley",
+  "composer": "Petri Alanko",
+  "originalLaunchPlatform": "PlayStation 5 / Xbox Series X/S / PC",
+  "platforms": [
+    "PlayStation 5",
+    "Xbox Series X/S",
+    "Microsoft Windows"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "Survival Horror",
+    "Psychological Thriller",
+    "Multimedia Noir"
+  ],
+  "era": "2020s",
+  "shortDescription": "Sam Lake and Remedy's mind-bending psychological survival horror masterwork, seamlessly blending live-action cinema with dual-protagonist detective storytelling.",
+  "historicalSignificance": "Won Best Game Direction, Best Narrative, and Best Art Direction at The Game Awards 2023, universally acclaimed as a transcendent triumph of multimedia auteur storytelling, featuring the unforgettable interactive musical chapter 'Herald of Darkness'.",
+  "editorialContent": {
+    "overview": "Thirteen years after novelist Alan Wake became trapped in the nightmare dimension of the Dark Place beneath Cauldron Lake, FBI profiler Saga Anderson arrives in the Pacific Northwest town of Bright Falls to investigate ritualistic murders by the Cult of the Tree.",
+    "gameplay": "Meticulous survival horror featuring flashlight-focus mechanics to banish shadows, tactical shooting, inventory management, Saga's mental 'Mind Place' deduction board, and Alan's reality-rewriting 'Plot Board'.",
+    "technicalInnovation": "Showcased Remedy's proprietary Northlight Engine with full path-traced ray tracing, instant seamless transitions between full-motion live-action video and 3D gameplay, and the show-stopping interactive musical set-piece 'We Sing'.",
+    "culturalImpact": "Cemented creative director Sam Lake as one of gaming's preeminent artistic auteurs and established the interconnected Remedy Connected Universe alongside Control.",
+    "preservationNotes": "Preserved on physical PlayStation 5 and Xbox Series X Deluxe Edition Blu-ray discs."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "October 27, 2023",
+    "leadPlatform": "PlayStation 5",
+    "genre": "action-adventure",
+    "sales": "Over 1.8 million copies sold",
+    "awards": [
+      "3 Awards at The Game Awards 2023 (Best Game Direction, Best Narrative, Best Art Direction)",
+      "BAFTA Artistic Achievement 2024"
+    ],
+    "technicalSpecs": {
+      "engine": "Northlight Engine with Path Tracing / DLSS 3.5",
+      "resolution": "Dynamic 4K with Ray Tracing (Quality Mode) / 60fps (Performance Mode)",
+      "soundChip": "3D Spatial Audio with Petri Alanko score and Poets of the Fall songs",
+      "mediaFormat": "Ultra HD Blu-ray Disc / Digital"
+    },
+    "relationships": {
+      "primaryConsole": "playstation-5",
+      "developerEntity": "Remedy Entertainment",
+      "lineage": [
+        "Alan Wake (2010)",
+        "Control",
+        "Max Payne"
+      ]
+    }
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/e/ed/Alan_Wake_2_box_art.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/e/ed/Alan_Wake_2_box_art.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Alan_Wake_2_box_art.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "alan wake 2",
+    "sam lake",
+    "saga anderson",
+    "remedy entertainment",
+    "survival horror",
+    "dark place",
+    "herald of darkness",
+    "playstation 5",
+    "ps5",
+    "2023"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

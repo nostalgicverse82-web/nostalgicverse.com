@@ -1,0 +1,92 @@
+{
+  "id": "game-elden-ring",
+  "slug": "elden-ring",
+  "title": "Elden Ring",
+  "japaneseTitle": "エルデンリング",
+  "url": "/games/elden-ring/",
+  "originalReleaseYear": 2022,
+  "exactReleaseDate": "2022-02-25",
+  "developer": "FromSoftware",
+  "publisher": "Bandai Namco Entertainment / FromSoftware",
+  "director": "Hidetaka Miyazaki",
+  "designer": "Hidetaka Miyazaki, George R. R. Martin",
+  "composer": "Tsukasa Saitoh, Shoi Miyazawa, Tai Tomisawa, Yuka Kitamura, Yoshimi Kudo",
+  "originalLaunchPlatform": "PC / PS4 / PS5 / Xbox One / Xbox Series X/S",
+  "platforms": [
+    "Microsoft Windows",
+    "PlayStation 4",
+    "PlayStation 5",
+    "Xbox One",
+    "Xbox Series X/S"
+  ],
+  "genre": "soulslike",
+  "subgenres": [
+    "Open-World Action RPG",
+    "Dark Fantasy Epic"
+  ],
+  "era": "2020s",
+  "shortDescription": "Hidetaka Miyazaki and George R. R. Martin's open-world dark fantasy masterpiece set across the Lands Between.",
+  "historicalSignificance": "The monumental synthesis of FromSoftware's entire design philosophy with a breathtaking open world, winning over 330 Game of the Year awards to become the most awarded video game in history.",
+  "editorialContent": {
+    "overview": "Directed by Hidetaka Miyazaki in collaboration with A Song of Ice and Fire author George R. R. Martin (who crafted the mythos and demigod ancestry), Elden Ring launched in February 2022. Emerging into the radiant gold-lit expanse of Limgrave beneath the Erdtree, players rise as a Tarnished of no renown, seeking the Great Runes of Queen Marika's shattered Elden Ring to claim the mantle of Elden Lord.",
+    "gameplay": "Presents unparalleled player agency across the Lands Between: mounted traversal atop the horned spectral steed Torrent, dynamic stealth in tall grass, guard-counter melee combat, jump attacks, customizable Ashes of War weapon arts, and Spirit Ash summons. Beyond rolling hills lie colossal 'Legacy Dungeons'—monumental interlocking labyrinths like Stormveil Castle, the Academy of Raya Lucaria, and Leyndell, Royal Capital.",
+    "technicalInnovation": "Seamlessly integrated FromSoftware's signature vertical level design into a massive continuous open world with dynamic time-of-day weather cycles that alter enemy spawns, boss appearances (Night's Cavalry), and elemental damage scaling.",
+    "culturalImpact": "Elden Ring became a massive mainstream cultural juggernaut, selling over 25 million copies and winning over 330 Game of the Year awards. It demonstrated that uncompromising mechanical challenge and genuine open-world mystery could achieve unprecedented commercial and critical glory.",
+    "preservationNotes": "Preserved across all ninth and eighth generation console discs, modern PC storefronts, and extended with 2024's acclaimed expansion Shadow of the Erdtree."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "February 25, 2022",
+    "leadPlatform": "Microsoft Windows",
+    "genre": "soulslike",
+    "sales": "Over 25 million copies sold worldwide",
+    "awards": [
+      "Game of the Year 2022 (The Game Awards, D.I.C.E. Awards, GDC Awards, BAFTA)",
+      "Over 330 GOTY Awards (Most awarded game in history)"
+    ],
+    "technicalSpecs": {
+      "engine": "FromSoftware modern proprietary open-world engine with DirectX 12 / Vulkan support",
+      "resolution": "Up to 4K 60fps on PS5, Xbox Series X, and PC",
+      "soundChip": "Spatial 3D Audio with live symphonic brass and choral recordings",
+      "mediaFormat": "Ultra HD Blu-ray Disc / Steam Digital Download"
+    },
+    "relationships": {
+      "primaryConsole": "pc",
+      "developerEntity": "FromSoftware",
+      "lineage": [
+        "Demon's Souls",
+        "Dark Souls",
+        "Bloodborne",
+        "Sekiro: Shadows Die Twice"
+      ]
+    }
+  },
+  "assets": {
+    "cover": "/assets/images/games/elden-ring.webp",
+    "banner": "/assets/images/games/elden-ring-banner.webp",
+    "screenshots": [
+      "/assets/images/games/elden-ring-screen1.webp",
+      "/assets/images/games/elden-ring-screen2.webp"
+    ],
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b9/Elden_Ring_Box_art.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/b/b9/Elden_Ring_Box_art.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Elden_Ring_Box_art.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "elden ring",
+    "hidetaka miyazaki",
+    "george r r martin",
+    "tarnished",
+    "erdtree",
+    "marika",
+    "malenia",
+    "lands between",
+    "fromsoftware"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": true
+}

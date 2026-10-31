@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-heavy-rain",
+  "slug": "heavy-rain",
+  "title": "Heavy Rain",
+  "originalReleaseYear": 2010,
+  "exactReleaseDate": "February 23, 2010",
+  "originalLaunchPlatform": "PlayStation 3",
+  "originalLaunchRegion": "North America",
+  "developer": "Quantic Dream",
+  "publisher": "Sony Computer Entertainment",
+  "platforms": [
+    "PlayStation 3"
+  ],
+  "genre": "adventure",
+  "subgenres": [
+    "interactive-drama"
+  ],
+  "era": "2010s",
+  "shortDescription": "David Cage's branching neo-noir thriller tracking the Origami Killer through four interwoven characters.",
+  "historicalSignificance": "Popularized interactive cinematic drama with consequence-heavy branching where major characters could die.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Heavy_Rain",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "David Cage's branching neo-noir thriller tracking the Origami Killer through four interwoven characters.",
+    "culturalImpact": "Popularized interactive cinematic drama with consequence-heavy branching where major characters could die."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 3"
+    ],
+    "genres": [
+      "adventure"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/e/e4/Heavy_Rain_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/e/e4/Heavy_Rain_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Heavy_Rain",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Heavy Rain",
+    "Quantic Dream",
+    "Sony Computer Entertainment",
+    "PlayStation 3",
+    "adventure",
+    "2010",
+    "2010s",
+    "PlayStation 3",
+    "interactive-drama"
+  ],
+  "url": "/games/heavy-rain/",
+  "featured": false
+}

@@ -1,0 +1,68 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-sly-3-honor-among-thieves",
+  "slug": "sly-3-honor-among-thieves",
+  "title": "Sly 3: Honor Among Thieves",
+  "originalReleaseYear": 2005,
+  "exactReleaseDate": "September 26, 2005",
+  "originalLaunchPlatform": "PlayStation 2",
+  "originalLaunchRegion": "North America",
+  "developer": "Sucker Punch Productions",
+  "publisher": "Sony Computer Entertainment",
+  "platforms": [
+    "PlayStation 2"
+  ],
+  "genre": "platformer",
+  "subgenres": [
+    "stealth",
+    "action-adventure"
+  ],
+  "era": "2000s",
+  "shortDescription": "Final installment of the original PS2 trilogy assembling an expanded crew to breach the Cooper Vault.",
+  "historicalSignificance": "Polished heist mechanics with diverse minigames and multi-character infiltration missions.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Sly_3:_Honor_Among_Thieves",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Final installment of the original PS2 trilogy assembling an expanded crew to breach the Cooper Vault.",
+    "culturalImpact": "Polished heist mechanics with diverse minigames and multi-character infiltration missions."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 2"
+    ],
+    "genres": [
+      "platformer"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/4/4b/Sly_3_Honor_Among_Thieves.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/4/4b/Sly_3_Honor_Among_Thieves.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Sly_3:_Honor_Among_Thieves",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Sly 3: Honor Among Thieves",
+    "Sucker Punch Productions",
+    "Sony Computer Entertainment",
+    "PlayStation 2",
+    "platformer",
+    "2005",
+    "2000s",
+    "PlayStation 2",
+    "stealth",
+    "action-adventure"
+  ],
+  "url": "/games/sly-3-honor-among-thieves/",
+  "featured": false
+}

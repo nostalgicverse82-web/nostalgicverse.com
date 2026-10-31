@@ -1,0 +1,82 @@
+{
+  "id": "game-uncharted-4-a-thief-s-end",
+  "slug": "uncharted-4-a-thief-s-end",
+  "title": "Uncharted 4: A Thief's End",
+  "japaneseTitle": "アンチャーテッド 海賊王と最後の秘宝",
+  "url": "/games/uncharted-4-a-thief-s-end/",
+  "originalReleaseYear": 2016,
+  "exactReleaseDate": "2016-05-10",
+  "developer": "Naughty Dog",
+  "publisher": "Sony Interactive Entertainment",
+  "director": "Neil Druckmann, Bruce Straley",
+  "designer": "Kurt Margenau, Anthony Newman",
+  "composer": "Henry Jackman",
+  "originalLaunchPlatform": "PlayStation 4",
+  "platforms": [
+    "PlayStation 4",
+    "PlayStation 5",
+    "Microsoft Windows"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "Cinematic Platformer",
+    "Third-Person Shooter"
+  ],
+  "era": "2010s",
+  "shortDescription": "Nathan Drake's poignant final globetrotting treasure hunt chasing pirate Henry Avery's lost fortune across Madagascar and Libertalia.",
+  "historicalSignificance": "The pinnacle of cinematic action-adventure storytelling on eighth-generation hardware, selling over 16 million copies and delivering benchmark character animation and vehicular chase physics.",
+  "editorialContent": {
+    "overview": "Retired from dangerous fortune hunting, Nathan Drake is pulled back into the underworld when his presumed-dead brother Sam resurfaces with a lethal debt. Together with Victor Sullivan and Elena Fisher, they track the legendary pirate haven of Libertalia.",
+    "gameplay": "Seamlessly interweaves dynamic rope grappling, sliding slope combat, wide-linear vehicular exploration in Madagascar, and enhanced stealth cover mechanics.",
+    "technicalInnovation": "Showcased unprecedented micro-facial fidelity, cloth wrinkling physics, real-time mud simulation, and seamless in-game cinematics rendered fully in real-time.",
+    "culturalImpact": "Provided a rare definitive, mature, and deeply satisfying conclusion to a flagship gaming protagonist's decade-long saga.",
+    "preservationNotes": "Preserved on PS4 optical media, re-released in the Legacy of Thieves Collection on PS5 and PC."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "May 10, 2016",
+    "leadPlatform": "PlayStation 4",
+    "genre": "action-adventure",
+    "sales": "Over 16 million copies worldwide",
+    "awards": [
+      "The Game Awards Best Narrative 2016",
+      "BAFTA Games Award for Best Game 2017"
+    ],
+    "technicalSpecs": {
+      "engine": "Naughty Dog Proprietary Engine",
+      "resolution": "1080p (PS4) / 1440p (PS4 Pro) / 4K (PS5)",
+      "soundChip": "Dolby Digital 5.1 / 7.1 PCM",
+      "mediaFormat": "Blu-ray Disc"
+    },
+    "relationships": {
+      "primaryConsole": "playstation-4",
+      "developerEntity": "Naughty Dog",
+      "lineage": [
+        "Uncharted 2: Among Thieves",
+        "The Last of Us"
+      ]
+    }
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/1/1a/Uncharted_4_box_artwork.png",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/1/1a/Uncharted_4_box_artwork.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Uncharted_4_box_artwork.png",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "uncharted 4",
+    "nathan drake",
+    "naughty dog",
+    "libertalia",
+    "henry avery",
+    "elena fisher",
+    "sully",
+    "playstation 4",
+    "ps4"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

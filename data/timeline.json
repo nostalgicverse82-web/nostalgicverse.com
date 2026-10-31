@@ -1,0 +1,3515 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "NostalgicVerse Timeline Master Dataset",
+  "description": "Canonical structured source data for chronological milestones, industry turning points, and hardware launches.",
+  "lastUpdated": "2026-09-10",
+  "totalEvents": 91,
+  "events": [
+    {
+      "id": "ev-1971-computer-space",
+      "year": 1971,
+      "date": "1971-11",
+      "era": "1970s",
+      "category": "ARCADE",
+      "title": "Computer Space: The First Commercial Arcade Video Game",
+      "description": "Nolan Bushnell and Ted Dabney design Computer Space for Nutting Associates. Encased in a custom curving fiberglass cabinet, it adapts Steve Russell's 1962 Spacewar! for public coin-operated play.",
+      "significance": "Marked the commercial birth of the coin-operated video game industry.",
+      "relatedConsole": null,
+      "relatedGame": null,
+      "tags": [
+        "arcade",
+        "nolan bushnell",
+        "nutting associates",
+        "first commercial game"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-1972-magnavox-odyssey",
+      "year": 1972,
+      "date": "1972-09",
+      "era": "1970s",
+      "category": "CONSOLE",
+      "title": "Magnavox Odyssey Reaches the Market",
+      "description": "Ralph Baer's 'Brown Box' prototype reaches living rooms through Magnavox as the Odyssey. Operating on discrete analog transistor-diode logic and printed plastic screen overlays, it introduces television gaming.",
+      "significance": "The world's first commercial home video game console, inaugurating Generation I hardware.",
+      "relatedConsole": "magnavox-odyssey",
+      "relatedGame": null,
+      "tags": [
+        "magnavox",
+        "odyssey",
+        "ralph baer",
+        "first generation",
+        "hardware"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-1972-pong-coin-op",
+      "year": 1972,
+      "date": "1972-11-29",
+      "era": "1970s",
+      "category": "ARCADE",
+      "title": "Atari Unveils Pong at Andy Capp's Tavern",
+      "description": "Nolan Bushnell and engineer Al Alcorn test a prototype Pong coin-op cabinet in Sunnyvale, California. Its instant popularity jams the coin mechanism with quarters, launching Atari into legendary prominence.",
+      "significance": "The first commercially blockbuster video game, proving electronic gaming as a mass entertainment phenomenon.",
+      "relatedConsole": null,
+      "relatedGame": null,
+      "tags": [
+        "pong",
+        "atari",
+        "al alcorn",
+        "arcade"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-1974-gran-trak-10",
+      "year": 1974,
+      "date": "1974-05",
+      "era": "1970s",
+      "category": "TECHNOLOGY",
+      "title": "Gran Trak 10 Introduces Silicon ROM Sprites",
+      "description": "Atari releases the single-player racing cabinet Gran Trak 10, engineered with integrated solid-state Read-Only Memory (ROM) semiconductor chips to store graphical character sprites.",
+      "significance": "Pioneered semiconductor ROM sprite storage in gaming, replacing hardwired diode matrices.",
+      "relatedConsole": null,
+      "relatedGame": null,
+      "tags": [
+        "rom",
+        "atari",
+        "racing",
+        "semiconductor"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-1975-home-pong",
+      "year": 1975,
+      "date": "1975-09",
+      "era": "1970s",
+      "category": "HARDWARE",
+      "title": "Atari Home Pong Sells Out via Sears Partnership",
+      "description": "Atari miniaturizes Pong onto a single custom D-MOS LSI microchip. Partnering with Sears Roebuck under the Tele-Games brand, Atari sells 150,000 units during the 1975 holiday season.",
+      "significance": "Established consumer demand for dedicated electronic home console gaming across North America.",
+      "relatedConsole": "home-pong",
+      "relatedGame": null,
+      "tags": [
+        "atari",
+        "pong",
+        "sears",
+        "home console"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-1976-channel-f",
+      "year": 1976,
+      "date": "1976-11",
+      "era": "1970s",
+      "category": "CONSOLE",
+      "title": "Fairchild Channel F Invents the Programmable ROM Cartridge",
+      "description": "Fairchild Camera and Instrument releases the Channel F, engineered by pioneering Black engineer Jerry Lawson. It introduces swappable plastic ROM cartridges ('Videocarts') powered by the Fairchild F8 CPU.",
+      "significance": "Invented the commercial video game cartridge business model, decoupling software publishing from dedicated hardware.",
+      "relatedConsole": "fairchild-channel-f",
+      "relatedGame": null,
+      "tags": [
+        "fairchild",
+        "jerry lawson",
+        "cartridge",
+        "second generation"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-1977-atari-2600",
+      "year": 1977,
+      "date": "1977-09-11",
+      "era": "1970s",
+      "category": "CONSOLE",
+      "title": "Atari 2600 (VCS) Establishes the Living Room Console Era",
+      "description": "Atari launches the Video Computer System featuring a MOS 6507 CPU and CX40 digital joystick. Supported by swappable ROM cartridges, it brings arcade gameplay into millions of households.",
+      "significance": "Defined the Second Generation of video games, becoming the cultural symbol of late 1970s home entertainment.",
+      "relatedConsole": "atari-2600",
+      "relatedGame": null,
+      "tags": [
+        "atari 2600",
+        "vcs",
+        "second generation",
+        "joystick"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-1977-color-tv-game",
+      "year": 1977,
+      "date": "1977-06-01",
+      "era": "1970s",
+      "category": "COMPANY",
+      "title": "Nintendo Enters Video Game Hardware with Color TV-Game",
+      "description": "Nintendo co-develops the Color TV-Game 6 and 15 with Mitsubishi Electric in Japan, marking its transition from playing cards and mechanical toys to electronic entertainment.",
+      "significance": "Marked Nintendo's monumental strategic entry into electronic video game hardware manufacturing.",
+      "relatedConsole": "color-tv-game",
+      "relatedGame": null,
+      "tags": [
+        "nintendo",
+        "color tv-game",
+        "japan",
+        "mitsubishi"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-1978-space-invaders",
+      "year": 1978,
+      "date": "1978-06",
+      "era": "1970s",
+      "category": "ARCADE",
+      "title": "Space Invaders Sparks the Golden Age of Arcades",
+      "description": "Tomohiro Nishikado creates Space Invaders for Taito. Driven by an Intel 8080 CPU, it features descending alien ranks, persistent high scores, and a continuous heartbeat audio tempo.",
+      "significance": "Inaugurated the Golden Age of Arcade Games and turned high-score chasing into an international competitive pastime.",
+      "relatedConsole": null,
+      "relatedGame": null,
+      "tags": [
+        "taito",
+        "space invaders",
+        "tomohiro nishikado",
+        "high score"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-1979-asteroids",
+      "year": 1979,
+      "date": "1979-11",
+      "era": "1970s",
+      "category": "ARCADE",
+      "title": "Atari Ships Asteroids with Vector Display & Initials Leaderboard",
+      "description": "Lyle Rains and Ed Logg design Asteroids for Atari using the QuadraScan vector monitor. Players record three-letter initials for high score preservation, creating enduring arcade rivalry.",
+      "significance": "Atari's bestselling arcade cabinet of all time, standardizing player initials on leaderboard tables.",
+      "relatedConsole": null,
+      "relatedGame": null,
+      "tags": [
+        "asteroids",
+        "atari",
+        "vector graphics",
+        "high score initials"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-1979-activision",
+      "year": 1979,
+      "date": "1979-10-01",
+      "era": "1970s",
+      "category": "INDUSTRY",
+      "title": "Activision Founded as First Independent Third-Party Publisher",
+      "description": "Former Atari game designers David Crane, Larry Kaplan, Alan Miller, and Bob Whitehead leave Atari to found Activision, demanding creator credits and royalties on game boxes.",
+      "significance": "Created the third-party software publishing model, proving independent studios could thrive without hardware manufacturing.",
+      "relatedConsole": null,
+      "relatedGame": null,
+      "tags": [
+        "activision",
+        "third party",
+        "david crane",
+        "publishing"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-1980-pac-man",
+      "year": 1980,
+      "date": "1980-05-22",
+      "era": "1980s",
+      "category": "CULTURE",
+      "title": "Pac-Man Premieres in Tokyo and Becomes a Global Icon",
+      "description": "Toru Iwatani's maze chase game debuts for Namco. With non-violent food-gathering mechanics and four unique ghost AI personalities, it attracts players across all demographics.",
+      "significance": "Gaming's first worldwide pop-culture mascot, generating billions in revenue and international licensing.",
+      "relatedConsole": null,
+      "relatedGame": "pac-man",
+      "tags": [
+        "namco",
+        "pac-man",
+        "toru iwatani",
+        "arcade",
+        "mascot"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-1980-space-invaders-2600",
+      "year": 1980,
+      "date": "1980-01",
+      "era": "1980s",
+      "category": "INDUSTRY",
+      "title": "Space Invaders on Atari 2600 Becomes First Console 'Killer App'",
+      "description": "Atari licenses Taito's Space Invaders for the 2600. The conversion quadruples console hardware sales, turning home video games into a mainstream mass-market obsession.",
+      "significance": "Coined the term 'killer app'—software compelling the purchase of dedicated hardware platforms.",
+      "relatedConsole": "atari-2600",
+      "relatedGame": null,
+      "tags": [
+        "atari 2600",
+        "space invaders",
+        "killer app",
+        "licensing"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-1981-donkey-kong",
+      "year": 1981,
+      "date": "1981-07-09",
+      "era": "1980s",
+      "category": "GAME",
+      "title": "Donkey Kong Establishes Shigeru Miyamoto and Mario",
+      "description": "Nintendo artist Shigeru Miyamoto converts unsold Radar Scope cabinets into Donkey Kong, starring Jumpman (Mario). It establishes story cutscenes and jumping platform gameplay.",
+      "significance": "Invented the narrative platformer and launched Nintendo of America into commercial prosperity.",
+      "relatedConsole": null,
+      "relatedGame": "donkey-kong",
+      "tags": [
+        "donkey kong",
+        "nintendo",
+        "shigeru miyamoto",
+        "mario"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-1982-commodore-64",
+      "year": 1982,
+      "date": "1982-08",
+      "era": "1980s",
+      "category": "HARDWARE",
+      "title": "Commodore 64 Launches with Legendary SID Sound Chip",
+      "description": "Commodore releases the C64 featuring 64KB RAM and the MOS 6581 SID sound synthesizer chip. Aggressive pricing makes it the bestselling single personal computer model in history.",
+      "significance": "Democratized bedroom coding and fostered the thriving European computer gaming scene.",
+      "relatedConsole": null,
+      "relatedGame": null,
+      "tags": [
+        "commodore 64",
+        "sid chip",
+        "home computer",
+        "bedroom coding"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-1982-colecovision",
+      "year": 1982,
+      "date": "1982-08",
+      "era": "1980s",
+      "category": "CONSOLE",
+      "title": "ColecoVision Brings Authentic Arcade Ports to Living Rooms",
+      "description": "Coleco launches ColecoVision bundled with Donkey Kong. Using a Z80A CPU and Texas Instruments graphics, it delivers unprecedented home graphical fidelity.",
+      "significance": "Set the visual high-water mark for Second Generation home consoles prior to the 1983 crash.",
+      "relatedConsole": "colecovision",
+      "relatedGame": "donkey-kong",
+      "tags": [
+        "colecovision",
+        "coleco",
+        "arcade ports"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-1983-the-crash",
+      "year": 1983,
+      "date": "1983-10",
+      "era": "1980s",
+      "category": "MILESTONE",
+      "title": "The North American Video Game Crash of 1983",
+      "description": "Retailer loss of confidence, software shovelware, and competing cheap home computers cause North American console revenues to plummet from $3.2 billion to barely $100 million.",
+      "significance": "Ended the dominance of early American console makers and reset the industry for Japanese architectural governance.",
+      "relatedConsole": null,
+      "relatedGame": null,
+      "tags": [
+        "crash of 1983",
+        "market collapse",
+        "atari",
+        "shovelware"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-1983-famicom-launch",
+      "year": 1983,
+      "date": "1983-07-15",
+      "era": "1980s",
+      "category": "CONSOLE",
+      "title": "Nintendo Launches the Family Computer (Famicom) in Japan",
+      "description": "Masayuki Uemura engineers the Famicom for Nintendo, priced at ¥14,800. Featuring custom Ricoh 2A03 silicon and hardwired controllers with D-pads, it sells out across Japan.",
+      "significance": "Laid the hardware foundation that would resurrect the international video game console market.",
+      "relatedConsole": "nintendo-entertainment-system",
+      "relatedGame": null,
+      "tags": [
+        "famicom",
+        "nintendo",
+        "masayuki uemura",
+        "japan"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-1984-tetris-moscow",
+      "year": 1984,
+      "date": "1984-06-06",
+      "era": "1980s",
+      "category": "GAME",
+      "title": "Alexey Pajitnov Codes Tetris on an Electronika 60 in Moscow",
+      "description": "At the Computing Center of the Soviet Academy of Sciences, researcher Alexey Pajitnov programs Tetris using green ASCII text brackets on an Electronika 60 terminal.",
+      "significance": "Created the defining mathematical puzzle game of human civilization, later sparking historic international licensing battles.",
+      "relatedConsole": null,
+      "relatedGame": "tetris",
+      "tags": [
+        "tetris",
+        "alexey pajitnov",
+        "soviet union",
+        "puzzle"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-1985-nes-ny-test",
+      "year": 1985,
+      "date": "1985-10-18",
+      "era": "1980s",
+      "category": "CONSOLE",
+      "title": "Nintendo Test-Markets the NES in New York City",
+      "description": "Nintendo of America introduces the redesigned Famicom as the Nintendo Entertainment System. Packaged with R.O.B. and the Zapper to resemble home entertainment electronics, it bypasses toy retailer bans.",
+      "significance": "Single-handedly revived consumer retailer confidence and reignited the North American home console market.",
+      "relatedConsole": "nintendo-entertainment-system",
+      "relatedGame": null,
+      "tags": [
+        "nes",
+        "nintendo",
+        "new york",
+        "rob",
+        "10nes"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-1985-super-mario-bros",
+      "year": 1985,
+      "date": "1985-09-13",
+      "era": "1980s",
+      "category": "GAME",
+      "title": "Super Mario Bros. Sets the Grammar of Side-Scrolling Platforming",
+      "description": "Directed by Shigeru Miyamoto and Takashi Tezuka with dynamic audio by Koji Kondo, Super Mario Bros. debuts on Famicom/NES, offering 32 levels of precise jumping physics and secrets.",
+      "significance": "Sold over 40 million copies, establishing the architectural rules of 2D level design and platforming game feel.",
+      "relatedConsole": "nintendo-entertainment-system",
+      "relatedGame": "super-mario-bros",
+      "tags": [
+        "mario",
+        "shigeru miyamoto",
+        "koji kondo",
+        "nes"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-1985-master-system",
+      "year": 1985,
+      "date": "1985-10-20",
+      "era": "1980s",
+      "category": "CONSOLE",
+      "title": "Sega Releases the Mark III (Master System) in Japan",
+      "description": "Sega launches the SG-1000 Mark III with a Z80 CPU and superior color palette to the NES. Later rebranded as the Master System, it finds massive commercial dominance in Europe and Brazil.",
+      "significance": "Established Sega's enduring international home console footprint and began the two-decade rivalry with Nintendo.",
+      "relatedConsole": "sega-master-system",
+      "relatedGame": null,
+      "tags": [
+        "sega",
+        "master system",
+        "mark iii",
+        "third generation"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-1986-zelda-battery-ram",
+      "year": 1986,
+      "date": "1986-02-21",
+      "era": "1980s",
+      "category": "TECHNOLOGY",
+      "title": "The Legend of Zelda Introduces Battery-Backed Save RAM",
+      "description": "Debuting on the Famicom Disk System and later on an NES gold cartridge containing an internal lithium battery, Zelda allows players to save their quest progress persistently without passwords.",
+      "significance": "Freed game design from single-session arcade pacing, enabling sprawling non-linear narrative quests.",
+      "relatedConsole": "nintendo-entertainment-system",
+      "relatedGame": "the-legend-of-zelda",
+      "tags": [
+        "zelda",
+        "battery backup",
+        "ram",
+        "save state"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-1986-dragon-quest",
+      "year": 1986,
+      "date": "1986-05-27",
+      "era": "1980s",
+      "category": "GAME",
+      "title": "Dragon Quest Establishes the Japanese RPG Template",
+      "description": "Yuji Horii, character designer Akira Toriyama, and composer Koichi Sugiyama craft Dragon Quest for Famicom. Merging Wizardry combat with top-down overland exploration.",
+      "significance": "Standardized turn-based combat, menu-driven commands, and episodic storytelling for generations of JRPGs.",
+      "relatedConsole": "nintendo-entertainment-system",
+      "relatedGame": "dragon-quest",
+      "tags": [
+        "dragon quest",
+        "enix",
+        "yuji horii",
+        "akira toriyama",
+        "jrpg"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-1986-metroid-samus",
+      "year": 1986,
+      "date": "1986-08-06",
+      "era": "1980s",
+      "category": "CULTURE",
+      "title": "Metroid Introduces Samus Aran and Non-Linear Isolation",
+      "description": "Nintendo R&D1 releases Metroid on Famicom Disk System. Featuring maze-like backtracking on planet Zebes and revealing protagonist Samus Aran as a woman upon completion.",
+      "significance": "Co-founded the Metroidvania genre and introduced one of the earliest prominent female action heroes in gaming.",
+      "relatedConsole": "nintendo-entertainment-system",
+      "relatedGame": "metroid",
+      "tags": [
+        "metroid",
+        "samus aran",
+        "metroidvania",
+        "female protagonist"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-1987-pc-engine-cd-rom",
+      "year": 1987,
+      "date": "1987-10-30",
+      "era": "1980s",
+      "category": "MEDIA",
+      "title": "PC Engine Launches and Pioneers Console CD-ROM Optical Media",
+      "description": "NEC and Hudson Soft release the PC Engine in Japan. In 1988, they release the CD-ROM² peripheral, the world's first CD-ROM optical drive add-on for a video game console.",
+      "significance": "Inaugurated optical media in home gaming, proving CD storage capacity for orchestral audio and voiced cinema.",
+      "relatedConsole": "turbografx-16",
+      "relatedGame": null,
+      "tags": [
+        "nec",
+        "pc engine",
+        "cd-rom",
+        "optical media"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-1987-final-fantasy",
+      "year": 1987,
+      "date": "1987-12-18",
+      "era": "1980s",
+      "category": "GAME",
+      "title": "Final Fantasy Rescues Square and Launches an Empire",
+      "description": "Hironobu Sakaguchi and Square release Final Fantasy on Famicom as a last-ditch effort before potential insolvency. Its four Warriors of Light and Nobuo Uematsu music spawn a global phenomenon.",
+      "significance": "Saved Square from bankruptcy and established one of gaming's most celebrated role-playing anthologies.",
+      "relatedConsole": "nintendo-entertainment-system",
+      "relatedGame": "final-fantasy",
+      "tags": [
+        "final fantasy",
+        "square",
+        "hironobu sakaguchi",
+        "nobuo uematsu"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-1988-sega-genesis",
+      "year": 1988,
+      "date": "1988-10-29",
+      "era": "1980s",
+      "category": "CONSOLE",
+      "title": "Sega Mega Drive (Genesis) Launches the 16-Bit Era",
+      "description": "Sega launches the 16-bit Mega Drive in Japan. Powered by a Motorola 68000 CPU @ 7.6 MHz, it brings genuine System 16 arcade titles directly to home television screens.",
+      "significance": "Ignited the intense 16-bit console war and broke Nintendo's near-monopoly in Western markets.",
+      "relatedConsole": "sega-genesis",
+      "relatedGame": null,
+      "tags": [
+        "sega",
+        "genesis",
+        "mega drive",
+        "16-bit",
+        "68000"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-1989-game-boy-phenomenon",
+      "year": 1989,
+      "date": "1989-04-21",
+      "era": "1980s",
+      "category": "CONSOLE",
+      "title": "Nintendo Game Boy Bundled with Tetris Shakes the World",
+      "description": "Gunpei Yokoi's monochrome Game Boy launches in Japan and North America bundled with Tetris. Its 30-hour battery life and social Link Cable gameplay create an unstoppable cultural force.",
+      "significance": "Sold 118 million units and established portable handheld gaming as a permanent pillar of the industry.",
+      "relatedConsole": "game-boy",
+      "relatedGame": "tetris",
+      "tags": [
+        "game boy",
+        "gunpei yokoi",
+        "nintendo",
+        "tetris",
+        "handheld"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-1989-simcity",
+      "year": 1989,
+      "date": "1989-02-02",
+      "era": "1980s",
+      "category": "GAME",
+      "title": "SimCity Introduces Systems-Thinking Simulation",
+      "description": "Will Wright and Maxis release SimCity for Macintosh and Amiga. Featuring open-ended urban planning without explicit win-or-lose states, it proves commercial viability for simulation games.",
+      "significance": "Founded the systems simulation genre, demonstrating games could function as creative architectural sandboxes.",
+      "relatedConsole": null,
+      "relatedGame": "simcity",
+      "tags": [
+        "simcity",
+        "will wright",
+        "maxis",
+        "simulation"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-1989-prince-of-persia",
+      "year": 1989,
+      "date": "1989-10-03",
+      "era": "1980s",
+      "category": "TECHNOLOGY",
+      "title": "Prince of Persia Pioneers Rotoscoped Cinematic Animation",
+      "description": "Jordan Mechner films his teenage brother running and jumping, then traces the frames via rotoscoping for Prince of Persia on Apple II, achieving astonishingly lifelike human locomotion.",
+      "significance": "Invented the cinematic platformer and advanced digital character animation realism by decades.",
+      "relatedConsole": null,
+      "relatedGame": "prince-of-persia",
+      "tags": [
+        "prince of persia",
+        "jordan mechner",
+        "rotoscoping",
+        "cinematic platformer"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-1990-super-famicom",
+      "year": 1990,
+      "date": "1990-11-21",
+      "era": "1990s",
+      "category": "CONSOLE",
+      "title": "Super Famicom Launches in Japan with Unprecedented Demand",
+      "description": "Nintendo launches the 16-bit Super Famicom with Super Mario World. Crowds of 1.5 million storm Japanese retailers, prompting the government to request weekend-only hardware launches.",
+      "significance": "Solidified 16-bit gaming with custom Mode 7 scaling, Sony 8-channel stereo audio, and L/R shoulder triggers.",
+      "relatedConsole": "super-nintendo-entertainment-system",
+      "relatedGame": "super-mario-world",
+      "tags": [
+        "snes",
+        "super famicom",
+        "mode 7",
+        "mario world"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-1990-neo-geo-aes",
+      "year": 1990,
+      "date": "1990-04-26",
+      "era": "1990s",
+      "category": "HARDWARE",
+      "title": "SNK Releases Neo Geo AES: Pure Arcade Silicon at Home",
+      "description": "SNK commercializes its MVS arcade hardware as the luxury Neo Geo AES console. Costing $650 with massive 330-megabit cartridges costing $200 each, it delivers identical arcade ROM boards.",
+      "significance": "The most powerful 2D platform of its era, proving home consoles could execute uncompromised arcade silicon.",
+      "relatedConsole": "neo-geo-aes",
+      "relatedGame": null,
+      "tags": [
+        "neo geo",
+        "snk",
+        "aes",
+        "arcade perfection"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-1991-sonic-genesis",
+      "year": 1991,
+      "date": "1991-06-23",
+      "era": "1990s",
+      "category": "GAME",
+      "title": "Sonic the Hedgehog Drives Sega Genesis Past Nintendo",
+      "description": "Yuji Naka and Naoto Ohshima create Sonic the Hedgehog. Bundled free with Genesis in North America, Tom Kalinske's 'Genesis Does What Nintendon't' campaign propels Sega to 65% market share.",
+      "significance": "Demonstrated that attitude, high-speed physics, and smart packaging could dethrone an industry titan.",
+      "relatedConsole": "sega-genesis",
+      "relatedGame": "sonic-the-hedgehog",
+      "tags": [
+        "sega",
+        "sonic",
+        "yuji naka",
+        "console wars"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-1991-street-fighter-2",
+      "year": 1991,
+      "date": "1991-02-06",
+      "era": "1990s",
+      "category": "ARCADE",
+      "title": "Street Fighter II Ignites the 1990s Arcade Renaissance",
+      "description": "Capcom releases Street Fighter II on CP System arcade hardware. Its 8 diverse world warriors, complex motion inputs (hadouken), and emergent combo canceling revolutionize competitive gaming.",
+      "significance": "Single-handedly revitalized international arcades and laid the foundation for modern global esports tournaments.",
+      "relatedConsole": null,
+      "relatedGame": "street-fighter-ii-the-world-warrior",
+      "tags": [
+        "capcom",
+        "street fighter ii",
+        "esports",
+        "fighting games"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-1991-zelda-link-to-past",
+      "year": 1991,
+      "date": "1991-11-21",
+      "era": "1990s",
+      "category": "GAME",
+      "title": "A Link to the Past Perfects Top-Down Adventure Design",
+      "description": "Nintendo releases Link's third adventure on Super Famicom. Introducing parallel Light and Dark worlds, multi-floor puzzle dungeons, and the Master Sword.",
+      "significance": "Widely regarded as the pinnacle of 16-bit action-adventure design, setting the template for dual-world mechanics.",
+      "relatedConsole": "super-nintendo-entertainment-system",
+      "relatedGame": "the-legend-of-zelda-a-link-to-the-past",
+      "tags": [
+        "zelda",
+        "snes",
+        "a link to the past",
+        "level design"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-1992-mortal-kombat",
+      "year": 1992,
+      "date": "1992-10-08",
+      "era": "1990s",
+      "category": "CULTURE",
+      "title": "Mortal Kombat Sparks Senate Hearings on Video Game Violence",
+      "description": "Midway's digitized martial arts fighter features brutal spine-ripping Fatalities. Its nationwide uproar leads to 1993 US Senate hearings led by Senators Joe Lieberman and Herb Kohl.",
+      "significance": "Directly forced the video game industry to establish the Entertainment Software Rating Board (ESRB) in 1994.",
+      "relatedConsole": null,
+      "relatedGame": "mortal-kombat",
+      "tags": [
+        "mortal kombat",
+        "midway",
+        "senate hearings",
+        "esrb",
+        "violence"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-1993-doom-shareware",
+      "year": 1993,
+      "date": "1993-12-10",
+      "era": "1990s",
+      "category": "TECHNOLOGY",
+      "title": "Doom Revolutionizes 3D PC Graphics, LANs & Modding",
+      "description": "John Carmack and John Romero at id Software upload Doom to university servers. Its binary space partitioning 3D engine, networked deathmatches, and shareware distribution reshape computing.",
+      "significance": "Codified the first-person shooter genre, decentralized software modding via WAD files, and overwhelmed university networks.",
+      "relatedConsole": null,
+      "relatedGame": "doom",
+      "tags": [
+        "id software",
+        "doom",
+        "john carmack",
+        "fps",
+        "shareware"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-1993-3do-launch",
+      "year": 1993,
+      "date": "1993-10-04",
+      "era": "1990s",
+      "category": "CONSOLE",
+      "title": "3DO Attempts Open Hardware Licensing Model",
+      "description": "EA founder Trip Hawkins launches the 3DO Interactive Multiplayer, manufactured by Panasonic. Rather than collecting console royalties, 3DO licenses the hardware specifications openly.",
+      "significance": "Pioneered open multimedia appliance licensing, though a prohibitive $699 launch price doomed its consumer adoption.",
+      "relatedConsole": "3do-interactive-multiplayer",
+      "relatedGame": null,
+      "tags": [
+        "3do",
+        "trip hawkins",
+        "panasonic",
+        "hardware licensing"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-1994-super-metroid",
+      "year": 1994,
+      "date": "1994-03-19",
+      "era": "1990s",
+      "category": "GAME",
+      "title": "Super Metroid Masterminds Atmospheric Environmental Storytelling",
+      "description": "Yoshio Sakamoto's 24-megabit masterwork releases on Super Nintendo. Rejecting intrusive text tutorials, it communicates navigation entirely through environmental geometry, sound, and mood.",
+      "significance": "The gold standard of non-verbal tutorialization and non-linear sequence-breaking exploration.",
+      "relatedConsole": "super-nintendo-entertainment-system",
+      "relatedGame": "super-metroid",
+      "tags": [
+        "super metroid",
+        "snes",
+        "environmental storytelling",
+        "metroidvania"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-1994-esrb-founded",
+      "year": 1994,
+      "date": "1994-09-16",
+      "era": "1990s",
+      "category": "INDUSTRY",
+      "title": "ESRB Self-Regulatory Rating System Established",
+      "description": "To prevent federal government censorship following congressional scrutiny, the Interactive Digital Software Association creates the Entertainment Software Rating Board.",
+      "significance": "Preserved creative software expression through transparent self-regulated age-rating classifications.",
+      "relatedConsole": null,
+      "relatedGame": null,
+      "tags": [
+        "esrb",
+        "ratings",
+        "industry governance",
+        "censorship"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-1994-playstation-japan",
+      "year": 1994,
+      "date": "1994-12-03",
+      "era": "1990s",
+      "category": "CONSOLE",
+      "title": "Sony Launches PlayStation in Japan",
+      "description": "Ken Kutaragi's Sony Computer Entertainment launches the 32-bit PlayStation. Engineered specifically for 3D polygon geometry transformation and inexpensive CD-ROM disc pressing.",
+      "significance": "Shifted the center of gaming gravity from silicon cartridges to optical media, establishing Sony's hardware reign.",
+      "relatedConsole": "playstation",
+      "relatedGame": null,
+      "tags": [
+        "sony",
+        "playstation",
+        "ken kutaragi",
+        "cd-rom",
+        "fifth generation"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-1994-donkey-kong-country",
+      "year": 1994,
+      "date": "1994-11-18",
+      "era": "1990s",
+      "category": "TECHNOLOGY",
+      "title": "Rare Pushes Pre-Rendered SGI Graphics in Donkey Kong Country",
+      "description": "British studio Rare utilizes Silicon Graphics workstations to pre-render 3D models into 16-bit SNES sprites. Selling nine million cartridges, it proves 16-bit hardware could rival 32-bit machines.",
+      "significance": "Demonstrated that cutting-edge workstation pre-rendering could extend 16-bit console lifecycles against 32-bit rivals.",
+      "relatedConsole": "super-nintendo-entertainment-system",
+      "relatedGame": "donkey-kong-country",
+      "tags": [
+        "rare",
+        "donkey kong country",
+        "sgi",
+        "pre-rendered graphics"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-1995-e3-expo-299",
+      "year": 1995,
+      "date": "1995-05-11",
+      "era": "1990s",
+      "category": "INDUSTRY",
+      "title": "Inaugural E3 & Sony's Historic '$299' Keynote Mic Drop",
+      "description": "The first Electronic Entertainment Expo opens in Los Angeles. Following Sega's surprise $399 Saturn announcement, Sony's Steve Race takes the podium, utters '$299', and walks off to thunderous applause.",
+      "significance": "Cemented E3 as the global focal point for video game reveals and executed the most decisive pricing ambush in console history.",
+      "relatedConsole": "playstation",
+      "relatedGame": null,
+      "tags": [
+        "e3",
+        "los angeles",
+        "playstation 299",
+        "steve race"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-1996-super-mario-64",
+      "year": 1996,
+      "date": "1996-06-23",
+      "era": "1990s",
+      "category": "GAME",
+      "title": "Super Mario 64 Invents the Camera Grammar of 3D Play",
+      "description": "Launching with the Nintendo 64, Shigeru Miyamoto's Super Mario 64 pairs an analog thumbstick with a dynamic floating orbital camera (Lakitu), establishing open sandbox traversal.",
+      "significance": "Wrote the grammatical rulebook for spatial 3D control and third-person camera orientation in gaming.",
+      "relatedConsole": "nintendo-64",
+      "relatedGame": "super-mario-64",
+      "tags": [
+        "nintendo 64",
+        "mario 64",
+        "analog stick",
+        "3d camera"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-1996-pokemon-craze",
+      "year": 1996,
+      "date": "1996-02-27",
+      "era": "1990s",
+      "category": "GAME",
+      "title": "Pocket Monsters Red and Green Launch in Japan",
+      "description": "Satoshi Tajiri and Game Freak release Pokémon on Game Boy after six years of grueling development. Using the Link Cable to trade monsters, word of mouth turns it into a worldwide cultural mania.",
+      "significance": "Spawned the highest-grossing entertainment multimedia franchise in human history.",
+      "relatedConsole": "game-boy",
+      "relatedGame": "pokemon-red-pokemon-blue",
+      "tags": [
+        "pokemon",
+        "game freak",
+        "satoshi tajiri",
+        "game boy"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-1996-resident-evil-birth",
+      "year": 1996,
+      "date": "1996-03-22",
+      "era": "1990s",
+      "category": "GAME",
+      "title": "Resident Evil Coins the 'Survival Horror' Genre",
+      "description": "Shinji Mikami and Capcom release Resident Evil on PlayStation. Combining fixed cinematic camera angles, pre-rendered Spencer Mansion backdrops, limited ink-ribbon saves, and inventory anxiety.",
+      "significance": "Coined the term 'Survival Horror' and established the design grammar of psychological dread and resource scarcity.",
+      "relatedConsole": "playstation",
+      "relatedGame": "resident-evil",
+      "tags": [
+        "resident evil",
+        "capcom",
+        "shinji mikami",
+        "survival horror"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-1997-final-fantasy-vii",
+      "year": 1997,
+      "date": "1997-01-31",
+      "era": "1990s",
+      "category": "GAME",
+      "title": "Final Fantasy VII Propels Cinematic Gaming Worldwide",
+      "description": "Square breaks its historic exclusivity with Nintendo to release Final Fantasy VII across three CD-ROMs on PlayStation. Combining pre-rendered CGI cutscenes with 3D polygon combat.",
+      "significance": "Mainstreamed Japanese RPGs globally and cemented Sony's PlayStation as the uncontested market leader.",
+      "relatedConsole": "playstation",
+      "relatedGame": "final-fantasy-vii",
+      "tags": [
+        "final fantasy vii",
+        "square",
+        "playstation",
+        "cinematic gaming"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-1997-goldeneye-007",
+      "year": 1997,
+      "date": "1997-08-25",
+      "era": "1990s",
+      "category": "GAME",
+      "title": "GoldenEye 007 Establishes 4-Player Console FPS Multi",
+      "description": "Rare's team, directed by Martin Hollis, crafts GoldenEye 007 for the Nintendo 64. Adding a last-minute four-player split-screen multiplayer mode and locational hit damage.",
+      "significance": "Proved first-person shooters could succeed brilliantly on home consoles with couch multiplayer.",
+      "relatedConsole": "nintendo-64",
+      "relatedGame": "goldeneye-007",
+      "tags": [
+        "rare",
+        "goldeneye 007",
+        "nintendo 64",
+        "fps",
+        "split-screen"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-1998-zelda-ocarina-of-time",
+      "year": 1998,
+      "date": "1998-11-21",
+      "era": "1990s",
+      "category": "GAME",
+      "title": "The Legend of Zelda: Ocarina of Time Invents Z-Targeting",
+      "description": "Nintendo releases Ocarina of Time on N64. To solve the disorientation of 3D sword combat, director Toru Osawa devises Z-targeting lock-on alongside context-sensitive action buttons.",
+      "significance": "Universally adopted as the standard targeting mechanic across third-person 3D action games.",
+      "relatedConsole": "nintendo-64",
+      "relatedGame": "the-legend-of-zelda-ocarina-of-time",
+      "tags": [
+        "ocarina of time",
+        "zelda",
+        "z-targeting",
+        "nintendo 64"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-1998-metal-gear-solid",
+      "year": 1998,
+      "date": "1998-09-03",
+      "era": "1990s",
+      "category": "GAME",
+      "title": "Metal Gear Solid Merges Hollywood Cinema & Game Mechanics",
+      "description": "Hideo Kojima's tactical espionage masterwork uses real-time 3D rendered cutscenes, cinematic camera angles, professional voice casting, and fourth-wall psycho-sensory mechanics.",
+      "significance": "Pioneered modern cinematic video game storytelling and adult geopolitical themes in interactive entertainment.",
+      "relatedConsole": "playstation",
+      "relatedGame": "metal-gear-solid",
+      "tags": [
+        "metal gear solid",
+        "hideo kojima",
+        "konami",
+        "stealth",
+        "cinematic"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-1998-dreamcast-online",
+      "year": 1998,
+      "date": "1998-11-27",
+      "era": "1990s",
+      "category": "CONSOLE",
+      "title": "Sega Dreamcast Launches with Standard Built-In Modem",
+      "description": "Sega releases the Dreamcast in Japan, kicking off Generation VI. Featuring a 200 MHz Hitachi SH-4 CPU, PowerVR2 graphics, Visual Memory Units, and a built-in modular 56k dial-up modem.",
+      "significance": "The first home console with out-of-the-box online internet connectivity, hosting early console online play.",
+      "relatedConsole": "dreamcast",
+      "relatedGame": null,
+      "tags": [
+        "sega",
+        "dreamcast",
+        "sixth generation",
+        "online modem"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-2000-playstation-2",
+      "year": 2000,
+      "date": "2000-03-04",
+      "era": "2000s",
+      "category": "CONSOLE",
+      "title": "PlayStation 2 Launches & Transforms DVD Adoption",
+      "description": "Sony releases the PS2 powered by the 128-bit Emotion Engine. Priced at $299 with built-in DVD movie playback, it proves cheaper than standalone DVD players while offering backward compatibility.",
+      "significance": "Became the bestselling video game console in history with over 155 million units sold over 13 years.",
+      "relatedConsole": "playstation-2",
+      "relatedGame": null,
+      "tags": [
+        "ps2",
+        "playstation 2",
+        "sony",
+        "dvd",
+        "emotion engine"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-2000-the-sims",
+      "year": 2000,
+      "date": "2000-02-04",
+      "era": "2000s",
+      "category": "CULTURE",
+      "title": "The Sims Expands Gaming to New Demographics",
+      "description": "Will Wright and Maxis release The Sims on PC. Simulating domestic suburban daily life, interpersonal drama, and interior decoration, it becomes the bestselling PC franchise of its era.",
+      "significance": "Proved that everyday human emotional simulation could dramatically out-earn traditional combat games.",
+      "relatedConsole": null,
+      "relatedGame": "the-sims",
+      "tags": [
+        "the sims",
+        "will wright",
+        "maxis",
+        "demographics"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-2000-deus-ex",
+      "year": 2000,
+      "date": "2000-06-23",
+      "era": "2000s",
+      "category": "GAME",
+      "title": "Deus Ex Codifies the Modern Immersive Sim",
+      "description": "Warren Spector and Harvey Smith at Ion Storm deliver Deus Ex. Offering emergent problem-solving across hacking, stealth, dialogue, and lethal force in a reactive cyberpunk dystopia.",
+      "significance": "The high-water mark for player agency, setting the philosophical baseline for systemic immersive sims.",
+      "relatedConsole": null,
+      "relatedGame": "deus-ex",
+      "tags": [
+        "deus ex",
+        "warren spector",
+        "ion storm",
+        "immersive sim"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-2001-gta-iii",
+      "year": 2001,
+      "date": "2001-10-22",
+      "era": "2000s",
+      "category": "GAME",
+      "title": "Grand Theft Auto III Pioneers the 3D Open World",
+      "description": "DMA Design (Rockstar North) transitions Grand Theft Auto into a fully realized 3D Liberty City. Featuring total player agency, driving physics, pedestrian AI, and satirical radio stations.",
+      "significance": "Established the template for modern open-world game design and shifted industry prestige toward adult narratives.",
+      "relatedConsole": "playstation-2",
+      "relatedGame": "grand-theft-auto-iii",
+      "tags": [
+        "gta iii",
+        "rockstar",
+        "open world",
+        "liberty city"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-2001-xbox-and-halo",
+      "year": 2001,
+      "date": "2001-11-15",
+      "era": "2000s",
+      "category": "CONSOLE",
+      "title": "Microsoft Enters Console Arena with Xbox and Halo",
+      "description": "Microsoft launches the Xbox console, featuring an internal 8GB hard drive, Intel Pentium III CPU, and ethernet port. Launch title Halo: Combat Evolved by Bungie reinvents console twin-stick shooting.",
+      "significance": "Proved an American company could challenge Japanese console dominance and established modern console FPS control standards.",
+      "relatedConsole": "xbox",
+      "relatedGame": "halo-combat-evolved",
+      "tags": [
+        "microsoft",
+        "xbox",
+        "halo",
+        "bungie",
+        "master chief"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-2001-gamecube-release",
+      "year": 2001,
+      "date": "2001-09-14",
+      "era": "2000s",
+      "category": "CONSOLE",
+      "title": "Nintendo GameCube Debuts with Zero-Latency 1T-SRAM",
+      "description": "Nintendo releases the compact indigo GameCube, designed by Shigeru Miyamoto and powered by an IBM PowerPC 'Gekko' CPU and sub-millisecond 1T-SRAM memory architecture.",
+      "significance": "Created one of the most revered ergonomic controllers in history, remaining an enduring grassroots esports standard.",
+      "relatedConsole": "gamecube",
+      "relatedGame": "super-smash-bros-melee",
+      "tags": [
+        "gamecube",
+        "nintendo",
+        "gekko",
+        "melee"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-2002-xbox-live",
+      "year": 2002,
+      "date": "2002-11-15",
+      "era": "2000s",
+      "category": "ONLINE",
+      "title": "Xbox Live Launches Unified Console Online Network",
+      "description": "Microsoft rolls out the Xbox Live broadband network. Introducing universal Gamertags, friends lists, unified matchmaking, and headset voice chat with the Xbox Communicator.",
+      "significance": "Standardized the infrastructure and social architecture for all modern console online multiplayer gaming.",
+      "relatedConsole": "xbox",
+      "relatedGame": null,
+      "tags": [
+        "xbox live",
+        "gamertag",
+        "broadband",
+        "online gaming"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-2003-steam-launches",
+      "year": 2003,
+      "date": "2003-09-12",
+      "era": "2000s",
+      "category": "ONLINE",
+      "title": "Valve Launches Steam Digital Distribution Platform",
+      "description": "Valve releases the Steam client initially as an automatic updating tool for Counter-Strike. It soon opens to third-party digital game distribution, friend messaging, and cloud saves.",
+      "significance": "Transformed PC gaming from declining brick-and-mortar retail into the dominant digital storefront ecosystem.",
+      "relatedConsole": null,
+      "relatedGame": null,
+      "tags": [
+        "steam",
+        "valve",
+        "digital storefront",
+        "pc gaming"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-2004-nintendo-ds",
+      "year": 2004,
+      "date": "2004-11-21",
+      "era": "2000s",
+      "category": "CONSOLE",
+      "title": "Nintendo DS Introduces Dual-Screen Touch Gaming",
+      "description": "Nintendo launches the DS handheld featuring dual LCD screens, bottom resistive touchscreen, microphone, and Wi-Fi. Under Satoru Iwata's vision, titles like Brain Age appeal across age boundaries.",
+      "significance": "Anticipated modern capacitive touchscreen mobile interfaces and sold over 154 million units worldwide.",
+      "relatedConsole": "nintendo-ds",
+      "relatedGame": null,
+      "tags": [
+        "nintendo ds",
+        "touchscreen",
+        "satoru iwata",
+        "handheld"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-2004-world-of-warcraft",
+      "year": 2004,
+      "date": "2004-11-23",
+      "era": "2000s",
+      "category": "ONLINE",
+      "title": "World of Warcraft Mainstreams MMORPG Culture",
+      "description": "Blizzard Entertainment launches World of Warcraft. Combining accessible solo questing with massive 40-player guild raids across seamless Azeroth, it surpasses 12 million active monthly subscribers.",
+      "significance": "Turned massively multiplayer online gaming into a mainstream global social phenomenon.",
+      "relatedConsole": null,
+      "relatedGame": "world-of-warcraft",
+      "tags": [
+        "world of warcraft",
+        "blizzard",
+        "mmorpg",
+        "azeroth"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-2004-half-life-2",
+      "year": 2004,
+      "date": "2004-11-16",
+      "era": "2000s",
+      "category": "TECHNOLOGY",
+      "title": "Half-Life 2 Revolutionizes Environmental Physics",
+      "description": "Valve releases Half-Life 2 powered by the Source engine. Introducing realistic Havok-based rigid-body physics manipulated directly in gameplay via the iconic Gravity Gun.",
+      "significance": "Made interactive real-time physical simulation an integral mechanism of puzzle solving and combat.",
+      "relatedConsole": null,
+      "relatedGame": "half-life-2",
+      "tags": [
+        "half-life 2",
+        "physics",
+        "source engine",
+        "gravity gun"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-2005-resident-evil-4",
+      "year": 2005,
+      "date": "2005-01-11",
+      "era": "2000s",
+      "category": "GAME",
+      "title": "Resident Evil 4 Invents the Over-the-Shoulder Camera",
+      "description": "Shinji Mikami reinvents Resident Evil on GameCube. Placing the camera tightly over Leon S. Kennedy's shoulder with precision laser aiming, it transforms action pacing.",
+      "significance": "Became the universal camera perspective standard for virtually all third-person shooters and action blockbusters.",
+      "relatedConsole": "gamecube",
+      "relatedGame": "resident-evil-4",
+      "tags": [
+        "resident evil 4",
+        "over the shoulder",
+        "shinji mikami",
+        "camera"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-2005-shadow-of-colossus",
+      "year": 2005,
+      "date": "2005-10-18",
+      "era": "2000s",
+      "category": "CULTURE",
+      "title": "Shadow of the Colossus Champions Video Games as Art",
+      "description": "Fumito Ueda and Team Ico craft Shadow of the Colossus on PS2. Stripping away towns, dungeons, and dialogue, Wander scales 16 magnificent, melancholic colossi in moral ambiguity.",
+      "significance": "Universally cited in cultural, academic, and legal circles as conclusive proof of video games as fine art.",
+      "relatedConsole": "playstation-2",
+      "relatedGame": "shadow-of-the-colossus",
+      "tags": [
+        "team ico",
+        "fumito ueda",
+        "games as art",
+        "minimalism"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-2005-xbox-360",
+      "year": 2005,
+      "date": "2005-11-22",
+      "era": "2000s",
+      "category": "CONSOLE",
+      "title": "Xbox 360 Launches the High-Definition Era & Achievements",
+      "description": "Microsoft beats competitors to Generation VII by launching the Xbox 360. Featuring 720p/1080i HD output, universal Gamerscore Achievements, and digital indie platform Xbox Live Arcade (XBLA).",
+      "significance": "Standardized modern console HD gaming, persistent online profile achievements, and digital indie publishing.",
+      "relatedConsole": "xbox-360",
+      "relatedGame": null,
+      "tags": [
+        "xbox 360",
+        "microsoft",
+        "hd",
+        "achievements",
+        "xbla"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-2006-wii-motion",
+      "year": 2006,
+      "date": "2006-11-19",
+      "era": "2000s",
+      "category": "CONSOLE",
+      "title": "Nintendo Wii Launches Motion-Controlled 'Blue Ocean' Wave",
+      "description": "Rejecting the expensive HD horsepower race, Nintendo launches the Wii with the motion-sensing Wii Remote. Bundled with Wii Sports, it becomes a global sensation across retirement homes and dorms.",
+      "significance": "Democratized interactive gaming across non-traditional demographics, selling over 101 million consoles.",
+      "relatedConsole": "wii",
+      "relatedGame": null,
+      "tags": [
+        "wii",
+        "nintendo",
+        "motion control",
+        "wii sports",
+        "blue ocean"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-2006-playstation-3",
+      "year": 2006,
+      "date": "2006-11-11",
+      "era": "2000s",
+      "category": "CONSOLE",
+      "title": "PlayStation 3 Introduces Cell Architecture & Blu-ray",
+      "description": "Sony launches the PS3 featuring the complex 3.2 GHz Cell Broadband Engine and an integrated Blu-ray Disc player. Despite a steep $599 launch price, it wins the high-def disc format war over HD-DVD.",
+      "significance": "Established Blu-ray as the global physical HD media standard and laid the groundwork for Sony's narrative blockbuster studios.",
+      "relatedConsole": "playstation-3",
+      "relatedGame": null,
+      "tags": [
+        "ps3",
+        "playstation 3",
+        "sony",
+        "blu-ray",
+        "cell engine"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-2007-call-of-duty-4",
+      "year": 2007,
+      "date": "2007-11-05",
+      "era": "2000s",
+      "category": "GAME",
+      "title": "Modern Warfare Codifies Persistent Online FPS Progression",
+      "description": "Infinity Ward releases Call of Duty 4: Modern Warfare. Introducing persistent multi-level player progression, custom class creation, unlockable weapon perks, and killstreak rewards.",
+      "significance": "Reshaped the multiplayer loop across the entire action genre for the subsequent two decades.",
+      "relatedConsole": null,
+      "relatedGame": "call-of-duty-4-modern-warfare",
+      "tags": [
+        "call of duty",
+        "infinity ward",
+        "multiplayer progression",
+        "fps"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-2008-app-store",
+      "year": 2008,
+      "date": "2008-07-10",
+      "era": "2000s",
+      "category": "INDUSTRY",
+      "title": "Apple Launches the iOS App Store",
+      "description": "Apple introduces the third-party App Store on iPhone OS 2. Low development barriers, capacitive multi-touch displays, and 99-cent microtransactions ignite a mobile gaming explosion.",
+      "significance": "Transformed smartphones into the largest gaming platform by user count and revenue on Earth.",
+      "relatedConsole": null,
+      "relatedGame": null,
+      "tags": [
+        "apple",
+        "iphone",
+        "app store",
+        "mobile gaming"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-2011-minecraft-launch",
+      "year": 2011,
+      "date": "2011-11-18",
+      "era": "2010s",
+      "category": "GAME",
+      "title": "Minecraft Launches and Redefines Digital Literacy",
+      "description": "Markus 'Notch' Persson and Mojang officially release Minecraft out of beta. Its voxel-based procedural sandbox affords limitless construction, redstone computational engineering, and survival.",
+      "significance": "Became the bestselling video game in human history with over 300 million copies sold, teaching systems-thinking globally.",
+      "relatedConsole": null,
+      "relatedGame": "minecraft",
+      "tags": [
+        "minecraft",
+        "mojang",
+        "notch",
+        "sandbox",
+        "bestselling"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-2011-dark-souls",
+      "year": 2011,
+      "date": "2011-09-22",
+      "era": "2010s",
+      "category": "GAME",
+      "title": "Dark Souls Spawns the Soulslike Genre",
+      "description": "Hidetaka Miyazaki and FromSoftware release Dark Souls. Rejecting modern hand-holding, it challenges players through punishing combat discipline, interconnected vertical level design, and diegetic phantoms.",
+      "significance": "Birthed the 'Soulslike' genre and revitalized demand for deliberate, unforgiving game challenge.",
+      "relatedConsole": null,
+      "relatedGame": "dark-souls",
+      "tags": [
+        "fromsoftware",
+        "dark souls",
+        "hidetaka miyazaki",
+        "soulslike"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-2011-skyrim-launch",
+      "year": 2011,
+      "date": "2011-11-11",
+      "era": "2010s",
+      "category": "GAME",
+      "title": "The Elder Scrolls V: Skyrim Sets Open-World Benchmark",
+      "description": "Bethesda Game Studios releases Skyrim. Offering an unconstrained living fantasy landscape across snow-capped northern mountains, radiant AI quests, and expansive modding support.",
+      "significance": "Defined 2010s open-world fantasy exploration and became an enduring multi-generational cultural staple.",
+      "relatedConsole": null,
+      "relatedGame": "the-elder-scrolls-v-skyrim",
+      "tags": [
+        "skyrim",
+        "bethesda",
+        "todd howard",
+        "open world rpg"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-2011-twitch-launch",
+      "year": 2011,
+      "date": "2011-06-06",
+      "era": "2010s",
+      "category": "ONLINE",
+      "title": "Twitch Launches and Makes Game Streaming a Global Career",
+      "description": "Justin.tv spins off its gaming broadcasting section as Twitch.tv. Providing low-latency live streaming, chat emotes, and creator subscriptions, it reshapes video game marketing.",
+      "significance": "Turned game streaming and live broadcasting into a primary medium for esports, community building, and game discovery.",
+      "relatedConsole": null,
+      "relatedGame": null,
+      "tags": [
+        "twitch",
+        "streaming",
+        "esports",
+        "content creation"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-2012-kickstarter-indie-boom",
+      "year": 2012,
+      "date": "2012-03",
+      "era": "2010s",
+      "category": "INDUSTRY",
+      "title": "Crowdfunding Sparks Independent Video Game Renaissance",
+      "description": "Double Fine Adventure raises $3.3 million on Kickstarter, shattering records. A tidal wave of independent auteur projects follows, including Pillars of Eternity, Shovel Knight, and Undertale.",
+      "significance": "Demonstrated that creators could bypass corporate publisher gatekeepers through direct audience crowdfunding.",
+      "relatedConsole": null,
+      "relatedGame": null,
+      "tags": [
+        "kickstarter",
+        "crowdfunding",
+        "indie games",
+        "double fine"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-2013-ps4-xbox-one",
+      "year": 2013,
+      "date": "2013-11-15",
+      "era": "2010s",
+      "category": "CONSOLE",
+      "title": "PlayStation 4 & Xbox One Launch on x86 Architecture",
+      "description": "Sony and Microsoft abandon custom RISC/PowerPC processors in favor of standardized AMD x86-64 APU architectures. Sony's consumer-friendly $399 messaging and Share button propel PS4 to massive victory.",
+      "significance": "Aligned console silicon directly with PC architectures, simplifying cross-platform development forever.",
+      "relatedConsole": "playstation-4",
+      "relatedGame": null,
+      "tags": [
+        "ps4",
+        "xbox one",
+        "x86",
+        "eighth generation",
+        "share button"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-2013-gta-v-revenue",
+      "year": 2013,
+      "date": "2013-09-17",
+      "era": "2010s",
+      "category": "INDUSTRY",
+      "title": "Grand Theft Auto V Generates $1 Billion in Three Days",
+      "description": "Rockstar Games releases GTA V. Capturing a sprawling simulated Southern California with three interconnected protagonists, it earns $800 million in 24 hours and $1 billion in 72 hours.",
+      "significance": "The fastest-selling entertainment product in human history, demonstrating interactive entertainment's economic dominance over cinema.",
+      "relatedConsole": null,
+      "relatedGame": "grand-theft-auto-v",
+      "tags": [
+        "gta v",
+        "rockstar",
+        "record revenue",
+        "entertainment record"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-2013-last-of-us",
+      "year": 2013,
+      "date": "2013-06-14",
+      "era": "2010s",
+      "category": "GAME",
+      "title": "The Last of Us Elevates Performance Capture & Emotional Drama",
+      "description": "Neil Druckmann and Bruce Straley direct The Last of Us for Naughty Dog. Centered on Joel and Ellie traversing fungal-ravaged ruins, it treats violence with horrifying weight and nuanced human morality.",
+      "significance": "Set the cinematic benchmark for emotional nuance, performance capture acting, and narrative storytelling in blockbusters.",
+      "relatedConsole": "playstation-3",
+      "relatedGame": "the-last-of-us",
+      "tags": [
+        "the last of us",
+        "naughty dog",
+        "performance capture",
+        "narrative"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-2015-witcher-3",
+      "year": 2015,
+      "date": "2015-05-19",
+      "era": "2010s",
+      "category": "GAME",
+      "title": "The Witcher 3 Reinvents Open-World Side Quest Narrative",
+      "description": "CD Projekt Red releases The Witcher 3: Wild Hunt. Rejecting formulaic checklist fetch quests, every side mission features multi-layered morally gray storytelling, voice acting, and consequences.",
+      "significance": "Forced the entire RPG and open-world industry to elevate secondary quest writing and character complexity.",
+      "relatedConsole": null,
+      "relatedGame": "the-witcher-3-wild-hunt",
+      "tags": [
+        "the witcher 3",
+        "cd projekt red",
+        "open world",
+        "rpg"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-2016-pokemon-go",
+      "year": 2016,
+      "date": "2016-07-06",
+      "era": "2010s",
+      "category": "CULTURE",
+      "title": "Pokémon GO Creates Global Augmented Reality Craze",
+      "description": "Niantic and The Pokémon Company launch Pokémon GO on iOS and Android. Using GPS geolocation and smartphone camera AR, hundreds of millions of players gather in public parks and landmarks.",
+      "significance": "Brought augmented reality into mainstream everyday society, creating an unprecedented global social outdoor phenomenon.",
+      "relatedConsole": null,
+      "relatedGame": null,
+      "tags": [
+        "pokemon go",
+        "niantic",
+        "augmented reality",
+        "mobile"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-2016-vr-commercial-revival",
+      "year": 2016,
+      "date": "2016-03-28",
+      "era": "2010s",
+      "category": "TECHNOLOGY",
+      "title": "Oculus Rift, HTC Vive & PS VR Revive Virtual Reality",
+      "description": "Consumer VR headsets launch with sub-millimeter positional tracking, high-refresh OLED panels, and spatial hand controllers, ending decades of technical latency barriers.",
+      "significance": "Revitalized immersive virtual reality as a viable consumer category after decades of technical dormancy.",
+      "relatedConsole": null,
+      "relatedGame": null,
+      "tags": [
+        "vr",
+        "virtual reality",
+        "oculus rift",
+        "ps vr"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-2017-nintendo-switch",
+      "year": 2017,
+      "date": "2017-03-03",
+      "era": "2010s",
+      "category": "CONSOLE",
+      "title": "Nintendo Switch Redefines Console as a Hybrid Form-Factor",
+      "description": "Following the commercial disappointment of the Wii U, Nintendo releases the Switch. Anchored by detachable Joy-Con controllers and instant TV-to-handheld docking, it launches with Breath of the Wild.",
+      "significance": "Unified home and handheld development pipelines into one modular ecosystem, selling over 140 million units.",
+      "relatedConsole": "nintendo-switch",
+      "relatedGame": "the-legend-of-zelda-breath-of-the-wild",
+      "tags": [
+        "nintendo switch",
+        "hybrid console",
+        "joy-con",
+        "breath of the wild"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-2017-game-pass",
+      "year": 2017,
+      "date": "2017-06-01",
+      "era": "2010s",
+      "category": "ONLINE",
+      "title": "Microsoft Launches Xbox Game Pass Subscription Model",
+      "description": "Microsoft introduces Xbox Game Pass, offering unlimited on-demand access to a rotating library of games for a monthly fee, including day-one first-party releases like Halo and Forza.",
+      "significance": "Accelerated the industry-wide shift toward subscription-based distribution and platform-agnostic cloud streaming.",
+      "relatedConsole": "xbox-one",
+      "relatedGame": null,
+      "tags": [
+        "game pass",
+        "microsoft",
+        "subscription",
+        "cloud"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-2017-fortnite-battle-royale",
+      "year": 2017,
+      "date": "2017-09-26",
+      "era": "2010s",
+      "category": "ONLINE",
+      "title": "Fortnite Battle Royale Mainstreams Cross-Play & Live Events",
+      "description": "Epic Games releases the free-to-play Fortnite Battle Royale on Unreal Engine. It conquers pop culture through Battle Pass monetization, virtual concerts, and forcing platform holders to allow universal cross-play.",
+      "significance": "Forced Sony, Microsoft, and Nintendo to tear down walled gardens and allow universal cross-platform multiplayer.",
+      "relatedConsole": null,
+      "relatedGame": null,
+      "tags": [
+        "fortnite",
+        "epic games",
+        "battle royale",
+        "cross-play",
+        "live service"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-2018-red-dead-2",
+      "year": 2018,
+      "date": "2018-10-26",
+      "era": "2010s",
+      "category": "TECHNOLOGY",
+      "title": "Red Dead Redemption 2 Sets Ecology & Simulation Peak",
+      "description": "Rockstar Games releases Red Dead Redemption 2. Presenting an astonishing ecological simulation with over 200 animal species, adaptive NPC conversations, and tragic narrative depth.",
+      "significance": "The crowning achievement in environmental simulation fidelity and microscopic world detail in AAA gaming.",
+      "relatedConsole": "playstation-4",
+      "relatedGame": "red-dead-redemption-2",
+      "tags": [
+        "red dead redemption 2",
+        "rockstar",
+        "simulation",
+        "environmental detail"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-2020-ninth-gen-launch",
+      "year": 2020,
+      "date": "2020-11-10",
+      "era": "2020s",
+      "category": "CONSOLE",
+      "title": "PlayStation 5 and Xbox Series X/S Usher in Generation IX",
+      "description": "Sony and Microsoft launch their next-gen systems amidst a global pandemic. Powered by custom PCIe 4.0 NVMe SSD architectures and hardware ray tracing, they banish traditional game loading screens.",
+      "significance": "Inaugurated Generation IX with instantaneous SSD asset streaming and haptic feedback controllers.",
+      "relatedConsole": "playstation-5",
+      "relatedGame": null,
+      "tags": [
+        "ps5",
+        "xbox series x",
+        "ninth generation",
+        "nvme ssd",
+        "ray tracing"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-2022-steam-deck",
+      "year": 2022,
+      "date": "2022-02-25",
+      "era": "2020s",
+      "category": "HARDWARE",
+      "title": "Valve Releases the Steam Deck Handheld Gaming PC",
+      "description": "Valve ships the Steam Deck, a portable gaming PC running open-source SteamOS (Linux) powered by Proton compatibility. It brings full-fledged PC games into handheld ergonomics without developer ports.",
+      "significance": "Pioneered the modern handheld PC gaming category and demonstrated Linux as a first-class gaming operating system.",
+      "relatedConsole": null,
+      "relatedGame": null,
+      "tags": [
+        "steam deck",
+        "valve",
+        "handheld pc",
+        "linux",
+        "proton"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-2022-unreal-engine-5",
+      "year": 2022,
+      "date": "2022-04-05",
+      "era": "2020s",
+      "category": "TECHNOLOGY",
+      "title": "Epic Games Launches Unreal Engine 5 with Nanite & Lumen",
+      "description": "Epic Games releases Unreal Engine 5 commercially. Featuring Nanite virtualized micropolygon geometry and Lumen fully dynamic global illumination, it eliminates manual polygon LOD baking.",
+      "significance": "Revolutionized 3D rendering pipelines, enabling film-quality geometry assets directly inside real-time interactive game worlds.",
+      "relatedConsole": null,
+      "relatedGame": null,
+      "tags": [
+        "unreal engine 5",
+        "epic games",
+        "nanite",
+        "lumen",
+        "3d engine"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-2023-consolidation-activision",
+      "year": 2023,
+      "date": "2023-10-13",
+      "era": "2020s",
+      "category": "INDUSTRY",
+      "title": "Microsoft Closes Historic $69 Billion Activision Blizzard Deal",
+      "description": "Following 20 months of unprecedented global antitrust scrutiny from the FTC, CMA, and European Commission, Microsoft completes its $68.7 billion acquisition of Activision Blizzard King.",
+      "significance": "The largest transaction in the history of the video game industry, dramatically reshaping publisher independence and IP ownership.",
+      "relatedConsole": null,
+      "relatedGame": null,
+      "tags": [
+        "microsoft",
+        "activision blizzard",
+        "acquisition",
+        "antitrust",
+        "industry consolidation"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-2023-preservation-crisis",
+      "year": 2023,
+      "date": "2023-03-27",
+      "era": "2020s",
+      "category": "CULTURE",
+      "title": "Closure of 3DS & Wii U eShops Ignites Preservation Crisis",
+      "description": "Nintendo shuts down the digital 3DS and Wii U eShops, making roughly 1,000 digital-only games inaccessible. The Video Game History Foundation publishes a landmark study revealing 87% of classic games are out of print.",
+      "significance": "Elevated digital game preservation and archival copyright reform into mainstream legislative and cultural discussion.",
+      "relatedConsole": "nintendo-3ds",
+      "relatedGame": null,
+      "tags": [
+        "preservation",
+        "eshop closure",
+        "video game history foundation",
+        "digital archive"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-2024-ps5-pro-ai-upscaling",
+      "year": 2024,
+      "date": "2024-11-07",
+      "era": "2020s",
+      "category": "TECHNOLOGY",
+      "title": "Sony Launches PlayStation 5 Pro with Hardware AI Upscaling (PSSR)",
+      "description": "Sony releases the PS5 Pro featuring 67% more GPU compute units, advanced ray tracing accelerators, and dedicated neural network hardware for PlayStation Spectral Super Resolution (PSSR).",
+      "significance": "Pioneered machine-learning AI image reconstruction on dedicated console silicon to resolve fidelity vs. framerate trade-offs.",
+      "relatedConsole": "playstation-5-pro",
+      "relatedGame": null,
+      "tags": [
+        "ps5 pro",
+        "pssr",
+        "machine learning",
+        "ai upscaling",
+        "ray tracing"
+      ],
+      "featured": false
+    }
+  ],
+  "milestones": [
+    {
+      "id": "ev-1971-computer-space",
+      "year": 1971,
+      "date": "1971-11",
+      "era": "1970s",
+      "category": "ARCADE",
+      "title": "Computer Space: The First Commercial Arcade Video Game",
+      "description": "Nolan Bushnell and Ted Dabney design Computer Space for Nutting Associates. Encased in a custom curving fiberglass cabinet, it adapts Steve Russell's 1962 Spacewar! for public coin-operated play.",
+      "significance": "Marked the commercial birth of the coin-operated video game industry.",
+      "relatedConsole": null,
+      "relatedGame": null,
+      "tags": [
+        "arcade",
+        "nolan bushnell",
+        "nutting associates",
+        "first commercial game"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-1972-magnavox-odyssey",
+      "year": 1972,
+      "date": "1972-09",
+      "era": "1970s",
+      "category": "CONSOLE",
+      "title": "Magnavox Odyssey Reaches the Market",
+      "description": "Ralph Baer's 'Brown Box' prototype reaches living rooms through Magnavox as the Odyssey. Operating on discrete analog transistor-diode logic and printed plastic screen overlays, it introduces television gaming.",
+      "significance": "The world's first commercial home video game console, inaugurating Generation I hardware.",
+      "relatedConsole": "magnavox-odyssey",
+      "relatedGame": null,
+      "tags": [
+        "magnavox",
+        "odyssey",
+        "ralph baer",
+        "first generation",
+        "hardware"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-1972-pong-coin-op",
+      "year": 1972,
+      "date": "1972-11-29",
+      "era": "1970s",
+      "category": "ARCADE",
+      "title": "Atari Unveils Pong at Andy Capp's Tavern",
+      "description": "Nolan Bushnell and engineer Al Alcorn test a prototype Pong coin-op cabinet in Sunnyvale, California. Its instant popularity jams the coin mechanism with quarters, launching Atari into legendary prominence.",
+      "significance": "The first commercially blockbuster video game, proving electronic gaming as a mass entertainment phenomenon.",
+      "relatedConsole": null,
+      "relatedGame": null,
+      "tags": [
+        "pong",
+        "atari",
+        "al alcorn",
+        "arcade"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-1974-gran-trak-10",
+      "year": 1974,
+      "date": "1974-05",
+      "era": "1970s",
+      "category": "TECHNOLOGY",
+      "title": "Gran Trak 10 Introduces Silicon ROM Sprites",
+      "description": "Atari releases the single-player racing cabinet Gran Trak 10, engineered with integrated solid-state Read-Only Memory (ROM) semiconductor chips to store graphical character sprites.",
+      "significance": "Pioneered semiconductor ROM sprite storage in gaming, replacing hardwired diode matrices.",
+      "relatedConsole": null,
+      "relatedGame": null,
+      "tags": [
+        "rom",
+        "atari",
+        "racing",
+        "semiconductor"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-1975-home-pong",
+      "year": 1975,
+      "date": "1975-09",
+      "era": "1970s",
+      "category": "HARDWARE",
+      "title": "Atari Home Pong Sells Out via Sears Partnership",
+      "description": "Atari miniaturizes Pong onto a single custom D-MOS LSI microchip. Partnering with Sears Roebuck under the Tele-Games brand, Atari sells 150,000 units during the 1975 holiday season.",
+      "significance": "Established consumer demand for dedicated electronic home console gaming across North America.",
+      "relatedConsole": "home-pong",
+      "relatedGame": null,
+      "tags": [
+        "atari",
+        "pong",
+        "sears",
+        "home console"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-1976-channel-f",
+      "year": 1976,
+      "date": "1976-11",
+      "era": "1970s",
+      "category": "CONSOLE",
+      "title": "Fairchild Channel F Invents the Programmable ROM Cartridge",
+      "description": "Fairchild Camera and Instrument releases the Channel F, engineered by pioneering Black engineer Jerry Lawson. It introduces swappable plastic ROM cartridges ('Videocarts') powered by the Fairchild F8 CPU.",
+      "significance": "Invented the commercial video game cartridge business model, decoupling software publishing from dedicated hardware.",
+      "relatedConsole": "fairchild-channel-f",
+      "relatedGame": null,
+      "tags": [
+        "fairchild",
+        "jerry lawson",
+        "cartridge",
+        "second generation"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-1977-atari-2600",
+      "year": 1977,
+      "date": "1977-09-11",
+      "era": "1970s",
+      "category": "CONSOLE",
+      "title": "Atari 2600 (VCS) Establishes the Living Room Console Era",
+      "description": "Atari launches the Video Computer System featuring a MOS 6507 CPU and CX40 digital joystick. Supported by swappable ROM cartridges, it brings arcade gameplay into millions of households.",
+      "significance": "Defined the Second Generation of video games, becoming the cultural symbol of late 1970s home entertainment.",
+      "relatedConsole": "atari-2600",
+      "relatedGame": null,
+      "tags": [
+        "atari 2600",
+        "vcs",
+        "second generation",
+        "joystick"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-1977-color-tv-game",
+      "year": 1977,
+      "date": "1977-06-01",
+      "era": "1970s",
+      "category": "COMPANY",
+      "title": "Nintendo Enters Video Game Hardware with Color TV-Game",
+      "description": "Nintendo co-develops the Color TV-Game 6 and 15 with Mitsubishi Electric in Japan, marking its transition from playing cards and mechanical toys to electronic entertainment.",
+      "significance": "Marked Nintendo's monumental strategic entry into electronic video game hardware manufacturing.",
+      "relatedConsole": "color-tv-game",
+      "relatedGame": null,
+      "tags": [
+        "nintendo",
+        "color tv-game",
+        "japan",
+        "mitsubishi"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-1978-space-invaders",
+      "year": 1978,
+      "date": "1978-06",
+      "era": "1970s",
+      "category": "ARCADE",
+      "title": "Space Invaders Sparks the Golden Age of Arcades",
+      "description": "Tomohiro Nishikado creates Space Invaders for Taito. Driven by an Intel 8080 CPU, it features descending alien ranks, persistent high scores, and a continuous heartbeat audio tempo.",
+      "significance": "Inaugurated the Golden Age of Arcade Games and turned high-score chasing into an international competitive pastime.",
+      "relatedConsole": null,
+      "relatedGame": null,
+      "tags": [
+        "taito",
+        "space invaders",
+        "tomohiro nishikado",
+        "high score"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-1979-asteroids",
+      "year": 1979,
+      "date": "1979-11",
+      "era": "1970s",
+      "category": "ARCADE",
+      "title": "Atari Ships Asteroids with Vector Display & Initials Leaderboard",
+      "description": "Lyle Rains and Ed Logg design Asteroids for Atari using the QuadraScan vector monitor. Players record three-letter initials for high score preservation, creating enduring arcade rivalry.",
+      "significance": "Atari's bestselling arcade cabinet of all time, standardizing player initials on leaderboard tables.",
+      "relatedConsole": null,
+      "relatedGame": null,
+      "tags": [
+        "asteroids",
+        "atari",
+        "vector graphics",
+        "high score initials"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-1979-activision",
+      "year": 1979,
+      "date": "1979-10-01",
+      "era": "1970s",
+      "category": "INDUSTRY",
+      "title": "Activision Founded as First Independent Third-Party Publisher",
+      "description": "Former Atari game designers David Crane, Larry Kaplan, Alan Miller, and Bob Whitehead leave Atari to found Activision, demanding creator credits and royalties on game boxes.",
+      "significance": "Created the third-party software publishing model, proving independent studios could thrive without hardware manufacturing.",
+      "relatedConsole": null,
+      "relatedGame": null,
+      "tags": [
+        "activision",
+        "third party",
+        "david crane",
+        "publishing"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-1980-pac-man",
+      "year": 1980,
+      "date": "1980-05-22",
+      "era": "1980s",
+      "category": "CULTURE",
+      "title": "Pac-Man Premieres in Tokyo and Becomes a Global Icon",
+      "description": "Toru Iwatani's maze chase game debuts for Namco. With non-violent food-gathering mechanics and four unique ghost AI personalities, it attracts players across all demographics.",
+      "significance": "Gaming's first worldwide pop-culture mascot, generating billions in revenue and international licensing.",
+      "relatedConsole": null,
+      "relatedGame": "pac-man",
+      "tags": [
+        "namco",
+        "pac-man",
+        "toru iwatani",
+        "arcade",
+        "mascot"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-1980-space-invaders-2600",
+      "year": 1980,
+      "date": "1980-01",
+      "era": "1980s",
+      "category": "INDUSTRY",
+      "title": "Space Invaders on Atari 2600 Becomes First Console 'Killer App'",
+      "description": "Atari licenses Taito's Space Invaders for the 2600. The conversion quadruples console hardware sales, turning home video games into a mainstream mass-market obsession.",
+      "significance": "Coined the term 'killer app'—software compelling the purchase of dedicated hardware platforms.",
+      "relatedConsole": "atari-2600",
+      "relatedGame": null,
+      "tags": [
+        "atari 2600",
+        "space invaders",
+        "killer app",
+        "licensing"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-1981-donkey-kong",
+      "year": 1981,
+      "date": "1981-07-09",
+      "era": "1980s",
+      "category": "GAME",
+      "title": "Donkey Kong Establishes Shigeru Miyamoto and Mario",
+      "description": "Nintendo artist Shigeru Miyamoto converts unsold Radar Scope cabinets into Donkey Kong, starring Jumpman (Mario). It establishes story cutscenes and jumping platform gameplay.",
+      "significance": "Invented the narrative platformer and launched Nintendo of America into commercial prosperity.",
+      "relatedConsole": null,
+      "relatedGame": "donkey-kong",
+      "tags": [
+        "donkey kong",
+        "nintendo",
+        "shigeru miyamoto",
+        "mario"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-1982-commodore-64",
+      "year": 1982,
+      "date": "1982-08",
+      "era": "1980s",
+      "category": "HARDWARE",
+      "title": "Commodore 64 Launches with Legendary SID Sound Chip",
+      "description": "Commodore releases the C64 featuring 64KB RAM and the MOS 6581 SID sound synthesizer chip. Aggressive pricing makes it the bestselling single personal computer model in history.",
+      "significance": "Democratized bedroom coding and fostered the thriving European computer gaming scene.",
+      "relatedConsole": null,
+      "relatedGame": null,
+      "tags": [
+        "commodore 64",
+        "sid chip",
+        "home computer",
+        "bedroom coding"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-1982-colecovision",
+      "year": 1982,
+      "date": "1982-08",
+      "era": "1980s",
+      "category": "CONSOLE",
+      "title": "ColecoVision Brings Authentic Arcade Ports to Living Rooms",
+      "description": "Coleco launches ColecoVision bundled with Donkey Kong. Using a Z80A CPU and Texas Instruments graphics, it delivers unprecedented home graphical fidelity.",
+      "significance": "Set the visual high-water mark for Second Generation home consoles prior to the 1983 crash.",
+      "relatedConsole": "colecovision",
+      "relatedGame": "donkey-kong",
+      "tags": [
+        "colecovision",
+        "coleco",
+        "arcade ports"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-1983-the-crash",
+      "year": 1983,
+      "date": "1983-10",
+      "era": "1980s",
+      "category": "MILESTONE",
+      "title": "The North American Video Game Crash of 1983",
+      "description": "Retailer loss of confidence, software shovelware, and competing cheap home computers cause North American console revenues to plummet from $3.2 billion to barely $100 million.",
+      "significance": "Ended the dominance of early American console makers and reset the industry for Japanese architectural governance.",
+      "relatedConsole": null,
+      "relatedGame": null,
+      "tags": [
+        "crash of 1983",
+        "market collapse",
+        "atari",
+        "shovelware"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-1983-famicom-launch",
+      "year": 1983,
+      "date": "1983-07-15",
+      "era": "1980s",
+      "category": "CONSOLE",
+      "title": "Nintendo Launches the Family Computer (Famicom) in Japan",
+      "description": "Masayuki Uemura engineers the Famicom for Nintendo, priced at ¥14,800. Featuring custom Ricoh 2A03 silicon and hardwired controllers with D-pads, it sells out across Japan.",
+      "significance": "Laid the hardware foundation that would resurrect the international video game console market.",
+      "relatedConsole": "nintendo-entertainment-system",
+      "relatedGame": null,
+      "tags": [
+        "famicom",
+        "nintendo",
+        "masayuki uemura",
+        "japan"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-1984-tetris-moscow",
+      "year": 1984,
+      "date": "1984-06-06",
+      "era": "1980s",
+      "category": "GAME",
+      "title": "Alexey Pajitnov Codes Tetris on an Electronika 60 in Moscow",
+      "description": "At the Computing Center of the Soviet Academy of Sciences, researcher Alexey Pajitnov programs Tetris using green ASCII text brackets on an Electronika 60 terminal.",
+      "significance": "Created the defining mathematical puzzle game of human civilization, later sparking historic international licensing battles.",
+      "relatedConsole": null,
+      "relatedGame": "tetris",
+      "tags": [
+        "tetris",
+        "alexey pajitnov",
+        "soviet union",
+        "puzzle"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-1985-nes-ny-test",
+      "year": 1985,
+      "date": "1985-10-18",
+      "era": "1980s",
+      "category": "CONSOLE",
+      "title": "Nintendo Test-Markets the NES in New York City",
+      "description": "Nintendo of America introduces the redesigned Famicom as the Nintendo Entertainment System. Packaged with R.O.B. and the Zapper to resemble home entertainment electronics, it bypasses toy retailer bans.",
+      "significance": "Single-handedly revived consumer retailer confidence and reignited the North American home console market.",
+      "relatedConsole": "nintendo-entertainment-system",
+      "relatedGame": null,
+      "tags": [
+        "nes",
+        "nintendo",
+        "new york",
+        "rob",
+        "10nes"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-1985-super-mario-bros",
+      "year": 1985,
+      "date": "1985-09-13",
+      "era": "1980s",
+      "category": "GAME",
+      "title": "Super Mario Bros. Sets the Grammar of Side-Scrolling Platforming",
+      "description": "Directed by Shigeru Miyamoto and Takashi Tezuka with dynamic audio by Koji Kondo, Super Mario Bros. debuts on Famicom/NES, offering 32 levels of precise jumping physics and secrets.",
+      "significance": "Sold over 40 million copies, establishing the architectural rules of 2D level design and platforming game feel.",
+      "relatedConsole": "nintendo-entertainment-system",
+      "relatedGame": "super-mario-bros",
+      "tags": [
+        "mario",
+        "shigeru miyamoto",
+        "koji kondo",
+        "nes"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-1985-master-system",
+      "year": 1985,
+      "date": "1985-10-20",
+      "era": "1980s",
+      "category": "CONSOLE",
+      "title": "Sega Releases the Mark III (Master System) in Japan",
+      "description": "Sega launches the SG-1000 Mark III with a Z80 CPU and superior color palette to the NES. Later rebranded as the Master System, it finds massive commercial dominance in Europe and Brazil.",
+      "significance": "Established Sega's enduring international home console footprint and began the two-decade rivalry with Nintendo.",
+      "relatedConsole": "sega-master-system",
+      "relatedGame": null,
+      "tags": [
+        "sega",
+        "master system",
+        "mark iii",
+        "third generation"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-1986-zelda-battery-ram",
+      "year": 1986,
+      "date": "1986-02-21",
+      "era": "1980s",
+      "category": "TECHNOLOGY",
+      "title": "The Legend of Zelda Introduces Battery-Backed Save RAM",
+      "description": "Debuting on the Famicom Disk System and later on an NES gold cartridge containing an internal lithium battery, Zelda allows players to save their quest progress persistently without passwords.",
+      "significance": "Freed game design from single-session arcade pacing, enabling sprawling non-linear narrative quests.",
+      "relatedConsole": "nintendo-entertainment-system",
+      "relatedGame": "the-legend-of-zelda",
+      "tags": [
+        "zelda",
+        "battery backup",
+        "ram",
+        "save state"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-1986-dragon-quest",
+      "year": 1986,
+      "date": "1986-05-27",
+      "era": "1980s",
+      "category": "GAME",
+      "title": "Dragon Quest Establishes the Japanese RPG Template",
+      "description": "Yuji Horii, character designer Akira Toriyama, and composer Koichi Sugiyama craft Dragon Quest for Famicom. Merging Wizardry combat with top-down overland exploration.",
+      "significance": "Standardized turn-based combat, menu-driven commands, and episodic storytelling for generations of JRPGs.",
+      "relatedConsole": "nintendo-entertainment-system",
+      "relatedGame": "dragon-quest",
+      "tags": [
+        "dragon quest",
+        "enix",
+        "yuji horii",
+        "akira toriyama",
+        "jrpg"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-1986-metroid-samus",
+      "year": 1986,
+      "date": "1986-08-06",
+      "era": "1980s",
+      "category": "CULTURE",
+      "title": "Metroid Introduces Samus Aran and Non-Linear Isolation",
+      "description": "Nintendo R&D1 releases Metroid on Famicom Disk System. Featuring maze-like backtracking on planet Zebes and revealing protagonist Samus Aran as a woman upon completion.",
+      "significance": "Co-founded the Metroidvania genre and introduced one of the earliest prominent female action heroes in gaming.",
+      "relatedConsole": "nintendo-entertainment-system",
+      "relatedGame": "metroid",
+      "tags": [
+        "metroid",
+        "samus aran",
+        "metroidvania",
+        "female protagonist"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-1987-pc-engine-cd-rom",
+      "year": 1987,
+      "date": "1987-10-30",
+      "era": "1980s",
+      "category": "MEDIA",
+      "title": "PC Engine Launches and Pioneers Console CD-ROM Optical Media",
+      "description": "NEC and Hudson Soft release the PC Engine in Japan. In 1988, they release the CD-ROM² peripheral, the world's first CD-ROM optical drive add-on for a video game console.",
+      "significance": "Inaugurated optical media in home gaming, proving CD storage capacity for orchestral audio and voiced cinema.",
+      "relatedConsole": "turbografx-16",
+      "relatedGame": null,
+      "tags": [
+        "nec",
+        "pc engine",
+        "cd-rom",
+        "optical media"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-1987-final-fantasy",
+      "year": 1987,
+      "date": "1987-12-18",
+      "era": "1980s",
+      "category": "GAME",
+      "title": "Final Fantasy Rescues Square and Launches an Empire",
+      "description": "Hironobu Sakaguchi and Square release Final Fantasy on Famicom as a last-ditch effort before potential insolvency. Its four Warriors of Light and Nobuo Uematsu music spawn a global phenomenon.",
+      "significance": "Saved Square from bankruptcy and established one of gaming's most celebrated role-playing anthologies.",
+      "relatedConsole": "nintendo-entertainment-system",
+      "relatedGame": "final-fantasy",
+      "tags": [
+        "final fantasy",
+        "square",
+        "hironobu sakaguchi",
+        "nobuo uematsu"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-1988-sega-genesis",
+      "year": 1988,
+      "date": "1988-10-29",
+      "era": "1980s",
+      "category": "CONSOLE",
+      "title": "Sega Mega Drive (Genesis) Launches the 16-Bit Era",
+      "description": "Sega launches the 16-bit Mega Drive in Japan. Powered by a Motorola 68000 CPU @ 7.6 MHz, it brings genuine System 16 arcade titles directly to home television screens.",
+      "significance": "Ignited the intense 16-bit console war and broke Nintendo's near-monopoly in Western markets.",
+      "relatedConsole": "sega-genesis",
+      "relatedGame": null,
+      "tags": [
+        "sega",
+        "genesis",
+        "mega drive",
+        "16-bit",
+        "68000"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-1989-game-boy-phenomenon",
+      "year": 1989,
+      "date": "1989-04-21",
+      "era": "1980s",
+      "category": "CONSOLE",
+      "title": "Nintendo Game Boy Bundled with Tetris Shakes the World",
+      "description": "Gunpei Yokoi's monochrome Game Boy launches in Japan and North America bundled with Tetris. Its 30-hour battery life and social Link Cable gameplay create an unstoppable cultural force.",
+      "significance": "Sold 118 million units and established portable handheld gaming as a permanent pillar of the industry.",
+      "relatedConsole": "game-boy",
+      "relatedGame": "tetris",
+      "tags": [
+        "game boy",
+        "gunpei yokoi",
+        "nintendo",
+        "tetris",
+        "handheld"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-1989-simcity",
+      "year": 1989,
+      "date": "1989-02-02",
+      "era": "1980s",
+      "category": "GAME",
+      "title": "SimCity Introduces Systems-Thinking Simulation",
+      "description": "Will Wright and Maxis release SimCity for Macintosh and Amiga. Featuring open-ended urban planning without explicit win-or-lose states, it proves commercial viability for simulation games.",
+      "significance": "Founded the systems simulation genre, demonstrating games could function as creative architectural sandboxes.",
+      "relatedConsole": null,
+      "relatedGame": "simcity",
+      "tags": [
+        "simcity",
+        "will wright",
+        "maxis",
+        "simulation"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-1989-prince-of-persia",
+      "year": 1989,
+      "date": "1989-10-03",
+      "era": "1980s",
+      "category": "TECHNOLOGY",
+      "title": "Prince of Persia Pioneers Rotoscoped Cinematic Animation",
+      "description": "Jordan Mechner films his teenage brother running and jumping, then traces the frames via rotoscoping for Prince of Persia on Apple II, achieving astonishingly lifelike human locomotion.",
+      "significance": "Invented the cinematic platformer and advanced digital character animation realism by decades.",
+      "relatedConsole": null,
+      "relatedGame": "prince-of-persia",
+      "tags": [
+        "prince of persia",
+        "jordan mechner",
+        "rotoscoping",
+        "cinematic platformer"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-1990-super-famicom",
+      "year": 1990,
+      "date": "1990-11-21",
+      "era": "1990s",
+      "category": "CONSOLE",
+      "title": "Super Famicom Launches in Japan with Unprecedented Demand",
+      "description": "Nintendo launches the 16-bit Super Famicom with Super Mario World. Crowds of 1.5 million storm Japanese retailers, prompting the government to request weekend-only hardware launches.",
+      "significance": "Solidified 16-bit gaming with custom Mode 7 scaling, Sony 8-channel stereo audio, and L/R shoulder triggers.",
+      "relatedConsole": "super-nintendo-entertainment-system",
+      "relatedGame": "super-mario-world",
+      "tags": [
+        "snes",
+        "super famicom",
+        "mode 7",
+        "mario world"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-1990-neo-geo-aes",
+      "year": 1990,
+      "date": "1990-04-26",
+      "era": "1990s",
+      "category": "HARDWARE",
+      "title": "SNK Releases Neo Geo AES: Pure Arcade Silicon at Home",
+      "description": "SNK commercializes its MVS arcade hardware as the luxury Neo Geo AES console. Costing $650 with massive 330-megabit cartridges costing $200 each, it delivers identical arcade ROM boards.",
+      "significance": "The most powerful 2D platform of its era, proving home consoles could execute uncompromised arcade silicon.",
+      "relatedConsole": "neo-geo-aes",
+      "relatedGame": null,
+      "tags": [
+        "neo geo",
+        "snk",
+        "aes",
+        "arcade perfection"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-1991-sonic-genesis",
+      "year": 1991,
+      "date": "1991-06-23",
+      "era": "1990s",
+      "category": "GAME",
+      "title": "Sonic the Hedgehog Drives Sega Genesis Past Nintendo",
+      "description": "Yuji Naka and Naoto Ohshima create Sonic the Hedgehog. Bundled free with Genesis in North America, Tom Kalinske's 'Genesis Does What Nintendon't' campaign propels Sega to 65% market share.",
+      "significance": "Demonstrated that attitude, high-speed physics, and smart packaging could dethrone an industry titan.",
+      "relatedConsole": "sega-genesis",
+      "relatedGame": "sonic-the-hedgehog",
+      "tags": [
+        "sega",
+        "sonic",
+        "yuji naka",
+        "console wars"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-1991-street-fighter-2",
+      "year": 1991,
+      "date": "1991-02-06",
+      "era": "1990s",
+      "category": "ARCADE",
+      "title": "Street Fighter II Ignites the 1990s Arcade Renaissance",
+      "description": "Capcom releases Street Fighter II on CP System arcade hardware. Its 8 diverse world warriors, complex motion inputs (hadouken), and emergent combo canceling revolutionize competitive gaming.",
+      "significance": "Single-handedly revitalized international arcades and laid the foundation for modern global esports tournaments.",
+      "relatedConsole": null,
+      "relatedGame": "street-fighter-ii-the-world-warrior",
+      "tags": [
+        "capcom",
+        "street fighter ii",
+        "esports",
+        "fighting games"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-1991-zelda-link-to-past",
+      "year": 1991,
+      "date": "1991-11-21",
+      "era": "1990s",
+      "category": "GAME",
+      "title": "A Link to the Past Perfects Top-Down Adventure Design",
+      "description": "Nintendo releases Link's third adventure on Super Famicom. Introducing parallel Light and Dark worlds, multi-floor puzzle dungeons, and the Master Sword.",
+      "significance": "Widely regarded as the pinnacle of 16-bit action-adventure design, setting the template for dual-world mechanics.",
+      "relatedConsole": "super-nintendo-entertainment-system",
+      "relatedGame": "the-legend-of-zelda-a-link-to-the-past",
+      "tags": [
+        "zelda",
+        "snes",
+        "a link to the past",
+        "level design"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-1992-mortal-kombat",
+      "year": 1992,
+      "date": "1992-10-08",
+      "era": "1990s",
+      "category": "CULTURE",
+      "title": "Mortal Kombat Sparks Senate Hearings on Video Game Violence",
+      "description": "Midway's digitized martial arts fighter features brutal spine-ripping Fatalities. Its nationwide uproar leads to 1993 US Senate hearings led by Senators Joe Lieberman and Herb Kohl.",
+      "significance": "Directly forced the video game industry to establish the Entertainment Software Rating Board (ESRB) in 1994.",
+      "relatedConsole": null,
+      "relatedGame": "mortal-kombat",
+      "tags": [
+        "mortal kombat",
+        "midway",
+        "senate hearings",
+        "esrb",
+        "violence"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-1993-doom-shareware",
+      "year": 1993,
+      "date": "1993-12-10",
+      "era": "1990s",
+      "category": "TECHNOLOGY",
+      "title": "Doom Revolutionizes 3D PC Graphics, LANs & Modding",
+      "description": "John Carmack and John Romero at id Software upload Doom to university servers. Its binary space partitioning 3D engine, networked deathmatches, and shareware distribution reshape computing.",
+      "significance": "Codified the first-person shooter genre, decentralized software modding via WAD files, and overwhelmed university networks.",
+      "relatedConsole": null,
+      "relatedGame": "doom",
+      "tags": [
+        "id software",
+        "doom",
+        "john carmack",
+        "fps",
+        "shareware"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-1993-3do-launch",
+      "year": 1993,
+      "date": "1993-10-04",
+      "era": "1990s",
+      "category": "CONSOLE",
+      "title": "3DO Attempts Open Hardware Licensing Model",
+      "description": "EA founder Trip Hawkins launches the 3DO Interactive Multiplayer, manufactured by Panasonic. Rather than collecting console royalties, 3DO licenses the hardware specifications openly.",
+      "significance": "Pioneered open multimedia appliance licensing, though a prohibitive $699 launch price doomed its consumer adoption.",
+      "relatedConsole": "3do-interactive-multiplayer",
+      "relatedGame": null,
+      "tags": [
+        "3do",
+        "trip hawkins",
+        "panasonic",
+        "hardware licensing"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-1994-super-metroid",
+      "year": 1994,
+      "date": "1994-03-19",
+      "era": "1990s",
+      "category": "GAME",
+      "title": "Super Metroid Masterminds Atmospheric Environmental Storytelling",
+      "description": "Yoshio Sakamoto's 24-megabit masterwork releases on Super Nintendo. Rejecting intrusive text tutorials, it communicates navigation entirely through environmental geometry, sound, and mood.",
+      "significance": "The gold standard of non-verbal tutorialization and non-linear sequence-breaking exploration.",
+      "relatedConsole": "super-nintendo-entertainment-system",
+      "relatedGame": "super-metroid",
+      "tags": [
+        "super metroid",
+        "snes",
+        "environmental storytelling",
+        "metroidvania"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-1994-esrb-founded",
+      "year": 1994,
+      "date": "1994-09-16",
+      "era": "1990s",
+      "category": "INDUSTRY",
+      "title": "ESRB Self-Regulatory Rating System Established",
+      "description": "To prevent federal government censorship following congressional scrutiny, the Interactive Digital Software Association creates the Entertainment Software Rating Board.",
+      "significance": "Preserved creative software expression through transparent self-regulated age-rating classifications.",
+      "relatedConsole": null,
+      "relatedGame": null,
+      "tags": [
+        "esrb",
+        "ratings",
+        "industry governance",
+        "censorship"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-1994-playstation-japan",
+      "year": 1994,
+      "date": "1994-12-03",
+      "era": "1990s",
+      "category": "CONSOLE",
+      "title": "Sony Launches PlayStation in Japan",
+      "description": "Ken Kutaragi's Sony Computer Entertainment launches the 32-bit PlayStation. Engineered specifically for 3D polygon geometry transformation and inexpensive CD-ROM disc pressing.",
+      "significance": "Shifted the center of gaming gravity from silicon cartridges to optical media, establishing Sony's hardware reign.",
+      "relatedConsole": "playstation",
+      "relatedGame": null,
+      "tags": [
+        "sony",
+        "playstation",
+        "ken kutaragi",
+        "cd-rom",
+        "fifth generation"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-1994-donkey-kong-country",
+      "year": 1994,
+      "date": "1994-11-18",
+      "era": "1990s",
+      "category": "TECHNOLOGY",
+      "title": "Rare Pushes Pre-Rendered SGI Graphics in Donkey Kong Country",
+      "description": "British studio Rare utilizes Silicon Graphics workstations to pre-render 3D models into 16-bit SNES sprites. Selling nine million cartridges, it proves 16-bit hardware could rival 32-bit machines.",
+      "significance": "Demonstrated that cutting-edge workstation pre-rendering could extend 16-bit console lifecycles against 32-bit rivals.",
+      "relatedConsole": "super-nintendo-entertainment-system",
+      "relatedGame": "donkey-kong-country",
+      "tags": [
+        "rare",
+        "donkey kong country",
+        "sgi",
+        "pre-rendered graphics"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-1995-e3-expo-299",
+      "year": 1995,
+      "date": "1995-05-11",
+      "era": "1990s",
+      "category": "INDUSTRY",
+      "title": "Inaugural E3 & Sony's Historic '$299' Keynote Mic Drop",
+      "description": "The first Electronic Entertainment Expo opens in Los Angeles. Following Sega's surprise $399 Saturn announcement, Sony's Steve Race takes the podium, utters '$299', and walks off to thunderous applause.",
+      "significance": "Cemented E3 as the global focal point for video game reveals and executed the most decisive pricing ambush in console history.",
+      "relatedConsole": "playstation",
+      "relatedGame": null,
+      "tags": [
+        "e3",
+        "los angeles",
+        "playstation 299",
+        "steve race"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-1996-super-mario-64",
+      "year": 1996,
+      "date": "1996-06-23",
+      "era": "1990s",
+      "category": "GAME",
+      "title": "Super Mario 64 Invents the Camera Grammar of 3D Play",
+      "description": "Launching with the Nintendo 64, Shigeru Miyamoto's Super Mario 64 pairs an analog thumbstick with a dynamic floating orbital camera (Lakitu), establishing open sandbox traversal.",
+      "significance": "Wrote the grammatical rulebook for spatial 3D control and third-person camera orientation in gaming.",
+      "relatedConsole": "nintendo-64",
+      "relatedGame": "super-mario-64",
+      "tags": [
+        "nintendo 64",
+        "mario 64",
+        "analog stick",
+        "3d camera"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-1996-pokemon-craze",
+      "year": 1996,
+      "date": "1996-02-27",
+      "era": "1990s",
+      "category": "GAME",
+      "title": "Pocket Monsters Red and Green Launch in Japan",
+      "description": "Satoshi Tajiri and Game Freak release Pokémon on Game Boy after six years of grueling development. Using the Link Cable to trade monsters, word of mouth turns it into a worldwide cultural mania.",
+      "significance": "Spawned the highest-grossing entertainment multimedia franchise in human history.",
+      "relatedConsole": "game-boy",
+      "relatedGame": "pokemon-red-pokemon-blue",
+      "tags": [
+        "pokemon",
+        "game freak",
+        "satoshi tajiri",
+        "game boy"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-1996-resident-evil-birth",
+      "year": 1996,
+      "date": "1996-03-22",
+      "era": "1990s",
+      "category": "GAME",
+      "title": "Resident Evil Coins the 'Survival Horror' Genre",
+      "description": "Shinji Mikami and Capcom release Resident Evil on PlayStation. Combining fixed cinematic camera angles, pre-rendered Spencer Mansion backdrops, limited ink-ribbon saves, and inventory anxiety.",
+      "significance": "Coined the term 'Survival Horror' and established the design grammar of psychological dread and resource scarcity.",
+      "relatedConsole": "playstation",
+      "relatedGame": "resident-evil",
+      "tags": [
+        "resident evil",
+        "capcom",
+        "shinji mikami",
+        "survival horror"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-1997-final-fantasy-vii",
+      "year": 1997,
+      "date": "1997-01-31",
+      "era": "1990s",
+      "category": "GAME",
+      "title": "Final Fantasy VII Propels Cinematic Gaming Worldwide",
+      "description": "Square breaks its historic exclusivity with Nintendo to release Final Fantasy VII across three CD-ROMs on PlayStation. Combining pre-rendered CGI cutscenes with 3D polygon combat.",
+      "significance": "Mainstreamed Japanese RPGs globally and cemented Sony's PlayStation as the uncontested market leader.",
+      "relatedConsole": "playstation",
+      "relatedGame": "final-fantasy-vii",
+      "tags": [
+        "final fantasy vii",
+        "square",
+        "playstation",
+        "cinematic gaming"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-1997-goldeneye-007",
+      "year": 1997,
+      "date": "1997-08-25",
+      "era": "1990s",
+      "category": "GAME",
+      "title": "GoldenEye 007 Establishes 4-Player Console FPS Multi",
+      "description": "Rare's team, directed by Martin Hollis, crafts GoldenEye 007 for the Nintendo 64. Adding a last-minute four-player split-screen multiplayer mode and locational hit damage.",
+      "significance": "Proved first-person shooters could succeed brilliantly on home consoles with couch multiplayer.",
+      "relatedConsole": "nintendo-64",
+      "relatedGame": "goldeneye-007",
+      "tags": [
+        "rare",
+        "goldeneye 007",
+        "nintendo 64",
+        "fps",
+        "split-screen"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-1998-zelda-ocarina-of-time",
+      "year": 1998,
+      "date": "1998-11-21",
+      "era": "1990s",
+      "category": "GAME",
+      "title": "The Legend of Zelda: Ocarina of Time Invents Z-Targeting",
+      "description": "Nintendo releases Ocarina of Time on N64. To solve the disorientation of 3D sword combat, director Toru Osawa devises Z-targeting lock-on alongside context-sensitive action buttons.",
+      "significance": "Universally adopted as the standard targeting mechanic across third-person 3D action games.",
+      "relatedConsole": "nintendo-64",
+      "relatedGame": "the-legend-of-zelda-ocarina-of-time",
+      "tags": [
+        "ocarina of time",
+        "zelda",
+        "z-targeting",
+        "nintendo 64"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-1998-metal-gear-solid",
+      "year": 1998,
+      "date": "1998-09-03",
+      "era": "1990s",
+      "category": "GAME",
+      "title": "Metal Gear Solid Merges Hollywood Cinema & Game Mechanics",
+      "description": "Hideo Kojima's tactical espionage masterwork uses real-time 3D rendered cutscenes, cinematic camera angles, professional voice casting, and fourth-wall psycho-sensory mechanics.",
+      "significance": "Pioneered modern cinematic video game storytelling and adult geopolitical themes in interactive entertainment.",
+      "relatedConsole": "playstation",
+      "relatedGame": "metal-gear-solid",
+      "tags": [
+        "metal gear solid",
+        "hideo kojima",
+        "konami",
+        "stealth",
+        "cinematic"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-1998-dreamcast-online",
+      "year": 1998,
+      "date": "1998-11-27",
+      "era": "1990s",
+      "category": "CONSOLE",
+      "title": "Sega Dreamcast Launches with Standard Built-In Modem",
+      "description": "Sega releases the Dreamcast in Japan, kicking off Generation VI. Featuring a 200 MHz Hitachi SH-4 CPU, PowerVR2 graphics, Visual Memory Units, and a built-in modular 56k dial-up modem.",
+      "significance": "The first home console with out-of-the-box online internet connectivity, hosting early console online play.",
+      "relatedConsole": "dreamcast",
+      "relatedGame": null,
+      "tags": [
+        "sega",
+        "dreamcast",
+        "sixth generation",
+        "online modem"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-2000-playstation-2",
+      "year": 2000,
+      "date": "2000-03-04",
+      "era": "2000s",
+      "category": "CONSOLE",
+      "title": "PlayStation 2 Launches & Transforms DVD Adoption",
+      "description": "Sony releases the PS2 powered by the 128-bit Emotion Engine. Priced at $299 with built-in DVD movie playback, it proves cheaper than standalone DVD players while offering backward compatibility.",
+      "significance": "Became the bestselling video game console in history with over 155 million units sold over 13 years.",
+      "relatedConsole": "playstation-2",
+      "relatedGame": null,
+      "tags": [
+        "ps2",
+        "playstation 2",
+        "sony",
+        "dvd",
+        "emotion engine"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-2000-the-sims",
+      "year": 2000,
+      "date": "2000-02-04",
+      "era": "2000s",
+      "category": "CULTURE",
+      "title": "The Sims Expands Gaming to New Demographics",
+      "description": "Will Wright and Maxis release The Sims on PC. Simulating domestic suburban daily life, interpersonal drama, and interior decoration, it becomes the bestselling PC franchise of its era.",
+      "significance": "Proved that everyday human emotional simulation could dramatically out-earn traditional combat games.",
+      "relatedConsole": null,
+      "relatedGame": "the-sims",
+      "tags": [
+        "the sims",
+        "will wright",
+        "maxis",
+        "demographics"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-2000-deus-ex",
+      "year": 2000,
+      "date": "2000-06-23",
+      "era": "2000s",
+      "category": "GAME",
+      "title": "Deus Ex Codifies the Modern Immersive Sim",
+      "description": "Warren Spector and Harvey Smith at Ion Storm deliver Deus Ex. Offering emergent problem-solving across hacking, stealth, dialogue, and lethal force in a reactive cyberpunk dystopia.",
+      "significance": "The high-water mark for player agency, setting the philosophical baseline for systemic immersive sims.",
+      "relatedConsole": null,
+      "relatedGame": "deus-ex",
+      "tags": [
+        "deus ex",
+        "warren spector",
+        "ion storm",
+        "immersive sim"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-2001-gta-iii",
+      "year": 2001,
+      "date": "2001-10-22",
+      "era": "2000s",
+      "category": "GAME",
+      "title": "Grand Theft Auto III Pioneers the 3D Open World",
+      "description": "DMA Design (Rockstar North) transitions Grand Theft Auto into a fully realized 3D Liberty City. Featuring total player agency, driving physics, pedestrian AI, and satirical radio stations.",
+      "significance": "Established the template for modern open-world game design and shifted industry prestige toward adult narratives.",
+      "relatedConsole": "playstation-2",
+      "relatedGame": "grand-theft-auto-iii",
+      "tags": [
+        "gta iii",
+        "rockstar",
+        "open world",
+        "liberty city"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-2001-xbox-and-halo",
+      "year": 2001,
+      "date": "2001-11-15",
+      "era": "2000s",
+      "category": "CONSOLE",
+      "title": "Microsoft Enters Console Arena with Xbox and Halo",
+      "description": "Microsoft launches the Xbox console, featuring an internal 8GB hard drive, Intel Pentium III CPU, and ethernet port. Launch title Halo: Combat Evolved by Bungie reinvents console twin-stick shooting.",
+      "significance": "Proved an American company could challenge Japanese console dominance and established modern console FPS control standards.",
+      "relatedConsole": "xbox",
+      "relatedGame": "halo-combat-evolved",
+      "tags": [
+        "microsoft",
+        "xbox",
+        "halo",
+        "bungie",
+        "master chief"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-2001-gamecube-release",
+      "year": 2001,
+      "date": "2001-09-14",
+      "era": "2000s",
+      "category": "CONSOLE",
+      "title": "Nintendo GameCube Debuts with Zero-Latency 1T-SRAM",
+      "description": "Nintendo releases the compact indigo GameCube, designed by Shigeru Miyamoto and powered by an IBM PowerPC 'Gekko' CPU and sub-millisecond 1T-SRAM memory architecture.",
+      "significance": "Created one of the most revered ergonomic controllers in history, remaining an enduring grassroots esports standard.",
+      "relatedConsole": "gamecube",
+      "relatedGame": "super-smash-bros-melee",
+      "tags": [
+        "gamecube",
+        "nintendo",
+        "gekko",
+        "melee"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-2002-xbox-live",
+      "year": 2002,
+      "date": "2002-11-15",
+      "era": "2000s",
+      "category": "ONLINE",
+      "title": "Xbox Live Launches Unified Console Online Network",
+      "description": "Microsoft rolls out the Xbox Live broadband network. Introducing universal Gamertags, friends lists, unified matchmaking, and headset voice chat with the Xbox Communicator.",
+      "significance": "Standardized the infrastructure and social architecture for all modern console online multiplayer gaming.",
+      "relatedConsole": "xbox",
+      "relatedGame": null,
+      "tags": [
+        "xbox live",
+        "gamertag",
+        "broadband",
+        "online gaming"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-2003-steam-launches",
+      "year": 2003,
+      "date": "2003-09-12",
+      "era": "2000s",
+      "category": "ONLINE",
+      "title": "Valve Launches Steam Digital Distribution Platform",
+      "description": "Valve releases the Steam client initially as an automatic updating tool for Counter-Strike. It soon opens to third-party digital game distribution, friend messaging, and cloud saves.",
+      "significance": "Transformed PC gaming from declining brick-and-mortar retail into the dominant digital storefront ecosystem.",
+      "relatedConsole": null,
+      "relatedGame": null,
+      "tags": [
+        "steam",
+        "valve",
+        "digital storefront",
+        "pc gaming"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-2004-nintendo-ds",
+      "year": 2004,
+      "date": "2004-11-21",
+      "era": "2000s",
+      "category": "CONSOLE",
+      "title": "Nintendo DS Introduces Dual-Screen Touch Gaming",
+      "description": "Nintendo launches the DS handheld featuring dual LCD screens, bottom resistive touchscreen, microphone, and Wi-Fi. Under Satoru Iwata's vision, titles like Brain Age appeal across age boundaries.",
+      "significance": "Anticipated modern capacitive touchscreen mobile interfaces and sold over 154 million units worldwide.",
+      "relatedConsole": "nintendo-ds",
+      "relatedGame": null,
+      "tags": [
+        "nintendo ds",
+        "touchscreen",
+        "satoru iwata",
+        "handheld"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-2004-world-of-warcraft",
+      "year": 2004,
+      "date": "2004-11-23",
+      "era": "2000s",
+      "category": "ONLINE",
+      "title": "World of Warcraft Mainstreams MMORPG Culture",
+      "description": "Blizzard Entertainment launches World of Warcraft. Combining accessible solo questing with massive 40-player guild raids across seamless Azeroth, it surpasses 12 million active monthly subscribers.",
+      "significance": "Turned massively multiplayer online gaming into a mainstream global social phenomenon.",
+      "relatedConsole": null,
+      "relatedGame": "world-of-warcraft",
+      "tags": [
+        "world of warcraft",
+        "blizzard",
+        "mmorpg",
+        "azeroth"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-2004-half-life-2",
+      "year": 2004,
+      "date": "2004-11-16",
+      "era": "2000s",
+      "category": "TECHNOLOGY",
+      "title": "Half-Life 2 Revolutionizes Environmental Physics",
+      "description": "Valve releases Half-Life 2 powered by the Source engine. Introducing realistic Havok-based rigid-body physics manipulated directly in gameplay via the iconic Gravity Gun.",
+      "significance": "Made interactive real-time physical simulation an integral mechanism of puzzle solving and combat.",
+      "relatedConsole": null,
+      "relatedGame": "half-life-2",
+      "tags": [
+        "half-life 2",
+        "physics",
+        "source engine",
+        "gravity gun"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-2005-resident-evil-4",
+      "year": 2005,
+      "date": "2005-01-11",
+      "era": "2000s",
+      "category": "GAME",
+      "title": "Resident Evil 4 Invents the Over-the-Shoulder Camera",
+      "description": "Shinji Mikami reinvents Resident Evil on GameCube. Placing the camera tightly over Leon S. Kennedy's shoulder with precision laser aiming, it transforms action pacing.",
+      "significance": "Became the universal camera perspective standard for virtually all third-person shooters and action blockbusters.",
+      "relatedConsole": "gamecube",
+      "relatedGame": "resident-evil-4",
+      "tags": [
+        "resident evil 4",
+        "over the shoulder",
+        "shinji mikami",
+        "camera"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-2005-shadow-of-colossus",
+      "year": 2005,
+      "date": "2005-10-18",
+      "era": "2000s",
+      "category": "CULTURE",
+      "title": "Shadow of the Colossus Champions Video Games as Art",
+      "description": "Fumito Ueda and Team Ico craft Shadow of the Colossus on PS2. Stripping away towns, dungeons, and dialogue, Wander scales 16 magnificent, melancholic colossi in moral ambiguity.",
+      "significance": "Universally cited in cultural, academic, and legal circles as conclusive proof of video games as fine art.",
+      "relatedConsole": "playstation-2",
+      "relatedGame": "shadow-of-the-colossus",
+      "tags": [
+        "team ico",
+        "fumito ueda",
+        "games as art",
+        "minimalism"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-2005-xbox-360",
+      "year": 2005,
+      "date": "2005-11-22",
+      "era": "2000s",
+      "category": "CONSOLE",
+      "title": "Xbox 360 Launches the High-Definition Era & Achievements",
+      "description": "Microsoft beats competitors to Generation VII by launching the Xbox 360. Featuring 720p/1080i HD output, universal Gamerscore Achievements, and digital indie platform Xbox Live Arcade (XBLA).",
+      "significance": "Standardized modern console HD gaming, persistent online profile achievements, and digital indie publishing.",
+      "relatedConsole": "xbox-360",
+      "relatedGame": null,
+      "tags": [
+        "xbox 360",
+        "microsoft",
+        "hd",
+        "achievements",
+        "xbla"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-2006-wii-motion",
+      "year": 2006,
+      "date": "2006-11-19",
+      "era": "2000s",
+      "category": "CONSOLE",
+      "title": "Nintendo Wii Launches Motion-Controlled 'Blue Ocean' Wave",
+      "description": "Rejecting the expensive HD horsepower race, Nintendo launches the Wii with the motion-sensing Wii Remote. Bundled with Wii Sports, it becomes a global sensation across retirement homes and dorms.",
+      "significance": "Democratized interactive gaming across non-traditional demographics, selling over 101 million consoles.",
+      "relatedConsole": "wii",
+      "relatedGame": null,
+      "tags": [
+        "wii",
+        "nintendo",
+        "motion control",
+        "wii sports",
+        "blue ocean"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-2006-playstation-3",
+      "year": 2006,
+      "date": "2006-11-11",
+      "era": "2000s",
+      "category": "CONSOLE",
+      "title": "PlayStation 3 Introduces Cell Architecture & Blu-ray",
+      "description": "Sony launches the PS3 featuring the complex 3.2 GHz Cell Broadband Engine and an integrated Blu-ray Disc player. Despite a steep $599 launch price, it wins the high-def disc format war over HD-DVD.",
+      "significance": "Established Blu-ray as the global physical HD media standard and laid the groundwork for Sony's narrative blockbuster studios.",
+      "relatedConsole": "playstation-3",
+      "relatedGame": null,
+      "tags": [
+        "ps3",
+        "playstation 3",
+        "sony",
+        "blu-ray",
+        "cell engine"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-2007-call-of-duty-4",
+      "year": 2007,
+      "date": "2007-11-05",
+      "era": "2000s",
+      "category": "GAME",
+      "title": "Modern Warfare Codifies Persistent Online FPS Progression",
+      "description": "Infinity Ward releases Call of Duty 4: Modern Warfare. Introducing persistent multi-level player progression, custom class creation, unlockable weapon perks, and killstreak rewards.",
+      "significance": "Reshaped the multiplayer loop across the entire action genre for the subsequent two decades.",
+      "relatedConsole": null,
+      "relatedGame": "call-of-duty-4-modern-warfare",
+      "tags": [
+        "call of duty",
+        "infinity ward",
+        "multiplayer progression",
+        "fps"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-2008-app-store",
+      "year": 2008,
+      "date": "2008-07-10",
+      "era": "2000s",
+      "category": "INDUSTRY",
+      "title": "Apple Launches the iOS App Store",
+      "description": "Apple introduces the third-party App Store on iPhone OS 2. Low development barriers, capacitive multi-touch displays, and 99-cent microtransactions ignite a mobile gaming explosion.",
+      "significance": "Transformed smartphones into the largest gaming platform by user count and revenue on Earth.",
+      "relatedConsole": null,
+      "relatedGame": null,
+      "tags": [
+        "apple",
+        "iphone",
+        "app store",
+        "mobile gaming"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-2011-minecraft-launch",
+      "year": 2011,
+      "date": "2011-11-18",
+      "era": "2010s",
+      "category": "GAME",
+      "title": "Minecraft Launches and Redefines Digital Literacy",
+      "description": "Markus 'Notch' Persson and Mojang officially release Minecraft out of beta. Its voxel-based procedural sandbox affords limitless construction, redstone computational engineering, and survival.",
+      "significance": "Became the bestselling video game in human history with over 300 million copies sold, teaching systems-thinking globally.",
+      "relatedConsole": null,
+      "relatedGame": "minecraft",
+      "tags": [
+        "minecraft",
+        "mojang",
+        "notch",
+        "sandbox",
+        "bestselling"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-2011-dark-souls",
+      "year": 2011,
+      "date": "2011-09-22",
+      "era": "2010s",
+      "category": "GAME",
+      "title": "Dark Souls Spawns the Soulslike Genre",
+      "description": "Hidetaka Miyazaki and FromSoftware release Dark Souls. Rejecting modern hand-holding, it challenges players through punishing combat discipline, interconnected vertical level design, and diegetic phantoms.",
+      "significance": "Birthed the 'Soulslike' genre and revitalized demand for deliberate, unforgiving game challenge.",
+      "relatedConsole": null,
+      "relatedGame": "dark-souls",
+      "tags": [
+        "fromsoftware",
+        "dark souls",
+        "hidetaka miyazaki",
+        "soulslike"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-2011-skyrim-launch",
+      "year": 2011,
+      "date": "2011-11-11",
+      "era": "2010s",
+      "category": "GAME",
+      "title": "The Elder Scrolls V: Skyrim Sets Open-World Benchmark",
+      "description": "Bethesda Game Studios releases Skyrim. Offering an unconstrained living fantasy landscape across snow-capped northern mountains, radiant AI quests, and expansive modding support.",
+      "significance": "Defined 2010s open-world fantasy exploration and became an enduring multi-generational cultural staple.",
+      "relatedConsole": null,
+      "relatedGame": "the-elder-scrolls-v-skyrim",
+      "tags": [
+        "skyrim",
+        "bethesda",
+        "todd howard",
+        "open world rpg"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-2011-twitch-launch",
+      "year": 2011,
+      "date": "2011-06-06",
+      "era": "2010s",
+      "category": "ONLINE",
+      "title": "Twitch Launches and Makes Game Streaming a Global Career",
+      "description": "Justin.tv spins off its gaming broadcasting section as Twitch.tv. Providing low-latency live streaming, chat emotes, and creator subscriptions, it reshapes video game marketing.",
+      "significance": "Turned game streaming and live broadcasting into a primary medium for esports, community building, and game discovery.",
+      "relatedConsole": null,
+      "relatedGame": null,
+      "tags": [
+        "twitch",
+        "streaming",
+        "esports",
+        "content creation"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-2012-kickstarter-indie-boom",
+      "year": 2012,
+      "date": "2012-03",
+      "era": "2010s",
+      "category": "INDUSTRY",
+      "title": "Crowdfunding Sparks Independent Video Game Renaissance",
+      "description": "Double Fine Adventure raises $3.3 million on Kickstarter, shattering records. A tidal wave of independent auteur projects follows, including Pillars of Eternity, Shovel Knight, and Undertale.",
+      "significance": "Demonstrated that creators could bypass corporate publisher gatekeepers through direct audience crowdfunding.",
+      "relatedConsole": null,
+      "relatedGame": null,
+      "tags": [
+        "kickstarter",
+        "crowdfunding",
+        "indie games",
+        "double fine"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-2013-ps4-xbox-one",
+      "year": 2013,
+      "date": "2013-11-15",
+      "era": "2010s",
+      "category": "CONSOLE",
+      "title": "PlayStation 4 & Xbox One Launch on x86 Architecture",
+      "description": "Sony and Microsoft abandon custom RISC/PowerPC processors in favor of standardized AMD x86-64 APU architectures. Sony's consumer-friendly $399 messaging and Share button propel PS4 to massive victory.",
+      "significance": "Aligned console silicon directly with PC architectures, simplifying cross-platform development forever.",
+      "relatedConsole": "playstation-4",
+      "relatedGame": null,
+      "tags": [
+        "ps4",
+        "xbox one",
+        "x86",
+        "eighth generation",
+        "share button"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-2013-gta-v-revenue",
+      "year": 2013,
+      "date": "2013-09-17",
+      "era": "2010s",
+      "category": "INDUSTRY",
+      "title": "Grand Theft Auto V Generates $1 Billion in Three Days",
+      "description": "Rockstar Games releases GTA V. Capturing a sprawling simulated Southern California with three interconnected protagonists, it earns $800 million in 24 hours and $1 billion in 72 hours.",
+      "significance": "The fastest-selling entertainment product in human history, demonstrating interactive entertainment's economic dominance over cinema.",
+      "relatedConsole": null,
+      "relatedGame": "grand-theft-auto-v",
+      "tags": [
+        "gta v",
+        "rockstar",
+        "record revenue",
+        "entertainment record"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-2013-last-of-us",
+      "year": 2013,
+      "date": "2013-06-14",
+      "era": "2010s",
+      "category": "GAME",
+      "title": "The Last of Us Elevates Performance Capture & Emotional Drama",
+      "description": "Neil Druckmann and Bruce Straley direct The Last of Us for Naughty Dog. Centered on Joel and Ellie traversing fungal-ravaged ruins, it treats violence with horrifying weight and nuanced human morality.",
+      "significance": "Set the cinematic benchmark for emotional nuance, performance capture acting, and narrative storytelling in blockbusters.",
+      "relatedConsole": "playstation-3",
+      "relatedGame": "the-last-of-us",
+      "tags": [
+        "the last of us",
+        "naughty dog",
+        "performance capture",
+        "narrative"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-2015-witcher-3",
+      "year": 2015,
+      "date": "2015-05-19",
+      "era": "2010s",
+      "category": "GAME",
+      "title": "The Witcher 3 Reinvents Open-World Side Quest Narrative",
+      "description": "CD Projekt Red releases The Witcher 3: Wild Hunt. Rejecting formulaic checklist fetch quests, every side mission features multi-layered morally gray storytelling, voice acting, and consequences.",
+      "significance": "Forced the entire RPG and open-world industry to elevate secondary quest writing and character complexity.",
+      "relatedConsole": null,
+      "relatedGame": "the-witcher-3-wild-hunt",
+      "tags": [
+        "the witcher 3",
+        "cd projekt red",
+        "open world",
+        "rpg"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-2016-pokemon-go",
+      "year": 2016,
+      "date": "2016-07-06",
+      "era": "2010s",
+      "category": "CULTURE",
+      "title": "Pokémon GO Creates Global Augmented Reality Craze",
+      "description": "Niantic and The Pokémon Company launch Pokémon GO on iOS and Android. Using GPS geolocation and smartphone camera AR, hundreds of millions of players gather in public parks and landmarks.",
+      "significance": "Brought augmented reality into mainstream everyday society, creating an unprecedented global social outdoor phenomenon.",
+      "relatedConsole": null,
+      "relatedGame": null,
+      "tags": [
+        "pokemon go",
+        "niantic",
+        "augmented reality",
+        "mobile"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-2016-vr-commercial-revival",
+      "year": 2016,
+      "date": "2016-03-28",
+      "era": "2010s",
+      "category": "TECHNOLOGY",
+      "title": "Oculus Rift, HTC Vive & PS VR Revive Virtual Reality",
+      "description": "Consumer VR headsets launch with sub-millimeter positional tracking, high-refresh OLED panels, and spatial hand controllers, ending decades of technical latency barriers.",
+      "significance": "Revitalized immersive virtual reality as a viable consumer category after decades of technical dormancy.",
+      "relatedConsole": null,
+      "relatedGame": null,
+      "tags": [
+        "vr",
+        "virtual reality",
+        "oculus rift",
+        "ps vr"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-2017-nintendo-switch",
+      "year": 2017,
+      "date": "2017-03-03",
+      "era": "2010s",
+      "category": "CONSOLE",
+      "title": "Nintendo Switch Redefines Console as a Hybrid Form-Factor",
+      "description": "Following the commercial disappointment of the Wii U, Nintendo releases the Switch. Anchored by detachable Joy-Con controllers and instant TV-to-handheld docking, it launches with Breath of the Wild.",
+      "significance": "Unified home and handheld development pipelines into one modular ecosystem, selling over 140 million units.",
+      "relatedConsole": "nintendo-switch",
+      "relatedGame": "the-legend-of-zelda-breath-of-the-wild",
+      "tags": [
+        "nintendo switch",
+        "hybrid console",
+        "joy-con",
+        "breath of the wild"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-2017-game-pass",
+      "year": 2017,
+      "date": "2017-06-01",
+      "era": "2010s",
+      "category": "ONLINE",
+      "title": "Microsoft Launches Xbox Game Pass Subscription Model",
+      "description": "Microsoft introduces Xbox Game Pass, offering unlimited on-demand access to a rotating library of games for a monthly fee, including day-one first-party releases like Halo and Forza.",
+      "significance": "Accelerated the industry-wide shift toward subscription-based distribution and platform-agnostic cloud streaming.",
+      "relatedConsole": "xbox-one",
+      "relatedGame": null,
+      "tags": [
+        "game pass",
+        "microsoft",
+        "subscription",
+        "cloud"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-2017-fortnite-battle-royale",
+      "year": 2017,
+      "date": "2017-09-26",
+      "era": "2010s",
+      "category": "ONLINE",
+      "title": "Fortnite Battle Royale Mainstreams Cross-Play & Live Events",
+      "description": "Epic Games releases the free-to-play Fortnite Battle Royale on Unreal Engine. It conquers pop culture through Battle Pass monetization, virtual concerts, and forcing platform holders to allow universal cross-play.",
+      "significance": "Forced Sony, Microsoft, and Nintendo to tear down walled gardens and allow universal cross-platform multiplayer.",
+      "relatedConsole": null,
+      "relatedGame": null,
+      "tags": [
+        "fortnite",
+        "epic games",
+        "battle royale",
+        "cross-play",
+        "live service"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-2018-red-dead-2",
+      "year": 2018,
+      "date": "2018-10-26",
+      "era": "2010s",
+      "category": "TECHNOLOGY",
+      "title": "Red Dead Redemption 2 Sets Ecology & Simulation Peak",
+      "description": "Rockstar Games releases Red Dead Redemption 2. Presenting an astonishing ecological simulation with over 200 animal species, adaptive NPC conversations, and tragic narrative depth.",
+      "significance": "The crowning achievement in environmental simulation fidelity and microscopic world detail in AAA gaming.",
+      "relatedConsole": "playstation-4",
+      "relatedGame": "red-dead-redemption-2",
+      "tags": [
+        "red dead redemption 2",
+        "rockstar",
+        "simulation",
+        "environmental detail"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-2020-ninth-gen-launch",
+      "year": 2020,
+      "date": "2020-11-10",
+      "era": "2020s",
+      "category": "CONSOLE",
+      "title": "PlayStation 5 and Xbox Series X/S Usher in Generation IX",
+      "description": "Sony and Microsoft launch their next-gen systems amidst a global pandemic. Powered by custom PCIe 4.0 NVMe SSD architectures and hardware ray tracing, they banish traditional game loading screens.",
+      "significance": "Inaugurated Generation IX with instantaneous SSD asset streaming and haptic feedback controllers.",
+      "relatedConsole": "playstation-5",
+      "relatedGame": null,
+      "tags": [
+        "ps5",
+        "xbox series x",
+        "ninth generation",
+        "nvme ssd",
+        "ray tracing"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-2022-steam-deck",
+      "year": 2022,
+      "date": "2022-02-25",
+      "era": "2020s",
+      "category": "HARDWARE",
+      "title": "Valve Releases the Steam Deck Handheld Gaming PC",
+      "description": "Valve ships the Steam Deck, a portable gaming PC running open-source SteamOS (Linux) powered by Proton compatibility. It brings full-fledged PC games into handheld ergonomics without developer ports.",
+      "significance": "Pioneered the modern handheld PC gaming category and demonstrated Linux as a first-class gaming operating system.",
+      "relatedConsole": null,
+      "relatedGame": null,
+      "tags": [
+        "steam deck",
+        "valve",
+        "handheld pc",
+        "linux",
+        "proton"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-2022-unreal-engine-5",
+      "year": 2022,
+      "date": "2022-04-05",
+      "era": "2020s",
+      "category": "TECHNOLOGY",
+      "title": "Epic Games Launches Unreal Engine 5 with Nanite & Lumen",
+      "description": "Epic Games releases Unreal Engine 5 commercially. Featuring Nanite virtualized micropolygon geometry and Lumen fully dynamic global illumination, it eliminates manual polygon LOD baking.",
+      "significance": "Revolutionized 3D rendering pipelines, enabling film-quality geometry assets directly inside real-time interactive game worlds.",
+      "relatedConsole": null,
+      "relatedGame": null,
+      "tags": [
+        "unreal engine 5",
+        "epic games",
+        "nanite",
+        "lumen",
+        "3d engine"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ev-2023-consolidation-activision",
+      "year": 2023,
+      "date": "2023-10-13",
+      "era": "2020s",
+      "category": "INDUSTRY",
+      "title": "Microsoft Closes Historic $69 Billion Activision Blizzard Deal",
+      "description": "Following 20 months of unprecedented global antitrust scrutiny from the FTC, CMA, and European Commission, Microsoft completes its $68.7 billion acquisition of Activision Blizzard King.",
+      "significance": "The largest transaction in the history of the video game industry, dramatically reshaping publisher independence and IP ownership.",
+      "relatedConsole": null,
+      "relatedGame": null,
+      "tags": [
+        "microsoft",
+        "activision blizzard",
+        "acquisition",
+        "antitrust",
+        "industry consolidation"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-2023-preservation-crisis",
+      "year": 2023,
+      "date": "2023-03-27",
+      "era": "2020s",
+      "category": "CULTURE",
+      "title": "Closure of 3DS & Wii U eShops Ignites Preservation Crisis",
+      "description": "Nintendo shuts down the digital 3DS and Wii U eShops, making roughly 1,000 digital-only games inaccessible. The Video Game History Foundation publishes a landmark study revealing 87% of classic games are out of print.",
+      "significance": "Elevated digital game preservation and archival copyright reform into mainstream legislative and cultural discussion.",
+      "relatedConsole": "nintendo-3ds",
+      "relatedGame": null,
+      "tags": [
+        "preservation",
+        "eshop closure",
+        "video game history foundation",
+        "digital archive"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ev-2024-ps5-pro-ai-upscaling",
+      "year": 2024,
+      "date": "2024-11-07",
+      "era": "2020s",
+      "category": "TECHNOLOGY",
+      "title": "Sony Launches PlayStation 5 Pro with Hardware AI Upscaling (PSSR)",
+      "description": "Sony releases the PS5 Pro featuring 67% more GPU compute units, advanced ray tracing accelerators, and dedicated neural network hardware for PlayStation Spectral Super Resolution (PSSR).",
+      "significance": "Pioneered machine-learning AI image reconstruction on dedicated console silicon to resolve fidelity vs. framerate trade-offs.",
+      "relatedConsole": "playstation-5-pro",
+      "relatedGame": null,
+      "tags": [
+        "ps5 pro",
+        "pssr",
+        "machine learning",
+        "ai upscaling",
+        "ray tracing"
+      ],
+      "featured": false
+    }
+  ]
+}

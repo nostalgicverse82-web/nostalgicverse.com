@@ -1,0 +1,85 @@
+{
+  "id": "game-daytona-usa",
+  "slug": "daytona-usa",
+  "title": "Daytona USA",
+  "japaneseTitle": "デイトナUSA",
+  "url": "/games/daytona-usa/",
+  "originalReleaseYear": 1994,
+  "exactReleaseDate": "1994-03-01",
+  "developer": "Sega AM2",
+  "publisher": "Sega",
+  "director": "Toshihiro Nagoshi",
+  "designer": "Yu Suzuki",
+  "composer": "Takenobu Mitsuyoshi",
+  "originalLaunchPlatform": "Arcade (Sega Model 2)",
+  "platforms": [
+    "Arcade",
+    "Sega Saturn",
+    "Microsoft Windows",
+    "PlayStation 3",
+    "Xbox 360"
+  ],
+  "genre": "racing",
+  "subgenres": [
+    "Arcade Racing",
+    "Stock Car Racing"
+  ],
+  "era": "1990s",
+  "shortDescription": "Sega AM2's legendary stock-car arcade racing landmark, introducing texture-mapped 60 FPS 3D polygons on the Model 2 arcade hardware.",
+  "historicalSignificance": "One of the highest-grossing arcade games in history, setting the worldwide gold standard for 3D arcade driving with its blazing 60 FPS texture mapping, 8-player cabinet linking, and iconic 'Let's Go Away' vocal music by Takenobu Mitsuyoshi.",
+  "editorialContent": {
+    "overview": "Directed by Toshihiro Nagoshi under supervisor Yu Suzuki, Daytona USA brought high-speed NASCAR-inspired stock car drifting to arcades worldwide on Sega's groundbreaking Model 2 arcade board.",
+    "gameplay": "Blistering drift mechanics around Three-Seven Speedway, Dinosaur Canyon, and Seaside Street Galaxy, navigating packs of 40 simultaneous stock cars at 200 MPH with force-feedback steering.",
+    "technicalInnovation": "The first arcade game to feature hardware texture filtering and real-time lighting on 3D polygons at a locked 60 frames per second, handling 300,000 polygons per second.",
+    "culturalImpact": "A cornerstone of 1990s arcade culture whose infectious vocal soundtrack and linked multiplayer cabinets remain beloved worldwide.",
+    "preservationNotes": "Preserved on Sega Model 2 arcade boards, ported to Saturn and PC, and remastered for modern HD consoles."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "March 1994",
+    "leadPlatform": "Arcade",
+    "genre": "racing",
+    "sales": "Over $1 billion in arcade gross; one of the highest-earning coin-op titles ever",
+    "awards": [
+      "AMOA Most Popular Video Game 1994",
+      "Inducted into World Video Game Hall of Fame"
+    ],
+    "technicalSpecs": {
+      "engine": "Sega Model 2 Hardware (Intel i960 @ 25 MHz + Fujitsu DSPs)",
+      "resolution": "496 x 384 at locked 60fps (textured 3D polygons)",
+      "soundChip": "Sega MultiPCM 28-channel audio with Mitsuyoshi vocals",
+      "mediaFormat": "Arcade PCB with Force Feedback Steering"
+    },
+    "relationships": {
+      "primaryConsole": "arcade",
+      "developerEntity": "Sega",
+      "lineage": [
+        "Virtua Racing",
+        "Sega Rally Championship",
+        "Out Run"
+      ]
+    }
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/7/7c/Daytona_USA_arcade_flyer.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/7/7c/Daytona_USA_arcade_flyer.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Daytona_USA_arcade_flyer.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "daytona usa",
+    "sega",
+    "sega am2",
+    "toshihiro nagoshi",
+    "yu suzuki",
+    "takenobu mitsuyoshi",
+    "model 2",
+    "arcade",
+    "1994"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-gran-turismo-6",
+  "slug": "gran-turismo-6",
+  "title": "Gran Turismo 6",
+  "originalReleaseYear": 2013,
+  "exactReleaseDate": "December 6, 2013",
+  "originalLaunchPlatform": "PlayStation 3",
+  "originalLaunchRegion": "Worldwide",
+  "developer": "Polyphony Digital",
+  "publisher": "Sony Computer Entertainment",
+  "platforms": [
+    "PlayStation 3"
+  ],
+  "genre": "racing",
+  "subgenres": [
+    "sim-racing"
+  ],
+  "era": "2010s",
+  "shortDescription": "The culmination of PS3 simulation technology featuring 1,200 vehicles and authentic astronomical sky modeling.",
+  "historicalSignificance": "Featured the Vision Gran Turismo concept car initiative, bridging real-world automotive engineering with digital museum craft.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Gran_Turismo_6",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "The culmination of PS3 simulation technology featuring 1,200 vehicles and authentic astronomical sky modeling.",
+    "culturalImpact": "Featured the Vision Gran Turismo concept car initiative, bridging real-world automotive engineering with digital museum craft."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 3"
+    ],
+    "genres": [
+      "racing"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/f/f6/Gran_Turismo_6_Coverart.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/f/f6/Gran_Turismo_6_Coverart.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Gran_Turismo_6",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Gran Turismo 6",
+    "Polyphony Digital",
+    "Sony Computer Entertainment",
+    "PlayStation 3",
+    "racing",
+    "2013",
+    "2013",
+    "PlayStation 3",
+    "sim-racing"
+  ],
+  "url": "/games/gran-turismo-6/",
+  "featured": false
+}

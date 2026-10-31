@@ -1,0 +1,93 @@
+{
+  "id": "game-the-legend-of-zelda-a-link-to-the-past",
+  "slug": "the-legend-of-zelda-a-link-to-the-past",
+  "title": "The Legend of Zelda: A Link to the Past",
+  "japaneseTitle": "ゼルダの伝説 神々のトライフォース",
+  "url": "/games/the-legend-of-zelda-a-link-to-the-past/",
+  "originalReleaseYear": 1991,
+  "exactReleaseDate": "1991-11-21",
+  "developer": "Nintendo EAD",
+  "publisher": "Nintendo",
+  "director": "Takashi Tezuka",
+  "designer": "Shigeru Miyamoto",
+  "composer": "Koji Kondo",
+  "originalLaunchPlatform": "Super Famicom",
+  "platforms": [
+    "Super Famicom",
+    "SNES",
+    "Game Boy Advance"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "Top-Down Action-Adventure",
+    "Fantasy RPG"
+  ],
+  "era": "1990s",
+  "shortDescription": "Nintendo's 16-bit action-adventure masterclass, introducing the dual Light and Dark World parallel dimensions, the Master Sword, and the hookshot.",
+  "historicalSignificance": "Codified the modern Zelda formula, established the parallel dual-world environmental puzzle paradigm, and introduced franchise staples including the Master Sword and Pieces of Heart.",
+  "editorialContent": {
+    "overview": "Directed by Takashi Tezuka with production by Shigeru Miyamoto and scriptwriting by Kensuke Tanabe, The Legend of Zelda: A Link to the Past (Triforce of the Gods in Japan) arrived on the Super Famicom in November 1991. Reverting from Zelda II's side-scrolling experiment back to the overhead perspective of the 1986 original, it delivered a sweeping, emotionally mature fantasy epic that defined 16-bit world design.",
+    "gameplayMechanics": "Players guide Link through an opening rainstorm to rescue Princess Zelda from Hyrule Castle dungeon, embarking on a quest to thwart the evil wizard Agahnim and the demon king Ganon. The game's defining design breakthrough is the dual-world mechanic: players journey between the vibrant Light World of Hyrule and the corrupted, twisted Dark World via the Magic Mirror. Altering terrain or completing actions in one dimension reverberates across the other, creating intricate topological puzzles.",
+    "technicalInnovation": "A Link to the Past utilized an 8-megabit (1 MB) cartridge backed by battery SRAM. The engine showcased advanced multi-layer parallax transparency (rain sweeping across the screen, ethereal lighting in the Lost Woods), multi-directional diagonal sword slashing, and dynamic orchestral sample synthesis on the Sony SPC700.",
+    "culturalImpact": "Universally hailed as one of the greatest video games ever conceived, A Link to the Past solidified the mechanical grammar that governed subsequent 2D and 3D adventures, directly informing Ocarina of Time and A Link Between Worlds.",
+    "preservationNotes": "Preserved on authentic 1MB SNES ROM cartridge dumps. Preserving the exact 8-channel SPC700 audio sample loop points is vital to experiencing Koji Kondo's legendary Hyrule Field theme."
+  },
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "Miyamoto, Shigeru & Tezuka, Takashi. 'Developer Retrospective: Triforce of the Gods', Famicom Tsushin (1992)",
+      "Tanabe, Kensuke. 'Narrative and Dual Worlds in Zelda', Nintendo Online Magazine (2002)",
+      "Nintendo Co., Ltd. SNS-ZL-USA Instruction Booklet: A Link to the Past (1992)"
+    ],
+    "romMediaFormat": "Super Nintendo ROM Cartridge (SHVC-1A1M with SRAM)",
+    "romSizeOriginal": "1 MB ROM (8 Megabits) + 8 KB Battery SRAM",
+    "displayResolutionOriginal": "256 × 224 (NTSC 16-Bit RGB)",
+    "audioHardware": "Sony SPC700 8-channel ADPCM sound processor",
+    "inputMethod": "SNES Controller (D-Pad, A/B/X/Y, L/R)",
+    "multiplayerCapability": "1 Player"
+  },
+  "relatedExhibits": {
+    "games": [
+      "the-legend-of-zelda",
+      "the-legend-of-zelda-ocarina-of-time",
+      "super-metroid"
+    ],
+    "consoles": [
+      "super-nintendo-entertainment-system"
+    ],
+    "genres": [
+      "action-adventure"
+    ],
+    "timeline": [
+      "ev-1991-sonic-the-hedgehog"
+    ]
+  },
+  "assets": {
+    "heroImage": "/assets/images/games/the-legend-of-zelda-a-link-to-the-past-hero.webp",
+    "thumbnailImage": "/assets/images/games/the-legend-of-zelda-a-link-to-the-past.webp",
+    "coverImage": "/assets/images/games/the-legend-of-zelda-a-link-to-the-past-cover.webp",
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/2/21/The_Legend_of_Zelda_A_Link_to_the_Past_SNES_Game_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/2/21/The_Legend_of_Zelda_A_Link_to_the_Past_SNES_Game_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:The_Legend_of_Zelda_A_Link_to_the_Past_SNES_Game_Cover.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "review-required",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "a link to the past",
+    "zelda",
+    "link",
+    "master sword",
+    "dark world",
+    "shigeru miyamoto",
+    "takashi tezuka",
+    "koji kondo",
+    "super famicom",
+    "snes",
+    "1991",
+    "1990s"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

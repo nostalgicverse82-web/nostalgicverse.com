@@ -1,0 +1,72 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-dead-cells",
+  "slug": "dead-cells",
+  "title": "Dead Cells",
+  "originalReleaseYear": 2018,
+  "exactReleaseDate": "August 7, 2018",
+  "originalLaunchPlatform": "PlayStation 4",
+  "originalLaunchRegion": "Worldwide",
+  "developer": "Motion Twin",
+  "publisher": "Motion Twin",
+  "platforms": [
+    "PlayStation 4",
+    "Xbox One",
+    "Switch",
+    "PC"
+  ],
+  "genre": "roguelike",
+  "subgenres": [
+    "metroidvania"
+  ],
+  "era": "2010s",
+  "shortDescription": "The Prisoner navigates an ever-changing cursed island castle with blistering dodge-roll roguevania combat.",
+  "historicalSignificance": "Celebrated for near-perfect game feel, fluid pixel animations, and rewarding build customizability.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Dead_Cells",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "The Prisoner navigates an ever-changing cursed island castle with blistering dodge-roll roguevania combat.",
+    "culturalImpact": "Celebrated for near-perfect game feel, fluid pixel animations, and rewarding build customizability."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 4"
+    ],
+    "genres": [
+      "roguelike"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Dead_Cells_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Dead_Cells_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Dead_Cells",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Dead Cells",
+    "Motion Twin",
+    "Motion Twin",
+    "PlayStation 4",
+    "roguelike",
+    "2018",
+    "2010s",
+    "PlayStation 4",
+    "Xbox One",
+    "Switch",
+    "PC",
+    "metroidvania"
+  ],
+  "url": "/games/dead-cells/",
+  "featured": false
+}

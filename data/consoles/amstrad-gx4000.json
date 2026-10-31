@@ -1,0 +1,41 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+  "id": "console-amstrad-gx4000",
+  "slug": "amstrad-gx4000",
+  "name": "Amstrad GX4000",
+  "manufacturer": "Amstrad",
+  "generation": "Third Generation",
+  "generationNumber": 3,
+  "originalReleaseYear": 1990,
+  "exactReleaseDate": "September 1990",
+  "mediaFormat": "ROM Cartridge",
+  "significance": "A notable European 8-bit console commercial casualty, arriving just as 16-bit systems like the Sega Mega Drive were dominating the continent.",
+  "verifiedFactualData": {
+    "cpu": "Zilog Z80A @ 4 MHz",
+    "gpuOrVideoChip": "Custom ASIC supporting hardware sprites and 32 on-screen colors from 4,096 palette",
+    "ram": "64 KB RAM, 16 KB VRAM"
+  },
+  "editorialContent": {
+    "overview": "Amstrad's short-lived console adaptation of its popular CPC+ home computer line for the European market.",
+    "marketLegacy": "A notable European 8-bit console commercial casualty, arriving just as 16-bit systems like the Sega Mega Drive were dominating the continent.",
+    "controllerDesign": "Dual 2-button digital gamepads"
+  },
+  "keyGames": [
+    "burnin-rubber",
+    "robocop-2",
+    "pang"
+  ],
+  "assets": {
+    "mainImage": "/assets/images/consoles/amstrad-gx4000.png",
+    "heroImage": "/assets/images/consoles/amstrad-gx4000-hero.png",
+    "hardwareImage": "/assets/images/consoles/amstrad-gx4000-hardware.png"
+  },
+  "keywords": [
+    "amstrad",
+    "gx4000",
+    "europe",
+    "third generation",
+    "1990",
+    "z80"
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "game-panzer-dragoon",
+  "slug": "panzer-dragoon",
+  "title": "Panzer Dragoon",
+  "japaneseTitle": "パンツァードラグーン",
+  "url": "/games/panzer-dragoon/",
+  "originalReleaseYear": 1995,
+  "exactReleaseDate": "1995-03-10",
+  "developer": "Team Andromeda",
+  "publisher": "Sega",
+  "director": "Yukio Futatsugi",
+  "designer": "Manabu Kusunoki",
+  "composer": "Yoshitaka Azuma",
+  "originalLaunchPlatform": "Sega Saturn",
+  "platforms": [
+    "Sega Saturn",
+    "Microsoft Windows",
+    "PlayStation 2"
+  ],
+  "genre": "shooter",
+  "subgenres": [
+    "Rail Shooter",
+    "Artistic 3D Sci-Fi"
+  ],
+  "era": "1990s",
+  "shortDescription": "Team Andromeda's breathtaking 360-degree rail-shooter launch title for the Sega Saturn, defined by Moebius-inspired art direction and an orchestral score.",
+  "historicalSignificance": "A crowning showcase for the artistic ambition of fifth-generation CD-ROM gaming, introducing a 360-degree rotational camera system, a fictional spoken language, and establishing the cult-classic Panzer Dragoon universe.",
+  "editorialContent": {
+    "overview": "Set in a melancholic, post-apocalyptic fantasy world where bio-engineered ruins decay amidst sweeping desert wastes, hunter Keil Fluge bonds with an armored Blue Dragon to prevent a rogue Black Dragon from unlocking an ancient monolith.",
+    "gameplay": "Revolutionized rail shooters by introducing four directional camera perspectives (Front, Left, Back, Right), allowing players to spin 360 degrees to lock onto targets with homing lasers while avoiding laser barrages.",
+    "technicalInnovation": "Demonstrated the raw 3D polygon capabilities of the dual-SH2 processors in the Sega Saturn alongside Yoshitaka Azuma's sweeping orchestral score.",
+    "culturalImpact": "French comic master Moebius (Jean Giraud) contributed official cover art and concept designs, cementing the game as a high-art interactive benchmark.",
+    "preservationNotes": "Preserved on original Sega Saturn CD-ROMs, remade for modern consoles in 2020."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "March 10, 1995 (Japan) / May 11, 1995 (North America)",
+    "leadPlatform": "Sega Saturn",
+    "genre": "shooter",
+    "sales": "Flagship launch title for the Sega Saturn hardware line",
+    "awards": [
+      "Electronic Gaming Monthly Best Saturn Game of 1995"
+    ],
+    "technicalSpecs": {
+      "engine": "Team Andromeda Custom Saturn 3D Engine",
+      "resolution": "320 x 224 (3D textured polygons with dual VDP chips)",
+      "soundChip": "Yamaha SCSP 32-channel PCM audio",
+      "mediaFormat": "CD-ROM"
+    },
+    "relationships": {
+      "primaryConsole": "sega-saturn",
+      "developerEntity": "Sega",
+      "lineage": [
+        "Panzer Dragoon II Zwei",
+        "Panzer Dragoon Saga"
+      ]
+    }
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/9/91/Panzer_Dragoon_1_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/9/91/Panzer_Dragoon_1_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Panzer_Dragoon_1_Cover.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "panzer dragoon",
+    "team andromeda",
+    "sega saturn",
+    "yukio futatsugi",
+    "moebius",
+    "blue dragon",
+    "rail shooter",
+    "1995"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

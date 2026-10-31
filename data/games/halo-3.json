@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-halo-3",
+  "slug": "halo-3",
+  "title": "Halo 3",
+  "originalReleaseYear": 2007,
+  "exactReleaseDate": "September 25, 2007",
+  "originalLaunchPlatform": "Xbox 360",
+  "originalLaunchRegion": "North America",
+  "developer": "Bungie",
+  "publisher": "Microsoft Game Studios",
+  "platforms": [
+    "Xbox 360"
+  ],
+  "genre": "first-person-shooter",
+  "subgenres": [
+    "sci-fi"
+  ],
+  "era": "2000s",
+  "shortDescription": "Master Chief, the Arbiter, and humanity journey to the Ark to finish the fight against the Covenant and Gravemind.",
+  "historicalSignificance": "One of the greatest cultural entertainment launches in history, featuring the revolutionary Forge map editor and Theater.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Halo_3",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Master Chief, the Arbiter, and humanity journey to the Ark to finish the fight against the Covenant and Gravemind.",
+    "culturalImpact": "One of the greatest cultural entertainment launches in history, featuring the revolutionary Forge map editor and Theater."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "Xbox 360"
+    ],
+    "genres": [
+      "first-person-shooter"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b6/Halo_3_final_boxshot.JPG",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/b/b6/Halo_3_final_boxshot.JPG",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Halo_3",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Halo 3",
+    "Bungie",
+    "Microsoft Game Studios",
+    "Xbox 360",
+    "first-person-shooter",
+    "2007",
+    "2000s",
+    "Xbox 360",
+    "sci-fi"
+  ],
+  "url": "/games/halo-3/",
+  "featured": false
+}

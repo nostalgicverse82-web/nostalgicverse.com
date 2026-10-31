@@ -1,0 +1,68 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-forza-horizon-4",
+  "slug": "forza-horizon-4",
+  "title": "Forza Horizon 4",
+  "originalReleaseYear": 2018,
+  "exactReleaseDate": "October 2, 2018",
+  "originalLaunchPlatform": "Xbox One",
+  "originalLaunchRegion": "Worldwide",
+  "developer": "Playground Games",
+  "publisher": "Microsoft Studios",
+  "platforms": [
+    "Xbox One",
+    "Microsoft Windows"
+  ],
+  "genre": "racing",
+  "subgenres": [
+    "open-world"
+  ],
+  "era": "2010s",
+  "shortDescription": "Race through historic Great Britain featuring dynamic shared-world seasons that freeze lakes and alter driving conditions.",
+  "historicalSignificance": "A peerless triumph of open-world automotive variety, seasonal world transformation, and audio production.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Forza_Horizon_4",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Race through historic Great Britain featuring dynamic shared-world seasons that freeze lakes and alter driving conditions.",
+    "culturalImpact": "A peerless triumph of open-world automotive variety, seasonal world transformation, and audio production."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "Xbox One"
+    ],
+    "genres": [
+      "racing"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/8/87/Forza_Horizon_4_cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/8/87/Forza_Horizon_4_cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Forza_Horizon_4",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Forza Horizon 4",
+    "Playground Games",
+    "Microsoft Studios",
+    "Xbox One",
+    "racing",
+    "2018",
+    "2010s",
+    "Xbox One",
+    "Microsoft Windows",
+    "open-world"
+  ],
+  "url": "/games/forza-horizon-4/",
+  "featured": false
+}

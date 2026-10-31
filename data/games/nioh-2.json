@@ -1,0 +1,68 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-nioh-2",
+  "slug": "nioh-2",
+  "title": "Nioh 2",
+  "originalReleaseYear": 2020,
+  "exactReleaseDate": "March 13, 2020",
+  "originalLaunchPlatform": "PlayStation 4",
+  "originalLaunchRegion": "Worldwide",
+  "developer": "Team Ninja",
+  "publisher": "Sony Interactive Entertainment",
+  "platforms": [
+    "PlayStation 4",
+    "Microsoft Windows"
+  ],
+  "genre": "action-rpg",
+  "subgenres": [
+    "soulslike"
+  ],
+  "era": "2020s",
+  "shortDescription": "Custom half-Yokai mercenary battles through mythical Japan, transforming into demon forms with Soul Core counter attacks.",
+  "historicalSignificance": "Refined combat to near-flawless tactical depth with Yokai Burst counters and extensive weapon trees.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Nioh_2",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Custom half-Yokai mercenary battles through mythical Japan, transforming into demon forms with Soul Core counter attacks.",
+    "culturalImpact": "Refined combat to near-flawless tactical depth with Yokai Burst counters and extensive weapon trees."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 4"
+    ],
+    "genres": [
+      "action-rpg"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/8/87/Nioh_2_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/8/87/Nioh_2_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Nioh_2",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Nioh 2",
+    "Team Ninja",
+    "Sony Interactive Entertainment",
+    "PlayStation 4",
+    "action-rpg",
+    "2020",
+    "2020s",
+    "PlayStation 4",
+    "Microsoft Windows",
+    "soulslike"
+  ],
+  "url": "/games/nioh-2/",
+  "featured": false
+}

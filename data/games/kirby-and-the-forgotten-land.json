@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-kirby-and-the-forgotten-land",
+  "slug": "kirby-and-the-forgotten-land",
+  "title": "Kirby and the Forgotten Land",
+  "originalReleaseYear": 2022,
+  "exactReleaseDate": "March 25, 2022",
+  "originalLaunchPlatform": "Nintendo Switch",
+  "originalLaunchRegion": "Worldwide",
+  "developer": "HAL Laboratory",
+  "publisher": "Nintendo",
+  "platforms": [
+    "Nintendo Switch"
+  ],
+  "genre": "platformer",
+  "subgenres": [
+    "3d-platformer"
+  ],
+  "era": "2020s",
+  "shortDescription": "Kirby transitions to full 3D platforming in post-apocalyptic overgrown ruins with hilarious Mouthful Mode.",
+  "historicalSignificance": "The best-selling entry in Kirby franchise history, acclaimed for creative 3D copy abilities and joyful charm.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Kirby_and_the_Forgotten_Land",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Kirby transitions to full 3D platforming in post-apocalyptic overgrown ruins with hilarious Mouthful Mode.",
+    "culturalImpact": "The best-selling entry in Kirby franchise history, acclaimed for creative 3D copy abilities and joyful charm."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "Nintendo Switch"
+    ],
+    "genres": [
+      "platformer"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Kirby_and_the_Forgotten_Land_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Kirby_and_the_Forgotten_Land_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Kirby_and_the_Forgotten_Land",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Kirby and the Forgotten Land",
+    "HAL Laboratory",
+    "Nintendo",
+    "Nintendo Switch",
+    "platformer",
+    "2022",
+    "2020s",
+    "Nintendo Switch",
+    "3d-platformer"
+  ],
+  "url": "/games/kirby-and-the-forgotten-land/",
+  "featured": false
+}

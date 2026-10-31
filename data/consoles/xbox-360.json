@@ -1,0 +1,44 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+  "id": "console-xbox-360",
+  "slug": "xbox-360",
+  "name": "Microsoft Xbox 360",
+  "manufacturer": "Microsoft",
+  "generation": "Seventh Generation",
+  "generationNumber": 7,
+  "originalReleaseYear": 2005,
+  "exactReleaseDate": "November 22, 2005",
+  "mediaFormat": "Dual-layer DVD-ROM (optional external HD-DVD add-on)",
+  "significance": "Pioneered modern digital console distribution via Xbox Live Arcade (XBLA), unified matchmaking, and universal gamertag Gamerscore Achievements.",
+  "verifiedFactualData": {
+    "cpu": "Triple-core 3.2 GHz PowerPC Xenon",
+    "gpuOrVideoChip": "ATI Xenos @ 500 MHz (Unified Shader Architecture)",
+    "ram": "512 MB unified GDDR3 RAM @ 700 MHz, 10 MB eDRAM on GPU"
+  },
+  "editorialContent": {
+    "overview": "The system that established HD gaming, persistent online friends lists, digital indie distribution via XBLA, and Achievements.",
+    "marketLegacy": "Pioneered modern digital console distribution via Xbox Live Arcade (XBLA), unified matchmaking, and universal gamertag Gamerscore Achievements.",
+    "controllerDesign": "Xbox 360 wireless controller (guide button, offset thumbsticks)"
+  },
+  "keyGames": [
+    "halo-3",
+    "gears-of-war",
+    "bioshock",
+    "call-of-duty-4-modern-warfare",
+    "mass-effect"
+  ],
+  "assets": {
+    "mainImage": "/assets/images/consoles/xbox-360.png",
+    "heroImage": "/assets/images/consoles/xbox-360-hero.png",
+    "hardwareImage": "/assets/images/consoles/xbox-360-hardware.png"
+  },
+  "keywords": [
+    "xbox 360",
+    "microsoft",
+    "seventh generation",
+    "hd",
+    "xbla",
+    "achievements",
+    "2005"
+  ]
+}

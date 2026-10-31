@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-killzone-3",
+  "slug": "killzone-3",
+  "title": "Killzone 3",
+  "originalReleaseYear": 2011,
+  "exactReleaseDate": "February 22, 2011",
+  "originalLaunchPlatform": "PlayStation 3",
+  "originalLaunchRegion": "North America",
+  "developer": "Guerrilla Games",
+  "publisher": "Sony Computer Entertainment",
+  "platforms": [
+    "PlayStation 3"
+  ],
+  "genre": "first-person-shooter",
+  "subgenres": [
+    "sci-fi"
+  ],
+  "era": "2010s",
+  "shortDescription": "ISA survivors escape Helghan territory equipped with jetpacks, exo-skeletons, and brutal melee takedowns.",
+  "historicalSignificance": "Showcased stereoscopic 3D and PlayStation Move precision aiming while delivering diverse arctic and orbital battles.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Killzone_3",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "ISA survivors escape Helghan territory equipped with jetpacks, exo-skeletons, and brutal melee takedowns.",
+    "culturalImpact": "Showcased stereoscopic 3D and PlayStation Move precision aiming while delivering diverse arctic and orbital battles."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 3"
+    ],
+    "genres": [
+      "first-person-shooter"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/4/4a/Killzone_3_box_art.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/4/4a/Killzone_3_box_art.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Killzone_3",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Killzone 3",
+    "Guerrilla Games",
+    "Sony Computer Entertainment",
+    "PlayStation 3",
+    "first-person-shooter",
+    "2011",
+    "2010s",
+    "PlayStation 3",
+    "sci-fi"
+  ],
+  "url": "/games/killzone-3/",
+  "featured": false
+}

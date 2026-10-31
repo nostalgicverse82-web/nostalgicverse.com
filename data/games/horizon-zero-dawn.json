@@ -1,0 +1,82 @@
+{
+  "id": "game-horizon-zero-dawn",
+  "slug": "horizon-zero-dawn",
+  "title": "Horizon Zero Dawn",
+  "japaneseTitle": "ホライゾン ゼロ ドーン",
+  "url": "/games/horizon-zero-dawn/",
+  "originalReleaseYear": 2017,
+  "exactReleaseDate": "2017-02-28",
+  "developer": "Guerrilla Games",
+  "publisher": "Sony Interactive Entertainment",
+  "director": "Mathijs de Jonge",
+  "designer": "Mark Norris",
+  "composer": "Joris de Man, The Flight",
+  "originalLaunchPlatform": "PlayStation 4",
+  "platforms": [
+    "PlayStation 4",
+    "PlayStation 5",
+    "Microsoft Windows"
+  ],
+  "genre": "action-rpg",
+  "subgenres": [
+    "Open World",
+    "Sci-Fi Action"
+  ],
+  "era": "2010s",
+  "shortDescription": "Guerrilla Games' dazzling open-world sci-fi adventure following outcast hunter Aloy across a post-post-apocalyptic Earth ruled by animalistic machines.",
+  "historicalSignificance": "Established Guerrilla's proprietary Decima Engine as one of the industry's premier open-world rendering platforms, spawning an iconic new PlayStation mascot in Aloy and selling over 24 million units.",
+  "editorialContent": {
+    "overview": "Departing from the grim corridor shooting of Killzone, Guerrilla Games crafted a lush, vibrant post-apocalyptic Earth where nature has reclaimed towering skyscraper ruins and mechanical beasts roam the wilderness like wildlife.",
+    "gameplay": "Dynamic tactical archery emphasizing component targeting—players tear off radar dishes, weapon pods, and fuel cells using specialized tripwires, ropecasters, and elemental arrows.",
+    "technicalInnovation": "Showcased the Decima Engine's groundbreaking procedural foliage, weather systems, and sophisticated robotic joint IK animations.",
+    "culturalImpact": "Aloy instantly became a premier modern video game heroine, recognized for her intelligence, resilience, and curiosity.",
+    "preservationNotes": "Preserved on PS4 physical disc, enhanced for PS4 Pro/PS5, and released on PC and PS5 Remastered."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "February 28, 2017",
+    "leadPlatform": "PlayStation 4",
+    "genre": "action-rpg",
+    "sales": "Over 24.3 million copies worldwide",
+    "awards": [
+      "BAFTA Games Award for Original Property",
+      "Writers Guild of America Award for Video Game Writing"
+    ],
+    "technicalSpecs": {
+      "engine": "Decima Engine",
+      "resolution": "1080p (PS4) / 2160p Checkerboard (PS4 Pro)",
+      "soundChip": "Dolby 5.1 / 7.1 Surround",
+      "mediaFormat": "Blu-ray Disc"
+    },
+    "relationships": {
+      "primaryConsole": "playstation-4",
+      "developerEntity": "Guerrilla Games",
+      "lineage": [
+        "Horizon Forbidden West",
+        "Killzone"
+      ]
+    }
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/9/93/Horizon_Zero_Dawn.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/9/93/Horizon_Zero_Dawn.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Horizon_Zero_Dawn.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "horizon zero dawn",
+    "aloy",
+    "guerrilla games",
+    "decima engine",
+    "playstation 4",
+    "ps4",
+    "machines",
+    "thunderjaw",
+    "open world"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

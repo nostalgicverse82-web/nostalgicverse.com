@@ -1,0 +1,90 @@
+{
+  "id": "game-phantasy-star-online",
+  "slug": "phantasy-star-online",
+  "title": "Phantasy Star Online",
+  "japaneseTitle": "ファンタシースターオンライン",
+  "url": "/games/phantasy-star-online/",
+  "originalReleaseYear": 2000,
+  "exactReleaseDate": "2000-12-21",
+  "developer": "Sonic Team",
+  "publisher": "Sega",
+  "director": "Yuji Naka",
+  "designer": "Satoshi Sakai, Takao Miyoshi",
+  "composer": "Hideaki Kobayashi",
+  "originalLaunchPlatform": "Sega Dreamcast",
+  "platforms": [
+    "Sega Dreamcast",
+    "Nintendo GameCube",
+    "Xbox",
+    "Microsoft Windows"
+  ],
+  "genre": "action-rpg",
+  "subgenres": [
+    "Online Action RPG",
+    "Loot Hunter"
+  ],
+  "era": "2000s",
+  "shortDescription": "Sonic Team's trailblazing Dreamcast online action-RPG that brought cooperative dungeon crawling to home consoles.",
+  "historicalSignificance": "The historic first online action RPG for home game consoles, utilizing the Dreamcast's built-in 56k modem, universal word-symbol translation systems, and 4-player cooperative dungeon raiding years before Xbox Live or PlayStation Network.",
+  "editorialContent": {
+    "overview": "Produced by Yuji Naka at Sonic Team and released on the Sega Dreamcast in December 2000, Phantasy Star Online (PSO) was an audacious technological gamble that proved online cooperative multiplayer belonged on living room televisions. Tasked with investigating the planet Ragol after the catastrophic explosion of the colony ship Pioneer 1, players met in central lobbies before descending into dangerous ecosystems.",
+    "gameplay": "Commanding Hunter, Ranger, or Force archetypes across Human, Newman, and CAST android races, 4-player teams explore the Forest, Caves, Mines, and Ruins. Combat relies on rhythmic three-hit timed combos, spellcasting techniques, and Mag companion feeding to tackle giant bosses like the Dragon and Dark Falz.",
+    "technicalInnovation": "Integrated an innovative 'Word Select' visual symbol communication protocol that translated messages in real-time across English, Japanese, French, German, and Spanish, enabling frictionless worldwide cross-cultural multiplayer on 56k dial-up connections.",
+    "culturalImpact": "PSO laid the cornerstone for the entire cooperative loot-grind genre on consoles. It directly inspired Capcom's Monster Hunter, Square Enix's Final Fantasy XI, and modern cooperative shooters like Destiny.",
+    "preservationNotes": "Preserved through active, passionate fan-maintained private servers (Schthack, Ephinea) and GameCube/Dreamcast community networks worldwide."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "December 21, 2000",
+    "leadPlatform": "Sega Dreamcast",
+    "genre": "action-rpg",
+    "sales": "Over 1.5 million copies across Dreamcast, GameCube, and Xbox editions",
+    "awards": [
+      "Japan Game Awards Grand Award / Minister of International Trade and Industry Award 2001",
+      "BAFTA Interactive Entertainment Award for Networked Games"
+    ],
+    "technicalSpecs": {
+      "engine": "Sonic Team proprietary 3D Dreamcast online network engine",
+      "resolution": "640x480 VGA progressive (480p)",
+      "soundChip": "Yamaha AICA sound processor with symphonic futuristic orchestration",
+      "mediaFormat": "GD-ROM Disc"
+    },
+    "relationships": {
+      "primaryConsole": "sega-dreamcast",
+      "developerEntity": "Sega",
+      "lineage": [
+        "Phantasy Star IV",
+        "Monster Hunter",
+        "Phantasy Star Online 2",
+        "Destiny"
+      ]
+    }
+  },
+  "assets": {
+    "cover": "/assets/images/games/phantasy-star-online.webp",
+    "banner": "/assets/images/games/phantasy-star-online-banner.webp",
+    "screenshots": [
+      "/assets/images/games/phantasy-star-online-screen1.webp",
+      "/assets/images/games/phantasy-star-online-screen2.webp"
+    ],
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/d/d3/Phantasy_Star_Online_cover_art_jp.png",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/d/d3/Phantasy_Star_Online_cover_art_jp.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Phantasy_Star_Online_cover_art_jp.png",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "phantasy star online",
+    "pso",
+    "sonic team",
+    "yuji naka",
+    "sega dreamcast",
+    "ragol",
+    "hunter",
+    "online rpg"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

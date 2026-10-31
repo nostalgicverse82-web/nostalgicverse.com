@@ -1,0 +1,70 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-timesplitters-2",
+  "slug": "timesplitters-2",
+  "title": "TimeSplitters 2",
+  "originalReleaseYear": 2002,
+  "exactReleaseDate": "October 8, 2002",
+  "originalLaunchPlatform": "PlayStation 2",
+  "originalLaunchRegion": "North America",
+  "developer": "Free Radical Design",
+  "publisher": "Eidos Interactive",
+  "platforms": [
+    "PlayStation 2",
+    "Xbox",
+    "GameCube"
+  ],
+  "genre": "first-person-shooter",
+  "subgenres": [
+    "arcade-shooter"
+  ],
+  "era": "2000s",
+  "shortDescription": "Ex-Rare GoldenEye developers' time-traveling FPS featuring frantic multiplayer and MapMaker level editor.",
+  "historicalSignificance": "Considered the definitive split-screen party first-person shooter of the sixth console generation.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/TimeSplitters_2",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Ex-Rare GoldenEye developers' time-traveling FPS featuring frantic multiplayer and MapMaker level editor.",
+    "culturalImpact": "Considered the definitive split-screen party first-person shooter of the sixth console generation."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 2"
+    ],
+    "genres": [
+      "first-person-shooter"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/0/07/Timesplitters_2_cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/0/07/Timesplitters_2_cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/TimeSplitters_2",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "TimeSplitters 2",
+    "Free Radical Design",
+    "Eidos Interactive",
+    "PlayStation 2",
+    "first-person-shooter",
+    "2002",
+    "2000s",
+    "PlayStation 2",
+    "Xbox",
+    "GameCube",
+    "arcade-shooter"
+  ],
+  "url": "/games/timesplitters-2/",
+  "featured": false
+}

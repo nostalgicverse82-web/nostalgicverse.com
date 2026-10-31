@@ -1,0 +1,80 @@
+{
+  "id": "game-stellar-blade",
+  "slug": "stellar-blade",
+  "title": "Stellar Blade",
+  "japaneseTitle": "ステラーブレイド",
+  "url": "/games/stellar-blade/",
+  "originalReleaseYear": 2024,
+  "exactReleaseDate": "2024-04-26",
+  "developer": "SHIFT UP",
+  "publisher": "Sony Interactive Entertainment",
+  "director": "Kim Hyung-tae",
+  "designer": "Lee Dong-gi",
+  "composer": "Oliver Good, Keita Inoue, MONACA",
+  "originalLaunchPlatform": "PlayStation 5",
+  "platforms": [
+    "PlayStation 5"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "Character Action",
+    "Sci-Fi Hack and Slash"
+  ],
+  "era": "2020s",
+  "shortDescription": "South Korean studio SHIFT UP's stylish single-player action triumph, combining rhythmic parry combat with post-apocalyptic Earth exploration.",
+  "historicalSignificance": "A major cultural milestone as the first major South Korean AAA single-player console exclusive published by Sony, selling over 1 million copies and proving the global viability of Korean console development.",
+  "editorialContent": {
+    "overview": "Dropping from an orbital Colony onto the desolate ruins of Earth, 7th Airborne Squad warrior Eve must defeat the terrifying Naytiba monsters occupying the planet to save humanity's last refuge, the city of Xion.",
+    "gameplay": "High-intensity sword combat requiring precision parrying and dodging to stagger enemies, unleash devastating Beta skills, and trigger cinematic 'Burst' counter-attacks.",
+    "technicalInnovation": "Showcased state-of-the-art 3D character scans and cloth simulation, flawless 60 FPS performance, and extensive DualSense haptic feedback for blade deflections.",
+    "culturalImpact": "Celebrated for delivering a complete, content-packed offline single-player experience with over 30 unlockable in-game outfits and zero microtransactions.",
+    "preservationNotes": "Preserved on physical Ultra HD Blu-ray disc for PlayStation 5."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "April 26, 2024",
+    "leadPlatform": "PlayStation 5",
+    "genre": "action-adventure",
+    "sales": "Over 1 million copies sold in launch month",
+    "awards": [
+      "The Game Awards 2024 Best Action Game Nominee",
+      "Korea Game Awards Grand Prize"
+    ],
+    "technicalSpecs": {
+      "engine": "Unreal Engine 4",
+      "resolution": "Dynamic 4K at 60fps (Balanced Mode)",
+      "soundChip": "MONACA acoustic and vocal soundtrack in 3D Audio",
+      "mediaFormat": "Ultra HD Blu-ray Disc"
+    },
+    "relationships": {
+      "primaryConsole": "playstation-5",
+      "developerEntity": "SHIFT UP",
+      "lineage": [
+        "NieR: Automata",
+        "Devil May Cry"
+      ]
+    }
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/0/0a/Stellar_Blade_cover_art.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/0/0a/Stellar_Blade_cover_art.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Stellar_Blade_cover_art.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "stellar blade",
+    "eve",
+    "shift up",
+    "kim hyung-tae",
+    "naytiba",
+    "playstation 5",
+    "ps5",
+    "korean console game",
+    "action"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

@@ -1,0 +1,96 @@
+{
+  "id": "game-final-fantasy-vi",
+  "slug": "final-fantasy-vi",
+  "title": "Final Fantasy VI",
+  "japaneseTitle": "ファイナルファンタジーVI",
+  "url": "/games/final-fantasy-vi/",
+  "originalReleaseYear": 1994,
+  "exactReleaseDate": "1994-04-02",
+  "developer": "Square Co., Ltd.",
+  "publisher": "Square",
+  "director": "Yoshinori Kitase & Hiroyuki Ito",
+  "designer": "Hironobu Sakaguchi",
+  "composer": "Nobuo Uematsu",
+  "originalLaunchPlatform": "Super Famicom",
+  "platforms": [
+    "Super Famicom",
+    "SNES",
+    "PlayStation",
+    "Game Boy Advance"
+  ],
+  "genre": "rpg",
+  "subgenres": [
+    "Japanese Role-Playing Game",
+    "Steampunk JRPG"
+  ],
+  "era": "1990s",
+  "shortDescription": "Square's 16-bit JRPG zenith featuring a fourteen-character ensemble cast, the nihilistic villain Kefka Palazzo, the cataclysmic World of Ruin, and the historic opera sequence.",
+  "historicalSignificance": "Widely regarded as one of the greatest narrative video games of all time, pushing 16-bit storytelling to operatic heights, allowing the villain to destroy the world midway through the campaign, and setting the stage for Final Fantasy VII.",
+  "editorialContent": {
+    "overview": "Directed by Yoshinori Kitase and Hiroyuki Ito with story by Hironobu Sakaguchi, Final Fantasy VI was released for the Super Famicom in April 1994 (launched as Final Fantasy III in North America). Breaking away from traditional medieval swords-and-sorcery, it placed players in a somber, industrial steampunk world where magic had vanished a thousand years prior and an iron-fisted Gestahlian Empire seeks to reawaken ancient Magitek war machines.",
+    "gameplayMechanics": "Featuring an unprecedented fourteen permanent playable characters (including half-esper Terra Branford, treasure hunter Locke, deserter general Celes, and ninja Shadow), each possessing unique personal abilities (Blitz combos, Runic blade absorption, Tools). Combat utilizes the refined Active Time Battle (ATB) system. The story fractures midway through when psychopathic jester Kefka Palazzo successfully disrupts the balance of the Warring Triad, literally sundering the planet into the desolate World of Ruin, forcing players to explore an open-ended nonlinear post-apocalyptic world to reunite the party.",
+    "technicalInnovation": "Housed on a massive 24-megabit (3 MB) cartridge, Final Fantasy VI featured exquisite character sprite animations, cinematic Mode 7 airship scaling, and Nobuo Uematsu's crowning musical achievement: the three-act opera sequence 'Aria di Mezzo Carattere', which pushed the SPC700 sound chip to synthesize an intelligible simulated human vocal performance.",
+    "culturalImpact": "Final Fantasy VI elevated video game narrative art to the level of high literature, delivering mature explorations of suicide, grief, teen pregnancy, totalitarianism, and hope. Its nihilistic antagonist Kefka Palazzo is hailed as one of the medium's greatest villains.",
+    "preservationNotes": "Preserved on authentic 3MB SNES cartridge dumps with battery SRAM. Precise SPC700 envelope decay emulation is required to properly reproduce Uematsu's orchestral instrumentation in 'Dancing Mad'."
+  },
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "Kitase, Yoshinori & Ito, Hiroyuki. 'The Making of Final Fantasy VI', Famitsu (1994)",
+      "Uematsu, Nobuo. 'The Composition of Aria di Mezzo Carattere', Square Sound Team (1998)",
+      "Square Co., Ltd. SNS-F3-USA Instruction Booklet: Final Fantasy III (1994)"
+    ],
+    "romMediaFormat": "Super Nintendo ROM Cartridge (SHVC-1A3M with 8KB SRAM)",
+    "romSizeOriginal": "3 MB ROM (24 Megabits) + 8 KB Battery SRAM",
+    "displayResolutionOriginal": "256 × 224 (NTSC 16-Bit RGB)",
+    "audioHardware": "Sony SPC700 8-channel ADPCM sound processor",
+    "inputMethod": "SNES Controller",
+    "multiplayerCapability": "1-2 Players (Cooperative Battle Command assignment)"
+  },
+  "relatedExhibits": {
+    "games": [
+      "final-fantasy-vii",
+      "chrono-trigger",
+      "secret-of-mana"
+    ],
+    "consoles": [
+      "super-nintendo-entertainment-system",
+      "playstation"
+    ],
+    "genres": [
+      "rpg"
+    ],
+    "timeline": [
+      "ev-1994-playstation-launch-japan"
+    ]
+  },
+  "assets": {
+    "heroImage": "/assets/images/games/final-fantasy-vi-hero.webp",
+    "thumbnailImage": "/assets/images/games/final-fantasy-vi.webp",
+    "coverImage": "/assets/images/games/final-fantasy-vi-cover.webp",
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/0/05/Final_Fantasy_VI.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/0/05/Final_Fantasy_VI.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Final_Fantasy_VI.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "final fantasy vi",
+    "final fantasy 3",
+    "terra branford",
+    "kefka palazzo",
+    "celes",
+    "nobuo uematsu",
+    "yoshinori kitase",
+    "opera",
+    "world of ruin",
+    "jrpg",
+    "snes",
+    "1994",
+    "1990s"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

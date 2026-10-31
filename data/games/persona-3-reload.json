@@ -1,0 +1,70 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-persona-3-reload",
+  "slug": "persona-3-reload",
+  "title": "Persona 3 Reload",
+  "originalReleaseYear": 2024,
+  "exactReleaseDate": "February 2, 2024",
+  "originalLaunchPlatform": "PlayStation 5",
+  "originalLaunchRegion": "Worldwide",
+  "developer": "P-Studio",
+  "publisher": "Atlus",
+  "platforms": [
+    "PlayStation 5",
+    "Xbox Series",
+    "PC"
+  ],
+  "genre": "rpg",
+  "subgenres": [
+    "social-sim"
+  ],
+  "era": "2020s",
+  "shortDescription": "Ground-up remake of the Gekkoukan High classic utilizing modern UI aesthetics, Shift battle mechanics, and fully voiced links.",
+  "historicalSignificance": "Preserved the poignant philosophical soul of Persona 3 while elevating audio, animation, and dungeon exploration.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Persona_3_Reload",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Ground-up remake of the Gekkoukan High classic utilizing modern UI aesthetics, Shift battle mechanics, and fully voiced links.",
+    "culturalImpact": "Preserved the poignant philosophical soul of Persona 3 while elevating audio, animation, and dungeon exploration."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 5"
+    ],
+    "genres": [
+      "rpg"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Persona_3_Reload_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Persona_3_Reload_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Persona_3_Reload",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Persona 3 Reload",
+    "P-Studio",
+    "Atlus",
+    "PlayStation 5",
+    "rpg",
+    "2024",
+    "2020s",
+    "PlayStation 5",
+    "Xbox Series",
+    "PC",
+    "social-sim"
+  ],
+  "url": "/games/persona-3-reload/",
+  "featured": false
+}

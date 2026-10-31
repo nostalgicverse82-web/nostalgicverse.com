@@ -1,0 +1,72 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-tales-of-arise",
+  "slug": "tales-of-arise",
+  "title": "Tales of Arise",
+  "originalReleaseYear": 2021,
+  "exactReleaseDate": "September 10, 2021",
+  "originalLaunchPlatform": "PlayStation 5",
+  "originalLaunchRegion": "Worldwide",
+  "developer": "Bandai Namco Studios",
+  "publisher": "Bandai Namco",
+  "platforms": [
+    "PlayStation 5",
+    "PS4",
+    "Xbox",
+    "PC"
+  ],
+  "genre": "action-rpg",
+  "subgenres": [
+    "jnamespace-rpg"
+  ],
+  "era": "2020s",
+  "shortDescription": "Alphen and Shionne fight to liberate Dahna from Renan tyranny with cinematic Boost Strikes and the Atmospheric Shader.",
+  "historicalSignificance": "Winner of Best RPG at The Game Awards, modernizing the long-running franchise for ninth-generation hardware.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Tales_of_Arise",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Alphen and Shionne fight to liberate Dahna from Renan tyranny with cinematic Boost Strikes and the Atmospheric Shader.",
+    "culturalImpact": "Winner of Best RPG at The Game Awards, modernizing the long-running franchise for ninth-generation hardware."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 5"
+    ],
+    "genres": [
+      "action-rpg"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Tales_of_Arise_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Tales_of_Arise_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Tales_of_Arise",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Tales of Arise",
+    "Bandai Namco Studios",
+    "Bandai Namco",
+    "PlayStation 5",
+    "action-rpg",
+    "2021",
+    "2020s",
+    "PlayStation 5",
+    "PS4",
+    "Xbox",
+    "PC",
+    "jnamespace-rpg"
+  ],
+  "url": "/games/tales-of-arise/",
+  "featured": false
+}

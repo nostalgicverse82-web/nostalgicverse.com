@@ -1,0 +1,132 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "siteName": "NostalgicVerse",
+  "tagline": "The Games That Made History.",
+  "siteUrl": "https://nostalgicverse.com",
+  "version": "2026.1.0",
+  "architectureType": "Zero-dependency static HTML5/CSS3/ES6+ (Offline build-time static exhibit generation)",
+  "description": "A premium digital gaming museum, historical archive, preservation platform, and editorial publication dedicated to interactive entertainment history.",
+  "canonicalCollectionRoutes": {
+    "games": "/games/",
+    "consoles": "/consoles/",
+    "genres": "/genres/",
+    "timeline": "/timeline/",
+    "guides": "/guides/",
+    "stories": "/blog/"
+  },
+  "canonicalUtilityRoutes": {
+    "search": "/search/",
+    "favorites": "/favorites/",
+    "random": "/random/",
+    "download": "/download/"
+  },
+  "institutionalRoutes": {
+    "about": "/about/",
+    "support": "/support/"
+  },
+  "legalRoutes": {
+    "privacy": "/legal/privacy.html",
+    "terms": "/legal/terms.html",
+    "cookies": "/legal/cookies.html",
+    "disclaimer": "/legal/disclaimer.html"
+  },
+  "collections": [
+    {
+      "id": "games",
+      "name": "Landmark Games",
+      "canonicalRoute": "/games/",
+      "detailPattern": "/games/{slug}/index.html",
+      "dataFile": "/data/games.json",
+      "detailDataDir": "/data/games/",
+      "assetRoot": "/assets/images/games/",
+      "itemCount": 528
+    },
+    {
+      "id": "consoles",
+      "name": "Hardware Generations",
+      "canonicalRoute": "/consoles/",
+      "detailPattern": "/consoles/{slug}/index.html",
+      "dataFile": "/data/consoles.json",
+      "detailDataDir": "/data/consoles/",
+      "assetRoot": "/assets/images/consoles/",
+      "itemCount": 65
+    },
+    {
+      "id": "genres",
+      "name": "Genre Taxonomy",
+      "canonicalRoute": "/genres/",
+      "detailPattern": "/genres/{slug}/index.html",
+      "dataFile": "/data/genres.json",
+      "detailDataDir": "/data/genres/",
+      "assetRoot": "/assets/images/genres/",
+      "itemCount": 32
+    },
+    {
+      "id": "timeline",
+      "name": "Chronology Milestones",
+      "canonicalRoute": "/timeline/",
+      "detailPattern": "/timeline/{event-id}/index.html",
+      "dataFile": "/data/timeline.json",
+      "detailDataDir": "/data/timeline/",
+      "assetRoot": "/assets/images/timeline/",
+      "itemCount": 91
+    },
+    {
+      "id": "guides",
+      "name": "Preservation Guides",
+      "canonicalRoute": "/guides/",
+      "detailPattern": "/guides/{slug}/index.html",
+      "dataFile": "/data/guides.json",
+      "detailDataDir": "/data/guides/",
+      "assetRoot": "/assets/images/guides/",
+      "itemCount": 14
+    },
+    {
+      "id": "stories",
+      "name": "Archival Stories & Retrospectives",
+      "canonicalRoute": "/blog/",
+      "detailPattern": "/blog/{slug}/index.html",
+      "dataFile": "/data/stories.json",
+      "detailDataDir": "/data/stories/",
+      "assetRoot": "/assets/images/stories/",
+      "itemCount": 14
+    }
+  ],
+  "assetRoots": {
+    "base": "/assets/",
+    "images": "/assets/images/",
+    "branding": "/assets/images/branding/",
+    "logo": "/assets/images/branding/logo/",
+    "games": "/assets/images/games/",
+    "consoles": "/assets/images/consoles/",
+    "genres": "/assets/images/genres/",
+    "timeline": "/assets/images/timeline/",
+    "stories": "/assets/images/stories/",
+    "guides": "/assets/images/guides/",
+    "emulator": "/assets/images/emulator/",
+    "og": "/assets/images/og/",
+    "ogGames": "/assets/images/og/games/",
+    "ogConsoles": "/assets/images/og/consoles/",
+    "ogStories": "/assets/images/og/stories/",
+    "ogGuides": "/assets/images/og/guides/",
+    "ui": "/assets/images/ui/",
+    "fonts": "/assets/fonts/"
+  },
+  "dataRoots": {
+    "base": "/data/",
+    "games": "/data/games/",
+    "consoles": "/data/consoles/",
+    "genres": "/data/genres/",
+    "timeline": "/data/timeline/",
+    "guides": "/data/guides/",
+    "stories": "/data/stories/",
+    "schemas": "/data/schemas/",
+    "schemasCatalog": "/data/schemas.json",
+    "searchIndex": "/data/search-index.json",
+    "siteConfig": "/data/site-config.json",
+    "siteManifest": "/data/site-manifest.json",
+    "assetManifest": "/data/asset-manifest.json",
+    "routeManifest": "/data/route-manifest.json"
+  },
+  "favoriteStorageKey": "nostalgicverse_favs"
+}

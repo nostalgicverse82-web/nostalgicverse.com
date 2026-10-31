@@ -1,0 +1,43 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+  "id": "console-xbox",
+  "slug": "xbox",
+  "name": "Microsoft Xbox",
+  "manufacturer": "Microsoft",
+  "generation": "Sixth Generation",
+  "generationNumber": 6,
+  "originalReleaseYear": 2001,
+  "exactReleaseDate": "November 15, 2001",
+  "mediaFormat": "DVD-ROM",
+  "significance": "Standardized internal hard drives and integrated broadband networking in consoles, forever transforming online console multiplayer through Xbox Live.",
+  "verifiedFactualData": {
+    "cpu": "Custom Intel Pentium III Coppermine-based @ 733 MHz",
+    "gpuOrVideoChip": "Custom NVIDIA NV2A @ 233 MHz",
+    "ram": "64 MB unified DDR SDRAM @ 200 MHz"
+  },
+  "editorialContent": {
+    "overview": "Microsoft's PC-derived powerhouse featuring a built-in hard drive, broadband ethernet port, and Xbox Live network.",
+    "marketLegacy": "Standardized internal hard drives and integrated broadband networking in consoles, forever transforming online console multiplayer through Xbox Live.",
+    "controllerDesign": "Controller 'Duke' (later streamlined Controller S)"
+  },
+  "keyGames": [
+    "halo-combat-evolved",
+    "halo-2",
+    "star-wars-knights-of-the-old-republic",
+    "fable"
+  ],
+  "assets": {
+    "mainImage": "/assets/images/consoles/xbox.png",
+    "heroImage": "/assets/images/consoles/xbox-hero.png",
+    "hardwareImage": "/assets/images/consoles/xbox-hardware.png"
+  },
+  "keywords": [
+    "xbox",
+    "microsoft",
+    "sixth generation",
+    "halo",
+    "xbox live",
+    "hard drive",
+    "2001"
+  ]
+}

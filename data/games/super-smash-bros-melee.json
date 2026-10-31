@@ -1,0 +1,87 @@
+{
+  "id": "game-super-smash-bros-melee",
+  "slug": "super-smash-bros-melee",
+  "title": "Super Smash Bros. Melee",
+  "japaneseTitle": "大乱闘スマッシュブラザーズDX",
+  "url": "/games/super-smash-bros-melee/",
+  "originalReleaseYear": 2001,
+  "exactReleaseDate": "2001-11-21",
+  "developer": "HAL Laboratory",
+  "publisher": "Nintendo",
+  "director": "Masahiro Sakurai",
+  "designer": "Masahiro Sakurai",
+  "composer": "Hirokazu Ando, Shogo Sakai",
+  "originalLaunchPlatform": "Nintendo GameCube",
+  "platforms": [
+    "Nintendo GameCube"
+  ],
+  "genre": "fighting",
+  "subgenres": [
+    "Platform Fighter",
+    "Competitive Fighter"
+  ],
+  "era": "2000s",
+  "shortDescription": "Masahiro Sakurai's hyper-fast GameCube platform fighter that spawned an enduring two-decade competitive esports legacy.",
+  "historicalSignificance": "The best-selling GameCube title of all time, whose unintended physics mechanics (wavedashing, L-canceling, directional influence) birthed a fiercely competitive grassroots tournament scene that thrived for over twenty years at EVO, Genesis, and The Big House.",
+  "editorialContent": {
+    "overview": "Directed by Masahiro Sakurai under an unrelenting 13-month production schedule at HAL Laboratory, Super Smash Bros. Melee debuted in late 2001 as the supreme showcase for the newly launched Nintendo GameCube. Expanding the roster to 26 iconic fighters and staging matches across dynamic cinematic Nintendo locales, it paired accessibility with lightning-fast gameplay.",
+    "gameplay": "Fighters knock each other across multi-tiered arenas to deplete stocks. Advanced tournament mechanics emergent from its physics engine—wavedashing (directional air-dodging into the floor to slide while facing forward), L-canceling (halving landing lag on aerial attacks), fast-falling, and crouch-canceling—yielded a superhuman kinetic ceiling.",
+    "technicalInnovation": "Ran at an uncompromising, locked 60 frames per second at 480p progressive scan with lush orchestral instrumentation, featuring detailed character geometry, trophy collectibles, and flawless 4-player local controller response.",
+    "culturalImpact": "Melee transcended normal console lifespans. As immortalized in the documentary 'The Smash Brothers,' the competitive scene survived hardware transitions, lack of official developer support, and CRT television reliance, becoming one of the most beloved competitive esports in history.",
+    "preservationNotes": "Preserved via original GameCube optical mini-discs, the tournament standard Slippi rollback netcode online emulation, and CRT tournament setups worldwide."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "November 21, 2001",
+    "leadPlatform": "Nintendo GameCube",
+    "genre": "fighting",
+    "sales": "7.09 million copies worldwide (best-selling GameCube game)",
+    "awards": [
+      "Japan Game Awards Excellence Award 2002",
+      "EGM Multiplayer Game of the Year 2002"
+    ],
+    "technicalSpecs": {
+      "engine": "HAL Laboratory GameCube 60fps high-precision physics engine",
+      "resolution": "480p progressive scan (60fps locked)",
+      "soundChip": "GameCube Macronix DSP with full live orchestral recordings",
+      "mediaFormat": "GameCube Optical Disc (1.46 GB)"
+    },
+    "relationships": {
+      "primaryConsole": "gamecube",
+      "developerEntity": "HAL Laboratory",
+      "lineage": [
+        "Super Smash Bros.",
+        "Super Smash Bros. Brawl",
+        "Super Smash Bros. Ultimate",
+        "Rivals of Aether"
+      ]
+    }
+  },
+  "assets": {
+    "cover": "/assets/images/games/super-smash-bros-melee.webp",
+    "banner": "/assets/images/games/super-smash-bros-melee-banner.webp",
+    "screenshots": [
+      "/assets/images/games/super-smash-bros-melee-screen1.webp",
+      "/assets/images/games/super-smash-bros-melee-screen2.webp"
+    ],
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/7/75/Super_Smash_Bros_Melee_box_art.png",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/7/75/Super_Smash_Bros_Melee_box_art.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Super_Smash_Bros_Melee_box_art.png",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "review-required",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "super smash bros melee",
+    "ssbm",
+    "sakurai",
+    "fox",
+    "wavedash",
+    "gamecube",
+    "competitive esports",
+    "hal laboratory"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

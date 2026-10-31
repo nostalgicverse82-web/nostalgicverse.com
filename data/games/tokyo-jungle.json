@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-tokyo-jungle",
+  "slug": "tokyo-jungle",
+  "title": "Tokyo Jungle",
+  "originalReleaseYear": 2012,
+  "exactReleaseDate": "June 7, 2012",
+  "originalLaunchPlatform": "PlayStation 3",
+  "originalLaunchRegion": "Japan",
+  "developer": "Crispy's",
+  "publisher": "Sony Computer Entertainment",
+  "platforms": [
+    "PlayStation 3"
+  ],
+  "genre": "survival",
+  "subgenres": [
+    "action"
+  ],
+  "era": "2010s",
+  "shortDescription": "Humans have vanished from Earth, leaving Pomeranians, lions, and dinosaurs to hunt and mate in post-apocalyptic Tokyo.",
+  "historicalSignificance": "Celebrated as one of the most eccentric, addictive, and memorable cult classics of the PlayStation Network era.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Tokyo_Jungle",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Humans have vanished from Earth, leaving Pomeranians, lions, and dinosaurs to hunt and mate in post-apocalyptic Tokyo.",
+    "culturalImpact": "Celebrated as one of the most eccentric, addictive, and memorable cult classics of the PlayStation Network era."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 3"
+    ],
+    "genres": [
+      "survival"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Tokyo_Jungle_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Tokyo_Jungle_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Tokyo_Jungle",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Tokyo Jungle",
+    "Crispy's",
+    "Sony Computer Entertainment",
+    "PlayStation 3",
+    "survival",
+    "2012",
+    "2012",
+    "PlayStation 3",
+    "action"
+  ],
+  "url": "/games/tokyo-jungle/",
+  "featured": false
+}

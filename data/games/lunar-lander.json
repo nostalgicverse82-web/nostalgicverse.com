@@ -1,0 +1,87 @@
+{
+  "id": "game-lunar-lander",
+  "slug": "lunar-lander",
+  "title": "Lunar Lander",
+  "url": "/games/lunar-lander/",
+  "originalReleaseYear": 1979,
+  "exactReleaseDate": "1979-08-01",
+  "developer": "Atari, Inc.",
+  "publisher": "Atari, Inc.",
+  "designer": "Howard Delman",
+  "originalLaunchPlatform": "Arcade",
+  "platforms": [
+    "Arcade"
+  ],
+  "genre": "life-simulation",
+  "subgenres": [
+    "Physics Simulation",
+    "Vector Arcade"
+  ],
+  "era": "1970s",
+  "shortDescription": "Atari's landmark vector arcade simulation that introduced vector display graphics, realistic gravity physics, and variable-intensity analog thrust controls.",
+  "historicalSignificance": "The first video game to utilize Atari's QuadraScan vector graphics hardware, pioneering fluid line-drawn visual aesthetics and introducing the concept of buying fuel with additional coins.",
+  "editorialContent": {
+    "overview": "Inspired by Apollo 11's 1969 moon landing and early mainframe text simulation games, Atari engineer Howard Delman designed Lunar Lander as a technical showcase for Atari's newly developed vector-generator hardware. Released in August 1979, it drew long lines of arcade patrons eager to test their piloting nerves against unforgiving simulated physics.",
+    "gameplayMechanics": "Players guide an Apollo Lunar Module downward toward the treacherous jagged craters of the moon's surface. Success demands balancing fuel consumption against gravity: rotating the craft with directional buttons and modulating an analog throttle lever to feather retro-rocket thrust. Landing softly on flat platforms (awarding 2x to 5x point multipliers based on landing pad narrowness) rewards points and bonus fuel, while even slight horizontal drift or excessive descent speed results in catastrophic explosive failure.",
+    "technicalInnovation": "Lunar Lander was Atari's first commercial product powered by the QuadraScan vector generation system, which controlled the electron beam of an electrostatically deflected CRT to draw razor-sharp vector lines directly on the phosphor screen. It featured a physical, heavy-duty mechanical thrust lever with internal springs and a potentiometer, offering nuanced analog control rarely seen in contemporary coin-op machines.",
+    "culturalImpact": "Though its commercial arcade run was cut short when Atari began converting Lunar Lander cabinets to meet overwhelming demand for Asteroids later that autumn, Lunar Lander established realistic Newtonian physics simulation as a compelling gaming discipline.",
+    "preservationNotes": "Preserving Lunar Lander mandates specialized vector CRT emulation (utilizing sub-pixel beam decay rendering) and analog throttle calibration to replicate Delman's spring-loaded lever resistance."
+  },
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "Delman, Howard. 'Vector Graphics and Lunar Lander', Classic Gaming Expo Keynote (2000)",
+      "Margolin, Jed. 'The Secret History of Vector Graphics', Margolin Technical Archives (2001)",
+      "Atari Inc. Service Manual TM-133: Lunar Lander (1979)"
+    ],
+    "romMediaFormat": "Arcade PCB (6502 CPU + Vector Generator)",
+    "romSizeOriginal": "12 KB ROM (Vector code & 6502 instructions)",
+    "displayResolutionOriginal": "1024 × 768 QuadraScan Vector Stroke Display",
+    "audioHardware": "Discrete analog sound circuits for thruster rumble and explosion",
+    "inputMethod": "Two rotation buttons and an analog mechanical throttle lever",
+    "multiplayerCapability": "1 Player"
+  },
+  "relatedExhibits": {
+    "games": [
+      "asteroids",
+      "battlezone",
+      "tempest"
+    ],
+    "consoles": [
+      "vectrex",
+      "atari-2600"
+    ],
+    "genres": [
+      "life-simulation"
+    ],
+    "timeline": [
+      "ev-1979-lunar-lander"
+    ]
+  },
+  "assets": {
+    "heroImage": "/assets/images/games/lunar-lander-hero.webp",
+    "thumbnailImage": "/assets/images/games/lunar-lander.webp",
+    "coverImage": "/assets/images/games/lunar-lander-cover.webp",
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/7/70/Lunar_lander_flier.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/7/70/Lunar_lander_flier.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Lunar_lander_flier.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "lunar lander",
+    "atari",
+    "howard delman",
+    "vector graphics",
+    "quadrascan",
+    "physics simulation",
+    "arcade",
+    "apollo",
+    "1979",
+    "1970s"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

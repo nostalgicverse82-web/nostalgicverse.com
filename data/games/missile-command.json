@@ -1,0 +1,92 @@
+{
+  "id": "game-missile-command",
+  "slug": "missile-command",
+  "title": "Missile Command",
+  "url": "/games/missile-command/",
+  "originalReleaseYear": 1980,
+  "exactReleaseDate": "1980-07-01",
+  "developer": "Atari, Inc.",
+  "publisher": "Atari, Inc.",
+  "designer": "Dave Theurer",
+  "originalLaunchPlatform": "Arcade",
+  "platforms": [
+    "Arcade",
+    "Atari 2600",
+    "Atari 5200",
+    "Game Boy",
+    "Atari Lynx"
+  ],
+  "genre": "shoot-em-up",
+  "subgenres": [
+    "Arcade",
+    "Defensive Shooter"
+  ],
+  "era": "1980s",
+  "shortDescription": "Dave Theurer's intense Cold War defense classic featuring trackball trajectory targeting and the haunting inevitability of global nuclear annihilation.",
+  "historicalSignificance": "Pioneered trackball defensive targeting, introduced area-of-effect flak explosions, and stands as one of the most powerful Cold War cultural allegories in interactive media.",
+  "editorialContent": {
+    "overview": "Conceived during the height of late-Cold War nuclear anxiety, Missile Command was engineered at Atari by programmer Dave Theurer. Haunted by recurring nightmares of his hometown being incinerated by Soviet nuclear warheads, Theurer poured his existential dread into the game's relentless pace, famously concluding every match not with a triumphant victory, but with the stark, terrifying words: 'THE END'.",
+    "gameplayMechanics": "Players defend six coastal cities using three surface-to-air anti-ballistic missile batteries (Alpha, Delta, Omega). Controlled via an ultra-responsive heavy trackball, players place crosshairs to detonate defensive flak explosions that linger for a fraction of a second. Incoming threats include ICBM streaks, branching multi-warhead MIRVs, fast-moving bombers, and radar-guided smart cruise missiles.",
+    "technicalInnovation": "Missile Command operated on a MOS Technology 6502 CPU running at 1.25 MHz paired with Atari's discrete bit-mapped color video hardware. Theurer's code performed continuous line-drawing raster algorithms to render descending missile trajectories and expanding circular explosion matrices across 16 colors on a CRT display.",
+    "culturalImpact": "Missile Command was a monumental commercial success in arcades and later became an iconic million-seller on the Atari 2600. Its stark themes of nuclear futility were featured prominently in films such as Terminator 2: Judgment Day and shaped gaming's potential for emotional gravity.",
+    "preservationNotes": "Preserving Missile Command requires genuine high-mass trackball hardware with optical quadrature encoders to match the rapid inertia flicking essential to competitive high-score play."
+  },
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "Theurer, Dave. 'Classic Game Postmortem: Missile Command', Game Developers Conference (2011)",
+      "Fulton, Steve. 'The History of Atari: 1971-1977 & Golden Age', Gamasutra (2007)",
+      "Atari Inc. Service Manual TM-152: Missile Command (1980)"
+    ],
+    "romMediaFormat": "Arcade PCB (6502 CPU + Color Bitmap Framebuffer)",
+    "romSizeOriginal": "16 KB ROM",
+    "displayResolutionOriginal": "256 × 231 (Horizontal CRT)",
+    "audioHardware": "Atari custom discrete audio circuitry",
+    "inputMethod": "Heavy arcade trackball with 3 firing buttons",
+    "multiplayerCapability": "1-2 Players (Alternating)"
+  },
+  "relatedExhibits": {
+    "games": [
+      "asteroids",
+      "defender",
+      "battlezone"
+    ],
+    "consoles": [
+      "atari-2600",
+      "atari-5200",
+      "atari-lynx"
+    ],
+    "genres": [
+      "shoot-em-up"
+    ],
+    "timeline": [
+      "ev-1980-pac-man-japan"
+    ]
+  },
+  "assets": {
+    "heroImage": "/assets/images/games/missile-command-hero.webp",
+    "thumbnailImage": "/assets/images/games/missile-command.webp",
+    "coverImage": "/assets/images/games/missile-command-cover.webp",
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/c/c7/Missile_Command_flyer.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/c/c7/Missile_Command_flyer.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Missile_Command_flyer.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "review-required",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "missile command",
+    "atari",
+    "dave theurer",
+    "trackball",
+    "cold war",
+    "nuclear war",
+    "arcade",
+    "the end",
+    "1980",
+    "1980s"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

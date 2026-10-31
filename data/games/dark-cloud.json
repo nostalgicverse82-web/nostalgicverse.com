@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-dark-cloud",
+  "slug": "dark-cloud",
+  "title": "Dark Cloud",
+  "originalReleaseYear": 2000,
+  "exactReleaseDate": "December 14, 2000",
+  "originalLaunchPlatform": "PlayStation 2",
+  "originalLaunchRegion": "Japan",
+  "developer": "Level-5",
+  "publisher": "Sony Computer Entertainment",
+  "platforms": [
+    "PlayStation 2"
+  ],
+  "genre": "action-rpg",
+  "subgenres": [
+    "dungeon-crawler"
+  ],
+  "era": "2000s",
+  "shortDescription": "Level-5's debut title merging dungeon crawling with the innovative Georama town reconstruction system.",
+  "historicalSignificance": "Introduced Level-5's mastery of town-building RPG hybrids and weapon synthesis progression.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Dark_Cloud",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Level-5's debut title merging dungeon crawling with the innovative Georama town reconstruction system.",
+    "culturalImpact": "Introduced Level-5's mastery of town-building RPG hybrids and weapon synthesis progression."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 2"
+    ],
+    "genres": [
+      "action-rpg"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/1/14/Dark_Cloud_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/1/14/Dark_Cloud_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Dark_Cloud",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Dark Cloud",
+    "Level-5",
+    "Sony Computer Entertainment",
+    "PlayStation 2",
+    "action-rpg",
+    "2000",
+    "2000s",
+    "PlayStation 2",
+    "dungeon-crawler"
+  ],
+  "url": "/games/dark-cloud/",
+  "featured": false
+}

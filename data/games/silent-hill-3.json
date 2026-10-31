@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-silent-hill-3",
+  "slug": "silent-hill-3",
+  "title": "Silent Hill 3",
+  "originalReleaseYear": 2003,
+  "exactReleaseDate": "May 23, 2003",
+  "originalLaunchPlatform": "PlayStation 2",
+  "originalLaunchRegion": "Japan",
+  "developer": "Team Silent",
+  "publisher": "Konami",
+  "platforms": [
+    "PlayStation 2"
+  ],
+  "genre": "survival-horror",
+  "subgenres": [
+    "psychological-horror"
+  ],
+  "era": "2000s",
+  "shortDescription": "Direct continuation of the original Silent Hill starring Heather Mason confronting cultist nightmares.",
+  "historicalSignificance": "Showcased jaw-dropping facial animation and disturbing otherworld art direction at the peak of Team Silent.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Silent_Hill_3",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Direct continuation of the original Silent Hill starring Heather Mason confronting cultist nightmares.",
+    "culturalImpact": "Showcased jaw-dropping facial animation and disturbing otherworld art direction at the peak of Team Silent."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 2"
+    ],
+    "genres": [
+      "survival-horror"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/6/67/Silent_Hill_3_cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/6/67/Silent_Hill_3_cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Silent_Hill_3",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Silent Hill 3",
+    "Team Silent",
+    "Konami",
+    "PlayStation 2",
+    "survival-horror",
+    "2003",
+    "2000s",
+    "PlayStation 2",
+    "psychological-horror"
+  ],
+  "url": "/games/silent-hill-3/",
+  "featured": false
+}

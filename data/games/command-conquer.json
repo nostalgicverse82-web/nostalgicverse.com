@@ -1,0 +1,95 @@
+{
+  "id": "game-command-conquer",
+  "slug": "command-conquer",
+  "title": "Command & Conquer",
+  "url": "/games/command-conquer/",
+  "originalReleaseYear": 1995,
+  "exactReleaseDate": "1995-09-26",
+  "developer": "Westwood Studios",
+  "publisher": "Virgin Interactive",
+  "designer": "Brett Sperry & Eydie Laramore",
+  "composer": "Frank Klepacki",
+  "originalLaunchPlatform": "PC / MS-DOS",
+  "platforms": [
+    "PC",
+    "Macintosh",
+    "Sega Saturn",
+    "PlayStation",
+    "Nintendo 64"
+  ],
+  "genre": "real-time-strategy",
+  "subgenres": [
+    "Real-Time Strategy",
+    "Military RTS"
+  ],
+  "era": "1990s",
+  "shortDescription": "Westwood Studios' military RTS phenomenon that ignited the 1990s real-time strategy craze with Tiberium harvesting, full-motion video, and Kane's Brotherhood of Nod.",
+  "historicalSignificance": "Solidified the competitive RTS genre for mass PC gaming, popularized modem and LAN multiplayer skirmishes, and introduced iconic live-action Full Motion Video (FMV) storytelling starring Joe Kucan as Kane.",
+  "editorialContent": {
+    "overview": "Directed by Brett Sperry at Westwood Studios and released in September 1995, Command & Conquer (subtitled Tiberian Dawn) evolved the foundational mechanics of Dune II into a contemporary sci-fi military phenomenon. Depicting a near-future world war between the United Nations' Global Defense Initiative (GDI) and the messianic Brotherhood of Nod led by the enigmatic Kane (played with charismatic brilliance by director Joe Kucan), it became an explosive cultural juggernaut.",
+    "gameplayMechanics": "Players harvest Tiberium—a toxic, self-replicating alien green crystal that leaches minerals from the soil while poisoning infantry—to finance construction of Construction Yards, Barracks, War Factories, and Helipads. Combat emphasizes rapid combined-arms warfare: GDI commands heavily armored Mammoth Tanks and Ion Cannon orbital lasers, while the Brotherhood of Nod relies on stealth tanks, flamethrowers, chemical troopers, and nuclear ballistic strikes.",
+    "technicalInnovation": "Command & Conquer was engineered as a dual CD-ROM experience (one disc for GDI, one for Nod) featuring high-resolution SVGA graphics and live-action Full Motion Video cinematic briefings seamlessly integrated into mission selection. Frank Klepacki's industrial metal and hip-hop electronic score ('Act on Instinct', 'Mechanical Man') delivered an adrenaline-fueled soundtrack that defined PC gaming audio.",
+    "culturalImpact": "Selling over three million copies, Command & Conquer sparked a worldwide RTS craze, inspiring Westwood's beloved alternate-history spin-off Red Alert and laying the groundwork for online real-time strategy esports across modem and internet LAN networks.",
+    "preservationNotes": "Preserved on original MS-DOS and Windows 95 dual CD-ROM images, runnable via DOSBox or modern open-source engine reimplementations like OpenRA."
+  },
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "Sperry, Brett. 'The Tiberian Saga: Building Command & Conquer', Westwood Developer Archives (2000)",
+      "Klepacki, Frank. 'Behind the Music of Command & Conquer', Electronic Arts (2008)",
+      "Virgin Interactive Entertainment Command & Conquer Official Strategy Guide (1995)"
+    ],
+    "romMediaFormat": "Dual CD-ROM (GDI Disc & Nod Disc)",
+    "romSizeOriginal": "1.2 GB (2 CD-ROM Discs)",
+    "displayResolutionOriginal": "320 × 200 (DOS Mode 13h) / 640 × 400 (SVGA Windows 95 Edition)",
+    "audioHardware": "Sound Blaster 16 / AWE32 / Gravis UltraSound + 22kHz Digital Audio",
+    "inputMethod": "Two-button Mouse and Keyboard",
+    "multiplayerCapability": "2-4 Players (Modem, Serial, IPX LAN)"
+  },
+  "relatedExhibits": {
+    "games": [
+      "dune-ii",
+      "starcraft",
+      "civilization"
+    ],
+    "consoles": [
+      "sega-saturn",
+      "playstation",
+      "nintendo-64"
+    ],
+    "genres": [
+      "real-time-strategy"
+    ],
+    "timeline": [
+      "ev-1994-playstation-launch-japan"
+    ]
+  },
+  "assets": {
+    "heroImage": "/assets/images/games/command-conquer-hero.webp",
+    "thumbnailImage": "/assets/images/games/command-conquer.webp",
+    "coverImage": "/assets/images/games/command-conquer-cover.webp",
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/3/34/Command_%26_Conquer_1995_cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/3/34/Command_%26_Conquer_1995_cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Command_%26_Conquer_1995_cover.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "review-required",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "command and conquer",
+    "westwood studios",
+    "tiberium",
+    "kane",
+    "gdi",
+    "brotherhood of nod",
+    "joe kucan",
+    "frank klepacki",
+    "rts",
+    "real time strategy",
+    "1995",
+    "1990s"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

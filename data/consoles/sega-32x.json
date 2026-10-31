@@ -1,0 +1,41 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+  "id": "console-sega-32x",
+  "slug": "sega-32x",
+  "name": "Sega 32X",
+  "manufacturer": "Sega",
+  "generation": "Fourth Generation",
+  "generationNumber": 4,
+  "originalReleaseYear": 1994,
+  "exactReleaseDate": "November 21, 1994",
+  "mediaFormat": "ROM Cartridge (via Genesis pass-through)",
+  "significance": "A cautionary tale of hardware fragmentation, launching mere months before the Sega Saturn and dividing developer resources.",
+  "verifiedFactualData": {
+    "cpu": "Dual Hitachi SH-2 32-bit RISC @ 23 MHz",
+    "gpuOrVideoChip": "Custom 32X VDP (32,768 simultaneous colors)",
+    "ram": "256 KB main RAM, 256 KB framebuffer VRAM"
+  },
+  "editorialContent": {
+    "overview": "Sega's intermediate 32-bit mushroom-shaped add-on attempting to bridge the Genesis with the impending 32-bit era.",
+    "marketLegacy": "A cautionary tale of hardware fragmentation, launching mere months before the Sega Saturn and dividing developer resources.",
+    "controllerDesign": "Sega Genesis 6-button control pad"
+  },
+  "keyGames": [
+    "virtua-racing-deluxe",
+    "star-wars-arcade",
+    "knuckles-chaotix"
+  ],
+  "assets": {
+    "mainImage": "/assets/images/consoles/sega-32x.png",
+    "heroImage": "/assets/images/consoles/sega-32x-hero.png",
+    "hardwareImage": "/assets/images/consoles/sega-32x-hardware.png"
+  },
+  "keywords": [
+    "sega 32x",
+    "32x",
+    "sega",
+    "fourth generation",
+    "32-bit add-on",
+    "1994"
+  ]
+}

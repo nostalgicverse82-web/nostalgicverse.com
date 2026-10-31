@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-animal-crossing-gcn",
+  "slug": "animal-crossing-gcn",
+  "title": "Animal Crossing",
+  "originalReleaseYear": 2001,
+  "exactReleaseDate": "December 14, 2001",
+  "originalLaunchPlatform": "Nintendo GameCube",
+  "originalLaunchRegion": "Japan",
+  "developer": "Nintendo EAD",
+  "publisher": "Nintendo",
+  "platforms": [
+    "GameCube"
+  ],
+  "genre": "life-simulation",
+  "subgenres": [
+    "social-sim"
+  ],
+  "era": "2000s",
+  "shortDescription": "A human moves into a rural village populated by anthropomorphic animals operating on the console's internal real-time clock.",
+  "historicalSignificance": "Founded Nintendo's gentle social simulation titan, pioneering calendar holiday events and furniture collecting.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Animal_Crossing",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "A human moves into a rural village populated by anthropomorphic animals operating on the console's internal real-time clock.",
+    "culturalImpact": "Founded Nintendo's gentle social simulation titan, pioneering calendar holiday events and furniture collecting."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "Nintendo GameCube"
+    ],
+    "genres": [
+      "life-simulation"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Animal_Crossing_GCN_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Animal_Crossing_GCN_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Animal_Crossing",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Animal Crossing",
+    "Nintendo EAD",
+    "Nintendo",
+    "Nintendo GameCube",
+    "life-simulation",
+    "2001",
+    "2000s",
+    "GameCube",
+    "social-sim"
+  ],
+  "url": "/games/animal-crossing-gcn/",
+  "featured": false
+}

@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-soulcalibur-iii",
+  "slug": "soulcalibur-iii",
+  "title": "Soulcalibur III",
+  "originalReleaseYear": 2005,
+  "exactReleaseDate": "October 25, 2005",
+  "originalLaunchPlatform": "PlayStation 2",
+  "originalLaunchRegion": "Japan",
+  "developer": "Project Soul",
+  "publisher": "Namco",
+  "platforms": [
+    "PlayStation 2"
+  ],
+  "genre": "fighting",
+  "subgenres": [
+    "weapon-based-fighter"
+  ],
+  "era": "2000s",
+  "shortDescription": "PlayStation 2 exclusive evolution adding comprehensive character creation and the Chronicles of the Sword RTS hybrid.",
+  "historicalSignificance": "Pioneered custom character fighting systems and expansive single-player story modes on PS2.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Soulcalibur_III",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "PlayStation 2 exclusive evolution adding comprehensive character creation and the Chronicles of the Sword RTS hybrid.",
+    "culturalImpact": "Pioneered custom character fighting systems and expansive single-player story modes on PS2."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 2"
+    ],
+    "genres": [
+      "fighting"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/9/94/Soulcalibur_III_box_art.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/9/94/Soulcalibur_III_box_art.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Soulcalibur_III",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Soulcalibur III",
+    "Project Soul",
+    "Namco",
+    "PlayStation 2",
+    "fighting",
+    "2005",
+    "2000s",
+    "PlayStation 2",
+    "weapon-based-fighter"
+  ],
+  "url": "/games/soulcalibur-iii/",
+  "featured": false
+}

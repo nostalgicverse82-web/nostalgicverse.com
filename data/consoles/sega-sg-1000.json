@@ -1,0 +1,41 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+  "id": "console-sega-sg-1000",
+  "slug": "sega-sg-1000",
+  "name": "Sega SG-1000",
+  "manufacturer": "Sega",
+  "generation": "Second Generation",
+  "generationNumber": 2,
+  "originalReleaseYear": 1983,
+  "exactReleaseDate": "July 15, 1983",
+  "mediaFormat": "ROM Cartridge & Sega Card (via Card Catcher)",
+  "significance": "Launched Sega's foundational home console hardware legacy, establishing the architecture that would evolve into the Master System.",
+  "verifiedFactualData": {
+    "cpu": "Zilog Z80A @ 3.58 MHz",
+    "gpuOrVideoChip": "Texas Instruments TMS9918A VDP",
+    "ram": "1 KB main RAM, 2 KB video RAM"
+  },
+  "editorialContent": {
+    "overview": "Sega's historic first home console, released on the exact same day in Japan as Nintendo's Family Computer.",
+    "marketLegacy": "Launched Sega's foundational home console hardware legacy, establishing the architecture that would evolve into the Master System.",
+    "controllerDesign": "Hardwired SJ-200 joystick controller"
+  },
+  "keyGames": [
+    "flicker",
+    "congo-bongo",
+    "zaxxon"
+  ],
+  "assets": {
+    "mainImage": "/assets/images/consoles/sega-sg-1000.png",
+    "heroImage": "/assets/images/consoles/sega-sg-1000-hero.png",
+    "hardwareImage": "/assets/images/consoles/sega-sg-1000-hardware.png"
+  },
+  "keywords": [
+    "sg-1000",
+    "sega",
+    "second generation",
+    "1983",
+    "japan",
+    "z80"
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "game-bayonetta",
+  "slug": "bayonetta",
+  "title": "Bayonetta",
+  "japaneseTitle": "ベヨネッタ",
+  "url": "/games/bayonetta/",
+  "originalReleaseYear": 2009,
+  "exactReleaseDate": "2009-10-29",
+  "developer": "PlatinumGames",
+  "publisher": "Sega",
+  "director": "Hideki Kamiya",
+  "designer": "Mari Shimazaki",
+  "composer": "Hiroshi Yamaguchi, Masami Ueda",
+  "originalLaunchPlatform": "Xbox 360 / PlayStation 3",
+  "platforms": [
+    "Xbox 360",
+    "PlayStation 3",
+    "Wii U",
+    "Nintendo Switch",
+    "PlayStation 4",
+    "Xbox One",
+    "PC"
+  ],
+  "genre": "action",
+  "subgenres": [
+    "Character Action",
+    "Hack and Slash"
+  ],
+  "era": "2000s",
+  "shortDescription": "Hideki Kamiya and PlatinumGames' flamboyant character action combat pinnacle, starring the shapeshifting Umbra Witch Bayonetta.",
+  "historicalSignificance": "Set the gold standard for high-speed character action combat, introducing the iconic 'Witch Time' dodge mechanic, 60 FPS acrobatic choreography, and establishing PlatinumGames as the world's premier action studio.",
+  "editorialContent": {
+    "overview": "Directed by Devil May Cry creator Hideki Kamiya, players control Bayonetta, an amnesiac Umbra Witch awakened after a 500-year slumber who wields four handguns mounted to her hands and high heels against celestial angelic legions.",
+    "gameplay": "Pinnacle combo mechanics centered around 'Witch Time'—dodging an incoming attack at the last possible microsecond slows time to a crawl, enabling devastating Wicked Weaves hair summons and cinematic Torture Attacks.",
+    "technicalInnovation": "Delivered flawless 60 FPS combat choreography on Xbox 360, featuring dynamic camera angles, seamless weapon swapping mid-combo, and extravagant hair physics.",
+    "culturalImpact": "Bayonetta became one of the most iconic and unapologetically stylish heroines in video game history, later starring in Super Smash Bros.",
+    "preservationNotes": "Preserved on physical media and remastered in 4K 60 FPS on modern consoles and PC."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "October 29, 2009 (Japan) / January 5, 2010 (North America)",
+    "leadPlatform": "Xbox 360",
+    "genre": "action",
+    "sales": "Over 2 million copies sold across versions",
+    "awards": [
+      "Famitsu Perfect 40/40 Review Score (Xbox 360)",
+      "IGN Best Action Game 2010"
+    ],
+    "technicalSpecs": {
+      "engine": "PlatinumGames Proprietary Action Engine",
+      "resolution": "720p at locked 60fps (Xbox 360) / 4K on PC and modern consoles",
+      "soundChip": "Dolby Digital 5.1 with 'Fly Me to the Moon' jazz arrangements",
+      "mediaFormat": "DVD-ROM / Blu-ray Disc"
+    },
+    "relationships": {
+      "primaryConsole": "xbox-360",
+      "developerEntity": "PlatinumGames",
+      "lineage": [
+        "Devil May Cry",
+        "Bayonetta 2",
+        "NieR: Automata"
+      ]
+    }
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/8/84/Bayonetta_box_artwork.png",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/8/84/Bayonetta_box_artwork.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Bayonetta_box_artwork.png",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "bayonetta",
+    "hideki kamiya",
+    "platinumgames",
+    "witch time",
+    "cereza",
+    "character action",
+    "xbox 360",
+    "ps3",
+    "2009"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

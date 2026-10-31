@@ -1,0 +1,80 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.json",
+  "id": "game-the-sims",
+  "slug": "the-sims",
+  "title": "The Sims",
+  "url": "/games/the-sims/",
+  "originalReleaseYear": 2000,
+  "exactReleaseDate": "2000-02-04",
+  "developer": "Maxis",
+  "publisher": "Electronic Arts",
+  "director": "Will Wright",
+  "designer": "Will Wright",
+  "composer": "Jerry Martin, Marc Russo",
+  "originalLaunchPlatform": "PC",
+  "platforms": [
+    "PC",
+    "Macintosh",
+    "Linux",
+    "PlayStation 2",
+    "Xbox",
+    "GameCube"
+  ],
+  "genre": "Simulation",
+  "subgenres": [
+    "Life Simulation",
+    "Sandbox",
+    "Domestic Management"
+  ],
+  "era": "2000s",
+  "shortDescription": "Will Wright and Maxis's peerless domestic life simulation that modeled human psychological motives and transformed video games into an inclusive mainstream cultural phenomenon.",
+  "historicalSignificance": "Pioneered complex psychological needs-simulation systems, popularized architectural and interior design sandbox play, dramatically expanded female and casual gaming demographics, and became the bestselling PC game in history up to its era.",
+  "editorialContent": {
+    "overview": "Conceived by SimCity creator Will Wright following the tragic loss of his home and personal belongings in the catastrophic 1991 Oakland firestorm, The Sims began development as a theoretical investigation into how humans reconstruct material shelter and psychological security. Initially dismissed by Electronic Arts executives as an unmarketable 'virtual dollhouse' that traditional male PC gamers would reject, Wright funded early prototyping quietly under the working title 'Project X' and 'Dollhouse'. Upon its official release in February 2000, The Sims exploded into a worldwide socio-cultural sensation, surpassing Myst in 2002 to become the bestselling personal computer game of all time with over 16 million copies sold across its base game and seven expansion packs.",
+    "gameplayMechanics": "The core simulation engine balances human behavioral psychology against domestic environmental logistics. Players oversee the daily lives of autonomous suburban citizens ('Sims'), balancing eight fundamental physiological and psychological motive meters: Hunger, Comfort, Hygiene, Bladder, Energy, Fun, Social, and Room. Left to their own devices, Sims exhibit autonomous routines governed by personality matrix coordinates (Neat, Outgoing, Active, Playful, Nice), but require player stewardship to pursue employment careers, develop creative/athletic/mechanical skills, forge romantic relationships, and pay utility bills. The game seamlessly integrates three operational interfaces: Live Mode (real-time behavioral execution), Buy Mode (purchasing furniture and interactive amenities), and Build Mode (drawing structural walls, installing plumbing, and designing landscaping).",
+    "technicalInnovation": "The revolutionary programming breakthrough of The Sims was Wright's 'smart terrain' object-oriented AI architecture. Rather than programming every individual character with complex internal scripts for hundreds of distinct household actions, the intelligence was decentralized into the domestic objects themselves. A television, refrigerator, or grand piano broadcasted an interaction vector advertising specific motive gratification payoffs (e.g., 'provides +8 Fun, requires standing position'). When a Sim evaluated its environment, it surveyed nearby object affordances through a utility function based on current motive deficits. To avoid repetitive dialogue fatigue, Wright developed 'Simlish'—an improvised nonsense spoken language designed by voice actors Stephen Kearin and Gerri Lawlor—paired with Jerry Martin's soothing, acoustic piano jazz compositions that evoked suburban domestic serenity.",
+    "culturalImpact": "The Sims radically broadened the cultural and demographic horizon of video gaming. It was celebrated as the first major video game blockbuster whose player base achieved an equal gender distribution, drawing millions of non-traditional players into personal computer gaming. It pioneered the expansive multi-tiered add-on expansion pack commercial model (Livin' Large, House Party, Hot Date, Superstar), and fostered one of the earliest flourishing web-based custom content modding communities, where players shared digital skins, custom wallpaper textures, and 3D furniture files across user-hosted fan websites.",
+    "preservationNotes": "Archival preservation of The Sims requires documenting its complex modular expansion lifecycle: each successive expansion pack modified the foundational executable engine, pathfinding routines, and town map databases. Archival digital images must preserve original 16-bit color Windows 95/98 graphics rendering and early DirectX audio mixers, without which the signature Simlish audio layers and ambient household sound effects encounter channel dropouts."
+  },
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "Electronic Arts / Maxis. The Sims User Manual and Quick Reference Card (2000)",
+      "Wright, Will. 'Designing The Sims: Modeling Human Behavior' Game Developers Conference Keynote (2001)",
+      "Bissell, Tom. Extra Lives: Why Video Games Matter (2010)",
+      "Edge Magazine. 'The Making of The Sims' (Issue #135, 2004)"
+    ],
+    "romMediaFormat": "1x CD-ROM Optical Disc (Standard PC CD-ROM Format)",
+    "romSizeOriginal": "Approx. 450 MB installation footprint",
+    "displayResolutionOriginal": "800 × 600 / 1024 × 768 (2D Dimetric / Isometric Perspective)",
+    "audioHardware": "DirectSound / Miles Sound System (Compressed WAV & MP3 Audio)",
+    "inputMethod": "Standard PC Keyboard & Mouse",
+    "multiplayerCapability": "1 Player"
+  },
+  "assets": {
+    "heroImage": "/assets/images/games/the-sims-hero.webp",
+    "thumbnailImage": "/assets/images/games/the-sims.webp",
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/2/22/The_Sims_Coverart.png",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/2/22/The_Sims_Coverart.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:The_Sims_Coverart.png",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "the sims",
+    "maxis",
+    "will wright",
+    "electronic arts",
+    "ea",
+    "life simulation",
+    "simulation",
+    "simcity",
+    "2000",
+    "2000s",
+    "pc",
+    "simlish"
+  ],
+  "featured": false
+}

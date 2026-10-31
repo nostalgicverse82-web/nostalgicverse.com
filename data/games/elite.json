@@ -1,0 +1,94 @@
+{
+  "id": "game-elite",
+  "slug": "elite",
+  "title": "Elite",
+  "url": "/games/elite/",
+  "originalReleaseYear": 1984,
+  "exactReleaseDate": "1984-09-20",
+  "developer": "David Braben & Ian Bell",
+  "publisher": "Acornsoft",
+  "designer": "David Braben & Ian Bell",
+  "originalLaunchPlatform": "BBC Micro",
+  "platforms": [
+    "BBC Micro",
+    "Acorn Electron",
+    "Commodore 64",
+    "ZX Spectrum",
+    "Apple II",
+    "Amiga",
+    "NES",
+    "PC"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "Space Trading Simulator",
+    "Open-World Space Sim"
+  ],
+  "era": "1980s",
+  "shortDescription": "David Braben and Ian Bell's monumental BBC Micro space simulation, originating open-world 3D procedural universe generation and deep space trading.",
+  "historicalSignificance": "Pioneered open-ended sandbox gameplay and 3D wireframe space flight, generating eight entire galaxies containing 2,048 star systems out of just 22 kilobytes of computer memory.",
+  "editorialContent": {
+    "overview": "Conceived and programmed by Cambridge undergraduates David Braben and Ian Bell while attending Jesus College, Elite was published by Acornsoft in September 1984 for the BBC Micro. In an era dominated by short, linear arcade action, Elite offered an unprecedented, infinite sandbox universe where players possessed absolute freedom to forge their own destiny among the stars.",
+    "gameplayMechanics": "Piloting a Cobra Mk III starship beginning with 100 credits, players navigate eight distinct galaxies containing 256 planetary systems each. Players earn wealth through interstellar trade (buying low on agricultural worlds, selling high on industrial worlds), mining asteroids, hunting galactic bounties, or engaging in high-risk piracy against civilian convoys. Combat against rival pirates and mysterious Thargoid alien motherships requires mastering 3D rotational pitch, roll, and manual space-station docking maneuvers.",
+    "technicalInnovation": "To generate 2,048 planetary systems with unique names, coordinates, economies, government types, and tech levels on a computer equipped with only 32 kilobytes of total RAM, Braben and Bell developed a brilliant Fibonacci-based pseudorandom number generator. By using fixed mathematical seeds, whole star systems were computed on the fly in real time rather than stored in memory.",
+    "culturalImpact": "Elite is universally acknowledged as the foundational progenitor of the entire space trading and open-world sandbox genre, directly inspiring Wing Commander, Privateer, Freelancer, EVE Online, Star Citizen, and No Man's Sky.",
+    "preservationNotes": "Preserved across original BBC Micro tape/disc images and David Braben's official reverse-engineered C/assembler source archives (Elite: The New Kind)."
+  },
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "Braben, David & Bell, Ian. 'Classic Game Postmortem: Elite', Game Developers Conference (2011)",
+      "Spufford, Francis. 'Masters of the Universe', The Guardian (2003)",
+      "Acornsoft Elite Space Flight Manual (Model SIB01, 1984)"
+    ],
+    "romMediaFormat": "5.25-inch Floppy Disk / Cassette Tape",
+    "romSizeOriginal": "22 KB Binary Code",
+    "displayResolutionOriginal": "256 × 256 Mode 1/Mode 2 Color/Monochrome Graphics",
+    "audioHardware": "Texas Instruments SN76489 4-channel sound chip",
+    "inputMethod": "Full QWERTY Keyboard / Analog Flight Joystick",
+    "multiplayerCapability": "1 Player"
+  },
+  "relatedExhibits": {
+    "games": [
+      "lunar-lander",
+      "simcity",
+      "the-elder-scrolls-v-skyrim"
+    ],
+    "consoles": [
+      "nintendo-entertainment-system"
+    ],
+    "genres": [
+      "action-adventure"
+    ],
+    "timeline": [
+      "ev-1984-tetris-moscow"
+    ]
+  },
+  "assets": {
+    "heroImage": "/assets/images/games/elite-hero.webp",
+    "thumbnailImage": "/assets/images/games/elite.webp",
+    "coverImage": "/assets/images/games/elite-cover.webp",
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/2/2e/Elite_org_cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/2/2e/Elite_org_cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Elite_org_cover.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "elite",
+    "david braben",
+    "ian bell",
+    "bbc micro",
+    "space trading",
+    "procedural generation",
+    "cobra mk iii",
+    "thargoids",
+    "sandbox",
+    "1984",
+    "1980s"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

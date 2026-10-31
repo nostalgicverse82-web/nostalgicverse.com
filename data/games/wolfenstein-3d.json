@@ -1,0 +1,94 @@
+{
+  "id": "game-wolfenstein-3d",
+  "slug": "wolfenstein-3d",
+  "title": "Wolfenstein 3D",
+  "url": "/games/wolfenstein-3d/",
+  "originalReleaseYear": 1992,
+  "exactReleaseDate": "1992-05-05",
+  "developer": "id Software",
+  "publisher": "Apogee Software",
+  "designer": "John Romero & Tom Hall",
+  "composer": "Bobby Prince",
+  "originalLaunchPlatform": "PC / MS-DOS",
+  "platforms": [
+    "PC",
+    "SNES",
+    "Atari Jaguar",
+    "Macintosh",
+    "3DO"
+  ],
+  "genre": "first-person-shooter",
+  "subgenres": [
+    "First-Person Shooter",
+    "Raycasting"
+  ],
+  "era": "1990s",
+  "shortDescription": "id Software's explosive shareware milestone that popularized the first-person shooter genre through John Carmack's fast raycasting engine.",
+  "historicalSignificance": "The grandfather of the modern first-person shooter, proving that high-speed 3D visceral gunplay was possible on consumer IBM PC hardware and establishing the shareware episodic distribution model.",
+  "editorialContent": {
+    "overview": "Created in Mesquite, Texas by the brilliant core team of id Software—engineers John Carmack and John Romero, designer Tom Hall, artist Adrian Carmack, and composer Bobby Prince—Wolfenstein 3D debuted on May 5, 1992 via Apogee Software's shareware mail-order network. Reimagining Silas Warner's 1981 stealth game Castle Wolfenstein as an adrenaline-fueled first-person shooter, it ignited a revolution in PC gaming.",
+    "gameplayMechanics": "Players assume the role of Allied spy William 'B.J.' Blazkowicz, blasting his way out of Castle Wolfenstein to eliminate Nazi dictator Adolf Hitler. Players wield knives, pistols, machine guns, and a ferocious Gatling gun, scouring orthogonal corridors for medical kits, secret push-wall passages, Nazi gold, and elevator exits while eliminating SS guards and attack dogs.",
+    "technicalInnovation": "John Carmack's revolutionary raycasting rendering engine calculated column-by-column distance vectors from the player's viewpoint to wall boundaries on a flat 64×64 grid. By eliminating complex 3D polygon math in favor of fast integer raycasting and pre-scaled wall textures, Carmack achieved silky-smooth 70 frames per second on standard Intel 80286 and 80386 microprocessors.",
+    "culturalImpact": "Distributed across BBS networks as a free first episode with mail-order purchases for subsequent chapters, Wolfenstein 3D generated hundreds of thousands of dollars in monthly revenue and proved the commercial viability of independent shareware developers. It served as the direct technological stepping stone to Doom.",
+    "preservationNotes": "Preserved on original MS-DOS floppy disks and John Carmack's open-source C/x86 assembly code archives released in 1995. Emulation requires accurate Sound Blaster OPL2 FM synthesis."
+  },
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "Kushner, David. 'Masters of Doom: How Two Guys Created an Empire and Transformed Pop Culture', Random House (2003)",
+      "Carmack, John. 'Raycasting Algorithms for MS-DOS PC Hardware', id Software Archives (1992)",
+      "Apogee Software Ltd. Wolfenstein 3D Official Hint Book & Manual (1992)"
+    ],
+    "romMediaFormat": "3.5-inch / 5.25-inch Floppy Disk",
+    "romSizeOriginal": "2.1 MB (Full 6-Episode Registered Release)",
+    "displayResolutionOriginal": "320 × 200 (VGA 256-color Mode 13h)",
+    "audioHardware": "Sound Blaster / AdLib FM Synthesis + PC Speaker digitized effects",
+    "inputMethod": "Keyboard and Mouse / Joystick",
+    "multiplayerCapability": "1 Player"
+  },
+  "relatedExhibits": {
+    "games": [
+      "doom",
+      "half-life",
+      "quake"
+    ],
+    "consoles": [
+      "atari-jaguar",
+      "super-nintendo-entertainment-system"
+    ],
+    "genres": [
+      "first-person-shooter"
+    ],
+    "timeline": [
+      "ev-1993-doom-shareware"
+    ]
+  },
+  "assets": {
+    "heroImage": "/assets/images/games/wolfenstein-3d-hero.webp",
+    "thumbnailImage": "/assets/images/games/wolfenstein-3d.webp",
+    "coverImage": "/assets/images/games/wolfenstein-3d-cover.webp",
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/0/05/Wolfenstein-3d.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/0/05/Wolfenstein-3d.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Wolfenstein-3d.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "review-required",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "wolfenstein 3d",
+    "id software",
+    "john carmack",
+    "john romero",
+    "bj blazkowicz",
+    "raycasting",
+    "first person shooter",
+    "fps",
+    "shareware",
+    "apogee",
+    "1992",
+    "1990s"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

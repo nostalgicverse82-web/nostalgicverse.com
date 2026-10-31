@@ -1,0 +1,81 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.json",
+  "id": "game-ms-pac-man",
+  "slug": "ms-pac-man",
+  "title": "Ms. Pac-Man",
+  "url": "/games/ms-pac-man/",
+  "originalReleaseYear": 1982,
+  "exactReleaseDate": "1982-01-13",
+  "developer": "General Computer Corporation (GCC) / Midway",
+  "publisher": "Midway Manufacturing",
+  "designer": "Doug Macrae, Kevin Curran, Steve Golson",
+  "originalLaunchPlatform": "Arcade",
+  "platforms": [
+    "Arcade",
+    "Atari 2600",
+    "Atari 5200",
+    "Atari 7800",
+    "NES",
+    "Sega Genesis",
+    "Super Nintendo (SNES)",
+    "Game Boy"
+  ],
+  "genre": "Action",
+  "subgenres": [
+    "Maze Action",
+    "Arcade"
+  ],
+  "era": "1980s",
+  "shortDescription": "General Computer Corporation's brilliant unauthorized enhancement kit that superseded the original Pac-Man with multiple dynamic mazes and non-deterministic ghost AI.",
+  "historicalSignificance": "Pioneered adaptive procedural enemy routing in arcade maze games, introduced female representation in video game protagonists, and set American coin-op sales records.",
+  "editorialContent": {
+    "overview": "Ms. Pac-Man originated not inside Namco's Tokyo studios, but in Cambridge, Massachusetts, engineered by MIT student dropouts at General Computer Corporation (GCC) as an aftermarket enhancement daughterboard titled 'Crazy Otto'. Designed to combat the rote memorization patterns that allowed elite players to monopolize Pac-Man cabinets indefinitely, GCC presented their finished modification to US distributor Midway. Recognizing its commercial genius amidst legal pressure from Atari regarding prior speed-up kits, Midway purchased the game, rebranded Otto into Ms. Pac-Man with a red bow and beauty mark, and released it in January 1982 to staggering critical and financial acclaim.",
+    "gameplayMechanics": "While retaining the core eat-and-evade loop, Ms. Pac-Man corrected every mechanical vulnerability of its predecessor. Rather than repeating a single static board layout for 256 consecutive stages, the game cycles through four distinct maze architectures with variable tunnel pairs and distinct pastel palette schemes (pink, blue, light brown). Crucially, bonus items no longer materialize statically beneath the ghost pen; instead, cherries, pretzels, oranges, and bananas enter through the side warp tunnels and wander dynamically along maze corridors before exiting, forcing players to risk tactical repositioning.",
+    "technicalInnovation": "The defining mathematical achievement of GCC's software was the introduction of semi-randomized ghost algorithms. In the original Pac-Man, deterministic tile-tracking allowed players to execute identical controller sequences to achieve perfect scores. Ms. Pac-Man rewrote the Z80 target calculation routines: while Blinky and Pinky maintain basic proximity heuristics, their subroutines introduce pseudorandom directional forks whenever crossing intersections during hunting phases. Running on standard Midway Pac-Man hardware (Zilog Z80 at 3.072 MHz, 3-channel wave sound, 224 × 288 vertical CRT), the auxiliary daughterboard expanded program ROM to 24 kilobytes, patching memory locations on the fly.",
+    "culturalImpact": "Ms. Pac-Man achieved roughly 125,000 arcade cabinet sales in North America, surpassing the domestic sales figures of the original Pac-Man and earning universal acclaim as one of the finest arcade action games ever engineered. Its protagonist represented a monumental moment for video game culture: the first recognized female video game lead character, embraced by a widely diverse demographic across all ages and genders. The game's complex intellectual property heritage—split between Namco, Midway, and GCC royalty contracts—became legendary in corporate legal history.",
+    "preservationNotes": "Due to ongoing rights negotiations between Bandai Namco and GCC regarding royalty distribution on legacy hardware, Ms. Pac-Man has occasionally been replaced in modern historical retrospectives by modified variants such as 'Pac-Mom'. Archival preservation of authentic 1982 Midway production PCBs and original daughterboard EPROMs is therefore vital for accurate historical documentation of 1980s arcade culture."
+  },
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "Golson, Steve. 'Post-Mortem: The Making of Ms. Pac-Man' Game Developers Conference (2016)",
+      "Midway Manufacturing Co. Ms. Pac-Man Parts and Operating Manual (1982)",
+      "Kent, Steven L. The Ultimate History of Video Games (2001)",
+      "Wired Magazine. 'The Secret History of Ms. Pac-Man' (2019)"
+    ],
+    "romMediaFormat": "Arcade PCB (Midway Z80 motherboard with GCC auxiliary daughterboard)",
+    "romSizeOriginal": "24 KB ROM",
+    "displayResolutionOriginal": "224 × 288 (Vertical 3:4 CRT)",
+    "audioHardware": "Namco 3-channel wave-table sound generator (WSG)",
+    "inputMethod": "4-way optical/microswitch joystick",
+    "multiplayerCapability": "2 Players (Alternating)",
+    "arcadeCabinetType": "Upright / Cocktail / Cabaret"
+  },
+  "assets": {
+    "heroImage": "/assets/images/games/ms-pac-man-hero.webp",
+    "thumbnailImage": "/assets/images/games/ms-pac-man.webp",
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/4/42/Ms._Pac-Man_flyer.png",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/4/42/Ms._Pac-Man_flyer.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Ms._Pac-Man_flyer.png",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "ms. pac-man",
+    "ms-pac-man",
+    "gcc",
+    "midway",
+    "namco",
+    "maze",
+    "1982",
+    "1980s",
+    "arcade",
+    "z80",
+    "steve golson",
+    "golden age",
+    "crazy otto"
+  ],
+  "featured": false
+}

@@ -1,0 +1,84 @@
+{
+  "id": "game-god-of-war-2018",
+  "slug": "god-of-war-2018",
+  "title": "God of War",
+  "japaneseTitle": "ゴッド・オブ・ウォー",
+  "url": "/games/god-of-war-2018/",
+  "originalReleaseYear": 2018,
+  "exactReleaseDate": "2018-04-20",
+  "developer": "Santa Monica Studio",
+  "publisher": "Sony Interactive Entertainment",
+  "director": "Cory Barlog",
+  "designer": "Jason McDonald",
+  "composer": "Bear McCreary",
+  "originalLaunchPlatform": "PlayStation 4",
+  "platforms": [
+    "PlayStation 4",
+    "PlayStation 5",
+    "Microsoft Windows"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "Hack and Slash",
+    "Norse Mythology"
+  ],
+  "era": "2010s",
+  "shortDescription": "Cory Barlog's monumental single-take cinematic reinvention of Kratos, navigating fatherhood alongside son Atreus across the realms of Norse myth.",
+  "historicalSignificance": "Radically reinvented a legendary franchise with an unbroken single-shot camera, emotional father-son depth, and tactile Leviathan Axe combat, winning Game of the Year 2018 and selling over 23 million copies.",
+  "editorialContent": {
+    "overview": "Stepping away from the Greek pantheon into the frozen wilderness of Midgard, God of War reconstructs Kratos as a grieving widower struggling to mentor his young son Atreus on a solemn pilgrimage to scatter his wife's ashes atop the highest peak.",
+    "gameplay": "Pioneered over-the-shoulder third-person visceral melee anchored by the recallable Leviathan Axe, Guardian Shield deflections, runic magic runes, and cooperative combat commands with Atreus's bow.",
+    "technicalInnovation": "Celebrated for executing a seamless 'no-cut camera' from start to finish without a single camera fade or loading transition during entire 30-hour campaign.",
+    "culturalImpact": "Won Game of the Year at The Game Awards 2018 against Red Dead Redemption 2, validating artistic maturity in legacy character evolution.",
+    "preservationNotes": "Released on PS4 Blu-ray, updated with 60 FPS patch for PS5, and ported to PC with ultrawide and DLSS support."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "April 20, 2018",
+    "leadPlatform": "PlayStation 4",
+    "genre": "action-adventure",
+    "sales": "Over 23 million copies sold worldwide",
+    "awards": [
+      "The Game Awards Game of the Year 2018",
+      "BAFTA Best Game 2019",
+      "D.I.C.E. Game of the Year"
+    ],
+    "technicalSpecs": {
+      "engine": "Santa Monica Studio Proprietary Engine",
+      "resolution": "1080p (PS4) / Checkerboard 4K (PS4 Pro/PS5)",
+      "soundChip": "Dolby Digital 5.1 / 7.1 Linear PCM",
+      "mediaFormat": "Blu-ray Disc"
+    },
+    "relationships": {
+      "primaryConsole": "playstation-4",
+      "developerEntity": "Santa Monica Studio",
+      "lineage": [
+        "God of War (2005)",
+        "God of War Ragnarok"
+      ]
+    }
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a7/God_of_War_4_cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a7/God_of_War_4_cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:God_of_War_4_cover.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "god of war",
+    "kratos",
+    "atreus",
+    "cory barlog",
+    "santa monica studio",
+    "playstation 4",
+    "ps4",
+    "goty 2018",
+    "leviathan axe",
+    "norse"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

@@ -1,0 +1,70 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-kingdoms-of-amalur-reckoning",
+  "slug": "kingdoms-of-amalur-reckoning",
+  "title": "Kingdoms of Amalur: Reckoning",
+  "originalReleaseYear": 2012,
+  "exactReleaseDate": "February 7, 2012",
+  "originalLaunchPlatform": "PlayStation 3",
+  "originalLaunchRegion": "North America",
+  "developer": "38 Studios",
+  "publisher": "Electronic Arts",
+  "platforms": [
+    "PlayStation 3",
+    "Xbox 360",
+    "Microsoft Windows"
+  ],
+  "genre": "action-rpg",
+  "subgenres": [
+    "open-world"
+  ],
+  "era": "2010s",
+  "shortDescription": "The Fateless One breaks preordained destiny in the Faelands, crafted by R.A. Salvatore and Todd McFarlane.",
+  "historicalSignificance": "Praised for having some of the most fluid, kinetic, and gratifying combat mechanics in any western action RPG.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Kingdoms_of_Amalur:_Reckoning",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "The Fateless One breaks preordained destiny in the Faelands, crafted by R.A. Salvatore and Todd McFarlane.",
+    "culturalImpact": "Praised for having some of the most fluid, kinetic, and gratifying combat mechanics in any western action RPG."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 3"
+    ],
+    "genres": [
+      "action-rpg"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Kingdoms_of_Amalur_Reckoning_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Kingdoms_of_Amalur_Reckoning_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Kingdoms_of_Amalur:_Reckoning",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Kingdoms of Amalur: Reckoning",
+    "38 Studios",
+    "Electronic Arts",
+    "PlayStation 3",
+    "action-rpg",
+    "2012",
+    "2012",
+    "PlayStation 3",
+    "Xbox 360",
+    "Microsoft Windows",
+    "open-world"
+  ],
+  "url": "/games/kingdoms-of-amalur-reckoning/",
+  "featured": false
+}

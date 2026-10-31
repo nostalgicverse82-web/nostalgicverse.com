@@ -1,0 +1,68 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-crackdown",
+  "slug": "crackdown",
+  "title": "Crackdown",
+  "originalReleaseYear": 2007,
+  "exactReleaseDate": "February 20, 2007",
+  "originalLaunchPlatform": "Xbox 360",
+  "originalLaunchRegion": "North America",
+  "developer": "Realtime Worlds",
+  "publisher": "Microsoft Game Studios",
+  "platforms": [
+    "Xbox 360"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "open-world",
+    "superhero"
+  ],
+  "era": "2000s",
+  "shortDescription": "Genetically enhanced Agents collect Agility Orbs to leap across skyscrapers and clean up crime cartels in Pacific City.",
+  "historicalSignificance": "Created an intensely addictive vertical open-world traversal loop that became a major early Xbox 360 hit.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Crackdown",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Genetically enhanced Agents collect Agility Orbs to leap across skyscrapers and clean up crime cartels in Pacific City.",
+    "culturalImpact": "Created an intensely addictive vertical open-world traversal loop that became a major early Xbox 360 hit."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "Xbox 360"
+    ],
+    "genres": [
+      "action-adventure"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Crackdown_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Crackdown_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Crackdown",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Crackdown",
+    "Realtime Worlds",
+    "Microsoft Game Studios",
+    "Xbox 360",
+    "action-adventure",
+    "2007",
+    "2000s",
+    "Xbox 360",
+    "open-world",
+    "superhero"
+  ],
+  "url": "/games/crackdown/",
+  "featured": false
+}

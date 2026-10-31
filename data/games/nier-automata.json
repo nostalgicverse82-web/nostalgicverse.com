@@ -1,0 +1,85 @@
+{
+  "id": "game-nier-automata",
+  "slug": "nier-automata",
+  "title": "NieR: Automata",
+  "japaneseTitle": "ニーア オートマタ",
+  "url": "/games/nier-automata/",
+  "originalReleaseYear": 2017,
+  "exactReleaseDate": "2017-02-23",
+  "developer": "PlatinumGames",
+  "publisher": "Square Enix",
+  "director": "Yoko Taro",
+  "designer": "Takahisa Taura",
+  "composer": "Keiichi Okabe",
+  "originalLaunchPlatform": "PlayStation 4",
+  "platforms": [
+    "PlayStation 4",
+    "Microsoft Windows",
+    "Xbox One",
+    "Nintendo Switch"
+  ],
+  "genre": "action-rpg",
+  "subgenres": [
+    "Hack and Slash",
+    "Bullet Hell",
+    "Existential Philosophy"
+  ],
+  "era": "2010s",
+  "shortDescription": "Yoko Taro and PlatinumGames' philosophical action-RPG masterpiece exploring existentialism and humanity through combat androids 2B, 9S, and A2.",
+  "historicalSignificance": "A landmark achievement in video game narrative structure requiring multiple perspective playthroughs to reach its transcendent Ending E, selling over 8 million copies and featuring one of gaming's greatest musical scores.",
+  "editorialContent": {
+    "overview": "Set in the year 11945 AD during the 14th Machine War between synthetic androids created by fleeing humans and biomechanical machine lifeforms deployed by alien invaders, NieR: Automata deconstructs what it means to possess consciousness and purpose.",
+    "gameplay": "Masterfully shifts across genres—seamlessly transitioning from lightning-fast PlatinumGames hack-and-slash combat into top-down twin-stick bullet hell shooters, side-scrolling platformers, and text adventures.",
+    "technicalInnovation": "Pioneered interactive musical layering where Keiichi Okabe's haunting vocal themes transition dynamically between 8-bit chiptune hacking modes and grand choral crescendos based on combat intensity.",
+    "culturalImpact": "Character 2B became an instant worldwide design icon, and Ending E's fourth-wall-breaking communal sacrifice stands as an unforgettable artistic triumph.",
+    "preservationNotes": "Preserved on PS4 physical disc, enhanced for PS4 Pro, and ported to all major platforms."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "February 23, 2017 (Japan) / March 7, 2017 (Worldwide)",
+    "leadPlatform": "PlayStation 4",
+    "genre": "action-rpg",
+    "sales": "Over 8 million copies sold worldwide",
+    "awards": [
+      "The Game Awards Best Score/Music 2017",
+      "Japan Game Awards Award for Excellence"
+    ],
+    "technicalSpecs": {
+      "engine": "PlatinumGames Proprietary Engine",
+      "resolution": "900p (PS4) / 1080p (PS4 Pro) at 60fps",
+      "soundChip": "Dynamic adaptive acoustic audio by MONACA",
+      "mediaFormat": "Blu-ray Disc"
+    },
+    "relationships": {
+      "primaryConsole": "playstation-4",
+      "developerEntity": "PlatinumGames",
+      "lineage": [
+        "NieR Replicant",
+        "Drakengard"
+      ]
+    }
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/2/21/Nier_Automata_cover_art.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/2/21/Nier_Automata_cover_art.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Nier_Automata_cover_art.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "nier automata",
+    "2b",
+    "9s",
+    "a2",
+    "yoko taro",
+    "platinumgames",
+    "keiichi okabe",
+    "square enix",
+    "playstation 4",
+    "ps4"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

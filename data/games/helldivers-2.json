@@ -1,0 +1,83 @@
+{
+  "id": "game-helldivers-2",
+  "slug": "helldivers-2",
+  "title": "Helldivers 2",
+  "japaneseTitle": "ヘルダイバー2",
+  "url": "/games/helldivers-2/",
+  "originalReleaseYear": 2024,
+  "exactReleaseDate": "2024-02-08",
+  "developer": "Arrowhead Game Studios",
+  "publisher": "Sony Interactive Entertainment",
+  "director": "Johan Pilestedt",
+  "designer": "Peter Lindgren",
+  "composer": "Wilbert Roget II",
+  "originalLaunchPlatform": "PlayStation 5 / PC",
+  "platforms": [
+    "PlayStation 5",
+    "Microsoft Windows"
+  ],
+  "genre": "shooter",
+  "subgenres": [
+    "Cooperative Shooter",
+    "Third-Person Shooter",
+    "Satirical Sci-Fi"
+  ],
+  "era": "2020s",
+  "shortDescription": "Arrowhead's satirical live-fire cooperative phenomenon pitting squads of Helldivers against swarms of Terminid bugs and Automaton cyborgs for Managed Democracy.",
+  "historicalSignificance": "Became the fastest-selling PlayStation-published game in history, moving over 12 million copies in its first 12 weeks, celebrated for its emergent slapstick friendly-fire physics and live Game Master galactic war.",
+  "editorialContent": {
+    "overview": "Set in a hilariously jingoistic sci-fi satire inspired by Starship Troopers, players enlist as disposable elite shock troops deployed across the galaxy to spread 'Managed Democracy' against chitinous alien bugs and ruthless socialist robots.",
+    "gameplay": "Four-player squad extraction shooter anchored by high-stakes friendly fire, d-pad directional code inputs to call down orbital Stratagems (500kg bombs, orbital lasers, turret sentries), and chaotic armor penetration physics.",
+    "technicalInnovation": "Pioneered a live human 'Game Master' (Joel) dynamically tweaking galaxy liberation rates and introducing planetwide story events in response to the real-time collective decisions of millions of players.",
+    "culturalImpact": "A monumental cultural sensation of 2024, revitalizing community-driven PvE cooperative multiplayer with zero pay-to-win mechanics.",
+    "preservationNotes": "Preserved on PS5 physical disc and ongoing persistent server infrastructure."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "February 8, 2024",
+    "leadPlatform": "PlayStation 5",
+    "genre": "shooter",
+    "sales": "Over 12 million copies sold in 12 weeks (PlayStation's fastest-selling launch ever)",
+    "awards": [
+      "The Game Awards Best Multiplayer Game 2024",
+      "Best Action Game Nominee"
+    ],
+    "technicalSpecs": {
+      "engine": "Autodesk Stingray (Bitsquid)",
+      "resolution": "Dynamic 4K at 60fps",
+      "soundChip": "3D Tempest Audio with Wilbert Roget II bombastic military brass score",
+      "mediaFormat": "Ultra HD Blu-ray Disc"
+    },
+    "relationships": {
+      "primaryConsole": "playstation-5",
+      "developerEntity": "Arrowhead Game Studios",
+      "lineage": [
+        "Helldivers (2015)",
+        "Magicka"
+      ]
+    }
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/7/7b/Helldivers_2_cover_art.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/7/7b/Helldivers_2_cover_art.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Helldivers_2_cover_art.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "helldivers 2",
+    "arrowhead",
+    "johan pilestedt",
+    "super earth",
+    "managed democracy",
+    "terminids",
+    "automatons",
+    "playstation 5",
+    "ps5",
+    "coop"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

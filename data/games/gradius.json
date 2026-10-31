@@ -1,0 +1,93 @@
+{
+  "id": "game-gradius",
+  "slug": "gradius",
+  "title": "Gradius",
+  "japaneseTitle": "グラディウス",
+  "url": "/games/gradius/",
+  "originalReleaseYear": 1985,
+  "exactReleaseDate": "1985-05-29",
+  "developer": "Konami Industry Co., Ltd.",
+  "publisher": "Konami",
+  "designer": "Hiroyasu Machiguchi",
+  "originalLaunchPlatform": "Arcade",
+  "platforms": [
+    "Arcade",
+    "NES",
+    "PC Engine",
+    "MSX",
+    "Commodore 64",
+    "ZX Spectrum"
+  ],
+  "genre": "shoot-em-up",
+  "subgenres": [
+    "Horizontal Scrolling Shooter",
+    "Space Combat"
+  ],
+  "era": "1980s",
+  "shortDescription": "Konami's genre-defining horizontal space shooter that introduced the customizable power-up selection bar, Options satellites, and the iconic Vic Viper starfighter.",
+  "historicalSignificance": "Revolutionized shoot-'em-ups by replacing random weapon drops with a player-managed weapon gauge bar, and debuted the famous multi-satellite 'Option' mechanics.",
+  "editorialContent": {
+    "overview": "Directed by Hiroyasu Machiguchi at Konami and released to Japanese arcades in May 1985 under the development codename Scramble 2, Gradius redefined side-scrolling shooters. Piloting the hyper-advanced hyperspace fighter Vic Viper against the invading Bacterian empire, players confronted massive organic Moai statues and colossal biomechanical motherships across the cosmos.",
+    "gameplayMechanics": "Gradius discarded arbitrary weapon pickups in favor of an ingenious six-step bottom-screen power meter: Speed Up, Missile, Double, Laser, Option, and Shield. Destroying glowing orange enemy formations releases a Power Capsule; collecting capsules advances an illuminated cursor along the gauge, allowing players to strategically cash in capsules for speed upgrades, ground-tracing missiles, piercing laser beams, or up to four invulnerable trailing 'Option' shadow-drones that mirror the Vic Viper's firing patterns.",
+    "technicalInnovation": "Operating on custom Konami Bubble System and twin-68000 arcade architecture, Gradius displayed smooth horizontal hardware scrolling with layered foreground hazards and massive multi-tile enemy bosses (most famously the core-shielded Big Core) that required players to shoot through rotating barriers.",
+    "culturalImpact": "Gradius launched one of gaming's most celebrated shooter franchises (inspiring Life Force, Parodius, and Gradius V) and served as the direct origin of the legendary Konami Code (Up, Up, Down, Down, Left, Right, Left, Right, B, A), programmed by Kazuhisa Hashimoto during development of the 1986 Famicom port.",
+    "preservationNotes": "Preserved across original Konami Bubble System bubble-memory boards and standard ROM arcade PCBs. The bubble-memory warm-up synthesizer sequence remains a cherished artifact of arcade hardware history."
+  },
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "Hashimoto, Kazuhisa. 'The History of the Konami Code and Gradius Famicom Port', Konami Retrospective (2017)",
+      "Konami Co., Ltd. Gradius Arcade Operator's Manual (1985)",
+      "Nintendo of America NES Instruction Booklet: Gradius (NES-GR-USA, 1986)"
+    ],
+    "romMediaFormat": "Arcade PCB (Motorola 68000 + Z80 Audio)",
+    "romSizeOriginal": "192 KB ROM",
+    "displayResolutionOriginal": "256 × 224 (Horizontal CRT)",
+    "audioHardware": "Yamaha YM2151 FM synthesizer + custom Konami VLM5030 speech chip",
+    "inputMethod": "8-way joystick + Shoot, Missile, Power-Up buttons",
+    "multiplayerCapability": "1-2 Players (Alternating)"
+  },
+  "relatedExhibits": {
+    "games": [
+      "defender",
+      "contra",
+      "castlevania"
+    ],
+    "consoles": [
+      "turbografx-16",
+      "nintendo-entertainment-system"
+    ],
+    "genres": [
+      "shoot-em-up"
+    ],
+    "timeline": [
+      "ev-1985-nes-launch-north-america"
+    ]
+  },
+  "assets": {
+    "heroImage": "/assets/images/games/gradius-hero.webp",
+    "thumbnailImage": "/assets/images/games/gradius.webp",
+    "coverImage": "/assets/images/games/gradius-cover.webp",
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/1/13/Gradius.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/1/13/Gradius.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Gradius.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "review-required",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "gradius",
+    "konami",
+    "vic viper",
+    "konami code",
+    "options",
+    "shoot-em-up",
+    "arcade",
+    "bubble system",
+    "1985",
+    "1980s"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

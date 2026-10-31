@@ -1,0 +1,82 @@
+{
+  "id": "game-marvel-s-spider-man-2",
+  "slug": "marvel-s-spider-man-2",
+  "title": "Marvel's Spider-Man 2",
+  "japaneseTitle": "Marvel's Spider-Man 2",
+  "url": "/games/marvel-s-spider-man-2/",
+  "originalReleaseYear": 2023,
+  "exactReleaseDate": "2023-10-20",
+  "developer": "Insomniac Games",
+  "publisher": "Sony Interactive Entertainment",
+  "director": "Bryan Intihar, Ryan Smith",
+  "designer": "Josue Benitez",
+  "composer": "John Paesano",
+  "originalLaunchPlatform": "PlayStation 5",
+  "platforms": [
+    "PlayStation 5",
+    "Microsoft Windows"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "Superhero",
+    "Open World"
+  ],
+  "era": "2020s",
+  "shortDescription": "Peter Parker and Miles Morales unite against Kraven the Hunter and Venom, utilizing the alien Symbiote and aerodynamic Web Wings across an expanded New York City.",
+  "historicalSignificance": "Became the fastest-selling PlayStation Studios game in Sony's history, selling over 2.5 million copies in its first 24 hours (and over 11 million overall) while showcasing near-instant dual-hero character switching via SSD.",
+  "editorialContent": {
+    "overview": "Set nine months after Miles Morales, Peter Parker and Miles Morales balance personal crises as Kraven the Hunter turns New York into his personal hunting grounds, triggering the arrival of the alien Symbiote and the terrifying emergence of Venom.",
+    "gameplay": "Doubled Manhattan's map size into Brooklyn and Queens, introducing high-speed 'Web Wings' utilizing wind tunnels, instant character swapping between Peter and Miles, Symbiote tendril slams, and bio-electric venom power surges.",
+    "technicalInnovation": "Enabled real-time ray-traced reflections across all visual modes by default, leveraging the PS5 SSD to stream the city at three times the speed of the original game without streaming pop-in.",
+    "culturalImpact": "Celebrated as a triumphant evolution in superhero storytelling, delivering benchmark voice performances by Yuri Lowenthal and horror icon Tony Todd as Venom.",
+    "preservationNotes": "Preserved on physical PS5 Ultra HD disc with extensive accessibility features."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "October 20, 2023",
+    "leadPlatform": "PlayStation 5",
+    "genre": "action-adventure",
+    "sales": "Over 11 million copies sold worldwide",
+    "awards": [
+      "7 Nominations at The Game Awards 2023 including Game of the Year",
+      "D.I.C.E. Action Game of the Year"
+    ],
+    "technicalSpecs": {
+      "engine": "Insomniac Proprietary Engine",
+      "resolution": "Dynamic 4K with Ray Tracing at 30, 40, and 60fps modes",
+      "soundChip": "3D Tempest Audio with DualSense haptic feedback",
+      "mediaFormat": "Ultra HD Blu-ray Disc"
+    },
+    "relationships": {
+      "primaryConsole": "playstation-5",
+      "developerEntity": "Insomniac Games",
+      "lineage": [
+        "Marvel's Spider-Man (2018)",
+        "Marvel's Wolverine"
+      ]
+    }
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/0/0f/Spider-Man_2_PS5_cover_art.jpeg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/0/0f/Spider-Man_2_PS5_cover_art.jpeg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Spider-Man_2_PS5_cover_art.jpeg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "marvel's spider-man 2",
+    "peter parker",
+    "miles morales",
+    "venom",
+    "kraven",
+    "symbiote",
+    "web wings",
+    "insomniac games",
+    "playstation 5",
+    "ps5"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

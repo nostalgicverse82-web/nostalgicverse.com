@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-fire-emblem-three-houses",
+  "slug": "fire-emblem-three-houses",
+  "title": "Fire Emblem: Three Houses",
+  "originalReleaseYear": 2019,
+  "exactReleaseDate": "July 26, 2019",
+  "originalLaunchPlatform": "Nintendo Switch",
+  "originalLaunchRegion": "Worldwide",
+  "developer": "Intelligent Systems / Koei Tecmo",
+  "publisher": "Nintendo",
+  "platforms": [
+    "Nintendo Switch"
+  ],
+  "genre": "tactical-rpg",
+  "subgenres": [
+    "turn-based-strategy"
+  ],
+  "era": "2010s",
+  "shortDescription": "Professor Byleth guides one of three noble academy houses at Garreg Mach before war erupts across Fodlan.",
+  "historicalSignificance": "Celebrated for deep tactical battle grids, moral ambiguity, and beloved multi-route storytelling.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Fire_Emblem:_Three_Houses",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Professor Byleth guides one of three noble academy houses at Garreg Mach before war erupts across Fodlan.",
+    "culturalImpact": "Celebrated for deep tactical battle grids, moral ambiguity, and beloved multi-route storytelling."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "Nintendo Switch"
+    ],
+    "genres": [
+      "tactical-rpg"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Fire_Emblem_Three_Houses_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Fire_Emblem_Three_Houses_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Fire_Emblem:_Three_Houses",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Fire Emblem: Three Houses",
+    "Intelligent Systems / Koei Tecmo",
+    "Nintendo",
+    "Nintendo Switch",
+    "tactical-rpg",
+    "2019",
+    "2010s",
+    "Nintendo Switch",
+    "turn-based-strategy"
+  ],
+  "url": "/games/fire-emblem-three-houses/",
+  "featured": false
+}

@@ -1,0 +1,87 @@
+{
+  "id": "game-diablo-ii",
+  "slug": "diablo-ii",
+  "title": "Diablo II",
+  "japaneseTitle": "ディアブロ II",
+  "url": "/games/diablo-ii/",
+  "originalReleaseYear": 2000,
+  "exactReleaseDate": "2000-06-29",
+  "developer": "Blizzard North",
+  "publisher": "Blizzard Entertainment",
+  "director": "David Brevik",
+  "designer": "David Brevik, Erich Schaefer, Max Schaefer",
+  "composer": "Matt Uelmen",
+  "originalLaunchPlatform": "Microsoft Windows",
+  "platforms": [
+    "Microsoft Windows",
+    "Mac OS"
+  ],
+  "genre": "action-rpg",
+  "subgenres": [
+    "Isometric Hack-and-Slash",
+    "Action RPG"
+  ],
+  "era": "2000s",
+  "shortDescription": "Blizzard North's defining action-RPG tour de force that perfected skill trees, loot grinding, and Battle.net multiplayer.",
+  "historicalSignificance": "The definitive benchmark for action-RPGs, introducing complex branching skill trees, socketed items with rune words, randomized dungeon topology, and client-server anti-cheat multiplayer that established the modern live-service loot grind.",
+  "editorialContent": {
+    "overview": "Released by Blizzard Entertainment in June 2000 after an ambitious three-year crunch at Blizzard North, Diablo II expanded the claustrophobic dungeon-crawling of its predecessor across an epic four-act dark fantasy world. Pursuing the Wanderer across the Rogue Encampment, Lut Gholein, Kurast, and the Pandemonium Fortress, players sought to banish the Prime Evils once and for all.",
+    "gameplay": "Offering five distinct classes (Amazon, Necromancer, Barbarian, Sorceress, Paladin), Diablo II revolutionized character building through dedicated, branching skill trees. Slaying hordes of demons rewarded players with randomized magic, rare, set, and unique loot, alongside socketable gems and Horadric Cube transmutations.",
+    "technicalInnovation": "Employed Direct3D and 3dfx Glide perspective projection to render dynamic shadows, atmospheric colored lighting, and silky 25fps isometric sprite animation over expansive procedurally assembled wilderness zones.",
+    "culturalImpact": "Diablo II sold millions within weeks, becoming a global multiplayer obsession on Battle.net. Its item economy, Ladder seasons, and build diversity established the fundamental grammar for games like Path of Exile, Borderlands, and Destiny.",
+    "preservationNotes": "Preserved via original 3-CD installation sets, the Lord of Destruction expansion, and the official 2021 recreation Diablo II: Resurrected."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "June 29, 2000",
+    "leadPlatform": "Microsoft Windows",
+    "genre": "action-rpg",
+    "sales": "Over 4 million copies sold worldwide; Guinness record for fastest-selling computer game at launch",
+    "awards": [
+      "AIAS Computer Role Playing Game of the Year 2001",
+      "GameSpot PC Game of the Year 2000"
+    ],
+    "technicalSpecs": {
+      "engine": "Blizzard North custom 2.5D isometric engine with Direct3D/Glide hardware acceleration",
+      "resolution": "640x480 (800x600 in expansion)",
+      "soundChip": "DirectSound / EAX 3D positional audio with Matt Uelmen orchestral/tribal score",
+      "mediaFormat": "3 CD-ROM Discs (4 with expansion)"
+    },
+    "relationships": {
+      "primaryConsole": "pc",
+      "developerEntity": "Blizzard Entertainment",
+      "lineage": [
+        "Diablo",
+        "Diablo II: Lord of Destruction",
+        "Diablo III",
+        "Path of Exile"
+      ]
+    }
+  },
+  "assets": {
+    "cover": "/assets/images/games/diablo-ii.webp",
+    "banner": "/assets/images/games/diablo-ii-banner.webp",
+    "screenshots": [
+      "/assets/images/games/diablo-ii-screen1.webp",
+      "/assets/images/games/diablo-ii-screen2.webp"
+    ],
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/d/d5/Diablo_II_Coverart.png",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/d/d5/Diablo_II_Coverart.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Diablo_II_Coverart.png",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "review-required",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "diablo ii",
+    "blizzard north",
+    "david brevik",
+    "necromancer",
+    "action rpg",
+    "loot",
+    "battle.net"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

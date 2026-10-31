@@ -1,0 +1,89 @@
+{
+  "id": "game-fallout-3",
+  "slug": "fallout-3",
+  "title": "Fallout 3",
+  "japaneseTitle": "フォールアウト3",
+  "url": "/games/fallout-3/",
+  "originalReleaseYear": 2008,
+  "exactReleaseDate": "2008-10-28",
+  "developer": "Bethesda Game Studios",
+  "publisher": "Bethesda Softworks",
+  "director": "Todd Howard",
+  "designer": "Emil Pagliarulo",
+  "composer": "Inon Zur",
+  "originalLaunchPlatform": "Xbox 360 / PS3 / PC",
+  "platforms": [
+    "Xbox 360",
+    "PlayStation 3",
+    "Microsoft Windows"
+  ],
+  "genre": "action-rpg",
+  "subgenres": [
+    "Post-Apocalyptic WRPG",
+    "First-Person Action RPG"
+  ],
+  "era": "2000s",
+  "shortDescription": "Bethesda's reinvention of the post-nuclear Wasteland into a gripping 3D open-world featuring the VATS targeting system.",
+  "historicalSignificance": "Successfully resurrected the dormant Fallout franchise into a full 3D open-world first-person RPG, pioneering the VATS (Vault-Tec Assisted Targeting System) cinematic combat mechanic and winning multiple Game of the Year crowns.",
+  "editorialContent": {
+    "overview": "Acquired by Bethesda Softworks and directed by Todd Howard, Fallout 3 arrived in October 2008. Reimagining Interplay's isometric turn-based classic as an expansive first-person 3D action-RPG, the game cast players as the Lone Wanderer, born in the sealed subterranean Vault 101, who breaks out into the ruined, irradiated ruins of Washington, D.C.—the Capital Wasteland—in search of their missing father (voiced by Liam Neeson).",
+    "gameplay": "Players explore crumbling monuments, subway tunnels, and irradiated settlements like Megaton and Rivet City. The signature combat mechanic, V.A.T.S. (Vault-Tec Assisted Targeting System), allows players to freeze real-time action to target specific anatomical hit locations (head, arms, weapons) using Action Points for gruesome cinematic slow-motion kills.",
+    "technicalInnovation": "Seamlessly merged real-time shooting with dice-roll RPG stats in the Gamebryo engine, featuring Inon Zur's evocative orchestral score blended with 1930s-1940s ink spots on Galaxy News Radio hosted by Three Dog.",
+    "culturalImpact": "Fallout 3 introduced the Fallout franchise to tens of millions of new mainstream players, cementing Bethesda as the undisputed titan of open-world role-playing and laying the groundwork for Fallout: New Vegas and Fallout 4.",
+    "preservationNotes": "Preserved on Xbox 360/PS3 discs, PC Steam/GOG editions with recent patches removing Games for Windows Live, and backward compatibility on modern Xbox hardware."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "October 28, 2008",
+    "leadPlatform": "Xbox 360",
+    "genre": "action-rpg",
+    "sales": "Over 12.5 million copies worldwide",
+    "awards": [
+      "Game of the Year 2008 (Game Developers Choice Awards, Golden Joystick Awards)",
+      "AIAS Role Playing Game of the Year 2009"
+    ],
+    "technicalSpecs": {
+      "engine": "Gamebryo 3D engine with Havok physics and VATS cinematic camera",
+      "resolution": "720p HD (Xbox 360/PS3)",
+      "soundChip": "Dolby Digital 5.1 with Inon Zur score and vintage radio licensing",
+      "mediaFormat": "DVD-ROM / Blu-ray Disc"
+    },
+    "relationships": {
+      "primaryConsole": "xbox-360",
+      "developerEntity": "Bethesda Softworks",
+      "lineage": [
+        "Fallout",
+        "The Elder Scrolls IV: Oblivion",
+        "Fallout: New Vegas",
+        "Fallout 4"
+      ]
+    }
+  },
+  "assets": {
+    "cover": "/assets/images/games/fallout-3.webp",
+    "banner": "/assets/images/games/fallout-3-banner.webp",
+    "screenshots": [
+      "/assets/images/games/fallout-3-screen1.webp",
+      "/assets/images/games/fallout-3-screen2.webp"
+    ],
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/8/83/Fallout_3_cover_art.PNG",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/8/83/Fallout_3_cover_art.PNG",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Fallout_3_cover_art.PNG",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "fallout 3",
+    "capital wasteland",
+    "vats",
+    "lone wanderer",
+    "todd howard",
+    "megaton",
+    "bethesda",
+    "pip-boy"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

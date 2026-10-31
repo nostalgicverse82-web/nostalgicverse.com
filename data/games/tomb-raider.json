@@ -1,0 +1,87 @@
+{
+  "id": "game-tomb-raider",
+  "slug": "tomb-raider",
+  "title": "Tomb Raider",
+  "japaneseTitle": "トゥームレイダー",
+  "url": "/games/tomb-raider/",
+  "originalReleaseYear": 1996,
+  "exactReleaseDate": "1996-10-25",
+  "developer": "Core Design",
+  "publisher": "Eidos Interactive",
+  "director": "Toby Gard",
+  "designer": "Toby Gard, Paul Douglas",
+  "composer": "Nathan McCree",
+  "originalLaunchPlatform": "Sega Saturn",
+  "platforms": [
+    "Sega Saturn",
+    "PlayStation",
+    "MS-DOS"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "3D Action-Adventure",
+    "Puzzle-Platformer"
+  ],
+  "era": "1990s",
+  "shortDescription": "Core Design's atmospheric 3D cinematic adventure that introduced British archaeologist Lara Croft to world culture.",
+  "historicalSignificance": "Introduced one of gaming's most recognizable cultural icons, Lara Croft, while delivering a groundbreaking grid-based 3D locomotion system that made spelunking, swimming, and puzzle-solving feel authentically dangerous and cinematic.",
+  "editorialContent": {
+    "overview": "Conceived by Toby Gard at Core Design in Derby, UK, Tomb Raider launched in October 1996 initially on the Sega Saturn before storming PlayStation and PC. Following British aristocrat-archaeologist Lara Croft on a globe-trotting hunt for the Atlantean Scion, the game discarded arcade run-and-gun conventions in favor of tense architectural exploration, isolating ambient soundscapes, and calculated athletic maneuvers.",
+    "gameplay": "Built upon an invisible 3D tile-grid, Lara's locomotion demands strict measurement: walk steps, run-up jumps, ledge grabs, backflips, and precision swan dives. Players explore ancient subterranean tombs across Peru, Greece, Egypt, and Atlantis, solving physical counterweight puzzles while defending against wolves, bears, raptors, and a terrifying Tyrannosaurus Rex.",
+    "technicalInnovation": "Core Design constructed a fully 3D camera and environment engine that supported dynamic vertical cavern spaces, underwater 360-degree swimming physics, and cinematic orchestrations triggered dynamically by spatial triggers.",
+    "culturalImpact": "Lara Croft transcended video games to become a global 1990s media icon, appearing on the cover of The Face, starring in high-budget Hollywood feature films, and reshaping mainstream attitudes toward female protagonists in entertainment.",
+    "preservationNotes": "Preserved via original Saturn and PS1 optical media, PC DOS executables, and modern source reimplementations such as OpenLara."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "October 25, 1996",
+    "leadPlatform": "Sega Saturn",
+    "genre": "action-adventure",
+    "sales": "Over 7.1 million copies worldwide",
+    "awards": [
+      "BAFTA Interactive Entertainment Award for Best Game",
+      "EGM Action Game of the Year 1996"
+    ],
+    "technicalSpecs": {
+      "engine": "Core Design proprietary 3D room-grid engine",
+      "resolution": "320x240 (PS1/Saturn), up to 640x480 (PC DOS)",
+      "soundChip": "Nathan McCree symphonic orchestral CD audio",
+      "mediaFormat": "CD-ROM"
+    },
+    "relationships": {
+      "primaryConsole": "playstation",
+      "developerEntity": "Core Design",
+      "lineage": [
+        "Tomb Raider II",
+        "Tomb Raider: The Last Revelation",
+        "Uncharted"
+      ]
+    }
+  },
+  "assets": {
+    "cover": "/assets/images/games/tomb-raider.webp",
+    "banner": "/assets/images/games/tomb-raider-banner.webp",
+    "screenshots": [
+      "/assets/images/games/tomb-raider-screen1.webp",
+      "/assets/images/games/tomb-raider-screen2.webp"
+    ],
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/6/69/Tomb_Raider_%281996%29.png",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/6/69/Tomb_Raider_%281996%29.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Tomb_Raider_(1996).png",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "tomb raider",
+    "lara croft",
+    "core design",
+    "eidos",
+    "scion",
+    "action-adventure",
+    "toby gard"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

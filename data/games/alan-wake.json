@@ -1,0 +1,68 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-alan-wake",
+  "slug": "alan-wake",
+  "title": "Alan Wake",
+  "originalReleaseYear": 2010,
+  "exactReleaseDate": "May 14, 2010",
+  "originalLaunchPlatform": "Xbox 360",
+  "originalLaunchRegion": "Europe",
+  "developer": "Remedy Entertainment",
+  "publisher": "Microsoft Game Studios",
+  "platforms": [
+    "Xbox 360",
+    "Microsoft Windows"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "psychological-thriller"
+  ],
+  "era": "2010s",
+  "shortDescription": "Troubled novelist Alan Wake fights shadowy Taken in misty Pacific Northwest Bright Falls using his flashlight.",
+  "historicalSignificance": "Pioneered episodic television structure in action adventure gaming with deep Twin Peaks atmospheric homage.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Alan_Wake",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Troubled novelist Alan Wake fights shadowy Taken in misty Pacific Northwest Bright Falls using his flashlight.",
+    "culturalImpact": "Pioneered episodic television structure in action adventure gaming with deep Twin Peaks atmospheric homage."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "Xbox 360"
+    ],
+    "genres": [
+      "action-adventure"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Alan_Wake_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Alan_Wake_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Alan_Wake",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Alan Wake",
+    "Remedy Entertainment",
+    "Microsoft Game Studios",
+    "Xbox 360",
+    "action-adventure",
+    "2010",
+    "2010s",
+    "Xbox 360",
+    "Microsoft Windows",
+    "psychological-thriller"
+  ],
+  "url": "/games/alan-wake/",
+  "featured": false
+}

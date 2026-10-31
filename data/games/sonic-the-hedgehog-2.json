@@ -1,0 +1,93 @@
+{
+  "id": "game-sonic-the-hedgehog-2",
+  "slug": "sonic-the-hedgehog-2",
+  "title": "Sonic the Hedgehog 2",
+  "url": "/games/sonic-the-hedgehog-2/",
+  "originalReleaseYear": 1992,
+  "exactReleaseDate": "1992-11-21",
+  "developer": "Sega Technical Institute",
+  "publisher": "Sega",
+  "director": "Masaharu Yoshii",
+  "designer": "Yuji Naka & Hirokazu Yasuhara",
+  "composer": "Masato Nakamura",
+  "originalLaunchPlatform": "Sega Genesis",
+  "platforms": [
+    "Sega Genesis",
+    "Sega Mega Drive",
+    "Master System",
+    "Game Gear"
+  ],
+  "genre": "platformer",
+  "subgenres": [
+    "High-Speed Platformer",
+    "16-Bit Platformer"
+  ],
+  "era": "1990s",
+  "shortDescription": "Sega's blockbuster Genesis sequel that introduced the Spin Dash, two-tailed fox companion Miles 'Tails' Prower, and Super Sonic.",
+  "historicalSignificance": "Propelled the Sega Genesis to parity with Nintendo during the 16-bit console war, introduced the vital Spin Dash mechanic, and generated the modern global unified media launch with 'Sonic 2sday.'",
+  "editorialContent": {
+    "overview": "Co-developed in California by Sega Technical Institute—a unique collaborative studio uniting Japanese masterminds Yuji Naka and Hirokazu Yasuhara with American artists under Mark Cerny—Sonic the Hedgehog 2 was released globally on Tuesday, November 24, 1992 ('Sonic 2sday'). Backed by an aggressive multi-million dollar marketing blitz, it elevated Sonic from a gaming character into a worldwide cultural phenomenon.",
+    "gameplayMechanics": "The definitive mechanical refinement was the Spin Dash: by crouching and repeatedly pressing the jump button, players could charge Sonic's momentum in place and launch forward at maximum velocity from a dead stop, solving the first game's uphill momentum slowdowns. Sonic was joined by his loyal two-tailed fox sidekick Miles 'Tails' Prower, enabling simultaneous co-op or split-screen competitive racing. Collecting all seven Chaos Emeralds unlocked the invincible, golden Super Sonic transformation.",
+    "technicalInnovation": "Sonic 2 pushed the Genesis Motorola 68000 CPU and Yamaha YM2612 FM sound chip to their absolute zenith. The game featured groundbreaking pseudo-3D half-pipe Special Stages rendered via software line-scaling techniques and a vertical split-screen two-player competitive mode that pushed the console's VDP display registers to their extreme limits.",
+    "culturalImpact": "Selling over six million cartridges, Sonic 2 dominated holiday 1992 sales and gave Sega over 50% market share in North America during the height of the 16-bit console wars. Masato Nakamura's dynamic funk-pop soundtrack ('Chemical Plant Zone', 'Casino Night Zone') became iconic.",
+    "preservationNotes": "Preserved on authentic 1MB (8 Megabit) Genesis cartridge ROM dumps. Accurate YM2612 FM operator phase modulation is critical to rendering Nakamura's basslines correctly."
+  },
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "Naka, Yuji & Yasuhara, Hirokazu. 'The Creation of Sonic the Hedgehog 2', Sega Developer Archives (2001)",
+      "Harris, Blake J. 'Console Wars: Sega, Nintendo, and the Battle That Defined a Generation', Dey Street Books (2014)",
+      "Sega of America Genesis Cartridge Manual: Sonic the Hedgehog 2 (1992)"
+    ],
+    "romMediaFormat": "Sega Genesis ROM Cartridge",
+    "romSizeOriginal": "1 MB ROM (8 Megabits)",
+    "displayResolutionOriginal": "320 × 224 (NTSC Genesis VDP)",
+    "audioHardware": "Yamaha YM2612 6-channel FM + Texas Instruments SN76489 PSG",
+    "inputMethod": "Sega Genesis 3-button / 6-button Control Pad",
+    "multiplayerCapability": "2 Players (Simultaneous Co-op / Split-Screen Versus)"
+  },
+  "relatedExhibits": {
+    "games": [
+      "sonic-the-hedgehog",
+      "super-mario-world",
+      "donkey-kong-country"
+    ],
+    "consoles": [
+      "sega-genesis"
+    ],
+    "genres": [
+      "platformer"
+    ],
+    "timeline": [
+      "ev-1991-sonic-the-hedgehog"
+    ]
+  },
+  "assets": {
+    "heroImage": "/assets/images/games/sonic-the-hedgehog-2-hero.webp",
+    "thumbnailImage": "/assets/images/games/sonic-the-hedgehog-2.webp",
+    "coverImage": "/assets/images/games/sonic-the-hedgehog-2-cover.webp",
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/0/0c/Sonic_2_US_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/0/0c/Sonic_2_US_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Sonic_2_US_Cover.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "review-required",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "sonic the hedgehog 2",
+    "sonic 2",
+    "sega genesis",
+    "yuji naka",
+    "tails",
+    "miles prower",
+    "spin dash",
+    "super sonic",
+    "chemical plant",
+    "sonic 2sday",
+    "1992",
+    "1990s"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

@@ -1,0 +1,42 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+  "id": "console-sega-genesis",
+  "slug": "sega-genesis",
+  "name": "Sega Genesis / Mega Drive",
+  "manufacturer": "Sega",
+  "generation": "Fourth Generation",
+  "generationNumber": 4,
+  "originalReleaseYear": 1988,
+  "exactReleaseDate": "October 29, 1988",
+  "mediaFormat": "ROM Cartridge",
+  "significance": "Created the iconic 16-bit console war, dismantled Nintendo's near-monopoly in North America, and fostered an older demographic for video games.",
+  "verifiedFactualData": {
+    "cpu": "Motorola 68000 @ 7.6 MHz + Zilog Z80 @ 3.58 MHz",
+    "gpuOrVideoChip": "Yamaha YM7101 VDP",
+    "ram": "64 KB work RAM, 64 KB video RAM, 8 KB audio RAM"
+  },
+  "editorialContent": {
+    "overview": "The high-speed 16-bit arcade powerhouse that famously challenged Nintendo's monopoly with 'Blast Processing' and attitude.",
+    "marketLegacy": "Created the iconic 16-bit console war, dismantled Nintendo's near-monopoly in North America, and fostered an older demographic for video games.",
+    "controllerDesign": "Three-button control pad (later six-button pad)"
+  },
+  "keyGames": [
+    "sonic-the-hedgehog",
+    "streets-of-rage-2",
+    "gunstar-heroes"
+  ],
+  "assets": {
+    "mainImage": "/assets/images/consoles/sega-genesis.png",
+    "heroImage": "/assets/images/consoles/sega-genesis-hero.png",
+    "hardwareImage": "/assets/images/consoles/sega-genesis-hardware.png"
+  },
+  "keywords": [
+    "sega genesis",
+    "mega drive",
+    "sega",
+    "fourth generation",
+    "16-bit",
+    "sonic",
+    "1988"
+  ]
+}

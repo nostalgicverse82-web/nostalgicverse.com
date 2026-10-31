@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-ssx",
+  "slug": "ssx",
+  "title": "SSX",
+  "originalReleaseYear": 2000,
+  "exactReleaseDate": "October 26, 2000",
+  "originalLaunchPlatform": "PlayStation 2",
+  "originalLaunchRegion": "North America",
+  "developer": "EA Canada",
+  "publisher": "EA Sports BIG",
+  "platforms": [
+    "PlayStation 2"
+  ],
+  "genre": "sports",
+  "subgenres": [
+    "snowboarding"
+  ],
+  "era": "2000s",
+  "shortDescription": "PS2 launch title that founded the EA Sports BIG brand with over-the-top snowboarding tricks and neon courses.",
+  "historicalSignificance": "Showcased early PS2 hardware power and established extreme sports arcade gaming in the new millennium.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/SSX",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "PS2 launch title that founded the EA Sports BIG brand with over-the-top snowboarding tricks and neon courses.",
+    "culturalImpact": "Showcased early PS2 hardware power and established extreme sports arcade gaming in the new millennium."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 2"
+    ],
+    "genres": [
+      "sports"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/5/52/SSX_Coverart.png",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/5/52/SSX_Coverart.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/SSX",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "SSX",
+    "EA Canada",
+    "EA Sports BIG",
+    "PlayStation 2",
+    "sports",
+    "2000",
+    "2000s",
+    "PlayStation 2",
+    "snowboarding"
+  ],
+  "url": "/games/ssx/",
+  "featured": false
+}

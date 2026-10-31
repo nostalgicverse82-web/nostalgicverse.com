@@ -1,0 +1,70 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-fallout-new-vegas",
+  "slug": "fallout-new-vegas",
+  "title": "Fallout: New Vegas",
+  "originalReleaseYear": 2010,
+  "exactReleaseDate": "October 19, 2010",
+  "originalLaunchPlatform": "PlayStation 3",
+  "originalLaunchRegion": "North America",
+  "developer": "Obsidian Entertainment",
+  "publisher": "Bethesda Softworks",
+  "platforms": [
+    "PlayStation 3",
+    "Xbox 360",
+    "Microsoft Windows"
+  ],
+  "genre": "action-rpg",
+  "subgenres": [
+    "open-world"
+  ],
+  "era": "2010s",
+  "shortDescription": "The Courier seeks vengeance for an ambush in the Mojave Wasteland, altering the fate of Hoover Dam and New Vegas.",
+  "historicalSignificance": "Revered as the narrative and role-playing apex of 3D Fallout, offering unparalleled quest branching.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Fallout:_New_Vegas",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "The Courier seeks vengeance for an ambush in the Mojave Wasteland, altering the fate of Hoover Dam and New Vegas.",
+    "culturalImpact": "Revered as the narrative and role-playing apex of 3D Fallout, offering unparalleled quest branching."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 3"
+    ],
+    "genres": [
+      "action-rpg"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/3/34/Fallout_New_Vegas.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/3/34/Fallout_New_Vegas.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Fallout:_New_Vegas",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Fallout: New Vegas",
+    "Obsidian Entertainment",
+    "Bethesda Softworks",
+    "PlayStation 3",
+    "action-rpg",
+    "2010",
+    "2010s",
+    "PlayStation 3",
+    "Xbox 360",
+    "Microsoft Windows",
+    "open-world"
+  ],
+  "url": "/games/fallout-new-vegas/",
+  "featured": false
+}

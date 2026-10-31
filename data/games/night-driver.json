@@ -1,0 +1,79 @@
+{
+  "id": "game-night-driver",
+  "slug": "night-driver",
+  "title": "Night Driver",
+  "japaneseTitle": "ナイトドライバー",
+  "url": "/games/night-driver/",
+  "originalReleaseYear": 1976,
+  "exactReleaseDate": "1976-10-01",
+  "developer": "Atari, Inc.",
+  "publisher": "Atari, Inc.",
+  "director": "Dave Shepperd",
+  "designer": "Dave Shepperd",
+  "composer": "Discrete Audio Synthesis",
+  "originalLaunchPlatform": "Arcade",
+  "platforms": [
+    "Arcade",
+    "Atari 2600",
+    "Commodore 64"
+  ],
+  "genre": "racing",
+  "subgenres": [
+    "First-Person Driving",
+    "Night Racing"
+  ],
+  "era": "1970s",
+  "shortDescription": "Atari's landmark arcade racer that pioneered the first-person forward-scrolling driving perspective in commercial video games.",
+  "historicalSignificance": "One of the earliest video games to render a first-person behind-the-wheel cockpit view, simulating nighttime driving via scaling road reflector posts and inspiring the entire modern racing simulation genre.",
+  "editorialContent": {
+    "overview": "Designed by Atari engineer Dave Shepperd after seeing a German prototype called Nürburgring 1, Night Driver immersed players in a darkened cockpit cabinet behind a physical steering wheel, four-speed gear shifter, and accelerator pedal.",
+    "gameplay": "Players race along a winding, pitch-black rural highway demarcated only by white roadside pylons. Guiding the car between pylons at increasing speeds earns points before the 100-second timer runs out.",
+    "technicalInnovation": "Cleverly simulated forward 3D depth on discrete hardware using a printed transparent car bezel on the CRT glass and dynamically scaling coordinate tables for roadside posts.",
+    "culturalImpact": "Became a major commercial triumph for Atari, establishing the first-person vehicle perspective that would later flourish in games like Pole Position, Out Run, and Gran Turismo.",
+    "preservationNotes": "Preserved on original Atari arcade cabinets and ported by Rob Fulop to the Atari 2600 in 1980."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "October 1976",
+    "leadPlatform": "Arcade",
+    "genre": "racing",
+    "sales": "Over 2,100 upright and cockpit cabinets manufactured",
+    "awards": [
+      "First Commercial First-Person Driving Game in America"
+    ],
+    "technicalSpecs": {
+      "engine": "Discrete TTL logic with MOS 6502 microprocessor (Atari 2600 version)",
+      "resolution": "Monochrome CRT with screen printed car plastic overlay",
+      "soundChip": "Discrete engine roar and tire screech generator",
+      "mediaFormat": "PCB / ROM cartridge"
+    },
+    "relationships": {
+      "primaryConsole": "arcade",
+      "developerEntity": "Atari",
+      "lineage": [
+        "Pole Position",
+        "Out Run"
+      ]
+    }
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/e/e0/Night_Driver_Flyer.png",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/e/e0/Night_Driver_Flyer.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Night_Driver_Flyer.png",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "night driver",
+    "atari",
+    "dave shepperd",
+    "first person driving",
+    "arcade",
+    "1976",
+    "cockpit"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

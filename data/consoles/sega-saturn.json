@@ -1,0 +1,42 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+  "id": "console-sega-saturn",
+  "slug": "sega-saturn",
+  "name": "Sega Saturn",
+  "manufacturer": "Sega",
+  "generation": "Fifth Generation",
+  "generationNumber": 5,
+  "originalReleaseYear": 1994,
+  "exactReleaseDate": "November 22, 1994",
+  "mediaFormat": "Double-speed CD-ROM",
+  "significance": "Showcased master-class 2D performance and groundbreaking arcade 3D conversions, though its dual-CPU architecture proved notoriously difficult for third parties to program.",
+  "verifiedFactualData": {
+    "cpu": "Dual Hitachi SH-2 32-bit RISC @ 28.6 MHz (8 processors total)",
+    "gpuOrVideoChip": "VDP1 (sprites/polygons) + VDP2 (background planes)",
+    "ram": "2 MB work RAM, 1.5 MB VRAM, 512 KB audio RAM"
+  },
+  "editorialContent": {
+    "overview": "Sega's complex dual-CPU architecture that achieved 2D sprite perfection and arcade-quality 3D ports.",
+    "marketLegacy": "Showcased master-class 2D performance and groundbreaking arcade 3D conversions, though its dual-CPU architecture proved notoriously difficult for third parties to program.",
+    "controllerDesign": "Six-button digital control pad, 3D analog pad (1996)"
+  },
+  "keyGames": [
+    "panzer-dragoon-saga",
+    "virtua-fighter-2",
+    "nights-into-dreams",
+    "radiant-silvergun"
+  ],
+  "assets": {
+    "mainImage": "/assets/images/consoles/sega-saturn.png",
+    "heroImage": "/assets/images/consoles/sega-saturn-hero.png",
+    "hardwareImage": "/assets/images/consoles/sega-saturn-hardware.png"
+  },
+  "keywords": [
+    "sega saturn",
+    "sega",
+    "fifth generation",
+    "32-bit",
+    "dual cpu",
+    "1994"
+  ]
+}

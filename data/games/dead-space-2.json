@@ -1,0 +1,70 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-dead-space-2",
+  "slug": "dead-space-2",
+  "title": "Dead Space 2",
+  "originalReleaseYear": 2011,
+  "exactReleaseDate": "January 25, 2011",
+  "originalLaunchPlatform": "PlayStation 3",
+  "originalLaunchRegion": "North America",
+  "developer": "Visceral Games",
+  "publisher": "Electronic Arts",
+  "platforms": [
+    "PlayStation 3",
+    "Xbox 360",
+    "Microsoft Windows"
+  ],
+  "genre": "survival-horror",
+  "subgenres": [
+    "sci-fi"
+  ],
+  "era": "2010s",
+  "shortDescription": "Isaac Clarke battles Necromorphs and dementia across the Sprawl metropolis orbiting Saturn's moon Titan.",
+  "historicalSignificance": "Elevated survival horror pacing with zero-gravity flight combat and psychological terror, widely considered a masterpiece.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Dead_Space_2",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Isaac Clarke battles Necromorphs and dementia across the Sprawl metropolis orbiting Saturn's moon Titan.",
+    "culturalImpact": "Elevated survival horror pacing with zero-gravity flight combat and psychological terror, widely considered a masterpiece."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 3"
+    ],
+    "genres": [
+      "survival-horror"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Dead_Space_2_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Dead_Space_2_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Dead_Space_2",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Dead Space 2",
+    "Visceral Games",
+    "Electronic Arts",
+    "PlayStation 3",
+    "survival-horror",
+    "2011",
+    "2010s",
+    "PlayStation 3",
+    "Xbox 360",
+    "Microsoft Windows",
+    "sci-fi"
+  ],
+  "url": "/games/dead-space-2/",
+  "featured": false
+}

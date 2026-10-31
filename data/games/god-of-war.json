@@ -1,0 +1,89 @@
+{
+  "id": "game-god-of-war",
+  "slug": "god-of-war",
+  "title": "God of War",
+  "japaneseTitle": "ゴッド・オブ・ウォー",
+  "url": "/games/god-of-war/",
+  "originalReleaseYear": 2005,
+  "exactReleaseDate": "2005-03-22",
+  "developer": "Santa Monica Studio",
+  "publisher": "Sony Computer Entertainment",
+  "director": "David Jaffe",
+  "designer": "David Jaffe, Cory Barlog",
+  "composer": "Gerard Marino, Mike Reagan, Winifred Phillips, Ron Fish",
+  "originalLaunchPlatform": "PlayStation 2",
+  "platforms": [
+    "PlayStation 2",
+    "PlayStation 3",
+    "PlayStation Vita"
+  ],
+  "genre": "beat-em-up",
+  "subgenres": [
+    "Character Action",
+    "Hack-and-Slash",
+    "Greek Mythology Action"
+  ],
+  "era": "2000s",
+  "shortDescription": "Santa Monica Studio's ferocious mythological spectacle that introduced the Spartan warrior Kratos and the Blades of Chaos.",
+  "historicalSignificance": "Redefined the character action hack-and-slash genre by fusing visceral combo combat with monumental cinematic scale, environmental puzzle-solving, and seamless, brutal Context-Sensitive Quick Time Event execution sequences.",
+  "editorialContent": {
+    "overview": "Conceived by David Jaffe and lead animator Cory Barlog at Sony Santa Monica Studio, God of War launched on the PlayStation 2 in March 2005. Rooted in brutal Greek mythology, it follows Kratos, the Ghost of Sparta, bound to the fiery Blades of Chaos chained to his forearms, on a blood-drenched quest for vengeance against Ares, the God of War.",
+    "gameplay": "Players chain fluid sweeping blade attacks, aerial launches, and magical spells (Poseidon's Rage, Medusa's Gaze). Combat transitions smoothly into cinematic Quick Time Events to finish off mythical beasts like the multi-headed Hydra, Minotaurs, and Cyclopes, interspersed with intricate environmental navigation across Pandora's Temple mounted on the back of Titan Cronos.",
+    "technicalInnovation": "Santa Monica Studio engineered a seamless streaming camera system with zero visible loading screens across massive levels, accompanied by dynamic camera zooms that captured intimate hand-to-hand violence before pulling back miles to showcase colossal architecture.",
+    "culturalImpact": "God of War transformed Kratos into one of Sony's premier flagship mascots, setting the benchmark for blockbuster action spectacles and inaugurating a multi-billion-dollar franchise that culminated in the acclaimed 2018 Nordic reimagining.",
+    "preservationNotes": "Preserved on original PS2 dual-layer DVD-ROMs, the 60fps Bluepoint Games PS3 remaster, and PlayStation cloud streaming services."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "March 22, 2005",
+    "leadPlatform": "PlayStation 2",
+    "genre": "beat-em-up",
+    "sales": "Over 4.6 million copies on PlayStation 2",
+    "awards": [
+      "Game of the Year 2005 (Spike Video Game Awards nominee, AIAS Action/Adventure Game of the Year)"
+    ],
+    "technicalSpecs": {
+      "engine": "Santa Monica Studio proprietary PS2 Kinetica Engine evolution",
+      "resolution": "480p progressive scan with widescreen support",
+      "soundChip": "PS2 SPU2 with Gerard Marino cinematic orchestral choir",
+      "mediaFormat": "DVD-9 (Dual-Layer DVD-ROM)"
+    },
+    "relationships": {
+      "primaryConsole": "playstation-2",
+      "developerEntity": "Santa Monica Studio",
+      "lineage": [
+        "God of War II",
+        "God of War III",
+        "God of War (2018)",
+        "God of War Ragnarök"
+      ]
+    }
+  },
+  "assets": {
+    "cover": "/assets/images/games/god-of-war.webp",
+    "banner": "/assets/images/games/god-of-war-banner.webp",
+    "screenshots": [
+      "/assets/images/games/god-of-war-screen1.webp",
+      "/assets/images/games/god-of-war-screen2.webp"
+    ],
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b5/God_of_War_%282005%29_cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/b/b5/God_of_War_%282005%29_cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:God_of_War_(2005)_cover.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "review-required",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "god of war",
+    "kratos",
+    "david jaffe",
+    "cory barlog",
+    "santa monica studio",
+    "blades of chaos",
+    "hack and slash",
+    "ares"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

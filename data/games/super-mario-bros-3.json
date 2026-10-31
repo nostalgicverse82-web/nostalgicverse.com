@@ -1,0 +1,94 @@
+{
+  "id": "game-super-mario-bros-3",
+  "slug": "super-mario-bros-3",
+  "title": "Super Mario Bros. 3",
+  "japaneseTitle": "スーパーマリオブラザーズ3",
+  "url": "/games/super-mario-bros-3/",
+  "originalReleaseYear": 1988,
+  "exactReleaseDate": "1988-10-23",
+  "developer": "Nintendo R&D4",
+  "publisher": "Nintendo",
+  "director": "Shigeru Miyamoto & Takashi Tezuka",
+  "composer": "Koji Kondo",
+  "originalLaunchPlatform": "Famicom",
+  "platforms": [
+    "Famicom",
+    "NES",
+    "Super Famicom (All-Stars)",
+    "Game Boy Advance"
+  ],
+  "genre": "platformer",
+  "subgenres": [
+    "Side-Scrolling Platformer",
+    "World Map Exploration"
+  ],
+  "era": "1980s",
+  "shortDescription": "Shigeru Miyamoto's 8-bit magnum opus, introducing the interactive overworld map, flight via the Super Leaf, and iconic theatrical stage-play presentation.",
+  "historicalSignificance": "The pinnacle of 8-bit platforming, introducing non-linear board-game style world maps, suit-based power-up transformations (Tanooki, Frog, Hammer suits), and selling over 17 million cartridges.",
+  "editorialContent": {
+    "overview": "Directed by Shigeru Miyamoto and Takashi Tezuka with music by Koji Kondo, Super Mario Bros. 3 was released for the Famicom in October 1988 and later launched with massive fanfare in the West in 1990 (promoted through the Hollywood feature film The Wizard). Framed with a subtle theatrical aesthetic—curtains pulling up at title, drop-shadow scenery bolted to backdrops—it delivered an unprecedented leap in platforming inventiveness.",
+    "gameplayMechanics": "Players journey across eight expansive, diverse themed worlds (Grass Land, Desert Land, Water Land, Giant Land, Sky Land, Ice Land, Pipe Land, Dark Land) via interactive board-game overworld maps. Mario's abilities expanded dramatically through the Super Leaf (sprouting raccoon ears and tail enabling flight via running momentum meter), the Frog Suit for aquatic agility, the Tanooki Suit with statue petrification, and the Hammer Suit.",
+    "technicalInnovation": "Housed on Nintendo's advanced custom MMC3 (Memory Management Controller 3) cartridge ASIC, Super Mario Bros. 3 enabled simultaneous horizontal and vertical split-screen hardware scrolling, dynamic scanline IRQ interrupts, and animated water tiles across a massive 384-kilobyte ROM without visible lag or slowdown.",
+    "culturalImpact": "Super Mario Bros. 3 was an astronomical global commercial success, generating over $500 million in revenue and establishing gameplay conventions—overworld maps, inventory reserves, secret Warp Whistles—that remain standard across the platforming genre today.",
+    "preservationNotes": "Preserved on authentic MMC3 cartridge dumps. Faithful preservation requires accurate emulation of Nintendo's custom scanline counter IRQ timing to avoid horizontal status bar tearing."
+  },
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "Miyamoto, Shigeru & Tezuka, Takashi. 'Developer Roundtable: The Making of Super Mario Bros. 3', Nintendo Classic Mini Interview (2016)",
+      "Sheff, David. 'Game Over: How Nintendo Zapped an American Industry', Random House (1993)",
+      "Nintendo Co., Ltd. NES-UM-USA Instruction Booklet: Super Mario Bros. 3 (1990)"
+    ],
+    "romMediaFormat": "Famicom / NES Cartridge (MMC3 PCB)",
+    "romSizeOriginal": "384 KB ROM (256 KB PRG + 128 KB CHR)",
+    "displayResolutionOriginal": "256 × 240 (NTSC)",
+    "audioHardware": "Ricoh 2A03 5-channel APU",
+    "inputMethod": "NES Controller (D-Pad, A/B buttons)",
+    "multiplayerCapability": "2 Players (Alternating)"
+  },
+  "relatedExhibits": {
+    "games": [
+      "super-mario-bros",
+      "super-mario-world",
+      "donkey-kong"
+    ],
+    "consoles": [
+      "nintendo-entertainment-system",
+      "super-nintendo-entertainment-system"
+    ],
+    "genres": [
+      "platformer"
+    ],
+    "timeline": [
+      "ev-1988-sega-mega-drive-japan"
+    ]
+  },
+  "assets": {
+    "heroImage": "/assets/images/games/super-mario-bros-3-hero.webp",
+    "thumbnailImage": "/assets/images/games/super-mario-bros-3.webp",
+    "coverImage": "/assets/images/games/super-mario-bros-3-cover.webp",
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a5/Super_Mario_Bros._3_coverart.png",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a5/Super_Mario_Bros._3_coverart.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Super_Mario_Bros._3_coverart.png",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "super mario bros 3",
+    "mario",
+    "nintendo",
+    "shigeru miyamoto",
+    "takashi tezuka",
+    "koji kondo",
+    "tanooki",
+    "raccoon leaf",
+    "platformer",
+    "nes",
+    "1988",
+    "1980s"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

@@ -1,0 +1,41 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+  "id": "console-pc-fx",
+  "slug": "pc-fx",
+  "name": "NEC PC-FX",
+  "manufacturer": "NEC",
+  "generation": "Fifth Generation",
+  "generationNumber": 5,
+  "originalReleaseYear": 1994,
+  "exactReleaseDate": "December 23, 1994",
+  "mediaFormat": "Double-speed CD-ROM",
+  "significance": "A unique historical dead-end that rejected 3D polygonal accelerators in favor of 30 FPS full-screen JPEG anime playback, finding a cult niche in Japan.",
+  "verifiedFactualData": {
+    "cpu": "NEC V810 32-bit RISC @ 21.5 MHz",
+    "gpuOrVideoChip": "Custom video chip capable of full-screen JPEG video decoding",
+    "ram": "2 MB main RAM, 1.25 MB VRAM"
+  },
+  "editorialContent": {
+    "overview": "NEC's unique tower-chassis successor to the PC Engine, engineered entirely around anime Full-Motion Video decompression rather than 3D polygons.",
+    "marketLegacy": "A unique historical dead-end that rejected 3D polygonal accelerators in favor of 30 FPS full-screen JPEG anime playback, finding a cult niche in Japan.",
+    "controllerDesign": "PC-FX 6-button control pad"
+  },
+  "keyGames": [
+    "battle-heat",
+    "der-langrisser-fx",
+    "zenki-fx"
+  ],
+  "assets": {
+    "mainImage": "/assets/images/consoles/pc-fx.png",
+    "heroImage": "/assets/images/consoles/pc-fx-hero.png",
+    "hardwareImage": "/assets/images/consoles/pc-fx-hardware.png"
+  },
+  "keywords": [
+    "pc-fx",
+    "nec",
+    "fifth generation",
+    "anime fmv",
+    "japan",
+    "1994"
+  ]
+}

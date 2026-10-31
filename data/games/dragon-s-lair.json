@@ -1,0 +1,92 @@
+{
+  "id": "game-dragon-s-lair",
+  "slug": "dragon-s-lair",
+  "title": "Dragon's Lair",
+  "url": "/games/dragon-s-lair/",
+  "originalReleaseYear": 1983,
+  "exactReleaseDate": "1983-06-19",
+  "developer": "Advanced Microcomputer Systems / Starcom",
+  "publisher": "Cinematronics",
+  "designer": "Rick Dyer & Don Bluth",
+  "originalLaunchPlatform": "Arcade",
+  "platforms": [
+    "Arcade",
+    "Sega CD",
+    "3DO",
+    "PC",
+    "PlayStation"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "Interactive Movie",
+    "Quick Time Event"
+  ],
+  "era": "1980s",
+  "shortDescription": "The stunning Laserdisc arcade spectacle animated by Disney veteran Don Bluth that pioneered the interactive movie and modern quick-time events (QTE).",
+  "historicalSignificance": "Introduced Laserdisc optical media to video arcades, bringing feature-film hand-drawn Hollywood character animation into interactive gaming, and establishing quick-time reaction gameplay.",
+  "editorialContent": {
+    "overview": "Conceived by game designer Rick Dyer and brought to life through the lavish traditional character animation of former Disney animator Don Bluth and Gary Goldman, Dragon's Lair arrived in the summer of 1983 as a visual revelation. While contemporary arcade screens displayed chunky 8-bit pixels, Dragon's Lair dazzled crowds with full-color, Hollywood-caliber cel animation running directly from a Philips or Pioneer Laserdisc player.",
+    "gameplayMechanics": "Players guide the clumsy knight Dirk the Daring through the perilous castle of the evil wizard Mordroc to rescue Princess Daphne from the dragon Singe. Rather than direct joystick character control, players watch cinematic scenes unfold and must execute twitch reflex directional nudges or sword strikes within narrow split-second reaction windows.",
+    "technicalInnovation": "Dragon's Lair paired a Z80 microprocessor board with an optical Laserdisc player capable of rapidly jumping between indexed video tracks on a 12-inch disc. Video seek times had to be concealed using clever audio cues or brief black frames, proving that optical laser media could serve as high-capacity interactive gaming storage.",
+    "culturalImpact": "Dragon's Lair was an unprecedented cultural phenomenon that demanded 50 cents per play (twice the standard quarter cost), with arcades installing auxiliary television sets atop cabinets so throngs of spectators could watch Dirk's gruesome and humorous death animations.",
+    "preservationNotes": "Preserved via the Daphne Laserdisc emulator framework, which pairs the original Z80 ROM instructions with decoded direct digital video streams from pristine laserdisc transfers."
+  },
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "Bluth, Don & Dyer, Rick. 'The Making of Dragon's Lair', GDC Classic Retrospective (2012)",
+      "Harmetz, Aljean. 'Video Arcades Finding New Life in Laser Discs', The New York Times (1983)",
+      "Cinematronics Laserdisc Arcade Service Manual: Dragon's Lair (1983)"
+    ],
+    "romMediaFormat": "12-inch NTSC Laserdisc + Z80 Logic PCB",
+    "romSizeOriginal": "16 KB ROM + 30-minute CAV Optical Laserdisc Video",
+    "displayResolutionOriginal": "Standard NTSC Composite Color Video (Laserdisc)",
+    "audioHardware": "Stereo analog soundtrack from optical laserdisc tracks",
+    "inputMethod": "4-way arcade joystick + Sword action button",
+    "multiplayerCapability": "1-2 Players (Alternating)"
+  },
+  "relatedExhibits": {
+    "games": [
+      "space-invaders",
+      "pac-man"
+    ],
+    "consoles": [
+      "3do-interactive-multiplayer",
+      "sega-cd",
+      "philips-cd-i"
+    ],
+    "genres": [
+      "action-adventure"
+    ],
+    "timeline": [
+      "ev-1983-famicom-launch"
+    ]
+  },
+  "assets": {
+    "heroImage": "/assets/images/games/dragon-s-lair-hero.webp",
+    "thumbnailImage": "/assets/images/games/dragon-s-lair.webp",
+    "coverImage": "/assets/images/games/dragon-s-lair-cover.webp",
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/5/5c/Dragons_lair.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/5/5c/Dragons_lair.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Dragons_lair.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "dragons lair",
+    "don bluth",
+    "rick dyer",
+    "cinematronics",
+    "laserdisc",
+    "dirk the daring",
+    "princess daphne",
+    "qte",
+    "interactive movie",
+    "1983",
+    "1980s"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

@@ -1,0 +1,89 @@
+{
+  "id": "game-uncharted-2-among-thieves",
+  "slug": "uncharted-2-among-thieves",
+  "title": "Uncharted 2: Among Thieves",
+  "japaneseTitle": "アンチャーテッド 黄金刀と消えた船団",
+  "url": "/games/uncharted-2-among-thieves/",
+  "originalReleaseYear": 2009,
+  "exactReleaseDate": "2009-10-13",
+  "developer": "Naughty Dog",
+  "publisher": "Sony Computer Entertainment",
+  "director": "Bruce Straley",
+  "designer": "Neil Druckmann, Amy Hennig",
+  "composer": "Greg Edmonson",
+  "originalLaunchPlatform": "PlayStation 3",
+  "platforms": [
+    "PlayStation 3",
+    "PlayStation 4"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "Cinematic Action-Adventure",
+    "Cover Shooter",
+    "Platforming"
+  ],
+  "era": "2000s",
+  "shortDescription": "Naughty Dog's cinematic tour de force that perfected the seamless Hollywood blockbuster video game.",
+  "historicalSignificance": "The pinnacle of cinematic interactive pacing, seamlessly erasing the seam between gameplay and Hollywood cinema with moving physics set pieces (the runaway train, collapsing hotel) and setting a new benchmark for performance capture and character chemistry.",
+  "editorialContent": {
+    "overview": "Directed by Bruce Straley and written by Amy Hennig and Neil Druckmann at Naughty Dog, Uncharted 2: Among Thieves launched on the PlayStation 3 in October 2009. Following roguish treasure hunter Nathan Drake, Chloe Frazer, and Elena Fisher on a perilous hunt for Marco Polo's lost fleet and the Cintamani Stone in the mythical Himalayan kingdom of Shambhala, it delivered an unrelenting rollercoaster of cinematic action.",
+    "gameplay": "Refined third-person cover shooting with dynamic traversal: Drake can vault over obstacles, hang from crumbling ledges while firing single-handed sidearms, and perform stealth neck-snaps. The set pieces are dynamic, moving environments—most famously an entire chapter fought aboard a speeding passenger train winding through icy Nepalese mountain passes.",
+    "technicalInnovation": "Naughty Dog harnessed the PlayStation 3's notoriously complex Cell Broadband Engine SPUs to handle ambient occlusion, high-resolution depth of field, realistic snow deformation shaders, and fluid full-body motion capture.",
+    "culturalImpact": "Uncharted 2 won over 200 Game of the Year awards and earned a 96 Metacritic rating, solidifying Naughty Dog as Sony's premier studio and establishing the cinematic template that would culminate in The Last of Us.",
+    "preservationNotes": "Preserved on original PS3 Blu-ray media and remastered in 1080p 60fps by Bluepoint Games in Uncharted: The Nathan Drake Collection on PS4."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "October 13, 2009",
+    "leadPlatform": "PlayStation 3",
+    "genre": "action-adventure",
+    "sales": "Over 6.5 million copies worldwide",
+    "awards": [
+      "Game of the Year 2009 (Spike VGAs, AIAS, GDC Awards, BAFTA)",
+      "Over 200 GOTY Awards"
+    ],
+    "technicalSpecs": {
+      "engine": "Naughty Dog Engine 2.0 (Cell Broadband Engine optimized)",
+      "resolution": "720p HD (PS3)",
+      "soundChip": "7.1 Linear PCM uncompressed surround with Greg Edmonson orchestral score",
+      "mediaFormat": "Blu-ray Disc (25 GB)"
+    },
+    "relationships": {
+      "primaryConsole": "playstation-3",
+      "developerEntity": "Naughty Dog",
+      "lineage": [
+        "Uncharted: Drake's Fortune",
+        "Uncharted 3: Drake's Deception",
+        "The Last of Us",
+        "Uncharted 4: A Thief's End"
+      ]
+    }
+  },
+  "assets": {
+    "cover": "/assets/images/games/uncharted-2-among-thieves.webp",
+    "banner": "/assets/images/games/uncharted-2-among-thieves-banner.webp",
+    "screenshots": [
+      "/assets/images/games/uncharted-2-among-thieves-screen1.webp",
+      "/assets/images/games/uncharted-2-among-thieves-screen2.webp"
+    ],
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/7/7b/Uncharted_2_box_artwork.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/7/7b/Uncharted_2_box_artwork.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Uncharted_2_box_artwork.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "uncharted 2",
+    "among thieves",
+    "nathan drake",
+    "naughty dog",
+    "amy hennig",
+    "bruce straley",
+    "neil druckmann",
+    "shambhala"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

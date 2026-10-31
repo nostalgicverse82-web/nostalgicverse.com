@@ -1,0 +1,70 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-star-wars-battlefront-2004",
+  "slug": "star-wars-battlefront-2004",
+  "title": "Star Wars: Battlefront",
+  "originalReleaseYear": 2004,
+  "exactReleaseDate": "September 20, 2004",
+  "originalLaunchPlatform": "PlayStation 2",
+  "originalLaunchRegion": "North America",
+  "developer": "Pandemic Studios",
+  "publisher": "LucasArts",
+  "platforms": [
+    "PlayStation 2",
+    "Xbox",
+    "Microsoft Windows"
+  ],
+  "genre": "shooter",
+  "subgenres": [
+    "third-person-shooter"
+  ],
+  "era": "2000s",
+  "shortDescription": "Pandemic's large-scale conquest shooter dropping players into iconic movie battles with vehicles and troopers.",
+  "historicalSignificance": "One of the best-selling Star Wars video games in history, mastering accessible tactical battlefield warfare.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Star_Wars:_Battlefront",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Pandemic's large-scale conquest shooter dropping players into iconic movie battles with vehicles and troopers.",
+    "culturalImpact": "One of the best-selling Star Wars video games in history, mastering accessible tactical battlefield warfare."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 2"
+    ],
+    "genres": [
+      "shooter"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/8/87/Star_Wars_Battlefront_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/8/87/Star_Wars_Battlefront_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Star_Wars:_Battlefront",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Star Wars: Battlefront",
+    "Pandemic Studios",
+    "LucasArts",
+    "PlayStation 2",
+    "shooter",
+    "2004",
+    "2000s",
+    "PlayStation 2",
+    "Xbox",
+    "Microsoft Windows",
+    "third-person-shooter"
+  ],
+  "url": "/games/star-wars-battlefront-2004/",
+  "featured": false
+}

@@ -1,0 +1,74 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-need-for-speed-most-wanted-2005",
+  "slug": "need-for-speed-most-wanted-2005",
+  "title": "Need for Speed: Most Wanted",
+  "originalReleaseYear": 2005,
+  "exactReleaseDate": "November 15, 2005",
+  "originalLaunchPlatform": "PlayStation 2",
+  "originalLaunchRegion": "North America",
+  "developer": "EA Black Box",
+  "publisher": "Electronic Arts",
+  "platforms": [
+    "PlayStation 2",
+    "Xbox",
+    "GameCube",
+    "Microsoft Windows",
+    "Xbox 360"
+  ],
+  "genre": "racing",
+  "subgenres": [
+    "arcade-racing"
+  ],
+  "era": "2000s",
+  "shortDescription": "Open-world cop pursuit epic climbing the Blacklist of Rockport City with the iconic BMW M3 GTR.",
+  "historicalSignificance": "Universally revered as one of the greatest racing games ever made with white-knuckle police pursuits.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Need_for_Speed:_Most_Wanted",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Open-world cop pursuit epic climbing the Blacklist of Rockport City with the iconic BMW M3 GTR.",
+    "culturalImpact": "Universally revered as one of the greatest racing games ever made with white-knuckle police pursuits."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 2"
+    ],
+    "genres": [
+      "racing"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/8/8e/Need_for_Speed_Most_Wanted_Box_Art.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/8/8e/Need_for_Speed_Most_Wanted_Box_Art.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Need_for_Speed:_Most_Wanted",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Need for Speed: Most Wanted",
+    "EA Black Box",
+    "Electronic Arts",
+    "PlayStation 2",
+    "racing",
+    "2005",
+    "2000s",
+    "PlayStation 2",
+    "Xbox",
+    "GameCube",
+    "Microsoft Windows",
+    "Xbox 360",
+    "arcade-racing"
+  ],
+  "url": "/games/need-for-speed-most-wanted-2005/",
+  "featured": false
+}

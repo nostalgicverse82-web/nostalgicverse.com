@@ -1,0 +1,41 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+  "id": "console-atari-7800",
+  "slug": "atari-7800",
+  "name": "Atari 7800 ProSystem",
+  "manufacturer": "Atari",
+  "generation": "Third Generation",
+  "generationNumber": 3,
+  "originalReleaseYear": 1986,
+  "exactReleaseDate": "May 1986",
+  "mediaFormat": "ROM Cartridge",
+  "significance": "One of the earliest consoles to feature full backward compatibility with its predecessor's software library (Atari 2600).",
+  "verifiedFactualData": {
+    "cpu": "Atari SALLY (6502 custom) @ 1.79 MHz",
+    "gpuOrVideoChip": "Custom MARIA graphics processor @ 7.16 MHz",
+    "ram": "4 KB RAM"
+  },
+  "editorialContent": {
+    "overview": "Atari's backwards-compatible 8-bit platform featuring impressive on-screen sprite counts powered by the MARIA chip.",
+    "marketLegacy": "One of the earliest consoles to feature full backward compatibility with its predecessor's software library (Atari 2600).",
+    "controllerDesign": "ProLine two-button digital joystick"
+  },
+  "keyGames": [
+    "asteroids",
+    "joust",
+    "pole-position-ii"
+  ],
+  "assets": {
+    "mainImage": "/assets/images/consoles/atari-7800.png",
+    "heroImage": "/assets/images/consoles/atari-7800-hero.png",
+    "hardwareImage": "/assets/images/consoles/atari-7800-hardware.png"
+  },
+  "keywords": [
+    "atari 7800",
+    "prosystem",
+    "atari",
+    "third generation",
+    "1986",
+    "maria chip"
+  ]
+}

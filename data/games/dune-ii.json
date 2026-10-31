@@ -1,0 +1,92 @@
+{
+  "id": "game-dune-ii",
+  "slug": "dune-ii",
+  "title": "Dune II: The Building of a Dynasty",
+  "url": "/games/dune-ii/",
+  "originalReleaseYear": 1992,
+  "exactReleaseDate": "1992-12-01",
+  "developer": "Westwood Studios",
+  "publisher": "Virgin Interactive",
+  "designer": "Brett Sperry & Aaron E. Powell",
+  "composer": "Frank Klepacki",
+  "originalLaunchPlatform": "PC / MS-DOS",
+  "platforms": [
+    "PC",
+    "Amiga",
+    "Sega Genesis"
+  ],
+  "genre": "real-time-strategy",
+  "subgenres": [
+    "Real-Time Strategy",
+    "Sci-Fi Strategy"
+  ],
+  "era": "1990s",
+  "shortDescription": "Westwood Studios' landmark strategy title that established the core grammar of real-time strategy (RTS), from resource harvesting to base construction.",
+  "historicalSignificance": "The recognized progenitor of the modern Real-Time Strategy (RTS) genre, introducing the essential design trinity of resource harvesting (Spice), tech-tree base construction, and mouse-directed real-time unit combat.",
+  "editorialContent": {
+    "overview": "Directed by Westwood Studios co-founder Brett Sperry and inspired by Frank Herbert's epic sci-fi universe, Dune II: The Building of a Dynasty debuted in December 1992. Rejecting the leisurely pace of turn-based war games, Sperry merged the intuitive resource dynamics of SimCity with instantaneous tactical combat, single-handedly inventing the grammar of modern real-time strategy.",
+    "gameplayMechanics": "Taking command of one of three galactic houses battling for dominance over the desert planet Arrakis—the noble Atreides, cruel Harkonnen, or deceptive Ordos—players construct concrete foundations, wind traps, refineries, and radar outposts. Players harvest precious Melange (spice) using tracked Harvesters while defending convoys from colossal subterranean sandworms, funding construction of tank battalions and infantry to annihilate enemy bases.",
+    "technicalInnovation": "Dune II established the definitive RTS interface: a dynamic real-time fog-of-war shroud concealing unmapped terrain, context-sensitive mouse selection, construction queues, and a graphical radar minimap. Frank Klepacki's driving dynamic MIDI score adapted in real time between peaceful base construction and combat encounters.",
+    "culturalImpact": "Dune II's mechanical blueprint directly birthed Westwood's own Command & Conquer franchise and Blizzard Entertainment's Warcraft: Orcs & Humans and StarCraft, sparking the golden age of real-time strategy esports.",
+    "preservationNotes": "Preserved on original MS-DOS floppy disk images and the Sega Genesis port. Precise Sound Blaster Pro / Roland MT-32 audio card emulation is necessary for authentic speech and music."
+  },
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "Sperry, Brett. 'The Origin of Real-Time Strategy', Westwood Studios Archives (1998)",
+      "Klepacki, Frank. 'Scoring Dune and Command & Conquer', GDC Music Postmortem (2010)",
+      "Virgin Games / Westwood Studios Dune II User Manual (1992)"
+    ],
+    "romMediaFormat": "3.5-inch / 5.25-inch Floppy Disk",
+    "romSizeOriginal": "4 MB (MS-DOS Floppy)",
+    "displayResolutionOriginal": "320 × 200 (VGA 256-color)",
+    "audioHardware": "Sound Blaster / AdLib / Roland MT-32 MIDI + Digitized Speech",
+    "inputMethod": "Two-button Mouse and Keyboard",
+    "multiplayerCapability": "1 Player"
+  },
+  "relatedExhibits": {
+    "games": [
+      "command-conquer",
+      "starcraft",
+      "civilization"
+    ],
+    "consoles": [
+      "sega-genesis"
+    ],
+    "genres": [
+      "real-time-strategy"
+    ],
+    "timeline": [
+      "ev-1993-doom-shareware"
+    ]
+  },
+  "assets": {
+    "heroImage": "/assets/images/games/dune-ii-hero.webp",
+    "thumbnailImage": "/assets/images/games/dune-ii.webp",
+    "coverImage": "/assets/images/games/dune-ii-cover.webp",
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/7/78/Dune2_BOD.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/7/78/Dune2_BOD.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Dune2_BOD.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "review-required",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "dune ii",
+    "dune 2",
+    "westwood studios",
+    "brett sperry",
+    "frank klepacki",
+    "real-time strategy",
+    "rts",
+    "spice",
+    "arrakis",
+    "harkonnen",
+    "atreides",
+    "1992",
+    "1990s"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

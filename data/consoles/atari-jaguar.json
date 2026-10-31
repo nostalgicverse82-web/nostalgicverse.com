@@ -1,0 +1,41 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+  "id": "console-atari-jaguar",
+  "slug": "atari-jaguar",
+  "name": "Atari Jaguar",
+  "manufacturer": "Atari",
+  "generation": "Fifth Generation",
+  "generationNumber": 5,
+  "originalReleaseYear": 1993,
+  "exactReleaseDate": "November 23, 1993",
+  "mediaFormat": "ROM Cartridge (optional Jaguar CD add-on)",
+  "significance": "Marked Atari's final standalone home hardware release, highlighting the industrial shift toward unified Japanese and 32-bit CD-ROM architectures.",
+  "verifiedFactualData": {
+    "cpu": "Multi-chip architecture: 'Tom' (64-bit 26 MHz) & 'Jerry' (32-bit DSP)",
+    "gpuOrVideoChip": "Tom graphics processor (64-bit RISC)",
+    "ram": "2 MB fast-page mode DRAM"
+  },
+  "editorialContent": {
+    "overview": "Marketed as the world's first 64-bit system, remembered for Jeff Minter's Tempest 2000 and complex multi-chip programming.",
+    "marketLegacy": "Marked Atari's final standalone home hardware release, highlighting the industrial shift toward unified Japanese and 32-bit CD-ROM architectures.",
+    "controllerDesign": "Controller with directional pad, three fire buttons, and 12-key numeric keypad"
+  },
+  "keyGames": [
+    "alien-vs-predator",
+    "tempest-2000",
+    "iron-soldier"
+  ],
+  "assets": {
+    "mainImage": "/assets/images/consoles/atari-jaguar.png",
+    "heroImage": "/assets/images/consoles/atari-jaguar-hero.png",
+    "hardwareImage": "/assets/images/consoles/atari-jaguar-hardware.png"
+  },
+  "keywords": [
+    "atari jaguar",
+    "atari",
+    "fifth generation",
+    "64-bit",
+    "tempest 2000",
+    "1993"
+  ]
+}

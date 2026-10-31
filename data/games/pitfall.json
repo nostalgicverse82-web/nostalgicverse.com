@@ -1,0 +1,93 @@
+{
+  "id": "game-pitfall",
+  "slug": "pitfall",
+  "title": "Pitfall!",
+  "url": "/games/pitfall/",
+  "originalReleaseYear": 1982,
+  "exactReleaseDate": "1982-04-20",
+  "developer": "Activision",
+  "publisher": "Activision",
+  "designer": "David Crane",
+  "originalLaunchPlatform": "Atari 2600",
+  "platforms": [
+    "Atari 2600",
+    "Intellivision",
+    "ColecoVision",
+    "Commodore 64",
+    "Apple II",
+    "Atari 5200"
+  ],
+  "genre": "platformer",
+  "subgenres": [
+    "Side-Scrolling Platformer",
+    "Jungle Adventure"
+  ],
+  "era": "1980s",
+  "shortDescription": "David Crane's tour-de-force Atari 2600 jungle adventure that established multi-screen side-scrolling platform mechanics and became the second highest-selling game on the console.",
+  "historicalSignificance": "Pioneered non-scrolling flip-screen platforming across 255 screens, demonstrated the commercial supremacy of third-party video game publishers, and laid the groundwork for Super Mario Bros.",
+  "editorialContent": {
+    "overview": "Designed and programmed by Activision co-founder David Crane in 1982, Pitfall! transformed the video game industry. Rejecting the single-screen arcade limitations of the day, Crane engineered a vast 255-screen jungle labyrinth for explorer Pitfall Harry, creating one of the most recognizable and beloved platformers in early home console history.",
+    "gameplayMechanics": "Players navigate Pitfall Harry across jungle foliage and underground caverns to recover 32 treasures (gold bars, silver bars, diamond rings, money bags) within a strict 20-minute countdown. Hazards include rolling logs that deplete points, venomous scorpions, quicksand pits, swinging vines across water holes, and snapping crocodiles requiring timed jumps across their closed jaws.",
+    "technicalInnovation": "Fitting 255 distinct interactive screens into a microscopic 4-kilobyte ROM cartridge was a triumph of algorithmic design. Crane utilized an 8-bit linear-feedback shift register (LFSR) pseudorandom polynomial sequence, generating each screen's trees, hazards, and caverns procedurally from a single mathematical formula rather than storing layout graphics in ROM.",
+    "culturalImpact": "Selling over four million cartridges on the Atari 2600 alone, Pitfall! established Activision as an independent publishing powerhouse and set the benchmark for platforming gameplay across the globe.",
+    "preservationNotes": "Preserved on 4KB Atari 2600 cartridge ROM dumps. Accurate timing of David Crane's color-cycling sprite multiplexing and TIA sound register pitch curves is essential."
+  },
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "Crane, David. 'Classic Game Postmortem: Pitfall!', Game Developers Conference (2011)",
+      "Fleming, Jeffrey. 'The History of Activision', Gamasutra (2007)",
+      "Activision Cartridge Instructions: Pitfall! (Model AX-018, 1982)"
+    ],
+    "romMediaFormat": "Atari 2600 ROM Cartridge",
+    "romSizeOriginal": "4 KB ROM",
+    "displayResolutionOriginal": "160 × 192 (NTSC TIA Display)",
+    "audioHardware": "Atari TIA 2-channel sound generator",
+    "inputMethod": "Atari CX40 8-way joystick with single button",
+    "multiplayerCapability": "1 Player"
+  },
+  "relatedExhibits": {
+    "games": [
+      "adventure",
+      "donkey-kong",
+      "super-mario-bros"
+    ],
+    "consoles": [
+      "atari-2600",
+      "colecovision",
+      "intellivision"
+    ],
+    "genres": [
+      "platformer"
+    ],
+    "timeline": [
+      "ev-1982-c64-launch"
+    ]
+  },
+  "assets": {
+    "heroImage": "/assets/images/games/pitfall-hero.webp",
+    "thumbnailImage": "/assets/images/games/pitfall.webp",
+    "coverImage": "/assets/images/games/pitfall-cover.webp",
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/0/0c/Pitfall-cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/0/0c/Pitfall-cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Pitfall-cover.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "pitfall",
+    "activision",
+    "david crane",
+    "pitfall harry",
+    "atari 2600",
+    "platformer",
+    "vines",
+    "crocodiles",
+    "1982",
+    "1980s"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

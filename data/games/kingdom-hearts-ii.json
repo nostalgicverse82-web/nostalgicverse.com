@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-kingdom-hearts-ii",
+  "slug": "kingdom-hearts-ii",
+  "title": "Kingdom Hearts II",
+  "originalReleaseYear": 2005,
+  "exactReleaseDate": "December 22, 2005",
+  "originalLaunchPlatform": "PlayStation 2",
+  "originalLaunchRegion": "Japan",
+  "developer": "Square Enix",
+  "publisher": "Square Enix",
+  "platforms": [
+    "PlayStation 2"
+  ],
+  "genre": "action-rpg",
+  "subgenres": [
+    "hack-and-slash"
+  ],
+  "era": "2000s",
+  "shortDescription": "Expanded sequel following Sora, Donald, and Goofy confronting Organization XIII across Disney realms.",
+  "historicalSignificance": "Refined real-time action RPG combat with Reaction Commands and Drive Forms, acclaimed as a PS2 pinnacle.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Kingdom_Hearts_II",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Expanded sequel following Sora, Donald, and Goofy confronting Organization XIII across Disney realms.",
+    "culturalImpact": "Refined real-time action RPG combat with Reaction Commands and Drive Forms, acclaimed as a PS2 pinnacle."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 2"
+    ],
+    "genres": [
+      "action-rpg"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/KingdomHeartsII.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/KingdomHeartsII.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Kingdom_Hearts_II",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Kingdom Hearts II",
+    "Square Enix",
+    "Square Enix",
+    "PlayStation 2",
+    "action-rpg",
+    "2005",
+    "2000s",
+    "PlayStation 2",
+    "hack-and-slash"
+  ],
+  "url": "/games/kingdom-hearts-ii/",
+  "featured": false
+}

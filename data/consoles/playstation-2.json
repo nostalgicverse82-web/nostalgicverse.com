@@ -1,0 +1,44 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+  "id": "console-playstation-2",
+  "slug": "playstation-2",
+  "name": "Sony PlayStation 2",
+  "manufacturer": "Sony",
+  "generation": "Sixth Generation",
+  "generationNumber": 6,
+  "originalReleaseYear": 2000,
+  "exactReleaseDate": "March 4, 2000",
+  "mediaFormat": "DVD-ROM / CD-ROM",
+  "significance": "Sold over 155 million units worldwide, popularized the DVD video format globally, and maintained market dominance across a historic 13-year lifespan.",
+  "verifiedFactualData": {
+    "cpu": "Emotion Engine 128-bit SIMD @ 294.912 MHz",
+    "gpuOrVideoChip": "Graphics Synthesizer @ 147.456 MHz",
+    "ram": "32 MB Direct RDRAM, 4 MB embedded eDRAM"
+  },
+  "editorialContent": {
+    "overview": "The Emotion Engine monolith and affordable DVD player that became the best-selling video game console in history.",
+    "marketLegacy": "Sold over 155 million units worldwide, popularized the DVD video format globally, and maintained market dominance across a historic 13-year lifespan.",
+    "controllerDesign": "DualShock 2 with pressure-sensitive analog buttons"
+  },
+  "keyGames": [
+    "grand-theft-auto-iii",
+    "grand-theft-auto-san-andreas",
+    "silent-hill-2",
+    "shadow-of-the-colossus",
+    "metal-gear-solid-3"
+  ],
+  "assets": {
+    "mainImage": "/assets/images/consoles/playstation-2.png",
+    "heroImage": "/assets/images/consoles/playstation-2-hero.png",
+    "hardwareImage": "/assets/images/consoles/playstation-2-hardware.png"
+  },
+  "keywords": [
+    "playstation 2",
+    "ps2",
+    "sony",
+    "sixth generation",
+    "emotion engine",
+    "dvd",
+    "2000"
+  ]
+}

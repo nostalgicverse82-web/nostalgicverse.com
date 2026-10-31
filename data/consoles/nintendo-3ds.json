@@ -1,0 +1,42 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+  "id": "console-nintendo-3ds",
+  "slug": "nintendo-3ds",
+  "name": "Nintendo 3DS",
+  "manufacturer": "Nintendo",
+  "generation": "Eighth Generation",
+  "generationNumber": 8,
+  "originalReleaseYear": 2011,
+  "exactReleaseDate": "February 26, 2011",
+  "mediaFormat": "3DS Game Card",
+  "significance": "Pioneered consumer autostereoscopic 3D display technology without glasses and cultivated local community engagement via StreetPass.",
+  "verifiedFactualData": {
+    "cpu": "Dual-core ARM11 MPCore @ 268 MHz",
+    "gpuOrVideoChip": "DMP PICA200 @ 133 MHz",
+    "ram": "128 MB FCRAM, 6 MB VRAM"
+  },
+  "editorialContent": {
+    "overview": "Autostereoscopic glasses-free 3D handheld that revived traditional portable Nintendo gaming alongside StreetPass community features.",
+    "marketLegacy": "Pioneered consumer autostereoscopic 3D display technology without glasses and cultivated local community engagement via StreetPass.",
+    "controllerDesign": "Circle Pad analog slider, touchscreen, stereoscopic 3D depth slider"
+  },
+  "keyGames": [
+    "the-legend-of-zelda-a-link-between-worlds",
+    "super-mario-3d-land",
+    "fire-emblem-awakening"
+  ],
+  "assets": {
+    "mainImage": "/assets/images/consoles/nintendo-3ds.png",
+    "heroImage": "/assets/images/consoles/nintendo-3ds-hero.png",
+    "hardwareImage": "/assets/images/consoles/nintendo-3ds-hardware.png"
+  },
+  "keywords": [
+    "3ds",
+    "nintendo",
+    "handheld",
+    "eighth generation",
+    "stereoscopic 3d",
+    "streetpass",
+    "2011"
+  ]
+}

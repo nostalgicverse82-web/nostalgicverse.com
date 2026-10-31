@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-judgment",
+  "slug": "judgment",
+  "title": "Judgment",
+  "originalReleaseYear": 2018,
+  "exactReleaseDate": "December 13, 2018",
+  "originalLaunchPlatform": "PlayStation 4",
+  "originalLaunchRegion": "Japan",
+  "developer": "Ryu Ga Gotoku Studio",
+  "publisher": "Sega",
+  "platforms": [
+    "PlayStation 4"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "detective"
+  ],
+  "era": "2010s",
+  "shortDescription": "Disgraced defense attorney turned private detective Takayuki Yagami investigates serial murders in Kamurocho.",
+  "historicalSignificance": "Infused crime investigation, drone tailing, and parkour martial arts into the beloved RGG universe.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Judgment",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Disgraced defense attorney turned private detective Takayuki Yagami investigates serial murders in Kamurocho.",
+    "culturalImpact": "Infused crime investigation, drone tailing, and parkour martial arts into the beloved RGG universe."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 4"
+    ],
+    "genres": [
+      "action-adventure"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/9/91/Judgment_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/9/91/Judgment_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Judgment",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Judgment",
+    "Ryu Ga Gotoku Studio",
+    "Sega",
+    "PlayStation 4",
+    "action-adventure",
+    "2018",
+    "2010s",
+    "PlayStation 4",
+    "detective"
+  ],
+  "url": "/games/judgment/",
+  "featured": false
+}

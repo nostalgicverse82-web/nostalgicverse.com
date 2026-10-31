@@ -1,0 +1,80 @@
+{
+  "id": "game-gun-fight",
+  "slug": "gun-fight",
+  "title": "Gun Fight",
+  "japaneseTitle": "ウェスタン・ガン (Western Gun)",
+  "url": "/games/gun-fight/",
+  "originalReleaseYear": 1975,
+  "exactReleaseDate": "1975-11-01",
+  "developer": "Taito / Midway",
+  "publisher": "Bally Midway",
+  "director": "Tomohiro Nishikado",
+  "designer": "Dave Nutting",
+  "composer": "Discrete Beeper",
+  "originalLaunchPlatform": "Arcade",
+  "platforms": [
+    "Arcade",
+    "Bally Astrocade"
+  ],
+  "genre": "shooter",
+  "subgenres": [
+    "Versus Shooter",
+    "Western Duel"
+  ],
+  "era": "1970s",
+  "shortDescription": "The revolutionary Western duel arcade game that made history as the first commercial video game ever powered by a microprocessor.",
+  "historicalSignificance": "A watershed technical milestone in computing history: designed by Space Invaders creator Tomohiro Nishikado with discrete logic, then redesigned by Dave Nutting for Midway with the Intel 8080 CPU, sparking the microprocessor revolution in video games.",
+  "editorialContent": {
+    "overview": "Originally released in Japan as Western Gun by Taito, Bally Midway licensed the title for North America. Engineer Dave Nutting replaced the rigid discrete circuitry with the Intel 8080 CPU, unlocking fluid character animation and bullet ricochets.",
+    "gameplay": "Two players duel at high noon across a screen dotted with cacti and covered wagons. Using an eight-way movement joystick and a gun-shaped rotary aiming controller, players maneuver and fire six bullets with realistic angle ricochets.",
+    "technicalInnovation": "The first video game to use a microprocessor (Intel 8080 at 2 MHz) and a solid-state frame buffer, proving that general-purpose microchips were vastly superior to hardwired discrete logic.",
+    "culturalImpact": "Demonstrated the commercial and creative potential of software-programmed video games, laying the engineering groundwork for the golden age of arcade gaming.",
+    "preservationNotes": "Preserved via original Bally Midway upright cabinets and emulated through MAME arcade hardware preservation."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "November 1975",
+    "leadPlatform": "Arcade",
+    "genre": "shooter",
+    "sales": "Over 8,000 arcade cabinets sold",
+    "awards": [
+      "First Microprocessor-Powered Video Game in History (Intel 8080)"
+    ],
+    "technicalSpecs": {
+      "engine": "Intel 8080 CPU @ 2.0 MHz",
+      "resolution": "256 x 224 monochrome CRT with yellow overlay",
+      "soundChip": "Discrete analog sound synthesis",
+      "mediaFormat": "ROM PCB"
+    },
+    "relationships": {
+      "primaryConsole": "arcade",
+      "developerEntity": "Taito",
+      "lineage": [
+        "Space Invaders",
+        "Bally Astrocade"
+      ]
+    }
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/ae/Gun_Fight_Flyer.png",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/ae/Gun_Fight_Flyer.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Gun_Fight_Flyer.png",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "gun fight",
+    "western gun",
+    "tomohiro nishikado",
+    "midway",
+    "taito",
+    "intel 8080",
+    "first microprocessor game",
+    "arcade",
+    "1975"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

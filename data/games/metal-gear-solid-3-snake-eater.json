@@ -1,0 +1,68 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-metal-gear-solid-3-snake-eater",
+  "slug": "metal-gear-solid-3-snake-eater",
+  "title": "Metal Gear Solid 3: Snake Eater",
+  "originalReleaseYear": 2004,
+  "exactReleaseDate": "November 17, 2004",
+  "originalLaunchPlatform": "PlayStation 2",
+  "originalLaunchRegion": "North America",
+  "developer": "Konami Computer Entertainment Japan",
+  "publisher": "Konami",
+  "platforms": [
+    "PlayStation 2"
+  ],
+  "genre": "stealth",
+  "subgenres": [
+    "action-adventure",
+    "survival"
+  ],
+  "era": "2000s",
+  "shortDescription": "Cold War survival stealth masterpiece introducing camouflage systems, jungle CQC, and stamina mechanics.",
+  "historicalSignificance": "Widely celebrated as one of the greatest video games ever created, redefining cinematic storytelling and stealth.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Metal_Gear_Solid_3:_Snake_Eater",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Cold War survival stealth masterpiece introducing camouflage systems, jungle CQC, and stamina mechanics.",
+    "culturalImpact": "Widely celebrated as one of the greatest video games ever created, redefining cinematic storytelling and stealth."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 2"
+    ],
+    "genres": [
+      "stealth"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b3/Mgs3_cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/b/b3/Mgs3_cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Metal_Gear_Solid_3:_Snake_Eater",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Metal Gear Solid 3: Snake Eater",
+    "Konami Computer Entertainment Japan",
+    "Konami",
+    "PlayStation 2",
+    "stealth",
+    "2004",
+    "2000s",
+    "PlayStation 2",
+    "action-adventure",
+    "survival"
+  ],
+  "url": "/games/metal-gear-solid-3-snake-eater/",
+  "featured": false
+}

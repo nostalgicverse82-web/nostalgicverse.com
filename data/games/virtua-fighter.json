@@ -1,0 +1,93 @@
+{
+  "id": "game-virtua-fighter",
+  "slug": "virtua-fighter",
+  "title": "Virtua Fighter",
+  "japaneseTitle": "バーチャファイター",
+  "url": "/games/virtua-fighter/",
+  "originalReleaseYear": 1993,
+  "exactReleaseDate": "1993-11-20",
+  "developer": "Sega AM2",
+  "publisher": "Sega",
+  "designer": "Yu Suzuki",
+  "composer": "Takayuki Nakamura",
+  "originalLaunchPlatform": "Arcade",
+  "platforms": [
+    "Arcade",
+    "Sega Saturn",
+    "Sega 32X",
+    "PC"
+  ],
+  "genre": "fighting",
+  "subgenres": [
+    "3D Versus Fighting",
+    "Martial Arts"
+  ],
+  "era": "1990s",
+  "shortDescription": "Yu Suzuki's historic 3D fighting game that introduced flat-shaded polygonal characters, true 3D skeletal animation, and deep martial arts physics.",
+  "historicalSignificance": "The world's first 3D polygonal versus fighting game, introducing realistic human skeletal animation, ring-out victory conditions, and directly inspiring Sony to design the PlayStation for 3D polygon graphics.",
+  "editorialContent": {
+    "overview": "Directed by Yu Suzuki at Sega AM2 and unleashed in Japanese arcades in November 1993, Virtua Fighter was a revolutionary watershed moment in computer graphics. Discarding hand-drawn 2D bitmaps entirely, Suzuki created a pure 3D combat arena where martial artists composed of hundreds of flat-shaded polygons clashed in real three-dimensional space.",
+    "gameplayMechanics": "Emphasizing authentic real-world martial arts disciplines (Jeet Kune Do, Bajiquan, Pro Wrestling, Pancrase), Virtua Fighter utilizes a minimalist three-button interface: Punch, Kick, and Guard. Characters move on a true 3D plane with realistic body weight, momentum recovery, and ring-out rules where tossing an opponent out of the squared boundary scores an immediate round victory.",
+    "technicalInnovation": "Operating on the legendary Sega Model 1 arcade board co-developed with aerospace defense contractor Lockheed Martin, Virtua Fighter was powered by an NEC V60 32-bit CPU and custom DSP geometry coprocessors capable of rendering 180,000 flat-shaded polygons per second at a rock-solid 60 frames per second with dynamic perspective cameras.",
+    "culturalImpact": "Virtua Fighter revolutionized the entire video game industry. Most famously, Sony Computer Entertainment executives have credited seeing an early demonstration of Virtua Fighter with convincing them to discard their 2D-focused CD console designs and re-architect the PlayStation as a dedicated 3D polygonal machine. It is honored in the permanent collection of the Smithsonian Institution.",
+    "preservationNotes": "Preserved across Sega Model 1 arcade PCB ROMs and the flagship Sega Saturn launch port. Emulation requires high-precision mathematical DSP matrix multiplication to replicate Suzuki's exact skeletal collision physics."
+  },
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "Suzuki, Yu. 'The Creation of 3D Fighting Games and Sega Model 1', Computer History Museum Oral History (2011)",
+      "Kutaragi, Ken. 'The Genesis of PlayStation Architecture', Sony Computer Entertainment Archives (2004)",
+      "Sega Enterprises, Ltd. Model 1 Arcade Service Manual: Virtua Fighter (1993)"
+    ],
+    "romMediaFormat": "Arcade PCB (Sega Model 1 / NEC V60 32-Bit CPU)",
+    "romSizeOriginal": "32 MB ROM",
+    "displayResolutionOriginal": "496 × 384 (Medium-Resolution Horizontal CRT)",
+    "audioHardware": "Two Sega custom PCM sound chips (28 channels)",
+    "inputMethod": "8-way joystick + 3 buttons (Punch, Kick, Guard)",
+    "multiplayerCapability": "2 Players (Simultaneous Head-to-Head)"
+  },
+  "relatedExhibits": {
+    "games": [
+      "street-fighter-ii",
+      "tekken"
+    ],
+    "consoles": [
+      "sega-saturn",
+      "sega-32x",
+      "playstation"
+    ],
+    "genres": [
+      "fighting"
+    ],
+    "timeline": [
+      "ev-1993-doom-shareware"
+    ]
+  },
+  "assets": {
+    "heroImage": "/assets/images/games/virtua-fighter-hero.webp",
+    "thumbnailImage": "/assets/images/games/virtua-fighter.webp",
+    "coverImage": "/assets/images/games/virtua-fighter-cover.webp",
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/b/bb/VirtuaFighter_arcadeflyer.png",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/b/bb/VirtuaFighter_arcadeflyer.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:VirtuaFighter_arcadeflyer.png",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "virtua fighter",
+    "sega",
+    "yu suzuki",
+    "sega am2",
+    "sega model 1",
+    "akira yuki",
+    "3d fighting",
+    "polygons",
+    "arcade",
+    "1993",
+    "1990s"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

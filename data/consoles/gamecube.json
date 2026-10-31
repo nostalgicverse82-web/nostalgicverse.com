@@ -1,0 +1,44 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+  "id": "console-gamecube",
+  "slug": "gamecube",
+  "name": "Nintendo GameCube",
+  "manufacturer": "Nintendo",
+  "generation": "Sixth Generation",
+  "generationNumber": 6,
+  "originalReleaseYear": 2001,
+  "exactReleaseDate": "September 14, 2001",
+  "mediaFormat": "MiniDVD proprietary optical disc (1.5 GB)",
+  "significance": "Pioneered sub-millisecond 1T-SRAM latency architecture and birthed one of the most beloved controller ergonomics in esports history.",
+  "verifiedFactualData": {
+    "cpu": "IBM PowerPC 'Gekko' @ 486 MHz",
+    "gpuOrVideoChip": "ATI 'Flipper' @ 162 MHz",
+    "ram": "24 MB 1T-SRAM, 16 MB A-RAM, 3 MB embedded VRAM"
+  },
+  "editorialContent": {
+    "overview": "Shigeru Miyamoto's compact indigo cube, built exclusively for game responsiveness with zero boot latency.",
+    "marketLegacy": "Pioneered sub-millisecond 1T-SRAM latency architecture and birthed one of the most beloved controller ergonomics in esports history.",
+    "controllerDesign": "Ergonomic GameCube controller with analog shoulder triggers and octagonal gates"
+  },
+  "keyGames": [
+    "metroid-prime",
+    "super-smash-bros-melee",
+    "resident-evil-4",
+    "the-legend-of-zelda-the-wind-waker"
+  ],
+  "assets": {
+    "mainImage": "/assets/images/consoles/gamecube.png",
+    "heroImage": "/assets/images/consoles/gamecube-hero.png",
+    "hardwareImage": "/assets/images/consoles/gamecube-hardware.png"
+  },
+  "keywords": [
+    "gamecube",
+    "nintendo",
+    "sixth generation",
+    "indigo",
+    "gekko",
+    "flipper",
+    "melee",
+    "2001"
+  ]
+}

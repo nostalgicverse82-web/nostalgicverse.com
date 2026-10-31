@@ -1,0 +1,68 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-xenoblade-chronicles-x",
+  "slug": "xenoblade-chronicles-x",
+  "title": "Xenoblade Chronicles X",
+  "originalReleaseYear": 2015,
+  "exactReleaseDate": "April 29, 2015",
+  "originalLaunchPlatform": "Wii U",
+  "originalLaunchRegion": "Japan",
+  "developer": "Monolith Soft",
+  "publisher": "Nintendo",
+  "platforms": [
+    "Wii U"
+  ],
+  "genre": "action-rpg",
+  "subgenres": [
+    "open-world",
+    "mecha"
+  ],
+  "era": "2010s",
+  "shortDescription": "Survivors from Earth colonize uncharted planet Mira piloting transformable Skell mechas across continents.",
+  "historicalSignificance": "Pushed Wii U hardware to its absolute limit with an astonishing seamless sci-fi wilderness.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Xenoblade_Chronicles_X",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Survivors from Earth colonize uncharted planet Mira piloting transformable Skell mechas across continents.",
+    "culturalImpact": "Pushed Wii U hardware to its absolute limit with an astonishing seamless sci-fi wilderness."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "Wii U"
+    ],
+    "genres": [
+      "action-rpg"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Xenoblade_Chronicles_X_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Xenoblade_Chronicles_X_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Xenoblade_Chronicles_X",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Xenoblade Chronicles X",
+    "Monolith Soft",
+    "Nintendo",
+    "Wii U",
+    "action-rpg",
+    "2015",
+    "2015",
+    "Wii U",
+    "open-world",
+    "mecha"
+  ],
+  "url": "/games/xenoblade-chronicles-x/",
+  "featured": false
+}

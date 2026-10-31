@@ -1,0 +1,150 @@
+{
+  "auditDate": "2026-09-27T10:15:10.179Z",
+  "version": "19.0.0",
+  "environment": "Node.js v25.2.1",
+  "sections": {
+    "secretScan": {
+      "pass": true,
+      "findingsCount": 0,
+      "gitignoreProtectsEnv": true,
+      "details": []
+    },
+    "unauthenticatedAccess": {
+      "pass": true,
+      "results": [
+        {
+          "path": "/api/owner/stats",
+          "expected": 401,
+          "actual": 401,
+          "pass": true
+        },
+        {
+          "path": "/api/owner/audit-logs",
+          "expected": 401,
+          "actual": 401,
+          "pass": true
+        },
+        {
+          "path": "/api/cms/games",
+          "expected": 401,
+          "actual": 401,
+          "pass": true
+        },
+        {
+          "path": "/api/account/profile",
+          "expected": 401,
+          "actual": 401,
+          "pass": true
+        },
+        {
+          "path": "/api/support/tickets",
+          "expected": 401,
+          "actual": 401,
+          "pass": true
+        }
+      ]
+    },
+    "rbacNonOwner": {
+      "pass": true,
+      "results": [
+        {
+          "path": "/api/owner/stats",
+          "expected": 403,
+          "actual": 403,
+          "pass": true
+        },
+        {
+          "path": "/api/owner/audit-logs",
+          "expected": 403,
+          "actual": 403,
+          "pass": true
+        },
+        {
+          "path": "/api/cms/games",
+          "expected": 403,
+          "actual": 403,
+          "pass": true
+        },
+        {
+          "path": "/api/owner/settings",
+          "expected": 403,
+          "actual": 403,
+          "pass": true
+        }
+      ]
+    },
+    "ownerAccess": {
+      "pass": true,
+      "results": [
+        {
+          "path": "/api/owner/stats",
+          "expected": 200,
+          "actual": 200,
+          "pass": true
+        },
+        {
+          "path": "/api/owner/audit-logs",
+          "expected": 200,
+          "actual": 200,
+          "pass": true
+        },
+        {
+          "path": "/api/cms/games",
+          "expected": 200,
+          "actual": 200,
+          "pass": true
+        },
+        {
+          "path": "/api/owner/settings",
+          "expected": 200,
+          "actual": 200,
+          "pass": true
+        }
+      ]
+    },
+    "securityHeaders": {
+      "pass": true,
+      "checks": {
+        "hasNosniff": true,
+        "hasCsp": true,
+        "hasReferrerPolicy": true,
+        "hasPermissionsPolicy": true,
+        "publicFrameOptions": true,
+        "protectedFrameOptions": true,
+        "privateCacheControl": true
+      }
+    },
+    "sqlInjection": {
+      "pass": true,
+      "gameCountPreserved": true,
+      "results": [
+        {
+          "path": "/api/search?q=' OR 1=1 --",
+          "status": 200,
+          "safe": true
+        },
+        {
+          "path": "/api/search?q='; DROP TABLE games; --",
+          "status": 200,
+          "safe": true
+        },
+        {
+          "path": "/api/discovery/recommendations?gameId=' UNION SELECT username,password_hash FROM users --",
+          "status": 404,
+          "safe": true
+        },
+        {
+          "path": "/api/content/games/' OR 'a'='a",
+          "status": 404,
+          "safe": true
+        }
+      ]
+    },
+    "xssSanitization": {
+      "pass": true,
+      "note": "Content is stored parameterized and rendered with strict CSP script-src self"
+    }
+  },
+  "findings": [],
+  "status": "PASS"
+}

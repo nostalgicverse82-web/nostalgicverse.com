@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-socom-u-s-navy-seals",
+  "slug": "socom-u-s-navy-seals",
+  "title": "SOCOM: U.S. Navy SEALs",
+  "originalReleaseYear": 2002,
+  "exactReleaseDate": "August 27, 2002",
+  "originalLaunchPlatform": "PlayStation 2",
+  "originalLaunchRegion": "North America",
+  "developer": "Zipper Interactive",
+  "publisher": "Sony Computer Entertainment",
+  "platforms": [
+    "PlayStation 2"
+  ],
+  "genre": "tactical-shooter",
+  "subgenres": [
+    "third-person-shooter"
+  ],
+  "era": "2000s",
+  "shortDescription": "Tactical military shooter utilizing the USB headset for voice commands and bundling the PS2 Network Adapter.",
+  "historicalSignificance": "Spearheaded modern online console multiplayer and clan culture on PlayStation 2.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/SOCOM:_U.S._Navy_SEALs",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Tactical military shooter utilizing the USB headset for voice commands and bundling the PS2 Network Adapter.",
+    "culturalImpact": "Spearheaded modern online console multiplayer and clan culture on PlayStation 2."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 2"
+    ],
+    "genres": [
+      "tactical-shooter"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/1/14/SOCOM_US_Navy_SEALs_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/1/14/SOCOM_US_Navy_SEALs_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/SOCOM:_U.S._Navy_SEALs",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "SOCOM: U.S. Navy SEALs",
+    "Zipper Interactive",
+    "Sony Computer Entertainment",
+    "PlayStation 2",
+    "tactical-shooter",
+    "2002",
+    "2000s",
+    "PlayStation 2",
+    "third-person-shooter"
+  ],
+  "url": "/games/socom-u-s-navy-seals/",
+  "featured": false
+}

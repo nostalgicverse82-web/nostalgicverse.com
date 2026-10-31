@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-sly-cooper-and-the-thievius-raccoonus",
+  "slug": "sly-cooper-and-the-thievius-raccoonus",
+  "title": "Sly Cooper and the Thievius Raccoonus",
+  "originalReleaseYear": 2002,
+  "exactReleaseDate": "September 23, 2002",
+  "originalLaunchPlatform": "PlayStation 2",
+  "originalLaunchRegion": "North America",
+  "developer": "Sucker Punch Productions",
+  "publisher": "Sony Computer Entertainment",
+  "platforms": [
+    "PlayStation 2"
+  ],
+  "genre": "platformer",
+  "subgenres": [
+    "stealth"
+  ],
+  "era": "2000s",
+  "shortDescription": "Cel-shaded stealth platformer starring raccoon gentleman thief Sly Cooper reclaiming his family heirloom.",
+  "historicalSignificance": "Introduced distinctive comic-book noir aesthetics and precise stealth-platforming to the Sony lineup.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Sly_Cooper_and_the_Thievius_Raccoonus",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Cel-shaded stealth platformer starring raccoon gentleman thief Sly Cooper reclaiming his family heirloom.",
+    "culturalImpact": "Introduced distinctive comic-book noir aesthetics and precise stealth-platforming to the Sony lineup."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 2"
+    ],
+    "genres": [
+      "platformer"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/8/87/Sly_Cooper_and_the_Thievius_Raccoonus.png",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/8/87/Sly_Cooper_and_the_Thievius_Raccoonus.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Sly_Cooper_and_the_Thievius_Raccoonus",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Sly Cooper and the Thievius Raccoonus",
+    "Sucker Punch Productions",
+    "Sony Computer Entertainment",
+    "PlayStation 2",
+    "platformer",
+    "2002",
+    "2000s",
+    "PlayStation 2",
+    "stealth"
+  ],
+  "url": "/games/sly-cooper-and-the-thievius-raccoonus/",
+  "featured": false
+}

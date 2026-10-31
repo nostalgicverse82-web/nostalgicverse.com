@@ -1,0 +1,88 @@
+{
+  "id": "game-super-mario-odyssey",
+  "slug": "super-mario-odyssey",
+  "title": "Super Mario Odyssey",
+  "japaneseTitle": "スーパーマリオ オデッセイ",
+  "url": "/games/super-mario-odyssey/",
+  "originalReleaseYear": 2017,
+  "exactReleaseDate": "2017-10-27",
+  "developer": "Nintendo EPD Tokyo",
+  "publisher": "Nintendo",
+  "director": "Kenta Motokura",
+  "designer": "Shigeru Miyamoto, Yoshiaki Koizumi",
+  "composer": "Naoto Kubo, Shiho Fujii, Koji Kondo",
+  "originalLaunchPlatform": "Nintendo Switch",
+  "platforms": [
+    "Nintendo Switch"
+  ],
+  "genre": "platformer",
+  "subgenres": [
+    "3D Sandbox Platformer",
+    "Capture Mechanic Platformer"
+  ],
+  "era": "2010s",
+  "shortDescription": "Nintendo's joyous globe-trotting 3D sandbox platformer featuring Cappy, possession captures, and New Donk City.",
+  "historicalSignificance": "The triumphant return to the open sandbox 3D platforming lineage of Super Mario 64 and Sunshine, introducing the capture mechanic via Cappy that allowed Mario to inhabit over fifty unique creatures, objects, and enemies.",
+  "editorialContent": {
+    "overview": "Directed by Kenta Motokura under producer Yoshiaki Koizumi at Nintendo EPD Tokyo, Super Mario Odyssey launched in October 2017 for the Nintendo Switch. Traveling aboard the hat-shaped airship Odyssey alongside sentient bonnet ghost Cappy, Mario journeys across diverse globe-trotting kingdoms (from prehistoric Cascade Kingdom to the metropolitan skyscrapers of New Donk City) to stop Bowser's forced wedding with Princess Peach.",
+    "gameplay": "Mario's movement reaches peak acrobatic expression, incorporating dive bounces, cap-throw midair stalls, and triple jumps. By throwing Cappy onto enemies, Mario can 'Capture' and control them directly: steering a roaring T-Rex, flying as a Bullet Bill, swimming as a Cheep Cheep, or flickering through electrical power lines. Over 800 Power Moons reward curious exploration.",
+    "technicalInnovation": "Nintendo EPD engineered silky-smooth locked 60fps performance on portable Switch hardware, integrating seamless transitions into retro 2D 8-bit NES murals wrapped around 3D geometry and the big-band swing vocal anthem 'Jump Up, Super Star!' performed by Pauline.",
+    "culturalImpact": "With over 27 million copies sold and a 97 Metacritic score, Super Mario Odyssey stands as a celebration of pure interactive delight, hailed as one of the finest platformers ever created.",
+    "preservationNotes": "Preserved natively on Nintendo Switch game cards, running at dynamic 900p/720p 60fps."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "October 27, 2017",
+    "leadPlatform": "Nintendo Switch",
+    "genre": "platformer",
+    "sales": "Over 27.6 million copies worldwide",
+    "awards": [
+      "Game of the Year 2017 (IGN, GameSpot nominee)",
+      "The Game Awards Best Family Game",
+      "Metacritic score of 97"
+    ],
+    "technicalSpecs": {
+      "engine": "Nintendo EPD Tokyo proprietary 3D sandbox engine",
+      "resolution": "900p docked / 720p handheld (locked 60fps)",
+      "soundChip": "Nintendo Switch PCM with live big-band jazz orchestrations",
+      "mediaFormat": "Nintendo Switch Game Card (16 GB)"
+    },
+    "relationships": {
+      "primaryConsole": "nintendo-switch",
+      "developerEntity": "Nintendo",
+      "lineage": [
+        "Super Mario 64",
+        "Super Mario Sunshine",
+        "Super Mario Galaxy",
+        "Super Mario 3D World"
+      ]
+    }
+  },
+  "assets": {
+    "cover": "/assets/images/games/super-mario-odyssey.webp",
+    "banner": "/assets/images/games/super-mario-odyssey-banner.webp",
+    "screenshots": [
+      "/assets/images/games/super-mario-odyssey-screen1.webp",
+      "/assets/images/games/super-mario-odyssey-screen2.webp"
+    ],
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/8/8d/Super_Mario_Odyssey.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/8/8d/Super_Mario_Odyssey.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Super_Mario_Odyssey.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "review-required",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "super mario odyssey",
+    "cappy",
+    "new donk city",
+    "nintendo switch",
+    "pauline",
+    "jump up super star",
+    "platformer",
+    "power moon"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

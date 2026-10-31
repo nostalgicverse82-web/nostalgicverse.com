@@ -1,0 +1,42 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+  "id": "console-xbox-series-x",
+  "slug": "xbox-series-x",
+  "name": "Microsoft Xbox Series X",
+  "manufacturer": "Microsoft",
+  "generation": "Ninth Generation",
+  "generationNumber": 9,
+  "originalReleaseYear": 2020,
+  "exactReleaseDate": "November 10, 2020",
+  "mediaFormat": "Ultra HD Blu-ray (up to 100GB) & Digital",
+  "significance": "Standardized seamless multi-game Quick Resume state switching and full legacy backward compatibility spanning four hardware generations.",
+  "verifiedFactualData": {
+    "cpu": "Custom 8-core AMD Zen 2 @ 3.8 GHz (3.66 GHz with SMT)",
+    "gpuOrVideoChip": "Custom AMD RDNA 2 (12.15 TFLOPS, 52 CUs @ 1.825 GHz)",
+    "ram": "16 GB GDDR6 (10 GB @ 560 GB/s, 6 GB @ 336 GB/s)"
+  },
+  "editorialContent": {
+    "overview": "The monolithic 12-teraflop powerhouse delivering Quick Resume state-swapping and four-generation backward compatibility.",
+    "marketLegacy": "Standardized seamless multi-game Quick Resume state switching and full legacy backward compatibility spanning four hardware generations.",
+    "controllerDesign": "Xbox Wireless Controller with hybrid D-pad and dedicated Share button"
+  },
+  "keyGames": [
+    "halo-infinite",
+    "forza-horizon-5",
+    "starfield"
+  ],
+  "assets": {
+    "mainImage": "/assets/images/consoles/xbox-series-x.png",
+    "heroImage": "/assets/images/consoles/xbox-series-x-hero.png",
+    "hardwareImage": "/assets/images/consoles/xbox-series-x-hardware.png"
+  },
+  "keywords": [
+    "xbox series x",
+    "xbox",
+    "microsoft",
+    "ninth generation",
+    "quick resume",
+    "velocity architecture",
+    "2020"
+  ]
+}

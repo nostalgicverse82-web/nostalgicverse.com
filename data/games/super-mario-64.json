@@ -1,0 +1,89 @@
+{
+  "id": "game-super-mario-64",
+  "slug": "super-mario-64",
+  "title": "Super Mario 64",
+  "japaneseTitle": "スーパーマリオ64",
+  "url": "/games/super-mario-64/",
+  "originalReleaseYear": 1996,
+  "exactReleaseDate": "1996-06-23",
+  "developer": "Nintendo EAD",
+  "publisher": "Nintendo",
+  "director": "Shigeru Miyamoto",
+  "designer": "Shigeru Miyamoto",
+  "composer": "Koji Kondo",
+  "originalLaunchPlatform": "Nintendo 64",
+  "platforms": [
+    "Nintendo 64",
+    "iQue Player",
+    "Nintendo DS"
+  ],
+  "genre": "platformer",
+  "subgenres": [
+    "3D Platformer",
+    "Collectathon"
+  ],
+  "era": "1990s",
+  "shortDescription": "The seminal 3D platformer that established the universal grammar of third-person analog camera and 3D character movement.",
+  "historicalSignificance": "Established the template for 3D game control that the entire video game industry adopted, introducing dynamic 360-degree analog stick movement, an orbital camera system, and non-linear open sandbox mission structures inside Princess Peach's castle.",
+  "editorialContent": {
+    "overview": "Launched alongside the Nintendo 64 in Japan in June 1996, Super Mario 64 is universally recognized as the landmark achievement that solved the existential problem of 3D game design. Directed by Shigeru Miyamoto, the title discarded linear left-to-right obstacle runs in favor of open, explorable sandbox worlds accessed through magical paintings within Princess Peach's castle, guided by an innovative analog thumbstick controller.",
+    "gameplay": "Mario commands an unprecedented repertoire of dynamic acrobatic movements: triple jumps, wall kicks, long jumps, backflips, and ground pounds. Players select specific Star missions within each realm, navigating terrain freely to discover objectives, collect red coins, solve environmental puzzles, and overcome multi-phase boss confrontations.",
+    "technicalInnovation": "Engineered around the Silicon Graphics Reality Coprocessor (RCP) of the Nintendo 64, Mario 64 established dynamic perspective camera algorithms managed by Lakitu, true real-time 3D collision meshes, and fluid inverse kinematics that made navigating polygon-based depth intuitive.",
+    "culturalImpact": "Mario 64 shifted platforming from rote memorization of timing to expressive spatial joy. It remains the gold standard of 3D movement design and spawned the modern speedrunning renaissance, inspiring generations of engine developers and game directors.",
+    "preservationNotes": "Preserved in its original 8 MB cartridge form, Nintendo DS revision, and official virtual console emulations. The source structure continues to serve as an academic benchmark for 3D gameplay engineering."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "June 23, 1996",
+    "leadPlatform": "Nintendo 64",
+    "genre": "platformer",
+    "sales": "11.91 million copies on Nintendo 64",
+    "awards": [
+      "Game of the Year 1996 (Spotlight Awards)",
+      "CES Best of Show 1996",
+      "AIAS Outstanding Achievement in Interactive Title of the Year nominee"
+    ],
+    "technicalSpecs": {
+      "engine": "Nintendo EAD in-house 3D N64 microcode engine",
+      "resolution": "320x240 progressive (240p)",
+      "soundChip": "Reality Signal Processor (RSP) software wavetable audio synthesis",
+      "mediaFormat": "64-Megabit (8 Megabyte) Cartridge"
+    },
+    "relationships": {
+      "primaryConsole": "nintendo-64",
+      "developerEntity": "Nintendo",
+      "lineage": [
+        "Super Mario World",
+        "Banjo-Kazooie",
+        "Super Mario Sunshine",
+        "Super Mario Odyssey"
+      ]
+    }
+  },
+  "assets": {
+    "cover": "/assets/images/games/super-mario-64.webp",
+    "banner": "/assets/images/games/super-mario-64-banner.webp",
+    "screenshots": [
+      "/assets/images/games/super-mario-64-screen1.webp",
+      "/assets/images/games/super-mario-64-screen2.webp"
+    ],
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/e/e9/Super_Mario_64.png",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/e/e9/Super_Mario_64.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Super_Mario_64.png",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "review-required",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "super mario 64",
+    "nintendo 64",
+    "miyamoto",
+    "3d platformer",
+    "koji kondo",
+    "peach castle",
+    "analog stick"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": true
+}

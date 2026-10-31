@@ -1,0 +1,2370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- Primary SEO Metadata -->
+  <title>Stories from the Archive — NostalgicVerse</title>
+  <meta name="description" content="Editorial retrospectives, developmental oral histories, and technical monographs documenting the hardware breakthroughs and creative revolutions of video game history.">
+  <meta name="keywords" content="video game retrospectives, gaming history essays, console hardware architecture, Super FX chip, FM synthesis, Sega Dreamcast online, game preservation crisis">
+  <meta name="author" content="NostalgicVerse Digital Museum">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://nostalgicverse.com/blog/">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <meta name="theme-color" content="#08080C">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://nostalgicverse.com/blog/">
+  <meta property="og:title" content="Stories from the Archive — NostalgicVerse">
+  <meta property="og:description" content="Editorial retrospectives, technical monographs, and developmental oral histories documenting the games and machines that defined interactive entertainment.">
+  <meta property="og:site_name" content="NostalgicVerse">
+  <meta property="og:image" content="https://nostalgicverse.com/assets/images/branding/logo/logo.png">
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://nostalgicverse.com/blog/">
+  <meta name="twitter:title" content="Stories from the Archive — NostalgicVerse">
+  <meta name="twitter:description" content="Editorial retrospectives, technical monographs, and developmental oral histories documenting video game history.">
+  <meta name="twitter:image" content="https://nostalgicverse.com/assets/images/branding/logo/logo.png">
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "CollectionPage",
+        "@id": "https://nostalgicverse.com/blog/#collectionpage",
+        "url": "https://nostalgicverse.com/blog/",
+        "name": "Stories from the Archive — NostalgicVerse",
+        "description": "Historical essays, engineering retrospectives, and developmental histories exploring video game culture and hardware milestones.",
+        "isPartOf": {
+          "@type": "WebSite",
+          "@id": "https://nostalgicverse.com/#website",
+          "url": "https://nostalgicverse.com/",
+          "name": "NostalgicVerse"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://nostalgicverse.com/blog/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://nostalgicverse.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Stories",
+            "item": "https://nostalgicverse.com/blog/"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    /* ==========================================================================
+       01. MASTER DESIGN TOKENS
+       ========================================================================== */
+    :root {
+      --nv-bg: #08080C;
+      --nv-bg-alt: #0C0C11;
+      --nv-surface: #111118;
+      --nv-surface-raised: #15151D;
+      --nv-surface-active: #1C1C26;
+      --nv-border: #1E1E2C;
+      --nv-border-strong: #2A2A38;
+      --nv-border-hover: rgba(0, 229, 255, 0.35);
+
+      --nv-text-primary: #F4F4F7;
+      --nv-text-secondary: #A7A7B5;
+      --nv-text-muted: #737381;
+
+      --nv-cyan: #00E5FF;
+      --nv-gold: #FFB300;
+      --nv-crimson: #FF2A6D;
+
+      --nv-font-sans: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      --nv-font-mono: ui-monospace, "SFMono-Regular", Menlo, Consolas, "Liberation Mono", monospace;
+
+      --nv-container-max: 1400px;
+      --nv-header-height: 72px;
+      --nv-radius-sm: 4px;
+      --nv-radius-md: 8px;
+      --nv-radius-lg: 12px;
+
+      --nv-shadow-ambient: 0 20px 60px rgba(0, 0, 0, 0.45);
+      --nv-shadow-card: 0 10px 30px rgba(0, 0, 0, 0.35);
+
+      --nv-transition-fast: 160ms cubic-bezier(0.16, 1, 0.3, 1);
+      --nv-transition-normal: 260ms cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html {
+      font-size: 16px;
+      line-height: 1.5;
+      background-color: var(--nv-bg);
+      color: var(--nv-text-primary);
+      font-family: var(--nv-font-sans);
+      scroll-behavior: smooth;
+      text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      background-color: var(--nv-bg);
+      color: var(--nv-text-primary);
+      overflow-x: hidden;
+      position: relative;
+    }
+
+    body.menu-open { overflow: hidden; }
+
+    img, svg { display: block; max-width: 100%; height: auto; }
+    a { color: inherit; text-decoration: none; transition: color var(--nv-transition-fast); }
+    button, input, select { font-family: inherit; font-size: inherit; color: inherit; border: none; background: none; }
+    button { cursor: pointer; }
+
+    :focus-visible { outline: 2px solid var(--nv-cyan); outline-offset: 3px; }
+
+    .skip-link {
+      position: absolute;
+      top: -100px;
+      left: 16px;
+      background: var(--nv-cyan);
+      color: #000;
+      padding: 10px 16px;
+      font-weight: 700;
+      z-index: 10000;
+      border-radius: var(--nv-radius-sm);
+      transition: top 0.2s;
+    }
+    .skip-link:focus { top: 16px; }
+
+    .bg-grid-overlay {
+      position: fixed;
+      inset: 0;
+      background-image: 
+        linear-gradient(to right, rgba(255, 255, 255, 0.015) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(255, 255, 255, 0.015) 1px, transparent 1px);
+      background-size: 48px 48px;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .container {
+      width: 100%;
+      max-width: var(--nv-container-max);
+      margin: 0 auto;
+      padding: 0 24px;
+      position: relative;
+      z-index: 1;
+    }
+
+    /* Header */
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      height: var(--nv-header-height);
+      background: rgba(8, 8, 12, 0.88);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--nv-border);
+      display: flex;
+      align-items: center;
+    }
+
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+    }
+
+    .brand-group { display: flex; align-items: center; gap: 16px; }
+    .brand-logo-wrap { display: flex; align-items: center; gap: 12px; }
+    .brand-mark {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 36px;
+      height: 36px;
+      background: var(--nv-surface-raised);
+      border: 1px solid var(--nv-border-strong);
+      border-radius: var(--nv-radius-sm);
+      font-family: var(--nv-font-mono);
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: var(--nv-cyan);
+      letter-spacing: 0.05em;
+    }
+    .brand-text { font-size: 1.1rem; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; }
+
+    .site-nav { display: none; align-items: center; gap: 24px; }
+    @media (min-width: 1024px) { .site-nav { display: flex; } }
+
+    .nav-link {
+      font-size: 0.875rem;
+      font-weight: 500;
+      color: var(--nv-text-secondary);
+      transition: color var(--nv-transition-fast);
+      position: relative;
+      padding: 6px 0;
+    }
+    .nav-link:hover, .nav-link.active { color: var(--nv-text-primary); }
+    .nav-link.active::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background: var(--nv-cyan);
+    }
+
+    .header-actions { display: flex; align-items: center; gap: 10px; }
+    .header-action-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      border-radius: var(--nv-radius-sm);
+      background: var(--nv-surface);
+      border: 1px solid var(--nv-border);
+      color: var(--nv-text-secondary);
+      transition: all var(--nv-transition-fast);
+      position: relative;
+    }
+    .header-action-btn:hover {
+      border-color: var(--nv-border-hover);
+      color: var(--nv-cyan);
+    }
+    .fav-badge {
+      position: absolute;
+      top: -4px;
+      right: -4px;
+      min-width: 18px;
+      height: 18px;
+      padding: 0 4px;
+      border-radius: 9px;
+      background: var(--nv-gold);
+      color: #000;
+      font-size: 0.65rem;
+      font-weight: 700;
+      font-family: var(--nv-font-mono);
+      display: none;
+      align-items: center;
+      justify-content: center;
+    }
+    .fav-badge.has-items { display: flex; }
+
+    .menu-toggle {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      border-radius: var(--nv-radius-sm);
+      background: var(--nv-surface);
+      border: 1px solid var(--nv-border);
+      color: var(--nv-text-secondary);
+    }
+    @media (min-width: 1024px) { .menu-toggle { display: none; } }
+
+    /* Mobile Drawer */
+    .mobile-drawer-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.75);
+      backdrop-filter: blur(8px);
+      z-index: 1999;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity var(--nv-transition-normal);
+    }
+    .mobile-drawer-overlay.is-open { opacity: 1; pointer-events: auto; }
+    .mobile-drawer {
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      width: 320px;
+      max-width: 85vw;
+      background: var(--nv-surface);
+      border-left: 1px solid var(--nv-border);
+      z-index: 2000;
+      transform: translateX(100%);
+      transition: transform var(--nv-transition-normal);
+      display: flex;
+      flex-direction: column;
+      padding: 24px;
+      overflow-y: auto;
+    }
+    .mobile-drawer.is-open { transform: translateX(0); }
+    .drawer-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 28px; }
+    .drawer-nav { display: flex; flex-direction: column; gap: 8px; flex: 1; }
+    .drawer-nav-link {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 12px 14px;
+      border-radius: var(--nv-radius-sm);
+      color: var(--nv-text-secondary);
+      font-size: 0.95rem;
+      font-weight: 500;
+    }
+    .drawer-nav-link:hover, .drawer-nav-link.active {
+      background: var(--nv-surface-raised);
+      color: var(--nv-cyan);
+    }
+    .nav-num { font-family: var(--nv-font-mono); font-size: 0.75rem; color: var(--nv-text-muted); }
+    .drawer-footer { margin-top: 24px; padding-top: 16px; border-top: 1px solid var(--nv-border); font-family: var(--nv-font-mono); font-size: 0.75rem; color: var(--nv-text-muted); }
+
+    /* Breadcrumbs */
+    .breadcrumbs {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-family: var(--nv-font-mono);
+      font-size: 0.75rem;
+      color: var(--nv-text-muted);
+      padding: 24px 0 12px;
+    }
+    .breadcrumbs a:hover { color: var(--nv-cyan); }
+    .breadcrumbs .current { color: var(--nv-text-secondary); }
+
+    /* Hero */
+    .archive-hero {
+      padding: 24px 0 48px;
+      border-bottom: 1px solid var(--nv-border);
+      margin-bottom: 40px;
+    }
+    .hero-eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-family: var(--nv-font-mono);
+      font-size: 0.75rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--nv-gold);
+      margin-bottom: 16px;
+    }
+    .hero-headline {
+      font-size: clamp(2.4rem, 5vw, 4rem);
+      font-weight: 800;
+      line-height: 1.05;
+      letter-spacing: -0.03em;
+      margin-bottom: 16px;
+      color: var(--nv-text-primary);
+    }
+    .hero-lead {
+      max-width: 840px;
+      font-size: 1.15rem;
+      line-height: 1.65;
+      color: var(--nv-text-secondary);
+      margin-bottom: 32px;
+    }
+
+    /* Stats Strip */
+    .stats-strip {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 16px;
+      background: var(--nv-surface);
+      border: 1px solid var(--nv-border);
+      border-radius: var(--nv-radius-md);
+      padding: 20px 24px;
+    }
+    @media (min-width: 768px) {
+      .stats-strip { grid-template-columns: repeat(4, 1fr); }
+    }
+    .stat-item { display: flex; flex-direction: column; gap: 4px; }
+    .stat-num { font-family: var(--nv-font-mono); font-size: 1.75rem; font-weight: 800; color: var(--nv-gold); line-height: 1; }
+    .stat-label { font-family: var(--nv-font-mono); font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--nv-text-muted); }
+
+    /* Curated Section */
+    .curated-section { margin-bottom: 48px; }
+    .section-header {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      margin-bottom: 24px;
+    }
+    .section-tag {
+      display: inline-block;
+      font-family: var(--nv-font-mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--nv-gold);
+      background: rgba(255, 179, 0, 0.08);
+      border: 1px solid rgba(255, 179, 0, 0.25);
+      padding: 4px 10px;
+      border-radius: 999px;
+      margin-bottom: 8px;
+    }
+    .section-title {
+      font-size: 1.6rem;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+      color: var(--nv-text-primary);
+    }
+
+    .curated-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 24px;
+    }
+    @media (min-width: 768px) {
+      .curated-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (min-width: 1100px) {
+      .curated-grid { grid-template-columns: repeat(4, 1fr); }
+    }
+
+    /* Control Console */
+    .control-console {
+      background: var(--nv-surface);
+      border: 1px solid var(--nv-border);
+      border-radius: var(--nv-radius-md);
+      padding: 24px;
+      margin-bottom: 32px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .search-row { position: relative; width: 100%; }
+    .search-icon-adornment {
+      position: absolute;
+      left: 16px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--nv-text-muted);
+      pointer-events: none;
+    }
+    .search-input-field {
+      width: 100%;
+      height: 48px;
+      padding: 0 44px;
+      background: var(--nv-surface-raised);
+      border: 1px solid var(--nv-border-strong);
+      border-radius: var(--nv-radius-sm);
+      color: var(--nv-text-primary);
+      font-size: 0.95rem;
+      transition: border-color var(--nv-transition-fast);
+    }
+    .search-input-field:focus {
+      border-color: var(--nv-cyan);
+      outline: none;
+    }
+    .search-clear-btn {
+      position: absolute;
+      right: 12px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 28px;
+      height: 28px;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      color: var(--nv-text-muted);
+      border-radius: 50%;
+    }
+    .search-clear-btn.is-visible { display: inline-flex; }
+    .search-clear-btn:hover { color: var(--nv-text-primary); background: rgba(255, 255, 255, 0.05); }
+
+    .filter-row {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 16px;
+    }
+    @media (min-width: 640px) {
+      .filter-row { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (min-width: 960px) {
+      .filter-row { grid-template-columns: 1.5fr 1fr 1fr auto; align-items: flex-end; }
+    }
+
+    .filter-group { display: flex; flex-direction: column; gap: 6px; }
+    .filter-label {
+      font-family: var(--nv-font-mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--nv-text-muted);
+    }
+    .select-wrapper { position: relative; width: 100%; }
+    .filter-select {
+      width: 100%;
+      height: 40px;
+      padding: 0 36px 0 14px;
+      background: var(--nv-surface-raised);
+      border: 1px solid var(--nv-border-strong);
+      border-radius: var(--nv-radius-sm);
+      color: var(--nv-text-primary);
+      font-size: 0.85rem;
+      cursor: pointer;
+      appearance: none;
+      -webkit-appearance: none;
+    }
+    .filter-select:focus { border-color: var(--nv-cyan); outline: none; }
+    .select-arrow {
+      position: absolute;
+      right: 12px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--nv-text-muted);
+      pointer-events: none;
+    }
+
+    .reset-btn {
+      height: 40px;
+      padding: 0 16px;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--nv-surface-raised);
+      border: 1px solid var(--nv-border-strong);
+      border-radius: var(--nv-radius-sm);
+      color: var(--nv-text-muted);
+      font-family: var(--nv-font-mono);
+      font-size: 0.8rem;
+      transition: all var(--nv-transition-fast);
+    }
+    .reset-btn:hover { border-color: var(--nv-border-hover); color: var(--nv-cyan); }
+
+    /* Results Meta Bar */
+    .catalogue-meta-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 12px 0;
+      margin-bottom: 24px;
+      border-bottom: 1px solid var(--nv-border);
+      font-family: var(--nv-font-mono);
+      font-size: 0.75rem;
+      color: var(--nv-text-muted);
+    }
+    .results-count-text { color: var(--nv-gold); font-weight: 700; }
+
+    /* Stories Grid */
+    .stories-archive-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 28px;
+      margin-bottom: 64px;
+    }
+    @media (min-width: 680px) {
+      .stories-archive-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (min-width: 1080px) {
+      .stories-archive-grid { grid-template-columns: repeat(3, 1fr); }
+    }
+
+    /* Story Card */
+    .story-card {
+      background: var(--nv-surface);
+      border: 1px solid var(--nv-border);
+      border-radius: var(--nv-radius-md);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      transition: transform var(--nv-transition-normal), border-color var(--nv-transition-fast), box-shadow var(--nv-transition-normal);
+      position: relative;
+    }
+    .story-card:hover {
+      transform: translateY(-4px);
+      border-color: var(--nv-border-hover);
+      box-shadow: var(--nv-shadow-card);
+    }
+
+    .card-media {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      background: var(--nv-surface-raised);
+      overflow: hidden;
+    }
+    .card-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.4s ease;
+    }
+    .story-card:hover .card-img { transform: scale(1.03); }
+
+    /* Fallback Plate */
+    .card-fallback-plate {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg, var(--nv-surface-raised) 0%, #171720 100%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      text-align: center;
+      color: var(--nv-text-muted);
+    }
+    .plate-icon { margin-bottom: 10px; color: var(--nv-gold); opacity: 0.8; }
+    .plate-title {
+      font-family: var(--nv-font-sans);
+      font-size: 0.9rem;
+      font-weight: 700;
+      color: var(--nv-text-primary);
+      margin-bottom: 4px;
+      line-height: 1.3;
+    }
+    .plate-tag {
+      font-family: var(--nv-font-mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.08em;
+      color: var(--nv-gold);
+    }
+
+    /* Fav Anchor */
+    .card-fav-anchor {
+      position: absolute;
+      top: 12px;
+      right: 12px;
+      z-index: 10;
+    }
+    .fav-btn {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background: rgba(8, 8, 12, 0.75);
+      backdrop-filter: blur(8px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--nv-text-muted);
+      transition: all var(--nv-transition-fast);
+    }
+    .fav-btn:hover {
+      border-color: var(--nv-gold);
+      color: var(--nv-gold);
+      transform: scale(1.08);
+    }
+    .fav-btn.is-active {
+      color: var(--nv-gold);
+      border-color: var(--nv-gold);
+      background: rgba(255, 179, 0, 0.15);
+    }
+    .fav-btn svg { width: 18px; height: 18px; fill: none; stroke: currentColor; }
+    .fav-btn.is-active svg { fill: var(--nv-gold); }
+
+    .card-badges {
+      position: absolute;
+      bottom: 12px;
+      left: 12px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      z-index: 5;
+    }
+    .badge-pill {
+      font-family: var(--nv-font-mono);
+      font-size: 0.65rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      padding: 3px 8px;
+      border-radius: var(--nv-radius-sm);
+      background: rgba(8, 8, 12, 0.85);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      color: var(--nv-gold);
+    }
+
+    .card-body {
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      justify-content: space-between;
+    }
+
+    .card-meta-line {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 10px;
+      font-family: var(--nv-font-mono);
+      font-size: 0.72rem;
+      color: var(--nv-text-muted);
+    }
+    .story-category { color: var(--nv-gold); letter-spacing: 0.08em; text-transform: uppercase; font-weight: 600; }
+
+    .story-title {
+      font-size: 1.2rem;
+      font-weight: 700;
+      line-height: 1.35;
+      color: var(--nv-text-primary);
+      margin-bottom: 12px;
+    }
+
+    .story-summary {
+      font-size: 0.875rem;
+      color: var(--nv-text-secondary);
+      line-height: 1.65;
+      margin-bottom: 18px;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .story-topics {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 20px;
+    }
+    .topic-tag {
+      font-family: var(--nv-font-mono);
+      font-size: 0.68rem;
+      padding: 2px 7px;
+      background: var(--nv-surface-raised);
+      border: 1px solid var(--nv-border);
+      border-radius: var(--nv-radius-sm);
+      color: var(--nv-text-muted);
+    }
+
+    .card-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 16px;
+      border-top: 1px solid var(--nv-border);
+      font-family: var(--nv-font-mono);
+      font-size: 0.75rem;
+    }
+    .story-read-time { color: var(--nv-text-muted); }
+    .story-link-btn {
+      color: var(--nv-gold);
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-weight: 600;
+    }
+    .story-link-btn:hover { color: #fff; }
+
+    /* Empty State */
+    .catalogue-empty-state {
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 64px 24px;
+      background: var(--nv-surface);
+      border: 1px dashed var(--nv-border-strong);
+      border-radius: var(--nv-radius-md);
+      margin-bottom: 64px;
+    }
+    .catalogue-empty-state.is-visible { display: flex; }
+    .empty-icon { color: var(--nv-text-muted); margin-bottom: 16px; }
+    .empty-title { font-size: 1.25rem; font-weight: 700; margin-bottom: 8px; color: var(--nv-text-primary); }
+    .empty-desc { max-width: 500px; font-size: 0.9rem; color: var(--nv-text-secondary); margin-bottom: 24px; }
+
+    /* Discovery Breaker */
+    .discovery-breaker {
+      background: linear-gradient(135deg, var(--nv-surface) 0%, var(--nv-surface-raised) 100%);
+      border: 1px solid var(--nv-border);
+      border-radius: var(--nv-radius-lg);
+      padding: 48px 36px;
+      margin-bottom: 64px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    @media (min-width: 840px) {
+      .discovery-breaker { flex-direction: row; align-items: center; justify-content: space-between; }
+    }
+    .breaker-content { max-width: 640px; }
+    .breaker-tag {
+      font-family: var(--nv-font-mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--nv-gold);
+      margin-bottom: 8px;
+    }
+    .breaker-title { font-size: 1.6rem; font-weight: 700; color: var(--nv-text-primary); margin-bottom: 10px; }
+    .breaker-desc { font-size: 0.95rem; color: var(--nv-text-secondary); line-height: 1.6; }
+    .breaker-action { display: flex; flex-wrap: wrap; gap: 12px; }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 12px 24px;
+      border-radius: var(--nv-radius-sm);
+      font-size: 0.875rem;
+      font-weight: 600;
+      transition: all var(--nv-transition-fast);
+      cursor: pointer;
+    }
+    .btn-gold { background: var(--nv-gold); color: #000; border: 1px solid var(--nv-gold); }
+    .btn-gold:hover { background: #ffc433; }
+    .btn-secondary { background: var(--nv-surface-raised); color: var(--nv-text-primary); border: 1px solid var(--nv-border-strong); }
+    .btn-secondary:hover { border-color: var(--nv-gold); color: var(--nv-gold); }
+
+    /* Footer */
+    .site-footer {
+      border-top: 1px solid var(--nv-border);
+      background: var(--nv-bg-alt);
+      padding: 56px 0 32px;
+      font-size: 0.85rem;
+      color: var(--nv-text-muted);
+      margin-top: auto;
+    }
+    .footer-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 36px;
+      margin-bottom: 40px;
+    }
+    .footer-col h3 {
+      font-family: var(--nv-font-mono);
+      font-size: 0.75rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--nv-text-primary);
+      margin-bottom: 16px;
+    }
+    .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+    .footer-col a { color: var(--nv-text-secondary); }
+    .footer-col a:hover { color: var(--nv-gold); }
+    .footer-bottom {
+      border-top: 1px solid var(--nv-border);
+      padding-top: 24px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 16px;
+      font-family: var(--nv-font-mono);
+      font-size: 0.75rem;
+    }
+    .footer-bottom a { color: var(--nv-text-muted); margin-left: 16px; }
+    .footer-bottom a:hover { color: var(--nv-gold); }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+      }
+    }
+  
+    .highlight-pulse {
+      animation: pulseStory 1.5s ease-out 2;
+    }
+    @keyframes pulseStory {
+      0% { border-color: var(--nv-cyan); box-shadow: 0 0 20px rgba(0, 229, 255, 0.4); }
+      50% { border-color: var(--nv-border-strong); box-shadow: none; }
+      100% { border-color: var(--nv-cyan); box-shadow: 0 0 20px rgba(0, 229, 255, 0.4); }
+    }
+
+    /* Global Official Logo Styles */
+    .site-logo-img {
+      height: 36px;
+      width: auto;
+      max-width: 190px;
+      display: block;
+    }
+    .drawer-logo-img {
+      height: 32px;
+      max-width: 160px;
+    }
+    .footer-logo-img {
+      height: 40px;
+      max-width: 200px;
+      margin-bottom: 12px;
+    }
+    @media (max-width: 768px) {
+      .site-logo-img {
+        height: 30px;
+        max-width: 150px;
+      }
+    }
+
+    /* Global Archive Support Section */
+    .archive-support-section {
+      padding: 48px 0;
+      border-top: 1px solid var(--nv-border, #1E1E2C);
+      background: var(--nv-bg-alt, #0C0C11);
+      position: relative;
+      z-index: 1;
+    }
+    .support-panel {
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+      background: var(--nv-surface, #111118);
+      border: 1px solid var(--nv-border, #1E1E2C);
+      border-radius: var(--nv-radius-lg, 12px);
+      padding: clamp(24px, 4vw, 40px);
+      align-items: center;
+    }
+    @media (min-width: 768px) {
+      .support-panel {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .support-content {
+        max-width: 65%;
+      }
+    }
+    .archive-support-section .catalog-tag {
+      display: inline-block;
+      font-family: var(--nv-font-mono, monospace);
+      font-size: 0.72rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      padding: 4px 10px;
+      border-radius: var(--nv-radius-sm, 4px);
+    }
+    .archive-support-section .tag-gold,
+    .support-modal .tag-gold {
+      color: var(--nv-gold, #FFB300);
+      background: rgba(255, 179, 0, 0.1);
+      border: 1px solid rgba(255, 179, 0, 0.25);
+    }
+    .support-title {
+      font-size: clamp(1.4rem, 2.5vw, 1.85rem);
+      font-weight: 800;
+      color: var(--nv-text-primary, #F4F4F7);
+      margin: 10px 0 12px;
+      letter-spacing: -0.02em;
+    }
+    .support-desc {
+      font-size: 0.95rem;
+      color: var(--nv-text-secondary, #A7A7B5);
+      line-height: 1.65;
+      margin-bottom: 8px;
+    }
+    .support-subdesc {
+      font-size: 0.85rem;
+      color: var(--nv-text-muted, #737381);
+      line-height: 1.5;
+      margin-bottom: 20px;
+    }
+    .support-actions {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .archive-support-section .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 12px 24px;
+      border-radius: var(--nv-radius-sm, 4px);
+      font-size: 0.875rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all var(--nv-transition-fast, 160ms ease);
+      cursor: pointer;
+    }
+    .archive-support-section .btn-secondary {
+      background: var(--nv-surface-raised, #15151D);
+      color: var(--nv-text-primary, #F4F4F7);
+      border: 1px solid var(--nv-border-strong, #2A2A38);
+    }
+    .archive-support-section .btn-secondary:hover {
+      border-color: var(--nv-cyan, #00E5FF);
+      color: var(--nv-cyan, #00E5FF);
+    }
+    .support-qr-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      flex-shrink: 0;
+    }
+    .support-qr-quiet-zone {
+      background: #FFFFFF;
+      padding: 14px;
+      border-radius: var(--nv-radius-md, 8px);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .support-qr-image {
+      width: clamp(160px, 20vw, 200px);
+      height: auto;
+      aspect-ratio: 1440 / 1472;
+      display: block;
+      object-fit: contain;
+    }
+    .support-qr-caption {
+      font-size: 0.8rem;
+      font-family: var(--nv-font-mono, monospace);
+      color: var(--nv-text-muted, #737381);
+      margin-top: 10px;
+    }
+
+    /* Support Modal Backdrop & Dialog */
+    .support-modal-backdrop {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.75);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      z-index: 9998;
+    }
+    .support-modal {
+      position: fixed;
+      inset: 0;
+      z-index: 9999;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 16px;
+      overflow-y: auto;
+    }
+    .support-modal-dialog {
+      background: var(--nv-surface, #111118);
+      border: 1px solid var(--nv-border-strong, #2A2A38);
+      border-radius: var(--nv-radius-lg, 12px);
+      padding: clamp(20px, 3.5vw, 32px);
+      max-width: 440px;
+      width: 100%;
+      box-shadow: 0 24px 64px rgba(0, 0, 0, 0.8);
+      position: relative;
+    }
+    .support-modal-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 12px;
+    }
+    .support-modal .tag-gold {
+      display: inline-block;
+      font-family: var(--nv-font-mono, monospace);
+      font-size: 0.72rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      padding: 4px 10px;
+      border-radius: var(--nv-radius-sm, 4px);
+    }
+    .support-modal-close {
+      color: var(--nv-text-muted, #737381);
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 6px;
+      border-radius: var(--nv-radius-sm, 4px);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      transition: color var(--nv-transition-fast, 160ms ease);
+    }
+    .support-modal-close:hover {
+      color: var(--nv-text-primary, #F4F4F7);
+      background: var(--nv-surface-raised, #15151D);
+    }
+    .support-modal-title {
+      font-size: 1.4rem;
+      font-weight: 800;
+      color: var(--nv-text-primary, #F4F4F7);
+      letter-spacing: -0.01em;
+      margin-bottom: 4px;
+    }
+    .support-modal-subtitle {
+      font-size: 0.95rem;
+      color: var(--nv-cyan, #00E5FF);
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+    .support-modal-desc {
+      font-size: 0.875rem;
+      color: var(--nv-text-secondary, #A7A7B5);
+      line-height: 1.6;
+      margin-bottom: 16px;
+    }
+    .support-modal-qr-wrap {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      margin: 16px 0;
+    }
+    .support-modal-qr {
+      width: 160px;
+      height: auto;
+      aspect-ratio: 1440 / 1472;
+      display: block;
+      object-fit: contain;
+    }
+    .support-modal-qr-text {
+      font-size: 0.825rem;
+      font-weight: 600;
+      color: var(--nv-text-primary, #F4F4F7);
+      margin-top: 10px;
+    }
+    .support-modal-actions {
+      display: flex;
+      gap: 8px;
+      margin-top: 16px;
+    }
+    .support-modal-btn {
+      flex: 1;
+      text-align: center;
+      padding: 10px 14px;
+      font-size: 0.85rem;
+      border-radius: var(--nv-radius-sm, 4px);
+      font-family: var(--nv-font-sans, system-ui);
+      font-weight: 600;
+      cursor: pointer;
+      transition: all var(--nv-transition-fast, 160ms ease);
+    }
+    .support-modal .btn-primary {
+      background: var(--nv-cyan, #00E5FF);
+      color: #000;
+      border: 1px solid var(--nv-cyan, #00E5FF);
+    }
+    .support-modal .btn-primary:hover {
+      background: #33ebff;
+    }
+    .support-modal .btn-secondary {
+      background: var(--nv-surface-raised, #15151D);
+      color: var(--nv-text-primary, #F4F4F7);
+      border: 1px solid var(--nv-border-strong, #2A2A38);
+    }
+    .support-modal .btn-secondary:hover {
+      border-color: var(--nv-cyan, #00E5FF);
+      color: var(--nv-cyan, #00E5FF);
+    }
+    body.support-modal-open {
+      overflow: hidden;
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .support-modal-backdrop,
+      .support-modal-dialog {
+        transition: none !important;
+        animation: none !important;
+      }
+    }
+
+  </style>
+  <link rel="stylesheet" href="/assets/css/auth-ui.css">
+  <link rel="stylesheet" href="/assets/css/avatar-picker.css">
+  <link rel="stylesheet" href="/assets/css/content-interactions.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to stories content</a>
+  <div class="bg-grid-overlay" aria-hidden="true"></div>
+
+  <!-- Header -->
+  <header class="site-header" id="site-header">
+    <div class="container">
+      <div class="header-inner">
+        <div class="brand-group">
+          <div class="account-control-wrap" id="account-control-wrap">
+            <button class="account-toggle-btn" id="account-toggle-btn" aria-expanded="false" aria-controls="account-dropdown-menu" aria-label="Account Menu">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                <circle cx="12" cy="7" r="4"></circle>
+              </svg>
+            </button>
+            <div class="account-dropdown-menu" id="account-dropdown-menu" role="menu" hidden>
+              <div class="account-dropdown-header">
+                <span class="account-dropdown-title">ACCOUNT</span>
+              </div>
+              <a href="/login/" class="account-dropdown-item" role="menuitem">Log In</a>
+              <a href="/signup/" class="account-dropdown-item" role="menuitem">Sign Up</a>
+            </div>
+          </div>
+          <a href="/" class="brand-logo-wrap" aria-label="NostalgicVerse Homepage">
+            <img src="/assets/images/branding/logo/logo.svg" alt="NostalgicVerse" class="site-logo-img" width="180" height="36" loading="eager">
+          </a>
+        </div>
+
+        <nav class="site-nav" aria-label="Primary Exhibition Navigation">
+          <a href="/" class="nav-link">Home</a>
+          <a href="/games/" class="nav-link">Games</a>
+          <a href="/consoles/" class="nav-link">Consoles</a>
+          <a href="/timeline/" class="nav-link">Timeline</a>
+          <a href="/genres/" class="nav-link">Genres</a>
+          <a href="/guides/" class="nav-link">Guides</a>
+          <a href="/blog/" class="nav-link active" aria-current="page">Stories</a>
+          <a href="/download/" class="nav-link">Emulator</a>
+        </nav>
+
+        <div class="header-actions">
+          <a href="/search/" class="header-action-btn" aria-label="Search the Archive">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+          </a>
+          <a href="/favorites/" class="header-action-btn" aria-label="View Saved Archive Favorites">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path></svg>
+            <span class="fav-badge" id="header-fav-badge" aria-live="polite">0</span>
+          </a>
+          <button type="button" class="menu-toggle" id="menu-toggle-btn" aria-expanded="false" aria-controls="mobile-nav-drawer" aria-label="Open Archive Navigation">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-drawer-overlay" id="drawer-backdrop" aria-hidden="true"></div>
+  <aside class="mobile-drawer" id="mobile-nav-drawer" aria-label="Mobile Navigation" aria-hidden="true" tabindex="-1">
+    <div class="drawer-top">
+<div class="brand-group">
+        <a href="/" class="brand-logo-wrap" aria-label="NostalgicVerse Homepage">
+          <img src="/assets/images/branding/logo/logo.svg" alt="NostalgicVerse" class="site-logo-img drawer-logo-img" width="160" height="32" loading="lazy">
+        </a>
+      </div>
+      <button type="button" class="menu-toggle" id="drawer-close-btn" aria-label="Close Archive Navigation">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+    </div>
+    <nav class="drawer-nav">
+      <a href="/" class="drawer-nav-link"><span>Home</span> <span class="nav-num">/01</span></a>
+      <a href="/games/" class="drawer-nav-link"><span>Games</span> <span class="nav-num">/02</span></a>
+      <a href="/consoles/" class="drawer-nav-link"><span>Consoles</span> <span class="nav-num">/03</span></a>
+      <a href="/timeline/" class="drawer-nav-link"><span>Timeline</span> <span class="nav-num">/04</span></a>
+      <a href="/genres/" class="drawer-nav-link"><span>Genres</span> <span class="nav-num">/05</span></a>
+      <a href="/guides/" class="drawer-nav-link"><span>Guides</span> <span class="nav-num">/06</span></a>
+      <a href="/blog/" class="drawer-nav-link active"><span>Stories</span> <span class="nav-num">/07</span></a>
+      <a href="/download/" class="drawer-nav-link"><span>Emulator Project</span> <span class="nav-num">/08</span></a>
+      <a href="/favorites/" class="drawer-nav-link"><span>Favorites Archive</span> <span class="nav-num">/FAV</span></a>
+      <a href="/random/" class="drawer-nav-link"><span>Random Discovery</span> <span class="nav-num">/RND</span></a>
+    </nav>
+    <div class="drawer-footer">
+      <p>EDITORIAL MONOGRAPHS // VER 2026.1</p>
+      <p style="margin-top: 6px;">The oral histories and architectures of gaming.</p>
+    </div>
+  </aside>
+
+  <!-- Main Content -->
+  <main id="main-content">
+    <div class="container">
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <a href="/">Home</a>
+        <span aria-hidden="true">/</span>
+        <span class="current" aria-current="page">Stories</span>
+      </nav>
+
+      <!-- Hero Section -->
+      <section class="archive-hero" aria-labelledby="stories-hero-title">
+        <div class="hero-eyebrow">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+          <span>HISTORICAL MONOGRAPHS & RETROSPECTIVES</span>
+        </div>
+        <h1 class="hero-headline" id="stories-hero-title">STORIES FROM THE ARCHIVE</h1>
+        <p class="hero-lead">
+          Long-form historical monographs, engineering retrospectives, developmental oral histories, and cultural essays. Exploring the creative breakthroughs, architectural compromises, and industry turning points that defined interactive entertainment across six decades.
+        </p>
+
+        <!-- Stats Strip -->
+        <div class="stats-strip" aria-label="Stories Archive Statistics">
+          <div class="stat-item">
+            <span class="stat-num" id="stat-total-stories">14</span>
+            <span class="stat-label">Archived Stories</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-num" id="stat-total-categories">6</span>
+            <span class="stat-label">Editorial Themes</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-num">5</span>
+            <span class="stat-label">Historical Eras</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-num">100%</span>
+            <span class="stat-label">Primary Sources</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Featured Stories Section -->
+      <section class="curated-section" aria-labelledby="featured-stories-title">
+        <div class="section-header">
+          <div>
+            <span class="section-tag">Featured Monographs</span>
+            <h2 class="section-title" id="featured-stories-title">Cornerstones of Historical Analysis</h2>
+          </div>
+        </div>
+        <div class="curated-grid" id="curated-stories-container">
+          <!-- Populated by JavaScript -->
+        </div>
+      </section>
+
+      <!-- Control Console -->
+      <section class="control-console" aria-label="Search and Filter Archival Stories">
+        <div class="search-row">
+          <svg class="search-icon-adornment" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+          <input 
+            type="search" 
+            id="stories-search-input" 
+            class="search-input-field" 
+            placeholder="Search stories by headline, technology, developer, historical era, or theme..."
+            autocomplete="off"
+            spellcheck="false"
+            aria-label="Search archival stories"
+          >
+          <button type="button" class="search-clear-btn" id="stories-search-clear" aria-label="Clear search query">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+          </button>
+        </div>
+
+        <div class="filter-row">
+          <div class="filter-group">
+            <label for="filter-category-select" class="filter-label">EDITORIAL THEME</label>
+            <div class="select-wrapper">
+              <select id="filter-category-select" class="filter-select" aria-label="Filter by story theme">
+                <option value="all">All Editorial Themes</option>
+              </select>
+              <svg class="select-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </div>
+          </div>
+
+          <div class="filter-group">
+            <label for="filter-era-select" class="filter-label">HISTORICAL ERA</label>
+            <div class="select-wrapper">
+              <select id="filter-era-select" class="filter-select" aria-label="Filter by historical era">
+                <option value="all">All Eras</option>
+              </select>
+              <svg class="select-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </div>
+          </div>
+
+          <div class="filter-group">
+            <label for="sort-stories-select" class="filter-label">ORDER</label>
+            <div class="select-wrapper">
+              <select id="sort-stories-select" class="filter-select" aria-label="Sort stories">
+                <option value="featured">Featured First</option>
+                <option value="title-asc">Title: A → Z</option>
+                <option value="title-desc">Title: Z → A</option>
+                <option value="read-desc">Reading Time: Longest First</option>
+                <option value="read-asc">Reading Time: Quickest First</option>
+              </select>
+              <svg class="select-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </div>
+          </div>
+
+          <button type="button" id="reset-stories-btn" class="reset-btn" aria-label="Reset all search queries and filters">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="1 4 1 10 7 10"></polyline><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"></path></svg>
+            <span>Reset</span>
+          </button>
+        </div>
+      </section>
+
+      <!-- Meta Bar -->
+      <div class="catalogue-meta-bar">
+        <div>
+          <span>MONOGRAPH ARCHIVE: </span>
+          <span class="results-count-text" id="stories-result-counter">SHOWING ALL ENTRIES</span>
+        </div>
+        <div>
+          <span>PRIMARY RESEARCH STANDARDS ACTIVE</span>
+        </div>
+      </div>
+
+      <!-- Main Stories Grid -->
+      <div class="stories-archive-grid" id="main-stories-grid" role="region" aria-live="polite" aria-label="Stories catalogue results">
+        <!-- Cards rendered dynamically via safe DOM APIs -->
+      </div>
+
+      <!-- Empty State -->
+      <div class="catalogue-empty-state" id="stories-empty-state">
+        <svg class="empty-icon" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          <line x1="8" y1="11" x2="14" y2="11"></line>
+        </svg>
+        <h3 class="empty-title">No Archival Stories Found</h3>
+        <p class="empty-desc">
+          No historical retrospectives matched your query. Try clearing keywords or selecting an alternate editorial theme.
+        </p>
+        <button type="button" class="btn btn-secondary" id="empty-state-reset-btn">
+          <span>Reset All Filters</span>
+        </button>
+      </div>
+
+      <!-- Discovery Breaker -->
+      <section class="discovery-breaker" aria-labelledby="story-breaker-title">
+        <div class="breaker-content">
+          <div class="breaker-tag">SPONTANEOUS RETROSPECTIVE DISCOVERY</div>
+          <h2 class="breaker-title" id="story-breaker-title">Encounter an Unexpected Retrospective</h2>
+          <p class="breaker-desc">
+            Let the archive select a developmental monograph across custom RISC coprocessors, arcade hardware recycling, or the early days of online broadband play.
+          </p>
+        </div>
+        <div class="breaker-action">
+          <button type="button" class="btn btn-gold" id="random-story-btn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 3 21 3 21 8"></polyline><line x1="4" y1="20" x2="21" y2="3"></line><polyline points="21 16 21 21 16 21"></polyline><line x1="15" y1="15" x2="21" y2="21"></line><line x1="4" y1="4" x2="9" y2="9"></line></svg>
+            <span>Discover Random Story</span>
+          </button>
+        </div>
+      </section>
+    </div>
+  
+    <!-- Museum Community Interactions & Discussion -->
+    <div class="container" style="margin-top: 48px; margin-bottom: 48px;">
+      <div id="community-interactions" data-type="story" data-id="retro-stories"></div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  
+  <!-- ==========================================================================
+       GLOBAL ARCHIVE SUPPORT SECTION
+       ========================================================================== -->
+  <!-- ==========================================================================
+       GLOBAL ARCHIVE SUPPORT SECTION
+       ========================================================================== -->
+  <!-- ==========================================================================
+       GLOBAL ARCHIVE SUPPORT SECTION
+       ========================================================================== -->
+  <section class="archive-support-section" id="archive-support" aria-labelledby="support-heading">
+    <div class="container">
+      <div class="support-panel">
+        <div class="support-content">
+          <span class="catalog-tag tag-gold">Preservation Initiative</span>
+          <h2 class="support-title" id="support-heading">Support the Creator</h2>
+          <p class="support-desc">
+            Help me keep building NostalgicVerse and bringing more gaming history, hardware, stories and preservation resources to the archive.
+          </p>
+          <p class="support-subdesc">
+            NostalgicVerse is an independent project created to preserve the games, machines, stories and memories that made gaming history. Thank you for supporting NostalgicVerse.
+          </p>
+          <div class="support-actions">
+            <a href="/support/" class="btn btn-secondary">
+              <span>Support the Creator</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
+          </div>
+        </div>
+        <div class="support-qr-card">
+          <div class="support-qr-quiet-zone">
+            <img src="/assets/images/qr-code/qr-code.png" alt="QR code to support NostalgicVerse creator" class="support-qr-image" width="200" height="200" loading="lazy" decoding="async">
+          </div>
+          <p class="support-qr-caption">Scan to support NostalgicVerse</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h3>The Museum</h3>
+          <ul>
+            <li><a href="/about/">About NostalgicVerse</a></li>
+            <li><a href="/timeline/">Historical Timeline</a></li>
+            <li><a href="/genres/">Genre Taxonomy</a></li>
+            <li><a href="/support/">Support the Archive</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Exhibits</h3>
+          <ul>
+            <li><a href="/games/">Landmark Games</a></li>
+            <li><a href="/consoles/">Hardware Generations</a></li>
+            <li><a href="/guides/">Preservation Guides</a></li>
+            <li><a href="/blog/">Archival Stories</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Software</h3>
+          <ul>
+            <li><a href="/download/">NostalgicVerse Emulator</a></li>
+            <li><a href="/favorites/">Saved Collection</a></li>
+            <li><a href="/random/">Random Discovery</a></li>
+            <li><a href="/search/">Archive Search</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Legal & Standards</h3>
+          <ul>
+            <li><a href="/legal/privacy.html">Privacy Policy</a></li>
+            <li><a href="/legal/terms.html">Terms of Service</a></li>
+            <li><a href="/legal/cookies.html">Cookie Policy</a></li>
+            <li><a href="/legal/disclaimer.html">Archival Disclaimer</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>&copy; 2026 NostalgicVerse. Dedicated to digital preservation and video game history.</div>
+        <div>
+          <a href="/legal/privacy.html">Privacy</a>
+          <a href="/legal/terms.html">Terms</a>
+          <a href="/legal/disclaimer.html">Disclaimer</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Script Architecture -->
+  <script>
+    (function () {
+      "use strict";
+
+      /* ==========================================================================
+         01. MASTER STORIES DATASET
+         ========================================================================== */
+      const STORIES_DATA = [
+        {
+          id: "story-silicon-transition-3d-polygons",
+          slug: "silicon-transition-3d-polygons",
+          title: "The Silicon Transition: How RISC Architectures Defined 32-Bit 3D",
+          category: "Hardware Architecture",
+          era: "32/64-Bit Era",
+          summary: "An in-depth retrospective on the shift from CISC 16-bit microprocessors to specialized RISC geometry transforms, looking at the custom MIPS R3000A pipeline and the architectural geometry transformation unit.",
+          topics: ["RISC", "3D Graphics", "MIPS", "PlayStation", "Silicon Design"],
+          readingTime: "15 min read",
+          minutes: 15,
+          image: "/assets/images/stories/silicon-transition-3d-polygons.webp",
+          featured: true,
+          url: "/blog/#story-silicon-transition-3d-polygons"
+        },
+        {
+          id: "story-sound-synthesis-yamaha-ym2612",
+          slug: "sound-synthesis-yamaha-ym2612",
+          title: "The Architecture of Atmosphere: FM Synthesis and the Yamaha YM2612",
+          category: "Technical Monographs",
+          era: "16-Bit Era",
+          summary: "Deconstructing frequency modulation sound synthesis in 16-bit hardware. How 6-operator and 4-operator FM synthesis chips shaped the distinctive mechanical audio landscape of early 1990s arcade and home consoles.",
+          topics: ["FM Synthesis", "Yamaha YM2612", "Chiptune", "Sound Chips", "Mega Drive"],
+          readingTime: "12 min read",
+          minutes: 12,
+          image: "/assets/images/stories/sound-synthesis-yamaha-ym2612.webp",
+          featured: true,
+          url: "/blog/#story-sound-synthesis-yamaha-ym2612"
+        },
+        {
+          id: "story-super-fx-chip-polygon-gamble",
+          slug: "super-fx-chip-polygon-gamble",
+          title: "Geometry in Silicon: Argonaut, Nintendo, and the Super FX Coprocessor",
+          category: "Hardware Architecture",
+          era: "16-Bit Era",
+          summary: "The untold engineering behind the custom Mario chip: how Jez San and Argonaut Games brought dedicated 3D RISC graphics acceleration directly into the SNES cartridge slot ahead of the 32-bit generation.",
+          topics: ["Super FX", "Argonaut", "Coprocessor", "Star Fox", "3D Math"],
+          readingTime: "14 min read",
+          minutes: 14,
+          image: "/assets/images/stories/super-fx-chip-polygon-gamble.webp",
+          featured: true,
+          url: "/blog/#story-super-fx-chip-polygon-gamble"
+        },
+        {
+          id: "story-dvd-trojan-horse-playstation-2",
+          slug: "dvd-trojan-horse-playstation-2",
+          title: "The Living Room Trojan Horse: How DVD Video Fuelled PlayStation 2",
+          category: "Industry Turning Points",
+          era: "Sixth Generation",
+          summary: "How Sony leveraged emerging consumer DVD playback at a competitive price point in the year 2000, establishing the PlayStation 2 as an indispensable home entertainment device and securing platform dominance.",
+          topics: ["PS2", "DVD Video", "Hardware Strategy", "Consumer Electronics", "Sony"],
+          readingTime: "11 min read",
+          minutes: 11,
+          image: "/assets/images/stories/dvd-trojan-horse-playstation-2.webp",
+          featured: true,
+          url: "/blog/#story-dvd-trojan-horse-playstation-2"
+        },
+        {
+          id: "story-dreamcast-broadband-online-frontier",
+          slug: "dreamcast-broadband-online-frontier",
+          title: "The 128-Bit Dream: Sega's Pioneer Online Console Infrastructure",
+          category: "Development Histories",
+          era: "Sixth Generation",
+          summary: "A technical examination of SegaNet and Phantasy Star Online in 2000. How Sega engineered out-of-the-box 56k dial-up and broadband networking before modern internet console frameworks existed.",
+          topics: ["Dreamcast", "SegaNet", "PSO", "Networking", "Dial-up Emulation"],
+          readingTime: "13 min read",
+          minutes: 13,
+          image: "/assets/images/stories/dreamcast-broadband-online-frontier.webp",
+          featured: false,
+          url: "/blog/#story-dreamcast-broadband-online-frontier"
+        },
+        {
+          id: "story-sega-saturn-dual-sh2-paradox",
+          slug: "sega-saturn-dual-sh2-paradox",
+          title: "The Parallel Processor Paradox: Engineering Sega Saturn's Dual SH-2 Silicon",
+          category: "Hardware Architecture",
+          era: "32/64-Bit Era",
+          summary: "The architectural collision between dual Hitachi SH-2 microprocessors, VDP1 forward-rendered quad geometry, and VDP2 affine background planes that made Saturn hardware legendary yet notoriously complex.",
+          topics: ["Sega Saturn", "Dual SH-2", "VDP1", "VDP2", "Quadrilateral Polygons"],
+          readingTime: "16 min read",
+          minutes: 16,
+          image: "/assets/images/stories/sega-saturn-dual-sh2-paradox.webp",
+          featured: false,
+          url: "/blog/#story-sega-saturn-dual-sh2-paradox"
+        },
+        {
+          id: "story-doom-shareware-distribution-catalyst",
+          slug: "doom-shareware-distribution-catalyst",
+          title: "The Shareware Catalyst: How id Software Overturned Traditional Retail",
+          category: "Cultural Milestones",
+          era: "16-Bit Era",
+          summary: "The December 1993 release of Doom Episode 1: Knee-Deep in the Dead over university networks and BBS nodes. Analyzing the economics of shareware distribution and the birth of user-created WAD culture.",
+          topics: ["Doom", "id Software", "Shareware", "WAD", "Network Distribution"],
+          readingTime: "10 min read",
+          minutes: 10,
+          image: "/assets/images/stories/doom-shareware-distribution-catalyst.webp",
+          featured: false,
+          url: "/blog/#story-doom-shareware-distribution-catalyst"
+        },
+        {
+          id: "story-birth-of-vblank-raster-interrupts",
+          slug: "birth-of-vblank-raster-interrupts",
+          title: "Raster Beam Synchronization: How Early Engineers Conquered Video Blanks",
+          category: "Technical Monographs",
+          era: "8-Bit Era",
+          summary: "A technical tribute to vertical blanking intervals (VBLANK) and horizontal blanking (HBLANK). How 8-bit game developers squeezed crucial sprite OAMDMA updates into microsecond raster beam returns.",
+          topics: ["VBLANK", "CRT Raster", "PPU", "NES", "Raster Interrupts"],
+          readingTime: "11 min read",
+          minutes: 11,
+          image: "/assets/images/stories/birth-of-vblank-raster-interrupts.webp",
+          featured: false,
+          url: "/blog/#story-birth-of-vblank-raster-interrupts"
+        },
+        {
+          id: "story-game-preservation-source-code-crisis",
+          slug: "game-preservation-source-code-crisis",
+          title: "The Fragility of Code: Lost Gold Masters and Source Code Extinction",
+          category: "Preservation & Archives",
+          era: "Modern Era",
+          summary: "Documenting why hundreds of seminal 1990s video game source code repositories have permanently vanished. The critical distinction between compiled binaries and human-readable developmental archives.",
+          topics: ["Preservation", "Source Code", "Gold Masters", "Archives", "Digital Rot"],
+          readingTime: "14 min read",
+          minutes: 14,
+          image: "/assets/images/stories/game-preservation-source-code-crisis.webp",
+          featured: false,
+          url: "/blog/#story-game-preservation-source-code-crisis"
+        },
+        {
+          id: "story-1983-crash-and-famicom-rebound",
+          slug: "1983-crash-and-famicom-rebound",
+          title: "From the Ashes of 1983: How Nintendo Re-Engineered North American Retail",
+          category: "Industry Turning Points",
+          era: "8-Bit Era",
+          summary: "Examining the market saturation and retail collapse of 1983, followed by Nintendo's strategic Trojan horse rollout of the NES as the 'Entertainment System' equipped with R.O.B. and lock-out 10NES silicon.",
+          topics: ["1983 Crash", "Famicom", "NES", "10NES Lockout", "Retail Strategy"],
+          readingTime: "13 min read",
+          minutes: 13,
+          image: "/assets/images/stories/1983-crash-and-famicom-rebound.webp",
+          featured: false,
+          url: "/blog/#story-1983-crash-and-famicom-rebound"
+        },
+        {
+          id: "story-playstation-sound-processor-spu",
+          slug: "playstation-sound-processor-spu",
+          title: "CD-Quality Ambience: The Architectural Legacy of the Sony SPU",
+          category: "Technical Monographs",
+          era: "32/64-Bit Era",
+          summary: "How Ken Kutaragi's audio architecture in the PlayStation Sound Processing Unit (SPU) combined 24-channel ADPCM playback with hardware digital reverb, transforming game sound design from synthesized beeps to cinematic scores.",
+          topics: ["Audio", "SPU", "ADPCM", "Ken Kutaragi", "Reverb DSP"],
+          readingTime: "9 min read",
+          minutes: 9,
+          image: "/assets/images/stories/playstation-sound-processor-spu.webp",
+          featured: false,
+          url: "/blog/#story-playstation-sound-processor-spu"
+        },
+        {
+          id: "story-donkey-kong-radar-scope-conversion",
+          slug: "donkey-kong-radar-scope-conversion",
+          title: "The Rescue Conversion: How Radar Scope Scrap Cabinets Became Donkey Kong",
+          category: "Development Histories",
+          era: "1980s Arcade",
+          summary: "The emergency origin of Shigeru Miyamoto's landmark title. With 2,000 unsold Radar Scope arcade cabinets sitting in a New Jersey warehouse, Nintendo of America was saved by a ground-up PCB conversion kit.",
+          topics: ["Donkey Kong", "Radar Scope", "Arcade PCB", "Miyamoto", "Nintendo"],
+          readingTime: "10 min read",
+          minutes: 10,
+          image: "/assets/images/stories/donkey-kong-radar-scope-conversion.webp",
+          featured: false,
+          url: "/blog/#story-donkey-kong-radar-scope-conversion"
+        },
+        {
+          id: "story-voxel-rendering-outcast-comanche",
+          slug: "voxel-rendering-outcast-comanche",
+          title: "The Forgotten Third Dimension: Voxel Raycasting Before 3D Accelerators",
+          category: "Technical Monographs",
+          era: "16-Bit / PC Era",
+          summary: "Before dedicated polygonal GPU hardware became ubiquitous, NovaLogic's Voxel Space and Appeal's Outcast achieved organic fractal terrain via volumetric raycasting on standard x86 CPUs.",
+          topics: ["Voxels", "Comanche", "Outcast", "Software Rendering", "Raycasting"],
+          readingTime: "12 min read",
+          minutes: 12,
+          image: "/assets/images/stories/voxel-rendering-outcast-comanche.webp",
+          featured: false,
+          url: "/blog/#story-voxel-rendering-outcast-comanche"
+        },
+        {
+          id: "story-demakes-retro-hardware-push",
+          slug: "demakes-retro-hardware-push",
+          title: "Pushing Silicon Past Spec: The Modern Art of Retro Console Demakes",
+          category: "Cultural Milestones",
+          era: "Modern Era",
+          summary: "Exploring modern homebrew engineers who back-port contemporary masterpieces to vintage platforms, revealing undocumented CPU opcode quirks and redefining what 1980s and 1990s silicon can render.",
+          topics: ["Demakes", "Homebrew", "Assembly Code", "Retro Hardware", "Pico-8"],
+          readingTime: "8 min read",
+          minutes: 8,
+          image: "/assets/images/stories/demakes-retro-hardware-push.webp",
+          featured: false,
+          url: "/blog/#story-demakes-retro-hardware-push"
+        }
+      ];
+
+      /* ==========================================================================
+         02. FAVORITES MANAGEMENT SYSTEM
+         ========================================================================== */
+      const FAV_STORAGE_KEY = 'nostalgicverse_favs';
+
+      function getStoredFavorites() {
+        try {
+          const raw = localStorage.getItem(FAV_STORAGE_KEY);
+          if (!raw) return [];
+          const parsed = JSON.parse(raw);
+          return Array.isArray(parsed) ? parsed : [];
+        } catch (err) {
+          console.warn('LocalStorage inaccessible', err);
+          return [];
+        }
+      }
+
+      function toggleFavoriteStory(story) {
+        try {
+          let favs = getStoredFavorites();
+          const exists = favs.some(f => f.id === story.id);
+          if (exists) {
+            favs = favs.filter(f => f.id !== story.id);
+          } else {
+            favs.push({
+              id: story.id,
+              type: "story",
+              title: story.title,
+              category: story.category,
+              url: story.url
+            });
+          }
+          localStorage.setItem(FAV_STORAGE_KEY, JSON.stringify(favs));
+          updateFavoriteButtons();
+          updateFavoritesHeaderBadge();
+        } catch (err) {
+          console.warn('Failed to toggle favorite', err);
+        }
+      }
+
+      function updateFavoriteButtons() {
+        const buttons = document.querySelectorAll('[data-fav-id]');
+        const favs = getStoredFavorites();
+        buttons.forEach(btn => {
+          const id = btn.getAttribute('data-fav-id');
+          const isFav = favs.some(f => f.id === id);
+          if (isFav) {
+            btn.classList.add('is-active');
+            btn.setAttribute('aria-label', `Remove ${btn.getAttribute('data-fav-title') || 'story'} from favorites`);
+            btn.setAttribute('title', 'Remove from favorites');
+          } else {
+            btn.classList.remove('is-active');
+            btn.setAttribute('aria-label', `Add ${btn.getAttribute('data-fav-title') || 'story'} to favorites`);
+            btn.setAttribute('title', 'Add to favorites');
+          }
+        });
+      }
+
+      function updateFavoritesHeaderBadge() {
+        const badge = document.getElementById('header-fav-badge');
+        if (!badge) return;
+        try {
+          const favs = getStoredFavorites();
+          const count = favs.length;
+          badge.textContent = count;
+          if (count > 0) {
+            badge.classList.add('has-items');
+          } else {
+            badge.classList.remove('has-items');
+          }
+        } catch (err) {
+          console.warn('Badge update failed', err);
+        }
+      }
+
+      window.addEventListener('storage', function (e) {
+        if (e.key === FAV_STORAGE_KEY) {
+          updateFavoriteButtons();
+          updateFavoritesHeaderBadge();
+        }
+      });
+
+      /* ==========================================================================
+         03. DOM FACTORY & RENDERING
+         ========================================================================== */
+      function createStoryCard(story, isCurated) {
+        const card = document.createElement('article');
+        card.className = 'story-card';
+        card.id = story.id;
+
+        // Media Container
+        const media = document.createElement('div');
+        media.className = 'card-media';
+
+        const img = document.createElement('img');
+        img.className = 'card-img';
+        img.src = story.image;
+        img.alt = `${story.title} monograph illustration`;
+        img.width = 480;
+        img.height = 270;
+        img.loading = isCurated ? 'eager' : 'lazy';
+        img.decoding = 'async';
+
+        // Fallback Plate
+        const fallback = document.createElement('div');
+        fallback.className = 'card-fallback-plate';
+        fallback.style.display = 'none';
+        fallback.setAttribute('aria-hidden', 'true');
+
+        const fallbackSvg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+        fallbackSvg.setAttribute('class', 'plate-icon');
+        fallbackSvg.setAttribute('width', '32');
+        fallbackSvg.setAttribute('height', '32');
+        fallbackSvg.setAttribute('viewBox', '0 0 24 24');
+        fallbackSvg.setAttribute('fill', 'none');
+        fallbackSvg.setAttribute('stroke', 'currentColor');
+        fallbackSvg.setAttribute('stroke-width', '1.5');
+        const fallbackPath = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+        fallbackPath.setAttribute('d', 'M4 19.5A2.5 2.5 0 0 1 6.5 17H20M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z');
+        fallbackSvg.appendChild(fallbackPath);
+
+        const fallbackTitle = document.createElement('span');
+        fallbackTitle.className = 'plate-title';
+        fallbackTitle.textContent = story.title;
+
+        const fallbackTag = document.createElement('span');
+        fallbackTag.className = 'plate-tag';
+        fallbackTag.textContent = `${story.category.toUpperCase()} · ${story.era.toUpperCase()}`;
+
+        fallback.appendChild(fallbackSvg);
+        fallback.appendChild(fallbackTitle);
+        fallback.appendChild(fallbackTag);
+
+        img.addEventListener('error', function () {
+          img.style.display = 'none';
+          fallback.style.display = 'flex';
+        });
+
+        // Favorite Button
+        const favWrap = document.createElement('div');
+        favWrap.className = 'card-fav-anchor';
+        const favBtn = document.createElement('button');
+        favBtn.type = 'button';
+        favBtn.className = 'fav-btn';
+        favBtn.setAttribute('data-fav-id', story.id);
+        favBtn.setAttribute('data-fav-title', story.title);
+        favBtn.setAttribute('data-fav-url', story.url);
+        favBtn.setAttribute('aria-label', `Add ${story.title} to favorites`);
+
+        const favSvg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+        favSvg.setAttribute('viewBox', '0 0 24 24');
+        favSvg.setAttribute('stroke-width', '2');
+        favSvg.setAttribute('stroke-linecap', 'round');
+        favSvg.setAttribute('stroke-linejoin', 'round');
+        const favPath = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+        favPath.setAttribute('d', 'M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z');
+        favSvg.appendChild(favPath);
+        favBtn.appendChild(favSvg);
+
+        favBtn.addEventListener('click', function (e) {
+          e.preventDefault();
+          e.stopPropagation();
+          toggleFavoriteStory(story);
+        });
+        favWrap.appendChild(favBtn);
+
+        // Badges
+        const badgesWrap = document.createElement('div');
+        badgesWrap.className = 'card-badges';
+
+        const eraBadge = document.createElement('span');
+        eraBadge.className = 'badge-pill';
+        eraBadge.textContent = story.era;
+        badgesWrap.appendChild(eraBadge);
+
+        media.appendChild(img);
+        media.appendChild(fallback);
+        media.appendChild(favWrap);
+        media.appendChild(badgesWrap);
+
+        // Card Body
+        const body = document.createElement('div');
+        body.className = 'card-body';
+
+        const topSection = document.createElement('div');
+
+        const metaLine = document.createElement('div');
+        metaLine.className = 'card-meta-line';
+        const catSpan = document.createElement('span');
+        catSpan.className = 'story-category';
+        catSpan.textContent = story.category;
+        const timeSpan = document.createElement('span');
+        timeSpan.textContent = story.readingTime;
+        metaLine.appendChild(catSpan);
+        metaLine.appendChild(timeSpan);
+
+        const title = document.createElement('h3');
+        title.className = 'story-title';
+        title.textContent = story.title;
+
+        const summary = document.createElement('p');
+        summary.className = 'story-summary';
+        summary.textContent = story.summary;
+
+        const topics = document.createElement('div');
+        topics.className = 'story-topics';
+        story.topics.forEach(t => {
+          const tag = document.createElement('span');
+          tag.className = 'topic-tag';
+          tag.textContent = t;
+          topics.appendChild(tag);
+        });
+
+        topSection.appendChild(metaLine);
+        topSection.appendChild(title);
+        topSection.appendChild(summary);
+        topSection.appendChild(topics);
+
+        // Card Footer
+        const footer = document.createElement('div');
+        footer.className = 'card-footer';
+
+        const readTime = document.createElement('span');
+        readTime.className = 'story-read-time';
+        readTime.textContent = `NV-DOC // ${story.era.split(' ')[0].toUpperCase()}`;
+
+        const linkBtn = document.createElement('a');
+        linkBtn.className = 'story-link-btn';
+        linkBtn.href = '#' + story.id;
+        linkBtn.textContent = 'Read Monograph →';
+        linkBtn.addEventListener('click', function (e) {
+          e.preventDefault();
+          card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          card.classList.remove('highlight-pulse');
+          void card.offsetWidth;
+          card.classList.add('highlight-pulse');
+        });
+
+        footer.appendChild(readTime);
+        footer.appendChild(linkBtn);
+
+        body.appendChild(topSection);
+        body.appendChild(footer);
+
+        card.appendChild(media);
+        card.appendChild(body);
+
+        return card;
+      }
+
+      /* ==========================================================================
+         04. CONTROLS, FILTERING & STATS
+         ========================================================================== */
+      const searchInput = document.getElementById('stories-search-input');
+      const clearSearchBtn = document.getElementById('stories-search-clear');
+      const categorySelect = document.getElementById('filter-category-select');
+      const eraSelect = document.getElementById('filter-era-select');
+      const sortSelect = document.getElementById('sort-stories-select');
+      const resetBtn = document.getElementById('reset-stories-btn');
+      const emptyResetBtn = document.getElementById('empty-state-reset-btn');
+      const resultsCounter = document.getElementById('stories-result-counter');
+      const mainGrid = document.getElementById('main-stories-grid');
+      const curatedGrid = document.getElementById('curated-stories-container');
+      const emptyState = document.getElementById('stories-empty-state');
+      const randomStoryBtn = document.getElementById('random-story-btn');
+
+      function initFilters() {
+        const cats = Array.from(new Set(STORIES_DATA.map(s => s.category))).sort();
+        cats.forEach(cat => {
+          const opt = document.createElement('option');
+          opt.value = cat;
+          opt.textContent = cat;
+          categorySelect.appendChild(opt);
+        });
+
+        const eras = Array.from(new Set(STORIES_DATA.map(s => s.era))).sort();
+        eras.forEach(era => {
+          const opt = document.createElement('option');
+          opt.value = era;
+          opt.textContent = era;
+          eraSelect.appendChild(opt);
+        });
+      }
+
+      function renderCuratedStories() {
+        if (!curatedGrid) return;
+        curatedGrid.textContent = '';
+        const featured = STORIES_DATA.filter(s => s.featured);
+        const frag = document.createDocumentFragment();
+        featured.forEach(story => {
+          frag.appendChild(createStoryCard(story, true));
+        });
+        curatedGrid.appendChild(frag);
+      }
+
+      function filterAndSortStories() {
+        const query = (searchInput.value || '').trim().toLowerCase();
+        const cat = categorySelect.value;
+        const era = eraSelect.value;
+        const sort = sortSelect.value;
+
+        if (query.length > 0) {
+          clearSearchBtn.classList.add('is-visible');
+        } else {
+          clearSearchBtn.classList.remove('is-visible');
+        }
+
+        let results = STORIES_DATA.filter(story => {
+          if (cat !== 'all' && story.category !== cat) return false;
+          if (era !== 'all' && story.era !== era) return false;
+          if (query.length > 0) {
+            const haystack = `${story.title} ${story.category} ${story.era} ${story.summary} ${story.topics.join(' ')}`.toLowerCase();
+            return haystack.includes(query);
+          }
+          return true;
+        });
+
+        // Sorting
+        if (sort === 'featured') {
+          results.sort((a, b) => (b.featured ? 1 : 0) - (a.featured ? 1 : 0));
+        } else if (sort === 'title-asc') {
+          results.sort((a, b) => a.title.localeCompare(b.title));
+        } else if (sort === 'title-desc') {
+          results.sort((a, b) => b.title.localeCompare(a.title));
+        } else if (sort === 'read-desc') {
+          results.sort((a, b) => b.minutes - a.minutes);
+        } else if (sort === 'read-asc') {
+          results.sort((a, b) => a.minutes - b.minutes);
+        }
+
+        // Render Results
+        mainGrid.textContent = '';
+        if (results.length === 0) {
+          emptyState.classList.add('is-visible');
+          resultsCounter.textContent = 'NO MATCHING MONOGRAPHS (0)';
+        } else {
+          emptyState.classList.remove('is-visible');
+          resultsCounter.textContent = `SHOWING ${results.length} OF ${STORIES_DATA.length} MONOGRAPHS`;
+          const frag = document.createDocumentFragment();
+          results.forEach(s => {
+            frag.appendChild(createStoryCard(s, false));
+          });
+          mainGrid.appendChild(frag);
+        }
+
+        updateFavoriteButtons();
+      }
+
+      function resetAllFilters() {
+        searchInput.value = '';
+        categorySelect.value = 'all';
+        eraSelect.value = 'all';
+        sortSelect.value = 'featured';
+        clearSearchBtn.classList.remove('is-visible');
+        filterAndSortStories();
+        searchInput.focus();
+      }
+
+      function triggerRandomStory() {
+        const rand = STORIES_DATA[Math.floor(Math.random() * STORIES_DATA.length)];
+        if (rand) {
+          resetAllFilters();
+          setTimeout(function () {
+            const target = document.getElementById(rand.id);
+            if (target) {
+              target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+              target.classList.remove('highlight-pulse');
+              void target.offsetWidth;
+              target.classList.add('highlight-pulse');
+            }
+          }, 80);
+        }
+      }
+
+      // Event Listeners
+      if (searchInput) searchInput.addEventListener('input', filterAndSortStories);
+      if (clearSearchBtn) {
+        clearSearchBtn.addEventListener('click', function () {
+          searchInput.value = '';
+          clearSearchBtn.classList.remove('is-visible');
+          filterAndSortStories();
+          searchInput.focus();
+        });
+      }
+      if (categorySelect) categorySelect.addEventListener('change', filterAndSortStories);
+      if (eraSelect) eraSelect.addEventListener('change', filterAndSortStories);
+      if (sortSelect) sortSelect.addEventListener('change', filterAndSortStories);
+      if (resetBtn) resetBtn.addEventListener('click', resetAllFilters);
+      if (emptyResetBtn) emptyResetBtn.addEventListener('click', resetAllFilters);
+      if (randomStoryBtn) randomStoryBtn.addEventListener('click', triggerRandomStory);
+
+      /* ==========================================================================
+         05. MOBILE NAVIGATION DRAWER
+         ========================================================================== */
+      const menuBtn = document.getElementById('menu-toggle-btn');
+      const closeBtn = document.getElementById('drawer-close-btn');
+      const drawer = document.getElementById('mobile-nav-drawer');
+      const backdrop = document.getElementById('drawer-backdrop');
+
+      function openDrawer() {
+        if (!drawer || !backdrop) return;
+        document.body.classList.add('menu-open');
+        drawer.classList.add('is-open');
+        backdrop.classList.add('is-open');
+        menuBtn.setAttribute('aria-expanded', 'true');
+        drawer.setAttribute('aria-hidden', 'false');
+        drawer.focus();
+      }
+
+      function closeDrawer() {
+        if (!drawer || !backdrop) return;
+        document.body.classList.remove('menu-open');
+        drawer.classList.remove('is-open');
+        backdrop.classList.remove('is-open');
+        menuBtn.setAttribute('aria-expanded', 'false');
+        drawer.setAttribute('aria-hidden', 'true');
+        menuBtn.focus();
+      }
+
+      if (menuBtn) menuBtn.addEventListener('click', openDrawer);
+      if (closeBtn) closeBtn.addEventListener('click', closeDrawer);
+      if (backdrop) backdrop.addEventListener('click', closeDrawer);
+
+      document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape' && drawer && drawer.classList.contains('is-open')) {
+          closeDrawer();
+        }
+      });
+
+      /* ==========================================================================
+         06. INITIALIZATION
+         ========================================================================== */
+      window.addEventListener('DOMContentLoaded', function () {
+        initFilters();
+        renderCuratedStories();
+        filterAndSortStories();
+        updateFavoritesHeaderBadge();
+        if (window.location.hash) {
+          setTimeout(function () {
+            const el = document.querySelector(window.location.hash);
+            if (el) {
+              el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+              el.classList.add('highlight-pulse');
+            }
+          }, 120);
+        }
+      });
+
+    })();
+  </script>
+
+  <!-- Support the Creator Global Modal -->
+  <div class="support-modal-backdrop" id="support-modal-backdrop" aria-hidden="true" style="display: none;"></div>
+  <div class="support-modal" id="support-modal" role="dialog" aria-modal="true" aria-labelledby="support-modal-title" aria-describedby="support-modal-desc" tabindex="-1" style="display: none;">
+    <div class="support-modal-dialog">
+      <div class="support-modal-header">
+        <span class="catalog-tag tag-gold">Preservation Initiative</span>
+        <button type="button" class="support-modal-close" id="support-modal-close-btn" aria-label="Close Support Dialog">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+      <h2 class="support-modal-title" id="support-modal-title">Support the Creator</h2>
+      <p class="support-modal-subtitle">Enjoying NostalgicVerse?</p>
+      <p class="support-modal-desc" id="support-modal-desc">
+        I'm building this project to preserve the games, machines, stories and memories that shaped gaming history. Your support helps me keep expanding it.
+      </p>
+      <div class="support-modal-qr-wrap">
+        <div class="support-qr-quiet-zone">
+          <img src="/assets/images/qr-code/qr-code.png" alt="QR code to support NostalgicVerse creator" class="support-modal-qr" width="180" height="180" loading="lazy" decoding="async">
+        </div>
+        <p class="support-modal-qr-text">Would you like to support NostalgicVerse?</p>
+      </div>
+      <div class="support-modal-actions">
+        <button type="button" class="btn btn-primary support-modal-btn" id="support-btn-yes">Yes</button>
+        <button type="button" class="btn btn-secondary support-modal-btn" id="support-btn-no">No</button>
+        <button type="button" class="btn btn-secondary support-modal-btn" id="support-btn-later">Later</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Support Modal & Active-Time Tracking Script -->
+  <script>
+    (function() {
+      'use strict';
+      const STORAGE_KEY = 'nostalgicverse_support_prompt_state';
+      const ACTIVE_TIME_KEY = 'nostalgicverse_active_time_ms';
+      const TARGET_ACTIVE_MS = 120000;
+      const INACTIVITY_TIMEOUT_MS = 30000;
+
+      function safeGet(k) {
+        try { return localStorage.getItem(k); } catch (e) { return null; }
+      }
+      function safeSet(k, v) {
+        try { localStorage.setItem(k, v); } catch (e) {}
+      }
+
+      const currentState = safeGet(STORAGE_KEY);
+      if (currentState === 'shown' || currentState === 'accepted' || currentState === 'declined' || currentState === 'later') {
+        return;
+      }
+
+      const modal = document.getElementById('support-modal');
+      const backdrop = document.getElementById('support-modal-backdrop');
+      const btnYes = document.getElementById('support-btn-yes');
+      const btnNo = document.getElementById('support-btn-no');
+      const btnLater = document.getElementById('support-btn-later');
+      const btnClose = document.getElementById('support-modal-close-btn');
+
+      if (!modal || !backdrop) return;
+
+      let lastActive = Date.now();
+      let accumulatedMs = parseInt(safeGet(ACTIVE_TIME_KEY) || '0', 10);
+      if (isNaN(accumulatedMs) || accumulatedMs < 0) accumulatedMs = 0;
+
+      let previousFocusedElement = null;
+      let isModalOpen = false;
+
+      function onActivity() {
+        lastActive = Date.now();
+      }
+      ['mousemove', 'keydown', 'touchstart', 'scroll', 'click'].forEach(function(evt) {
+        window.addEventListener(evt, onActivity, { passive: true });
+      });
+
+      window.addEventListener('storage', function(e) {
+        if (e.key === STORAGE_KEY) {
+          if (e.newValue === 'shown' || e.newValue === 'accepted' || e.newValue === 'declined' || e.newValue === 'later') {
+            closeModal(false);
+          }
+        }
+      });
+
+      function openModal() {
+        if (isModalOpen) return;
+        const state = safeGet(STORAGE_KEY);
+        if (state === 'shown' || state === 'accepted' || state === 'declined' || state === 'later') return;
+
+        safeSet(STORAGE_KEY, 'shown');
+        isModalOpen = true;
+        previousFocusedElement = document.activeElement;
+
+        backdrop.style.display = 'block';
+        modal.style.display = 'flex';
+        document.body.classList.add('support-modal-open');
+
+        if (btnYes) btnYes.focus();
+      }
+
+      function closeModal(recordState, stateValue) {
+        if (recordState && stateValue) {
+          safeSet(STORAGE_KEY, stateValue);
+        }
+        isModalOpen = false;
+        if (backdrop) backdrop.style.display = 'none';
+        if (modal) modal.style.display = 'none';
+        document.body.classList.remove('support-modal-open');
+
+        if (previousFocusedElement && typeof previousFocusedElement.focus === 'function') {
+          try { previousFocusedElement.focus(); } catch (e) {}
+        }
+      }
+
+      if (btnYes) {
+        btnYes.addEventListener('click', function() {
+          closeModal(true, 'accepted');
+          window.location.href = '/support/';
+        });
+      }
+      if (btnNo) {
+        btnNo.addEventListener('click', function() {
+          closeModal(true, 'declined');
+        });
+      }
+      if (btnLater) {
+        btnLater.addEventListener('click', function() {
+          closeModal(true, 'later');
+        });
+      }
+      if (btnClose) {
+        btnClose.addEventListener('click', function() {
+          closeModal(true, 'later');
+        });
+      }
+
+      document.addEventListener('keydown', function(e) {
+        if (!isModalOpen) return;
+        if (e.key === 'Escape') {
+          e.preventDefault();
+          closeModal(true, 'later');
+          return;
+        }
+        if (e.key === 'Tab') {
+          const focusables = modal.querySelectorAll('button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])');
+          if (!focusables.length) return;
+          const first = focusables[0];
+          const last = focusables[focusables.length - 1];
+          if (e.shiftKey && document.activeElement === first) {
+            e.preventDefault();
+            last.focus();
+          } else if (!e.shiftKey && document.activeElement === last) {
+            e.preventDefault();
+            first.focus();
+          }
+        }
+      });
+
+      const interval = setInterval(function() {
+        const state = safeGet(STORAGE_KEY);
+        if (state === 'shown' || state === 'accepted' || state === 'declined' || state === 'later') {
+          clearInterval(interval);
+          return;
+        }
+
+        const now = Date.now();
+        const idleTime = now - lastActive;
+        const isDocumentVisible = document.visibilityState === 'visible';
+
+        if (isDocumentVisible && idleTime < INACTIVITY_TIMEOUT_MS) {
+          accumulatedMs += 1000;
+          safeSet(ACTIVE_TIME_KEY, accumulatedMs.toString());
+          if (accumulatedMs >= TARGET_ACTIVE_MS) {
+            clearInterval(interval);
+            openModal();
+          }
+        }
+      }, 1000);
+    })();
+  </script>
+
+  <script src="/assets/js/auth-ui.js"></script>
+  <script src="/assets/js/avatar-picker.js"></script>
+
+  <script src="/assets/js/realtime-client.js"></script>
+  <script src="/assets/js/content-interactions.js"></script>
+</body>
+</html>

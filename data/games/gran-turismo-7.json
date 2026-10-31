@@ -1,0 +1,81 @@
+{
+  "id": "game-gran-turismo-7",
+  "slug": "gran-turismo-7",
+  "title": "Gran Turismo 7",
+  "japaneseTitle": "グランツーリスモ7",
+  "url": "/games/gran-turismo-7/",
+  "originalReleaseYear": 2022,
+  "exactReleaseDate": "2022-03-04",
+  "developer": "Polyphony Digital",
+  "publisher": "Sony Interactive Entertainment",
+  "director": "Kazunori Yamauchi",
+  "designer": "Kazunori Yamauchi",
+  "composer": "Daiki Kasho, Makoto",
+  "originalLaunchPlatform": "PlayStation 5 / PlayStation 4",
+  "platforms": [
+    "PlayStation 5",
+    "PlayStation 4"
+  ],
+  "genre": "racing",
+  "subgenres": [
+    "Sim Racing",
+    "Automotive Museum"
+  ],
+  "era": "2020s",
+  "shortDescription": "Kazunori Yamauchi's 25th anniversary magnum opus, combining obsessive photographic car physics simulation with an interactive living museum of automotive history.",
+  "historicalSignificance": "The definitive modern sim racing flagship, celebrated for simulating micro-meteorological surface water evaporation on tarmac, full ray-traced replays, and full-game virtual reality integration on PlayStation VR2.",
+  "editorialContent": {
+    "overview": "Marking 25 years since the franchise debuted on PS1 in 1997, Gran Turismo 7 returns to the classic single-player World Map campaign centered around the 'GT Café', where players complete curated Menu Books detailing the engineering heritage of over 500 legendary vehicles.",
+    "gameplay": "Pinnacle vehicle physics simulation tracking tire temperature, aerodynamic downforce, suspension geometry, and real-time changing weather and track wetness drying lines.",
+    "technicalInnovation": "Features full ray tracing in garage and replay modes, 3D spatial acoustic audio locating exhaust revs, and revolutionary tactile feedback through DualSense adaptive triggers reproducing anti-lock brake shudder.",
+    "culturalImpact": "Serves as an authoritative interactive global cultural archive for automotive preservation, collaborating directly with Michelin, Brembo, and world-renowned car designers.",
+    "preservationNotes": "Preserved on PS5 Ultra HD disc, completely playable in full stereoscopic 3D VR on PlayStation VR2."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "March 4, 2022",
+    "leadPlatform": "PlayStation 5",
+    "genre": "racing",
+    "sales": "Over 5 million copies sold",
+    "awards": [
+      "The Game Awards Best Sports/Racing Game 2022",
+      "D.I.C.E. Racing Game of the Year"
+    ],
+    "technicalSpecs": {
+      "engine": "Polyphony Digital Proprietary Engine",
+      "resolution": "Native 4K 60fps with Ray Tracing / 120fps mode",
+      "soundChip": "3D Tempest Audio with 16-channel spatial acoustics",
+      "mediaFormat": "Ultra HD Blu-ray Disc"
+    },
+    "relationships": {
+      "primaryConsole": "playstation-5",
+      "developerEntity": "Polyphony Digital",
+      "lineage": [
+        "Gran Turismo (1997)",
+        "PlayStation VR2"
+      ]
+    }
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/1/14/Gran_Turismo_7_cover_art.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/1/14/Gran_Turismo_7_cover_art.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Gran_Turismo_7_cover_art.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "gran turismo 7",
+    "gt7",
+    "kazunori yamauchi",
+    "polyphony digital",
+    "sim racing",
+    "automotive museum",
+    "playstation 5",
+    "ps5",
+    "ps vr2"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

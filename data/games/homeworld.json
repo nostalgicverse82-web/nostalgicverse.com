@@ -1,0 +1,63 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.json",
+  "id": "game-homeworld",
+  "slug": "homeworld",
+  "title": "Homeworld",
+  "originalReleaseYear": 1999,
+  "exactReleaseDate": "1999-09-28",
+  "developer": "Relic Entertainment",
+  "publisher": "Sierra Studios",
+  "originalLaunchPlatform": "PC / Windows",
+  "platforms": [
+    "PC / Windows"
+  ],
+  "genre": "real-time-strategy",
+  "era": "1990s",
+  "shortDescription": "Relic Entertainment's groundbreaking fully 3D space real-time strategy epic, celebrated for its sweeping orchestral score and poignant galactic exodus.",
+  "historicalSignificance": "Pioneered true 3D spatial tactical movement in real-time strategy, transforming fleet maneuvers and space combat game design.",
+  "image": "/assets/images/games/homeworld.webp",
+  "url": "/games/homeworld/",
+  "featured": false,
+  "keywords": [
+    "homeworld",
+    "relic entertainment",
+    "sierra studios",
+    "rts",
+    "real-time strategy",
+    "3d rts",
+    "space strategy",
+    "kushaan",
+    "hiigara",
+    "1999",
+    "1990s",
+    "pc"
+  ],
+  "editorialContent": {
+    "overview": "Released in autumn 1999 by Relic Entertainment and Sierra Studios, Homeworld revolutionized real-time strategy by escaping the two-dimensional ground plane. Chronicling the desperate diaspora of the Kushan people seeking their ancestral homeworld of Hiigara, the game intertwined operatic emotional weight—anchored by Samuel Barber's Adagio for Strings—with unprecedented three-dimensional fleet navigation.",
+    "gameplayMechanics": "Units maneuver across an unrestricted Z-axis with sensor spheres and spatial tactical grids. Rather than rebuilding armies each mission, surviving ships and persistent fleet resource pools carry over across the campaign, creating intense strategic stakes.",
+    "technicalInnovation": "Engineered with a proprietary 3D engine capable of rendering dozens of multi-turreted capital ships, strike craft dogfights, and dynamic volumetric space dust in real time with high hardware scalability.",
+    "culturalImpact": "Won universal critical acclaim as Game of the Year from multiple publications and set a high watermark for cinematic atmosphere in PC strategy gaming.",
+    "preservationNotes": "Preserved in original retail Windows 98/2000 executable configurations and modern high-resolution community remaster pipelines."
+  },
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "Relic Entertainment Archival Documentation (1999)",
+      "PC Gamer October 1999 Review",
+      "GameSpy Game of the Year 1999 Awards"
+    ],
+    "romMediaFormat": "CD-ROM (Windows 95/98/NT)",
+    "romSizeOriginal": "650 MB CD-ROM",
+    "inputMethod": "Mouse and Keyboard",
+    "multiplayerCapability": "Up to 8 Players (LAN / WON.net)"
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/9/91/Homeworld_Coverart.png",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/9/91/Homeworld_Coverart.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Homeworld_Coverart.png",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  }
+}

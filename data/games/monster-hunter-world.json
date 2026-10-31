@@ -1,0 +1,82 @@
+{
+  "id": "game-monster-hunter-world",
+  "slug": "monster-hunter-world",
+  "title": "Monster Hunter: World",
+  "japaneseTitle": "モンスターハンター：ワールド",
+  "url": "/games/monster-hunter-world/",
+  "originalReleaseYear": 2018,
+  "exactReleaseDate": "2018-01-26",
+  "developer": "Capcom",
+  "publisher": "Capcom",
+  "director": "Yuya Tokuda",
+  "designer": "Kaname Fujioka",
+  "composer": "Tadayoshi Makino, Zhenlan Kang",
+  "originalLaunchPlatform": "PlayStation 4 / Xbox One",
+  "platforms": [
+    "PlayStation 4",
+    "Xbox One",
+    "Microsoft Windows"
+  ],
+  "genre": "action-rpg",
+  "subgenres": [
+    "Hunting Action",
+    "Cooperative Action"
+  ],
+  "era": "2010s",
+  "shortDescription": "Capcom's revolutionary global modernization of their beloved hunting franchise, introducing seamless living ecosystems and fluid 14-weapon combat.",
+  "historicalSignificance": "Became the single best-selling video game in Capcom's 40-year corporate history with over 25 million units sold, successfully breaking a niche Japanese phenomenon into a worldwide cultural titan.",
+  "editorialContent": {
+    "overview": "Tasked by the Research Commission to sail to the untamed 'New World' during the Elder Crossing, hunters explore sprawling multi-tiered biomes to track, study, and defeat magnificent primordial wyverns and Elder Dragons.",
+    "gameplay": "Pioneered seamless zones eliminating loading screens between map sectors, dynamic Turf Wars between predatory monsters, the versatile Slinger grapple, Scoutflies for tracking, and 14 deeply expressive weapon disciplines.",
+    "technicalInnovation": "Built on Capcom's heavily modified MT Framework engine, simulating complex ecosystem food webs where monsters hunt, sleep, territory-mark, and actively prey upon each other.",
+    "culturalImpact": "Proved that demanding, high-skill action-RPG mechanics could achieve monumental mainstream success when paired with intuitive modern quality-of-life systems.",
+    "preservationNotes": "Preserved on physical Blu-ray discs and expanded with the massive Iceborne expansion."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "January 26, 2018",
+    "leadPlatform": "PlayStation 4",
+    "genre": "action-rpg",
+    "sales": "Over 25 million copies sold worldwide (Capcom's all-time #1 bestseller)",
+    "awards": [
+      "The Game Awards Best Role Playing Game 2018",
+      "Japan Game Awards Grand Prize"
+    ],
+    "technicalSpecs": {
+      "engine": "MT Framework",
+      "resolution": "1080p (PS4) / 1800p (PS4 Pro) / 60fps on PS5",
+      "soundChip": "Dolby Atmos / 7.1 Surround",
+      "mediaFormat": "Blu-ray Disc"
+    },
+    "relationships": {
+      "primaryConsole": "playstation-4",
+      "developerEntity": "Capcom",
+      "lineage": [
+        "Monster Hunter",
+        "Monster Hunter Wilds"
+      ]
+    }
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/1/1b/Monster_Hunter_World_cover_art.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/1/1b/Monster_Hunter_World_cover_art.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Monster_Hunter_World_cover_art.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "monster hunter world",
+    "capcom",
+    "rathalos",
+    "nergigante",
+    "hunting action",
+    "yuya tokuda",
+    "playstation 4",
+    "ps4",
+    "iceborne"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

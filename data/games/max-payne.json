@@ -1,0 +1,85 @@
+{
+  "id": "game-max-payne",
+  "slug": "max-payne",
+  "title": "Max Payne",
+  "japaneseTitle": "マックス・ペイン",
+  "url": "/games/max-payne/",
+  "originalReleaseYear": 2001,
+  "exactReleaseDate": "2001-07-23",
+  "developer": "Remedy Entertainment",
+  "publisher": "Gathering of Developers / Rockstar Games",
+  "director": "Sam Lake, Petri Järvilehto",
+  "designer": "Petri Järvilehto",
+  "composer": "Kärtsy Hatakka, Kimmo Kajasto",
+  "originalLaunchPlatform": "Microsoft Windows / PC",
+  "platforms": [
+    "Microsoft Windows",
+    "PlayStation 2",
+    "Xbox",
+    "macOS",
+    "Game Boy Advance"
+  ],
+  "genre": "third-person-shooter",
+  "subgenres": [
+    "Neo-Noir",
+    "Bullet Time Action"
+  ],
+  "era": "2000s",
+  "shortDescription": "Remedy's neo-noir masterpiece that revolutionized third-person shooting with its iconic cinematic 'Bullet Time' slow-motion mechanic.",
+  "historicalSignificance": "Pioneered slow-motion 'Bullet Time' gunplay inspired by John Woo and The Matrix, accompanied by gritty graphic-novel narrative panels and writer Sam Lake's poetic hardboiled voice-over.",
+  "editorialContent": {
+    "overview": "Set amidst the worst blizzard in New York City history, undercover DEA agent Max Payne is framed for the murder of his partner while hunting the conspirators responsible for the massacre of his wife and baby daughter.",
+    "gameplay": "Revolutionized action gaming with 'Bullet Time'—slowing down the passage of time to dive through doorways while aiming and firing twin Berettas, pump-action shotguns, and Ingram submachine guns in real-time.",
+    "technicalInnovation": "Showcased Remedy's proprietary MAX-FX engine, featuring photographic face textures (modeled on writer Sam Lake), dynamic particle debris, and cinematic bullet-cam perspectives.",
+    "culturalImpact": "Became a worldwide benchmark for cinematic storytelling in action games, spawning sequels, comic books, and a major motion picture.",
+    "preservationNotes": "Preserved on original CD-ROMs and backwards compatible on modern Xbox consoles with auto-HDR."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "July 23, 2001",
+    "leadPlatform": "PC",
+    "genre": "third-person-shooter",
+    "sales": "Over 7.5 million copies sold across the franchise",
+    "awards": [
+      "BAFTA Interactive Entertainment Award for Best PC Game 2001"
+    ],
+    "technicalSpecs": {
+      "engine": "MAX-FX Engine",
+      "resolution": "Scalable 3D Direct3D resolution",
+      "soundChip": "EAX 3D Audio support with neo-noir cello theme",
+      "mediaFormat": "2x CD-ROMs / DVD-ROM"
+    },
+    "relationships": {
+      "primaryConsole": "pc",
+      "developerEntity": "Remedy Entertainment",
+      "lineage": [
+        "Alan Wake",
+        "Control",
+        "Max Payne 2"
+      ]
+    }
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b4/Max_Payne_Box_Art1.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/b/b4/Max_Payne_Box_Art1.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Max_Payne_Box_Art1.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "max payne",
+    "remedy entertainment",
+    "sam lake",
+    "bullet time",
+    "neo-noir",
+    "new york",
+    "pc",
+    "ps2",
+    "xbox",
+    "2001"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

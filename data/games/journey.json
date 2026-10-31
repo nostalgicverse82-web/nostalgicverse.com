@@ -1,0 +1,91 @@
+{
+  "id": "game-journey",
+  "slug": "journey",
+  "title": "Journey",
+  "japaneseTitle": "風ノ旅ビト",
+  "url": "/games/journey/",
+  "originalReleaseYear": 2012,
+  "exactReleaseDate": "2012-03-13",
+  "developer": "thatgamecompany",
+  "publisher": "Sony Computer Entertainment",
+  "director": "Jenova Chen",
+  "designer": "Jenova Chen, Nick Clark",
+  "composer": "Austin Wintory",
+  "originalLaunchPlatform": "PlayStation 3 (PSN)",
+  "platforms": [
+    "PlayStation 3",
+    "PlayStation 4",
+    "Microsoft Windows",
+    "iOS"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "Art Game",
+    "Wordless Experiential Adventure",
+    "Anonymous Co-op"
+  ],
+  "era": "2010s",
+  "shortDescription": "Jenova Chen's wordless, poetic desert pilgrimage that earned the first Grammy nomination for a video game score.",
+  "historicalSignificance": "A landmark achievement in emotional interactive design, conveying profound human connection without words or text, and featuring Austin Wintory's historic soundtrack—the first video game score nominated for a Grammy Award.",
+  "editorialContent": {
+    "overview": "Directed by Jenova Chen at thatgamecompany under a three-game deal with Sony Computer Entertainment, Journey debuted on the PlayStation Network in March 2012. Playing as a robed figure in a vast, shimmering desert, players embark on an instinctive pilgrimage toward a shining crevice atop a distant mountain peak.",
+    "gameplay": "Movement is pure kinesthetic joy: sliding effortlessly down glittering sand dunes and floating through the air propelled by a magical scarf that extends as glowing glyphs are discovered. The revolutionary online multiplayer allows players to encounter an anonymous traveler seamlessly. Devoid of voice chat, text, or gamertags, travelers communicate entirely through melodic chime calls and shared warmth.",
+    "technicalInnovation": "Programmed proprietary GPU sand shaders that accurately simulated microscopic specular reflections and physical ripples, paired with Austin Wintory's dynamic cello concerto that evolved seamlessly alongside the players' emotional journey.",
+    "culturalImpact": "Journey swept the 2013 Game Developers Choice Awards and BAFTA Games Awards, winning overall Game of the Year crowns from multiple major publications. It demonstrated that video games could evoke deep spiritual feelings of wonder, awe, and human companionship without combat or conflict.",
+    "preservationNotes": "Preserved digitally on the PlayStation Network, remastered in 1080p 60fps for PS4, and ported to PC and iOS."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "March 13, 2012",
+    "leadPlatform": "PlayStation 3",
+    "genre": "action-adventure",
+    "sales": "Fastest-selling digital release in PlayStation Network history at launch",
+    "awards": [
+      "Game of the Year 2012 (GDC Awards, D.I.C.E. Awards, IGN)",
+      "Grammy Award Nomination for Best Score Soundtrack"
+    ],
+    "technicalSpecs": {
+      "engine": "thatgamecompany custom PS3 engine with specular sand shaders",
+      "resolution": "720p (PS3) / 1080p 60fps (PS4)",
+      "soundChip": "PS3 7.1 LPCM with Austin Wintory live orchestral cello score",
+      "mediaFormat": "Digital Download (PlayStation Network)"
+    },
+    "relationships": {
+      "primaryConsole": "playstation-3",
+      "developerEntity": "thatgamecompany",
+      "lineage": [
+        "Flow",
+        "Flower",
+        "Abzû",
+        "Sky: Children of the Light"
+      ]
+    }
+  },
+  "assets": {
+    "cover": "/assets/images/games/journey.webp",
+    "banner": "/assets/images/games/journey-banner.webp",
+    "screenshots": [
+      "/assets/images/games/journey-screen1.webp",
+      "/assets/images/games/journey-screen2.webp"
+    ],
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/6/64/Journey_Title_Poster.png",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/6/64/Journey_Title_Poster.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Journey_Title_Poster.png",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "journey",
+    "jenova chen",
+    "thatgamecompany",
+    "austin wintory",
+    "sand",
+    "playstation",
+    "art game",
+    "grammy"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-tales-of-xillia",
+  "slug": "tales-of-xillia",
+  "title": "Tales of Xillia",
+  "originalReleaseYear": 2011,
+  "exactReleaseDate": "September 8, 2011",
+  "originalLaunchPlatform": "PlayStation 3",
+  "originalLaunchRegion": "Japan",
+  "developer": "Bandai Namco Games",
+  "publisher": "Bandai Namco",
+  "platforms": [
+    "PlayStation 3"
+  ],
+  "genre": "rpg",
+  "subgenres": [
+    "action-rpg"
+  ],
+  "era": "2010s",
+  "shortDescription": "Jude Mathis and Milla Maxwell navigate spiritual conflict in Rieze Maxia using the Dual Raid Linear Motion Battle System.",
+  "historicalSignificance": "Celebrated for connected party link combat and dynamic character skit interactions on PlayStation 3.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Tales_of_Xillia",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Jude Mathis and Milla Maxwell navigate spiritual conflict in Rieze Maxia using the Dual Raid Linear Motion Battle System.",
+    "culturalImpact": "Celebrated for connected party link combat and dynamic character skit interactions on PlayStation 3."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 3"
+    ],
+    "genres": [
+      "rpg"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/8/8e/Tales_of_Xillia_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/8/8e/Tales_of_Xillia_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Tales_of_Xillia",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Tales of Xillia",
+    "Bandai Namco Games",
+    "Bandai Namco",
+    "PlayStation 3",
+    "rpg",
+    "2011",
+    "2010s",
+    "PlayStation 3",
+    "action-rpg"
+  ],
+  "url": "/games/tales-of-xillia/",
+  "featured": false
+}

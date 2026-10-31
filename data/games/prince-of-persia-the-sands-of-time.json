@@ -1,0 +1,72 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-prince-of-persia-the-sands-of-time",
+  "slug": "prince-of-persia-the-sands-of-time",
+  "title": "Prince of Persia: The Sands of Time",
+  "originalReleaseYear": 2003,
+  "exactReleaseDate": "October 28, 2003",
+  "originalLaunchPlatform": "PlayStation 2",
+  "originalLaunchRegion": "North America",
+  "developer": "Ubisoft Montreal",
+  "publisher": "Ubisoft",
+  "platforms": [
+    "PlayStation 2",
+    "Xbox",
+    "GameCube",
+    "Microsoft Windows"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "platformer"
+  ],
+  "era": "2000s",
+  "shortDescription": "Jordan Mechner and Patrice Desilets' acrobatic marvel introducing the Dagger of Time to rewind fatal mistakes.",
+  "historicalSignificance": "Redefined 3D parkour platforming and influenced an entire generation of cinematic action-adventure design.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Prince_of_Persia:_The_Sands_of_Time",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Jordan Mechner and Patrice Desilets' acrobatic marvel introducing the Dagger of Time to rewind fatal mistakes.",
+    "culturalImpact": "Redefined 3D parkour platforming and influenced an entire generation of cinematic action-adventure design."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 2"
+    ],
+    "genres": [
+      "action-adventure"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/3/30/Prince_of_Persia_The_Sands_of_Time_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/3/30/Prince_of_Persia_The_Sands_of_Time_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Prince_of_Persia:_The_Sands_of_Time",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Prince of Persia: The Sands of Time",
+    "Ubisoft Montreal",
+    "Ubisoft",
+    "PlayStation 2",
+    "action-adventure",
+    "2003",
+    "2000s",
+    "PlayStation 2",
+    "Xbox",
+    "GameCube",
+    "Microsoft Windows",
+    "platformer"
+  ],
+  "url": "/games/prince-of-persia-the-sands-of-time/",
+  "featured": false
+}

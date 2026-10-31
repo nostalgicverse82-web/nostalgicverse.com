@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-eternal-darkness-sanity-s-requiem",
+  "slug": "eternal-darkness-sanity-s-requiem",
+  "title": "Eternal Darkness: Sanity's Requiem",
+  "originalReleaseYear": 2002,
+  "exactReleaseDate": "June 24, 2002",
+  "originalLaunchPlatform": "Nintendo GameCube",
+  "originalLaunchRegion": "North America",
+  "developer": "Silicon Knights",
+  "publisher": "Nintendo",
+  "platforms": [
+    "GameCube"
+  ],
+  "genre": "survival-horror",
+  "subgenres": [
+    "psychological-horror"
+  ],
+  "era": "2000s",
+  "shortDescription": "Lovecraftian horror tracing twelve historical figures across two millennia battling the Ancients with fourth-wall Sanity Effects.",
+  "historicalSignificance": "Pioneered mind-bending psychological sanity effects that faked hardware crashes, volume shifts, and fake deletions.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Eternal_Darkness:_Sanity's_Requiem",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Lovecraftian horror tracing twelve historical figures across two millennia battling the Ancients with fourth-wall Sanity Effects.",
+    "culturalImpact": "Pioneered mind-bending psychological sanity effects that faked hardware crashes, volume shifts, and fake deletions."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "Nintendo GameCube"
+    ],
+    "genres": [
+      "survival-horror"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Eternal_Darkness_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Eternal_Darkness_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Eternal_Darkness:_Sanity's_Requiem",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Eternal Darkness: Sanity's Requiem",
+    "Silicon Knights",
+    "Nintendo",
+    "Nintendo GameCube",
+    "survival-horror",
+    "2002",
+    "2000s",
+    "GameCube",
+    "psychological-horror"
+  ],
+  "url": "/games/eternal-darkness-sanity-s-requiem/",
+  "featured": false
+}

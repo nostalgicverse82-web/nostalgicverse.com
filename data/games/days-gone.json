@@ -1,0 +1,70 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-days-gone",
+  "slug": "days-gone",
+  "title": "Days Gone",
+  "originalReleaseYear": 2019,
+  "exactReleaseDate": "April 26, 2019",
+  "originalLaunchPlatform": "PlayStation 4",
+  "originalLaunchRegion": "Worldwide",
+  "developer": "Bend Studio",
+  "publisher": "Sony Interactive Entertainment",
+  "platforms": [
+    "PlayStation 4",
+    "Microsoft Windows"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "open-world",
+    "survival-horror"
+  ],
+  "era": "2010s",
+  "shortDescription": "Biker mercenary Deacon St. John roams the post-apocalyptic Pacific Northwest hunting 500-strong Freaker hordes.",
+  "historicalSignificance": "Celebrated for dynamic open-world motorcycle physics and terrifying emergent Freaker swarm simulation.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Days_Gone",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Biker mercenary Deacon St. John roams the post-apocalyptic Pacific Northwest hunting 500-strong Freaker hordes.",
+    "culturalImpact": "Celebrated for dynamic open-world motorcycle physics and terrifying emergent Freaker swarm simulation."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 4"
+    ],
+    "genres": [
+      "action-adventure"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/8/82/Days_Gone_cover_art.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/8/82/Days_Gone_cover_art.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Days_Gone",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Days Gone",
+    "Bend Studio",
+    "Sony Interactive Entertainment",
+    "PlayStation 4",
+    "action-adventure",
+    "2019",
+    "2010s",
+    "PlayStation 4",
+    "Microsoft Windows",
+    "open-world",
+    "survival-horror"
+  ],
+  "url": "/games/days-gone/",
+  "featured": false
+}

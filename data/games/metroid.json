@@ -1,0 +1,93 @@
+{
+  "id": "game-metroid",
+  "slug": "metroid",
+  "title": "Metroid",
+  "japaneseTitle": "メトロイド",
+  "url": "/games/metroid/",
+  "originalReleaseYear": 1986,
+  "exactReleaseDate": "1986-08-06",
+  "developer": "Nintendo R&D1",
+  "publisher": "Nintendo",
+  "director": "Satoru Okada",
+  "designer": "Yoshio Sakamoto & Hiroji Kiyotake",
+  "composer": "Hirokazu Tanaka",
+  "originalLaunchPlatform": "Famicom Disk System",
+  "platforms": [
+    "Famicom Disk System",
+    "NES",
+    "Game Boy Advance"
+  ],
+  "genre": "metroidvania",
+  "subgenres": [
+    "Action-Adventure",
+    "Nonlinear Exploration"
+  ],
+  "era": "1980s",
+  "shortDescription": "Nintendo's dark sci-fi labyrinth that combined platforming with non-linear exploration, founding the Metroidvania genre and revealing gaming's first iconic female protagonist, Samus Aran.",
+  "historicalSignificance": "Created half the grammatical foundation of the Metroidvania genre, pioneering ability-gated progression, dark atmospheric world design, and shattering gender expectations with the reveal of bounty hunter Samus Aran.",
+  "editorialContent": {
+    "overview": "Directed by Satoru Okada with production overseen by Gunpei Yokoi and character design by Hiroji Kiyotake at Nintendo R&D1, Metroid was released for the Famicom Disk System in August 1986. Rebuffing the cheerful daylight landscapes of Super Mario Bros., Metroid plunged players into the claustrophobic, biomechanical subterranean depths of planet Zebes to eradicate parasitic Metroid organisms weaponized by Space Pirates.",
+    "gameplayMechanics": "Players pilot armored galactic bounty hunter Samus Aran through an open, interconnected planetary network (Brinstar, Norfair, Kraid's Lair, Ridley's Lair, and Tourian). Progress is strictly non-linear: advancement is gated not by keys, but by acquiring functional character upgrades including the Morph Ball, High Jump Boots, Varia Suit, Ice Beam, Wave Beam, and Screw Attack.",
+    "technicalInnovation": "Originally engineered to harness the writable magnetic media and extra wavetable sound channel of the Famicom Disk System, Metroid was adapted for Western NES cartridge distribution using an innovative 24-character alphanumeric password system that preserved player coordinates, upgrades, and missile capacity in battery-less ROM carts.",
+    "culturalImpact": "Metroid's atmospheric dread, masterfully scored by Hirokazu 'Hip' Tanaka using eerie polyphonic dissonance rather than catchy melodies, influenced generations of game designers. Its climactic reveal—that the formidable armor-clad bounty hunter was a woman—remains one of the most celebrated milestone moments in video game history.",
+    "preservationNotes": "Preserved across original Japanese Famicom Disk System magnetic diskettes and NES NROM/MMC1 cartridge revisions. Maintaining Tanaka's precise NES APU sound register frequencies is critical to preserving the game's alien ambiance."
+  },
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "Sakamoto, Yoshio. 'Metroid Developer Interview', Nintendo Online Magazine (2003)",
+      "Tanaka, Hirokazu. 'Composing Alien Landscapes on the NES APU', Red Bull Music Academy (2014)",
+      "Nintendo Co., Ltd. NES-MT-USA Instruction Booklet: Metroid (1987)"
+    ],
+    "romMediaFormat": "Famicom Disk System 2.8-inch Disk / NES Cartridge (MMC1 PCB)",
+    "romSizeOriginal": "128 KB ROM (NES Cartridge Revision)",
+    "displayResolutionOriginal": "256 × 240 (NTSC Composite)",
+    "audioHardware": "Ricoh 2A03 5-channel APU",
+    "inputMethod": "NES Controller (D-Pad, A/B buttons)",
+    "multiplayerCapability": "1 Player"
+  },
+  "relatedExhibits": {
+    "games": [
+      "super-metroid",
+      "castlevania-symphony-of-the-night",
+      "the-legend-of-zelda"
+    ],
+    "consoles": [
+      "nintendo-entertainment-system",
+      "super-nintendo-entertainment-system"
+    ],
+    "genres": [
+      "metroidvania"
+    ],
+    "timeline": [
+      "ev-1986-legend-of-zelda"
+    ]
+  },
+  "assets": {
+    "heroImage": "/assets/images/games/metroid-hero.webp",
+    "thumbnailImage": "/assets/images/games/metroid.webp",
+    "coverImage": "/assets/images/games/metroid-cover.webp",
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/5/5d/Metroid_boxart.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/5/5d/Metroid_boxart.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Metroid_boxart.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "metroid",
+    "samus aran",
+    "nintendo",
+    "yoshio sakamoto",
+    "gunpei yokoi",
+    "metroidvania",
+    "zebes",
+    "famicom disk system",
+    "nes",
+    "1986",
+    "1980s"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

@@ -1,0 +1,82 @@
+{
+  "id": "game-god-of-war-ragnarok",
+  "slug": "god-of-war-ragnarok",
+  "title": "God of War Ragnarök",
+  "japaneseTitle": "ゴッド・オブ・ウォー ラグナロク",
+  "url": "/games/god-of-war-ragnarok/",
+  "originalReleaseYear": 2022,
+  "exactReleaseDate": "2022-11-09",
+  "developer": "Santa Monica Studio",
+  "publisher": "Sony Interactive Entertainment",
+  "director": "Eric Williams",
+  "designer": "Jason McDonald",
+  "composer": "Bear McCreary",
+  "originalLaunchPlatform": "PlayStation 5 / PlayStation 4",
+  "platforms": [
+    "PlayStation 5",
+    "PlayStation 4",
+    "Microsoft Windows"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "Hack and Slash",
+    "Norse Mythology"
+  ],
+  "era": "2020s",
+  "shortDescription": "The cataclysmic conclusion to Kratos and Atreus's Norse saga, traversing all Nine Realms as the prophesied twilight of the gods approaches.",
+  "historicalSignificance": "Became the fastest-selling first-party launch in PlayStation history with 5.1 million copies sold in its debut week (and 15+ million overall), winning six awards at The Game Awards 2022.",
+  "editorialContent": {
+    "overview": "With the freezing winds of Fimbulwinter consuming Midgard, Kratos and teenage Atreus must choose between self-preservation and the fate of the realms as Odin and a vengeful Thor mobilize the Aesir for Ragnarök.",
+    "gameplay": "Deepens combat with vertical grappling zip-strikes, elemental weapon infusing (Frost, Fire, and the new Draupnir Spear with unlimited kinetic detonator spikes), and dedicated playable chapters controlling Atreus with rapid bow combat.",
+    "technicalInnovation": "Flawlessly maintains the continuous single-take camera across a 40-hour grand epic while rendering all Nine Realms with native 4K 60-120Hz high frame rate modes.",
+    "culturalImpact": "Praised for its mature, nuanced examination of generational trauma, fate, and redemption, featuring stellar performances from Christopher Judge and Richard Schiff.",
+    "preservationNotes": "Preserved on PS5 Ultra HD disc, PS4 dual-layer disc, and expanded with the free Valhalla roguelike epilogue."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "November 9, 2022",
+    "leadPlatform": "PlayStation 5",
+    "genre": "action-adventure",
+    "sales": "Over 15 million copies sold worldwide",
+    "awards": [
+      "6 Awards at The Game Awards 2022 (Best Narrative, Best Score, Best Performance, Best Audio, Innovation in Accessibility, Best Action/Adventure)"
+    ],
+    "technicalSpecs": {
+      "engine": "Santa Monica Studio Proprietary Engine",
+      "resolution": "Native 4K (30fps) / Dynamic 4K (60fps) / High Frame Rate (120Hz)",
+      "soundChip": "3D Tempest Audio with Bear McCreary orchestral score",
+      "mediaFormat": "Ultra HD Blu-ray Disc"
+    },
+    "relationships": {
+      "primaryConsole": "playstation-5",
+      "developerEntity": "Santa Monica Studio",
+      "lineage": [
+        "God of War (2018)",
+        "God of War Valhalla"
+      ]
+    }
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/e/ee/God_of_War_Ragnar%C3%B6k_cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/e/ee/God_of_War_Ragnar%C3%B6k_cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:God_of_War_Ragnar%C3%B6k_cover.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "god of war ragnarok",
+    "kratos",
+    "atreus",
+    "thor",
+    "odin",
+    "draupnir spear",
+    "santa monica studio",
+    "playstation 5",
+    "ps5",
+    "goty 2022 nominee"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

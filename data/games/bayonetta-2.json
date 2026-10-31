@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-bayonetta-2",
+  "slug": "bayonetta-2",
+  "title": "Bayonetta 2",
+  "originalReleaseYear": 2014,
+  "exactReleaseDate": "September 20, 2014",
+  "originalLaunchPlatform": "Wii U",
+  "originalLaunchRegion": "Japan",
+  "developer": "PlatinumGames",
+  "publisher": "Nintendo",
+  "platforms": [
+    "Wii U"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "hack-and-slash"
+  ],
+  "era": "2010s",
+  "shortDescription": "Bayonetta descends into Inferno to rescue Jeanne wielding Umbran Climax attacks with fluid 60fps grace.",
+  "historicalSignificance": "Universally acclaimed as one of the finest character action spectacles in gaming history.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Bayonetta_2",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Bayonetta descends into Inferno to rescue Jeanne wielding Umbran Climax attacks with fluid 60fps grace.",
+    "culturalImpact": "Universally acclaimed as one of the finest character action spectacles in gaming history."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "Wii U"
+    ],
+    "genres": [
+      "action-adventure"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Bayonetta_2_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Bayonetta_2_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Bayonetta_2",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Bayonetta 2",
+    "PlatinumGames",
+    "Nintendo",
+    "Wii U",
+    "action-adventure",
+    "2014",
+    "2014",
+    "Wii U",
+    "hack-and-slash"
+  ],
+  "url": "/games/bayonetta-2/",
+  "featured": false
+}

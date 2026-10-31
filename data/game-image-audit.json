@@ -1,0 +1,4767 @@
+[
+  {
+    "slug": "computer-space",
+    "title": "Computer Space",
+    "imageUrl": "/assets/images/games/computerspace.png",
+    "sourceDomain": "local",
+    "licenseStatus": "Archival Local Asset",
+    "verificationStatus": "verified-local",
+    "checkedAt": "2026-09-21T16:49:35.424Z"
+  },
+  {
+    "slug": "pong",
+    "title": "Pong",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/32/Signed_Pong_Cabinet.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Signed_Pong_Cabinet.jpg",
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "CC BY-SA 4.0 / Archival Preservation Asset",
+    "verificationStatus": "verified-remote",
+    "checkedAt": "2026-09-21T16:49:35.427Z"
+  },
+  {
+    "slug": "space-race",
+    "title": "Space Race",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:35.468Z"
+  },
+  {
+    "slug": "gun-fight",
+    "title": "Gun Fight",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:35.468Z"
+  },
+  {
+    "slug": "breakout",
+    "title": "Breakout",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:35.468Z"
+  },
+  {
+    "slug": "colossal-cave-adventure",
+    "title": "Colossal Cave Adventure",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/25/ADVENT_--_Crowther_Woods.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:ADVENT_--_Crowther_Woods.png",
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Public Domain / Historic Source Artifact",
+    "verificationStatus": "verified-remote",
+    "checkedAt": "2026-09-21T16:49:36.322Z"
+  },
+  {
+    "slug": "night-driver",
+    "title": "Night Driver",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:36.325Z"
+  },
+  {
+    "slug": "space-wars",
+    "title": "Space Wars",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:36.325Z"
+  },
+  {
+    "slug": "zork",
+    "title": "Zork: The Great Underground Empire",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/a/ac/Zork_I_box_art.jpg",
+    "sourceUrl": "https://en.wikipedia.org/wiki/File:Zork_I_box_art.jpg",
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "verified-remote",
+    "checkedAt": "2026-09-21T16:49:36.325Z"
+  },
+  {
+    "slug": "space-invaders",
+    "title": "Space Invaders",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/0/0f/Space_Invaders_flyer%2C_1978.jpg",
+    "sourceUrl": "https://en.wikipedia.org/wiki/File:Space_Invaders_flyer,_1978.jpg",
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "verified-remote",
+    "checkedAt": "2026-09-21T16:49:36.327Z"
+  },
+  {
+    "slug": "adventure",
+    "title": "Adventure",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:37.192Z"
+  },
+  {
+    "slug": "asteroids",
+    "title": "Asteroids",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/8/81/Asteroids-arcadegame.jpg",
+    "sourceUrl": "https://en.wikipedia.org/wiki/File:Asteroids-arcadegame.jpg",
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "verified-remote",
+    "checkedAt": "2026-09-21T16:49:37.193Z"
+  },
+  {
+    "slug": "lunar-lander",
+    "title": "Lunar Lander",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:37.194Z"
+  },
+  {
+    "slug": "battlezone",
+    "title": "Battlezone",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "review-required",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:37.194Z"
+  },
+  {
+    "slug": "missile-command",
+    "title": "Missile Command",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "review-required",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:37.194Z"
+  },
+  {
+    "slug": "pac-man",
+    "title": "Pac-Man",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:37.908Z"
+  },
+  {
+    "slug": "rogue",
+    "title": "Rogue: Exploring The Dungeons of Doom",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:37.908Z"
+  },
+  {
+    "slug": "defender",
+    "title": "Defender",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "review-required",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:37.908Z"
+  },
+  {
+    "slug": "donkey-kong",
+    "title": "Donkey Kong",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:37.908Z"
+  },
+  {
+    "slug": "frogger",
+    "title": "Frogger",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Arcade Flyer Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:37.908Z"
+  },
+  {
+    "slug": "galaga",
+    "title": "Galaga",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:38.418Z"
+  },
+  {
+    "slug": "tempest",
+    "title": "Tempest",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:38.418Z"
+  },
+  {
+    "slug": "wizardry-proving-grounds-of-the-mad-overlord",
+    "title": "Wizardry: Proving Grounds of the Mad Overlord",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:38.418Z"
+  },
+  {
+    "slug": "joust",
+    "title": "Joust",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:38.418Z"
+  },
+  {
+    "slug": "ms-pac-man",
+    "title": "Ms. Pac-Man",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:38.418Z"
+  },
+  {
+    "slug": "pitfall",
+    "title": "Pitfall!",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:38.930Z"
+  },
+  {
+    "slug": "pole-position",
+    "title": "Pole Position",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:38.930Z"
+  },
+  {
+    "slug": "yars-revenge",
+    "title": "Yars' Revenge",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:38.930Z"
+  },
+  {
+    "slug": "dragon-s-lair",
+    "title": "Dragon's Lair",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:38.930Z"
+  },
+  {
+    "slug": "elite",
+    "title": "Elite",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:38.930Z"
+  },
+  {
+    "slug": "king-s-quest-quest-for-the-crown",
+    "title": "King's Quest: Quest for the Crown",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:39.441Z"
+  },
+  {
+    "slug": "marble-madness",
+    "title": "Marble Madness",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "review-required",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:39.441Z"
+  },
+  {
+    "slug": "tetris",
+    "title": "Tetris",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Tetris_on_Game_Boy.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tetris_on_Game_Boy.jpg",
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "CC BY-SA 2.0 / Museum Exhibit Photograph",
+    "verificationStatus": "verified-remote",
+    "checkedAt": "2026-09-21T16:49:39.441Z"
+  },
+  {
+    "slug": "ghosts-n-goblins",
+    "title": "Ghosts 'n Goblins",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:39.443Z"
+  },
+  {
+    "slug": "gradius",
+    "title": "Gradius",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "review-required",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:39.443Z"
+  },
+  {
+    "slug": "super-mario-bros",
+    "title": "Super Mario Bros.",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:42.194Z"
+  },
+  {
+    "slug": "ultima-iv-quest-of-the-avatar",
+    "title": "Ultima IV: Quest of the Avatar",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:42.194Z"
+  },
+  {
+    "slug": "castlevania",
+    "title": "Castlevania",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:42.194Z"
+  },
+  {
+    "slug": "defender-of-the-crown",
+    "title": "Defender of the Crown",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:42.194Z"
+  },
+  {
+    "slug": "dragon-quest",
+    "title": "Dragon Quest",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "review-required",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:42.194Z"
+  },
+  {
+    "slug": "metroid",
+    "title": "Metroid",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:42.709Z"
+  },
+  {
+    "slug": "out-run",
+    "title": "Out Run",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:42.709Z"
+  },
+  {
+    "slug": "the-legend-of-zelda",
+    "title": "The Legend of Zelda",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/4/41/Legend_of_zelda_cover_%28with_cartridge%29_gold.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/File:Legend_of_zelda_cover_(with_cartridge)_gold.png",
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "verified-remote",
+    "checkedAt": "2026-09-21T16:49:42.709Z"
+  },
+  {
+    "slug": "contra",
+    "title": "Contra",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "review-required",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:42.709Z"
+  },
+  {
+    "slug": "final-fantasy",
+    "title": "Final Fantasy",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:42.709Z"
+  },
+  {
+    "slug": "phantasy-star",
+    "title": "Phantasy Star",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "review-required",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:45.568Z"
+  },
+  {
+    "slug": "the-great-giana-sisters",
+    "title": "The Great Giana Sisters",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:45.568Z"
+  },
+  {
+    "slug": "mega-man-2",
+    "title": "Mega Man 2",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:45.568Z"
+  },
+  {
+    "slug": "ninja-gaiden",
+    "title": "Ninja Gaiden",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "review-required",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:45.568Z"
+  },
+  {
+    "slug": "super-mario-bros-3",
+    "title": "Super Mario Bros. 3",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:45.568Z"
+  },
+  {
+    "slug": "wasteland",
+    "title": "Wasteland",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:46.077Z"
+  },
+  {
+    "slug": "bonk-s-adventure",
+    "title": "Bonk's Adventure",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:46.077Z"
+  },
+  {
+    "slug": "populous",
+    "title": "Populous",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:46.077Z"
+  },
+  {
+    "slug": "prince-of-persia",
+    "title": "Prince of Persia",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "review-required",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:46.077Z"
+  },
+  {
+    "slug": "simcity",
+    "title": "SimCity",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:46.077Z"
+  },
+  {
+    "slug": "wonder-boy-iii-the-dragon-s-trap",
+    "title": "Wonder Boy III: The Dragon's Trap",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:46.587Z"
+  },
+  {
+    "slug": "f-zero",
+    "title": "F-Zero",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "review-required",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:46.587Z"
+  },
+  {
+    "slug": "super-mario-world",
+    "title": "Super Mario World",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:46.587Z"
+  },
+  {
+    "slug": "the-secret-of-monkey-island",
+    "title": "The Secret of Monkey Island",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:46.587Z"
+  },
+  {
+    "slug": "monkey-island-2-lechuck-s-revenge",
+    "title": "Monkey Island 2: LeChuck's Revenge",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:46.587Z"
+  },
+  {
+    "slug": "civilization",
+    "title": "Sid Meier's Civilization",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:47.101Z"
+  },
+  {
+    "slug": "sonic-the-hedgehog",
+    "title": "Sonic the Hedgehog",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:47.101Z"
+  },
+  {
+    "slug": "street-fighter-ii",
+    "title": "Street Fighter II: The World Warrior",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:47.101Z"
+  },
+  {
+    "slug": "the-legend-of-zelda-a-link-to-the-past",
+    "title": "The Legend of Zelda: A Link to the Past",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "review-required",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:47.101Z"
+  },
+  {
+    "slug": "alone-in-the-dark",
+    "title": "Alone in the Dark",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:47.101Z"
+  },
+  {
+    "slug": "dune-ii",
+    "title": "Dune II: The Building of a Dynasty",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "review-required",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:47.610Z"
+  },
+  {
+    "slug": "mortal-kombat",
+    "title": "Mortal Kombat",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:47.611Z"
+  },
+  {
+    "slug": "sonic-the-hedgehog-2",
+    "title": "Sonic the Hedgehog 2",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "review-required",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:47.611Z"
+  },
+  {
+    "slug": "super-mario-kart",
+    "title": "Super Mario Kart",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:47.611Z"
+  },
+  {
+    "slug": "wolfenstein-3d",
+    "title": "Wolfenstein 3D",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "review-required",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:47.611Z"
+  },
+  {
+    "slug": "castlevania-rondo-of-blood",
+    "title": "Castlevania: Rondo of Blood",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:48.120Z"
+  },
+  {
+    "slug": "doom",
+    "title": "Doom",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:48.120Z"
+  },
+  {
+    "slug": "myst",
+    "title": "Myst",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:48.120Z"
+  },
+  {
+    "slug": "secret-of-mana",
+    "title": "Secret of Mana",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:48.120Z"
+  },
+  {
+    "slug": "simcity-2000",
+    "title": "SimCity 2000",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:48.120Z"
+  },
+  {
+    "slug": "star-fox",
+    "title": "Star Fox",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:48.633Z"
+  },
+  {
+    "slug": "virtua-fighter",
+    "title": "Virtua Fighter",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:48.633Z"
+  },
+  {
+    "slug": "daytona-usa",
+    "title": "Daytona USA",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:48.633Z"
+  },
+  {
+    "slug": "donkey-kong-country",
+    "title": "Donkey Kong Country",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:48.633Z"
+  },
+  {
+    "slug": "doom-ii-hell-on-earth",
+    "title": "Doom II: Hell on Earth",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:48.633Z"
+  },
+  {
+    "slug": "earthbound",
+    "title": "EarthBound",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "review-required",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:49.144Z"
+  },
+  {
+    "slug": "final-fantasy-vi",
+    "title": "Final Fantasy VI",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:49.144Z"
+  },
+  {
+    "slug": "super-metroid",
+    "title": "Super Metroid",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "review-required",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:49.144Z"
+  },
+  {
+    "slug": "chrono-trigger",
+    "title": "Chrono Trigger",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:49.144Z"
+  },
+  {
+    "slug": "command-conquer",
+    "title": "Command & Conquer",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "review-required",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:49.144Z"
+  },
+  {
+    "slug": "panzer-dragoon",
+    "title": "Panzer Dragoon",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:49.654Z"
+  },
+  {
+    "slug": "sega-rally-championship",
+    "title": "Sega Rally Championship",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:49.654Z"
+  },
+  {
+    "slug": "warcraft-ii-tides-of-darkness",
+    "title": "Warcraft II: Tides of Darkness",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:49.654Z"
+  },
+  {
+    "slug": "wipeout",
+    "title": "WipEout",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:49.654Z"
+  },
+  {
+    "slug": "civilization-ii",
+    "title": "Civilization II",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:49.654Z"
+  },
+  {
+    "slug": "command-and-conquer-red-alert",
+    "title": "Command & Conquer: Red Alert",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:50.164Z"
+  },
+  {
+    "slug": "crash-bandicoot",
+    "title": "Crash Bandicoot",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "review-required",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:50.165Z"
+  },
+  {
+    "slug": "diablo",
+    "title": "Diablo",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:50.165Z"
+  },
+  {
+    "slug": "metal-slug",
+    "title": "Metal Slug: Super Vehicle-001",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:50.165Z"
+  },
+  {
+    "slug": "nights-into-dreams",
+    "title": "Nights into Dreams",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:50.165Z"
+  },
+  {
+    "slug": "pokemon-red-blue",
+    "title": "Pokémon Red and Blue",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:50.676Z"
+  },
+  {
+    "slug": "quake",
+    "title": "Quake",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "review-required",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:50.676Z"
+  },
+  {
+    "slug": "resident-evil",
+    "title": "Resident Evil",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:50.676Z"
+  },
+  {
+    "slug": "super-mario-64",
+    "title": "Super Mario 64",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "review-required",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:50.676Z"
+  },
+  {
+    "slug": "tomb-raider",
+    "title": "Tomb Raider",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:50.676Z"
+  },
+  {
+    "slug": "castlevania-symphony-of-the-night",
+    "title": "Castlevania: Symphony of the Night",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:51.191Z"
+  },
+  {
+    "slug": "fallout",
+    "title": "Fallout: A Post Nuclear Role Playing Game",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:51.191Z"
+  },
+  {
+    "slug": "final-fantasy-vii",
+    "title": "Final Fantasy VII",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:51.191Z"
+  },
+  {
+    "slug": "goldeneye-007",
+    "title": "GoldenEye 007",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/f/f1/GoldenEye_007_2010_remake_box_art.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/File:GoldenEye_007_2010_remake_box_art.png",
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "verified-remote",
+    "checkedAt": "2026-09-21T16:49:51.191Z"
+  },
+  {
+    "slug": "gran-turismo",
+    "title": "Gran Turismo",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "review-required",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:51.193Z"
+  },
+  {
+    "slug": "quake-ii",
+    "title": "Quake II",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:52.059Z"
+  },
+  {
+    "slug": "riven",
+    "title": "Riven: The Sequel to Myst",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:52.059Z"
+  },
+  {
+    "slug": "the-curse-of-monkey-island",
+    "title": "The Curse of Monkey Island",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:52.059Z"
+  },
+  {
+    "slug": "total-annihilation",
+    "title": "Total Annihilation",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:52.059Z"
+  },
+  {
+    "slug": "baldur-s-gate",
+    "title": "Baldur's Gate",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:52.059Z"
+  },
+  {
+    "slug": "banjo-kazooie",
+    "title": "Banjo-Kazooie",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:52.567Z"
+  },
+  {
+    "slug": "fallout-2",
+    "title": "Fallout 2",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:52.567Z"
+  },
+  {
+    "slug": "grim-fandango",
+    "title": "Grim Fandango",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:52.567Z"
+  },
+  {
+    "slug": "half-life",
+    "title": "Half-Life",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:52.567Z"
+  },
+  {
+    "slug": "metal-gear-solid",
+    "title": "Metal Gear Solid",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:52.567Z"
+  },
+  {
+    "slug": "panzer-dragoon-saga",
+    "title": "Panzer Dragoon Saga",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:53.082Z"
+  },
+  {
+    "slug": "resident-evil-2",
+    "title": "Resident Evil 2",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:53.082Z"
+  },
+  {
+    "slug": "starcraft",
+    "title": "StarCraft",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "review-required",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:53.082Z"
+  },
+  {
+    "slug": "the-legend-of-zelda-ocarina-of-time",
+    "title": "The Legend of Zelda: Ocarina of Time",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:53.082Z"
+  },
+  {
+    "slug": "thief-the-dark-project",
+    "title": "Thief: The Dark Project",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "review-required",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:53.082Z"
+  },
+  {
+    "slug": "unreal",
+    "title": "Unreal",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:53.595Z"
+  },
+  {
+    "slug": "age-of-empires-ii-the-age-of-kings",
+    "title": "Age of Empires II: The Age of Kings",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:53.595Z"
+  },
+  {
+    "slug": "everquest",
+    "title": "EverQuest",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:53.595Z"
+  },
+  {
+    "slug": "heroes-of-might-and-magic-iii",
+    "title": "Heroes of Might and Magic III",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:53.595Z"
+  },
+  {
+    "slug": "homeworld",
+    "title": "Homeworld",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Box Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:53.595Z"
+  },
+  {
+    "slug": "planescape-torment",
+    "title": "Planescape: Torment",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:54.108Z"
+  },
+  {
+    "slug": "quake-iii-arena",
+    "title": "Quake III Arena",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:54.108Z"
+  },
+  {
+    "slug": "rollercoaster-tycoon",
+    "title": "RollerCoaster Tycoon",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:54.108Z"
+  },
+  {
+    "slug": "shenmue",
+    "title": "Shenmue",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:54.108Z"
+  },
+  {
+    "slug": "silent-hill",
+    "title": "Silent Hill",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:54.108Z"
+  },
+  {
+    "slug": "soulcalibur",
+    "title": "Soulcalibur",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:54.622Z"
+  },
+  {
+    "slug": "super-smash-bros",
+    "title": "Super Smash Bros.",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:54.622Z"
+  },
+  {
+    "slug": "system-shock-2",
+    "title": "System Shock 2",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:54.622Z"
+  },
+  {
+    "slug": "unreal-tournament",
+    "title": "Unreal Tournament",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:54.622Z"
+  },
+  {
+    "slug": "baldur-s-gate-ii-shadows-of-amn",
+    "title": "Baldur's Gate II: Shadows of Amn",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:54.622Z"
+  },
+  {
+    "slug": "command-and-conquer-red-alert-2",
+    "title": "Command & Conquer: Red Alert 2",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:55.138Z"
+  },
+  {
+    "slug": "dark-cloud",
+    "title": "Dark Cloud",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:55.138Z"
+  },
+  {
+    "slug": "deus-ex",
+    "title": "Deus Ex",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:55.138Z"
+  },
+  {
+    "slug": "diablo-ii",
+    "title": "Diablo II",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "review-required",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:55.138Z"
+  },
+  {
+    "slug": "phantasy-star-online",
+    "title": "Phantasy Star Online",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:55.138Z"
+  },
+  {
+    "slug": "ssx",
+    "title": "SSX",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:55.649Z"
+  },
+  {
+    "slug": "the-sims",
+    "title": "The Sims",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:55.649Z"
+  },
+  {
+    "slug": "tony-hawk-s-pro-skater-2",
+    "title": "Tony Hawk's Pro Skater 2",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "review-required",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:55.649Z"
+  },
+  {
+    "slug": "ace-combat-04-shattered-skies",
+    "title": "Ace Combat 04: Shattered Skies",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:55.649Z"
+  },
+  {
+    "slug": "advance-wars",
+    "title": "Advance Wars",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:55.649Z"
+  },
+  {
+    "slug": "animal-crossing-gcn",
+    "title": "Animal Crossing",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:56.151Z"
+  },
+  {
+    "slug": "devil-may-cry",
+    "title": "Devil May Cry",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:56.151Z"
+  },
+  {
+    "slug": "fatal-frame",
+    "title": "Fatal Frame",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:56.151Z"
+  },
+  {
+    "slug": "final-fantasy-x",
+    "title": "Final Fantasy X",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:56.151Z"
+  },
+  {
+    "slug": "golden-sun",
+    "title": "Golden Sun",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:56.151Z"
+  },
+  {
+    "slug": "gran-turismo-3-a-spec",
+    "title": "Gran Turismo 3: A-Spec",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:56.664Z"
+  },
+  {
+    "slug": "grand-theft-auto-iii",
+    "title": "Grand Theft Auto III",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:56.664Z"
+  },
+  {
+    "slug": "halo-combat-evolved",
+    "title": "Halo: Combat Evolved",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:56.664Z"
+  },
+  {
+    "slug": "ico",
+    "title": "Ico",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "review-required",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:56.664Z"
+  },
+  {
+    "slug": "jak-and-daxter-the-precursor-legacy",
+    "title": "Jak and Daxter: The Precursor Legacy",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:56.664Z"
+  },
+  {
+    "slug": "klonoa-2-lunatea-s-veil",
+    "title": "Klonoa 2: Lunatea's Veil",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:57.180Z"
+  },
+  {
+    "slug": "luigi-s-mansion",
+    "title": "Luigi's Mansion",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:57.180Z"
+  },
+  {
+    "slug": "max-payne",
+    "title": "Max Payne",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:57.180Z"
+  },
+  {
+    "slug": "metal-gear-solid-2-sons-of-liberty",
+    "title": "Metal Gear Solid 2: Sons of Liberty",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:57.180Z"
+  },
+  {
+    "slug": "onimusha-warlords",
+    "title": "Onimusha: Warlords",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:57.180Z"
+  },
+  {
+    "slug": "pikmin",
+    "title": "Pikmin",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:57.693Z"
+  },
+  {
+    "slug": "ssx-tricky",
+    "title": "SSX Tricky",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:57.693Z"
+  },
+  {
+    "slug": "silent-hill-2",
+    "title": "Silent Hill 2",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:57.693Z"
+  },
+  {
+    "slug": "super-monkey-ball",
+    "title": "Super Monkey Ball",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:57.693Z"
+  },
+  {
+    "slug": "super-smash-bros-melee",
+    "title": "Super Smash Bros. Melee",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "review-required",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:57.693Z"
+  },
+  {
+    "slug": "tony-hawk-s-pro-skater-3",
+    "title": "Tony Hawk's Pro Skater 3",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:58.207Z"
+  },
+  {
+    "slug": "twisted-metal-black",
+    "title": "Twisted Metal: Black",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:58.207Z"
+  },
+  {
+    "slug": "dark-cloud-2",
+    "title": "Dark Cloud 2",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:58.207Z"
+  },
+  {
+    "slug": "eternal-darkness-sanity-s-requiem",
+    "title": "Eternal Darkness: Sanity's Requiem",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:58.207Z"
+  },
+  {
+    "slug": "grand-theft-auto-vice-city",
+    "title": "Grand Theft Auto: Vice City",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:58.207Z"
+  },
+  {
+    "slug": "kingdom-hearts",
+    "title": "Kingdom Hearts",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:58.721Z"
+  },
+  {
+    "slug": "metroid-fusion",
+    "title": "Metroid Fusion",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:58.721Z"
+  },
+  {
+    "slug": "metroid-prime",
+    "title": "Metroid Prime",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:58.721Z"
+  },
+  {
+    "slug": "ratchet-clank",
+    "title": "Ratchet & Clank",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:58.721Z"
+  },
+  {
+    "slug": "socom-u-s-navy-seals",
+    "title": "SOCOM: U.S. Navy SEALs",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:58.721Z"
+  },
+  {
+    "slug": "sly-cooper-and-the-thievius-raccoonus",
+    "title": "Sly Cooper and the Thievius Raccoonus",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:59.235Z"
+  },
+  {
+    "slug": "suikoden-iii",
+    "title": "Suikoden III",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:59.235Z"
+  },
+  {
+    "slug": "super-mario-sunshine",
+    "title": "Super Mario Sunshine",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:59.235Z"
+  },
+  {
+    "slug": "the-elder-scrolls-iii-morrowind",
+    "title": "The Elder Scrolls III: Morrowind",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "review-required",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:59.235Z"
+  },
+  {
+    "slug": "the-legend-of-zelda-the-wind-waker",
+    "title": "The Legend of Zelda: The Wind Waker",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:59.235Z"
+  },
+  {
+    "slug": "timesplitters-2",
+    "title": "TimeSplitters 2",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:59.747Z"
+  },
+  {
+    "slug": "tony-hawk-s-pro-skater-4",
+    "title": "Tony Hawk's Pro Skater 4",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:59.747Z"
+  },
+  {
+    "slug": "virtua-fighter-4-evolution",
+    "title": "Virtua Fighter 4: Evolution",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:59.747Z"
+  },
+  {
+    "slug": "warcraft-iii-reign-of-chaos",
+    "title": "Warcraft III: Reign of Chaos",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:59.747Z"
+  },
+  {
+    "slug": "wild-arms-3",
+    "title": "Wild Arms 3",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:49:59.747Z"
+  },
+  {
+    "slug": "xenosaga-episode-i-der-wille-zur-macht",
+    "title": "Xenosaga Episode I: Der Wille zur Macht",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:00.255Z"
+  },
+  {
+    "slug": "beyond-good-and-evil",
+    "title": "Beyond Good & Evil",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:00.255Z"
+  },
+  {
+    "slug": "castlevania-aria-of-sorrow",
+    "title": "Castlevania: Aria of Sorrow",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:00.255Z"
+  },
+  {
+    "slug": "disgaea-hour-of-darkness",
+    "title": "Disgaea: Hour of Darkness",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:00.255Z"
+  },
+  {
+    "slug": "f-zero-gx",
+    "title": "F-Zero GX",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:00.255Z"
+  },
+  {
+    "slug": "fatal-frame-ii-crimson-butterfly",
+    "title": "Fatal Frame II: Crimson Butterfly",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:00.758Z"
+  },
+  {
+    "slug": "jak-ii",
+    "title": "Jak II",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:00.758Z"
+  },
+  {
+    "slug": "manhunt",
+    "title": "Manhunt",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:00.758Z"
+  },
+  {
+    "slug": "mario-and-luigi-superstar-saga",
+    "title": "Mario & Luigi: Superstar Saga",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:00.758Z"
+  },
+  {
+    "slug": "need-for-speed-underground",
+    "title": "Need for Speed: Underground",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:00.758Z"
+  },
+  {
+    "slug": "prince-of-persia-the-sands-of-time",
+    "title": "Prince of Persia: The Sands of Time",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:01.270Z"
+  },
+  {
+    "slug": "ratchet-and-clank-going-commando",
+    "title": "Ratchet & Clank: Going Commando",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:01.270Z"
+  },
+  {
+    "slug": "socom-ii-u-s-navy-seals",
+    "title": "SOCOM II: U.S. Navy SEALs",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:01.270Z"
+  },
+  {
+    "slug": "ssx-3",
+    "title": "SSX 3",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:01.270Z"
+  },
+  {
+    "slug": "shin-megami-tensei-nocturne",
+    "title": "Shin Megami Tensei III: Nocturne",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:01.270Z"
+  },
+  {
+    "slug": "silent-hill-3",
+    "title": "Silent Hill 3",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:01.783Z"
+  },
+  {
+    "slug": "soulcalibur-ii",
+    "title": "Soulcalibur II",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:01.783Z"
+  },
+  {
+    "slug": "star-ocean-till-the-end-of-time",
+    "title": "Star Ocean: Till the End of Time",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:01.783Z"
+  },
+  {
+    "slug": "star-wars-knights-of-the-old-republic",
+    "title": "Star Wars: Knights of the Old Republic",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "review-required",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:01.783Z"
+  },
+  {
+    "slug": "tales-of-symphonia",
+    "title": "Tales of Symphonia",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:01.783Z"
+  },
+  {
+    "slug": "tony-hawk-s-underground",
+    "title": "Tony Hawk's Underground",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:02.297Z"
+  },
+  {
+    "slug": "viewtiful-joe",
+    "title": "Viewtiful Joe",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:02.297Z"
+  },
+  {
+    "slug": "zone-of-the-enders-the-2nd-runner",
+    "title": "Zone of the Enders: The 2nd Runner",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:02.297Z"
+  },
+  {
+    "slug": "ace-combat-5-the-unsung-war",
+    "title": "Ace Combat 5: The Unsung War",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:02.297Z"
+  },
+  {
+    "slug": "burnout-3-takedown",
+    "title": "Burnout 3: Takedown",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:02.297Z"
+  },
+  {
+    "slug": "champions-of-norrath",
+    "title": "Champions of Norrath",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:02.812Z"
+  },
+  {
+    "slug": "dragon-quest-viii-journey-of-the-cursed-king",
+    "title": "Dragon Quest VIII: Journey of the Cursed King",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:02.812Z"
+  },
+  {
+    "slug": "fable",
+    "title": "Fable",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:02.812Z"
+  },
+  {
+    "slug": "gran-turismo-4",
+    "title": "Gran Turismo 4",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:02.812Z"
+  },
+  {
+    "slug": "grand-theft-auto-san-andreas",
+    "title": "Grand Theft Auto: San Andreas",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:02.812Z"
+  },
+  {
+    "slug": "half-life-2",
+    "title": "Half-Life 2",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "review-required",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:03.326Z"
+  },
+  {
+    "slug": "halo-2",
+    "title": "Halo 2",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:03.326Z"
+  },
+  {
+    "slug": "jak-3",
+    "title": "Jak 3",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:03.326Z"
+  },
+  {
+    "slug": "katamari-damacy",
+    "title": "Katamari Damacy",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:03.326Z"
+  },
+  {
+    "slug": "metal-gear-solid-3-snake-eater",
+    "title": "Metal Gear Solid 3: Snake Eater",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:03.326Z"
+  },
+  {
+    "slug": "metroid-prime-2-echoes",
+    "title": "Metroid Prime 2: Echoes",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:03.838Z"
+  },
+  {
+    "slug": "metroid-zero-mission",
+    "title": "Metroid: Zero Mission",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:03.839Z"
+  },
+  {
+    "slug": "ninja-gaiden-2004",
+    "title": "Ninja Gaiden",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:03.839Z"
+  },
+  {
+    "slug": "onimusha-3-demon-siege",
+    "title": "Onimusha 3: Demon Siege",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:03.839Z"
+  },
+  {
+    "slug": "paper-mario-the-thousand-year-door",
+    "title": "Paper Mario: The Thousand-Year Door",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:03.839Z"
+  },
+  {
+    "slug": "pikmin-2",
+    "title": "Pikmin 2",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:04.353Z"
+  },
+  {
+    "slug": "pokemon-emerald",
+    "title": "Pokemon Emerald",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:04.353Z"
+  },
+  {
+    "slug": "prince-of-persia-warrior-within",
+    "title": "Prince of Persia: Warrior Within",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:04.353Z"
+  },
+  {
+    "slug": "ratchet-and-clank-up-your-arsenal",
+    "title": "Ratchet & Clank: Up Your Arsenal",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:04.353Z"
+  },
+  {
+    "slug": "silent-hill-4-the-room",
+    "title": "Silent Hill 4: The Room",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:04.353Z"
+  },
+  {
+    "slug": "sly-2-band-of-thieves",
+    "title": "Sly 2: Band of Thieves",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:04.867Z"
+  },
+  {
+    "slug": "spider-man-2-2004",
+    "title": "Spider-Man 2",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:04.867Z"
+  },
+  {
+    "slug": "star-wars-battlefront-2004",
+    "title": "Star Wars: Battlefront",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:04.867Z"
+  },
+  {
+    "slug": "the-legend-of-zelda-the-minish-cap",
+    "title": "The Legend of Zelda: The Minish Cap",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:04.867Z"
+  },
+  {
+    "slug": "world-of-warcraft",
+    "title": "World of Warcraft",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/6/65/World_of_Warcraft.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/File:World_of_Warcraft.png",
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "verified-remote",
+    "checkedAt": "2026-09-21T16:50:04.867Z"
+  },
+  {
+    "slug": "burnout-revenge",
+    "title": "Burnout Revenge",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:05.739Z"
+  },
+  {
+    "slug": "civilization-iv",
+    "title": "Civilization IV",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:05.739Z"
+  },
+  {
+    "slug": "devil-may-cry-3-dante-s-awakening",
+    "title": "Devil May Cry 3: Dante's Awakening",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:05.739Z"
+  },
+  {
+    "slug": "god-of-war",
+    "title": "God of War",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "review-required",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:05.739Z"
+  },
+  {
+    "slug": "guitar-hero",
+    "title": "Guitar Hero",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:05.739Z"
+  },
+  {
+    "slug": "kingdom-hearts-ii",
+    "title": "Kingdom Hearts II",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:06.252Z"
+  },
+  {
+    "slug": "mercenaries-playground-of-destruction",
+    "title": "Mercenaries: Playground of Destruction",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:06.252Z"
+  },
+  {
+    "slug": "midnight-club-3-dub-edition",
+    "title": "Midnight Club 3: DUB Edition",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:06.252Z"
+  },
+  {
+    "slug": "need-for-speed-most-wanted-2005",
+    "title": "Need for Speed: Most Wanted",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:06.252Z"
+  },
+  {
+    "slug": "ninja-gaiden-black",
+    "title": "Ninja Gaiden Black",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:06.252Z"
+  },
+  {
+    "slug": "prince-of-persia-the-two-thrones",
+    "title": "Prince of Persia: The Two Thrones",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:06.753Z"
+  },
+  {
+    "slug": "psychonauts",
+    "title": "Psychonauts",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:06.753Z"
+  },
+  {
+    "slug": "resident-evil-4",
+    "title": "Resident Evil 4",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:06.753Z"
+  },
+  {
+    "slug": "shadow-of-the-colossus",
+    "title": "Shadow of the Colossus",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "review-required",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:06.753Z"
+  },
+  {
+    "slug": "sly-3-honor-among-thieves",
+    "title": "Sly 3: Honor Among Thieves",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:06.753Z"
+  },
+  {
+    "slug": "soulcalibur-iii",
+    "title": "Soulcalibur III",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:07.263Z"
+  },
+  {
+    "slug": "star-wars-battlefront-ii-2005",
+    "title": "Star Wars: Battlefront II",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:07.263Z"
+  },
+  {
+    "slug": "tekken-5",
+    "title": "Tekken 5",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:07.263Z"
+  },
+  {
+    "slug": "the-warriors",
+    "title": "The Warriors",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:07.263Z"
+  },
+  {
+    "slug": "timesplitters-future-perfect",
+    "title": "TimeSplitters: Future Perfect",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:07.263Z"
+  },
+  {
+    "slug": "we-love-katamari",
+    "title": "We Love Katamari",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:07.777Z"
+  },
+  {
+    "slug": "black",
+    "title": "Black",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:07.777Z"
+  },
+  {
+    "slug": "blue-dragon",
+    "title": "Blue Dragon",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:07.777Z"
+  },
+  {
+    "slug": "bully",
+    "title": "Bully",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:07.777Z"
+  },
+  {
+    "slug": "dead-rising",
+    "title": "Dead Rising",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:07.777Z"
+  },
+  {
+    "slug": "final-fantasy-xii",
+    "title": "Final Fantasy XII",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:08.278Z"
+  },
+  {
+    "slug": "gears-of-war",
+    "title": "Gears of War",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:08.278Z"
+  },
+  {
+    "slug": "god-hand",
+    "title": "God Hand",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:08.278Z"
+  },
+  {
+    "slug": "guitar-hero-ii",
+    "title": "Guitar Hero II",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:08.278Z"
+  },
+  {
+    "slug": "motorstorm",
+    "title": "MotorStorm",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:08.278Z"
+  },
+  {
+    "slug": "resistance-fall-of-man",
+    "title": "Resistance: Fall of Man",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:08.791Z"
+  },
+  {
+    "slug": "persona-3",
+    "title": "Shin Megami Tensei: Persona 3",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:08.791Z"
+  },
+  {
+    "slug": "the-elder-scrolls-iv-oblivion",
+    "title": "The Elder Scrolls IV: Oblivion",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:08.791Z"
+  },
+  {
+    "slug": "the-legend-of-zelda-twilight-princess",
+    "title": "The Legend of Zelda: Twilight Princess",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:08.791Z"
+  },
+  {
+    "slug": "wii-sports",
+    "title": "Wii Sports",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "review-required",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:08.791Z"
+  },
+  {
+    "slug": "okami",
+    "title": "Ōkami",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:09.304Z"
+  },
+  {
+    "slug": "bioshock",
+    "title": "BioShock",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:09.304Z"
+  },
+  {
+    "slug": "call-of-duty-4-modern-warfare",
+    "title": "Call of Duty 4: Modern Warfare",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "review-required",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:09.304Z"
+  },
+  {
+    "slug": "crackdown",
+    "title": "Crackdown",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:09.304Z"
+  },
+  {
+    "slug": "crysis",
+    "title": "Crysis",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:09.304Z"
+  },
+  {
+    "slug": "folklore",
+    "title": "Folklore",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:09.819Z"
+  },
+  {
+    "slug": "god-of-war-ii",
+    "title": "God of War II",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:09.819Z"
+  },
+  {
+    "slug": "halo-3",
+    "title": "Halo 3",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:09.819Z"
+  },
+  {
+    "slug": "heavenly-sword",
+    "title": "Heavenly Sword",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:09.819Z"
+  },
+  {
+    "slug": "lost-odyssey",
+    "title": "Lost Odyssey",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:09.819Z"
+  },
+  {
+    "slug": "mass-effect",
+    "title": "Mass Effect",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:10.331Z"
+  },
+  {
+    "slug": "metroid-prime-3-corruption",
+    "title": "Metroid Prime 3: Corruption",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:10.331Z"
+  },
+  {
+    "slug": "odin-sphere",
+    "title": "Odin Sphere",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:10.331Z"
+  },
+  {
+    "slug": "portal",
+    "title": "Portal",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "review-required",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:10.331Z"
+  },
+  {
+    "slug": "ratchet-and-clank-future-tools-of-destruction",
+    "title": "Ratchet & Clank Future: Tools of Destruction",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:10.331Z"
+  },
+  {
+    "slug": "super-mario-galaxy",
+    "title": "Super Mario Galaxy",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:10.843Z"
+  },
+  {
+    "slug": "super-paper-mario",
+    "title": "Super Paper Mario",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:10.843Z"
+  },
+  {
+    "slug": "super-stardust-hd",
+    "title": "Super Stardust HD",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:10.843Z"
+  },
+  {
+    "slug": "uncharted-drake-s-fortune",
+    "title": "Uncharted: Drake's Fortune",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:10.843Z"
+  },
+  {
+    "slug": "braid",
+    "title": "Braid",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "review-required",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:10.843Z"
+  },
+  {
+    "slug": "burnout-paradise",
+    "title": "Burnout Paradise",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:11.354Z"
+  },
+  {
+    "slug": "dead-space",
+    "title": "Dead Space",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:11.354Z"
+  },
+  {
+    "slug": "echochrome",
+    "title": "Echochrome",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:11.354Z"
+  },
+  {
+    "slug": "fable-ii",
+    "title": "Fable II",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:11.354Z"
+  },
+  {
+    "slug": "fallout-3",
+    "title": "Fallout 3",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:11.354Z"
+  },
+  {
+    "slug": "gears-of-war-2",
+    "title": "Gears of War 2",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:11.865Z"
+  },
+  {
+    "slug": "grand-theft-auto-iv",
+    "title": "Grand Theft Auto IV",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:11.865Z"
+  },
+  {
+    "slug": "left-4-dead",
+    "title": "Left 4 Dead",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:11.865Z"
+  },
+  {
+    "slug": "littlebigplanet",
+    "title": "LittleBigPlanet",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:11.865Z"
+  },
+  {
+    "slug": "metal-gear-solid-4-guns-of-the-patriots",
+    "title": "Metal Gear Solid 4: Guns of the Patriots",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:11.865Z"
+  },
+  {
+    "slug": "motorstorm-pacific-rift",
+    "title": "MotorStorm: Pacific Rift",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:12.378Z"
+  },
+  {
+    "slug": "resistance-2",
+    "title": "Resistance 2",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:12.378Z"
+  },
+  {
+    "slug": "persona-4",
+    "title": "Shin Megami Tensei: Persona 4",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:12.378Z"
+  },
+  {
+    "slug": "siren-blood-curse",
+    "title": "Siren: Blood Curse",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:12.378Z"
+  },
+  {
+    "slug": "valkyria-chronicles",
+    "title": "Valkyria Chronicles",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:12.378Z"
+  },
+  {
+    "slug": "wipeout-hd",
+    "title": "WipEout HD",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:12.888Z"
+  },
+  {
+    "slug": "batman-arkham-asylum",
+    "title": "Batman: Arkham Asylum",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:12.888Z"
+  },
+  {
+    "slug": "bayonetta",
+    "title": "Bayonetta",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:12.888Z"
+  },
+  {
+    "slug": "borderlands",
+    "title": "Borderlands",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:12.888Z"
+  },
+  {
+    "slug": "demons-souls",
+    "title": "Demon's Souls",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "review-required",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:12.888Z"
+  },
+  {
+    "slug": "dragon-age-origins",
+    "title": "Dragon Age: Origins",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:13.400Z"
+  },
+  {
+    "slug": "grand-theft-auto-episodes-from-liberty-city",
+    "title": "Grand Theft Auto: Episodes from Liberty City",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:13.400Z"
+  },
+  {
+    "slug": "infamous",
+    "title": "Infamous",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:13.400Z"
+  },
+  {
+    "slug": "killzone-2",
+    "title": "Killzone 2",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:13.400Z"
+  },
+  {
+    "slug": "left-4-dead-2",
+    "title": "Left 4 Dead 2",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:13.400Z"
+  },
+  {
+    "slug": "punch-out-wii",
+    "title": "Punch-Out!! (Wii)",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:13.911Z"
+  },
+  {
+    "slug": "ratchet-and-clank-future-a-crack-in-time",
+    "title": "Ratchet & Clank Future: A Crack in Time",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:13.911Z"
+  },
+  {
+    "slug": "sin-and-punishment-star-successor",
+    "title": "Sin & Punishment: Star Successor",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:13.911Z"
+  },
+  {
+    "slug": "skate-2",
+    "title": "Skate 2",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:13.911Z"
+  },
+  {
+    "slug": "uncharted-2-among-thieves",
+    "title": "Uncharted 2: Among Thieves",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:13.911Z"
+  },
+  {
+    "slug": "wii-sports-resort",
+    "title": "Wii Sports Resort",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:14.423Z"
+  },
+  {
+    "slug": "yakuza-3",
+    "title": "Yakuza 3",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:14.423Z"
+  },
+  {
+    "slug": "alan-wake",
+    "title": "Alan Wake",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:14.423Z"
+  },
+  {
+    "slug": "bioshock-2",
+    "title": "BioShock 2",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:14.423Z"
+  },
+  {
+    "slug": "castlevania-lords-of-shadow",
+    "title": "Castlevania: Lords of Shadow",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:14.423Z"
+  },
+  {
+    "slug": "darksiders",
+    "title": "Darksiders",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:14.936Z"
+  },
+  {
+    "slug": "donkey-kong-country-returns",
+    "title": "Donkey Kong Country Returns",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:14.936Z"
+  },
+  {
+    "slug": "enslaved-odyssey-to-the-west",
+    "title": "Enslaved: Odyssey to the West",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:14.936Z"
+  },
+  {
+    "slug": "fallout-new-vegas",
+    "title": "Fallout: New Vegas",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:14.936Z"
+  },
+  {
+    "slug": "god-of-war-iii",
+    "title": "God of War III",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:14.936Z"
+  },
+  {
+    "slug": "gran-turismo-5",
+    "title": "Gran Turismo 5",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:15.451Z"
+  },
+  {
+    "slug": "halo-reach",
+    "title": "Halo: Reach",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:15.451Z"
+  },
+  {
+    "slug": "heavy-rain",
+    "title": "Heavy Rain",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:15.451Z"
+  },
+  {
+    "slug": "just-cause-2",
+    "title": "Just Cause 2",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:15.451Z"
+  },
+  {
+    "slug": "mass-effect-2",
+    "title": "Mass Effect 2",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:15.451Z"
+  },
+  {
+    "slug": "red-dead-redemption",
+    "title": "Red Dead Redemption",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:15.962Z"
+  },
+  {
+    "slug": "super-mario-galaxy-2",
+    "title": "Super Mario Galaxy 2",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:15.962Z"
+  },
+  {
+    "slug": "tales-of-graces-f",
+    "title": "Tales of Graces f",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:15.962Z"
+  },
+  {
+    "slug": "vanquish",
+    "title": "Vanquish",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:15.962Z"
+  },
+  {
+    "slug": "xenoblade-chronicles",
+    "title": "Xenoblade Chronicles",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:15.962Z"
+  },
+  {
+    "slug": "yakuza-4",
+    "title": "Yakuza 4",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:16.474Z"
+  },
+  {
+    "slug": "batman-arkham-city",
+    "title": "Batman: Arkham City",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:16.474Z"
+  },
+  {
+    "slug": "dark-souls",
+    "title": "Dark Souls",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "review-required",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:16.474Z"
+  },
+  {
+    "slug": "dead-space-2",
+    "title": "Dead Space 2",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:16.475Z"
+  },
+  {
+    "slug": "deus-ex-human-revolution",
+    "title": "Deus Ex: Human Revolution",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:16.475Z"
+  },
+  {
+    "slug": "dragon-age-ii",
+    "title": "Dragon Age II",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:16.988Z"
+  },
+  {
+    "slug": "gears-of-war-3",
+    "title": "Gears of War 3",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:16.988Z"
+  },
+  {
+    "slug": "infamous-2",
+    "title": "Infamous 2",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:16.988Z"
+  },
+  {
+    "slug": "killzone-3",
+    "title": "Killzone 3",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:16.988Z"
+  },
+  {
+    "slug": "kirby-s-return-to-dream-land",
+    "title": "Kirby's Return to Dream Land",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:16.988Z"
+  },
+  {
+    "slug": "l-a-noire",
+    "title": "L.A. Noire",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:17.503Z"
+  },
+  {
+    "slug": "littlebigplanet-2",
+    "title": "LittleBigPlanet 2",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:17.503Z"
+  },
+  {
+    "slug": "minecraft",
+    "title": "Minecraft",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/b/be/Minecraft_game_logo_2023.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/File:Minecraft_game_logo_2023.png",
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Public Domain / Official Brand Logo",
+    "verificationStatus": "verified-remote",
+    "checkedAt": "2026-09-21T16:50:17.503Z"
+  },
+  {
+    "slug": "ni-no-kuni-wrath-of-the-white-witch",
+    "title": "Ni no Kuni: Wrath of the White Witch",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:17.504Z"
+  },
+  {
+    "slug": "portal-2",
+    "title": "Portal 2",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:17.504Z"
+  },
+  {
+    "slug": "rayman-origins",
+    "title": "Rayman Origins",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:18.314Z"
+  },
+  {
+    "slug": "resistance-3",
+    "title": "Resistance 3",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:18.314Z"
+  },
+  {
+    "slug": "saints-row-the-third",
+    "title": "Saints Row: The Third",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:18.314Z"
+  },
+  {
+    "slug": "tales-of-xillia",
+    "title": "Tales of Xillia",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:18.314Z"
+  },
+  {
+    "slug": "the-elder-scrolls-v-skyrim",
+    "title": "The Elder Scrolls V: Skyrim",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "review-required",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:18.314Z"
+  },
+  {
+    "slug": "the-legend-of-zelda-skyward-sword",
+    "title": "The Legend of Zelda: Skyward Sword",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:18.826Z"
+  },
+  {
+    "slug": "uncharted-3-drake-s-deception",
+    "title": "Uncharted 3: Drake's Deception",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:18.826Z"
+  },
+  {
+    "slug": "binary-domain",
+    "title": "Binary Domain",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:18.826Z"
+  },
+  {
+    "slug": "borderlands-2",
+    "title": "Borderlands 2",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:18.826Z"
+  },
+  {
+    "slug": "darksiders-ii",
+    "title": "Darksiders II",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:18.826Z"
+  },
+  {
+    "slug": "dishonored",
+    "title": "Dishonored",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:19.341Z"
+  },
+  {
+    "slug": "dragon-s-dogma",
+    "title": "Dragon's Dogma",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:19.341Z"
+  },
+  {
+    "slug": "far-cry-3",
+    "title": "Far Cry 3",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:19.341Z"
+  },
+  {
+    "slug": "fire-emblem-awakening",
+    "title": "Fire Emblem: Awakening",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:19.341Z"
+  },
+  {
+    "slug": "forza-horizon",
+    "title": "Forza Horizon",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:19.341Z"
+  },
+  {
+    "slug": "hotline-miami",
+    "title": "Hotline Miami",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:19.852Z"
+  },
+  {
+    "slug": "journey",
+    "title": "Journey",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:19.852Z"
+  },
+  {
+    "slug": "kid-icarus-uprising",
+    "title": "Kid Icarus: Uprising",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:19.852Z"
+  },
+  {
+    "slug": "kingdoms-of-amalur-reckoning",
+    "title": "Kingdoms of Amalur: Reckoning",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:19.852Z"
+  },
+  {
+    "slug": "mass-effect-3",
+    "title": "Mass Effect 3",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:19.852Z"
+  },
+  {
+    "slug": "max-payne-3",
+    "title": "Max Payne 3",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:20.365Z"
+  },
+  {
+    "slug": "playstation-all-stars-battle-royale",
+    "title": "PlayStation All-Stars Battle Royale",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:20.365Z"
+  },
+  {
+    "slug": "sleeping-dogs",
+    "title": "Sleeping Dogs",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:20.365Z"
+  },
+  {
+    "slug": "spec-ops-the-line",
+    "title": "Spec Ops: The Line",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:20.365Z"
+  },
+  {
+    "slug": "the-walking-dead-season-1",
+    "title": "The Walking Dead: Season 1",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:20.365Z"
+  },
+  {
+    "slug": "tokyo-jungle",
+    "title": "Tokyo Jungle",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:20.874Z"
+  },
+  {
+    "slug": "twisted-metal-2012",
+    "title": "Twisted Metal",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:20.874Z"
+  },
+  {
+    "slug": "yakuza-5",
+    "title": "Yakuza 5",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:20.874Z"
+  },
+  {
+    "slug": "batman-arkham-origins",
+    "title": "Batman: Arkham Origins",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:20.874Z"
+  },
+  {
+    "slug": "beyond-two-souls",
+    "title": "Beyond: Two Souls",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:20.874Z"
+  },
+  {
+    "slug": "bioshock-infinite",
+    "title": "BioShock Infinite",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:21.376Z"
+  },
+  {
+    "slug": "dead-space-3",
+    "title": "Dead Space 3",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:21.377Z"
+  },
+  {
+    "slug": "gran-turismo-6",
+    "title": "Gran Turismo 6",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:21.377Z"
+  },
+  {
+    "slug": "grand-theft-auto-v",
+    "title": "Grand Theft Auto V",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:21.377Z"
+  },
+  {
+    "slug": "guacamelee",
+    "title": "Guacamelee!",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:21.377Z"
+  },
+  {
+    "slug": "pikmin-3",
+    "title": "Pikmin 3",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:21.888Z"
+  },
+  {
+    "slug": "puppeteer",
+    "title": "Puppeteer",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:21.888Z"
+  },
+  {
+    "slug": "rayman-legends",
+    "title": "Rayman Legends",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:21.888Z"
+  },
+  {
+    "slug": "super-mario-3d-world",
+    "title": "Super Mario 3D World",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:21.888Z"
+  },
+  {
+    "slug": "the-last-of-us",
+    "title": "The Last of Us",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:21.889Z"
+  },
+  {
+    "slug": "the-legend-of-zelda-a-link-between-worlds",
+    "title": "The Legend of Zelda: A Link Between Worlds",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:22.403Z"
+  },
+  {
+    "slug": "the-wolf-among-us",
+    "title": "The Wolf Among Us",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:22.404Z"
+  },
+  {
+    "slug": "tomb-raider-2013",
+    "title": "Tomb Raider",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:22.404Z"
+  },
+  {
+    "slug": "bayonetta-2",
+    "title": "Bayonetta 2",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:22.404Z"
+  },
+  {
+    "slug": "captain-toad-treasure-tracker",
+    "title": "Captain Toad: Treasure Tracker",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:22.404Z"
+  },
+  {
+    "slug": "dark-souls-ii",
+    "title": "Dark Souls II",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:22.917Z"
+  },
+  {
+    "slug": "donkey-kong-country-tropical-freeze",
+    "title": "Donkey Kong Country: Tropical Freeze",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:22.917Z"
+  },
+  {
+    "slug": "dragon-age-inquisition",
+    "title": "Dragon Age: Inquisition",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:22.917Z"
+  },
+  {
+    "slug": "infamous-second-son",
+    "title": "Infamous Second Son",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:22.917Z"
+  },
+  {
+    "slug": "sunset-overdrive",
+    "title": "Sunset Overdrive",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:22.917Z"
+  },
+  {
+    "slug": "bloodborne",
+    "title": "Bloodborne",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "review-required",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:23.433Z"
+  },
+  {
+    "slug": "ori-and-the-blind-forest",
+    "title": "Ori and the Blind Forest",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:23.434Z"
+  },
+  {
+    "slug": "the-witcher-3-wild-hunt",
+    "title": "The Witcher 3: Wild Hunt",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:23.434Z"
+  },
+  {
+    "slug": "undertale",
+    "title": "Undertale",
+    "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/391540/header.jpg",
+    "sourceUrl": "https://store.steampowered.com/app/391540/Undertale/",
+    "sourceDomain": "cdn.akamai.steamstatic.com",
+    "licenseStatus": "Promotional Storefront Asset / Official Key Art",
+    "verificationStatus": "verified-remote",
+    "checkedAt": "2026-09-21T16:50:23.434Z"
+  },
+  {
+    "slug": "until-dawn",
+    "title": "Until Dawn",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:23.438Z"
+  },
+  {
+    "slug": "xenoblade-chronicles-x",
+    "title": "Xenoblade Chronicles X",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:24.791Z"
+  },
+  {
+    "slug": "yakuza-0",
+    "title": "Yakuza 0",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:24.791Z"
+  },
+  {
+    "slug": "inside",
+    "title": "Inside",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:24.791Z"
+  },
+  {
+    "slug": "persona-5",
+    "title": "Persona 5",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:24.791Z"
+  },
+  {
+    "slug": "quantum-break",
+    "title": "Quantum Break",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:24.791Z"
+  },
+  {
+    "slug": "ratchet-and-clank-2016",
+    "title": "Ratchet & Clank (2016)",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:25.301Z"
+  },
+  {
+    "slug": "the-last-guardian",
+    "title": "The Last Guardian",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:25.301Z"
+  },
+  {
+    "slug": "titanfall-2",
+    "title": "Titanfall 2",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:25.301Z"
+  },
+  {
+    "slug": "uncharted-4-a-thief-s-end",
+    "title": "Uncharted 4: A Thief's End",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:25.301Z"
+  },
+  {
+    "slug": "gravity-rush-2",
+    "title": "Gravity Rush 2",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:25.301Z"
+  },
+  {
+    "slug": "hollow-knight",
+    "title": "Hollow Knight",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/d/de/Hollow_Knight_2026_cover_art.jpg",
+    "sourceUrl": "https://en.wikipedia.org/wiki/File:Hollow_Knight_2026_cover_art.jpg",
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "verified-remote",
+    "checkedAt": "2026-09-21T16:50:25.813Z"
+  },
+  {
+    "slug": "horizon-zero-dawn",
+    "title": "Horizon Zero Dawn",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:25.820Z"
+  },
+  {
+    "slug": "nier-automata",
+    "title": "NieR: Automata",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:25.820Z"
+  },
+  {
+    "slug": "nioh",
+    "title": "Nioh",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:25.820Z"
+  },
+  {
+    "slug": "resident-evil-7-biohazard",
+    "title": "Resident Evil 7: Biohazard",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:25.820Z"
+  },
+  {
+    "slug": "splatoon-2",
+    "title": "Splatoon 2",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:26.757Z"
+  },
+  {
+    "slug": "super-mario-odyssey",
+    "title": "Super Mario Odyssey",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "review-required",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:26.757Z"
+  },
+  {
+    "slug": "the-legend-of-zelda-breath-of-the-wild",
+    "title": "The Legend of Zelda: Breath of the Wild",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:26.757Z"
+  },
+  {
+    "slug": "what-remains-of-edith-finch",
+    "title": "What Remains of Edith Finch",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:26.757Z"
+  },
+  {
+    "slug": "celeste",
+    "title": "Celeste",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Celeste_box_art_full.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Celeste_box_art_full.png",
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "verified-remote",
+    "checkedAt": "2026-09-21T16:50:26.757Z"
+  },
+  {
+    "slug": "dead-cells",
+    "title": "Dead Cells",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:27.442Z"
+  },
+  {
+    "slug": "detroit-become-human",
+    "title": "Detroit: Become Human",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:27.442Z"
+  },
+  {
+    "slug": "forza-horizon-4",
+    "title": "Forza Horizon 4",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:27.442Z"
+  },
+  {
+    "slug": "god-of-war-2018",
+    "title": "God of War",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:27.442Z"
+  },
+  {
+    "slug": "judgment",
+    "title": "Judgment",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:27.442Z"
+  },
+  {
+    "slug": "marvel-s-spider-man",
+    "title": "Marvel's Spider-Man",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:27.954Z"
+  },
+  {
+    "slug": "monster-hunter-world",
+    "title": "Monster Hunter: World",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:27.954Z"
+  },
+  {
+    "slug": "red-dead-redemption-2",
+    "title": "Red Dead Redemption 2",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "review-required",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:27.954Z"
+  },
+  {
+    "slug": "sea-of-thieves",
+    "title": "Sea of Thieves",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:27.954Z"
+  },
+  {
+    "slug": "shadow-of-the-colossus-2018",
+    "title": "Shadow of the Colossus (2018)",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:27.954Z"
+  },
+  {
+    "slug": "subnautica",
+    "title": "Subnautica",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:28.458Z"
+  },
+  {
+    "slug": "super-smash-bros-ultimate",
+    "title": "Super Smash Bros. Ultimate",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:28.458Z"
+  },
+  {
+    "slug": "tetris-effect",
+    "title": "Tetris Effect",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:28.458Z"
+  },
+  {
+    "slug": "control",
+    "title": "Control",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:28.458Z"
+  },
+  {
+    "slug": "days-gone",
+    "title": "Days Gone",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:28.458Z"
+  },
+  {
+    "slug": "death-stranding",
+    "title": "Death Stranding",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:28.965Z"
+  },
+  {
+    "slug": "disco-elysium",
+    "title": "Disco Elysium",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:28.965Z"
+  },
+  {
+    "slug": "fire-emblem-three-houses",
+    "title": "Fire Emblem: Three Houses",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:28.965Z"
+  },
+  {
+    "slug": "luigi-s-mansion-3",
+    "title": "Luigi's Mansion 3",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:28.965Z"
+  },
+  {
+    "slug": "outer-wilds",
+    "title": "Outer Wilds",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:28.965Z"
+  },
+  {
+    "slug": "resident-evil-2-2019",
+    "title": "Resident Evil 2 (2019)",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:29.482Z"
+  },
+  {
+    "slug": "sekiro-shadows-die-twice",
+    "title": "Sekiro: Shadows Die Twice",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:29.482Z"
+  },
+  {
+    "slug": "slay-the-spire",
+    "title": "Slay the Spire",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:29.482Z"
+  },
+  {
+    "slug": "animal-crossing-new-horizons",
+    "title": "Animal Crossing: New Horizons",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:29.482Z"
+  },
+  {
+    "slug": "astro-s-playroom",
+    "title": "Astro's Playroom",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:29.482Z"
+  },
+  {
+    "slug": "crash-bandicoot-4-it-s-about-time",
+    "title": "Crash Bandicoot 4: It's About Time",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:29.996Z"
+  },
+  {
+    "slug": "cuphead",
+    "title": "Cuphead",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:29.996Z"
+  },
+  {
+    "slug": "demon-s-souls-ps5",
+    "title": "Demon's Souls (2020)",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:29.996Z"
+  },
+  {
+    "slug": "dreams",
+    "title": "Dreams",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:29.996Z"
+  },
+  {
+    "slug": "final-fantasy-vii-remake",
+    "title": "Final Fantasy VII Remake",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:29.996Z"
+  },
+  {
+    "slug": "ghost-of-tsushima",
+    "title": "Ghost of Tsushima",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:30.509Z"
+  },
+  {
+    "slug": "hades",
+    "title": "Hades",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:30.509Z"
+  },
+  {
+    "slug": "half-life-alyx",
+    "title": "Half-Life: Alyx",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:30.509Z"
+  },
+  {
+    "slug": "marvel-s-spider-man-remastered",
+    "title": "Marvel's Spider-Man Remastered",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:30.509Z"
+  },
+  {
+    "slug": "marvel-s-spider-man-miles-morales",
+    "title": "Marvel's Spider-Man: Miles Morales",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:30.509Z"
+  },
+  {
+    "slug": "nioh-2",
+    "title": "Nioh 2",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:31.022Z"
+  },
+  {
+    "slug": "ori-and-the-will-of-the-wisps",
+    "title": "Ori and the Will of the Wisps",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:31.022Z"
+  },
+  {
+    "slug": "resident-evil-3-2020",
+    "title": "Resident Evil 3 (2020)",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:31.022Z"
+  },
+  {
+    "slug": "spelunky-2",
+    "title": "Spelunky 2",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:31.022Z"
+  },
+  {
+    "slug": "the-last-of-us-part-ii",
+    "title": "The Last of Us Part II",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:31.022Z"
+  },
+  {
+    "slug": "tony-hawk-s-pro-skater-1-plus-2",
+    "title": "Tony Hawk's Pro Skater 1 + 2",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:31.535Z"
+  },
+  {
+    "slug": "yakuza-like-a-dragon",
+    "title": "Yakuza: Like a Dragon",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:31.535Z"
+  },
+  {
+    "slug": "alan-wake-remastered",
+    "title": "Alan Wake Remastered",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:31.535Z"
+  },
+  {
+    "slug": "death-s-door",
+    "title": "Death's Door",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:31.535Z"
+  },
+  {
+    "slug": "deathloop",
+    "title": "Deathloop",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:31.535Z"
+  },
+  {
+    "slug": "final-fantasy-vii-remake-intergrade",
+    "title": "Final Fantasy VII Remake Intergrade",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:32.048Z"
+  },
+  {
+    "slug": "forza-horizon-5",
+    "title": "Forza Horizon 5",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:32.049Z"
+  },
+  {
+    "slug": "lost-judgment",
+    "title": "Lost Judgment",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:32.049Z"
+  },
+  {
+    "slug": "metroid-dread",
+    "title": "Metroid Dread",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:32.049Z"
+  },
+  {
+    "slug": "psychonauts-2",
+    "title": "Psychonauts 2",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:32.049Z"
+  },
+  {
+    "slug": "ratchet-clank-rift-apart",
+    "title": "Ratchet & Clank: Rift Apart",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:32.564Z"
+  },
+  {
+    "slug": "resident-evil-village",
+    "title": "Resident Evil Village",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:32.564Z"
+  },
+  {
+    "slug": "returnal",
+    "title": "Returnal",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:32.564Z"
+  },
+  {
+    "slug": "tales-of-arise",
+    "title": "Tales of Arise",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:32.564Z"
+  },
+  {
+    "slug": "elden-ring",
+    "title": "Elden Ring",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:32.564Z"
+  },
+  {
+    "slug": "ghostwire-tokyo",
+    "title": "Ghostwire: Tokyo",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:33.075Z"
+  },
+  {
+    "slug": "god-of-war-ragnarok",
+    "title": "God of War Ragnarök",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:33.075Z"
+  },
+  {
+    "slug": "gran-turismo-7",
+    "title": "Gran Turismo 7",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:33.075Z"
+  },
+  {
+    "slug": "horizon-forbidden-west",
+    "title": "Horizon Forbidden West",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:33.075Z"
+  },
+  {
+    "slug": "kirby-and-the-forgotten-land",
+    "title": "Kirby and the Forgotten Land",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:33.075Z"
+  },
+  {
+    "slug": "pokemon-legends-arceus",
+    "title": "Pokemon Legends: Arceus",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:33.588Z"
+  },
+  {
+    "slug": "splatoon-3",
+    "title": "Splatoon 3",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:33.588Z"
+  },
+  {
+    "slug": "the-last-of-us-part-i",
+    "title": "The Last of Us Part I",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:33.588Z"
+  },
+  {
+    "slug": "uncharted-legacy-of-thieves-collection",
+    "title": "Uncharted: Legacy of Thieves Collection",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:33.588Z"
+  },
+  {
+    "slug": "xenoblade-chronicles-3",
+    "title": "Xenoblade Chronicles 3",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:33.588Z"
+  },
+  {
+    "slug": "alan-wake-2",
+    "title": "Alan Wake 2",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:34.101Z"
+  },
+  {
+    "slug": "armored-core-vi-fires-of-rubicon",
+    "title": "Armored Core VI: Fires of Rubicon",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:34.101Z"
+  },
+  {
+    "slug": "baldur-s-gate-3",
+    "title": "Baldur's Gate 3",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:34.101Z"
+  },
+  {
+    "slug": "dead-space-2023",
+    "title": "Dead Space (2023)",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:34.101Z"
+  },
+  {
+    "slug": "final-fantasy-xvi",
+    "title": "Final Fantasy XVI",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:34.101Z"
+  },
+  {
+    "slug": "hi-fi-rush",
+    "title": "Hi-Fi Rush",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:34.613Z"
+  },
+  {
+    "slug": "horizon-call-of-the-mountain",
+    "title": "Horizon Call of the Mountain",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:34.613Z"
+  },
+  {
+    "slug": "lies-of-p",
+    "title": "Lies of P",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:34.613Z"
+  },
+  {
+    "slug": "lords-of-the-fallen-2023",
+    "title": "Lords of the Fallen (2023)",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:34.613Z"
+  },
+  {
+    "slug": "marvel-s-spider-man-2",
+    "title": "Marvel's Spider-Man 2",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:34.613Z"
+  },
+  {
+    "slug": "remnant-ii",
+    "title": "Remnant II",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:35.128Z"
+  },
+  {
+    "slug": "sea-of-stars",
+    "title": "Sea of Stars",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:35.129Z"
+  },
+  {
+    "slug": "starfield",
+    "title": "Starfield",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:35.129Z"
+  },
+  {
+    "slug": "street-fighter-6",
+    "title": "Street Fighter 6",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:35.129Z"
+  },
+  {
+    "slug": "super-mario-bros-wonder",
+    "title": "Super Mario Bros. Wonder",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:35.129Z"
+  },
+  {
+    "slug": "the-legend-of-zelda-tears-of-the-kingdom",
+    "title": "The Legend of Zelda: Tears of the Kingdom",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:35.641Z"
+  },
+  {
+    "slug": "astro-bot",
+    "title": "Astro Bot",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:35.641Z"
+  },
+  {
+    "slug": "balatro",
+    "title": "Balatro",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:35.641Z"
+  },
+  {
+    "slug": "black-myth-wukong",
+    "title": "Black Myth: Wukong",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:35.641Z"
+  },
+  {
+    "slug": "dragon-ball-sparking-zero",
+    "title": "Dragon Ball: Sparking! ZERO",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:35.641Z"
+  },
+  {
+    "slug": "dragon-s-dogma-2",
+    "title": "Dragon's Dogma 2",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:36.152Z"
+  },
+  {
+    "slug": "final-fantasy-vii-rebirth",
+    "title": "Final Fantasy VII Rebirth",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:36.152Z"
+  },
+  {
+    "slug": "granblue-fantasy-relink",
+    "title": "Granblue Fantasy: Relink",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:36.152Z"
+  },
+  {
+    "slug": "helldivers-2",
+    "title": "Helldivers 2",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:36.152Z"
+  },
+  {
+    "slug": "like-a-dragon-infinite-wealth",
+    "title": "Like a Dragon: Infinite Wealth",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:36.152Z"
+  },
+  {
+    "slug": "pacific-drive",
+    "title": "Pacific Drive",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:36.667Z"
+  },
+  {
+    "slug": "persona-3-reload",
+    "title": "Persona 3 Reload",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:36.667Z"
+  },
+  {
+    "slug": "prince-of-persia-the-lost-crown",
+    "title": "Prince of Persia: The Lost Crown",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:36.667Z"
+  },
+  {
+    "slug": "rise-of-the-ronin",
+    "title": "Rise of the Ronin",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:36.667Z"
+  },
+  {
+    "slug": "silent-hill-2-2024",
+    "title": "Silent Hill 2 (2024)",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:36.667Z"
+  },
+  {
+    "slug": "stellar-blade",
+    "title": "Stellar Blade",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Archival Historical Cover Art",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:37.181Z"
+  },
+  {
+    "slug": "tekken-8",
+    "title": "Tekken 8",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:37.181Z"
+  },
+  {
+    "slug": "warhammer-40-000-space-marine-2",
+    "title": "Warhammer 40,000: Space Marine 2",
+    "imageUrl": null,
+    "sourceDomain": "upload.wikimedia.org",
+    "licenseStatus": "Fair Use / Historical Packaging Artwork",
+    "verificationStatus": "fallback",
+    "checkedAt": "2026-09-21T16:50:37.181Z"
+  }
+]

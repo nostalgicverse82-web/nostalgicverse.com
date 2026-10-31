@@ -1,0 +1,85 @@
+{
+  "id": "game-panzer-dragoon-saga",
+  "slug": "panzer-dragoon-saga",
+  "title": "Panzer Dragoon Saga",
+  "japaneseTitle": "アゼル -パンツァードラグーン RPG-",
+  "url": "/games/panzer-dragoon-saga/",
+  "originalReleaseYear": 1998,
+  "exactReleaseDate": "1998-01-29",
+  "developer": "Team Andromeda",
+  "publisher": "Sega",
+  "director": "Yukio Futatsugi",
+  "designer": "Yukio Futatsugi, Manabu Kusunoki",
+  "composer": "Saori Kobayashi, Mariko Nanba",
+  "originalLaunchPlatform": "Sega Saturn",
+  "platforms": [
+    "Sega Saturn"
+  ],
+  "genre": "rpg",
+  "subgenres": [
+    "3D Cinematic RPG",
+    "Dragon Flight Combat"
+  ],
+  "era": "1990s",
+  "shortDescription": "Team Andromeda's poetic 4-disc masterpiece that pushed the dual-CPU Sega Saturn hardware to its absolute artistic limits.",
+  "historicalSignificance": "Regarded as the crowning artistic achievement of the Sega Saturn, merging 360-degree real-time positional tactical combat with Moebius-inspired surreal post-apocalyptic worldbuilding and full voice acting across four discs.",
+  "editorialContent": {
+    "overview": "Developed across three grueling years by Sega's Team Andromeda under director Yukio Futatsugi, Panzer Dragoon Saga (known in Japan as Azel: Panzer Dragoon RPG) was released in early 1998 during the Saturn's commercial twilight. Blending post-industrial melancholy with French graphic novel aesthetics, it follows mercenary Edge and a mysterious winged dragon across a desolate, ancient biological wasteland.",
+    "gameplay": "Combat takes place in full 3D airspace surrounding enemy targets. A dynamic gauge accumulates three action charges while the player orbits through four tactical quadrants (front, rear, flanks) to exploit blind spots and avoid devastating attack cones. The dragon's physical attributes can be morphed in real-time between Attack, Defense, Agility, and Spirit specializations.",
+    "technicalInnovation": "Pushed the notoriously complex dual Hitachi SH-2 RISC processors of the Saturn to render expansive open 3D terrain, sophisticated morphing dragon skeletal models, and full-motion video sequences seamlessly integrated into real-time gameplay.",
+    "culturalImpact": "Due to Sega's impending transition to Dreamcast, only limited copies were pressed in North America and Europe, making physical copies among the rarest and most treasured artifacts in video game collecting history. Its atmospheric storytelling profoundly influenced subsequent auteur works like Shadow of the Colossus.",
+    "preservationNotes": "Preserved via original 4-disc Saturn optical sets and emulation via Mednafen/Beetle Saturn, as the original Sega source code was tragically lost during company reorganizations."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "January 29, 1998",
+    "leadPlatform": "Sega Saturn",
+    "genre": "rpg",
+    "sales": "Approximately 120,000 units in Japan; extremely scarce Western pressings (~20,000 US copies)",
+    "awards": [
+      "EGM RPG of the Year 1998",
+      "GameSpot Sega Saturn Game of the Year 1998"
+    ],
+    "technicalSpecs": {
+      "engine": "Team Andromeda custom 3D dual-CPU Saturn engine",
+      "resolution": "320x224 (Saturn progressive)",
+      "soundChip": "Yamaha SCSP (Saturn Custom Sound Processor) with orchestral folk fusion score",
+      "mediaFormat": "4 CD-ROM Discs"
+    },
+    "relationships": {
+      "primaryConsole": "sega-saturn",
+      "developerEntity": "Sega",
+      "lineage": [
+        "Panzer Dragoon",
+        "Panzer Dragoon Zwei",
+        "Panzer Dragoon Orta"
+      ]
+    }
+  },
+  "assets": {
+    "cover": "/assets/images/games/panzer-dragoon-saga.webp",
+    "banner": "/assets/images/games/panzer-dragoon-saga-banner.webp",
+    "screenshots": [
+      "/assets/images/games/panzer-dragoon-saga-screen1.webp",
+      "/assets/images/games/panzer-dragoon-saga-screen2.webp"
+    ],
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/6/64/PanzerDragoonSagaBox.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/6/64/PanzerDragoonSagaBox.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:PanzerDragoonSagaBox.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "panzer dragoon saga",
+    "azel",
+    "sega saturn",
+    "team andromeda",
+    "yukio futatsugi",
+    "dragon",
+    "rpg"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

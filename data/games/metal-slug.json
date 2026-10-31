@@ -1,0 +1,90 @@
+{
+  "id": "game-metal-slug",
+  "slug": "metal-slug",
+  "title": "Metal Slug: Super Vehicle-001",
+  "japaneseTitle": "メタルスラッグ",
+  "url": "/games/metal-slug/",
+  "originalReleaseYear": 1996,
+  "exactReleaseDate": "1996-04-19",
+  "developer": "Nazca Corporation",
+  "publisher": "SNK",
+  "director": "Kazuma Kujo",
+  "designer": "Meeher",
+  "composer": "Takushi Hiyamuta",
+  "originalLaunchPlatform": "Neo Geo MVS",
+  "platforms": [
+    "Neo Geo MVS",
+    "Neo Geo AES",
+    "Neo Geo CD",
+    "Sega Saturn",
+    "PlayStation"
+  ],
+  "genre": "beat-em-up",
+  "subgenres": [
+    "Run and Gun",
+    "Arcade Action"
+  ],
+  "era": "1990s",
+  "shortDescription": "Nazca and SNK's pinnacle of 2D pixel artistry and hyper-kinetic side-scrolling run-and-gun combat.",
+  "historicalSignificance": "Represented the absolute zenith of hand-drawn 2D arcade sprite animation, combining slapstick military parody, fluid character destruction, and devastating armored tank combat on the legendary Neo Geo hardware.",
+  "editorialContent": {
+    "overview": "Formed by former Irem developers who had crafted GunForce II, Nazca Corporation developed Metal Slug for SNK's Neo Geo MVS arcade hardware in spring 1996. Placing players in the combat boots of Peregrine Falcon Strike Force members Marco Rossi and Tarma Roving, the game delivered an exhilarating assault against General Morden's rebel army.",
+    "gameplay": "Fast-paced side-scrolling run-and-gun mechanics feature heavy machine guns, rocket launchers, flame shots, and hand grenades. Players can mount the titular SV-001 'Metal Slug' tank to deploy vulcan cannons and cannon shells with full invulnerability frames and jumping mechanics.",
+    "technicalInnovation": "Pushed the SNK Neo Geo hardware to its absolute limits with dense multiphase sprite multiplexing, screen-filling mechanical explosions, and frame-by-frame comedic death animations unmatched in the 2D era.",
+    "culturalImpact": "Metal Slug became a worldwide arcade sensation, beloved across Asia, Latin America, and Europe, establishing a multi-decade franchise that reaffirmed the enduring superiority of masterclass 2D pixel art in an era obsessed with early 3D polygons.",
+    "preservationNotes": "Preserved faithfully on original Neo Geo MVS/AES ROM cartridges, ACA NeoGeo emulations by Hamster, and official SNK retro compilations."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "April 19, 1996",
+    "leadPlatform": "Neo Geo MVS",
+    "genre": "beat-em-up",
+    "sales": "Massive worldwide arcade coin-op deployment; millions across home ports",
+    "awards": [
+      "Gamest Awards Best Shooting Game 1996 nominee",
+      "Arcade Operator Excellence"
+    ],
+    "technicalSpecs": {
+      "engine": "Nazca Corporation Neo Geo 68000 assembly engine",
+      "resolution": "320x224 (Neo Geo arcade standard)",
+      "soundChip": "Yamaha YM2610 (OPNB) FM synthesis + ADPCM sampling",
+      "mediaFormat": "Neo Geo MVS Cartridge (193 Megabits)"
+    },
+    "relationships": {
+      "primaryConsole": "neo-geo",
+      "developerEntity": "SNK",
+      "lineage": [
+        "GunForce II",
+        "Metal Slug 2",
+        "Metal Slug X",
+        "Metal Slug 3"
+      ]
+    }
+  },
+  "assets": {
+    "cover": "/assets/images/games/metal-slug.webp",
+    "banner": "/assets/images/games/metal-slug-banner.webp",
+    "screenshots": [
+      "/assets/images/games/metal-slug-screen1.webp",
+      "/assets/images/games/metal-slug-screen2.webp"
+    ],
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/ab/MetalSlugLogo.png",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/ab/MetalSlugLogo.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:MetalSlugLogo.png",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "metal slug",
+    "snk",
+    "neo geo",
+    "nazca",
+    "run and gun",
+    "marco rossi",
+    "pixel art"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

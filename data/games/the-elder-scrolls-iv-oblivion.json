@@ -1,0 +1,89 @@
+{
+  "id": "game-the-elder-scrolls-iv-oblivion",
+  "slug": "the-elder-scrolls-iv-oblivion",
+  "title": "The Elder Scrolls IV: Oblivion",
+  "japaneseTitle": "オブリビオン",
+  "url": "/games/the-elder-scrolls-iv-oblivion/",
+  "originalReleaseYear": 2006,
+  "exactReleaseDate": "2006-03-20",
+  "developer": "Bethesda Game Studios",
+  "publisher": "Bethesda Softworks / 2K Games",
+  "director": "Todd Howard",
+  "designer": "Ken Rolston",
+  "composer": "Jeremy Soule",
+  "originalLaunchPlatform": "Xbox 360 / PC",
+  "platforms": [
+    "Xbox 360",
+    "Microsoft Windows",
+    "PlayStation 3"
+  ],
+  "genre": "action-rpg",
+  "subgenres": [
+    "Open-World WRPG",
+    "First-Person Fantasy RPG"
+  ],
+  "era": "2000s",
+  "shortDescription": "Bethesda's high-definition open-world breakthrough in Cyrodiil featuring radiant AI, physics manipulation, and the Oblivion Crisis.",
+  "historicalSignificance": "The defining early showcase of the high-definition console era, driving millions of Xbox 360 sales, pioneering Bethesda's 'Radiant AI' schedule simulation, and introducing legendary questlines like the Dark Brotherhood's 'Whodunit?'.",
+  "editorialContent": {
+    "overview": "Directed by Todd Howard at Bethesda Game Studios and launched in March 2006, The Elder Scrolls IV: Oblivion served as the definitive vanguard of the seventh console generation. Set in Cyrodiil, the lush heartland of the Tamrielic Empire, players are tasked with finding the illegitimate heir to the Septim throne (voiced by Sean Bean) following the assassination of Emperor Uriel Septim VII (voiced by Patrick Stewart) to shut the fiery gates of Oblivion.",
+    "gameplay": "Players emerge from the imperial sewers into absolute freedom: hunting Daedric artifacts, mastering spellcrafting, rising through the Arena ranks, or completing peerless faction storylines like the Thieves Guild and Dark Brotherhood. Combat integrates Havok physics, archery drop mechanics, and swordplay with shield blocks.",
+    "technicalInnovation": "Pioneered Bethesda's 'Radiant AI' system where hundreds of NPCs lived out 24-hour schedules (eating, sleeping, conversing, shopping), powered by high-dynamic-range (HDR) bloom lighting and SpeedTree procedural forest generation.",
+    "culturalImpact": "Oblivion proved that sprawling, complex open-world RPGs could achieve mainstream multi-million-unit blockbuster success on living room HD televisions, setting the stage for Skyrim and the modern gaming landscape.",
+    "preservationNotes": "Preserved on Xbox 360 and PC DVD-ROMs, enhanced on modern Xbox Series X via auto-HDR and 60fps boost, and kept alive through an immense modding community on Nexus Mods."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "March 20, 2006",
+    "leadPlatform": "Xbox 360",
+    "genre": "action-rpg",
+    "sales": "Over 9.5 million copies worldwide",
+    "awards": [
+      "Game of the Year 2006 (Spike Video Game Awards, GJA)",
+      "AIAS Role Playing Game of the Year 2007"
+    ],
+    "technicalSpecs": {
+      "engine": "Gamebryo Engine with Havok physics and SpeedTree foliage",
+      "resolution": "720p HD (Xbox 360), up to 4K on modern PC",
+      "soundChip": "Dolby Digital 5.1 with Jeremy Soule symphonic score",
+      "mediaFormat": "DVD-ROM"
+    },
+    "relationships": {
+      "primaryConsole": "xbox-360",
+      "developerEntity": "Bethesda Softworks",
+      "lineage": [
+        "The Elder Scrolls III: Morrowind",
+        "The Elder Scrolls V: Skyrim",
+        "Fallout 3",
+        "Starfield"
+      ]
+    }
+  },
+  "assets": {
+    "cover": "/assets/images/games/the-elder-scrolls-iv-oblivion.webp",
+    "banner": "/assets/images/games/the-elder-scrolls-iv-oblivion-banner.webp",
+    "screenshots": [
+      "/assets/images/games/the-elder-scrolls-iv-oblivion-screen1.webp",
+      "/assets/images/games/the-elder-scrolls-iv-oblivion-screen2.webp"
+    ],
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/4/4b/The_Elder_Scrolls_IV_Oblivion_cover.png",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/4/4b/The_Elder_Scrolls_IV_Oblivion_cover.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:The_Elder_Scrolls_IV_Oblivion_cover.png",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "oblivion",
+    "the elder scrolls",
+    "cyrodiil",
+    "todd howard",
+    "radiant ai",
+    "dark brotherhood",
+    "bethesda",
+    "jeremy soule"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

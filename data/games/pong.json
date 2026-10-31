@@ -1,0 +1,72 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.json",
+  "id": "game-pong",
+  "slug": "pong",
+  "title": "Pong",
+  "url": "/games/pong/",
+  "originalReleaseYear": 1972,
+  "exactReleaseDate": "1972-11-29",
+  "developer": "Atari",
+  "publisher": "Atari",
+  "director": "Allan Alcorn",
+  "designer": "Allan Alcorn",
+  "originalLaunchPlatform": "Arcade",
+  "platforms": [
+    "Arcade",
+    "Dedicated Home Consoles"
+  ],
+  "genre": "Sports",
+  "subgenres": [
+    "Arcade",
+    "Table Tennis Simulation"
+  ],
+  "era": "1970s",
+  "shortDescription": "Allan Alcorn and Nolan Bushnell's table tennis simulator that founded the commercial video game industry.",
+  "historicalSignificance": "The first commercially successful coin-operated arcade video game, proving that electronic interactive entertainment could establish an autonomous global industry.",
+  "editorialContent": {
+    "overview": "Engineered by Allan Alcorn as a training exercise assigned by Atari co-founder Nolan Bushnell, Pong was tested in late November 1972 at Andy Capp's Tavern in Sunnyvale, California. Legendarily, the prototype coin mechanism jammed within two weeks because the bread pan collecting quarters had overflowed. Its runaway popularity demonstrated that video games were not merely academic curiosities but viable commercial products capable of driving mass-market adoption.",
+    "gameplayMechanics": "Two players control vertical rectangular paddles situated on opposite perimeters of the screen. A square dot representing a table tennis ball ricochets across the boundaries. Crucially, Alcorn partitioned each paddle into eight invisible zones: impact at the center reflected the ball back at 90 degrees, while impacts near the edges returned the ball at increasingly acute angles. As rallies lengthened, the ball accelerated incrementally, challenging player reaction speeds.",
+    "technicalInnovation": "Unlike subsequent microprocessor-driven arcade titles, Pong contained zero software, zero ROM, and zero CPU. Alcorn constructed the system entirely using discrete transistor-transistor logic (TTL) integrated circuits mounted on a printed circuit board. The visual output was channeled into a modified black-and-white 19-inch Hitachi television chassis housed inside a yellow particleboard cabinet.",
+    "culturalImpact": "Pong established Atari as a household name and launched a wave of international hardware clones. The release of the dedicated Home Pong console in 1975 via Sears Roebuck department stores brought electronic arcade competition into family living rooms for the first time, establishing the foundation of the home video game industry.",
+    "preservationNotes": "Because original Pong machines lack digital ROM code, hardware preservation requires maintaining or rebuilding authentic discrete 7400-series TTL logic gates, analog potentiometers, and composite video sync generators."
+  },
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "Alcorn, Allan. Oral History Interview, Computer History Museum (2008)",
+      "Bushnell, Nolan. 'Finding the Next Steve Jobs', Net Minds Publishing (2013)",
+      "Atari Inc. Service Manual: Pong Model 101 Coin-Operated Electronic Game (1972)"
+    ],
+    "romMediaFormat": "Discrete Transistor-Transistor Logic (TTL) circuitry (No microprocessor or ROM)",
+    "romSizeOriginal": "None (Solid-state hardware logic)",
+    "displayResolutionOriginal": "Standard NTSC 525-line raster (Monochrome CRT)",
+    "audioHardware": "Analog discrete frequency generator triggered by ball collision pulses",
+    "inputMethod": "Twin rotary potentiometer dials (paddle knobs)",
+    "multiplayerCapability": "2 Players (Simultaneous Head-to-Head)"
+  },
+  "assets": {
+    "heroImage": "/assets/images/games/pong-hero.webp",
+    "thumbnailImage": "/assets/images/games/pong.webp",
+    "coverImage": "/assets/images/games/pong-cover.webp",
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/32/Signed_Pong_Cabinet.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Signed_Pong_Cabinet.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Signed_Pong_Cabinet.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "CC BY-SA 4.0 / Archival Preservation Asset",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "pong",
+    "atari",
+    "allan alcorn",
+    "nolan bushnell",
+    "arcade",
+    "1972",
+    "1970s",
+    "discrete ttl",
+    "first commercial game",
+    "sports"
+  ],
+  "featured": true
+}

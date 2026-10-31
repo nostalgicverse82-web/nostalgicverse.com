@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-virtua-fighter-4-evolution",
+  "slug": "virtua-fighter-4-evolution",
+  "title": "Virtua Fighter 4: Evolution",
+  "originalReleaseYear": 2002,
+  "exactReleaseDate": "August 1, 2002",
+  "originalLaunchPlatform": "PlayStation 2",
+  "originalLaunchRegion": "Japan",
+  "developer": "Sega AM2",
+  "publisher": "Sega",
+  "platforms": [
+    "PlayStation 2"
+  ],
+  "genre": "fighting",
+  "subgenres": [
+    "3d-fighter"
+  ],
+  "era": "2000s",
+  "shortDescription": "Sega AM2's deep technical fighter featuring groundbreaking Quest Mode and AI training sparring partners.",
+  "historicalSignificance": "Set the gold standard for fighting game tutorials and tournament-caliber frame-precise balance.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Virtua_Fighter_4:_Evolution",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Sega AM2's deep technical fighter featuring groundbreaking Quest Mode and AI training sparring partners.",
+    "culturalImpact": "Set the gold standard for fighting game tutorials and tournament-caliber frame-precise balance."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 2"
+    ],
+    "genres": [
+      "fighting"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/2/2a/Virtua_Fighter_4_Evolution_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/2/2a/Virtua_Fighter_4_Evolution_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Virtua_Fighter_4:_Evolution",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Virtua Fighter 4: Evolution",
+    "Sega AM2",
+    "Sega",
+    "PlayStation 2",
+    "fighting",
+    "2002",
+    "2000s",
+    "PlayStation 2",
+    "3d-fighter"
+  ],
+  "url": "/games/virtua-fighter-4-evolution/",
+  "featured": false
+}

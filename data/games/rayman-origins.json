@@ -1,0 +1,70 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-rayman-origins",
+  "slug": "rayman-origins",
+  "title": "Rayman Origins",
+  "originalReleaseYear": 2011,
+  "exactReleaseDate": "November 15, 2011",
+  "originalLaunchPlatform": "PlayStation 3",
+  "originalLaunchRegion": "North America",
+  "developer": "Ubisoft Montpellier",
+  "publisher": "Ubisoft",
+  "platforms": [
+    "PlayStation 3",
+    "Xbox 360",
+    "Wii"
+  ],
+  "genre": "platformer",
+  "subgenres": [
+    "2d-platformer"
+  ],
+  "era": "2010s",
+  "shortDescription": "Michel Ancel returns to 2D platforming using the UbiArt Framework for 4-player slapstick co-op in the Glade of Dreams.",
+  "historicalSignificance": "Revitalized handcrafted 2D platforming on HD consoles with exuberant musical timing and responsive controls.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Rayman_Origins",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Michel Ancel returns to 2D platforming using the UbiArt Framework for 4-player slapstick co-op in the Glade of Dreams.",
+    "culturalImpact": "Revitalized handcrafted 2D platforming on HD consoles with exuberant musical timing and responsive controls."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 3"
+    ],
+    "genres": [
+      "platformer"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/6/6f/Rayman_Origins_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/6/6f/Rayman_Origins_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Rayman_Origins",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Rayman Origins",
+    "Ubisoft Montpellier",
+    "Ubisoft",
+    "PlayStation 3",
+    "platformer",
+    "2011",
+    "2010s",
+    "PlayStation 3",
+    "Xbox 360",
+    "Wii",
+    "2d-platformer"
+  ],
+  "url": "/games/rayman-origins/",
+  "featured": false
+}

@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-blue-dragon",
+  "slug": "blue-dragon",
+  "title": "Blue Dragon",
+  "originalReleaseYear": 2006,
+  "exactReleaseDate": "December 7, 2006",
+  "originalLaunchPlatform": "Xbox 360",
+  "originalLaunchRegion": "Japan",
+  "developer": "Mistwalker / Artoon",
+  "publisher": "Microsoft Game Studios",
+  "platforms": [
+    "Xbox 360"
+  ],
+  "genre": "rpg",
+  "subgenres": [
+    "turn-based-rpg"
+  ],
+  "era": "2000s",
+  "shortDescription": "Hironobu Sakaguchi, character designer Akira Toriyama, and composer Nobuo Uematsu unite on an epic shadow-manifesting JRPG.",
+  "historicalSignificance": "Brought legendary Japanese creative talent to the Xbox platform with charming art direction and deep class mechanics.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Blue_Dragon",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Hironobu Sakaguchi, character designer Akira Toriyama, and composer Nobuo Uematsu unite on an epic shadow-manifesting JRPG.",
+    "culturalImpact": "Brought legendary Japanese creative talent to the Xbox platform with charming art direction and deep class mechanics."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "Xbox 360"
+    ],
+    "genres": [
+      "rpg"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Blue_Dragon_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Blue_Dragon_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Blue_Dragon",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Blue Dragon",
+    "Mistwalker / Artoon",
+    "Microsoft Game Studios",
+    "Xbox 360",
+    "rpg",
+    "2006",
+    "2000s",
+    "Xbox 360",
+    "turn-based-rpg"
+  ],
+  "url": "/games/blue-dragon/",
+  "featured": false
+}

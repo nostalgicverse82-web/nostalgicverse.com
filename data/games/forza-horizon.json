@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-forza-horizon",
+  "slug": "forza-horizon",
+  "title": "Forza Horizon",
+  "originalReleaseYear": 2012,
+  "exactReleaseDate": "October 23, 2012",
+  "originalLaunchPlatform": "Xbox 360",
+  "originalLaunchRegion": "North America",
+  "developer": "Playground Games",
+  "publisher": "Microsoft Studios",
+  "platforms": [
+    "Xbox 360"
+  ],
+  "genre": "racing",
+  "subgenres": [
+    "open-world"
+  ],
+  "era": "2010s",
+  "shortDescription": "Playground Games merges Turn 10's authentic physics with a music and car festival across Colorado highways.",
+  "historicalSignificance": "Created the premier open-world racing franchise in the world, balancing festival celebration with superb driving feel.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Forza_Horizon",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Playground Games merges Turn 10's authentic physics with a music and car festival across Colorado highways.",
+    "culturalImpact": "Created the premier open-world racing franchise in the world, balancing festival celebration with superb driving feel."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "Xbox 360"
+    ],
+    "genres": [
+      "racing"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Forza_Horizon_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Forza_Horizon_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Forza_Horizon",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Forza Horizon",
+    "Playground Games",
+    "Microsoft Studios",
+    "Xbox 360",
+    "racing",
+    "2012",
+    "2012",
+    "Xbox 360",
+    "open-world"
+  ],
+  "url": "/games/forza-horizon/",
+  "featured": false
+}

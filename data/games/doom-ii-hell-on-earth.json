@@ -1,0 +1,68 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-doom-ii-hell-on-earth",
+  "slug": "doom-ii-hell-on-earth",
+  "title": "Doom II: Hell on Earth",
+  "originalReleaseYear": 1994,
+  "exactReleaseDate": "September 30, 1994",
+  "originalLaunchPlatform": "PC",
+  "originalLaunchRegion": "North America",
+  "developer": "id Software",
+  "publisher": "GT Interactive",
+  "platforms": [
+    "PC",
+    "Macintosh"
+  ],
+  "genre": "first-person-shooter",
+  "subgenres": [
+    "action"
+  ],
+  "era": "1990s",
+  "shortDescription": "Doomguy returns to Earth fighting demonic hordes armed with the iconic Super Shotgun and Arch-Vile foes.",
+  "historicalSignificance": "Solidified id Software's FPS dominance, selling millions and dominating PC shareware culture globally.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Doom_II:_Hell_on_Earth",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Doomguy returns to Earth fighting demonic hordes armed with the iconic Super Shotgun and Arch-Vile foes.",
+    "culturalImpact": "Solidified id Software's FPS dominance, selling millions and dominating PC shareware culture globally."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PC"
+    ],
+    "genres": [
+      "first-person-shooter"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Doom_II_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Doom_II_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Doom_II:_Hell_on_Earth",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Doom II: Hell on Earth",
+    "id Software",
+    "GT Interactive",
+    "PC",
+    "first-person-shooter",
+    "1994",
+    "1990s",
+    "PC",
+    "Macintosh",
+    "action"
+  ],
+  "url": "/games/doom-ii-hell-on-earth/",
+  "featured": false
+}

@@ -1,0 +1,92 @@
+{
+  "id": "game-disco-elysium",
+  "slug": "disco-elysium",
+  "title": "Disco Elysium",
+  "japaneseTitle": "ディスコ エリジウム",
+  "url": "/games/disco-elysium/",
+  "originalReleaseYear": 2019,
+  "exactReleaseDate": "2019-10-15",
+  "developer": "ZA/UM",
+  "publisher": "ZA/UM",
+  "director": "Robert Kurvitz",
+  "designer": "Robert Kurvitz, Helen Hindpere",
+  "composer": "British Sea Power",
+  "originalLaunchPlatform": "Microsoft Windows / PC",
+  "platforms": [
+    "Microsoft Windows",
+    "macOS",
+    "PlayStation 4",
+    "PlayStation 5",
+    "Xbox One",
+    "Xbox Series X/S",
+    "Nintendo Switch"
+  ],
+  "genre": "role-playing",
+  "subgenres": [
+    "Literary RPG",
+    "Detective Mystery",
+    "Philosophical Dialogue"
+  ],
+  "era": "2010s",
+  "shortDescription": "ZA/UM and Robert Kurvitz's revolutionary non-combat isometric RPG, tracking an amnesiac detective through murder, politics, and psychological disintegration in Revachol.",
+  "historicalSignificance": "Widely acclaimed as the greatest written video game in history (97 Metacritic on PC), completely abandoning traditional physical combat in favor of a 24-skill psychological dialogue engine and winning four awards at The Game Awards 2019.",
+  "editorialContent": {
+    "overview": "Waking up on the floor of a trashed hostel room in the decaying district of Martinaise with total alcohol-induced amnesia, detective Harry Du Bois and his steady partner Kim Kitsuragi must solve the lynching of a mercenary hung behind the hotel.",
+    "gameplay": "Revolutionary RPG dialogue mechanics: your character's mind is partitioned into 24 distinct psychological skills (Logic, Empathy, Electrochemistry, Inland Empire, Shivers) that actively debate each other in your head while exploring the city and interviewing suspects.",
+    "technicalInnovation": "Pioneered the 'Thought Cabinet' system where meditating on philosophical, political, or psychological ideas over real-time hours unlocks unique personality traits and dialogue options.",
+    "culturalImpact": "Hailed as a landmark literary masterpiece in interactive media, winning Best Narrative, Best Independent Game, and Best RPG at The Game Awards 2019.",
+    "preservationNotes": "Preserved across physical media via The Final Cut edition featuring full voice acting for over 300 characters."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "October 15, 2019",
+    "leadPlatform": "PC",
+    "genre": "role-playing",
+    "sales": "Over 2.5 million copies sold worldwide",
+    "awards": [
+      "4 Awards at The Game Awards 2019 (Best Narrative, Best RPG, Best Independent Game, Fresh Indie Game)",
+      "BAFTA for Best Debut Game 2020"
+    ],
+    "technicalSpecs": {
+      "engine": "Unity",
+      "resolution": "Scalable isometric 1080p/4K resolution",
+      "soundChip": "British Sea Power post-rock score with over 1 million spoken words",
+      "mediaFormat": "Digital / Blu-ray Disc"
+    },
+    "relationships": {
+      "primaryConsole": "pc",
+      "developerEntity": "ZA/UM",
+      "lineage": [
+        "Planescape: Torment",
+        "Fallout",
+        "Baldur's Gate"
+      ]
+    }
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/8/84/Disco_Elysium_poster.png",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/8/84/Disco_Elysium_poster.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Disco_Elysium_poster.png",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "disco elysium",
+    "robert kurvitz",
+    "zaum",
+    "harry du bois",
+    "kim kitsuragi",
+    "revachol",
+    "thought cabinet",
+    "rpg",
+    "playstation 4",
+    "ps4",
+    "playstation 5",
+    "ps5",
+    "2019"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

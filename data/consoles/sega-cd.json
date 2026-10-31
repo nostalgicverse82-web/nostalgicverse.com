@@ -1,0 +1,43 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+  "id": "console-sega-cd",
+  "slug": "sega-cd",
+  "name": "Sega CD (Mega-CD)",
+  "manufacturer": "Sega",
+  "generation": "Fourth Generation",
+  "generationNumber": 4,
+  "originalReleaseYear": 1991,
+  "exactReleaseDate": "December 12, 1991",
+  "mediaFormat": "CD-ROM (500 MB)",
+  "significance": "Pioneered Full-Motion Video (FMV) gaming and high-fidelity CD audio soundtracks on home consoles, sparking congressional debates with Night Trap.",
+  "verifiedFactualData": {
+    "cpu": "Secondary Motorola 68000 @ 12.5 MHz",
+    "gpuOrVideoChip": "Custom ASIC for hardware rotation and scaling",
+    "ram": "512 KB program RAM, 256 KB word RAM, 64 KB CD-ROM cache"
+  },
+  "editorialContent": {
+    "overview": "Sega's CD-ROM multimedia expansion add-on adding secondary processing, scaling hardware, and Red Book CD audio.",
+    "marketLegacy": "Pioneered Full-Motion Video (FMV) gaming and high-fidelity CD audio soundtracks on home consoles, sparking congressional debates with Night Trap.",
+    "controllerDesign": "Sega Genesis control pad"
+  },
+  "keyGames": [
+    "sonic-cd",
+    "snatcher",
+    "lunar-silver-star-story",
+    "night-trap"
+  ],
+  "assets": {
+    "mainImage": "/assets/images/consoles/sega-cd.png",
+    "heroImage": "/assets/images/consoles/sega-cd-hero.png",
+    "hardwareImage": "/assets/images/consoles/sega-cd-hardware.png"
+  },
+  "keywords": [
+    "sega cd",
+    "mega-cd",
+    "sega",
+    "fourth generation",
+    "cd-rom",
+    "fmv",
+    "1991"
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-bully",
+  "slug": "bully",
+  "title": "Bully",
+  "originalReleaseYear": 2006,
+  "exactReleaseDate": "October 17, 2006",
+  "originalLaunchPlatform": "PlayStation 2",
+  "originalLaunchRegion": "North America",
+  "developer": "Rockstar Vancouver",
+  "publisher": "Rockstar Games",
+  "platforms": [
+    "PlayStation 2"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "open-world"
+  ],
+  "era": "2000s",
+  "shortDescription": "Rockstar's satirical boarding-school open-world following rebellious student Jimmy Hopkins at Bullworth Academy.",
+  "historicalSignificance": "Praised for its tightly contained social simulation, witty period satire, and memorable prep school atmosphere.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Bully",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Rockstar's satirical boarding-school open-world following rebellious student Jimmy Hopkins at Bullworth Academy.",
+    "culturalImpact": "Praised for its tightly contained social simulation, witty period satire, and memorable prep school atmosphere."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 2"
+    ],
+    "genres": [
+      "action-adventure"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/d/de/Bully_cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/d/de/Bully_cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Bully",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Bully",
+    "Rockstar Vancouver",
+    "Rockstar Games",
+    "PlayStation 2",
+    "action-adventure",
+    "2006",
+    "2000s",
+    "PlayStation 2",
+    "open-world"
+  ],
+  "url": "/games/bully/",
+  "featured": false
+}

@@ -1,0 +1,74 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-death-s-door",
+  "slug": "death-s-door",
+  "title": "Death's Door",
+  "originalReleaseYear": 2021,
+  "exactReleaseDate": "July 20, 2021",
+  "originalLaunchPlatform": "PlayStation 4",
+  "originalLaunchRegion": "Worldwide",
+  "developer": "Acid Nerve",
+  "publisher": "Devolver Digital",
+  "platforms": [
+    "PlayStation 4",
+    "PlayStation 5",
+    "Xbox",
+    "PC",
+    "Switch"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "isometric"
+  ],
+  "era": "2020s",
+  "shortDescription": "A tiny crow reaping souls for a bureaucratic commission embarks on a whimsical journey through realms that defied death.",
+  "historicalSignificance": "Acclaimed for razor-sharp combat, melancholy humor, and tight environmental Zelda-inspired progression.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Death's_Door",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "A tiny crow reaping souls for a bureaucratic commission embarks on a whimsical journey through realms that defied death.",
+    "culturalImpact": "Acclaimed for razor-sharp combat, melancholy humor, and tight environmental Zelda-inspired progression."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 4"
+    ],
+    "genres": [
+      "action-adventure"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/0/07/Deaths_Door_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/0/07/Deaths_Door_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Death's_Door",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Death's Door",
+    "Acid Nerve",
+    "Devolver Digital",
+    "PlayStation 4",
+    "action-adventure",
+    "2021",
+    "2020s",
+    "PlayStation 4",
+    "PlayStation 5",
+    "Xbox",
+    "PC",
+    "Switch",
+    "isometric"
+  ],
+  "url": "/games/death-s-door/",
+  "featured": false
+}

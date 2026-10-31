@@ -1,0 +1,946 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <title>About NostalgicVerse — Digital Gaming Museum</title>
+  <meta name="description" content="Learn about NostalgicVerse: our mission to preserve interactive entertainment history, archival standards, and research initiatives.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://nostalgicverse.com/about/">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <meta name="theme-color" content="#08080C">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://nostalgicverse.com/about/">
+  <meta property="og:title" content="About NostalgicVerse — Digital Gaming Museum">
+  <meta property="og:description" content="Learn about NostalgicVerse: our mission to preserve interactive entertainment history, archival standards, and research initiatives.">
+  <meta property="og:site_name" content="NostalgicVerse">
+  <meta property="og:image" content="https://nostalgicverse.com/assets/images/branding/logo/logo.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://nostalgicverse.com/about/">
+  <meta name="twitter:title" content="About NostalgicVerse — Digital Gaming Museum">
+  <meta name="twitter:description" content="Learn about NostalgicVerse: our mission to preserve interactive entertainment history, archival standards, and research initiatives.">
+  <meta name="twitter:image" content="https://nostalgicverse.com/assets/images/branding/logo/logo.png">
+
+  <style>
+    :root {
+      --nv-bg: #08080C;
+      --nv-bg-alt: #0C0C11;
+      --nv-surface: #111118;
+      --nv-surface-raised: #15151D;
+      --nv-surface-active: #1C1C26;
+      --nv-border: #1E1E2C;
+      --nv-border-strong: #2A2A38;
+      --nv-border-hover: rgba(0, 229, 255, 0.35);
+      --nv-text-primary: #F4F4F7;
+      --nv-text-secondary: #A7A7B5;
+      --nv-text-muted: #737381;
+      --nv-cyan: #00E5FF;
+      --nv-gold: #FFB300;
+      --nv-crimson: #FF2A6D;
+      --nv-font-sans: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      --nv-font-mono: ui-monospace, "SFMono-Regular", Menlo, Consolas, "Liberation Mono", monospace;
+      --nv-container-max: 1400px;
+      --nv-header-height: 72px;
+      --nv-radius-sm: 4px;
+      --nv-radius-md: 8px;
+      --nv-radius-lg: 12px;
+      --nv-transition-fast: 160ms cubic-bezier(0.16, 1, 0.3, 1);
+      --nv-transition-normal: 260ms cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { background-color: var(--nv-bg); color: var(--nv-text-primary); font-family: var(--nv-font-sans); scroll-behavior: smooth; }
+    body { min-height: 100vh; display: flex; flex-direction: column; line-height: 1.6; background-color: var(--nv-bg); overflow-x: hidden; }
+
+    .skip-link {
+      position: absolute; top: -100px; left: 16px; background: var(--nv-cyan); color: #000;
+      padding: 10px 16px; font-weight: 700; z-index: 10000; border-radius: var(--nv-radius-sm);
+      text-decoration: none; transition: top 0.2s;
+    }
+    .skip-link:focus { top: 16px; }
+
+    .container { width: 100%; max-width: var(--nv-container-max); margin: 0 auto; padding: 0 24px; }
+
+    .site-header {
+      position: sticky; top: 0; z-index: 1000; height: var(--nv-header-height);
+      background: rgba(8, 8, 12, 0.85); backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--nv-border); display: flex; align-items: center;
+    }
+    .header-inner { display: flex; align-items: center; justify-content: space-between; width: 100%; }
+
+    .brand-logo-wrap { display: flex; align-items: center; gap: 12px; text-decoration: none; color: inherit; }
+    .brand-mark {
+      display: inline-flex; align-items: center; justify-content: center;
+      width: 36px; height: 36px; background: var(--nv-surface-raised);
+      border: 1px solid var(--nv-border-strong); border-radius: var(--nv-radius-sm);
+      font-family: var(--nv-font-mono); font-size: 0.85rem; font-weight: 700;
+      color: var(--nv-cyan); letter-spacing: 0.05em;
+    }
+    .brand-text { font-size: 1.1rem; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; }
+
+    .site-nav { display: none; align-items: center; gap: 28px; }
+    @media (min-width: 1024px) { .site-nav { display: flex; } }
+    .nav-link {
+      font-size: 0.875rem; font-weight: 500; color: var(--nv-text-secondary);
+      text-decoration: none; transition: color var(--nv-transition-fast);
+    }
+    .nav-link:hover, .nav-link.active { color: var(--nv-cyan); }
+
+    .header-actions { display: flex; align-items: center; gap: 12px; }
+    .header-action-btn {
+      display: inline-flex; align-items: center; justify-content: center;
+      width: 40px; height: 40px; border-radius: var(--nv-radius-sm);
+      background: var(--nv-surface); border: 1px solid var(--nv-border);
+      color: var(--nv-text-secondary); text-decoration: none; position: relative;
+      cursor: pointer; transition: all var(--nv-transition-fast);
+    }
+    .header-action-btn:hover { border-color: var(--nv-border-hover); color: var(--nv-cyan); }
+    .fav-badge {
+      position: absolute; top: -4px; right: -4px; min-width: 18px; height: 18px;
+      padding: 0 4px; border-radius: 9px; background: var(--nv-gold); color: #000;
+      font-size: 0.65rem; font-weight: 700; font-family: var(--nv-font-mono);
+      display: none; align-items: center; justify-content: center;
+    }
+    .fav-badge.has-items { display: flex; }
+
+    .menu-toggle {
+      display: inline-flex; align-items: center; justify-content: center;
+      width: 40px; height: 40px; border-radius: var(--nv-radius-sm);
+      background: var(--nv-surface); border: 1px solid var(--nv-border);
+      color: var(--nv-text-secondary); cursor: pointer;
+    }
+    @media (min-width: 1024px) { .menu-toggle { display: none; } }
+
+    /* Mobile Drawer */
+    .mobile-drawer-overlay {
+      position: fixed; inset: 0; background: rgba(0, 0, 0, 0.7);
+      backdrop-filter: blur(8px); z-index: 1999; opacity: 0; pointer-events: none;
+      transition: opacity var(--nv-transition-normal);
+    }
+    .mobile-drawer-overlay.is-open { opacity: 1; pointer-events: auto; }
+    .mobile-drawer {
+      position: fixed; top: 0; right: 0; bottom: 0; width: 320px; max-width: 85vw;
+      background: var(--nv-surface); border-left: 1px solid var(--nv-border);
+      z-index: 2000; transform: translateX(100%); transition: transform var(--nv-transition-normal);
+      display: flex; flex-direction: column; padding: 24px; overflow-y: auto;
+    }
+    .mobile-drawer.is-open { transform: translateX(0); }
+    .drawer-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 32px; }
+    .drawer-nav { display: flex; flex-direction: column; gap: 8px; flex: 1; }
+    .drawer-nav-link {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 12px 16px; border-radius: var(--nv-radius-sm); color: var(--nv-text-secondary);
+      text-decoration: none; font-size: 0.95rem; font-weight: 500;
+      transition: all var(--nv-transition-fast);
+    }
+    .drawer-nav-link:hover, .drawer-nav-link.active { background: var(--nv-surface-raised); color: var(--nv-cyan); }
+    .nav-num { font-family: var(--nv-font-mono); font-size: 0.75rem; color: var(--nv-text-muted); }
+
+    /* Hero / Placeholder Section */
+    .page-hero {
+      flex: 1; padding: 64px 0 80px; display: flex; flex-direction: column; justify-content: center;
+    }
+    .hero-panel {
+      background: var(--nv-surface); border: 1px solid var(--nv-border);
+      border-radius: var(--nv-radius-lg); padding: 48px 36px; max-width: 900px; margin: 0 auto;
+    }
+    .status-badge {
+      display: inline-block; font-family: var(--nv-font-mono); font-size: 0.75rem;
+      letter-spacing: 0.15em; text-transform: uppercase; color: var(--nv-cyan);
+      background: rgba(0, 229, 255, 0.08); border: 1px solid rgba(0, 229, 255, 0.25);
+      padding: 6px 14px; border-radius: 999px; margin-bottom: 20px;
+    }
+    .hero-title {
+      font-size: clamp(2rem, 4vw, 3rem); font-weight: 800; line-height: 1.15;
+      color: var(--nv-text-primary); letter-spacing: -0.02em; margin-bottom: 16px;
+    }
+    .hero-desc {
+      color: var(--nv-text-secondary); font-size: 1.05rem; line-height: 1.7; margin-bottom: 32px;
+    }
+    .breadcrumbs {
+      display: flex; align-items: center; gap: 8px; font-family: var(--nv-font-mono);
+      font-size: 0.75rem; color: var(--nv-text-muted); margin-bottom: 24px;
+    }
+    .breadcrumbs a { color: var(--nv-text-secondary); text-decoration: none; }
+    .breadcrumbs a:hover { color: var(--nv-cyan); }
+
+    /* Actions / Buttons */
+    .action-group { display: flex; flex-wrap: wrap; gap: 12px; }
+    .btn {
+      display: inline-flex; align-items: center; justify-content: center;
+      gap: 8px; padding: 12px 24px; border-radius: var(--nv-radius-sm);
+      font-size: 0.875rem; font-weight: 600; text-decoration: none;
+      transition: all var(--nv-transition-fast); cursor: pointer;
+    }
+    .btn-primary { background: var(--nv-cyan); color: #000; border: 1px solid var(--nv-cyan); }
+    .btn-primary:hover { background: #33ebff; }
+    .btn-secondary { background: var(--nv-surface-raised); color: var(--nv-text-primary); border: 1px solid var(--nv-border-strong); }
+    .btn-secondary:hover { border-color: var(--nv-cyan); color: var(--nv-cyan); }
+
+    /* Content styling */
+    .prose {
+      color: var(--nv-text-secondary); line-height: 1.8; font-size: 0.95rem; margin-top: 24px;
+    }
+    .prose h2 { color: var(--nv-text-primary); font-size: 1.25rem; margin: 28px 0 12px; }
+    .prose p { margin-bottom: 16px; }
+
+    /* Footer */
+    .site-footer {
+      border-top: 1px solid var(--nv-border); background: var(--nv-bg-alt);
+      padding: 56px 0 32px; font-size: 0.85rem; color: var(--nv-text-muted);
+    }
+    .footer-grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 36px; margin-bottom: 40px;
+    }
+    .footer-col h3 {
+      font-family: var(--nv-font-mono); font-size: 0.75rem; letter-spacing: 0.12em;
+      text-transform: uppercase; color: var(--nv-text-primary); margin-bottom: 16px;
+    }
+    .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+    .footer-col a { color: var(--nv-text-secondary); text-decoration: none; transition: color var(--nv-transition-fast); }
+    .footer-col a:hover { color: var(--nv-cyan); }
+    .footer-bottom {
+      border-top: 1px solid var(--nv-border); padding-top: 24px;
+      display: flex; flex-wrap: wrap; justify-content: space-between; gap: 16px;
+      font-family: var(--nv-font-mono); font-size: 0.75rem;
+    }
+    .footer-bottom a { color: var(--nv-text-muted); text-decoration: none; margin-left: 16px; }
+    .footer-bottom a:hover { color: var(--nv-cyan); }
+  
+    /* Global Official Logo Styles */
+    .site-logo-img {
+      height: 36px;
+      width: auto;
+      max-width: 190px;
+      display: block;
+    }
+    .drawer-logo-img {
+      height: 32px;
+      max-width: 160px;
+    }
+    .footer-logo-img {
+      height: 40px;
+      max-width: 200px;
+      margin-bottom: 12px;
+    }
+    @media (max-width: 768px) {
+      .site-logo-img {
+        height: 30px;
+        max-width: 150px;
+      }
+    }
+
+    /* Global Archive Support Section */
+    .archive-support-section {
+      padding: 48px 0;
+      border-top: 1px solid var(--nv-border, #1E1E2C);
+      background: var(--nv-bg-alt, #0C0C11);
+      position: relative;
+      z-index: 1;
+    }
+    .support-panel {
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+      background: var(--nv-surface, #111118);
+      border: 1px solid var(--nv-border, #1E1E2C);
+      border-radius: var(--nv-radius-lg, 12px);
+      padding: clamp(24px, 4vw, 40px);
+      align-items: center;
+    }
+    @media (min-width: 768px) {
+      .support-panel {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .support-content {
+        max-width: 65%;
+      }
+    }
+    .archive-support-section .catalog-tag {
+      display: inline-block;
+      font-family: var(--nv-font-mono, monospace);
+      font-size: 0.72rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      padding: 4px 10px;
+      border-radius: var(--nv-radius-sm, 4px);
+    }
+    .archive-support-section .tag-gold,
+    .support-modal .tag-gold {
+      color: var(--nv-gold, #FFB300);
+      background: rgba(255, 179, 0, 0.1);
+      border: 1px solid rgba(255, 179, 0, 0.25);
+    }
+    .support-title {
+      font-size: clamp(1.4rem, 2.5vw, 1.85rem);
+      font-weight: 800;
+      color: var(--nv-text-primary, #F4F4F7);
+      margin: 10px 0 12px;
+      letter-spacing: -0.02em;
+    }
+    .support-desc {
+      font-size: 0.95rem;
+      color: var(--nv-text-secondary, #A7A7B5);
+      line-height: 1.65;
+      margin-bottom: 8px;
+    }
+    .support-subdesc {
+      font-size: 0.85rem;
+      color: var(--nv-text-muted, #737381);
+      line-height: 1.5;
+      margin-bottom: 20px;
+    }
+    .support-actions {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .archive-support-section .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 12px 24px;
+      border-radius: var(--nv-radius-sm, 4px);
+      font-size: 0.875rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all var(--nv-transition-fast, 160ms ease);
+      cursor: pointer;
+    }
+    .archive-support-section .btn-secondary {
+      background: var(--nv-surface-raised, #15151D);
+      color: var(--nv-text-primary, #F4F4F7);
+      border: 1px solid var(--nv-border-strong, #2A2A38);
+    }
+    .archive-support-section .btn-secondary:hover {
+      border-color: var(--nv-cyan, #00E5FF);
+      color: var(--nv-cyan, #00E5FF);
+    }
+    .support-qr-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      flex-shrink: 0;
+    }
+    .support-qr-quiet-zone {
+      background: #FFFFFF;
+      padding: 14px;
+      border-radius: var(--nv-radius-md, 8px);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .support-qr-image {
+      width: clamp(160px, 20vw, 200px);
+      height: auto;
+      aspect-ratio: 1440 / 1472;
+      display: block;
+      object-fit: contain;
+    }
+    .support-qr-caption {
+      font-size: 0.8rem;
+      font-family: var(--nv-font-mono, monospace);
+      color: var(--nv-text-muted, #737381);
+      margin-top: 10px;
+    }
+
+    /* Support Modal Backdrop & Dialog */
+    .support-modal-backdrop {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.75);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      z-index: 9998;
+    }
+    .support-modal {
+      position: fixed;
+      inset: 0;
+      z-index: 9999;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 16px;
+      overflow-y: auto;
+    }
+    .support-modal-dialog {
+      background: var(--nv-surface, #111118);
+      border: 1px solid var(--nv-border-strong, #2A2A38);
+      border-radius: var(--nv-radius-lg, 12px);
+      padding: clamp(20px, 3.5vw, 32px);
+      max-width: 440px;
+      width: 100%;
+      box-shadow: 0 24px 64px rgba(0, 0, 0, 0.8);
+      position: relative;
+    }
+    .support-modal-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 12px;
+    }
+    .support-modal .tag-gold {
+      display: inline-block;
+      font-family: var(--nv-font-mono, monospace);
+      font-size: 0.72rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      padding: 4px 10px;
+      border-radius: var(--nv-radius-sm, 4px);
+    }
+    .support-modal-close {
+      color: var(--nv-text-muted, #737381);
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 6px;
+      border-radius: var(--nv-radius-sm, 4px);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      transition: color var(--nv-transition-fast, 160ms ease);
+    }
+    .support-modal-close:hover {
+      color: var(--nv-text-primary, #F4F4F7);
+      background: var(--nv-surface-raised, #15151D);
+    }
+    .support-modal-title {
+      font-size: 1.4rem;
+      font-weight: 800;
+      color: var(--nv-text-primary, #F4F4F7);
+      letter-spacing: -0.01em;
+      margin-bottom: 4px;
+    }
+    .support-modal-subtitle {
+      font-size: 0.95rem;
+      color: var(--nv-cyan, #00E5FF);
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+    .support-modal-desc {
+      font-size: 0.875rem;
+      color: var(--nv-text-secondary, #A7A7B5);
+      line-height: 1.6;
+      margin-bottom: 16px;
+    }
+    .support-modal-qr-wrap {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      margin: 16px 0;
+    }
+    .support-modal-qr {
+      width: 160px;
+      height: auto;
+      aspect-ratio: 1440 / 1472;
+      display: block;
+      object-fit: contain;
+    }
+    .support-modal-qr-text {
+      font-size: 0.825rem;
+      font-weight: 600;
+      color: var(--nv-text-primary, #F4F4F7);
+      margin-top: 10px;
+    }
+    .support-modal-actions {
+      display: flex;
+      gap: 8px;
+      margin-top: 16px;
+    }
+    .support-modal-btn {
+      flex: 1;
+      text-align: center;
+      padding: 10px 14px;
+      font-size: 0.85rem;
+      border-radius: var(--nv-radius-sm, 4px);
+      font-family: var(--nv-font-sans, system-ui);
+      font-weight: 600;
+      cursor: pointer;
+      transition: all var(--nv-transition-fast, 160ms ease);
+    }
+    .support-modal .btn-primary {
+      background: var(--nv-cyan, #00E5FF);
+      color: #000;
+      border: 1px solid var(--nv-cyan, #00E5FF);
+    }
+    .support-modal .btn-primary:hover {
+      background: #33ebff;
+    }
+    .support-modal .btn-secondary {
+      background: var(--nv-surface-raised, #15151D);
+      color: var(--nv-text-primary, #F4F4F7);
+      border: 1px solid var(--nv-border-strong, #2A2A38);
+    }
+    .support-modal .btn-secondary:hover {
+      border-color: var(--nv-cyan, #00E5FF);
+      color: var(--nv-cyan, #00E5FF);
+    }
+    body.support-modal-open {
+      overflow: hidden;
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .support-modal-backdrop,
+      .support-modal-dialog {
+        transition: none !important;
+        animation: none !important;
+      }
+    }
+
+  </style>
+  <link rel="stylesheet" href="/assets/css/auth-ui.css">
+  <link rel="stylesheet" href="/assets/css/avatar-picker.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <header class="site-header" id="site-header">
+    <div class="container">
+      <div class="header-inner">
+        <div class="brand-group">
+          <div class="account-control-wrap" id="account-control-wrap">
+            <button class="account-toggle-btn" id="account-toggle-btn" aria-expanded="false" aria-controls="account-dropdown-menu" aria-label="Account Menu">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                <circle cx="12" cy="7" r="4"></circle>
+              </svg>
+            </button>
+            <div class="account-dropdown-menu" id="account-dropdown-menu" role="menu" hidden>
+              <div class="account-dropdown-header">
+                <span class="account-dropdown-title">ACCOUNT</span>
+              </div>
+              <a href="/login/" class="account-dropdown-item" role="menuitem">Log In</a>
+              <a href="/signup/" class="account-dropdown-item" role="menuitem">Sign Up</a>
+            </div>
+          </div>
+          <a href="/" class="brand-logo-wrap" aria-label="NostalgicVerse Homepage">
+            <img src="/assets/images/branding/logo/logo.svg" alt="NostalgicVerse" class="site-logo-img" width="180" height="36" loading="eager">
+          </a>
+        </div>
+
+        <nav class="site-nav" aria-label="Primary Exhibition Navigation">
+          <a href="/" class="nav-link">Home</a>
+          <a href="/games/" class="nav-link">Games</a>
+          <a href="/consoles/" class="nav-link">Consoles</a>
+          <a href="/timeline/" class="nav-link">Timeline</a>
+          <a href="/genres/" class="nav-link">Genres</a>
+          <a href="/guides/" class="nav-link">Guides</a>
+          <a href="/blog/" class="nav-link">Stories</a>
+          <a href="/download/" class="nav-link">Emulator</a>
+        </nav>
+
+        <div class="header-actions">
+          <a href="/search/" class="header-action-btn" aria-label="Search the Archive">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+          </a>
+          <a href="/favorites/" class="header-action-btn" aria-label="View Saved Archive Favorites">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path></svg>
+            <span class="fav-badge" id="header-fav-badge" aria-live="polite">0</span>
+          </a>
+          <button type="button" class="menu-toggle" id="menu-toggle-btn" aria-expanded="false" aria-controls="mobile-nav-drawer" aria-label="Open Archive Navigation">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-drawer-overlay" id="drawer-backdrop" aria-hidden="true"></div>
+  <aside class="mobile-drawer" id="mobile-nav-drawer" aria-label="Mobile Navigation" aria-hidden="true" tabindex="-1">
+    <div class="drawer-top">
+<div class="brand-group">
+        <a href="/" class="brand-logo-wrap" aria-label="NostalgicVerse Homepage">
+          <img src="/assets/images/branding/logo/logo.svg" alt="NostalgicVerse" class="site-logo-img drawer-logo-img" width="160" height="32" loading="lazy">
+        </a>
+      </div>
+      <button type="button" class="menu-toggle" id="drawer-close-btn" aria-label="Close Archive Navigation">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+    </div>
+    <nav class="drawer-nav">
+      <a href="/" class="drawer-nav-link"><span>Home</span> <span class="nav-num">/01</span></a>
+      <a href="/games/" class="drawer-nav-link"><span>Games</span> <span class="nav-num">/02</span></a>
+      <a href="/consoles/" class="drawer-nav-link"><span>Consoles</span> <span class="nav-num">/03</span></a>
+      <a href="/timeline/" class="drawer-nav-link"><span>Timeline</span> <span class="nav-num">/04</span></a>
+      <a href="/genres/" class="drawer-nav-link"><span>Genres</span> <span class="nav-num">/05</span></a>
+      <a href="/guides/" class="drawer-nav-link"><span>Guides</span> <span class="nav-num">/06</span></a>
+      <a href="/blog/" class="drawer-nav-link"><span>Stories</span> <span class="nav-num">/07</span></a>
+      <a href="/download/" class="drawer-nav-link"><span>Emulator</span> <span class="nav-num">/08</span></a>
+      <a href="/favorites/" class="drawer-nav-link"><span>Favorites Archive</span> <span class="nav-num">/FAV</span></a>
+      <a href="/random/" class="drawer-nav-link"><span>Random Discovery</span> <span class="nav-num">/RND</span></a>
+    </nav>
+  </aside>
+
+  <main id="main-content" class="page-hero">
+    <div class="container">
+      <div class="hero-panel">
+        <nav class="breadcrumbs" aria-label="Breadcrumb">
+          <a href="/">Home</a>
+          <span>/</span>
+          <span>About NostalgicVerse</span>
+        </nav>
+        <span class="status-badge">THE INSTITUTION // MISSION & METHODOLOGY</span>
+        <h1 class="hero-title">About NostalgicVerse</h1>
+        <p class="hero-desc">NostalgicVerse was founded to celebrate, preserve, and illuminate the technological and creative achievements that turned interactive entertainment into modern culture.</p>
+        <div class="prose">
+  <h2>Mission Statement</h2>
+  <p>NostalgicVerse is an independent digital preservation initiative and interactive museum dedicated to documenting the technical architectures, design philosophies, and cultural milestones of video games.</p>
+  <h2>Archival Principles</h2>
+  <p>• Historical Accuracy: Every release date, platform specification, and developer attribution is verified against primary documentation.<br>
+     • Technical Rigor: We treat game software and hardware as critical cultural artifacts worthy of scholarly preservation.<br>
+     • Zero Commercial Distraction: Free of sensationalism, aggressive advertising, or speculative markets.</p>
+</div>
+        <div class="action-group">
+          <a href="/" class="btn btn-primary">Return to Homepage</a>
+          <a href="/games/" class="btn btn-secondary">Explore Games</a>
+          <a href="/consoles/" class="btn btn-secondary">Examine Consoles</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  
+  <!-- ==========================================================================
+       GLOBAL ARCHIVE SUPPORT SECTION
+       ========================================================================== -->
+  <!-- ==========================================================================
+       GLOBAL ARCHIVE SUPPORT SECTION
+       ========================================================================== -->
+  <!-- ==========================================================================
+       GLOBAL ARCHIVE SUPPORT SECTION
+       ========================================================================== -->
+  <section class="archive-support-section" id="archive-support" aria-labelledby="support-heading">
+    <div class="container">
+      <div class="support-panel">
+        <div class="support-content">
+          <span class="catalog-tag tag-gold">Preservation Initiative</span>
+          <h2 class="support-title" id="support-heading">Support the Creator</h2>
+          <p class="support-desc">
+            Help me keep building NostalgicVerse and bringing more gaming history, hardware, stories and preservation resources to the archive.
+          </p>
+          <p class="support-subdesc">
+            NostalgicVerse is an independent project created to preserve the games, machines, stories and memories that made gaming history. Thank you for supporting NostalgicVerse.
+          </p>
+          <div class="support-actions">
+            <a href="/support/" class="btn btn-secondary">
+              <span>Support the Creator</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
+          </div>
+        </div>
+        <div class="support-qr-card">
+          <div class="support-qr-quiet-zone">
+            <img src="/assets/images/qr-code/qr-code.png" alt="QR code to support NostalgicVerse creator" class="support-qr-image" width="200" height="200" loading="lazy" decoding="async">
+          </div>
+          <p class="support-qr-caption">Scan to support NostalgicVerse</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h3>The Museum</h3>
+          <ul>
+            <li><a href="/about/">About NostalgicVerse</a></li>
+            <li><a href="/timeline/">Historical Timeline</a></li>
+            <li><a href="/genres/">Genre Taxonomy</a></li>
+            <li><a href="/support/">Support the Archive</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Exhibits</h3>
+          <ul>
+            <li><a href="/games/">Landmark Games</a></li>
+            <li><a href="/consoles/">Hardware Generations</a></li>
+            <li><a href="/guides/">Preservation Guides</a></li>
+            <li><a href="/blog/">Archival Stories</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Software</h3>
+          <ul>
+            <li><a href="/download/">NostalgicVerse Emulator</a></li>
+            <li><a href="/favorites/">Saved Collection</a></li>
+            <li><a href="/random/">Random Discovery</a></li>
+            <li><a href="/search/">Archive Search</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Legal & Standards</h3>
+          <ul>
+            <li><a href="/legal/privacy.html">Privacy Policy</a></li>
+            <li><a href="/legal/terms.html">Terms of Service</a></li>
+            <li><a href="/legal/cookies.html">Cookie Policy</a></li>
+            <li><a href="/legal/disclaimer.html">Archival Disclaimer</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>&copy; 2026 NostalgicVerse. Dedicated to digital preservation and video game history.</div>
+        <div>
+          <a href="/legal/privacy.html">Privacy</a>
+          <a href="/legal/terms.html">Terms</a>
+          <a href="/legal/disclaimer.html">Disclaimer</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      "use strict";
+      const FAV_STORAGE_KEY = 'nostalgicverse_favs';
+
+      function updateFavoritesHeaderBadge() {
+        const badge = document.getElementById('header-fav-badge');
+        if (!badge) return;
+        try {
+          const raw = localStorage.getItem(FAV_STORAGE_KEY);
+          const favs = raw ? JSON.parse(raw) : [];
+          const count = Array.isArray(favs) ? favs.length : 0;
+          badge.textContent = count;
+          if (count > 0) { badge.classList.add('has-items'); } else { badge.classList.remove('has-items'); }
+        } catch (e) {
+          console.warn('LocalStorage inaccessible', e);
+        }
+      }
+
+      const menuBtn = document.getElementById('menu-toggle-btn');
+      const closeBtn = document.getElementById('drawer-close-btn');
+      const drawer = document.getElementById('mobile-nav-drawer');
+      const backdrop = document.getElementById('drawer-backdrop');
+
+      function openDrawer() {
+        if (!drawer || !backdrop) return;
+        drawer.classList.add('is-open');
+        backdrop.classList.add('is-open');
+        menuBtn.setAttribute('aria-expanded', 'true');
+        drawer.setAttribute('aria-hidden', 'false');
+        drawer.focus();
+      }
+
+      function closeDrawer() {
+        if (!drawer || !backdrop) return;
+        drawer.classList.remove('is-open');
+        backdrop.classList.remove('is-open');
+        menuBtn.setAttribute('aria-expanded', 'false');
+        drawer.setAttribute('aria-hidden', 'true');
+        menuBtn.focus();
+      }
+
+      if (menuBtn) menuBtn.addEventListener('click', openDrawer);
+      if (closeBtn) closeBtn.addEventListener('click', closeDrawer);
+      if (backdrop) backdrop.addEventListener('click', closeDrawer);
+
+      document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape' && drawer && drawer.classList.contains('is-open')) {
+          closeDrawer();
+        }
+      });
+
+      window.addEventListener('storage', function (e) {
+        if (e.key === FAV_STORAGE_KEY) { updateFavoritesHeaderBadge(); }
+      });
+
+      window.addEventListener('DOMContentLoaded', updateFavoritesHeaderBadge);
+    })();
+  </script>
+
+  <!-- Support the Creator Global Modal -->
+  <div class="support-modal-backdrop" id="support-modal-backdrop" aria-hidden="true" style="display: none;"></div>
+  <div class="support-modal" id="support-modal" role="dialog" aria-modal="true" aria-labelledby="support-modal-title" aria-describedby="support-modal-desc" tabindex="-1" style="display: none;">
+    <div class="support-modal-dialog">
+      <div class="support-modal-header">
+        <span class="catalog-tag tag-gold">Preservation Initiative</span>
+        <button type="button" class="support-modal-close" id="support-modal-close-btn" aria-label="Close Support Dialog">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+      <h2 class="support-modal-title" id="support-modal-title">Support the Creator</h2>
+      <p class="support-modal-subtitle">Enjoying NostalgicVerse?</p>
+      <p class="support-modal-desc" id="support-modal-desc">
+        I'm building this project to preserve the games, machines, stories and memories that shaped gaming history. Your support helps me keep expanding it.
+      </p>
+      <div class="support-modal-qr-wrap">
+        <div class="support-qr-quiet-zone">
+          <img src="/assets/images/qr-code/qr-code.png" alt="QR code to support NostalgicVerse creator" class="support-modal-qr" width="180" height="180" loading="lazy" decoding="async">
+        </div>
+        <p class="support-modal-qr-text">Would you like to support NostalgicVerse?</p>
+      </div>
+      <div class="support-modal-actions">
+        <button type="button" class="btn btn-primary support-modal-btn" id="support-btn-yes">Yes</button>
+        <button type="button" class="btn btn-secondary support-modal-btn" id="support-btn-no">No</button>
+        <button type="button" class="btn btn-secondary support-modal-btn" id="support-btn-later">Later</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Support Modal & Active-Time Tracking Script -->
+  <script>
+    (function() {
+      'use strict';
+      const STORAGE_KEY = 'nostalgicverse_support_prompt_state';
+      const ACTIVE_TIME_KEY = 'nostalgicverse_active_time_ms';
+      const TARGET_ACTIVE_MS = 120000;
+      const INACTIVITY_TIMEOUT_MS = 30000;
+
+      function safeGet(k) {
+        try { return localStorage.getItem(k); } catch (e) { return null; }
+      }
+      function safeSet(k, v) {
+        try { localStorage.setItem(k, v); } catch (e) {}
+      }
+
+      const currentState = safeGet(STORAGE_KEY);
+      if (currentState === 'shown' || currentState === 'accepted' || currentState === 'declined' || currentState === 'later') {
+        return;
+      }
+
+      const modal = document.getElementById('support-modal');
+      const backdrop = document.getElementById('support-modal-backdrop');
+      const btnYes = document.getElementById('support-btn-yes');
+      const btnNo = document.getElementById('support-btn-no');
+      const btnLater = document.getElementById('support-btn-later');
+      const btnClose = document.getElementById('support-modal-close-btn');
+
+      if (!modal || !backdrop) return;
+
+      let lastActive = Date.now();
+      let accumulatedMs = parseInt(safeGet(ACTIVE_TIME_KEY) || '0', 10);
+      if (isNaN(accumulatedMs) || accumulatedMs < 0) accumulatedMs = 0;
+
+      let previousFocusedElement = null;
+      let isModalOpen = false;
+
+      function onActivity() {
+        lastActive = Date.now();
+      }
+      ['mousemove', 'keydown', 'touchstart', 'scroll', 'click'].forEach(function(evt) {
+        window.addEventListener(evt, onActivity, { passive: true });
+      });
+
+      window.addEventListener('storage', function(e) {
+        if (e.key === STORAGE_KEY) {
+          if (e.newValue === 'shown' || e.newValue === 'accepted' || e.newValue === 'declined' || e.newValue === 'later') {
+            closeModal(false);
+          }
+        }
+      });
+
+      function openModal() {
+        if (isModalOpen) return;
+        const state = safeGet(STORAGE_KEY);
+        if (state === 'shown' || state === 'accepted' || state === 'declined' || state === 'later') return;
+
+        safeSet(STORAGE_KEY, 'shown');
+        isModalOpen = true;
+        previousFocusedElement = document.activeElement;
+
+        backdrop.style.display = 'block';
+        modal.style.display = 'flex';
+        document.body.classList.add('support-modal-open');
+
+        if (btnYes) btnYes.focus();
+      }
+
+      function closeModal(recordState, stateValue) {
+        if (recordState && stateValue) {
+          safeSet(STORAGE_KEY, stateValue);
+        }
+        isModalOpen = false;
+        if (backdrop) backdrop.style.display = 'none';
+        if (modal) modal.style.display = 'none';
+        document.body.classList.remove('support-modal-open');
+
+        if (previousFocusedElement && typeof previousFocusedElement.focus === 'function') {
+          try { previousFocusedElement.focus(); } catch (e) {}
+        }
+      }
+
+      if (btnYes) {
+        btnYes.addEventListener('click', function() {
+          closeModal(true, 'accepted');
+          window.location.href = '/support/';
+        });
+      }
+      if (btnNo) {
+        btnNo.addEventListener('click', function() {
+          closeModal(true, 'declined');
+        });
+      }
+      if (btnLater) {
+        btnLater.addEventListener('click', function() {
+          closeModal(true, 'later');
+        });
+      }
+      if (btnClose) {
+        btnClose.addEventListener('click', function() {
+          closeModal(true, 'later');
+        });
+      }
+
+      document.addEventListener('keydown', function(e) {
+        if (!isModalOpen) return;
+        if (e.key === 'Escape') {
+          e.preventDefault();
+          closeModal(true, 'later');
+          return;
+        }
+        if (e.key === 'Tab') {
+          const focusables = modal.querySelectorAll('button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])');
+          if (!focusables.length) return;
+          const first = focusables[0];
+          const last = focusables[focusables.length - 1];
+          if (e.shiftKey && document.activeElement === first) {
+            e.preventDefault();
+            last.focus();
+          } else if (!e.shiftKey && document.activeElement === last) {
+            e.preventDefault();
+            first.focus();
+          }
+        }
+      });
+
+      const interval = setInterval(function() {
+        const state = safeGet(STORAGE_KEY);
+        if (state === 'shown' || state === 'accepted' || state === 'declined' || state === 'later') {
+          clearInterval(interval);
+          return;
+        }
+
+        const now = Date.now();
+        const idleTime = now - lastActive;
+        const isDocumentVisible = document.visibilityState === 'visible';
+
+        if (isDocumentVisible && idleTime < INACTIVITY_TIMEOUT_MS) {
+          accumulatedMs += 1000;
+          safeSet(ACTIVE_TIME_KEY, accumulatedMs.toString());
+          if (accumulatedMs >= TARGET_ACTIVE_MS) {
+            clearInterval(interval);
+            openModal();
+          }
+        }
+      }, 1000);
+    })();
+  </script>
+
+  <script src="/assets/js/auth-ui.js"></script>
+  <script src="/assets/js/avatar-picker.js"></script>
+</body>
+</html>

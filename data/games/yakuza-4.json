@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-yakuza-4",
+  "slug": "yakuza-4",
+  "title": "Yakuza 4",
+  "originalReleaseYear": 2010,
+  "exactReleaseDate": "March 18, 2010",
+  "originalLaunchPlatform": "PlayStation 3",
+  "originalLaunchRegion": "Japan",
+  "developer": "Ryu Ga Gotoku Studio",
+  "publisher": "Sega",
+  "platforms": [
+    "PlayStation 3"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "beat-em-up"
+  ],
+  "era": "2010s",
+  "shortDescription": "Expands Kamurocho through four distinct playable protagonists: Akiyama, Saejima, Tanimura, and Kiryu.",
+  "historicalSignificance": "Masterfully interwoven multi-perspective crime mystery introducing rooftop and underground layers to Kamurocho.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Yakuza_4",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Expands Kamurocho through four distinct playable protagonists: Akiyama, Saejima, Tanimura, and Kiryu.",
+    "culturalImpact": "Masterfully interwoven multi-perspective crime mystery introducing rooftop and underground layers to Kamurocho."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 3"
+    ],
+    "genres": [
+      "action-adventure"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/0/07/Yakuza_4_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/0/07/Yakuza_4_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Yakuza_4",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Yakuza 4",
+    "Ryu Ga Gotoku Studio",
+    "Sega",
+    "PlayStation 3",
+    "action-adventure",
+    "2010",
+    "2010s",
+    "PlayStation 3",
+    "beat-em-up"
+  ],
+  "url": "/games/yakuza-4/",
+  "featured": false
+}

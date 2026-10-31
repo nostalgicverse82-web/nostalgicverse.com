@@ -1,0 +1,91 @@
+{
+  "id": "game-mass-effect-2",
+  "slug": "mass-effect-2",
+  "title": "Mass Effect 2",
+  "japaneseTitle": "マスエフェクト2",
+  "url": "/games/mass-effect-2/",
+  "originalReleaseYear": 2010,
+  "exactReleaseDate": "2010-01-26",
+  "developer": "BioWare",
+  "publisher": "Electronic Arts",
+  "director": "Casey Hudson",
+  "designer": "Preston Watamaniuk, Mac Walters",
+  "composer": "Jack Wall",
+  "originalLaunchPlatform": "Xbox 360 / PC",
+  "platforms": [
+    "Xbox 360",
+    "Microsoft Windows",
+    "PlayStation 3"
+  ],
+  "genre": "action-rpg",
+  "subgenres": [
+    "Sci-Fi Action RPG",
+    "Squad Tactical Shooter",
+    "Character Ensemble"
+  ],
+  "era": "2010s",
+  "shortDescription": "BioWare's masterclass ensemble space opera culminating in the legendary, lethal Suicide Mission.",
+  "historicalSignificance": "The gold standard of video game ensemble character writing and high-stakes consequence, culminating in the celebrated 'Suicide Mission' where every companion can permanently live or die based on player loyalty choices and tactical command decisions.",
+  "editorialContent": {
+    "overview": "Directed by Casey Hudson and published by Electronic Arts in January 2010, Mass Effect 2 opened with the shocking destruction of the SSV Normandy and the death of Commander Shepard. Reconstructed by the pro-human extremist syndicate Cerberus led by the enigmatic Illusive Man (voiced by Martin Sheen), Shepard must recruit an elite strike team of twelve galactic specialists to counter an insectoid alien threat abducting human colonies: the Collectors.",
+    "gameplay": "Streamlined its predecessor's clunky RPG systems into snappy third-person tactical shooting with shared cooldowns and biotic powers (Warp, Pull, Shockwave). The campaign structure revolves around personal Loyalty Missions for each squadmate, culminating in the Omega 4 Relay assault.",
+    "technicalInnovation": "Engineered an intricate causality graph tracking dozens of imported save decisions from Mass Effect 1 while calculating survival probabilities across three phases of the final mission based on Normandy ship upgrades and specialist role assignments.",
+    "culturalImpact": "Mass Effect 2 earned a 96 Metacritic rating and numerous Game of the Year awards, celebrated for its mature writing, iconic squadmates (Mordin Solus, Thane Krios, Legion), and emotional intensity.",
+    "preservationNotes": "Preserved on Xbox 360/PS3 media and remastered in stunning 4K HDR in Mass Effect Legendary Edition (2021)."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "January 26, 2010",
+    "leadPlatform": "Xbox 360",
+    "genre": "action-rpg",
+    "sales": "Over 5 million copies worldwide",
+    "awards": [
+      "BAFTA Game of the Year 2010",
+      "AIAS Overall Game of the Year 2011",
+      "Spike Video Game Award for Best RPG 2010"
+    ],
+    "technicalSpecs": {
+      "engine": "Unreal Engine 3 with custom BioWare lighting and cinematic branching engine",
+      "resolution": "720p HD (Xbox 360/PS3)",
+      "soundChip": "Dolby Digital 5.1 with Jack Wall epic orchestral score",
+      "mediaFormat": "2 DVD-ROM Discs / Blu-ray Disc"
+    },
+    "relationships": {
+      "primaryConsole": "xbox-360",
+      "developerEntity": "BioWare",
+      "lineage": [
+        "Mass Effect",
+        "Mass Effect 3",
+        "Dragon Age II",
+        "The Outer Worlds"
+      ]
+    }
+  },
+  "assets": {
+    "cover": "/assets/images/games/mass-effect-2.webp",
+    "banner": "/assets/images/games/mass-effect-2-banner.webp",
+    "screenshots": [
+      "/assets/images/games/mass-effect-2-screen1.webp",
+      "/assets/images/games/mass-effect-2-screen2.webp"
+    ],
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/0/05/MassEffect2_cover.PNG",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/0/05/MassEffect2_cover.PNG",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:MassEffect2_cover.PNG",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "mass effect 2",
+    "commander shepard",
+    "illusive man",
+    "suicide mission",
+    "mordin solus",
+    "bioware",
+    "garrus",
+    "space opera"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

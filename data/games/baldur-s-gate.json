@@ -1,0 +1,89 @@
+{
+  "id": "game-baldur-s-gate",
+  "slug": "baldur-s-gate",
+  "title": "Baldur's Gate",
+  "japaneseTitle": "バルダーズ・ゲート",
+  "url": "/games/baldur-s-gate/",
+  "originalReleaseYear": 1998,
+  "exactReleaseDate": "1998-12-21",
+  "developer": "BioWare",
+  "publisher": "Interplay Productions (Black Isle Studios)",
+  "director": "Ray Muzyka, Greg Zeschuk",
+  "designer": "James Ohlen",
+  "composer": "Michael Hoenig",
+  "originalLaunchPlatform": "Microsoft Windows",
+  "platforms": [
+    "Microsoft Windows",
+    "Mac OS"
+  ],
+  "genre": "rpg",
+  "subgenres": [
+    "Infinity Engine CRPG",
+    "Party-Based RPG",
+    "Real-Time with Pause"
+  ],
+  "era": "1990s",
+  "shortDescription": "BioWare's epic Dungeons & Dragons Infinity Engine RPG that revitalized computer role-playing on the Sword Coast.",
+  "historicalSignificance": "Rescued computer Dungeons & Dragons role-playing from oblivion, introducing the Infinity Engine, real-time with pause (RTwP) squad tactical combat, and deeply written companion characters with their own moral alignments, banter, and inter-party conflicts.",
+  "editorialContent": {
+    "overview": "Developed in Edmonton, Alberta, by medical doctors turned game developers Ray Muzyka and Greg Zeschuk alongside lead designer James Ohlen, Baldur's Gate launched in December 1998 under Interplay's Black Isle Studios imprint. Translating TSR's Advanced Dungeons & Dragons (AD&D) 2nd Edition rules to PC, it followed the orphaned ward of Gorion from Candlekeep into the conspiracy engulfing the Sword Coast.",
+    "gameplay": "Players lead a party of up to six adventurers across lush isometric wilderness maps, dungeons, and the sprawling medieval city of Baldur's Gate. Combat uses the pioneering 'Real-Time with Pause' system, allowing players to pause time instantly to assign spells, target missile fire, and position melee warriors according to AD&D dice-roll mechanics (THAC0).",
+    "technicalInnovation": "BioWare's custom Infinity Engine rendered hand-painted pre-rendered 2D backgrounds at 640x480 resolution, integrating thousands of voiced lines, pathfinding algorithms, and dynamic fog-of-war exploration.",
+    "culturalImpact": "Baldur's Gate ignited a modern Western RPG renaissance, catapulting BioWare into industry superstardom and establishing the creative lineage that led directly to Star Wars: Knights of the Old Republic, Mass Effect, Dragon Age, and Baldur's Gate 3.",
+    "preservationNotes": "Preserved across original 5-disc CD sets, Beamdog's Enhanced Edition digital restorations, and multiplatform tablet releases."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "December 21, 1998",
+    "leadPlatform": "Microsoft Windows",
+    "genre": "rpg",
+    "sales": "Over 2.2 million copies worldwide",
+    "awards": [
+      "Computer Gaming World RPG of the Year 1998",
+      "Origins Award Best Roleplaying Computer Game 1998"
+    ],
+    "technicalSpecs": {
+      "engine": "BioWare Infinity Engine",
+      "resolution": "640x480 SVGA 16-bit color",
+      "soundChip": "DirectSound 3D / EAX audio support with symphonic score by Michael Hoenig",
+      "mediaFormat": "5 CD-ROM Discs"
+    },
+    "relationships": {
+      "primaryConsole": "pc",
+      "developerEntity": "BioWare",
+      "lineage": [
+        "Baldur's Gate II: Shadows of Amn",
+        "Planescape: Torment",
+        "Icewind Dale",
+        "Dragon Age: Origins"
+      ]
+    }
+  },
+  "assets": {
+    "cover": "/assets/images/games/baldur-s-gate.webp",
+    "banner": "/assets/images/games/baldur-s-gate-banner.webp",
+    "screenshots": [
+      "/assets/images/games/baldur-s-gate-screen1.webp",
+      "/assets/images/games/baldur-s-gate-screen2.webp"
+    ],
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/d/d0/Baldur%27s_Gate_box.PNG",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/d/d0/Baldur%27s_Gate_box.PNG",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Baldur%27s_Gate_box.PNG",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "baldur's gate",
+    "bioware",
+    "black isle",
+    "sword coast",
+    "dungeons and dragons",
+    "infinity engine",
+    "minsc",
+    "rpg"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

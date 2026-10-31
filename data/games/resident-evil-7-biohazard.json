@@ -1,0 +1,70 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-resident-evil-7-biohazard",
+  "slug": "resident-evil-7-biohazard",
+  "title": "Resident Evil 7: Biohazard",
+  "originalReleaseYear": 2017,
+  "exactReleaseDate": "January 24, 2017",
+  "originalLaunchPlatform": "PlayStation 4",
+  "originalLaunchRegion": "Worldwide",
+  "developer": "Capcom",
+  "publisher": "Capcom",
+  "platforms": [
+    "PlayStation 4",
+    "Xbox One",
+    "Microsoft Windows"
+  ],
+  "genre": "survival-horror",
+  "subgenres": [
+    "first-person"
+  ],
+  "era": "2010s",
+  "shortDescription": "Ethan Winters searches for his wife in the derelict Baker family plantation in Louisiana with full PS VR support.",
+  "historicalSignificance": "Boldly returned the franchise to intimate claustrophobic survival horror, revitalizing Resident Evil globally.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Resident_Evil_7:_Biohazard",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Ethan Winters searches for his wife in the derelict Baker family plantation in Louisiana with full PS VR support.",
+    "culturalImpact": "Boldly returned the franchise to intimate claustrophobic survival horror, revitalizing Resident Evil globally."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 4"
+    ],
+    "genres": [
+      "survival-horror"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/8/8f/Resident_Evil_7_cover_art.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/8/8f/Resident_Evil_7_cover_art.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Resident_Evil_7:_Biohazard",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Resident Evil 7: Biohazard",
+    "Capcom",
+    "Capcom",
+    "PlayStation 4",
+    "survival-horror",
+    "2017",
+    "2010s",
+    "PlayStation 4",
+    "Xbox One",
+    "Microsoft Windows",
+    "first-person"
+  ],
+  "url": "/games/resident-evil-7-biohazard/",
+  "featured": false
+}

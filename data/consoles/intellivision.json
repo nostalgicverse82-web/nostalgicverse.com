@@ -1,0 +1,42 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+  "id": "console-intellivision",
+  "slug": "intellivision",
+  "name": "Intellivision",
+  "manufacturer": "Mattel Electronics",
+  "generation": "Second Generation",
+  "generationNumber": 2,
+  "originalReleaseYear": 1979,
+  "exactReleaseDate": "December 3, 1979",
+  "mediaFormat": "ROM Cartridge",
+  "significance": "Introduced the first 16-bit microprocessor architecture in a home console, birthed Utopia (widely considered the first city builder/RTS), and pioneered early voice synthesis.",
+  "verifiedFactualData": {
+    "cpu": "General Instrument CP1600 @ 894 kHz (16-bit)",
+    "gpuOrVideoChip": "Standard Television Interface Chip (STIC)",
+    "ram": "1,456 bytes RAM"
+  },
+  "editorialContent": {
+    "overview": "Mattel's sophisticated 16-bit processor challenger to Atari, offering advanced sports simulations and voice synthesis.",
+    "marketLegacy": "Introduced the first 16-bit microprocessor architecture in a home console, birthed Utopia (widely considered the first city builder/RTS), and pioneered early voice synthesis.",
+    "controllerDesign": "Dual numeric keypads with directional disc and side buttons"
+  },
+  "keyGames": [
+    "astrosmash",
+    "major-league-baseball",
+    "snafu",
+    "utopia"
+  ],
+  "assets": {
+    "mainImage": "/assets/images/consoles/intellivision.png",
+    "heroImage": "/assets/images/consoles/intellivision-hero.png",
+    "hardwareImage": "/assets/images/consoles/intellivision-hardware.png"
+  },
+  "keywords": [
+    "intellivision",
+    "mattel",
+    "second generation",
+    "1979",
+    "16-bit processor",
+    "utopia"
+  ]
+}

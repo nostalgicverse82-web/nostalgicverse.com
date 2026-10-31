@@ -1,0 +1,40 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+  "id": "console-color-tv-game",
+  "slug": "color-tv-game",
+  "name": "Nintendo Color TV-Game Series",
+  "manufacturer": "Nintendo",
+  "generation": "First Generation",
+  "generationNumber": 1,
+  "originalReleaseYear": 1977,
+  "exactReleaseDate": "June 1, 1977",
+  "mediaFormat": "Dedicated Embedded Silicon",
+  "significance": "Marked Nintendo's monumental strategic transition from playing card and mechanical toy manufacturing into electronic video game hardware.",
+  "verifiedFactualData": {
+    "cpu": "Mitsubishi M58815P / M58816P LSI",
+    "gpuOrVideoChip": "Integrated color RF output",
+    "ram": "None"
+  },
+  "editorialContent": {
+    "overview": "Nintendo's historic first foray into video game home hardware, co-developed with Mitsubishi Electric.",
+    "marketLegacy": "Marked Nintendo's monumental strategic transition from playing card and mechanical toy manufacturing into electronic video game hardware.",
+    "controllerDesign": "Built-in dials / Detachable paddle cables"
+  },
+  "keyGames": [
+    "light-tennis",
+    "block-breaker"
+  ],
+  "assets": {
+    "mainImage": "/assets/images/consoles/color-tv-game.png",
+    "heroImage": "/assets/images/consoles/color-tv-game-hero.png",
+    "hardwareImage": "/assets/images/consoles/color-tv-game-hardware.png"
+  },
+  "keywords": [
+    "nintendo",
+    "color tv-game",
+    "japan",
+    "first generation",
+    "1977",
+    "mitsubishi"
+  ]
+}

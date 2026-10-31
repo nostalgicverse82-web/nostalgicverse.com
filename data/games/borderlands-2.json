@@ -1,0 +1,70 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-borderlands-2",
+  "slug": "borderlands-2",
+  "title": "Borderlands 2",
+  "originalReleaseYear": 2012,
+  "exactReleaseDate": "September 18, 2012",
+  "originalLaunchPlatform": "PlayStation 3",
+  "originalLaunchRegion": "North America",
+  "developer": "Gearbox Software",
+  "publisher": "2K Games",
+  "platforms": [
+    "PlayStation 3",
+    "Xbox 360",
+    "Microsoft Windows"
+  ],
+  "genre": "first-person-shooter",
+  "subgenres": [
+    "action-rpg"
+  ],
+  "era": "2010s",
+  "shortDescription": "Vault Hunters wage war against charismatic corporate despot Handsome Jack across vibrant Pandoran biomes.",
+  "historicalSignificance": "The quintessential peak of the looter shooter genre, praised for razor-sharp comedic writing and endless gun variety.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Borderlands_2",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Vault Hunters wage war against charismatic corporate despot Handsome Jack across vibrant Pandoran biomes.",
+    "culturalImpact": "The quintessential peak of the looter shooter genre, praised for razor-sharp comedic writing and endless gun variety."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 3"
+    ],
+    "genres": [
+      "first-person-shooter"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/5/51/Borderlands_2_cover_art.png",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/5/51/Borderlands_2_cover_art.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Borderlands_2",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Borderlands 2",
+    "Gearbox Software",
+    "2K Games",
+    "PlayStation 3",
+    "first-person-shooter",
+    "2012",
+    "2012",
+    "PlayStation 3",
+    "Xbox 360",
+    "Microsoft Windows",
+    "action-rpg"
+  ],
+  "url": "/games/borderlands-2/",
+  "featured": false
+}

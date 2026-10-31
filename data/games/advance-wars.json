@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-advance-wars",
+  "slug": "advance-wars",
+  "title": "Advance Wars",
+  "originalReleaseYear": 2001,
+  "exactReleaseDate": "September 10, 2001",
+  "originalLaunchPlatform": "Game Boy Advance",
+  "originalLaunchRegion": "North America",
+  "developer": "Intelligent Systems",
+  "publisher": "Nintendo",
+  "platforms": [
+    "Game Boy Advance"
+  ],
+  "genre": "turn-based-tactics",
+  "subgenres": [
+    "military-strategy"
+  ],
+  "era": "2000s",
+  "shortDescription": "Commanding Officers Andy, Sami, and Max wage tactical grid warfare across Orange Star in a brilliant turn-based strategy game.",
+  "historicalSignificance": "Proved handheld turn-based tactics could achieve deep international critical and commercial acclaim.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Advance_Wars",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Commanding Officers Andy, Sami, and Max wage tactical grid warfare across Orange Star in a brilliant turn-based strategy game.",
+    "culturalImpact": "Proved handheld turn-based tactics could achieve deep international critical and commercial acclaim."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "Game Boy Advance"
+    ],
+    "genres": [
+      "turn-based-tactics"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Advance_Wars_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Advance_Wars_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Advance_Wars",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Advance Wars",
+    "Intelligent Systems",
+    "Nintendo",
+    "Game Boy Advance",
+    "turn-based-tactics",
+    "2001",
+    "2000s",
+    "Game Boy Advance",
+    "military-strategy"
+  ],
+  "url": "/games/advance-wars/",
+  "featured": false
+}

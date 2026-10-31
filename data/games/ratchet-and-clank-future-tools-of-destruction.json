@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-ratchet-and-clank-future-tools-of-destruction",
+  "slug": "ratchet-and-clank-future-tools-of-destruction",
+  "title": "Ratchet & Clank Future: Tools of Destruction",
+  "originalReleaseYear": 2007,
+  "exactReleaseDate": "October 23, 2007",
+  "originalLaunchPlatform": "PlayStation 3",
+  "originalLaunchRegion": "North America",
+  "developer": "Insomniac Games",
+  "publisher": "Sony Computer Entertainment",
+  "platforms": [
+    "PlayStation 3"
+  ],
+  "genre": "platformer",
+  "subgenres": [
+    "action-adventure"
+  ],
+  "era": "2000s",
+  "shortDescription": "The duo's high-definition debut uncovering Lombax heritage while battling Emperor Tachyon in the Polaris Galaxy.",
+  "historicalSignificance": "Achieved animated feature film visual fidelity on PS3, kicking off the acclaimed Future story saga.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Ratchet_&_Clank_Future:_Tools_of_Destruction",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "The duo's high-definition debut uncovering Lombax heritage while battling Emperor Tachyon in the Polaris Galaxy.",
+    "culturalImpact": "Achieved animated feature film visual fidelity on PS3, kicking off the acclaimed Future story saga."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 3"
+    ],
+    "genres": [
+      "platformer"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/c/c5/Ratchet_%26_Clank_Future_Tools_of_Destruction_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/c/c5/Ratchet_%26_Clank_Future_Tools_of_Destruction_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ratchet_&_Clank_Future:_Tools_of_Destruction",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Ratchet & Clank Future: Tools of Destruction",
+    "Insomniac Games",
+    "Sony Computer Entertainment",
+    "PlayStation 3",
+    "platformer",
+    "2007",
+    "2000s",
+    "PlayStation 3",
+    "action-adventure"
+  ],
+  "url": "/games/ratchet-and-clank-future-tools-of-destruction/",
+  "featured": false
+}

@@ -1,0 +1,42 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+  "id": "console-game-boy",
+  "slug": "game-boy",
+  "name": "Nintendo Game Boy",
+  "manufacturer": "Nintendo",
+  "generation": "Fourth Generation",
+  "generationNumber": 4,
+  "originalReleaseYear": 1989,
+  "exactReleaseDate": "April 21, 1989",
+  "mediaFormat": "ROM Cartridge (Game Pak)",
+  "significance": "Demonstrated that design economy, battery efficiency, and social connectivity through the Link Cable could triumph over superior raw visual specs.",
+  "verifiedFactualData": {
+    "cpu": "Sharp LR35902 (Z80/8080 hybrid) @ 4.19 MHz",
+    "gpuOrVideoChip": "Integrated 2-bit dot-matrix LCD driver",
+    "ram": "8 KB work RAM, 8 KB video RAM"
+  },
+  "editorialContent": {
+    "overview": "Gunpei Yokoi's monochrome handheld masterpiece prioritizing battery longevity and durable industrial design.",
+    "marketLegacy": "Demonstrated that design economy, battery efficiency, and social connectivity through the Link Cable could triumph over superior raw visual specs.",
+    "controllerDesign": "Integrated D-pad, A, B, Select, Start buttons"
+  },
+  "keyGames": [
+    "tetris",
+    "pokemon-red-pokemon-blue",
+    "the-legend-of-zelda-links-awakening"
+  ],
+  "assets": {
+    "mainImage": "/assets/images/consoles/game-boy.png",
+    "heroImage": "/assets/images/consoles/game-boy-hero.png",
+    "hardwareImage": "/assets/images/consoles/game-boy-hardware.png"
+  },
+  "keywords": [
+    "game boy",
+    "nintendo",
+    "handheld",
+    "gunpei yokoi",
+    "fourth generation",
+    "tetris",
+    "1989"
+  ]
+}

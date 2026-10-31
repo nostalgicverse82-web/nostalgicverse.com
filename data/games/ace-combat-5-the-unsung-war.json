@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-ace-combat-5-the-unsung-war",
+  "slug": "ace-combat-5-the-unsung-war",
+  "title": "Ace Combat 5: The Unsung War",
+  "originalReleaseYear": 2004,
+  "exactReleaseDate": "October 21, 2004",
+  "originalLaunchPlatform": "PlayStation 2",
+  "originalLaunchRegion": "Japan",
+  "developer": "Project Aces",
+  "publisher": "Namco",
+  "platforms": [
+    "PlayStation 2"
+  ],
+  "genre": "action",
+  "subgenres": [
+    "flight-simulator"
+  ],
+  "era": "2000s",
+  "shortDescription": "Epic aerial military drama following the Razgriz Squadron across a grand geopolitical conspiracy.",
+  "historicalSignificance": "Acclaimed for its sweeping orchestral score, over 50 licensed jets, and unforgettable squad camaraderie.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Ace_Combat_5:_The_Unsung_War",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Epic aerial military drama following the Razgriz Squadron across a grand geopolitical conspiracy.",
+    "culturalImpact": "Acclaimed for its sweeping orchestral score, over 50 licensed jets, and unforgettable squad camaraderie."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 2"
+    ],
+    "genres": [
+      "action"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/1/15/Ace_Combat_5_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/1/15/Ace_Combat_5_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ace_Combat_5:_The_Unsung_War",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Ace Combat 5: The Unsung War",
+    "Project Aces",
+    "Namco",
+    "PlayStation 2",
+    "action",
+    "2004",
+    "2000s",
+    "PlayStation 2",
+    "flight-simulator"
+  ],
+  "url": "/games/ace-combat-5-the-unsung-war/",
+  "featured": false
+}

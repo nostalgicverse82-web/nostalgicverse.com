@@ -1,0 +1,78 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.json",
+  "id": "game-castlevania-symphony-of-the-night",
+  "slug": "castlevania-symphony-of-the-night",
+  "title": "Castlevania: Symphony of the Night",
+  "japaneseTitle": "悪魔城ドラキュラX 月下の夜想曲",
+  "url": "/games/castlevania-symphony-of-the-night/",
+  "originalReleaseYear": 1997,
+  "exactReleaseDate": "1997-03-20",
+  "developer": "Konami Computer Entertainment Tokyo",
+  "publisher": "Konami",
+  "director": "Toru Hagihara, Koji Igarashi",
+  "designer": "Koji Igarashi",
+  "composer": "Michiru Yamane",
+  "originalLaunchPlatform": "PlayStation",
+  "platforms": [
+    "PlayStation",
+    "Sega Saturn"
+  ],
+  "genre": "Action-Adventure",
+  "subgenres": [
+    "Metroidvania",
+    "Action RPG",
+    "Gothic Fantasy"
+  ],
+  "era": "1990s",
+  "shortDescription": "Koji Igarashi and Michiru Yamane's gothic masterpiece that combined open-ended castle exploration with deep RPG systems, co-founding the Metroidvania genre.",
+  "historicalSignificance": "Radically transformed the linear stage-based Castlevania series into an interconnected exploration action-RPG, co-codified the Metroidvania structural paradigm, and demonstrated the timeless artistic power of high-resolution 2D sprite animation in an era dominated by early 3D polygons.",
+  "editorialContent": {
+    "overview": "Released for the Sony PlayStation in Japan on March 20, 1997, Castlevania: Symphony of the Night (Akumajō Dracula X: Gekka no Yasōkyoku) was conceived during an industrial transition where hardware manufacturers and trade critics aggressively championed early 3D polygonal graphics over traditional 2D raster art. Led by director Toru Hagihara and assistant director/scenario writer Koji Igarashi, the development team deliberately resisted this 3D mandate. Recognizing that previous linear Castlevania entries offered limited replayability for casual players due to punishing platforming difficulty, Igarashi restructured the franchise around open-ended exploration, character leveling, and expansive equipment inventories, producing one of the most celebrated masterworks in interactive entertainment.",
+    "gameplayMechanics": "Departing from traditional whip-wielding Belmont protagonists, players control Alucard, the dhampir son of Dracula, whose agile combat repertoire incorporates high-speed backdashing, sword strikes, and transformative shapeshifting (Bat, Wolf, and Mist forms). The castle of Dracula is rendered as a sprawling, interconnected labyrinth where progress is governed by non-linear traversal abilities: the Mist form allows passage through rusted iron grates; the Bat form enables vertical flight into vaulted spires; and relic accessories permit underwater exploration and high-altitude leaps. Layered atop this exploration framework is a comprehensive role-playing architecture featuring experience-driven stat progression, hundreds of unique weapons and armor sets, spell inputs executed via fighting-game directional inputs, and the legendary Inverted Castle—a duplicate ceiling-mounted version of the entire fortress that effectively doubles the game's geographical scale.",
+    "technicalInnovation": "Symphony of the Night utilized the PlayStation's 32-bit architecture to deliver unprecedented fidelity in 2D sprite animation and digital acoustics. While the console lacked dedicated 2D sprite hardware planes, Konami's engineers repurposed the Geometry Transformation Engine and frame buffer to treat sprites as textured flat polygons, enabling Alucard's multi-frame animation routines, dynamic trailing shadow effects, and massive multi-jointed boss creatures. Michiru Yamane's musical score is an eclectic tour-de-force: stored as high-fidelity Red Book optical audio and compressed ADPCM samples on the CD-ROM, the soundtrack fluidly traverses gothic pipe organ fugues, heavy metal guitar arrangements, new age synth jazz, and baroque harpsichord concertos, perfectly harmonizing with Ayami Kojima's elegant gothic watercolor character illustrations.",
+    "culturalImpact": "Although initially met with modest commercial sales in the West due to low marketing spend and retail skepticism toward 2D games in 1997, Symphony of the Night achieved immense critical acclaim and organic word-of-mouth momentum, eventually becoming a certified PlayStation Greatest Hit. Together with Nintendo's Super Metroid (1994), it established the foundational grammar for the 'Metroidvania' subgenre. Its balance of exploration gating, inventory customization, and map-completion telemetry continues to influence contemporary independent and AAA game design worldwide.",
+    "preservationNotes": "Historical preservation requires distinguishing the original 1997 PlayStation release—celebrated for its idiosyncratic English voice acting localization, including Dracula's infamous 'What is a man? A miserable little pile of secrets!' prologue monologue—from the later 1998 Sega Saturn port (which featured exclusive garden areas and playable Maria Renard, but suffered from hardware transparency dithering) and the 2007 PSP/Castlevania: The Dracula X Chronicles re-translation, which completely redubbed the script."
+  },
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "Konami Co., Ltd. Castlevania: Symphony of the Night Instruction Manual (SLUS-00067, 1997)",
+      "Igarashi, Koji. 'There and Back Again: A Retrospective on Castlevania: Symphony of the Night' Game Developers Conference (2014)",
+      "Yamane, Michiru. 'Composing the Nocturne in the Moonlight' Konami Sound Team Interviews (1997)",
+      "Retro Gamer Magazine. 'The Making of Castlevania: Symphony of the Night' (Issue #118, 2013)"
+    ],
+    "romMediaFormat": "1x CD-ROM Optical Disc (PlayStation Black-Bottom Disc Format)",
+    "romSizeOriginal": "Approx. 500 MB (Data tracks + Red Book CD-DA Audio)",
+    "displayResolutionOriginal": "256 × 240 / 320 × 240 / 512 × 240 Progressive Scan",
+    "audioHardware": "Sony 24-channel SPU + CD-DA Red Book Optical Audio",
+    "inputMethod": "PlayStation Standard Digital Controller / DualShock",
+    "multiplayerCapability": "1 Player"
+  },
+  "assets": {
+    "heroImage": "/assets/images/games/castlevania-symphony-of-the-night-hero.webp",
+    "thumbnailImage": "/assets/images/games/castlevania-symphony-of-the-night.webp",
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/c/cf/Castlevania_SOTN_PAL.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/c/cf/Castlevania_SOTN_PAL.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Castlevania_SOTN_PAL.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "castlevania",
+    "symphony of the night",
+    "sotn",
+    "alucard",
+    "koji igarashi",
+    "michiru yamane",
+    "metroidvania",
+    "playstation",
+    "konami",
+    "1997",
+    "1990s",
+    "action-adventure",
+    "dracula"
+  ],
+  "featured": false
+}

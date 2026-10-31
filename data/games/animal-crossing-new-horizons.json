@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-animal-crossing-new-horizons",
+  "slug": "animal-crossing-new-horizons",
+  "title": "Animal Crossing: New Horizons",
+  "originalReleaseYear": 2020,
+  "exactReleaseDate": "March 20, 2020",
+  "originalLaunchPlatform": "Nintendo Switch",
+  "originalLaunchRegion": "Worldwide",
+  "developer": "Nintendo EPD",
+  "publisher": "Nintendo",
+  "platforms": [
+    "Nintendo Switch"
+  ],
+  "genre": "life-simulation",
+  "subgenres": [
+    "social-sim"
+  ],
+  "era": "2020s",
+  "shortDescription": "Deserted island getaway package introducing full terraforming, DIY crafting, and global community visits.",
+  "historicalSignificance": "Became a worldwide cultural lifeline in 2020, selling over 44 million copies worldwide.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Animal_Crossing:_New_Horizons",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Deserted island getaway package introducing full terraforming, DIY crafting, and global community visits.",
+    "culturalImpact": "Became a worldwide cultural lifeline in 2020, selling over 44 million copies worldwide."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "Nintendo Switch"
+    ],
+    "genres": [
+      "life-simulation"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/1/1f/Animal_Crossing_New_Horizons.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/1/1f/Animal_Crossing_New_Horizons.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Animal_Crossing:_New_Horizons",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Animal Crossing: New Horizons",
+    "Nintendo EPD",
+    "Nintendo",
+    "Nintendo Switch",
+    "life-simulation",
+    "2020",
+    "2020s",
+    "Nintendo Switch",
+    "social-sim"
+  ],
+  "url": "/games/animal-crossing-new-horizons/",
+  "featured": false
+}

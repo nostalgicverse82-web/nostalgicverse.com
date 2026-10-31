@@ -1,0 +1,70 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-soulcalibur-ii",
+  "slug": "soulcalibur-ii",
+  "title": "Soulcalibur II",
+  "originalReleaseYear": 2003,
+  "exactReleaseDate": "March 27, 2003",
+  "originalLaunchPlatform": "PlayStation 2",
+  "originalLaunchRegion": "Japan",
+  "developer": "Project Soul",
+  "publisher": "Namco",
+  "platforms": [
+    "PlayStation 2",
+    "GameCube",
+    "Xbox"
+  ],
+  "genre": "fighting",
+  "subgenres": [
+    "weapon-based-fighter"
+  ],
+  "era": "2000s",
+  "shortDescription": "Namco's weapon-based fighting masterpiece featuring Heihachi Mishima as the PS2 exclusive combatant.",
+  "historicalSignificance": "One of the most universally praised fighting games of the sixth generation with sublime Weapon Master mode.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Soulcalibur_II",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Namco's weapon-based fighting masterpiece featuring Heihachi Mishima as the PS2 exclusive combatant.",
+    "culturalImpact": "One of the most universally praised fighting games of the sixth generation with sublime Weapon Master mode."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 2"
+    ],
+    "genres": [
+      "fighting"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/f/f6/Soulcalibur_II_box_art.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/f/f6/Soulcalibur_II_box_art.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Soulcalibur_II",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Soulcalibur II",
+    "Project Soul",
+    "Namco",
+    "PlayStation 2",
+    "fighting",
+    "2003",
+    "2000s",
+    "PlayStation 2",
+    "GameCube",
+    "Xbox",
+    "weapon-based-fighter"
+  ],
+  "url": "/games/soulcalibur-ii/",
+  "featured": false
+}

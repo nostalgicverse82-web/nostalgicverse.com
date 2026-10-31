@@ -1,0 +1,68 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-marvel-s-spider-man-remastered",
+  "slug": "marvel-s-spider-man-remastered",
+  "title": "Marvel's Spider-Man Remastered",
+  "originalReleaseYear": 2020,
+  "exactReleaseDate": "November 12, 2020",
+  "originalLaunchPlatform": "PlayStation 5",
+  "originalLaunchRegion": "Worldwide",
+  "developer": "Insomniac Games",
+  "publisher": "Sony Interactive Entertainment",
+  "platforms": [
+    "PlayStation 5",
+    "PC"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "superhero"
+  ],
+  "era": "2020s",
+  "shortDescription": "Peter Parker's definitive adventure remastered with 60fps performance ray tracing, spatial 3D audio, and DualSense feedback.",
+  "historicalSignificance": "The definitive technical presentation of Insomniac's beloved superhero masterpiece.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Marvel's_Spider-Man_Remastered",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Peter Parker's definitive adventure remastered with 60fps performance ray tracing, spatial 3D audio, and DualSense feedback.",
+    "culturalImpact": "The definitive technical presentation of Insomniac's beloved superhero masterpiece."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 5"
+    ],
+    "genres": [
+      "action-adventure"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Spider-Man_PS5_Remastered_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Spider-Man_PS5_Remastered_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Marvel's_Spider-Man_Remastered",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Marvel's Spider-Man Remastered",
+    "Insomniac Games",
+    "Sony Interactive Entertainment",
+    "PlayStation 5",
+    "action-adventure",
+    "2020",
+    "2020s",
+    "PlayStation 5",
+    "PC",
+    "superhero"
+  ],
+  "url": "/games/marvel-s-spider-man-remastered/",
+  "featured": false
+}

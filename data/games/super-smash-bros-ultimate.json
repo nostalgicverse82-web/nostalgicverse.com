@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-super-smash-bros-ultimate",
+  "slug": "super-smash-bros-ultimate",
+  "title": "Super Smash Bros. Ultimate",
+  "originalReleaseYear": 2018,
+  "exactReleaseDate": "December 7, 2018",
+  "originalLaunchPlatform": "Nintendo Switch",
+  "originalLaunchRegion": "Worldwide",
+  "developer": "Bandai Namco / Sora Ltd.",
+  "publisher": "Nintendo",
+  "platforms": [
+    "Nintendo Switch"
+  ],
+  "genre": "fighting",
+  "subgenres": [
+    "platform-fighter"
+  ],
+  "era": "2010s",
+  "shortDescription": "Masahiro Sakurai brings 'Everyone Is Here' uniting 89 fighters from across the history of video games.",
+  "historicalSignificance": "The ultimate living museum of interactive entertainment and the best-selling fighting game in world history.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Super_Smash_Bros._Ultimate",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Masahiro Sakurai brings 'Everyone Is Here' uniting 89 fighters from across the history of video games.",
+    "culturalImpact": "The ultimate living museum of interactive entertainment and the best-selling fighting game in world history."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "Nintendo Switch"
+    ],
+    "genres": [
+      "fighting"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/5/50/Super_Smash_Bros._Ultimate.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/5/50/Super_Smash_Bros._Ultimate.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Super_Smash_Bros._Ultimate",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Super Smash Bros. Ultimate",
+    "Bandai Namco / Sora Ltd.",
+    "Nintendo",
+    "Nintendo Switch",
+    "fighting",
+    "2018",
+    "2010s",
+    "Nintendo Switch",
+    "platform-fighter"
+  ],
+  "url": "/games/super-smash-bros-ultimate/",
+  "featured": false
+}

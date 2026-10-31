@@ -1,0 +1,86 @@
+{
+  "id": "game-populous",
+  "slug": "populous",
+  "title": "Populous",
+  "japaneseTitle": "ポピュラス",
+  "url": "/games/populous/",
+  "originalReleaseYear": 1989,
+  "exactReleaseDate": "1989-06-05",
+  "developer": "Bullfrog Productions",
+  "publisher": "Electronic Arts",
+  "director": "Peter Molyneux",
+  "designer": "Peter Molyneux, Glenn Corpes",
+  "composer": "David Whittaker",
+  "originalLaunchPlatform": "Commodore Amiga",
+  "platforms": [
+    "Commodore Amiga",
+    "Atari ST",
+    "MS-DOS",
+    "Sega Genesis",
+    "Super Nintendo",
+    "Game Boy",
+    "Macintosh"
+  ],
+  "genre": "simulation",
+  "subgenres": [
+    "God Game",
+    "Real-Time Strategy"
+  ],
+  "era": "1980s",
+  "shortDescription": "Peter Molyneux and Bullfrog's revolutionary strategy title that single-handedly invented the 'God Game' genre.",
+  "historicalSignificance": "Created an entirely new video game genre, allowing players to manipulate terrain as a deity to guide their followers against a rival god, selling over 4 million copies and defining early computer strategy design.",
+  "editorialContent": {
+    "overview": "Developed on the Amiga by Peter Molyneux and Glenn Corpes, Populous casts the player as a divine deity whose power is directly tied to the population size and civilization level of their mortal followers.",
+    "gameplay": "Players raise and lower isometric terrain tiles to create flat plains where followers can build settlements. As faith grows, players unleash biblical divine interventions: earthquakes, swamps, volcanoes, and Armageddon.",
+    "technicalInnovation": "Pioneered isometric dynamic land deformation in real time, accompanied by groundbreaking multi-computer modem-to-modem head-to-head multiplayer.",
+    "culturalImpact": "Earned universal acclaim, selling millions of copies and launching Peter Molyneux's storied design career, establishing Bullfrog as an industry powerhouse.",
+    "preservationNotes": "Preserved across Amiga, Genesis, and SNES cartridges, as well as digital archival PC distribution."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "June 5, 1989",
+    "leadPlatform": "Commodore Amiga",
+    "genre": "simulation",
+    "sales": "Over 4 million copies sold worldwide",
+    "awards": [
+      "Origins Award for Best Military or Strategy Computer Game 1989",
+      "Inducted into CGW Hall of Fame"
+    ],
+    "technicalSpecs": {
+      "engine": "Bullfrog Custom Isometric Terrain Engine",
+      "resolution": "320 x 200 (16/32 colors)",
+      "soundChip": "Paula audio chip on Amiga (heartbeat sound synthesis)",
+      "mediaFormat": "3.5-inch Floppy Disk / ROM Cartridge"
+    },
+    "relationships": {
+      "primaryConsole": "amiga",
+      "developerEntity": "Bullfrog Productions",
+      "lineage": [
+        "Populous II",
+        "Black & White",
+        "SimCity"
+      ]
+    }
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/f/fd/Populous_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/f/fd/Populous_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Populous_Cover.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "populous",
+    "peter molyneux",
+    "bullfrog",
+    "god game",
+    "amiga",
+    "isometric",
+    "simulation",
+    "1989"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

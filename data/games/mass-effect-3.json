@@ -1,0 +1,70 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-mass-effect-3",
+  "slug": "mass-effect-3",
+  "title": "Mass Effect 3",
+  "originalReleaseYear": 2012,
+  "exactReleaseDate": "March 6, 2012",
+  "originalLaunchPlatform": "PlayStation 3",
+  "originalLaunchRegion": "North America",
+  "developer": "BioWare",
+  "publisher": "Electronic Arts",
+  "platforms": [
+    "PlayStation 3",
+    "Xbox 360",
+    "Microsoft Windows"
+  ],
+  "genre": "action-rpg",
+  "subgenres": [
+    "third-person-shooter"
+  ],
+  "era": "2010s",
+  "shortDescription": "Commander Shepard unites every galactic civilization in an apocalyptic final stand against the genocidal Reapers.",
+  "historicalSignificance": "Concluded one of the most celebrated trilogies in interactive history with emotional weight and frantic biotic gunplay.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Mass_Effect_3",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Commander Shepard unites every galactic civilization in an apocalyptic final stand against the genocidal Reapers.",
+    "culturalImpact": "Concluded one of the most celebrated trilogies in interactive history with emotional weight and frantic biotic gunplay."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 3"
+    ],
+    "genres": [
+      "action-rpg"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b0/MassEffect3_cover.png",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/b/b0/MassEffect3_cover.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mass_Effect_3",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Mass Effect 3",
+    "BioWare",
+    "Electronic Arts",
+    "PlayStation 3",
+    "action-rpg",
+    "2012",
+    "2012",
+    "PlayStation 3",
+    "Xbox 360",
+    "Microsoft Windows",
+    "third-person-shooter"
+  ],
+  "url": "/games/mass-effect-3/",
+  "featured": false
+}

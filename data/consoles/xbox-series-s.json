@@ -1,0 +1,41 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+  "id": "console-xbox-series-s",
+  "slug": "xbox-series-s",
+  "name": "Microsoft Xbox Series S",
+  "manufacturer": "Microsoft",
+  "generation": "Ninth Generation",
+  "generationNumber": 9,
+  "originalReleaseYear": 2020,
+  "exactReleaseDate": "November 10, 2020",
+  "mediaFormat": "All-Digital (No Optical Drive)",
+  "significance": "Democratized ninth-generation high-speed SSD load times and next-gen CPU architectures at an entry-level $299 price point.",
+  "verifiedFactualData": {
+    "cpu": "Custom 8-core AMD Zen 2 @ 3.6 GHz (3.4 GHz with SMT)",
+    "gpuOrVideoChip": "Custom AMD RDNA 2 (4.0 TFLOPS, 20 CUs @ 1.565 GHz)",
+    "ram": "10 GB GDDR6 (8 GB @ 224 GB/s, 2 GB @ 56 GB/s)"
+  },
+  "editorialContent": {
+    "overview": "The smallest and most accessible next-gen console in Xbox history, delivering fast NVMe SSD loading and ray tracing in an all-digital form-factor.",
+    "marketLegacy": "Democratized ninth-generation high-speed SSD load times and next-gen CPU architectures at an entry-level $299 price point.",
+    "controllerDesign": "Xbox Wireless Controller"
+  },
+  "keyGames": [
+    "forza-horizon-5",
+    "hi-fi-rush",
+    "halo-infinite"
+  ],
+  "assets": {
+    "mainImage": "/assets/images/consoles/xbox-series-s.png",
+    "heroImage": "/assets/images/consoles/xbox-series-s-hero.png",
+    "hardwareImage": "/assets/images/consoles/xbox-series-s-hardware.png"
+  },
+  "keywords": [
+    "xbox series s",
+    "series s",
+    "microsoft",
+    "all-digital",
+    "ninth generation",
+    "2020"
+  ]
+}

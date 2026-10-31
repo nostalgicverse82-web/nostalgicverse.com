@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://nostalgicverse.com/schemas/genre.schema.json",
+  "title": "NostalgicVerse Genre Taxonomy Schema",
+  "description": "Standardized schema for mechanical genre exhibits and evolutionary lineages.",
+  "type": "object",
+  "required": [
+    "id",
+    "slug",
+    "name",
+    "family",
+    "type",
+    "era"
+  ],
+  "properties": {
+    "id": { "type": "string", "pattern": "^genre-[a-z0-9-]+$" },
+    "slug": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "name": { "type": "string" },
+    "family": { "type": "string" },
+    "type": { "type": "string" },
+    "era": { "type": "string" },
+    "shortDescription": { "type": "string" },
+    "historicalDescription": { "type": "string" },
+    "definingMechanics": { "type": "array", "items": { "type": "string" } },
+    "landmarkGames": { "type": "array", "items": { "type": "string" } },
+    "verifiedFactualData": {
+      "type": "object",
+      "properties": {
+        "earliestKnownTitle": { "type": "string" },
+        "earliestKnownYear": { "type": "integer" },
+        "definingInputMechanics": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "editorialContent": {
+      "type": "object",
+      "properties": {
+        "evolutionaryOrigins": { "type": "string" },
+        "goldenAgeEvolution": { "type": "string" },
+        "modernLegacy": { "type": "string" }
+      }
+    },
+    "relatedExhibits": {
+      "type": "object",
+      "properties": {
+        "games": { "type": "array", "items": { "type": "string" } },
+        "genres": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "assets": {
+      "type": "object",
+      "properties": {
+        "heroImage": { "type": "string" }
+      }
+    },
+    "keywords": { "type": "array", "items": { "type": "string" } }
+  }
+}
+

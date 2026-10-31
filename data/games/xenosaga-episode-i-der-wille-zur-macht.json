@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-xenosaga-episode-i-der-wille-zur-macht",
+  "slug": "xenosaga-episode-i-der-wille-zur-macht",
+  "title": "Xenosaga Episode I: Der Wille zur Macht",
+  "originalReleaseYear": 2002,
+  "exactReleaseDate": "February 28, 2002",
+  "originalLaunchPlatform": "PlayStation 2",
+  "originalLaunchRegion": "Japan",
+  "developer": "Monolith Soft",
+  "publisher": "Namco",
+  "platforms": [
+    "PlayStation 2"
+  ],
+  "genre": "rpg",
+  "subgenres": [
+    "turn-based-rpg"
+  ],
+  "era": "2000s",
+  "shortDescription": "Tetsuya Takahashi's grand philosophical space opera starring android KOS-MOS and scientist Shion Uzuki.",
+  "historicalSignificance": "Founded Monolith Soft's legacy of high-concept intellectual world-building and cinematic cutscenes.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Xenosaga_Episode_I:_Der_Wille_zur_Macht",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Tetsuya Takahashi's grand philosophical space opera starring android KOS-MOS and scientist Shion Uzuki.",
+    "culturalImpact": "Founded Monolith Soft's legacy of high-concept intellectual world-building and cinematic cutscenes."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 2"
+    ],
+    "genres": [
+      "rpg"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/d/df/Xenosaga_Episode_I_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/d/df/Xenosaga_Episode_I_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Xenosaga_Episode_I:_Der_Wille_zur_Macht",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Xenosaga Episode I: Der Wille zur Macht",
+    "Monolith Soft",
+    "Namco",
+    "PlayStation 2",
+    "rpg",
+    "2002",
+    "2000s",
+    "PlayStation 2",
+    "turn-based-rpg"
+  ],
+  "url": "/games/xenosaga-episode-i-der-wille-zur-macht/",
+  "featured": false
+}

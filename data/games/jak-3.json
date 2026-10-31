@@ -1,0 +1,68 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-jak-3",
+  "slug": "jak-3",
+  "title": "Jak 3",
+  "originalReleaseYear": 2004,
+  "exactReleaseDate": "November 9, 2004",
+  "originalLaunchPlatform": "PlayStation 2",
+  "originalLaunchRegion": "North America",
+  "developer": "Naughty Dog",
+  "publisher": "Sony Computer Entertainment",
+  "platforms": [
+    "PlayStation 2"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "open-world",
+    "platformer"
+  ],
+  "era": "2000s",
+  "shortDescription": "Climactic trilogy finale expanding into the perilous Wasteland with vehicular combat and Light Eco powers.",
+  "historicalSignificance": "Masterfully concluded the PS2 saga, balancing tight platforming, gunplay, and open desert driving.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Jak_3",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Climactic trilogy finale expanding into the perilous Wasteland with vehicular combat and Light Eco powers.",
+    "culturalImpact": "Masterfully concluded the PS2 saga, balancing tight platforming, gunplay, and open desert driving."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 2"
+    ],
+    "genres": [
+      "action-adventure"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/6/6f/Jak_3_Coverart.png",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/6/6f/Jak_3_Coverart.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Jak_3",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Jak 3",
+    "Naughty Dog",
+    "Sony Computer Entertainment",
+    "PlayStation 2",
+    "action-adventure",
+    "2004",
+    "2000s",
+    "PlayStation 2",
+    "open-world",
+    "platformer"
+  ],
+  "url": "/games/jak-3/",
+  "featured": false
+}

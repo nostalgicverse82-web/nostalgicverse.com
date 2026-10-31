@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-klonoa-2-lunatea-s-veil",
+  "slug": "klonoa-2-lunatea-s-veil",
+  "title": "Klonoa 2: Lunatea's Veil",
+  "originalReleaseYear": 2001,
+  "exactReleaseDate": "March 22, 2001",
+  "originalLaunchPlatform": "PlayStation 2",
+  "originalLaunchRegion": "Japan",
+  "developer": "Namco",
+  "publisher": "Namco",
+  "platforms": [
+    "PlayStation 2"
+  ],
+  "genre": "platformer",
+  "subgenres": [
+    "2.5d-platformer"
+  ],
+  "era": "2000s",
+  "shortDescription": "Charming 2.5D cel-shaded platformer utilizing wind-bullet mechanics to grab enemies and double-jump.",
+  "historicalSignificance": "One of the earliest and most visually enchanting masterpieces of the PlayStation 2 platformer library.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Klonoa_2:_Lunatea's_Veil",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Charming 2.5D cel-shaded platformer utilizing wind-bullet mechanics to grab enemies and double-jump.",
+    "culturalImpact": "One of the earliest and most visually enchanting masterpieces of the PlayStation 2 platformer library."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 2"
+    ],
+    "genres": [
+      "platformer"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/3/3d/Klonoa2_cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/3/3d/Klonoa2_cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Klonoa_2:_Lunatea's_Veil",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Klonoa 2: Lunatea's Veil",
+    "Namco",
+    "Namco",
+    "PlayStation 2",
+    "platformer",
+    "2001",
+    "2000s",
+    "PlayStation 2",
+    "2.5d-platformer"
+  ],
+  "url": "/games/klonoa-2-lunatea-s-veil/",
+  "featured": false
+}

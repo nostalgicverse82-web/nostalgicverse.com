@@ -1,0 +1,93 @@
+{
+  "id": "game-star-wars-knights-of-the-old-republic",
+  "slug": "star-wars-knights-of-the-old-republic",
+  "title": "Star Wars: Knights of the Old Republic",
+  "japaneseTitle": "スター・ウォーズ ナイツ・オブ・ジ・オールド・リパブリック",
+  "url": "/games/star-wars-knights-of-the-old-republic/",
+  "originalReleaseYear": 2003,
+  "exactReleaseDate": "2003-07-15",
+  "developer": "BioWare",
+  "publisher": "LucasArts",
+  "director": "Casey Hudson",
+  "designer": "Drew Karpyshyn, James Ohlen",
+  "composer": "Jeremy Soule",
+  "originalLaunchPlatform": "Xbox",
+  "platforms": [
+    "Xbox",
+    "Microsoft Windows",
+    "Mac OS",
+    "iOS",
+    "Android",
+    "Nintendo Switch"
+  ],
+  "genre": "rpg",
+  "subgenres": [
+    "Sci-Fi RPG",
+    "Party-Based RPG",
+    "Morality RPG"
+  ],
+  "era": "2000s",
+  "shortDescription": "BioWare's masterwork Star Wars RPG featuring the epic clash between the Jedi and Darth Malak, and one of gaming's greatest plot twists.",
+  "historicalSignificance": "Set 4,000 years before the Galactic Empire, KOTOR proved RPGs could achieve cinematic blockbuster status on consoles, establishing the foundation of BioWare's morality alignment meter, romantic companion dynamics, and character-driven space opera storytelling.",
+  "editorialContent": {
+    "overview": "Directed by Casey Hudson and written by Drew Karpyshyn at BioWare, Knights of the Old Republic (KOTOR) launched on the Xbox in July 2003 before arriving on PC. Liberated from the established Skywalker film continuity by jumping four millennia into antiquity, players found themselves thrust into a galaxy on the brink of collapse against Sith Lord Darth Malak.",
+    "gameplay": "Adapting Wizards of the Coast's Star Wars Roleplaying d20 system into real-time with pause combat, players master lightsaber combat styles, blasters, and Force powers. Crucial moral decisions tilt the protagonist's alignment toward the Light Side or Dark Side, altering physical appearance, Force power costs, and companion loyalties.",
+    "technicalInnovation": "BioWare integrated full voice acting across thousands of lines of dialogue with cinematic over-the-shoulder conversation cameras, fully animated lightsaber clashing animations, and Jeremy Soule's iconic symphonic score.",
+    "culturalImpact": "KOTOR is widely hailed as the greatest Star Wars video game ever created. Its legendary mid-game revelation regarding Darth Revan set the benchmark for narrative twists in video games, and directly laid the structural groundwork for BioWare's Mass Effect series.",
+    "preservationNotes": "Preserved on original Xbox DVD-ROMs, PC editions, and updated with widescreen support across modern iOS, Android, and Nintendo Switch releases."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "July 15, 2003",
+    "leadPlatform": "Xbox",
+    "genre": "rpg",
+    "sales": "Over 3 million copies worldwide",
+    "awards": [
+      "Game of the Year 2003 (Game Developers Choice Awards, BAFTA nominee, IGN, GameSpot)",
+      "AIAS Role Playing Game of the Year 2004"
+    ],
+    "technicalSpecs": {
+      "engine": "BioWare Odyssey Engine (evolution of Aurora Engine)",
+      "resolution": "480p progressive on Xbox, up to 1600x1200 on PC",
+      "soundChip": "Dolby Digital 5.1 positional surround with Jeremy Soule orchestral score",
+      "mediaFormat": "DVD-ROM"
+    },
+    "relationships": {
+      "primaryConsole": "xbox",
+      "developerEntity": "BioWare",
+      "lineage": [
+        "Baldur's Gate",
+        "Knights of the Old Republic II: The Sith Lords",
+        "Mass Effect",
+        "Dragon Age: Origins"
+      ]
+    }
+  },
+  "assets": {
+    "cover": "/assets/images/games/star-wars-knights-of-the-old-republic.webp",
+    "banner": "/assets/images/games/star-wars-knights-of-the-old-republic-banner.webp",
+    "screenshots": [
+      "/assets/images/games/star-wars-knights-of-the-old-republic-screen1.webp",
+      "/assets/images/games/star-wars-knights-of-the-old-republic-screen2.webp"
+    ],
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/1/11/Kotorbox.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/1/11/Kotorbox.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Kotorbox.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "review-required",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "kotor",
+    "star wars",
+    "knights of the old republic",
+    "darth revan",
+    "bioware",
+    "darth malak",
+    "jedi",
+    "sith"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

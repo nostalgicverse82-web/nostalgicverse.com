@@ -1,0 +1,88 @@
+{
+  "id": "game-starcraft",
+  "slug": "starcraft",
+  "title": "StarCraft",
+  "japaneseTitle": "スタークラフト",
+  "url": "/games/starcraft/",
+  "originalReleaseYear": 1998,
+  "exactReleaseDate": "1998-03-31",
+  "developer": "Blizzard Entertainment",
+  "publisher": "Blizzard Entertainment",
+  "director": "Chris Metzen, James Phinney",
+  "designer": "Rob Pardo, Chris Sigaty",
+  "composer": "Glenn Stafford, Jason Hayes, Tracy W. Bush",
+  "originalLaunchPlatform": "Microsoft Windows",
+  "platforms": [
+    "Microsoft Windows",
+    "Mac OS",
+    "Nintendo 64"
+  ],
+  "genre": "real-time-strategy",
+  "subgenres": [
+    "Asymmetric RTS",
+    "Esports RTS"
+  ],
+  "era": "1990s",
+  "shortDescription": "Blizzard's asymmetric real-time strategy masterwork that ignited modern competitive esports and conquered South Korea.",
+  "historicalSignificance": "Set the untouchable benchmark for asymmetric RTS balance across three radically distinct factions (Terran, Zerg, Protoss), becoming a national spectator sport in South Korea and establishing the modern professional esports ecosystem.",
+  "editorialContent": {
+    "overview": "Released by Blizzard Entertainment in March 1998, StarCraft fundamentally transformed competitive computer strategy. Rejecting the mirrored factions of earlier RTS titles, Blizzard engineered three entirely asymmetrical alien races: the adaptable mechanized human Terrans, the voracious biological swarm Zerg, and the enigmatic psionic warrior Protoss, each governed by completely distinct economic and military doctrines.",
+    "gameplay": "Players harvest minerals and Vespene gas, construct production infrastructure, and coordinate land and air armies in real time. Tactical depth hinges on rapid micro-management (unit positioning, ability casting) and disciplined macro-management (production cycles, resource saturation, base expansion timing).",
+    "technicalInnovation": "Engineered an extraordinarily robust lockstep deterministic network simulation supporting up to eight players simultaneously over Battle.net, accompanied by an intuitive campaign scenario editor (StarEdit) that fostered thousands of user-created custom maps.",
+    "culturalImpact": "StarCraft became a foundational cultural phenomenon in South Korea, televised live on dedicated cable networks (OGN, MBC Game) to packed arena audiences, creating the world's first celebrity professional gamers (such as Lim 'BoxeR' Yo-hwan) and shaping global esports infrastructure.",
+    "preservationNotes": "Preserved via original Windows executables, the official StarCraft: Remastered 4K release, and millions of archived tournament replays spanning a quarter century."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "March 31, 1998",
+    "leadPlatform": "Microsoft Windows",
+    "genre": "real-time-strategy",
+    "sales": "Over 11 million units sold worldwide",
+    "awards": [
+      "Origins Award Best Strategy Computer Game 1998",
+      "GameSpot Strategy Game of the Year 1998"
+    ],
+    "technicalSpecs": {
+      "engine": "Blizzard proprietary 2D tile-based isometric engine with sprite animation",
+      "resolution": "640x480 SVGA 256 colors",
+      "soundChip": "DirectSound / Miles Audio wavetable with full orchestral and radio communications",
+      "mediaFormat": "CD-ROM"
+    },
+    "relationships": {
+      "primaryConsole": "pc",
+      "developerEntity": "Blizzard Entertainment",
+      "lineage": [
+        "Warcraft II: Tides of Darkness",
+        "StarCraft: Brood War",
+        "StarCraft II: Wings of Liberty"
+      ]
+    }
+  },
+  "assets": {
+    "cover": "/assets/images/games/starcraft.webp",
+    "banner": "/assets/images/games/starcraft-banner.webp",
+    "screenshots": [
+      "/assets/images/games/starcraft-screen1.webp",
+      "/assets/images/games/starcraft-screen2.webp"
+    ],
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/9/93/StarCraft_box_art.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/9/93/StarCraft_box_art.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:StarCraft_box_art.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "review-required",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "starcraft",
+    "blizzard",
+    "terran",
+    "zerg",
+    "protoss",
+    "rts",
+    "esports",
+    "battle.net"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

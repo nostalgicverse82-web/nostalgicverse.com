@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-metroid-prime-3-corruption",
+  "slug": "metroid-prime-3-corruption",
+  "title": "Metroid Prime 3: Corruption",
+  "originalReleaseYear": 2007,
+  "exactReleaseDate": "August 27, 2007",
+  "originalLaunchPlatform": "Wii",
+  "originalLaunchRegion": "North America",
+  "developer": "Retro Studios",
+  "publisher": "Nintendo",
+  "platforms": [
+    "Wii"
+  ],
+  "genre": "action-adventure",
+  "subgenres": [
+    "first-person"
+  ],
+  "era": "2000s",
+  "shortDescription": "Samus travels across multiple planets combating Phazon corruption with IR pointer aiming.",
+  "historicalSignificance": "Concluded the seminal Prime trilogy, setting the gold standard for intuitive pointer aiming in first-person games.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Metroid_Prime_3:_Corruption",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Samus travels across multiple planets combating Phazon corruption with IR pointer aiming.",
+    "culturalImpact": "Concluded the seminal Prime trilogy, setting the gold standard for intuitive pointer aiming in first-person games."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "Wii"
+    ],
+    "genres": [
+      "action-adventure"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Metroid_Prime_3_Corruption_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Metroid_Prime_3_Corruption_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Metroid_Prime_3:_Corruption",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Metroid Prime 3: Corruption",
+    "Retro Studios",
+    "Nintendo",
+    "Wii",
+    "action-adventure",
+    "2007",
+    "2000s",
+    "Wii",
+    "first-person"
+  ],
+  "url": "/games/metroid-prime-3-corruption/",
+  "featured": false
+}

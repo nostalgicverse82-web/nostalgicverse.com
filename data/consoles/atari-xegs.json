@@ -1,0 +1,40 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+  "id": "console-atari-xegs",
+  "slug": "atari-xegs",
+  "name": "Atari XEGS (XE Game System)",
+  "manufacturer": "Atari",
+  "generation": "Third Generation",
+  "generationNumber": 3,
+  "originalReleaseYear": 1987,
+  "exactReleaseDate": "November 1987",
+  "mediaFormat": "ROM Cartridge & Floppy Disk / Cassette (via peripherals)",
+  "significance": "Showcased Atari's effort to bridge the home computer and console markets during the height of the 8-bit Nintendo resurgence.",
+  "verifiedFactualData": {
+    "cpu": "MOS Technology 6502C @ 1.79 MHz",
+    "gpuOrVideoChip": "ANTIC and GTIA custom graphics chips",
+    "ram": "64 KB RAM"
+  },
+  "editorialContent": {
+    "overview": "A repackaged Atari 65XE computer designed as a hybrid console with detachable keyboard and light gun.",
+    "marketLegacy": "Showcased Atari's effort to bridge the home computer and console markets during the height of the 8-bit Nintendo resurgence.",
+    "controllerDesign": "Detachable keyboard, CX40 joystick, XG-1 light gun"
+  },
+  "keyGames": [
+    "missile-command",
+    "barnyard-blaster",
+    "bug-hunt"
+  ],
+  "assets": {
+    "mainImage": "/assets/images/consoles/atari-xegs.png",
+    "heroImage": "/assets/images/consoles/atari-xegs-hero.png",
+    "hardwareImage": "/assets/images/consoles/atari-xegs-hardware.png"
+  },
+  "keywords": [
+    "atari xegs",
+    "atari",
+    "third generation",
+    "1987",
+    "computer console"
+  ]
+}

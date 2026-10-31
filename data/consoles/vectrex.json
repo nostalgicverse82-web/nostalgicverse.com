@@ -1,0 +1,42 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/console.schema.json",
+  "id": "console-vectrex",
+  "slug": "vectrex",
+  "name": "Vectrex",
+  "manufacturer": "Milton Bradley / GCE",
+  "generation": "Second Generation",
+  "generationNumber": 2,
+  "originalReleaseYear": 1982,
+  "exactReleaseDate": "November 1982",
+  "mediaFormat": "ROM Cartridge",
+  "significance": "Achieved authentic razor-sharp arcade vector rendering and introduced the 3D Imager, the first commercial 3D shutter glasses for a gaming console.",
+  "verifiedFactualData": {
+    "cpu": "Motorola 68A09 @ 1.5 MHz",
+    "gpuOrVideoChip": "Vector generator driving an integrated 9-inch monochrome CRT",
+    "ram": "1 KB RAM"
+  },
+  "editorialContent": {
+    "overview": "The only commercial vector-graphics home console, featuring its own integrated portrait cathode-ray tube screen.",
+    "marketLegacy": "Achieved authentic razor-sharp arcade vector rendering and introduced the 3D Imager, the first commercial 3D shutter glasses for a gaming console.",
+    "controllerDesign": "Analog joystick with 4 horizontally aligned action buttons"
+  },
+  "keyGames": [
+    "minestorm",
+    "scramble",
+    "spike"
+  ],
+  "assets": {
+    "mainImage": "/assets/images/consoles/vectrex.png",
+    "heroImage": "/assets/images/consoles/vectrex-hero.png",
+    "hardwareImage": "/assets/images/consoles/vectrex-hardware.png"
+  },
+  "keywords": [
+    "vectrex",
+    "gce",
+    "milton bradley",
+    "vector graphics",
+    "crt",
+    "second generation",
+    "1982"
+  ]
+}

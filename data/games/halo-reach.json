@@ -1,0 +1,66 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-halo-reach",
+  "slug": "halo-reach",
+  "title": "Halo: Reach",
+  "originalReleaseYear": 2010,
+  "exactReleaseDate": "September 14, 2010",
+  "originalLaunchPlatform": "Xbox 360",
+  "originalLaunchRegion": "North America",
+  "developer": "Bungie",
+  "publisher": "Microsoft Game Studios",
+  "platforms": [
+    "Xbox 360"
+  ],
+  "genre": "first-person-shooter",
+  "subgenres": [
+    "sci-fi"
+  ],
+  "era": "2010s",
+  "shortDescription": "Noble Team wages a heroic, tragic planetary defense against overwhelming Covenant forces on planet Reach.",
+  "historicalSignificance": "Bungie's poignant swansong to the Halo franchise, acclaimed for armor abilities, Firefight, and deep narrative weight.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Halo:_Reach",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Noble Team wages a heroic, tragic planetary defense against overwhelming Covenant forces on planet Reach.",
+    "culturalImpact": "Bungie's poignant swansong to the Halo franchise, acclaimed for armor abilities, Firefight, and deep narrative weight."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "Xbox 360"
+    ],
+    "genres": [
+      "first-person-shooter"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/5/5c/Halo-_Reach_box_art.png",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/5/5c/Halo-_Reach_box_art.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Halo:_Reach",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Halo: Reach",
+    "Bungie",
+    "Microsoft Game Studios",
+    "Xbox 360",
+    "first-person-shooter",
+    "2010",
+    "2010s",
+    "Xbox 360",
+    "sci-fi"
+  ],
+  "url": "/games/halo-reach/",
+  "featured": false
+}

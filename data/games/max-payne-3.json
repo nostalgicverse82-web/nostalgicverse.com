@@ -1,0 +1,70 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-max-payne-3",
+  "slug": "max-payne-3",
+  "title": "Max Payne 3",
+  "originalReleaseYear": 2012,
+  "exactReleaseDate": "May 15, 2012",
+  "originalLaunchPlatform": "PlayStation 3",
+  "originalLaunchRegion": "North America",
+  "developer": "Rockstar Studios",
+  "publisher": "Rockstar Games",
+  "platforms": [
+    "PlayStation 3",
+    "Xbox 360",
+    "Microsoft Windows"
+  ],
+  "genre": "third-person-shooter",
+  "subgenres": [
+    "action"
+  ],
+  "era": "2010s",
+  "shortDescription": "Washed-up ex-detective Max Payne works private security in Sao Paulo, descending into gang conspiracies.",
+  "historicalSignificance": "Pushed RAGE physics and NaturalMotion Euphoria procedural bullet impacts to their absolute historical limit.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Max_Payne_3",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Washed-up ex-detective Max Payne works private security in Sao Paulo, descending into gang conspiracies.",
+    "culturalImpact": "Pushed RAGE physics and NaturalMotion Euphoria procedural bullet impacts to their absolute historical limit."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 3"
+    ],
+    "genres": [
+      "third-person-shooter"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/2/21/Max_Payne_3_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/2/21/Max_Payne_3_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Max_Payne_3",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Max Payne 3",
+    "Rockstar Studios",
+    "Rockstar Games",
+    "PlayStation 3",
+    "third-person-shooter",
+    "2012",
+    "2012",
+    "PlayStation 3",
+    "Xbox 360",
+    "Microsoft Windows",
+    "action"
+  ],
+  "url": "/games/max-payne-3/",
+  "featured": false
+}

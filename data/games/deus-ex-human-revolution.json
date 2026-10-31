@@ -1,0 +1,70 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-deus-ex-human-revolution",
+  "slug": "deus-ex-human-revolution",
+  "title": "Deus Ex: Human Revolution",
+  "originalReleaseYear": 2011,
+  "exactReleaseDate": "August 23, 2011",
+  "originalLaunchPlatform": "PlayStation 3",
+  "originalLaunchRegion": "North America",
+  "developer": "Eidos Montreal",
+  "publisher": "Square Enix",
+  "platforms": [
+    "PlayStation 3",
+    "Xbox 360",
+    "Microsoft Windows"
+  ],
+  "genre": "action-rpg",
+  "subgenres": [
+    "immersive-sim"
+  ],
+  "era": "2010s",
+  "shortDescription": "Adam Jensen investigates terrorist attacks against Sarif Industries amidst social unrest over cybernetic transhumanism.",
+  "historicalSignificance": "Resurrected the immersive sim genre with peerless gold-and-black cyber-Renaissance art direction and multi-path player freedom.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Deus_Ex:_Human_Revolution",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "Adam Jensen investigates terrorist attacks against Sarif Industries amidst social unrest over cybernetic transhumanism.",
+    "culturalImpact": "Resurrected the immersive sim genre with peerless gold-and-black cyber-Renaissance art direction and multi-path player freedom."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 3"
+    ],
+    "genres": [
+      "action-rpg"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/1/14/Deus_Ex_Human_Revolution_Cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/1/14/Deus_Ex_Human_Revolution_Cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Deus_Ex:_Human_Revolution",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Deus Ex: Human Revolution",
+    "Eidos Montreal",
+    "Square Enix",
+    "PlayStation 3",
+    "action-rpg",
+    "2011",
+    "2010s",
+    "PlayStation 3",
+    "Xbox 360",
+    "Microsoft Windows",
+    "immersive-sim"
+  ],
+  "url": "/games/deus-ex-human-revolution/",
+  "featured": false
+}

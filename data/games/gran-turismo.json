@@ -1,0 +1,86 @@
+{
+  "id": "game-gran-turismo",
+  "slug": "gran-turismo",
+  "title": "Gran Turismo",
+  "japaneseTitle": "グランツーリスモ",
+  "url": "/games/gran-turismo/",
+  "originalReleaseYear": 1997,
+  "exactReleaseDate": "1997-12-23",
+  "developer": "Polyphony Digital",
+  "publisher": "Sony Computer Entertainment",
+  "director": "Kazunori Yamauchi",
+  "designer": "Kazunori Yamauchi",
+  "composer": "Masahiro Andoh, Isamu Ohira",
+  "originalLaunchPlatform": "PlayStation",
+  "platforms": [
+    "PlayStation"
+  ],
+  "genre": "racing",
+  "subgenres": [
+    "Simulation Racing",
+    "Automotive Museum"
+  ],
+  "era": "1990s",
+  "shortDescription": "Kazunori Yamauchi's meticulous real driving simulator that redefined automotive physics and became PlayStation's highest-selling game.",
+  "historicalSignificance": "Created the modern simulation racing genre on consoles, introducing rigorous automotive tire physics, realistic car licensing across 140 vehicles, license tests, and a deep career mode economy that elevated Polyphony Digital to world acclaim.",
+  "editorialContent": {
+    "overview": "Directed by obsessive motor racing enthusiast Kazunori Yamauchi after five intense years of development, Gran Turismo arrived in Japan in December 1997. Subtitled 'The Real Driving Simulator,' it discarded arcade racing drift fantasies in favor of genuine vehicle handling dynamics, authentic manufacturer licensures, and mechanical tuning.",
+    "gameplay": "Players progress through the Gran Turismo Mode by acquiring entry-level license certificates (B, A, International A) before entering regulated championship cups. Starting with humble used Japanese compacts, players earn prize credits to purchase performance exhausts, turbo upgrades, brake kits, suspension dampening, and eventually high-tier GT race cars.",
+    "technicalInnovation": "Polyphony Digital achieved groundbreaking visual fidelity on the PlayStation hardware by modeling 140 distinct production vehicles with reflective environmental mapping, realistic weight transfer physics, and telemetry data based on real-world track testing.",
+    "culturalImpact": "With 10.85 million copies sold, Gran Turismo became the best-selling video game on the original PlayStation. It introduced Western automotive enthusiasts to iconic Japanese sports cars like the Nissan Skyline GT-R, Subaru Impreza WRX, and Mitsubishi Lancer Evolution, forever shaping global car culture.",
+    "preservationNotes": "Preserved on dual-mode PlayStation CD-ROMs with authentic physics algorithms intact, recognized in automotive museums worldwide."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "December 23, 1997",
+    "leadPlatform": "PlayStation",
+    "genre": "racing",
+    "sales": "10.85 million copies worldwide (highest-selling PS1 title)",
+    "awards": [
+      "Best Driving Game 1998 (EGM)",
+      "PlayStation Game of the Year (Spotlight Awards)"
+    ],
+    "technicalSpecs": {
+      "engine": "Polyphony Digital proprietary simulation physics engine",
+      "resolution": "320x240 (640x480 interlaced in Hi-Res mode)",
+      "soundChip": "PlayStation SPU 24-channel audio with recorded real-car engine samples",
+      "mediaFormat": "CD-ROM"
+    },
+    "relationships": {
+      "primaryConsole": "playstation",
+      "developerEntity": "Polyphony Digital",
+      "lineage": [
+        "Motor Toon Grand Prix",
+        "Gran Turismo 2",
+        "Gran Turismo 3: A-Spec",
+        "Forza Motorsport"
+      ]
+    }
+  },
+  "assets": {
+    "cover": "/assets/images/games/gran-turismo.webp",
+    "banner": "/assets/images/games/gran-turismo-banner.webp",
+    "screenshots": [
+      "/assets/images/games/gran-turismo-screen1.webp",
+      "/assets/images/games/gran-turismo-screen2.webp"
+    ],
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/c/c8/Gran_Turismo_-_Cover_-_JP.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/c/c8/Gran_Turismo_-_Cover_-_JP.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Gran_Turismo_-_Cover_-_JP.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "review-required",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "gran turismo",
+    "polyphony digital",
+    "kazunori yamauchi",
+    "playstation",
+    "simulation",
+    "skyline",
+    "racing"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

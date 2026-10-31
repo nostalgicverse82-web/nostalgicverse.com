@@ -1,0 +1,90 @@
+{
+  "id": "game-mass-effect",
+  "slug": "mass-effect",
+  "title": "Mass Effect",
+  "japaneseTitle": "マスエフェクト",
+  "url": "/games/mass-effect/",
+  "originalReleaseYear": 2007,
+  "exactReleaseDate": "2007-11-20",
+  "developer": "BioWare",
+  "publisher": "Microsoft Game Studios",
+  "director": "Casey Hudson",
+  "designer": "Preston Watamaniuk, Drew Karpyshyn",
+  "composer": "Jack Wall, Sam Hulick, Richard Jacques, David Kates",
+  "originalLaunchPlatform": "Xbox 360",
+  "platforms": [
+    "Xbox 360",
+    "Microsoft Windows",
+    "PlayStation 3"
+  ],
+  "genre": "action-rpg",
+  "subgenres": [
+    "Sci-Fi Space Opera",
+    "Action RPG",
+    "Dialogue Wheel RPG"
+  ],
+  "era": "2000s",
+  "shortDescription": "BioWare's sweeping space opera that introduced Commander Shepard, the Dialogue Wheel, and the cosmic threat of the Reapers.",
+  "historicalSignificance": "Introduced the revolutionary Dialogue Wheel and Paragon/Renegade morality framework, allowing players to build Commander Shepard's personal identity and carry save files across an entire epic trilogy.",
+  "editorialContent": {
+    "overview": "Directed by Casey Hudson and written by Drew Karpyshyn at BioWare, Mass Effect launched in November 2007 as a flagship exclusive for the Xbox 360. Set in the year 2183, humanity has discovered ancient alien mass relay technology, joining a vast galactic community governed from the Citadel. As Commander Shepard of the SSV Normandy, players hunt rogue Spectre agent Saren Arterius, only to uncover the cyclical existential threat of the Reapers.",
+    "gameplay": "Fuses third-person cover shooting with tactical squad commands and RPG skill trees. Players wield assault rifles, biotic telekinetic powers, and tech abilities, accompanied by two squadmates (such as Garrus Vakarian, Tali'Zorah, and Liara T'Soni) and explore uncharted planets behind the wheel of the Mako all-terrain rover.",
+    "technicalInnovation": "BioWare pioneered the radial 'Dialogue Wheel,' allowing players to select emotional stances and responses before characters finished speaking, supported by cinematic camera angles and an analog synthesizer soundtrack inspired by Blade Runner and Tangerine Dream.",
+    "culturalImpact": "Mass Effect established one of the greatest original science-fiction universes in entertainment history. Its persistent save transfer mechanic across three games set an unprecedented standard for player agency and emotional investment in characters.",
+    "preservationNotes": "Preserved on Xbox 360 DVD media, and beautifully unified in 4K HDR across the 2021 Mass Effect Legendary Edition."
+  },
+  "verifiedFactualData": {
+    "releaseDate": "November 20, 2007",
+    "leadPlatform": "Xbox 360",
+    "genre": "action-rpg",
+    "sales": "Over 3.5 million copies worldwide on Xbox 360 and PC",
+    "awards": [
+      "Spike Video Game Award for Best RPG 2007",
+      "AIAS Role Playing Game of the Year 2008"
+    ],
+    "technicalSpecs": {
+      "engine": "Unreal Engine 3 with BioWare conversation cinematics pipeline",
+      "resolution": "720p HD (Xbox 360)",
+      "soundChip": "Dolby Digital 5.1 with Jack Wall analog synth / orchestral score",
+      "mediaFormat": "DVD-ROM"
+    },
+    "relationships": {
+      "primaryConsole": "xbox-360",
+      "developerEntity": "BioWare",
+      "lineage": [
+        "Star Wars: Knights of the Old Republic",
+        "Mass Effect 2",
+        "Mass Effect 3",
+        "Dragon Age: Origins"
+      ]
+    }
+  },
+  "assets": {
+    "cover": "/assets/images/games/mass-effect.webp",
+    "banner": "/assets/images/games/mass-effect-banner.webp",
+    "screenshots": [
+      "/assets/images/games/mass-effect-screen1.webp",
+      "/assets/images/games/mass-effect-screen2.webp"
+    ],
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/e/e8/MassEffect.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/e/e8/MassEffect.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:MassEffect.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Archival Historical Cover Art",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "mass effect",
+    "commander shepard",
+    "bioware",
+    "reapers",
+    "dialogue wheel",
+    "normandy",
+    "garrus",
+    "space opera"
+  ],
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "featured": false
+}

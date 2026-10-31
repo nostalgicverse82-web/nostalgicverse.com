@@ -1,0 +1,68 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.schema.json",
+  "id": "game-burnout-revenge",
+  "slug": "burnout-revenge",
+  "title": "Burnout Revenge",
+  "originalReleaseYear": 2005,
+  "exactReleaseDate": "September 13, 2005",
+  "originalLaunchPlatform": "PlayStation 2",
+  "originalLaunchRegion": "North America",
+  "developer": "Criterion Games",
+  "publisher": "Electronic Arts",
+  "platforms": [
+    "PlayStation 2",
+    "Xbox"
+  ],
+  "genre": "racing",
+  "subgenres": [
+    "arcade-racing"
+  ],
+  "era": "2000s",
+  "shortDescription": "High-octane arcade racer introducing Traffic Checking, weaponizing civilian cars into explosive projectiles.",
+  "historicalSignificance": "Refined arcade vehicular combat into kinetic perfection, celebrated for blistering framerates.",
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "https://en.wikipedia.org/wiki/Burnout_Revenge",
+      "Video Game History Foundation Preservation Archive"
+    ],
+    "inputMethod": "Standard Game Controller",
+    "multiplayerCapability": "Single-player"
+  },
+  "editorialContent": {
+    "overview": "High-octane arcade racer introducing Traffic Checking, weaponizing civilian cars into explosive projectiles.",
+    "culturalImpact": "Refined arcade vehicular combat into kinetic perfection, celebrated for blistering framerates."
+  },
+  "relatedExhibits": {
+    "games": [],
+    "consoles": [
+      "PlayStation 2"
+    ],
+    "genres": [
+      "racing"
+    ]
+  },
+  "assets": {
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/0/08/Burnout_revenge_cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/0/08/Burnout_revenge_cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Burnout_Revenge",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "Fair Use / Historical Packaging Artwork",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "Burnout Revenge",
+    "Criterion Games",
+    "Electronic Arts",
+    "PlayStation 2",
+    "racing",
+    "2005",
+    "2000s",
+    "PlayStation 2",
+    "Xbox",
+    "arcade-racing"
+  ],
+  "url": "/games/burnout-revenge/",
+  "featured": false
+}

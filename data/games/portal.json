@@ -1,0 +1,81 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.json",
+  "id": "game-portal",
+  "slug": "portal",
+  "title": "Portal",
+  "url": "/games/portal/",
+  "originalReleaseYear": 2007,
+  "exactReleaseDate": "2007-10-10",
+  "developer": "Valve",
+  "publisher": "Valve",
+  "director": "Kim Swift",
+  "designer": "Kim Swift, Jeep Barnett, Swift/DigiPen Team",
+  "composer": "Kelly Bailey, Jonathan Coulton",
+  "originalLaunchPlatform": "PC",
+  "platforms": [
+    "PC",
+    "Xbox 360",
+    "PlayStation 3",
+    "Macintosh",
+    "Linux",
+    "Nintendo Switch"
+  ],
+  "genre": "Puzzle",
+  "subgenres": [
+    "First-Person Puzzle",
+    "Physics Platformer",
+    "Sci-Fi Satire"
+  ],
+  "era": "2000s",
+  "shortDescription": "Kim Swift and Valve's peerless first-person spatial puzzle masterclass built around quantum wormholes, conservation of momentum, and GLaDOS's acerbic satire.",
+  "historicalSignificance": "Revolutionized first-person puzzle game design through momentum-conserving spatial mechanics, set a gold standard for non-verbal environmental tutorialization, and introduced GLaDOS as one of the most iconic artificial intelligence antagonists in fiction.",
+  "editorialContent": {
+    "overview": "Premiering in October 2007 as part of Valve's landmark anthology compilation The Orange Box, Portal originated from a modest student prototype titled Narbacular Drop, created by a team of graduates from the DigiPen Institute of Technology. Impressed by their ingenious spatial wormhole demonstration, Valve founder Gabe Newell hired the entire development team on the spot, appointing Kim Swift as project lead. Set within the labyrinthine subterranean Enrichment Center of Aperture Science—a corporate rival to Black Mesa in the Half-Life narrative universe—Portal became an unexpected global sensation, widely hailed as a flawless triumph of concise narrative design and spatial problem-solving.",
+    "gameplayMechanics": "The player commands Chell, an Aperture Science test subject armed with the Aperture Science Handheld Portal Device ('Portal Gun'). The device can project two linked spatial wormhole apertures (Blue and Orange) onto flat, non-conductive surfaces. Passing through one portal instantly exits the other without interrupting trajectory or spatial orientation. The gameplay elevates basic geometry into dynamic physics through the fundamental law of portal momentum conservation: 'Speedy thing goes in, speedy thing comes out.' By leaping from extreme heights into a ground portal, players convert vertical gravitational acceleration into horizontal exit velocity, flinging Chell across impassable chasms, over deadly toxic acid pits, and past automated sentry turrets.",
+    "technicalInnovation": "Built on an advanced iteration of Valve's proprietary Source engine, Portal required significant rendering modifications to display real-time recursively nested recursive views through active portal surfaces without crippling graphics processing pipelines. The engine renders what lies beyond each portal surface dynamically using a specialized secondary camera matrix and depth-stencil buffer, allowing players to look through a portal and observe their own character model in real time. The narrative architecture by Erik Wolpaw and Chet Faliszek is universally celebrated: the entire story is conveyed through the passive-aggressive, sociopathic robotic voice of the facility's governing artificial intelligence GLaDOS (voiced by opera singer Ellen McLain), accompanied by cryptic, frantic dens scribbled by previous test subject Doug Rattmann hidden behind observation panels.",
+    "culturalImpact": "Portal exerted an outsized cultural impact that far exceeded its modest three-hour playing length. GLaDOS's deceptively polite psychological manipulation, her promises of 'cake and grief counseling', and the poignant sacrifice of the Weighted Storage Companion Cube became viral memes that permeated late-2000s internet culture ('The cake is a lie'). The ending credits song 'Still Alive', penned by folk-rock musician Jonathan Coulton and sung in character by Ellen McLain, became a mainstream musical hit and cemented the game as a premier example of sharp, literary interactive dark comedy.",
+    "preservationNotes": "Preserving the original 2007 Portal experience requires distinguishing it from subsequent community modifications, the RTX hardware-accelerated ray tracing remaster, and its expansive 2011 sequel Portal 2. Archival preservation focuses on original Source engine physics branch timings (particularly air strafing and portal edge-friction collisions), which form the foundational basis for competitive speedrunning communities."
+  },
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "Valve Corporation. The Orange Box Operations Manual (2007)",
+      "Swift, Kim & Wolpaw, Erik. 'Integrating Narrative and Puzzle Design in Portal' (GDC 2008)",
+      "Keighley, Geoff. 'The Final Hours of Portal 2: Including the Story of Portal 1' (2011)",
+      "Retro Gamer Magazine. 'The Making of Portal' (Issue #162, 2016)"
+    ],
+    "romMediaFormat": "1x DVD-ROM Optical Disc / Steam Digital Distribution",
+    "romSizeOriginal": "Approx. 4.5 GB installation footprint",
+    "displayResolutionOriginal": "Dynamic / Multi-Resolution (Direct3D 9.0c / OpenGL)",
+    "audioHardware": "Miles Sound System / Valve Source Audio Pipeline (Spatial 3D Positional Audio)",
+    "inputMethod": "Standard PC Keyboard + Mouse / Gamepad Controller",
+    "multiplayerCapability": "1 Player"
+  },
+  "assets": {
+    "heroImage": "/assets/images/games/portal-hero.webp",
+    "thumbnailImage": "/assets/images/games/portal.webp",
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/9/9f/Portal_standalonebox.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/9/9f/Portal_standalonebox.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Portal_standalonebox.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "review-required",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "portal",
+    "valve",
+    "glados",
+    "kim swift",
+    "chell",
+    "aperture science",
+    "source engine",
+    "puzzle",
+    "physics",
+    "orange box",
+    "2007",
+    "2000s",
+    "still alive"
+  ],
+  "featured": true
+}

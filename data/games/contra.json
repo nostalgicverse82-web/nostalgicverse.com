@@ -1,0 +1,81 @@
+{
+  "$schema": "https://nostalgicverse.com/schemas/game.json",
+  "id": "game-contra",
+  "slug": "contra",
+  "title": "Contra",
+  "japaneseTitle": "魂斗羅",
+  "url": "/games/contra/",
+  "originalReleaseYear": 1987,
+  "exactReleaseDate": "1987-02-20",
+  "developer": "Konami",
+  "publisher": "Konami",
+  "designer": "Koji Hiroshita",
+  "composer": "Hidenori Maezawa, Kiyohiro Sada",
+  "originalLaunchPlatform": "Arcade",
+  "platforms": [
+    "Arcade",
+    "NES",
+    "Commodore 64",
+    "MSX2",
+    "ZX Spectrum",
+    "Amstrad CPC"
+  ],
+  "genre": "Shooter",
+  "subgenres": [
+    "Run-and-Gun",
+    "Platform Shooter",
+    "Arcade"
+  ],
+  "era": "1980s",
+  "shortDescription": "Konami's relentless military science-fiction run-and-gun masterwork that redefined cooperative arcade action and immortalized the Konami Code.",
+  "historicalSignificance": "Pioneered simultaneous two-player cooperative run-and-gun combat, introduced alternating pseudo-3D perspective stages, and established the foundation of the 1980s side-scrolling action genre.",
+  "editorialContent": {
+    "overview": "Debuting in arcades in February 1987, Konami's Contra arrived at the zenith of 1980s action cinema, channeling the kinetic excess and biomechanical sci-fi horror of contemporary blockbusters into an unapologetic run-and-gun shooter. Starring commando operatives Bill Rizer and Lance Bean on a classified mission against the extraterrestrial Red Falcon syndicate on the fictional Galuga archipelago, Contra combined fluid 8-directional ballistic targeting with intense pacing. While the original arcade cabinet was an immediate success, the 1988 Nintendo Entertainment System conversion cemented Contra as an immortal cultural institution across global households.",
+    "gameplayMechanics": "Contra revolutionized the shooter genre through its refined movement mechanics and simultaneous two-player cooperative architecture. Players can run, jump, prone, and fire in eight directional angles while navigating treacherous multi-tiered jungle landscapes and alien fortresses. Airborne weapon capsules drop essential ballistic upgrades: the rapid Machine Gun (M), penetrating Laser Rifle (L), spiraling Fire Ball (F), and the legendary Spread Gun (S)—whose five-way fan of projectile devastation became one of the most iconic weapons in gaming history. The campaign dynamically alternates between horizontal side-scrolling stages, vertical waterfall ascents, and behind-the-shoulder pseudo-3D corridor infiltration sequences.",
+    "technicalInnovation": "The original arcade hardware utilized a proprietary Konami dual-CPU architecture pairing an HD6845 cathode ray tube controller with a 6809 microprocessor running at 1.5 MHz and a custom Yamaha YM2151 FM operator sound chip. Displayed on a vertically oriented 224 × 280 arcade monitor, the engine managed dozens of concurrent bullet trajectories and large multi-jointed boss sprites without game-breaking slowdown. In the 1988 NES conversion, Konami utilized their custom VRC2 memory management chip (in Japanese Famicom releases) and advanced MMC1 mappers in the West to deliver parallax animated backgrounds, full cutscenes, and rich 5-channel chiptune orchestrations that exceeded standard NES hardware limitations.",
+    "culturalImpact": "Contra permanently codified the expectations of cooperative console action gaming. Its infamous association with the Konami Code (Up, Up, Down, Down, Left, Right, Left, Right, B, A, Start)—which granted thirty lives instead of the brutal standard allotment of three—became a universal handshake of 1980s youth culture, printed in national magazines and memorized by millions. In Europe, strict censorship laws regarding violence against human depictions led to the rebranding of the franchise as 'Probotector', replacing the commandos and enemy soldiers with sleek robotic androids.",
+    "preservationNotes": "Historical preservation requires distinguishing between the original 1987 vertical-screen arcade release, the Japanese Famicom version (featuring custom story cutscenes, animated foliage, and map screens enabled by the VRC2 chip), and the North American NES cartridge. Each regional release reflects distinct hardware capabilities and localization strategies of late-1980s consumer electronics."
+  },
+  "verifiedFactualData": {
+    "sourceReferences": [
+      "Konami Industry Archives: Contra Arcade Operator Manual (1987)",
+      "Nintendo Power Magazine: Issue #1 Feature on Contra (1988)",
+      "Kohler, Chris. Power-Up: How Japanese Video Games Gave the World an Extra Life (2004)",
+      "Retro Gamer Magazine. 'The History of Contra' (Issue #100, 2012)"
+    ],
+    "romMediaFormat": "Arcade PCB / 2-Megabit NES Cartridge",
+    "romSizeOriginal": "128 KB (Arcade ROM) / 256 KB (NES Cartridge)",
+    "displayResolutionOriginal": "224 × 280 (Vertical 3:4 Arcade CRT) / 256 × 240 (NES)",
+    "audioHardware": "Yamaha YM2151 (Arcade) / Ricoh 2A03 APU (NES)",
+    "inputMethod": "8-way microswitch joystick + 2 arcade buttons (Jump, Fire)",
+    "multiplayerCapability": "2 Players (Simultaneous Cooperative)",
+    "arcadeCabinetType": "Upright Dedicated"
+  },
+  "assets": {
+    "heroImage": "/assets/images/games/contra-hero.webp",
+    "thumbnailImage": "/assets/images/games/contra.webp",
+    "remoteImageUrl": "https://upload.wikimedia.org/wikipedia/en/6/65/Contra_cover.jpg",
+    "remoteImage": {
+      "url": "https://upload.wikimedia.org/wikipedia/en/6/65/Contra_cover.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Contra_cover.jpg",
+      "sourceDomain": "upload.wikimedia.org",
+      "license": "review-required",
+      "status": "verified"
+    }
+  },
+  "keywords": [
+    "contra",
+    "konami",
+    "konami code",
+    "run and gun",
+    "arcade",
+    "nes",
+    "1987",
+    "1980s",
+    "bill rizer",
+    "lance bean",
+    "spread gun",
+    "cooperative"
+  ],
+  "featured": false
+}
